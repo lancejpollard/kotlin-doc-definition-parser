@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "to",
+  "signature": "infix fun <A, B> A.to(that: B): Pair<A, B>",
+  "items": []
+}

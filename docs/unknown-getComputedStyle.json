@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getComputedStyle",
+  "signature": "fun getComputedStyle( elt: Element, pseudoElt: String? = definedExternally): CSSStyleDeclaration",
+  "items": []
+}

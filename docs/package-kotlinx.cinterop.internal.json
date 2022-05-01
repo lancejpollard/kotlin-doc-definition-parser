@@ -1,0 +1,24 @@
+{
+  "type": "package",
+  "name": "kotlinx.cinterop.internal",
+  "items": [
+    {
+      "text": "object ConstantValue",
+      "desc": "Collection of annotations that allow to store constant values."
+    },
+    {
+      "text": "annotation class CCall"
+    },
+    {
+      "text": "annotation class CEnumEntryAlias",
+      "desc": "Denotes property that is an alias to some enum entry."
+    },
+    {
+      "text": "annotation class CEnumVarTypeSize",
+      "desc": "Stores instance size of the type T: CEnumVar."
+    },
+    {
+      "text": "annotation class CStruct"
+    }
+  ]
+}

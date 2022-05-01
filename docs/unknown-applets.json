@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "applets",
+  "signature": "open val applets: HTMLCollection",
+  "items": []
+}

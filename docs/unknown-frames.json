@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "frames",
+  "signature": "open val frames: Window",
+  "items": []
+}

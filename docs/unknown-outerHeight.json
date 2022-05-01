@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "outerHeight",
+  "signature": "open val outerHeight: Int",
+  "items": []
+}

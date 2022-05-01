@@ -1,0 +1,40 @@
+{
+  "type": "unknown",
+  "name": "CSSMarginRule",
+  "signature": "abstract class CSSMarginRule : CSSRule",
+  "items": [
+    {
+      "text": "CSSMarginRule()"
+    },
+    {
+      "text": "open val name: String"
+    },
+    {
+      "text": "open val style: CSSStyleDeclaration"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    }
+  ]
+}

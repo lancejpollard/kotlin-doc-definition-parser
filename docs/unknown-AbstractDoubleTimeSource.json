@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "AbstractDoubleTimeSource",
+  "signature": "@ExperimentalTime abstract class AbstractDoubleTimeSource : TimeSource",
+  "items": [
+    {
+      "text": "AbstractDoubleTimeSource(unit: DurationUnit)",
+      "desc": "An abstract class used to implement time sources that return their readings as Double values in the specified unit."
+    },
+    {
+      "text": "val unit: DurationUnit",
+      "desc": "The unit in which this time source's readings are expressed."
+    },
+    {
+      "text": "open fun markNow(): TimeMark",
+      "desc": "Marks a point in time on this time source."
+    },
+    {
+      "text": "abstract fun read(): Double",
+      "desc": "This protected method should be overridden to return the current reading of the time source expressed as a Double number in the unit specified by the unit property."
+    },
+    {
+      "text": "fun TimeSource.measureTime(block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    },
+    {
+      "text": "fun <T> TimeSource.measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given block and returns an instance of TimedValue class, containing both the result of function execution and the duration of elapsed time interval."
+    }
+  ]
+}

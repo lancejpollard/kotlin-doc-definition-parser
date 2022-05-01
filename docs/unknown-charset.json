@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "charset",
+  "signature": "open val charset: String",
+  "items": []
+}

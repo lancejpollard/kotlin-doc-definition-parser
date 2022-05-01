@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "personalbar",
+  "signature": "open val personalbar: BarProp",
+  "items": []
+}

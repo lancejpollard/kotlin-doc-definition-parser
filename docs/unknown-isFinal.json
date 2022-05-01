@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isFinal",
+  "signature": "abstract val isFinal: Boolean",
+  "items": []
+}

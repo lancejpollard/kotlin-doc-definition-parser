@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ENDED",
+  "signature": "inline val ReadyState.Companion.ENDED: ReadyState",
+  "items": []
+}

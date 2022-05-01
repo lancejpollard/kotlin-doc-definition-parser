@@ -1,0 +1,41 @@
+{
+  "type": "unknown",
+  "name": "MessageEvent",
+  "signature": "open class MessageEvent : Event",
+  "items": [
+    {
+      "text": "MessageEvent( type: String, eventInitDict: MessageEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript MessageEvent to Kotlin"
+    },
+    {
+      "text": "open val data: Any?"
+    },
+    {
+      "text": "open val lastEventId: String"
+    },
+    {
+      "text": "open val origin: String"
+    },
+    {
+      "text": "open val ports: Array<out MessagePort>"
+    },
+    {
+      "text": "open val source: UnionMessagePortOrWindowProxy?"
+    },
+    {
+      "text": "fun initMessageEvent( type: String, bubbles: Boolean, cancelable: Boolean, data: Any?, origin: String, lastEventId: String, source: UnionMessagePortOrWindowProxy?, ports: Array<MessagePort>)"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

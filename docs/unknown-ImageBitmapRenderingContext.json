@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "ImageBitmapRenderingContext",
+  "signature": "abstract class ImageBitmapRenderingContext",
+  "items": [
+    {
+      "text": "ImageBitmapRenderingContext()",
+      "desc": "Exposes the JavaScript ImageBitmapRenderingContext to Kotlin"
+    },
+    {
+      "text": "open val canvas: HTMLCanvasElement"
+    },
+    {
+      "text": "fun transferFromImageBitmap(bitmap: ImageBitmap?)"
+    }
+  ]
+}

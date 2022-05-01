@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "code",
+  "signature": "inline val Char.code: Int",
+  "items": []
+}

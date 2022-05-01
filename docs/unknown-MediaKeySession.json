@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "MediaKeySession",
+  "signature": "abstract class MediaKeySession : EventTarget",
+  "items": [
+    {
+      "text": "MediaKeySession()",
+      "desc": "Exposes the JavaScript MediaKeySession to Kotlin"
+    },
+    {
+      "text": "open val closed: Promise<Unit>"
+    },
+    {
+      "text": "open val expiration: Double"
+    },
+    {
+      "text": "open val keyStatuses: MediaKeyStatusMap"
+    },
+    {
+      "text": "open var onkeystatuseschange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val sessionId: String"
+    },
+    {
+      "text": "fun close(): Promise<Unit>"
+    },
+    {
+      "text": "fun generateRequest( initDataType: String, initData: dynamic): Promise<Unit>"
+    },
+    {
+      "text": "fun load(sessionId: String): Promise<Boolean>"
+    },
+    {
+      "text": "fun remove(): Promise<Unit>"
+    },
+    {
+      "text": "fun update(response: dynamic): Promise<Unit>"
+    }
+  ]
+}

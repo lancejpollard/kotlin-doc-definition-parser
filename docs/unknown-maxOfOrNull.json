@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "maxOfOrNull",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.maxOfOrNull( selector: (Char) -> Double): Double?",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    },
+    {
+      "text": "inline fun <R : Comparable<R>> CharSequence.maxOfOrNull( selector: (Char) -> R): R?",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    }
+  ],
+  "items": []
+}

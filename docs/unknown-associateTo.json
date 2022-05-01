@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "associateTo",
+  "signature": "inline fun <K, V, M : MutableMap<in K, in V>> CharSequence.associateTo( destination: M, transform: (Char) -> Pair<K, V>): M",
+  "items": []
+}

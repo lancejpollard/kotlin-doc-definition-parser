@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "moveBy",
+  "signature": "fun moveBy(x: Int, y: Int)",
+  "items": []
+}

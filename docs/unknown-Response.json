@@ -1,0 +1,65 @@
+{
+  "type": "unknown",
+  "name": "Response",
+  "signature": "open class Response : Body",
+  "items": [
+    {
+      "text": "Response( body: dynamic = definedExternally, init: ResponseInit = definedExternally)",
+      "desc": "Exposes the JavaScript Response to Kotlin"
+    },
+    {
+      "text": "open val body: dynamic"
+    },
+    {
+      "text": "open val bodyUsed: Boolean"
+    },
+    {
+      "text": "open val headers: Headers"
+    },
+    {
+      "text": "open val ok: Boolean"
+    },
+    {
+      "text": "open val redirected: Boolean"
+    },
+    {
+      "text": "open val status: Short"
+    },
+    {
+      "text": "open val statusText: String"
+    },
+    {
+      "text": "open val trailer: Promise<Headers>"
+    },
+    {
+      "text": "open val type: ResponseType"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "open fun arrayBuffer(): Promise<ArrayBuffer>"
+    },
+    {
+      "text": "open fun blob(): Promise<Blob>"
+    },
+    {
+      "text": "fun clone(): Response"
+    },
+    {
+      "text": "open fun formData(): Promise<FormData>"
+    },
+    {
+      "text": "open fun json(): Promise<Any?>"
+    },
+    {
+      "text": "open fun text(): Promise<String>"
+    },
+    {
+      "text": "fun error(): Response"
+    },
+    {
+      "text": "fun redirect( url: String, status: Short = definedExternally): Response"
+    }
+  ]
+}

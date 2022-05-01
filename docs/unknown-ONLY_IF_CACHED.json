@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ONLY_IF_CACHED",
+  "signature": "inline val RequestCache.Companion.ONLY_IF_CACHED: RequestCache",
+  "items": []
+}

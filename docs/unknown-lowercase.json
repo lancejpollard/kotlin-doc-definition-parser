@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "lowercase",
+  "signatures": [
+    {
+      "text": "fun Char.lowercase(): String",
+      "desc": "Converts this character to lower case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "fun String.lowercase(): String",
+      "desc": "Returns a copy of this string converted to lower case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "fun Char.lowercase(locale: Locale): String",
+      "desc": "Converts this character to lower case using Unicode mapping rules of the specified locale."
+    },
+    {
+      "text": "fun String.lowercase(locale: Locale): String",
+      "desc": "Returns a copy of this string converted to lower case using the rules of the specified locale."
+    }
+  ],
+  "items": []
+}

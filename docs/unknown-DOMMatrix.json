@@ -1,0 +1,119 @@
+{
+  "type": "unknown",
+  "name": "DOMMatrix",
+  "signature": "open class DOMMatrix : DOMMatrixReadOnly",
+  "items": [
+    {
+      "text": "DOMMatrix(transformList: String)"
+    },
+    {
+      "text": "DOMMatrix()",
+      "desc": "Exposes the JavaScript DOMMatrix to Kotlin"
+    },
+    {
+      "text": "open var a: Double"
+    },
+    {
+      "text": "open var b: Double"
+    },
+    {
+      "text": "open var c: Double"
+    },
+    {
+      "text": "open var d: Double"
+    },
+    {
+      "text": "open var e: Double"
+    },
+    {
+      "text": "open var f: Double"
+    },
+    {
+      "text": "open var m11: Double"
+    },
+    {
+      "text": "open var m12: Double"
+    },
+    {
+      "text": "open var m13: Double"
+    },
+    {
+      "text": "open var m14: Double"
+    },
+    {
+      "text": "open var m21: Double"
+    },
+    {
+      "text": "open var m22: Double"
+    },
+    {
+      "text": "open var m23: Double"
+    },
+    {
+      "text": "open var m24: Double"
+    },
+    {
+      "text": "open var m31: Double"
+    },
+    {
+      "text": "open var m32: Double"
+    },
+    {
+      "text": "open var m33: Double"
+    },
+    {
+      "text": "open var m34: Double"
+    },
+    {
+      "text": "open var m41: Double"
+    },
+    {
+      "text": "open var m42: Double"
+    },
+    {
+      "text": "open var m43: Double"
+    },
+    {
+      "text": "open var m44: Double"
+    },
+    {
+      "text": "fun invertSelf(): DOMMatrix"
+    },
+    {
+      "text": "fun multiplySelf(other: DOMMatrix): DOMMatrix"
+    },
+    {
+      "text": "fun preMultiplySelf(other: DOMMatrix): DOMMatrix"
+    },
+    {
+      "text": "fun rotateAxisAngleSelf( x: Double, y: Double, z: Double, angle: Double): DOMMatrix"
+    },
+    {
+      "text": "fun rotateFromVectorSelf(x: Double, y: Double): DOMMatrix"
+    },
+    {
+      "text": "fun rotateSelf( angle: Double, originX: Double = definedExternally, originY: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun scale3dSelf( scale: Double, originX: Double = definedExternally, originY: Double = definedExternally, originZ: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun scaleNonUniformSelf( scaleX: Double, scaleY: Double = definedExternally, scaleZ: Double = definedExternally, originX: Double = definedExternally, originY: Double = definedExternally, originZ: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun scaleSelf( scale: Double, originX: Double = definedExternally, originY: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun setMatrixValue(transformList: String): DOMMatrix"
+    },
+    {
+      "text": "fun skewXSelf(sx: Double): DOMMatrix"
+    },
+    {
+      "text": "fun skewYSelf(sy: Double): DOMMatrix"
+    },
+    {
+      "text": "fun translateSelf( tx: Double, ty: Double, tz: Double = definedExternally): DOMMatrix"
+    }
+  ]
+}

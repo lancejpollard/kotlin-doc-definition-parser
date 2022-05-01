@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "NotImplementedError",
+  "signature": "class NotImplementedError : Error",
+  "items": [
+    {
+      "text": "NotImplementedError( message: String = \"An operation is not implemented.\")",
+      "desc": "An exception is thrown to indicate that a method body remains to be implemented."
+    }
+  ]
+}

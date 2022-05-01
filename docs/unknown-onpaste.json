@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpaste",
+  "signature": "open var onpaste: ((ClipboardEvent) -> dynamic)?",
+  "items": []
+}

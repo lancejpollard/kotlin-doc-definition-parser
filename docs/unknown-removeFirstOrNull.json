@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeFirstOrNull",
+  "signature": "fun removeFirstOrNull(): E?",
+  "items": []
+}

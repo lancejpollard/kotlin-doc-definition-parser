@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLBuffer",
+  "signature": "abstract class WebGLBuffer : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLBuffer()",
+      "desc": "Exposes the JavaScript WebGLBuffer to Kotlin"
+    }
+  ]
+}

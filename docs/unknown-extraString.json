@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "extraString",
+  "signature": "val extraString: String",
+  "items": []
+}

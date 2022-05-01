@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "FileTreeWalk",
+  "signature": "class FileTreeWalk : Sequence<File>",
+  "items": [
+    {
+      "text": "fun iterator(): Iterator<File>",
+      "desc": "Returns an iterator walking through files."
+    },
+    {
+      "text": "fun maxDepth(depth: Int): FileTreeWalk",
+      "desc": "Sets the maximum depth of a directory tree to traverse. By default there is no limit."
+    },
+    {
+      "text": "fun onEnter(function: (File) -> Boolean): FileTreeWalk",
+      "desc": "Sets a predicate function, that is called on any entered directory before its files are visited and before it is visited itself."
+    },
+    {
+      "text": "fun onFail( function: (File, IOException) -> Unit): FileTreeWalk",
+      "desc": "Set a callback function, that is called on a directory when it's impossible to get its file list."
+    },
+    {
+      "text": "fun onLeave(function: (File) -> Unit): FileTreeWalk",
+      "desc": "Sets a callback function, that is called on any left directory after its files are visited and after it is visited itself."
+    },
+    {
+      "text": "fun <R> Sequence<*>.filterIsInstance( klass: Class<R>): Sequence<R>",
+      "desc": "Returns a sequence containing all elements that are instances of specified class."
+    },
+    {
+      "text": "fun <C : MutableCollection<in R>, R> Sequence<*>.filterIsInstanceTo( destination: C, klass: Class<R>): C",
+      "desc": "Appends all elements that are instances of specified class to the given destination."
+    },
+    {
+      "text": "fun <T> Sequence<T>.sumOf( selector: (T) -> BigDecimal): BigDecimal",
+      "desc": "Returns the sum of all values produced by selector function applied to each element in the sequence."
+    },
+    {
+      "text": "fun <T> Sequence<T>.toSortedSet( comparator: Comparator<in T>): SortedSet<T>",
+      "desc": "Returns a new SortedSet of all elements."
+    }
+  ]
+}

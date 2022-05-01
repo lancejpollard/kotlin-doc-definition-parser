@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "rangeTo",
+  "signature": "operator fun rangeTo(other: UShort): UIntRange",
+  "items": []
+}

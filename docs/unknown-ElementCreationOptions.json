@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ElementCreationOptions",
+  "signature": "fun ElementCreationOptions( is: String? = undefined): ElementCreationOptions",
+  "items": []
+}

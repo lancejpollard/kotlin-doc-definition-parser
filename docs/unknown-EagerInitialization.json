@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "EagerInitialization",
+  "signature": "@Target([AnnotationTarget.PROPERTY]) @ExperimentalStdlibApi annotation class EagerInitialization",
+  "items": [
+    {
+      "text": "EagerInitialization()",
+      "desc": "Forces a top-level property to be initialized eagerly, opposed to lazily on the first access to file and/or property. This annotation can be used as temporal migration assistance during the transition from the previous Kotlin/Native initialization scheme \"eager by default\" to the new one, \"lazy by default\"."
+    }
+  ]
+}

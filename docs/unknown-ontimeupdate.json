@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ontimeupdate",
+  "signature": "open var ontimeupdate: ((Event) -> dynamic)?",
+  "items": []
+}

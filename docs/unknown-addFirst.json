@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "addFirst",
+  "signature": "fun addFirst(element: E)",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findLastAnyOf",
+  "signature": "fun CharSequence.findLastAnyOf( strings: Collection<String>, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Pair<Int, String>?",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "windowedSequence",
+  "signatures": [
+    {
+      "text": "fun CharSequence.windowedSequence( size: Int, step: Int = 1, partialWindows: Boolean = false): Sequence<String>",
+      "desc": "Returns a sequence of snapshots of the window of the given size sliding along this char sequence with the given step, where each snapshot is a string."
+    },
+    {
+      "text": "fun <R> CharSequence.windowedSequence( size: Int, step: Int = 1, partialWindows: Boolean = false, transform: (CharSequence) -> R): Sequence<R>",
+      "desc": "Returns a sequence of results of applying the given transform function to an each char sequence representing a view over the window of the given size sliding along this char sequence with the given step."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "XMLHttpRequestResponseType",
+  "signature": "interface XMLHttpRequestResponseType",
+  "items": [
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.ARRAYBUFFER: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.BLOB: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.DOCUMENT: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.EMPTY: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.JSON: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.TEXT: XMLHttpRequestResponseType"
+    }
+  ]
+}

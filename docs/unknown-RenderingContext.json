@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "RenderingContext",
+  "signature": "interface RenderingContext",
+  "items": [
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLRenderingContext : WebGLRenderingContextBase, RenderingContext",
+      "desc": "Exposes the JavaScript WebGLRenderingContext to Kotlin"
+    }
+  ]
+}

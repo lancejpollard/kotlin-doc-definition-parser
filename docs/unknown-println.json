@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "println",
+  "signatures": [
+    {
+      "text": "fun println()",
+      "desc": "Prints the line separator to the standard output stream."
+    },
+    {
+      "text": "fun println(message: Any?)",
+      "desc": "Prints the given message and the line separator to the standard output stream."
+    },
+    {
+      "text": "fun println(message: Int)",
+      "desc": "Prints the given message and the line separator to the standard output stream."
+    }
+  ],
+  "items": []
+}

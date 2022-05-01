@@ -1,0 +1,34 @@
+{
+  "type": "package",
+  "name": "kotlin.coroutines.intrinsics",
+  "items": [
+    {
+      "text": "val COROUTINE_SUSPENDED: Any",
+      "desc": "This value is used as a return value of suspendCoroutineUninterceptedOrReturn block argument to state that the execution was suspended and will not return any result immediately."
+    },
+    {
+      "text": "fun <T> (suspend () -> T).createCoroutineUnintercepted( completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates unintercepted coroutine without receiver and with result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).createCoroutineUnintercepted( receiver: R, completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates unintercepted coroutine with receiver type R and result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <T> Continuation<T>.intercepted(): Continuation<T>",
+      "desc": "Intercepts this continuation with ContinuationInterceptor."
+    },
+    {
+      "text": "fun <T> (suspend () -> T).startCoroutineUninterceptedOrReturn( completion: Continuation<T>): Any?",
+      "desc": "Starts an unintercepted coroutine without a receiver and with result type T and executes it until its first suspension. Returns the result of the coroutine or throws its exception if it does not suspend or COROUTINE_SUSPENDED if it suspends. In the latter case, the completion continuation is invoked when the coroutine completes with a result or an exception."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).startCoroutineUninterceptedOrReturn( receiver: R, completion: Continuation<T>): Any?",
+      "desc": "Starts an unintercepted coroutine with receiver type R and result type T and executes it until its first suspension. Returns the result of the coroutine or throws its exception if it does not suspend or COROUTINE_SUSPENDED if it suspends. In the latter case, the completion continuation is invoked when the coroutine completes with a result or an exception."
+    },
+    {
+      "text": "suspend fun <T> suspendCoroutineUninterceptedOrReturn( block: (Continuation<T>) -> Any?): T",
+      "desc": "Obtains the current continuation instance inside suspend functions and either suspends currently running coroutine or returns result immediately without suspension."
+    }
+  ]
+}

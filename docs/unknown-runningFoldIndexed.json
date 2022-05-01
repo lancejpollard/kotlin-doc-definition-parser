@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "runningFoldIndexed",
+  "signature": "inline fun <R> CharSequence.runningFoldIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): List<R>",
+  "items": []
+}

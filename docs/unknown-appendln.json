@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "appendln",
+  "signature": "@DeprecatedSinceKotlin(\"1.4\", \"1.6\") fun StringBuilder.appendln( it: String): StringBuilder",
+  "items": []
+}

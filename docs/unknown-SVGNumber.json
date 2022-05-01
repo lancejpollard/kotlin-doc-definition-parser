@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "SVGNumber",
+  "signature": "abstract class SVGNumber",
+  "items": [
+    {
+      "text": "SVGNumber()",
+      "desc": "Exposes the JavaScript SVGNumber to Kotlin"
+    },
+    {
+      "text": "open var value: Float"
+    }
+  ]
+}

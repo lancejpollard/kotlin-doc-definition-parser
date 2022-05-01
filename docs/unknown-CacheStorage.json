@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "CacheStorage",
+  "signature": "abstract class CacheStorage",
+  "items": [
+    {
+      "text": "CacheStorage()",
+      "desc": "Exposes the JavaScript CacheStorage to Kotlin"
+    },
+    {
+      "text": "fun delete(cacheName: String): Promise<Boolean>"
+    },
+    {
+      "text": "fun has(cacheName: String): Promise<Boolean>"
+    },
+    {
+      "text": "fun keys(): Promise<Array<String>>"
+    },
+    {
+      "text": "fun match( request: dynamic, options: CacheQueryOptions = definedExternally): Promise<Any?>"
+    },
+    {
+      "text": "fun open(cacheName: String): Promise<Cache>"
+    }
+  ]
+}

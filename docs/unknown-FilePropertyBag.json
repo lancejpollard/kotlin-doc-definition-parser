@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FilePropertyBag",
+  "signature": "fun FilePropertyBag( lastModified: Int? = undefined, type: String? = \"\"): FilePropertyBag",
+  "items": []
+}

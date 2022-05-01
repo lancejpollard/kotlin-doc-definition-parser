@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "ExtensionFunctionType",
+  "signature": "@Target([AnnotationTarget.TYPE]) annotation class ExtensionFunctionType",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Signifies that the annotated functional type represents an extension function."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

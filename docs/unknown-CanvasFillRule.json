@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "CanvasFillRule",
+  "signature": "interface CanvasFillRule",
+  "items": [
+    {
+      "text": "val CanvasFillRule.Companion.EVENODD: CanvasFillRule"
+    },
+    {
+      "text": "val CanvasFillRule.Companion.NONZERO: CanvasFillRule"
+    }
+  ]
+}

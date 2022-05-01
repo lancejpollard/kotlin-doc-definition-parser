@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "GetSVGDocument",
+  "signature": "interface GetSVGDocument",
+  "items": [
+    {
+      "text": "abstract fun getSVGDocument(): Document"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "deleteRange",
+  "signature": "fun StringBuilder.deleteRange( startIndex: Int, endIndex: Int): StringBuilder",
+  "items": []
+}

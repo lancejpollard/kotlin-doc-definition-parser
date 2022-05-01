@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "WorkerBoundReference",
+  "signature": "class WorkerBoundReference<out T : Any>",
+  "items": [
+    {
+      "text": "WorkerBoundReference(value: T)",
+      "desc": "A shared reference to a Kotlin object that doesn't freeze the referred object when it gets frozen itself."
+    },
+    {
+      "text": "val value: T",
+      "desc": "The referenced value."
+    },
+    {
+      "text": "val valueOrNull: T?",
+      "desc": "The referenced value or null if referred object is not frozen and current worker is different from the one created this."
+    },
+    {
+      "text": "val worker: Worker",
+      "desc": "Worker that value is bound to."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "type": "unknown",
+  "name": "DOMMatrixReadOnly",
+  "signature": "open class DOMMatrixReadOnly",
+  "items": [
+    {
+      "text": "DOMMatrixReadOnly(numberSequence: Array<Double>)",
+      "desc": "Exposes the JavaScript DOMMatrixReadOnly to Kotlin"
+    },
+    {
+      "text": "open val a: Double"
+    },
+    {
+      "text": "open val b: Double"
+    },
+    {
+      "text": "open val c: Double"
+    },
+    {
+      "text": "open val d: Double"
+    },
+    {
+      "text": "open val e: Double"
+    },
+    {
+      "text": "open val f: Double"
+    },
+    {
+      "text": "open val is2D: Boolean"
+    },
+    {
+      "text": "open val isIdentity: Boolean"
+    },
+    {
+      "text": "open val m11: Double"
+    },
+    {
+      "text": "open val m12: Double"
+    },
+    {
+      "text": "open val m13: Double"
+    },
+    {
+      "text": "open val m14: Double"
+    },
+    {
+      "text": "open val m21: Double"
+    },
+    {
+      "text": "open val m22: Double"
+    },
+    {
+      "text": "open val m23: Double"
+    },
+    {
+      "text": "open val m24: Double"
+    },
+    {
+      "text": "open val m31: Double"
+    },
+    {
+      "text": "open val m32: Double"
+    },
+    {
+      "text": "open val m33: Double"
+    },
+    {
+      "text": "open val m34: Double"
+    },
+    {
+      "text": "open val m41: Double"
+    },
+    {
+      "text": "open val m42: Double"
+    },
+    {
+      "text": "open val m43: Double"
+    },
+    {
+      "text": "open val m44: Double"
+    },
+    {
+      "text": "fun flipX(): DOMMatrix"
+    },
+    {
+      "text": "fun flipY(): DOMMatrix"
+    },
+    {
+      "text": "fun inverse(): DOMMatrix"
+    },
+    {
+      "text": "fun multiply(other: DOMMatrix): DOMMatrix"
+    },
+    {
+      "text": "fun rotate( angle: Double, originX: Double = definedExternally, originY: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun rotateAxisAngle( x: Double, y: Double, z: Double, angle: Double): DOMMatrix"
+    },
+    {
+      "text": "fun rotateFromVector(x: Double, y: Double): DOMMatrix"
+    },
+    {
+      "text": "fun scale( scale: Double, originX: Double = definedExternally, originY: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun scale3d( scale: Double, originX: Double = definedExternally, originY: Double = definedExternally, originZ: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun scaleNonUniform( scaleX: Double, scaleY: Double = definedExternally, scaleZ: Double = definedExternally, originX: Double = definedExternally, originY: Double = definedExternally, originZ: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "fun skewX(sx: Double): DOMMatrix"
+    },
+    {
+      "text": "fun skewY(sy: Double): DOMMatrix"
+    },
+    {
+      "text": "fun toFloat32Array(): Float32Array"
+    },
+    {
+      "text": "fun toFloat64Array(): Float64Array"
+    },
+    {
+      "text": "fun transformPoint( point: DOMPointInit = definedExternally): DOMPoint"
+    },
+    {
+      "text": "fun translate( tx: Double, ty: Double, tz: Double = definedExternally): DOMMatrix"
+    },
+    {
+      "text": "open class DOMMatrix : DOMMatrixReadOnly",
+      "desc": "Exposes the JavaScript DOMMatrix to Kotlin"
+    }
+  ]
+}

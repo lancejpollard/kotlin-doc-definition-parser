@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Throws",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.CONSTRUCTOR]) annotation class Throws",
+  "items": [
+    {
+      "text": "Throws(vararg exceptionClasses: KClass<out Throwable>)",
+      "desc": "This annotation indicates what exceptions should be declared by a function when compiled to a JVM method."
+    },
+    {
+      "text": "vararg val exceptionClasses: Array<out KClass<out Throwable>>",
+      "desc": "the list of checked exception classes that may be thrown by the function."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

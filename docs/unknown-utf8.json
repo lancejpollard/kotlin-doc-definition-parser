@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "utf8",
+  "signature": "val String.utf8: CValues<ByteVar>",
+  "items": []
+}

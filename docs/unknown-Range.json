@@ -1,0 +1,110 @@
+{
+  "type": "unknown",
+  "name": "Range",
+  "signature": "open class Range",
+  "items": [
+    {
+      "text": "Range()",
+      "desc": "Exposes the JavaScript Range to Kotlin"
+    },
+    {
+      "text": "open val collapsed: Boolean"
+    },
+    {
+      "text": "open val commonAncestorContainer: Node"
+    },
+    {
+      "text": "open val endContainer: Node"
+    },
+    {
+      "text": "open val endOffset: Int"
+    },
+    {
+      "text": "open val startContainer: Node"
+    },
+    {
+      "text": "open val startOffset: Int"
+    },
+    {
+      "text": "fun cloneContents(): DocumentFragment"
+    },
+    {
+      "text": "fun cloneRange(): Range"
+    },
+    {
+      "text": "fun collapse(toStart: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun compareBoundaryPoints( how: Short, sourceRange: Range): Short"
+    },
+    {
+      "text": "fun comparePoint(node: Node, offset: Int): Short"
+    },
+    {
+      "text": "fun createContextualFragment( fragment: String): DocumentFragment"
+    },
+    {
+      "text": "fun deleteContents()"
+    },
+    {
+      "text": "fun detach()"
+    },
+    {
+      "text": "fun extractContents(): DocumentFragment"
+    },
+    {
+      "text": "fun getBoundingClientRect(): DOMRect"
+    },
+    {
+      "text": "fun getClientRects(): Array<DOMRect>"
+    },
+    {
+      "text": "fun insertNode(node: Node)"
+    },
+    {
+      "text": "fun intersectsNode(node: Node): Boolean"
+    },
+    {
+      "text": "fun isPointInRange(node: Node, offset: Int): Boolean"
+    },
+    {
+      "text": "fun selectNode(node: Node)"
+    },
+    {
+      "text": "fun selectNodeContents(node: Node)"
+    },
+    {
+      "text": "fun setEnd(node: Node, offset: Int)"
+    },
+    {
+      "text": "fun setEndAfter(node: Node)"
+    },
+    {
+      "text": "fun setEndBefore(node: Node)"
+    },
+    {
+      "text": "fun setStart(node: Node, offset: Int)"
+    },
+    {
+      "text": "fun setStartAfter(node: Node)"
+    },
+    {
+      "text": "fun setStartBefore(node: Node)"
+    },
+    {
+      "text": "fun surroundContents(newParent: Node)"
+    },
+    {
+      "text": "val END_TO_END: Short"
+    },
+    {
+      "text": "val END_TO_START: Short"
+    },
+    {
+      "text": "val START_TO_END: Short"
+    },
+    {
+      "text": "val START_TO_START: Short"
+    }
+  ]
+}

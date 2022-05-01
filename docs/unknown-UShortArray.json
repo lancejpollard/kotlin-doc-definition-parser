@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UShortArray",
+  "signature": "@ExperimentalUnsignedTypes inline fun UShortArray( size: Int, init: (Int) -> UShort): UShortArray",
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "sign",
+  "signatures": [
+    {
+      "text": "fun sign(x: Double): Double",
+      "desc": "Returns the sign of the given value x:"
+    },
+    {
+      "text": "val Double.sign: Double",
+      "desc": "Returns the sign of this value:"
+    },
+    {
+      "text": "val Int.sign: Int",
+      "desc": "Returns the sign of this value:"
+    }
+  ],
+  "items": []
+}

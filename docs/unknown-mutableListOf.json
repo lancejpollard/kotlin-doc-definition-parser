@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "mutableListOf",
+  "signatures": [
+    {
+      "text": "fun <T> mutableListOf(): MutableList<T>",
+      "desc": "Returns an empty new MutableList."
+    },
+    {
+      "text": "fun <T> mutableListOf(vararg elements: T): MutableList<T>",
+      "desc": "Returns a new MutableList with the given elements."
+    }
+  ],
+  "items": []
+}

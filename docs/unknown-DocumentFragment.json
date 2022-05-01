@@ -1,0 +1,96 @@
+{
+  "type": "unknown",
+  "name": "DocumentFragment",
+  "signature": "open class DocumentFragment : Node, NonElementParentNode, ParentNode",
+  "items": [
+    {
+      "text": "DocumentFragment()",
+      "desc": "Exposes the JavaScript DocumentFragment to Kotlin"
+    },
+    {
+      "text": "open val childElementCount: Int"
+    },
+    {
+      "text": "open val children: HTMLCollection"
+    },
+    {
+      "text": "open val firstElementChild: Element?"
+    },
+    {
+      "text": "open val lastElementChild: Element?"
+    },
+    {
+      "text": "open fun append(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun getElementById(elementId: String): Element?"
+    },
+    {
+      "text": "open fun prepend(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun querySelector(selectors: String): Element?"
+    },
+    {
+      "text": "open fun querySelectorAll(selectors: String): NodeList"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "open class ShadowRoot : DocumentFragment, DocumentOrShadowRoot",
+      "desc": "Exposes the JavaScript ShadowRoot to Kotlin"
+    }
+  ]
+}

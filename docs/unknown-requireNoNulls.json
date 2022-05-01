@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "requireNoNulls",
+  "signature": "fun <T : Any> Sequence<T?>.requireNoNulls(): Sequence<T>",
+  "items": []
+}

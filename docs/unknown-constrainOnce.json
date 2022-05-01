@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "constrainOnce",
+  "signature": "fun <T> Sequence<T>.constrainOnce(): Sequence<T>",
+  "items": []
+}

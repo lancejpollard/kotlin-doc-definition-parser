@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "maxOfWithOrNull",
+  "signature": "inline fun <R> CharSequence.maxOfWithOrNull( comparator: Comparator<in R>, selector: (Char) -> R): R?",
+  "items": []
+}

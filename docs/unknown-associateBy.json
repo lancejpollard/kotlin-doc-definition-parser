@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "associateBy",
+  "signatures": [
+    {
+      "text": "inline fun <K> CharSequence.associateBy( keySelector: (Char) -> K): Map<K, Char>",
+      "desc": "Returns a Map containing the characters from the given char sequence indexed by the key returned from keySelector function applied to each character."
+    },
+    {
+      "text": "inline fun <K, V> CharSequence.associateBy( keySelector: (Char) -> K, valueTransform: (Char) -> V): Map<K, V>",
+      "desc": "Returns a Map containing the values provided by valueTransform and indexed by keySelector functions applied to characters of the given char sequence."
+    }
+  ],
+  "items": []
+}

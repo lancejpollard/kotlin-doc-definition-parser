@@ -1,0 +1,194 @@
+{
+  "type": "unknown",
+  "name": "UByte",
+  "signature": "inline class UByte : Comparable<UByte>",
+  "items": [
+    {
+      "text": "infix fun and(other: UByte): UByte",
+      "desc": "Performs a bitwise AND operation between the two values."
+    },
+    {
+      "text": "operator fun compareTo(other: UByte): Int",
+      "desc": "Compares this value with the specified value for order. Returns zero if this value is equal to the specified other value, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun dec(): UByte",
+      "desc": "Returns this value decremented by one."
+    },
+    {
+      "text": "operator fun div(other: UByte): UInt",
+      "desc": "Divides this value by the other value, truncating the result to an integer that is closer to zero."
+    },
+    {
+      "text": "fun floorDiv(other: UByte): UInt",
+      "desc": "Divides this value by the other value, flooring the result to an integer that is closer to negative infinity."
+    },
+    {
+      "text": "operator fun inc(): UByte",
+      "desc": "Returns this value incremented by one."
+    },
+    {
+      "text": "fun inv(): UByte",
+      "desc": "Inverts the bits in this value."
+    },
+    {
+      "text": "operator fun minus(other: UByte): UInt",
+      "desc": "Subtracts the other value from this value."
+    },
+    {
+      "text": "fun mod(other: UByte): UByte",
+      "desc": "Calculates the remainder of flooring division of this value by the other value."
+    },
+    {
+      "text": "infix fun or(other: UByte): UByte",
+      "desc": "Performs a bitwise OR operation between the two values."
+    },
+    {
+      "text": "operator fun plus(other: UByte): UInt",
+      "desc": "Adds the other value to this value."
+    },
+    {
+      "text": "operator fun rangeTo(other: UByte): UIntRange",
+      "desc": "Creates a range from this value to the specified other value."
+    },
+    {
+      "text": "operator fun rem(other: UByte): UInt",
+      "desc": "Calculates the remainder of truncating division of this value by the other value."
+    },
+    {
+      "text": "operator fun times(other: UByte): UInt",
+      "desc": "Multiplies this value by the other value."
+    },
+    {
+      "text": "fun toByte(): Byte",
+      "desc": "Converts this UByte value to Byte."
+    },
+    {
+      "text": "fun toDouble(): Double",
+      "desc": "Converts this UByte value to Double."
+    },
+    {
+      "text": "fun toFloat(): Float",
+      "desc": "Converts this UByte value to Float."
+    },
+    {
+      "text": "fun toInt(): Int",
+      "desc": "Converts this UByte value to Int."
+    },
+    {
+      "text": "fun toLong(): Long",
+      "desc": "Converts this UByte value to Long."
+    },
+    {
+      "text": "fun toShort(): Short",
+      "desc": "Converts this UByte value to Short."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "fun toUByte(): UByte",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "fun toUInt(): UInt",
+      "desc": "Converts this UByte value to UInt."
+    },
+    {
+      "text": "fun toULong(): ULong",
+      "desc": "Converts this UByte value to ULong."
+    },
+    {
+      "text": "fun toUShort(): UShort",
+      "desc": "Converts this UByte value to UShort."
+    },
+    {
+      "text": "infix fun xor(other: UByte): UByte",
+      "desc": "Performs a bitwise XOR operation between the two values."
+    },
+    {
+      "text": "const val MAX_VALUE: UByte",
+      "desc": "A constant holding the maximum value an instance of UByte can have."
+    },
+    {
+      "text": "const val MIN_VALUE: UByte",
+      "desc": "A constant holding the minimum value an instance of UByte can have."
+    },
+    {
+      "text": "const val SIZE_BITS: Int",
+      "desc": "The number of bits used to represent an instance of UByte in a binary form."
+    },
+    {
+      "text": "const val SIZE_BYTES: Int",
+      "desc": "The number of bytes used to represent an instance of UByte in a binary form."
+    },
+    {
+      "text": "fun UByte.coerceAtLeast(minimumValue: UByte): UByte",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun UByte.coerceAtMost(maximumValue: UByte): UByte",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun UByte.coerceIn( minimumValue: UByte, maximumValue: UByte): UByte",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun <R : Any> UByte.convert(): R"
+    },
+    {
+      "text": "fun UByte.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this UByte number."
+    },
+    {
+      "text": "fun UByte.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this UByte number."
+    },
+    {
+      "text": "fun UByte.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this UByte number."
+    },
+    {
+      "text": "infix fun UByte.downTo(to: UByte): UIntProgression",
+      "desc": "Returns a progression from this value down to the specified to value with the step -1."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun UByte.rotateLeft(bitCount: Int): UByte",
+      "desc": "Rotates the binary representation of this UByte number left by the specified bitCount number of bits. The most significant bits pushed out from the left side reenter the number as the least significant bits on the right side."
+    },
+    {
+      "text": "fun UByte.rotateRight(bitCount: Int): UByte",
+      "desc": "Rotates the binary representation of this UByte number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun UByte.takeHighestOneBit(): UByte",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this UByte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UByte.takeLowestOneBit(): UByte",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this UByte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UByte.toString(radix: Int): String",
+      "desc": "Returns a string representation of this Byte value in the specified radix."
+    },
+    {
+      "text": "infix fun UByte.until(to: UByte): UIntRange",
+      "desc": "Returns a range from this value up to but excluding the specified to value."
+    }
+  ]
+}

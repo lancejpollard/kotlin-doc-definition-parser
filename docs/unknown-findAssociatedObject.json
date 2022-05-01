@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findAssociatedObject",
+  "signature": "fun <reified T : Annotation> KClass<*>.findAssociatedObject(): Any?",
+  "items": []
+}

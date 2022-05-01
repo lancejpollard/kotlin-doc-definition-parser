@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toChars",
+  "signature": "fun Char.Companion.toChars(codePoint: Int): CharArray",
+  "items": []
+}

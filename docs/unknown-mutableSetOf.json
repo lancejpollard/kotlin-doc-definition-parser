@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "mutableSetOf",
+  "signatures": [
+    {
+      "text": "fun <T> mutableSetOf(): MutableSet<T>",
+      "desc": "Returns an empty new MutableSet."
+    },
+    {
+      "text": "fun <T> mutableSetOf(vararg elements: T): MutableSet<T>",
+      "desc": "Returns a new MutableSet with the given elements. Elements of the set are iterated in the order they were specified."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "UnionAudioTrackOrTextTrackOrVideoTrack",
+  "signature": "interface UnionAudioTrackOrTextTrackOrVideoTrack",
+  "items": [
+    {
+      "text": "abstract class AudioTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript AudioTrack to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrack : EventTarget, UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript TextTrack to Kotlin"
+    },
+    {
+      "text": "abstract class VideoTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript VideoTrack to Kotlin"
+    }
+  ]
+}

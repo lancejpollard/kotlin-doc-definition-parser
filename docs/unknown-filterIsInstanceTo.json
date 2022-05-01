@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "filterIsInstanceTo",
+  "signatures": [
+    {
+      "text": "fun <reified R, C : MutableCollection<in R>> Sequence<*>.filterIsInstanceTo( destination: C): C",
+      "desc": "Appends all elements that are instances of specified type parameter R to the given destination."
+    },
+    {
+      "text": "fun <C : MutableCollection<in R>, R> Sequence<*>.filterIsInstanceTo( destination: C, klass: Class<R>): C",
+      "desc": "Appends all elements that are instances of specified class to the given destination."
+    }
+  ],
+  "items": []
+}

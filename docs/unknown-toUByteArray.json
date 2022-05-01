@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toUByteArray",
+  "signature": "@ExperimentalUnsignedTypes fun ImmutableBlob.toUByteArray( startIndex: Int = 0, endIndex: Int = size): UByteArray",
+  "items": []
+}

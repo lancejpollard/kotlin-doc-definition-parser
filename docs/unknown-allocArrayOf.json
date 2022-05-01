@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "allocArrayOf",
+  "signatures": [
+    {
+      "text": "fun <reified T : CPointer<*>> NativePlacement.allocArrayOf( vararg elements: T?): CArrayPointer<CPointerVarOf<T>>",
+      "desc": "Allocates C array of given values."
+    },
+    {
+      "text": "fun NativePlacement.allocArrayOf( elements: ByteArray): CArrayPointer<ByteVar>"
+    }
+  ],
+  "items": []
+}

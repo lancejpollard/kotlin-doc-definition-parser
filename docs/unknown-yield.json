@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "yield",
+  "signature": "abstract suspend fun yield(value: T)",
+  "items": []
+}

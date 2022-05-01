@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "INSTANT",
+  "signature": "inline val ScrollBehavior.Companion.INSTANT: ScrollBehavior",
+  "items": []
+}

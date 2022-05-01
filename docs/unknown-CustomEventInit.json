@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CustomEventInit",
+  "signature": "fun CustomEventInit( detail: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CustomEventInit",
+  "items": []
+}

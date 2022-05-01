@@ -1,0 +1,75 @@
+{
+  "type": "package",
+  "name": "kotlinx.wasm.jsinterop",
+  "items": [
+    {
+      "text": "typealias Arena = Int"
+    },
+    {
+      "text": "object ArenaManager"
+    },
+    {
+      "text": "open class JsArray : JsValue"
+    },
+    {
+      "text": "open class JsValue"
+    },
+    {
+      "text": "typealias KtFunction<R> = (ArrayList<JsValue>) -> R"
+    },
+    {
+      "text": "typealias Object = Int"
+    },
+    {
+      "text": "typealias Pointer = Int"
+    },
+    {
+      "text": "const val upperWord: Long"
+    },
+    {
+      "text": "fun allocateArena(): Arena"
+    },
+    {
+      "text": "fun doubleLower(value: Double): Int"
+    },
+    {
+      "text": "fun doubleUpper(value: Double): Int"
+    },
+    {
+      "text": "fun freeArena(arena: Arena)"
+    },
+    {
+      "text": "fun getInt( arena: Arena, obj: Object, propertyPtr: Pointer, propertyLen: Int): Int"
+    },
+    {
+      "text": "fun Konan_js_getProperty( arena: Arena, obj: Object, propertyPtr: Pointer, propertyLen: Int): Int"
+    },
+    {
+      "text": "fun pushIntToArena(arena: Arena, value: Int)"
+    },
+    {
+      "text": "fun ReturnSlot_getDouble(): Double"
+    },
+    {
+      "text": "fun runLambda( pointer: Int, argumentsArena: Arena, argumentsArenaSize: Int): Int"
+    },
+    {
+      "text": "fun setFunction( arena: Arena, obj: Object, propertyName: Pointer, propertyLength: Int, function: Int)"
+    },
+    {
+      "text": "fun setString( arena: Arena, obj: Object, propertyName: Pointer, propertyLength: Int, stringPtr: Pointer, stringLength: Int)"
+    },
+    {
+      "text": "fun setter(obj: JsValue, property: String, string: String)"
+    },
+    {
+      "text": "fun stringLengthBytes(message: String): Int"
+    },
+    {
+      "text": "fun stringPointer(message: String): Pointer"
+    },
+    {
+      "text": "fun <R> wrapFunction(func: KtFunction<R>): Int"
+    }
+  ]
+}

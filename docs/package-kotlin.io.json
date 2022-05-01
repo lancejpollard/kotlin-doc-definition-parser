@@ -1,0 +1,90 @@
+{
+  "type": "package",
+  "name": "kotlin.io",
+  "items": [
+    {
+      "text": "class FileTreeWalk : Sequence<File>",
+      "desc": "This class is intended to implement different file traversal methods. It allows to iterate through all files inside a given directory."
+    },
+    {
+      "text": "enum class FileWalkDirection",
+      "desc": "An enumeration to describe possible walk directions. There are two of them: beginning from parents, ending with children, and beginning from children, ending with parents. Both use depth-first search."
+    },
+    {
+      "text": "enum class OnErrorAction",
+      "desc": "Enum that can be used to specify behaviour of the copyRecursively() function in exceptional conditions."
+    },
+    {
+      "text": "class AccessDeniedException : FileSystemException",
+      "desc": "An exception class which is used when we have not enough access for some operation."
+    },
+    {
+      "text": "class FileAlreadyExistsException : FileSystemException",
+      "desc": "An exception class which is used when some file to create or copy to already exists."
+    },
+    {
+      "text": "open class FileSystemException : IOException",
+      "desc": "A base exception class for file system exceptions."
+    },
+    {
+      "text": "class NoSuchFileException : FileSystemException",
+      "desc": "An exception class which is used when file to copy does not exist."
+    },
+    {
+      "text": "const val DEFAULT_BUFFER_SIZE: Int",
+      "desc": "Returns the default buffer size when working with buffered streams."
+    },
+    {
+      "text": "fun String.byteInputStream( charset: Charset = Charsets.UTF_8): ByteArrayInputStream",
+      "desc": "Creates a new byte input stream for the string."
+    },
+    {
+      "text": "fun createTempDir( prefix: String = \"tmp\", suffix: String? = null, directory: File? = null): File",
+      "desc": "Creates an empty directory in the specified directory, using the given prefix and suffix to generate its name."
+    },
+    {
+      "text": "fun createTempFile( prefix: String = \"tmp\", suffix: String? = null, directory: File? = null): File",
+      "desc": "Creates a new empty file in the specified directory, using the given prefix and suffix to generate its name."
+    },
+    {
+      "text": "fun ByteArray.inputStream(): ByteArrayInputStream",
+      "desc": "Creates an input stream for reading data from this byte array."
+    },
+    {
+      "text": "fun ByteArray.inputStream( offset: Int, length: Int): ByteArrayInputStream",
+      "desc": "Creates an input stream for reading data from the specified portion of this byte array."
+    },
+    {
+      "text": "fun print(message: Int)",
+      "desc": "Prints the given message to the standard output stream."
+    },
+    {
+      "text": "fun println(message: Int)",
+      "desc": "Prints the given message and the line separator to the standard output stream."
+    },
+    {
+      "text": "fun println()",
+      "desc": "Prints the line separator to the standard output stream."
+    },
+    {
+      "text": "fun String.reader(): StringReader",
+      "desc": "Creates a new reader for the string."
+    },
+    {
+      "text": "fun readLine(): String?",
+      "desc": "Reads a line of input from the standard input stream."
+    },
+    {
+      "text": "fun readln(): String",
+      "desc": "Reads a line of input from the standard input stream and returns it, or throws a RuntimeException if EOF has already been reached when readln is called."
+    },
+    {
+      "text": "fun readlnOrNull(): String?",
+      "desc": "Reads a line of input from the standard input stream and returns it, or return null if EOF has already been reached when readlnOrNull is called."
+    },
+    {
+      "text": "fun <T : Closeable?, R> T.use(block: (T) -> R): R",
+      "desc": "Executes the given block function on this resource and then closes it down correctly whether an exception is thrown or not."
+    }
+  ]
+}

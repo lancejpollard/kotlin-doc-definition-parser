@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DoubleVar",
+  "signature": "typealias DoubleVar = DoubleVarOf<Double>",
+  "items": []
+}

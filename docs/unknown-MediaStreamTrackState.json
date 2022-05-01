@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "MediaStreamTrackState",
+  "signature": "interface MediaStreamTrackState",
+  "items": [
+    {
+      "text": "val MediaStreamTrackState.Companion.ENDED: MediaStreamTrackState"
+    },
+    {
+      "text": "val MediaStreamTrackState.Companion.LIVE: MediaStreamTrackState"
+    }
+  ]
+}

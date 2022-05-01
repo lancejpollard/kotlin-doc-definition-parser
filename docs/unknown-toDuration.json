@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toDuration",
+  "signatures": [
+    {
+      "text": "fun Int.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Int number of the specified unit."
+    },
+    {
+      "text": "fun Long.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Long number of the specified unit."
+    },
+    {
+      "text": "fun Double.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Double number of the specified unit."
+    }
+  ],
+  "items": []
+}

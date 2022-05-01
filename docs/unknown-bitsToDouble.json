@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "bitsToDouble",
+  "signature": "fun bitsToDouble(bits: Long): Double",
+  "items": []
+}

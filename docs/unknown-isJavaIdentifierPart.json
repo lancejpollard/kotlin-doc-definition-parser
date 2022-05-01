@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isJavaIdentifierPart",
+  "signature": "fun Char.isJavaIdentifierPart(): Boolean",
+  "items": []
+}

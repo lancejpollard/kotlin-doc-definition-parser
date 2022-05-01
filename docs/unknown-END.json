@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "END",
+  "signature": "inline val SelectionMode.Companion.END: SelectionMode",
+  "items": []
+}

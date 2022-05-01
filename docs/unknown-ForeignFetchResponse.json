@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ForeignFetchResponse",
+  "signature": "fun ForeignFetchResponse( response: Response?, origin: String? = undefined, headers: Array<String>? = undefined): ForeignFetchResponse",
+  "items": []
+}

@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "SVGFitToViewBox",
+  "signature": "interface SVGFitToViewBox",
+  "items": [
+    {
+      "text": "abstract val preserveAspectRatio: SVGAnimatedPreserveAspectRatio"
+    },
+    {
+      "text": "abstract val viewBox: SVGAnimatedRect"
+    },
+    {
+      "text": "abstract class SVGMarkerElement : SVGElement, SVGFitToViewBox"
+    },
+    {
+      "text": "abstract class SVGPatternElement : SVGElement, SVGFitToViewBox, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGPatternElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSymbolElement : SVGGraphicsElement, SVGFitToViewBox",
+      "desc": "Exposes the JavaScript SVGSymbolElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGViewElement : SVGElement, SVGFitToViewBox, SVGZoomAndPan",
+      "desc": "Exposes the JavaScript SVGViewElement to Kotlin"
+    }
+  ]
+}

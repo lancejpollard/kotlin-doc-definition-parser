@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "MatchGroup",
+  "signature": "class MatchGroup",
+  "items": [
+    {
+      "text": "MatchGroup(value: String)",
+      "desc": "Represents the results from a single capturing group within a MatchResult of Regex."
+    },
+    {
+      "text": "val range: IntRange",
+      "desc": "The range of indices in the input string where group was captured."
+    },
+    {
+      "text": "val value: String",
+      "desc": "The value of captured group."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "TimeSource",
+  "signature": "@ExperimentalTime interface TimeSource",
+  "items": [
+    {
+      "text": "object Monotonic : TimeSource",
+      "desc": "The most precise time source available in the platform."
+    },
+    {
+      "text": "abstract fun markNow(): TimeMark",
+      "desc": "Marks a point in time on this time source."
+    },
+    {
+      "text": "fun TimeSource.measureTime(block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    },
+    {
+      "text": "fun <T> TimeSource.measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given block and returns an instance of TimedValue class, containing both the result of function execution and the duration of elapsed time interval."
+    },
+    {
+      "text": "abstract class AbstractDoubleTimeSource : TimeSource",
+      "desc": "An abstract class used to implement time sources that return their readings as Double values in the specified unit."
+    },
+    {
+      "text": "abstract class AbstractLongTimeSource : TimeSource",
+      "desc": "An abstract class used to implement time sources that return their readings as Long values in the specified unit."
+    }
+  ]
+}

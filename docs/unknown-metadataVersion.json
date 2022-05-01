@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "metadataVersion",
+  "signature": "val metadataVersion: IntArray",
+  "items": []
+}

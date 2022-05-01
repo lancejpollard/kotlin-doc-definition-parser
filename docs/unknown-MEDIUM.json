@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MEDIUM",
+  "signature": "inline val ImageSmoothingQuality.Companion.MEDIUM: ImageSmoothingQuality",
+  "items": []
+}

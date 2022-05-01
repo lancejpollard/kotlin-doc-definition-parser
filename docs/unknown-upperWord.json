@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "upperWord",
+  "signature": "const val upperWord: Long",
+  "items": []
+}

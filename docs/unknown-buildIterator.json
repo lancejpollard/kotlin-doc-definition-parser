@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "buildIterator",
+  "signature": "inline fun <T> buildIterator( noinline builderAction: suspend SequenceScope<T>.() -> Unit): Iterator<T>",
+  "items": []
+}

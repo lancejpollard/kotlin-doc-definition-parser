@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConditionalEffect",
+  "signature": "@ExperimentalContracts interface ConditionalEffect : Effect",
+  "items": []
+}

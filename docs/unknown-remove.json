@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "remove",
+  "signature": "fun remove(element: E): Boolean",
+  "items": []
+}

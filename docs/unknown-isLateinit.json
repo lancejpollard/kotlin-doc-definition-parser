@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isLateinit",
+  "signature": "abstract val isLateinit: Boolean",
+  "items": []
+}

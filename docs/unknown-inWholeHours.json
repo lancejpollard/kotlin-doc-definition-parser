@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "inWholeHours",
+  "signature": "val inWholeHours: Long",
+  "items": []
+}

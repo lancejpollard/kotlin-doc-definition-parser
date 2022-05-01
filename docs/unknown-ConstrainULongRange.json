@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConstrainULongRange",
+  "signature": "fun ConstrainULongRange( exact: Int? = undefined, ideal: Int? = undefined, max: Int? = undefined, min: Int? = undefined): ConstrainULongRange",
+  "items": []
+}

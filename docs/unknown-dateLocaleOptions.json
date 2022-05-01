@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "dateLocaleOptions",
+  "signature": "inline fun dateLocaleOptions( init: LocaleOptions.() -> Unit): LocaleOptions",
+  "items": []
+}

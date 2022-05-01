@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "MediaKeys",
+  "signature": "abstract class MediaKeys",
+  "items": [
+    {
+      "text": "MediaKeys()",
+      "desc": "Exposes the JavaScript MediaKeys to Kotlin"
+    },
+    {
+      "text": "fun createSession( sessionType: MediaKeySessionType = definedExternally): MediaKeySession"
+    },
+    {
+      "text": "fun setServerCertificate( serverCertificate: dynamic): Promise<Boolean>"
+    }
+  ]
+}

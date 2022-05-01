@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ElementDefinitionOptions",
+  "signature": "fun ElementDefinitionOptions( extends: String? = undefined): ElementDefinitionOptions",
+  "items": []
+}

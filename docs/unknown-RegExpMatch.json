@@ -1,0 +1,24 @@
+{
+  "type": "unknown",
+  "name": "RegExpMatch",
+  "signature": "interface RegExpMatch",
+  "items": [
+    {
+      "text": "abstract val index: Int"
+    },
+    {
+      "text": "abstract val input: String"
+    },
+    {
+      "text": "abstract val length: Int"
+    },
+    {
+      "text": "fun RegExpMatch.asArray(): Array<out String?>",
+      "desc": "Converts the result of RegExp.exec to an array where the first element contains the entire matched text and each subsequent element is the text matched by each capturing parenthesis."
+    },
+    {
+      "text": "operator fun RegExpMatch.get(index: Int): String?",
+      "desc": "Returns the entire text matched by RegExp.exec if the index parameter is 0, or the text matched by the capturing parenthesis at the given index."
+    }
+  ]
+}

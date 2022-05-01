@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "substringAfterLast",
+  "signature": "fun String.substringAfterLast( delimiter: Char, missingDelimiterValue: String = this): String",
+  "items": []
+}

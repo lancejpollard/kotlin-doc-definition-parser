@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CloseEventInit",
+  "signature": "fun CloseEventInit( wasClean: Boolean? = false, code: Short? = 0, reason: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CloseEventInit",
+  "items": []
+}

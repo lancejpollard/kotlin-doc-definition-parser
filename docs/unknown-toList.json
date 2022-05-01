@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toList",
+  "signature": "fun CharSequence.toList(): List<Char>",
+  "items": []
+}

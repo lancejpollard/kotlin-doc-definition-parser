@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hasAnnotation",
+  "signature": "fun <reified T : Annotation> KAnnotatedElement.hasAnnotation(): Boolean",
+  "items": []
+}

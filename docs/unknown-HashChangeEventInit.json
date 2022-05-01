@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "HashChangeEventInit",
+  "signature": "fun HashChangeEventInit( oldURL: String? = \"\", newURL: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): HashChangeEventInit",
+  "items": []
+}

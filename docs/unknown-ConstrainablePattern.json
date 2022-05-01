@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "ConstrainablePattern",
+  "signature": "interface ConstrainablePattern",
+  "items": [
+    {
+      "text": "open var onoverconstrained: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "abstract fun applyConstraints( constraints: Constraints = definedExternally): Promise<Unit>"
+    },
+    {
+      "text": "abstract fun getCapabilities(): Capabilities"
+    },
+    {
+      "text": "abstract fun getConstraints(): Constraints"
+    },
+    {
+      "text": "abstract fun getSettings(): Settings"
+    }
+  ]
+}

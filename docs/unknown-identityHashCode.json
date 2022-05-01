@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "identityHashCode",
+  "signature": "fun Any?.identityHashCode(): Int",
+  "items": []
+}

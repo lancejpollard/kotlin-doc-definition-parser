@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asList",
+  "signature": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+  "items": []
+}

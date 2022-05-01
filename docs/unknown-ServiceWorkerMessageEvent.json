@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerMessageEvent",
+  "signature": "open class ServiceWorkerMessageEvent : Event",
+  "items": [
+    {
+      "text": "ServiceWorkerMessageEvent( type: String, eventInitDict: ServiceWorkerMessageEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript ServiceWorkerMessageEvent to Kotlin"
+    },
+    {
+      "text": "open val data: Any?"
+    },
+    {
+      "text": "open val lastEventId: String"
+    },
+    {
+      "text": "open val origin: String"
+    },
+    {
+      "text": "open val ports: Array<out MessagePort>?"
+    },
+    {
+      "text": "open val source: UnionMessagePortOrServiceWorker?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

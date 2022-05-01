@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "measureTimeMicros",
+  "signature": "inline fun measureTimeMicros(block: () -> Unit): Long",
+  "items": []
+}

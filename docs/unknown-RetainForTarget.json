@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "RetainForTarget",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.CLASS]) annotation class RetainForTarget",
+  "items": [
+    {
+      "text": "RetainForTarget(target: String)",
+      "desc": "Preserve the function entry point during global optimizations, only for the given target."
+    },
+    {
+      "text": "val target: String"
+    }
+  ]
+}

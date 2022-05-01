@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "hours",
+  "signatures": [
+    {
+      "text": "inline val Int.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of hours."
+    },
+    {
+      "text": "inline val Long.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of hours."
+    },
+    {
+      "text": "inline val Double.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of hours."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun hours( value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of hours."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun hours( value: Double): Duration",
+      "desc": "Returns a Duration representing the specified value number of hours."
+    }
+  ],
+  "items": []
+}

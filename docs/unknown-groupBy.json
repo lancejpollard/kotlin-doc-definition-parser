@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "groupBy",
+  "signatures": [
+    {
+      "text": "inline fun <K> CharSequence.groupBy( keySelector: (Char) -> K): Map<K, List<Char>>",
+      "desc": "Groups characters of the original char sequence by the key returned by the given keySelector function applied to each character and returns a map where each group key is associated with a list of corresponding characters."
+    },
+    {
+      "text": "inline fun <K, V> CharSequence.groupBy( keySelector: (Char) -> K, valueTransform: (Char) -> V): Map<K, List<V>>",
+      "desc": "Groups values returned by the valueTransform function applied to each character of the original char sequence by the key returned by the given keySelector function applied to the character and returns a map where each group key is associated with a list of corresponding values."
+    }
+  ],
+  "items": []
+}

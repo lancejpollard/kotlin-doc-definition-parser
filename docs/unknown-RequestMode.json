@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "RequestMode",
+  "signature": "interface RequestMode",
+  "items": [
+    {
+      "text": "val RequestMode.Companion.CORS: RequestMode"
+    },
+    {
+      "text": "val RequestMode.Companion.NAVIGATE: RequestMode"
+    },
+    {
+      "text": "val RequestMode.Companion.NO_CORS: RequestMode"
+    },
+    {
+      "text": "val RequestMode.Companion.SAME_ORIGIN: RequestMode"
+    }
+  ]
+}

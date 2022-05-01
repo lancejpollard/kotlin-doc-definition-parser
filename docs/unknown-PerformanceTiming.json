@@ -1,0 +1,74 @@
+{
+  "type": "unknown",
+  "name": "PerformanceTiming",
+  "signature": "abstract class PerformanceTiming",
+  "items": [
+    {
+      "text": "PerformanceTiming()",
+      "desc": "Exposes the JavaScript PerformanceTiming to Kotlin"
+    },
+    {
+      "text": "open val connectEnd: Number"
+    },
+    {
+      "text": "open val connectStart: Number"
+    },
+    {
+      "text": "open val domainLookupEnd: Number"
+    },
+    {
+      "text": "open val domainLookupStart: Number"
+    },
+    {
+      "text": "open val domComplete: Number"
+    },
+    {
+      "text": "open val domContentLoadedEventEnd: Number"
+    },
+    {
+      "text": "open val domContentLoadedEventStart: Number"
+    },
+    {
+      "text": "open val domInteractive: Number"
+    },
+    {
+      "text": "open val domLoading: Number"
+    },
+    {
+      "text": "open val fetchStart: Number"
+    },
+    {
+      "text": "open val loadEventEnd: Number"
+    },
+    {
+      "text": "open val loadEventStart: Number"
+    },
+    {
+      "text": "open val navigationStart: Number"
+    },
+    {
+      "text": "open val redirectEnd: Number"
+    },
+    {
+      "text": "open val redirectStart: Number"
+    },
+    {
+      "text": "open val requestStart: Number"
+    },
+    {
+      "text": "open val responseEnd: Number"
+    },
+    {
+      "text": "open val responseStart: Number"
+    },
+    {
+      "text": "open val secureConnectionStart: Number"
+    },
+    {
+      "text": "open val unloadEventEnd: Number"
+    },
+    {
+      "text": "open val unloadEventStart: Number"
+    }
+  ]
+}

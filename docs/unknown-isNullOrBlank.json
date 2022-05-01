@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isNullOrBlank",
+  "signature": "fun CharSequence?.isNullOrBlank(): Boolean",
+  "items": []
+}

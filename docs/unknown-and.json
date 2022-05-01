@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "and",
+  "signature": "infix fun BigInteger.and(other: BigInteger): BigInteger",
+  "items": []
+}

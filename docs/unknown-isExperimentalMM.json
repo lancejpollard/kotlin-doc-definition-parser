@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isExperimentalMM",
+  "signature": "@ExperimentalStdlibApi fun isExperimentalMM(): Boolean",
+  "items": []
+}

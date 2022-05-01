@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toString",
+  "signature": "open fun toString(): String",
+  "items": []
+}

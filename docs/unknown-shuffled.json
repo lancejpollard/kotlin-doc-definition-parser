@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "shuffled",
+  "signatures": [
+    {
+      "text": "fun <T> Sequence<T>.shuffled(): Sequence<T>",
+      "desc": "Returns a sequence that yields elements of this sequence randomly shuffled."
+    },
+    {
+      "text": "fun <T> Sequence<T>.shuffled(random: Random): Sequence<T>",
+      "desc": "Returns a sequence that yields elements of this sequence randomly shuffled using the specified random instance as the source of randomness."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "countOneBits",
+  "signatures": [
+    {
+      "text": "fun Int.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this Int number."
+    },
+    {
+      "text": "fun Long.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this Long number."
+    },
+    {
+      "text": "fun Byte.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this Byte number."
+    },
+    {
+      "text": "fun Short.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this Short number."
+    },
+    {
+      "text": "fun UInt.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this UInt number."
+    },
+    {
+      "text": "fun ULong.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this ULong number."
+    },
+    {
+      "text": "fun UByte.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this UByte number."
+    },
+    {
+      "text": "fun UShort.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this UShort number."
+    }
+  ],
+  "items": []
+}

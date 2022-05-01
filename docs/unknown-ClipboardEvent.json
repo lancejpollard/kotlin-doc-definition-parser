@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "ClipboardEvent",
+  "signature": "open class ClipboardEvent : Event",
+  "items": [
+    {
+      "text": "ClipboardEvent( type: String, eventInitDict: ClipboardEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript ClipboardEvent to Kotlin"
+    },
+    {
+      "text": "open val clipboardData: DataTransfer?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

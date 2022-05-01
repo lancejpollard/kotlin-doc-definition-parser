@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "COMMENT_NODE",
+  "signature": "val COMMENT_NODE: Short",
+  "items": []
+}

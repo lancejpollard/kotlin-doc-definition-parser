@@ -1,0 +1,119 @@
+{
+  "type": "unknown",
+  "name": "HTMLIFrameElement",
+  "signature": "abstract class HTMLIFrameElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLIFrameElement()",
+      "desc": "Exposes the JavaScript HTMLIFrameElement to Kotlin"
+    },
+    {
+      "text": "open var align: String"
+    },
+    {
+      "text": "open var allowFullscreen: Boolean"
+    },
+    {
+      "text": "open var allowUserMedia: Boolean"
+    },
+    {
+      "text": "open val contentDocument: Document?"
+    },
+    {
+      "text": "open val contentWindow: Window?"
+    },
+    {
+      "text": "open var frameBorder: String"
+    },
+    {
+      "text": "open var height: String"
+    },
+    {
+      "text": "open var longDesc: String"
+    },
+    {
+      "text": "open var marginHeight: String"
+    },
+    {
+      "text": "open var marginWidth: String"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open var referrerPolicy: String"
+    },
+    {
+      "text": "open val sandbox: DOMTokenList"
+    },
+    {
+      "text": "open var scrolling: String"
+    },
+    {
+      "text": "open var src: String"
+    },
+    {
+      "text": "open var srcdoc: String"
+    },
+    {
+      "text": "open var width: String"
+    },
+    {
+      "text": "fun getSVGDocument(): Document?"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

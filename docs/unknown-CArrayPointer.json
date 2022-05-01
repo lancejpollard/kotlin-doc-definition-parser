@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CArrayPointer",
+  "signature": "typealias CArrayPointer<T> = CPointer<T>",
+  "items": []
+}

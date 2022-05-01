@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minOfWithOrNull",
+  "signature": "inline fun <R> CharSequence.minOfWithOrNull( comparator: Comparator<in R>, selector: (Char) -> R): R?",
+  "items": []
+}

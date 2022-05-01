@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CreateKStringFromNSString",
+  "signature": "fun CreateKStringFromNSString(ptr: NativePtr): String?",
+  "items": []
+}

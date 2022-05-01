@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "elementAt",
+  "signature": "fun CharSequence.elementAt(index: Int): Char",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapNotNull",
+  "signature": "inline fun <R : Any> CharSequence.mapNotNull( transform: (Char) -> R?): List<R>",
+  "items": []
+}

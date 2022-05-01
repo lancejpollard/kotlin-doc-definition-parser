@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "absoluteValue",
+  "signature": "val absoluteValue: Duration",
+  "items": []
+}

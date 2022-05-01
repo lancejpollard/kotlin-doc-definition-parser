@@ -1,0 +1,46 @@
+{
+  "type": "unknown",
+  "name": "MemScope",
+  "signature": "class MemScope : ArenaBase",
+  "items": [
+    {
+      "text": "MemScope()"
+    },
+    {
+      "text": "val memScope: MemScope"
+    },
+    {
+      "text": "val <T : CVariable> CValues<T>.ptr: CPointer<T>"
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.alloc(): T",
+      "desc": "Allocates variable of given type."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.alloc( initialize: T.() -> Unit): T",
+      "desc": "Allocates variable of given type and initializes it applying given block."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.allocArray( length: Long): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.allocArray( length: Long, initializer: T.(index: Long) -> Unit): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length, and initializes its elements applying given block."
+    },
+    {
+      "text": "fun <T : CPointer<*>> NativePlacement.allocArrayOf( vararg elements: T?): CArrayPointer<CPointerVarOf<T>>",
+      "desc": "Allocates C array of given values."
+    },
+    {
+      "text": "fun NativePlacement.allocArrayOf( elements: ByteArray): CArrayPointer<ByteVar>"
+    },
+    {
+      "text": "fun <T : CPointed> NativePlacement.allocArrayOfPointersTo( elements: List<T?>): CArrayPointer<CPointerVar<T>>",
+      "desc": "Allocates C array of pointers to given elements."
+    },
+    {
+      "text": "fun <T : CPointed> NativePlacement.allocPointerTo(): CPointerVar<T>"
+    }
+  ]
+}

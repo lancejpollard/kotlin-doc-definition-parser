@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "CEnum",
+  "signature": "interface CEnum",
+  "items": [
+    {
+      "text": "abstract val value: Any"
+    }
+  ]
+}

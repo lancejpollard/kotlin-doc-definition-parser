@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asUIntArray",
+  "signature": "@ExperimentalUnsignedTypes fun IntArray.asUIntArray(): UIntArray",
+  "items": []
+}

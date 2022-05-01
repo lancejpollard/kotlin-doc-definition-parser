@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "check",
+  "signatures": [
+    {
+      "text": "fun check(value: Boolean)",
+      "desc": "Throws an IllegalStateException if the value is false."
+    },
+    {
+      "text": "inline fun check(value: Boolean, lazyMessage: () -> Any)",
+      "desc": "Throws an IllegalStateException with the result of calling lazyMessage if the value is false."
+    }
+  ],
+  "items": []
+}

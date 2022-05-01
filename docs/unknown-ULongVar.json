@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ULongVar",
+  "signature": "typealias ULongVar = ULongVarOf<ULong>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onkeyup",
+  "signature": "open var onkeyup: ((KeyboardEvent) -> dynamic)?",
+  "items": []
+}

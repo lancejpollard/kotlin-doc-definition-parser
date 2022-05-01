@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "measureNanoTime",
+  "signature": "inline fun measureNanoTime(block: () -> Unit): Long",
+  "items": []
+}

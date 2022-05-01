@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "nextLong",
+  "signature": "fun Random.nextLong(range: LongRange): Long",
+  "items": []
+}

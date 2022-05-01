@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "ParameterName",
+  "signature": "@Target([AnnotationTarget.TYPE]) annotation class ParameterName",
+  "items": [
+    {
+      "text": "<init>(name: String)",
+      "desc": "Annotates type arguments of functional type and holds corresponding parameter name specified by the user in type declaration (if any)."
+    },
+    {
+      "text": "val name: String"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

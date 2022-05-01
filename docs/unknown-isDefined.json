@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isDefined",
+  "signature": "fun Char.isDefined(): Boolean",
+  "items": []
+}

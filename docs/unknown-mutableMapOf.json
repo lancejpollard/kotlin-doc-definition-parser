@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "mutableMapOf",
+  "signatures": [
+    {
+      "text": "fun <K, V> mutableMapOf(): MutableMap<K, V>",
+      "desc": "Returns an empty new MutableMap."
+    },
+    {
+      "text": "fun <K, V> mutableMapOf( vararg pairs: Pair<K, V>): MutableMap<K, V>",
+      "desc": "Returns a new MutableMap with the specified contents, given as a list of pairs where the first component is the key and the second is the value."
+    }
+  ],
+  "items": []
+}

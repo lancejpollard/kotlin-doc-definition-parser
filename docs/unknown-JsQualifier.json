@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JsQualifier",
+  "signature": "@Target([AnnotationTarget.FILE]) annotation class JsQualifier",
+  "items": [
+    {
+      "text": "JsQualifier(value: String)",
+      "desc": "Adds prefix to external declarations in a source file."
+    },
+    {
+      "text": "val value: String",
+      "desc": "the qualifier to add to the declarations in the generated code. It must be a sequence of valid JavaScript identifiers separated by the . character. Examples of valid qualifiers are: foo, bar.Baz, _.$0.f."
+    }
+  ]
+}

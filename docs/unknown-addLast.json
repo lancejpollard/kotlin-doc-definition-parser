@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "addLast",
+  "signature": "fun addLast(element: E)",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "ceil",
+  "signatures": [
+    {
+      "text": "fun ceil(x: Double): Double",
+      "desc": "Rounds the given value x to an integer towards positive infinity."
+    },
+    {
+      "text": "fun ceil(x: Float): Float",
+      "desc": "Rounds the given value x to an integer towards positive infinity."
+    }
+  ],
+  "items": []
+}

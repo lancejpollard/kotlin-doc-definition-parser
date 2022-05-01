@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isFinite",
+  "signature": "fun isFinite(): Boolean",
+  "items": []
+}

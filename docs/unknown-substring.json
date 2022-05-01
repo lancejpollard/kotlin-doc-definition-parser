@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "substring",
+  "signatures": [
+    {
+      "text": "fun String.substring(startIndex: Int): String",
+      "desc": "Returns a substring of this string that starts at the specified startIndex and continues to the end of the string."
+    },
+    {
+      "text": "fun String.substring(startIndex: Int, endIndex: Int): String",
+      "desc": "Returns the substring of this string starting at the startIndex and ending right before the endIndex."
+    },
+    {
+      "text": "fun String.substring(range: IntRange): String",
+      "desc": "Returns a substring specified by the given range of indices."
+    },
+    {
+      "text": "fun CharSequence.substring( startIndex: Int, endIndex: Int = length): String",
+      "desc": "Returns a substring of chars from a range of this char sequence starting at the startIndex and ending right before the endIndex."
+    },
+    {
+      "text": "fun CharSequence.substring(range: IntRange): String",
+      "desc": "Returns a substring of chars at indices from the specified range of this char sequence."
+    }
+  ],
+  "items": []
+}

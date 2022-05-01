@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "CStruct",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class CStruct",
+  "items": [
+    {
+      "text": "annotation class ArrayMemberAt"
+    },
+    {
+      "text": "annotation class BitField"
+    },
+    {
+      "text": "annotation class CPlusPlusClass"
+    },
+    {
+      "text": "annotation class ManagedType"
+    },
+    {
+      "text": "annotation class MemberAt"
+    },
+    {
+      "text": "annotation class VarType"
+    },
+    {
+      "text": "CStruct(spelling: String)"
+    },
+    {
+      "text": "val spelling: String"
+    }
+  ]
+}

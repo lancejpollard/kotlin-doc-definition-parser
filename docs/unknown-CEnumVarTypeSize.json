@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CEnumVarTypeSize",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class CEnumVarTypeSize",
+  "items": [
+    {
+      "text": "CEnumVarTypeSize(size: Int)",
+      "desc": "Stores instance size of the type T: CEnumVar."
+    },
+    {
+      "text": "val size: Int"
+    }
+  ]
+}

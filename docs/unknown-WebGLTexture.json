@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLTexture",
+  "signature": "abstract class WebGLTexture : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLTexture()",
+      "desc": "Exposes the JavaScript WebGLTexture to Kotlin"
+    }
+  ]
+}

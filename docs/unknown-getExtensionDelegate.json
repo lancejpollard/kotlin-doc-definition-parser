@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "getExtensionDelegate",
+  "signatures": [
+    {
+      "text": "fun KProperty1<*, *>.getExtensionDelegate(): Any?",
+      "desc": "Returns the instance of a delegated extension property, or null if this property is not delegated. Throws an exception if this is not an extension property."
+    },
+    {
+      "text": "fun <D> KProperty2<D, *, *>.getExtensionDelegate( receiver: D): Any?",
+      "desc": "Returns the instance of a delegated member extension property, or null if this property is not delegated. Throws an exception if this is not an extension property."
+    }
+  ],
+  "items": []
+}

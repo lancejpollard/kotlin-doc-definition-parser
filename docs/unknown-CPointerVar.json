@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CPointerVar",
+  "signature": "typealias CPointerVar<T> = CPointerVarOf<CPointer<T>>",
+  "items": []
+}

@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "OptIn",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.LOCAL_VARIABLE, AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.EXPRESSION, AnnotationTarget.FILE, AnnotationTarget.TYPEALIAS]) annotation class OptIn",
+  "items": [
+    {
+      "text": "OptIn(vararg markerClass: KClass<out Annotation>)",
+      "desc": "Allows to use the API denoted by the given markers in the annotated file, declaration, or expression. If a declaration is annotated with OptIn, its usages are not required to opt in to that API."
+    },
+    {
+      "text": "vararg val markerClass: Array<out KClass<out Annotation>>"
+    }
+  ]
+}

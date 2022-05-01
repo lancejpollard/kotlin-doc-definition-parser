@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sortedWith",
+  "signature": "fun <T> Sequence<T>.sortedWith( comparator: Comparator<in T>): Sequence<T>",
+  "items": []
+}

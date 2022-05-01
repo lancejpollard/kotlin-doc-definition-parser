@@ -1,0 +1,171 @@
+{
+  "type": "unknown",
+  "name": "Typography",
+  "signature": "object Typography",
+  "items": [
+    {
+      "text": "const val almostEqual: Char",
+      "desc": "The character ≈"
+    },
+    {
+      "text": "const val amp: Char",
+      "desc": "The character & – ampersand"
+    },
+    {
+      "text": "const val bullet: Char",
+      "desc": "The character •"
+    },
+    {
+      "text": "const val cent: Char",
+      "desc": "The character ¢"
+    },
+    {
+      "text": "const val copyright: Char",
+      "desc": "The character ©"
+    },
+    {
+      "text": "const val dagger: Char",
+      "desc": "The character †"
+    },
+    {
+      "text": "const val degree: Char",
+      "desc": "The character °"
+    },
+    {
+      "text": "const val dollar: Char",
+      "desc": "The character $ – dollar sign"
+    },
+    {
+      "text": "const val doubleDagger: Char",
+      "desc": "The character ‡"
+    },
+    {
+      "text": "const val doublePrime: Char",
+      "desc": "The character ″"
+    },
+    {
+      "text": "const val ellipsis: Char",
+      "desc": "The character …"
+    },
+    {
+      "text": "const val euro: Char",
+      "desc": "The character €"
+    },
+    {
+      "text": "const val greater: Char",
+      "desc": "The character > – greater-than sign"
+    },
+    {
+      "text": "const val greaterOrEqual: Char",
+      "desc": "The character ≥"
+    },
+    {
+      "text": "const val half: Char",
+      "desc": "The character ½"
+    },
+    {
+      "text": "const val leftDoubleQuote: Char",
+      "desc": "The character “"
+    },
+    {
+      "text": "const val leftGuillemet: Char",
+      "desc": "The character «"
+    },
+    {
+      "text": "const val leftGuillemete: Char",
+      "desc": "The character «"
+    },
+    {
+      "text": "const val leftSingleQuote: Char",
+      "desc": "The character ‘"
+    },
+    {
+      "text": "const val less: Char",
+      "desc": "The character < – less-than sign"
+    },
+    {
+      "text": "const val lessOrEqual: Char",
+      "desc": "The character ≤"
+    },
+    {
+      "text": "const val lowDoubleQuote: Char",
+      "desc": "The character „"
+    },
+    {
+      "text": "const val lowSingleQuote: Char",
+      "desc": "The character ‚"
+    },
+    {
+      "text": "const val mdash: Char",
+      "desc": "The character —"
+    },
+    {
+      "text": "const val middleDot: Char",
+      "desc": "The character ·"
+    },
+    {
+      "text": "const val nbsp: Char",
+      "desc": "The non-breaking space character"
+    },
+    {
+      "text": "const val ndash: Char",
+      "desc": "The character –"
+    },
+    {
+      "text": "const val notEqual: Char",
+      "desc": "The character ≠"
+    },
+    {
+      "text": "const val paragraph: Char",
+      "desc": "The character ¶"
+    },
+    {
+      "text": "const val plusMinus: Char",
+      "desc": "The character ±"
+    },
+    {
+      "text": "const val pound: Char",
+      "desc": "The character £"
+    },
+    {
+      "text": "const val prime: Char",
+      "desc": "The character ′"
+    },
+    {
+      "text": "const val quote: Char",
+      "desc": "The character \" – quotation mark"
+    },
+    {
+      "text": "const val registered: Char",
+      "desc": "The character ®"
+    },
+    {
+      "text": "const val rightDoubleQuote: Char",
+      "desc": "The character ”"
+    },
+    {
+      "text": "const val rightGuillemet: Char",
+      "desc": "The character »"
+    },
+    {
+      "text": "const val rightGuillemete: Char",
+      "desc": "The character »"
+    },
+    {
+      "text": "const val rightSingleQuote: Char",
+      "desc": "The character ’"
+    },
+    {
+      "text": "const val section: Char",
+      "desc": "The character §"
+    },
+    {
+      "text": "const val times: Char",
+      "desc": "The character ×"
+    },
+    {
+      "text": "const val tm: Char",
+      "desc": "The character ™"
+    }
+  ]
+}

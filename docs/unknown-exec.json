@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exec",
+  "signature": "fun exec(str: String): RegExpMatch?",
+  "items": []
+}

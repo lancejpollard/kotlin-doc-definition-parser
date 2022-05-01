@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "createTempFile",
+  "signatures": [
+    {
+      "text": "fun createTempFile( prefix: String? = null, suffix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates an empty file in the default temp directory, using the given prefix and suffix to generate its name."
+    },
+    {
+      "text": "fun createTempFile( directory: Path?, prefix: String? = null, suffix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates an empty file in the specified directory, using the given prefix and suffix to generate its name."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "ErrorEvent",
+  "signature": "open class ErrorEvent : Event",
+  "items": [
+    {
+      "text": "ErrorEvent( type: String, eventInitDict: ErrorEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript ErrorEvent to Kotlin"
+    },
+    {
+      "text": "open val colno: Int"
+    },
+    {
+      "text": "open val error: Any?"
+    },
+    {
+      "text": "open val filename: String"
+    },
+    {
+      "text": "open val lineno: Int"
+    },
+    {
+      "text": "open val message: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "unknown",
+  "name": "WindowOrWorkerGlobalScope",
+  "signature": "interface WindowOrWorkerGlobalScope",
+  "items": [
+    {
+      "text": "abstract val caches: CacheStorage"
+    },
+    {
+      "text": "abstract val origin: String"
+    },
+    {
+      "text": "abstract fun atob(data: String): String"
+    },
+    {
+      "text": "abstract fun btoa(data: String): String"
+    },
+    {
+      "text": "abstract fun clearInterval(handle: Int = definedExternally)"
+    },
+    {
+      "text": "abstract fun clearTimeout(handle: Int = definedExternally)"
+    },
+    {
+      "text": "abstract fun createImageBitmap( image: ImageBitmapSource, options: ImageBitmapOptions = definedExternally): Promise<ImageBitmap>"
+    },
+    {
+      "text": "abstract fun fetch( input: dynamic, init: RequestInit = definedExternally): Promise<Response>"
+    },
+    {
+      "text": "abstract fun setInterval( handler: dynamic, timeout: Int = definedExternally, vararg arguments: Any?): Int"
+    },
+    {
+      "text": "abstract fun setTimeout( handler: dynamic, timeout: Int = definedExternally, vararg arguments: Any?): Int"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerGlobalScope : EventTarget, WindowOrWorkerGlobalScope, GlobalPerformance",
+      "desc": "Exposes the JavaScript WorkerGlobalScope to Kotlin"
+    }
+  ]
+}

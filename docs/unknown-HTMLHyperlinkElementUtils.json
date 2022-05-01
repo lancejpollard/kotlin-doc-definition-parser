@@ -1,0 +1,48 @@
+{
+  "type": "unknown",
+  "name": "HTMLHyperlinkElementUtils",
+  "signature": "interface HTMLHyperlinkElementUtils",
+  "items": [
+    {
+      "text": "abstract var hash: String"
+    },
+    {
+      "text": "abstract var host: String"
+    },
+    {
+      "text": "abstract var hostname: String"
+    },
+    {
+      "text": "abstract var href: String"
+    },
+    {
+      "text": "abstract val origin: String"
+    },
+    {
+      "text": "abstract var password: String"
+    },
+    {
+      "text": "abstract var pathname: String"
+    },
+    {
+      "text": "abstract var port: String"
+    },
+    {
+      "text": "abstract var protocol: String"
+    },
+    {
+      "text": "abstract var search: String"
+    },
+    {
+      "text": "abstract var username: String"
+    },
+    {
+      "text": "abstract class HTMLAnchorElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAnchorElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLAreaElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAreaElement to Kotlin"
+    }
+  ]
+}

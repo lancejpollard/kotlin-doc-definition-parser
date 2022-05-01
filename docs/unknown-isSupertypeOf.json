@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSupertypeOf",
+  "signature": "fun KType.isSupertypeOf(other: KType): Boolean",
+  "items": []
+}

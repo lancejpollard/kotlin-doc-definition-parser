@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isLetter",
+  "signature": "fun Char.isLetter(): Boolean",
+  "items": []
+}

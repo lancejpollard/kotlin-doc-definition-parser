@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "status",
+  "signature": "open var status: String",
+  "items": []
+}

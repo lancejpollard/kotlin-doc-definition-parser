@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "instanceParameter",
+  "signature": "val KCallable<*>.instanceParameter: KParameter?",
+  "items": []
+}

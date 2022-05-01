@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "groupingBy",
+  "signature": "inline fun <K> CharSequence.groupingBy( crossinline keySelector: (Char) -> K): Grouping<Char, K>",
+  "items": []
+}

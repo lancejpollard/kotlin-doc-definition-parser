@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "zip",
+  "signatures": [
+    {
+      "text": "infix fun CharSequence.zip( other: CharSequence): List<Pair<Char, Char>>",
+      "desc": "Returns a list of pairs built from the characters of this and the other char sequences with the same index The returned list has length of the shortest char sequence."
+    },
+    {
+      "text": "inline fun <V> CharSequence.zip( other: CharSequence, transform: (a: Char, b: Char) -> V): List<V>",
+      "desc": "Returns a list of values built from the characters of this and the other char sequences with the same index using the provided transform function applied to each pair of characters. The returned list has length of the shortest char sequence."
+    }
+  ],
+  "items": []
+}

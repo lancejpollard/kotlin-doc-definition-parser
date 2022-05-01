@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onclose",
+  "signature": "open var onclose: ((Event) -> dynamic)?",
+  "items": []
+}

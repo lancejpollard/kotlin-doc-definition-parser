@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "dropWhile",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.dropWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing all characters except first characters that satisfy the given predicate."
+    },
+    {
+      "text": "inline fun String.dropWhile( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string containing all characters except first characters that satisfy the given predicate."
+    }
+  ],
+  "items": []
+}

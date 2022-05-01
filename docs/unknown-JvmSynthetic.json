@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JvmSynthetic",
+  "signature": "@Target([AnnotationTarget.FILE, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.FIELD]) annotation class JvmSynthetic",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Sets ACC_SYNTHETIC flag on the annotated target in the Java bytecode."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

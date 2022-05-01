@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "CanPlayTypeResult",
+  "signature": "interface CanPlayTypeResult",
+  "items": [
+    {
+      "text": "val CanPlayTypeResult.Companion.EMPTY: CanPlayTypeResult"
+    },
+    {
+      "text": "val CanPlayTypeResult.Companion.MAYBE: CanPlayTypeResult"
+    },
+    {
+      "text": "val CanPlayTypeResult.Companion.PROBABLY: CanPlayTypeResult"
+    }
+  ]
+}

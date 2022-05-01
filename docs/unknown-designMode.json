@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "designMode",
+  "signature": "var designMode: String",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sinh",
+  "signature": "fun sinh(x: Double): Double",
+  "items": []
+}

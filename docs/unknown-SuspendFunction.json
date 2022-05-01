@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SuspendFunction",
+  "signature": "interface SuspendFunction<out R>",
+  "items": []
+}

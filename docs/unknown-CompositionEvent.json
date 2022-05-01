@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "CompositionEvent",
+  "signature": "open class CompositionEvent : UIEvent",
+  "items": [
+    {
+      "text": "CompositionEvent( type: String, eventInitDict: CompositionEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript CompositionEvent to Kotlin"
+    },
+    {
+      "text": "open val data: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

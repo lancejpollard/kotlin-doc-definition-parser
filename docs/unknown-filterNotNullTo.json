@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "filterNotNullTo",
+  "signature": "fun <C : MutableCollection<in T>, T : Any> Sequence<T?>.filterNotNullTo( destination: C): C",
+  "items": []
+}

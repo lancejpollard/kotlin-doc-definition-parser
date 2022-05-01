@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "shortArrayOf",
+  "signature": "fun shortArrayOf(vararg elements: Short): ShortArray",
+  "items": []
+}

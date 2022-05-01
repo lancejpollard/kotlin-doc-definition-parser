@@ -1,0 +1,65 @@
+{
+  "type": "unknown",
+  "name": "CSSRule",
+  "signature": "abstract class CSSRule",
+  "items": [
+    {
+      "text": "CSSRule()",
+      "desc": "Exposes the JavaScript CSSRule to Kotlin"
+    },
+    {
+      "text": "open var cssText: String"
+    },
+    {
+      "text": "open val parentRule: CSSRule?"
+    },
+    {
+      "text": "open val parentStyleSheet: CSSStyleSheet?"
+    },
+    {
+      "text": "open val type: Short"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    },
+    {
+      "text": "abstract class CSSGroupingRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSGroupingRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSImportRule : CSSRule"
+    },
+    {
+      "text": "abstract class CSSMarginRule : CSSRule"
+    },
+    {
+      "text": "abstract class CSSNamespaceRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSNamespaceRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSStyleRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSStyleRule to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ScrollOptions",
+  "signature": "fun ScrollOptions( behavior: ScrollBehavior? = ScrollBehavior.AUTO): ScrollOptions",
+  "items": []
+}

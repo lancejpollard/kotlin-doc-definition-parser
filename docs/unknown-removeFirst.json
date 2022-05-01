@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeFirst",
+  "signature": "fun removeFirst(): E",
+  "items": []
+}

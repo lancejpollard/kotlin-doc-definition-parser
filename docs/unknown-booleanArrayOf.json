@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "booleanArrayOf",
+  "signature": "fun booleanArrayOf(vararg elements: Boolean): BooleanArray",
+  "items": []
+}

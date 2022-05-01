@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "rem",
+  "signature": "operator fun BigInteger.rem(other: BigInteger): BigInteger",
+  "items": []
+}

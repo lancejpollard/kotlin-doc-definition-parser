@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "printStackTrace",
+  "signatures": [
+    {
+      "text": "fun Throwable.printStackTrace()",
+      "desc": "Prints the detailed description of this throwable to the standard output or standard error output."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    }
+  ],
+  "items": []
+}

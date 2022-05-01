@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getOrDefault",
+  "signature": "open fun getOrDefault( key: K, defaultValue: @UnsafeVariance V): V",
+  "items": []
+}

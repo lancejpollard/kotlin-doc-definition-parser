@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "Cache",
+  "signature": "abstract class Cache",
+  "items": [
+    {
+      "text": "Cache()",
+      "desc": "Exposes the JavaScript Cache to Kotlin"
+    },
+    {
+      "text": "fun add(request: dynamic): Promise<Unit>"
+    },
+    {
+      "text": "fun addAll(requests: Array<dynamic>): Promise<Unit>"
+    },
+    {
+      "text": "fun delete( request: dynamic, options: CacheQueryOptions = definedExternally): Promise<Boolean>"
+    },
+    {
+      "text": "fun keys( request: dynamic = definedExternally, options: CacheQueryOptions = definedExternally): Promise<Array<Request>>"
+    },
+    {
+      "text": "fun match( request: dynamic, options: CacheQueryOptions = definedExternally): Promise<Any?>"
+    },
+    {
+      "text": "fun matchAll( request: dynamic = definedExternally, options: CacheQueryOptions = definedExternally): Promise<Array<Response>>"
+    },
+    {
+      "text": "fun put(request: dynamic, response: Response): Promise<Unit>"
+    }
+  ]
+}

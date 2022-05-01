@@ -1,0 +1,42 @@
+{
+  "type": "package",
+  "name": "kotlin.dom",
+  "items": [
+    {
+      "text": "val Node.isElement: Boolean",
+      "desc": "Gets a value indicating whether this node is an Element."
+    },
+    {
+      "text": "val Node.isText: Boolean",
+      "desc": "Gets a value indicating whether this node is a TEXT_NODE or a CDATA_SECTION_NODE."
+    },
+    {
+      "text": "fun Element.addClass(vararg cssClasses: String): Boolean",
+      "desc": "Adds CSS class to element. Has no effect if all specified classes are already in class attribute of the element"
+    },
+    {
+      "text": "fun Element.appendElement( name: String, init: Element.() -> Unit): Element",
+      "desc": "Appends a newly created element with the specified name to this element."
+    },
+    {
+      "text": "fun Element.appendText(text: String): Element",
+      "desc": "Creates text node and append it to the element."
+    },
+    {
+      "text": "fun Node.clear()",
+      "desc": "Removes all the children from this node."
+    },
+    {
+      "text": "fun Document.createElement( name: String, init: Element.() -> Unit): Element",
+      "desc": "Creates a new element with the specified name."
+    },
+    {
+      "text": "fun Element.hasClass(cssClass: String): Boolean",
+      "desc": "Returns true if the element has the given CSS class style in its 'class' attribute"
+    },
+    {
+      "text": "fun Element.removeClass(vararg cssClasses: String): Boolean",
+      "desc": "Removes all cssClasses from element. Has no effect if all specified classes are missing in class attribute of the element"
+    }
+  ]
+}

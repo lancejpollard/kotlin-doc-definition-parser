@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CURRENT",
+  "signature": "val CURRENT: KotlinVersion",
+  "items": []
+}

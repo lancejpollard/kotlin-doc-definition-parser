@@ -1,0 +1,92 @@
+{
+  "type": "unknown",
+  "name": "MouseEvent",
+  "signature": "open class MouseEvent : UIEvent, UnionElementOrMouseEvent",
+  "items": [
+    {
+      "text": "MouseEvent( type: String, eventInitDict: MouseEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript MouseEvent to Kotlin"
+    },
+    {
+      "text": "open val altKey: Boolean"
+    },
+    {
+      "text": "open val button: Short"
+    },
+    {
+      "text": "open val buttons: Short"
+    },
+    {
+      "text": "open val clientX: Int"
+    },
+    {
+      "text": "open val clientY: Int"
+    },
+    {
+      "text": "open val ctrlKey: Boolean"
+    },
+    {
+      "text": "open val metaKey: Boolean"
+    },
+    {
+      "text": "open val offsetX: Double"
+    },
+    {
+      "text": "open val offsetY: Double"
+    },
+    {
+      "text": "open val pageX: Double"
+    },
+    {
+      "text": "open val pageY: Double"
+    },
+    {
+      "text": "open val region: String?"
+    },
+    {
+      "text": "open val relatedTarget: EventTarget?"
+    },
+    {
+      "text": "open val screenX: Int"
+    },
+    {
+      "text": "open val screenY: Int"
+    },
+    {
+      "text": "open val shiftKey: Boolean"
+    },
+    {
+      "text": "open val x: Double"
+    },
+    {
+      "text": "open val y: Double"
+    },
+    {
+      "text": "fun getModifierState(keyArg: String): Boolean"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    },
+    {
+      "text": "open class DragEvent : MouseEvent",
+      "desc": "Exposes the JavaScript DragEvent to Kotlin"
+    },
+    {
+      "text": "open class PointerEvent : MouseEvent",
+      "desc": "Exposes the JavaScript PointerEvent to Kotlin"
+    },
+    {
+      "text": "open class WheelEvent : MouseEvent",
+      "desc": "Exposes the JavaScript WheelEvent to Kotlin"
+    }
+  ]
+}

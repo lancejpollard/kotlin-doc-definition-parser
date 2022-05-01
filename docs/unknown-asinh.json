@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asinh",
+  "signature": "fun asinh(x: Double): Double",
+  "items": []
+}

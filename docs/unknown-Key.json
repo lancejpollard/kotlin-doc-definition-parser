@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "key",
+  "signature": "fun key(index: Int): String?",
+  "items": []
+}

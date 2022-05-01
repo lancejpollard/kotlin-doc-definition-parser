@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "nextTowards",
+  "signatures": [
+    {
+      "text": "fun Double.nextTowards(to: Double): Double",
+      "desc": "Returns the Double value nearest to this value in direction from this value towards the value to."
+    },
+    {
+      "text": "fun Float.nextTowards(to: Float): Float",
+      "desc": "Returns the Float value nearest to this value in direction from this value towards the value to."
+    }
+  ],
+  "items": []
+}

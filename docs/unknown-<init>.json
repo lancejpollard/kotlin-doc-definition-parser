@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "<init>",
+  "signatures": [
+    {
+      "text": "<init>()",
+      "desc": "Creates an empty ArrayList."
+    },
+    {
+      "text": "<init>(initialCapacity: Int)",
+      "desc": "Creates an empty ArrayList."
+    },
+    {
+      "text": "<init>(elements: Collection<E>)",
+      "desc": "Creates an ArrayList filled from the elements collection."
+    }
+  ],
+  "items": []
+}

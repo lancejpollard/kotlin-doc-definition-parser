@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "Continuation2",
+  "signature": "class Continuation2<T1, T2> : (T1, T2) -> Unit",
+  "items": [
+    {
+      "text": "Continuation2( block: (p1: T1, p2: T2) -> Unit, invoker: CPointer<CFunction<(COpaquePointer?) -> Unit>>, singleShot: Boolean = false)"
+    },
+    {
+      "text": "fun dispose()"
+    },
+    {
+      "text": "operator fun invoke(p1: T1, p2: T2)"
+    }
+  ]
+}

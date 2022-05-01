@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ColorSpaceConversion",
+  "signature": "interface ColorSpaceConversion",
+  "items": [
+    {
+      "text": "val ColorSpaceConversion.Companion.DEFAULT: ColorSpaceConversion"
+    },
+    {
+      "text": "val ColorSpaceConversion.Companion.NONE: ColorSpaceConversion"
+    }
+  ]
+}

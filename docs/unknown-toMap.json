@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "toMap",
+  "signatures": [
+    {
+      "text": "fun <K, V> Iterable<Pair<K, V>>.toMap(): Map<K, V>",
+      "desc": "Returns a new map containing all key-value pairs from the given collection of pairs."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> Iterable<Pair<K, V>>.toMap( destination: M): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs from the given collection of pairs."
+    },
+    {
+      "text": "fun <K, V> Array<out Pair<K, V>>.toMap(): Map<K, V>",
+      "desc": "Returns a new map containing all key-value pairs from the given array of pairs."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> Array<out Pair<K, V>>.toMap( destination: M): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs from the given array of pairs."
+    },
+    {
+      "text": "fun <K, V> Sequence<Pair<K, V>>.toMap(): Map<K, V>",
+      "desc": "Returns a new map containing all key-value pairs from the given sequence of pairs."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> Sequence<Pair<K, V>>.toMap( destination: M): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs from the given sequence of pairs."
+    },
+    {
+      "text": "fun <K, V> Map<out K, V>.toMap(): Map<K, V>",
+      "desc": "Returns a new read-only map containing all key-value pairs from the original map."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> Map<out K, V>.toMap( destination: M): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs from the given map."
+    }
+  ],
+  "items": []
+}

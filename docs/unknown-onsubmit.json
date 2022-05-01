@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onsubmit",
+  "signature": "open var onsubmit: ((Event) -> dynamic)?",
+  "items": []
+}

@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "sortWith",
+  "signatures": [
+    {
+      "text": "fun <T> Array<out T>.sortWith(comparator: Comparator<in T>)",
+      "desc": "Sorts the array in-place according to the order specified by the given comparator."
+    },
+    {
+      "text": "fun <T> Array<out T>.sortWith( comparator: Comparator<in T>, fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Sorts a range in the array in-place with the given comparator."
+    },
+    {
+      "text": "fun <T> MutableList<T>.sortWith(comparator: Comparator<in T>)",
+      "desc": "Sorts elements in the list in-place according to the order specified with comparator."
+    },
+    {
+      "text": "fun <T> Array<out T>.sortWith(comparator: Comparator<in T>)",
+      "desc": "Sorts the array in-place according to the order specified by the given comparator."
+    },
+    {
+      "text": "fun <T> Array<out T>.sortWith( comparator: Comparator<in T>, fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Sorts a range in the array in-place with the given comparator."
+    },
+    {
+      "text": "fun <T> MutableList<T>.sortWith(comparator: Comparator<in T>)",
+      "desc": "Sorts elements in the list in-place according to the order specified with comparator."
+    }
+  ],
+  "items": []
+}

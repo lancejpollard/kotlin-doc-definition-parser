@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lastOrNull",
+  "signature": "fun lastOrNull(): E?",
+  "items": []
+}

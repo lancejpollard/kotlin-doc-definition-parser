@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "sortedArrayDescending",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> Array<T>.sortedArrayDescending(): Array<T>",
+      "desc": "Returns an array with all elements of this array sorted descending according to their natural sort order."
+    },
+    {
+      "text": "fun ByteArray.sortedArrayDescending(): ByteArray",
+      "desc": "Returns an array with all elements of this array sorted descending according to their natural sort order."
+    }
+  ],
+  "items": []
+}

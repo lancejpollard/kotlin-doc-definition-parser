@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MARGIN",
+  "signature": "inline val CSSBoxType.Companion.MARGIN: CSSBoxType",
+  "items": []
+}

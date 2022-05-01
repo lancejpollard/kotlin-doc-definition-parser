@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onvolumechange",
+  "signature": "open var onvolumechange: ((Event) -> dynamic)?",
+  "items": []
+}

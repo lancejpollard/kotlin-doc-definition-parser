@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "inputStream",
+  "signatures": [
+    {
+      "text": "fun ByteArray.inputStream(): ByteArrayInputStream",
+      "desc": "Creates an input stream for reading data from this byte array."
+    },
+    {
+      "text": "fun ByteArray.inputStream( offset: Int, length: Int): ByteArrayInputStream",
+      "desc": "Creates an input stream for reading data from the specified portion of this byte array."
+    }
+  ],
+  "items": []
+}

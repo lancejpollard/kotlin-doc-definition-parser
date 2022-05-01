@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "BeforeUnloadEvent",
+  "signature": "open class BeforeUnloadEvent : Event",
+  "items": [
+    {
+      "text": "BeforeUnloadEvent()",
+      "desc": "Exposes the JavaScript BeforeUnloadEvent to Kotlin"
+    },
+    {
+      "text": "var returnValue: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

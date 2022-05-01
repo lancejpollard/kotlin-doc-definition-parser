@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toHashSet",
+  "signature": "fun CharSequence.toHashSet(): HashSet<Char>",
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "SimpleEffect",
+  "signature": "@ExperimentalContracts interface SimpleEffect : Effect",
+  "items": [
+    {
+      "text": "abstract infix fun implies( booleanExpression: Boolean): ConditionalEffect",
+      "desc": "Specifies that this effect, when observed, guarantees booleanExpression to be true."
+    },
+    {
+      "text": "interface Returns : SimpleEffect",
+      "desc": "Describes a situation when a function returns normally with a given return value."
+    },
+    {
+      "text": "interface ReturnsNotNull : SimpleEffect",
+      "desc": "Describes a situation when a function returns normally with any non-null return value."
+    }
+  ]
+}

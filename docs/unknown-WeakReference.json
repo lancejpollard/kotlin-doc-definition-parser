@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "WeakReference",
+  "signature": "class WeakReference<T : Any>",
+  "items": [
+    {
+      "text": "WeakReference(referred: T)",
+      "desc": "Creates a weak reference object pointing to an object. Weak reference doesn't prevent removing object, and is nullified once object is collected."
+    },
+    {
+      "text": "val value: T?",
+      "desc": "Returns either reference to an object or null, if it was collected."
+    },
+    {
+      "text": "fun clear()",
+      "desc": "Clears reference to an object."
+    },
+    {
+      "text": "fun get(): T?",
+      "desc": "Returns either reference to an object or null, if it was collected."
+    }
+  ]
+}

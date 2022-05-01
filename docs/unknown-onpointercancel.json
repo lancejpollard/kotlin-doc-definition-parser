@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpointercancel",
+  "signature": "open var onpointercancel: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

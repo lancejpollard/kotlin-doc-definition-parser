@@ -1,0 +1,42 @@
+{
+  "type": "unknown",
+  "name": "DOMTokenList",
+  "signature": "abstract class DOMTokenList : ItemArrayLike<String>",
+  "items": [
+    {
+      "text": "DOMTokenList()",
+      "desc": "Exposes the JavaScript DOMTokenList to Kotlin"
+    },
+    {
+      "text": "open var value: String"
+    },
+    {
+      "text": "fun add(vararg tokens: String)"
+    },
+    {
+      "text": "fun contains(token: String): Boolean"
+    },
+    {
+      "text": "open fun item(index: Int): String?"
+    },
+    {
+      "text": "fun remove(vararg tokens: String)"
+    },
+    {
+      "text": "fun replace(token: String, newToken: String)"
+    },
+    {
+      "text": "fun supports(token: String): Boolean"
+    },
+    {
+      "text": "fun toggle( token: String, force: Boolean = definedExternally): Boolean"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun DOMTokenList.get(index: Int): String?"
+    }
+  ]
+}

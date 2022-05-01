@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asSequence",
+  "signature": "fun CharSequence.asSequence(): Sequence<Char>",
+  "items": []
+}

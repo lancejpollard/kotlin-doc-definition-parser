@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stackTraceToString",
+  "signature": "fun Throwable.stackTraceToString(): String",
+  "items": []
+}

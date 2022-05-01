@@ -1,0 +1,51 @@
+{
+  "type": "unknown",
+  "name": "CVariable",
+  "signature": "abstract class CVariable : CPointed",
+  "items": [
+    {
+      "text": "open class Type",
+      "desc": "The (complete) C data type."
+    },
+    {
+      "text": "CVariable(rawPtr: NativePtr)",
+      "desc": "The C data variable located in memory."
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> T.readValues(count: Int): CValues<T>"
+    },
+    {
+      "text": "class CPointerVarOf<T : CPointer<*>> : CVariable"
+    },
+    {
+      "text": "sealed class CPrimitiveVar : CVariable",
+      "desc": "The C primitive-typed variable located in memory."
+    },
+    {
+      "text": "abstract class CStructVar : CVariable",
+      "desc": "The C struct-typed variable located in memory."
+    },
+    {
+      "text": "class ObjCNotImplementedVar<T> : CVariable"
+    },
+    {
+      "text": "class ObjCObjectVar<T> : CVariable"
+    },
+    {
+      "text": "class Vector128VarOf<T : Vector128> : CVariable"
+    }
+  ]
+}

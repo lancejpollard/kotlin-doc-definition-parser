@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConstrainDoubleRange",
+  "signature": "fun ConstrainDoubleRange( exact: Double? = undefined, ideal: Double? = undefined, max: Double? = undefined, min: Double? = undefined): ConstrainDoubleRange",
+  "items": []
+}

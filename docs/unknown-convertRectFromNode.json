@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "convertRectFromNode",
+  "signature": "open fun convertRectFromNode( rect: DOMRectReadOnly, from: dynamic, options: ConvertCoordinateOptions): DOMQuad",
+  "items": []
+}

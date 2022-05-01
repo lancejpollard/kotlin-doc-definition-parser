@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "binarySearch",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> List<T?>.binarySearch( element: T?, fromIndex: Int = 0, toIndex: Int = size): Int",
+      "desc": "Searches this list or its range for the provided element using the binary search algorithm. The list is expected to be sorted into ascending order according to the Comparable natural ordering of its elements, otherwise the result is undefined."
+    },
+    {
+      "text": "fun <T> List<T>.binarySearch( element: T, comparator: Comparator<in T>, fromIndex: Int = 0, toIndex: Int = size): Int",
+      "desc": "Searches this list or its range for the provided element using the binary search algorithm. The list is expected to be sorted into ascending order according to the specified comparator, otherwise the result is undefined."
+    },
+    {
+      "text": "fun <T> List<T>.binarySearch( fromIndex: Int = 0, toIndex: Int = size, comparison: (T) -> Int): Int",
+      "desc": "Searches this list or its range for an element for which the given comparison function returns zero using the binary search algorithm."
+    },
+    {
+      "text": "fun <T> Array<out T>.binarySearch( element: T, comparator: Comparator<in T>, fromIndex: Int = 0, toIndex: Int = size): Int",
+      "desc": "Searches the array or the range of the array for the provided element using the binary search algorithm. The array is expected to be sorted according to the specified comparator, otherwise the result is undefined."
+    },
+    {
+      "text": "fun <T> Array<out T>.binarySearch( element: T, fromIndex: Int = 0, toIndex: Int = size): Int",
+      "desc": "Searches the array or the range of the array for the provided element using the binary search algorithm. The array is expected to be sorted, otherwise the result is undefined."
+    }
+  ],
+  "items": []
+}

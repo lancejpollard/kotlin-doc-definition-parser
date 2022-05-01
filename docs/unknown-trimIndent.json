@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "trimIndent",
+  "signature": "fun String.trimIndent(): String",
+  "items": []
+}

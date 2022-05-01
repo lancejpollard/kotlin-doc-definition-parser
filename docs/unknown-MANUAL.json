@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MANUAL",
+  "signature": "inline val RequestRedirect.Companion.MANUAL: RequestRedirect",
+  "items": []
+}

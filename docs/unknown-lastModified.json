@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lastModified",
+  "signature": "open val lastModified: String",
+  "items": []
+}

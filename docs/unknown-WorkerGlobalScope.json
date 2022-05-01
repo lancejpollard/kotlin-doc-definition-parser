@@ -1,0 +1,53 @@
+{
+  "type": "unknown",
+  "name": "WorkerGlobalScope",
+  "signature": "abstract class WorkerGlobalScope : EventTarget, WindowOrWorkerGlobalScope, GlobalPerformance",
+  "items": [
+    {
+      "text": "WorkerGlobalScope()",
+      "desc": "Exposes the JavaScript WorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open val location: WorkerLocation"
+    },
+    {
+      "text": "open val navigator: WorkerNavigator"
+    },
+    {
+      "text": "open var onerror: ((dynamic, String, Int, Int, Any?) -> dynamic)?"
+    },
+    {
+      "text": "open var onlanguagechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onoffline: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ononline: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onrejectionhandled: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onunhandledrejection: ((PromiseRejectionEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val self: WorkerGlobalScope"
+    },
+    {
+      "text": "fun importScripts(vararg urls: String)"
+    },
+    {
+      "text": "abstract class DedicatedWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript DedicatedWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript ServiceWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "abstract class SharedWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript SharedWorkerGlobalScope to Kotlin"
+    }
+  ]
+}

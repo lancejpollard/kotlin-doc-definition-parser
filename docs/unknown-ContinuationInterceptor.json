@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "ContinuationInterceptor",
+  "signature": "interface ContinuationInterceptor : Element",
+  "items": [
+    {
+      "text": "companion object Key : Key<ContinuationInterceptor>",
+      "desc": "The key that defines the context interceptor."
+    },
+    {
+      "text": "open operator fun <E : Element> get(key: Key<E>): E?",
+      "desc": "Returns the element with the given key from this context or null."
+    },
+    {
+      "text": "abstract fun <T> interceptContinuation( continuation: Continuation<T>): Continuation<T>",
+      "desc": "Returns continuation that wraps the original continuation, thus intercepting all resumptions. This function is invoked by coroutines framework when needed and the resulting continuations are cached internally per each instance of the original continuation."
+    },
+    {
+      "text": "open fun minusKey(key: Key<*>): CoroutineContext",
+      "desc": "Returns a context containing elements from this context, but without an element with the specified key."
+    },
+    {
+      "text": "open fun releaseInterceptedContinuation( continuation: Continuation<*>)",
+      "desc": "Invoked for the continuation instance returned by interceptContinuation when the original continuation completes and will not be used anymore. This function is invoked only if interceptContinuation had returned a different continuation instance from the one it was invoked with."
+    },
+    {
+      "text": "fun <E : Element> Element.getPolymorphicElement( key: Key<E>): E?",
+      "desc": "Returns the current element if it is associated with the given key in a polymorphic manner or null otherwise. This method returns non-null value if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    },
+    {
+      "text": "fun Element.minusPolymorphicKey( key: Key<*>): CoroutineContext",
+      "desc": "Returns empty coroutine context if the element is associated with the given key in a polymorphic manner or null otherwise. This method returns empty context if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    }
+  ]
+}

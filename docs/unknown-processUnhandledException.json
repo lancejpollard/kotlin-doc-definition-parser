@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "processUnhandledException",
+  "signature": "@ExperimentalStdlibApi fun processUnhandledException( throwable: Throwable)",
+  "items": []
+}

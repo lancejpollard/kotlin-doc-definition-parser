@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "cValuesOf",
+  "signatures": [
+    {
+      "text": "fun cValuesOf(vararg elements: Byte): CValues<ByteVar>",
+      "desc": "Returns sequence of immutable values CValues to pass them to C code."
+    },
+    {
+      "text": "fun cValuesOf(vararg elements: Short): CValues<ShortVar>"
+    }
+  ],
+  "items": []
+}

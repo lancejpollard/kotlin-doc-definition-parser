@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getElementsByName",
+  "signature": "fun getElementsByName(elementName: String): NodeList",
+  "items": []
+}

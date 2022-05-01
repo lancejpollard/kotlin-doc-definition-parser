@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "origin",
+  "signature": "open val origin: String",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UIEventInit",
+  "signature": "fun UIEventInit( view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): UIEventInit",
+  "items": []
+}

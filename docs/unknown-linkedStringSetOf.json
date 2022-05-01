@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "linkedStringSetOf",
+  "signature": "fun linkedStringSetOf( vararg elements: String): LinkedHashSet<String>",
+  "items": []
+}

@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGElementInstance",
+  "signature": "interface SVGElementInstance",
+  "items": [
+    {
+      "text": "open val correspondingElement: SVGElement?"
+    },
+    {
+      "text": "open val correspondingUseElement: SVGUseElement?"
+    },
+    {
+      "text": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    }
+  ]
+}

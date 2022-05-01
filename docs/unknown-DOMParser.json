@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "DOMParser",
+  "signature": "open class DOMParser",
+  "items": [
+    {
+      "text": "DOMParser()",
+      "desc": "Exposes the JavaScript DOMParser to Kotlin"
+    },
+    {
+      "text": "fun parseFromString(str: String, type: dynamic): Document"
+    }
+  ]
+}

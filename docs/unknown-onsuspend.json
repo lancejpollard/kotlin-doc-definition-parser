@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onsuspend",
+  "signature": "open var onsuspend: ((Event) -> dynamic)?",
+  "items": []
+}

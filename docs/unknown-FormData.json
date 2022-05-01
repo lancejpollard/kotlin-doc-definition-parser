@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "FormData",
+  "signature": "open class FormData",
+  "items": [
+    {
+      "text": "FormData(form: HTMLFormElement = definedExternally)",
+      "desc": "Exposes the JavaScript FormData to Kotlin"
+    },
+    {
+      "text": "fun append(name: String, value: String)"
+    },
+    {
+      "text": "fun delete(name: String)"
+    },
+    {
+      "text": "fun get(name: String): dynamic"
+    },
+    {
+      "text": "fun getAll(name: String): Array<dynamic>"
+    },
+    {
+      "text": "fun has(name: String): Boolean"
+    },
+    {
+      "text": "fun set(name: String, value: String)"
+    }
+  ]
+}

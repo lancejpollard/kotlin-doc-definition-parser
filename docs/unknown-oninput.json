@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oninput",
+  "signature": "open var oninput: ((InputEvent) -> dynamic)?",
+  "items": []
+}

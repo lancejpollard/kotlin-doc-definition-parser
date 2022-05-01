@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerGlobalScope",
+  "signature": "abstract class ServiceWorkerGlobalScope : WorkerGlobalScope",
+  "items": [
+    {
+      "text": "ServiceWorkerGlobalScope()",
+      "desc": "Exposes the JavaScript ServiceWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open val clients: Clients"
+    },
+    {
+      "text": "open var onactivate: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onfetch: ((FetchEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onforeignfetch: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onfunctionalevent: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oninstall: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onnotificationclick: ((NotificationEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onnotificationclose: ((NotificationEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val registration: ServiceWorkerRegistration"
+    },
+    {
+      "text": "fun skipWaiting(): Promise<Unit>"
+    }
+  ]
+}

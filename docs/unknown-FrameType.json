@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "FrameType",
+  "signature": "interface FrameType",
+  "items": [
+    {
+      "text": "val FrameType.Companion.AUXILIARY: FrameType"
+    },
+    {
+      "text": "val FrameType.Companion.NESTED: FrameType"
+    },
+    {
+      "text": "val FrameType.Companion.NONE: FrameType"
+    },
+    {
+      "text": "val FrameType.Companion.TOP_LEVEL: FrameType"
+    }
+  ]
+}

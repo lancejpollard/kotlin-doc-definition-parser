@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "defaultType",
+  "signature": "val KClass<*>.defaultType: KType",
+  "items": []
+}

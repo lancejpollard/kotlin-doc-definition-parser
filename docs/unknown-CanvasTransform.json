@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "CanvasTransform",
+  "signature": "interface CanvasTransform",
+  "items": [
+    {
+      "text": "abstract fun getTransform(): DOMMatrix"
+    },
+    {
+      "text": "abstract fun resetTransform()"
+    },
+    {
+      "text": "abstract fun rotate(angle: Double)"
+    },
+    {
+      "text": "abstract fun scale(x: Double, y: Double)"
+    },
+    {
+      "text": "abstract fun setTransform( a: Double, b: Double, c: Double, d: Double, e: Double, f: Double)"
+    },
+    {
+      "text": "abstract fun transform( a: Double, b: Double, c: Double, d: Double, e: Double, f: Double)"
+    },
+    {
+      "text": "abstract fun translate(x: Double, y: Double)"
+    },
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    }
+  ]
+}

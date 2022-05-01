@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toTitleCase",
+  "signature": "@DeprecatedSinceKotlin(\"1.5\") fun Char.toTitleCase(): Char",
+  "items": []
+}

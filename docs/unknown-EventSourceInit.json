@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EventSourceInit",
+  "signature": "fun EventSourceInit( withCredentials: Boolean? = false): EventSourceInit",
+  "items": []
+}

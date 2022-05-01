@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "String",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\", \"1.5\") fun String( chars: CharArray): String",
+      "desc": "Converts the characters in the specified array to a string."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\", \"1.5\") fun String( chars: CharArray, offset: Int, length: Int): String",
+      "desc": "Converts the characters from a portion of the specified array to a string."
+    },
+    {
+      "text": "fun String( bytes: ByteArray, offset: Int, length: Int, charset: Charset): String",
+      "desc": "Converts the data from a portion of the specified array of bytes to characters using the specified character set and returns the conversion result as a string."
+    },
+    {
+      "text": "fun String(bytes: ByteArray, charset: Charset): String",
+      "desc": "Converts the data from the specified array of bytes to characters using the specified character set and returns the conversion result as a string."
+    },
+    {
+      "text": "fun String( bytes: ByteArray, offset: Int, length: Int): String",
+      "desc": "Converts the data from a portion of the specified array of bytes to characters using the UTF-8 character set and returns the conversion result as a string."
+    },
+    {
+      "text": "fun String(bytes: ByteArray): String",
+      "desc": "Converts the data from the specified array of bytes to characters using the UTF-8 character set and returns the conversion result as a string."
+    },
+    {
+      "text": "fun String( codePoints: IntArray, offset: Int, length: Int): String",
+      "desc": "Converts the code points from a portion of the specified Unicode code point array to a string."
+    },
+    {
+      "text": "fun String(stringBuffer: StringBuffer): String",
+      "desc": "Converts the contents of the specified StringBuffer to a string."
+    },
+    {
+      "text": "fun String(stringBuilder: StringBuilder): String",
+      "desc": "Converts the contents of the specified StringBuilder to a string."
+    }
+  ],
+  "items": []
+}

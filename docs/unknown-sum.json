@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sum",
+  "signature": "@JvmName(\"sumOfByte\") fun Sequence<Byte>.sum(): Int",
+  "items": []
+}

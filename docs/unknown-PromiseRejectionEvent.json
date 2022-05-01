@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "PromiseRejectionEvent",
+  "signature": "open class PromiseRejectionEvent : Event",
+  "items": [
+    {
+      "text": "PromiseRejectionEvent( type: String, eventInitDict: PromiseRejectionEventInit)",
+      "desc": "Exposes the JavaScript PromiseRejectionEvent to Kotlin"
+    },
+    {
+      "text": "open val promise: Promise<Any?>"
+    },
+    {
+      "text": "open val reason: Any?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

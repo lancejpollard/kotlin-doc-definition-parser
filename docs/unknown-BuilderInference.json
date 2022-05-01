@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "BuilderInference",
+  "signature": "@Target([AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY]) @ExperimentalTypeInference annotation class BuilderInference",
+  "items": [
+    {
+      "text": "BuilderInference()",
+      "desc": "Allows to infer generic type arguments of a function from the calls in the annotated function parameter of that function."
+    }
+  ]
+}

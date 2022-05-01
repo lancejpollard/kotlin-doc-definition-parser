@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGTests",
+  "signature": "interface SVGTests",
+  "items": [
+    {
+      "text": "abstract val requiredExtensions: SVGStringList"
+    },
+    {
+      "text": "abstract val systemLanguage: SVGStringList"
+    },
+    {
+      "text": "abstract class SVGGraphicsElement : SVGElement, SVGTests",
+      "desc": "Exposes the JavaScript SVGGraphicsElement to Kotlin"
+    }
+  ]
+}

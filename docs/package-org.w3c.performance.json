@@ -1,0 +1,21 @@
+{
+  "type": "package",
+  "name": "org.w3c.performance",
+  "items": [
+    {
+      "text": "interface GlobalPerformance"
+    },
+    {
+      "text": "abstract class Performance : EventTarget",
+      "desc": "Exposes the JavaScript Performance to Kotlin"
+    },
+    {
+      "text": "abstract class PerformanceNavigation",
+      "desc": "Exposes the JavaScript PerformanceNavigation to Kotlin"
+    },
+    {
+      "text": "abstract class PerformanceTiming",
+      "desc": "Exposes the JavaScript PerformanceTiming to Kotlin"
+    }
+  ]
+}

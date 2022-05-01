@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeLast",
+  "signature": "fun removeLast(): E",
+  "items": []
+}

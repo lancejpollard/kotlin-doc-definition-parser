@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "CValues",
+  "signature": "abstract class CValues<T : CVariable> : CValuesRef<T>",
+  "items": [
+    {
+      "text": "CValues()",
+      "desc": "The (possibly empty) sequence of immutable C values. It is self-contained and doesn't depend on native memory."
+    },
+    {
+      "text": "abstract val align: Int"
+    },
+    {
+      "text": "abstract val size: Int"
+    },
+    {
+      "text": "open fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "open fun getPointer(scope: AutofreeScope): CPointer<T>",
+      "desc": "Copies the values to placement and returns the pointer to the copy."
+    },
+    {
+      "text": "open fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "abstract fun place(placement: CPointer<T>): CPointer<T>",
+      "desc": "Copy the referenced values to placement and return placement pointer."
+    },
+    {
+      "text": "fun <T : CVariable> CValues<T>.getBytes(): ByteArray"
+    },
+    {
+      "text": "fun <T : CVariable> CValues<T>.placeTo( scope: AutofreeScope): CPointer<T>"
+    },
+    {
+      "text": "abstract class CValue<T : CVariable> : CValues<T>",
+      "desc": "The single immutable C value. It is self-contained and doesn't depend on native memory."
+    }
+  ]
+}

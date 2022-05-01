@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "CSSBoxType",
+  "signature": "interface CSSBoxType",
+  "items": [
+    {
+      "text": "val CSSBoxType.Companion.BORDER: CSSBoxType"
+    },
+    {
+      "text": "val CSSBoxType.Companion.CONTENT: CSSBoxType"
+    },
+    {
+      "text": "val CSSBoxType.Companion.MARGIN: CSSBoxType"
+    },
+    {
+      "text": "val CSSBoxType.Companion.PADDING: CSSBoxType"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "KTypeParameter",
+  "signature": "interface KTypeParameter : KClassifier",
+  "items": [
+    {
+      "text": "abstract val isReified: Boolean",
+      "desc": "true if this type parameter is reified. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "abstract val name: String",
+      "desc": "The name of this type parameter as it was declared in the source code."
+    },
+    {
+      "text": "abstract val upperBounds: List<KType>",
+      "desc": "Upper bounds, or generic constraints imposed on this type parameter. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "abstract val variance: KVariance",
+      "desc": "Declaration-site variance of this type parameter. See the Kotlin language documentation for more information."
+    }
+  ]
+}

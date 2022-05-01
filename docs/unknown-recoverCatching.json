@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "recoverCatching",
+  "signature": "inline fun <R, T : R> Result<T>.recoverCatching( transform: (exception: Throwable) -> R): Result<R>",
+  "items": []
+}

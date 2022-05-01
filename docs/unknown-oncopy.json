@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncopy",
+  "signature": "open var oncopy: ((ClipboardEvent) -> dynamic)?",
+  "items": []
+}

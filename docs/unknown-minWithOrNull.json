@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minWithOrNull",
+  "signature": "fun CharSequence.minWithOrNull( comparator: Comparator<in Char>): Char?",
+  "items": []
+}

@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CanvasGradient",
+  "signature": "abstract class CanvasGradient",
+  "items": [
+    {
+      "text": "CanvasGradient()",
+      "desc": "Exposes the JavaScript CanvasGradient to Kotlin"
+    },
+    {
+      "text": "fun addColorStop(offset: Double, color: String)"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "CSSMediaRule",
+  "signature": "abstract class CSSMediaRule : CSSGroupingRule",
+  "items": [
+    {
+      "text": "CSSMediaRule()",
+      "desc": "Exposes the JavaScript CSSMediaRule to Kotlin"
+    },
+    {
+      "text": "open val media: MediaList"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    }
+  ]
+}

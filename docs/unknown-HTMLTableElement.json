@@ -1,0 +1,134 @@
+{
+  "type": "unknown",
+  "name": "HTMLTableElement",
+  "signature": "abstract class HTMLTableElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLTableElement()",
+      "desc": "Exposes the JavaScript HTMLTableElement to Kotlin"
+    },
+    {
+      "text": "open var align: String"
+    },
+    {
+      "text": "open var bgColor: String"
+    },
+    {
+      "text": "open var border: String"
+    },
+    {
+      "text": "open var caption: HTMLTableCaptionElement?"
+    },
+    {
+      "text": "open var cellPadding: String"
+    },
+    {
+      "text": "open var cellSpacing: String"
+    },
+    {
+      "text": "open var frame: String"
+    },
+    {
+      "text": "open val rows: HTMLCollection"
+    },
+    {
+      "text": "open var rules: String"
+    },
+    {
+      "text": "open var summary: String"
+    },
+    {
+      "text": "open val tBodies: HTMLCollection"
+    },
+    {
+      "text": "open var tFoot: HTMLTableSectionElement?"
+    },
+    {
+      "text": "open var tHead: HTMLTableSectionElement?"
+    },
+    {
+      "text": "open var width: String"
+    },
+    {
+      "text": "fun createCaption(): HTMLTableCaptionElement"
+    },
+    {
+      "text": "fun createTBody(): HTMLTableSectionElement"
+    },
+    {
+      "text": "fun createTFoot(): HTMLTableSectionElement"
+    },
+    {
+      "text": "fun createTHead(): HTMLTableSectionElement"
+    },
+    {
+      "text": "fun deleteCaption()"
+    },
+    {
+      "text": "fun deleteRow(index: Int)"
+    },
+    {
+      "text": "fun deleteTFoot()"
+    },
+    {
+      "text": "fun deleteTHead()"
+    },
+    {
+      "text": "fun insertRow( index: Int = definedExternally): HTMLTableRowElement"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

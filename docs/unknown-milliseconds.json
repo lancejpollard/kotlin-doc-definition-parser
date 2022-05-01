@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "milliseconds",
+  "signatures": [
+    {
+      "text": "inline val Int.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of milliseconds."
+    },
+    {
+      "text": "inline val Long.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of milliseconds."
+    },
+    {
+      "text": "inline val Double.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of milliseconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun milliseconds( value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of milliseconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun milliseconds( value: Double): Duration",
+      "desc": "Returns a Duration representing the specified value number of milliseconds."
+    }
+  ],
+  "items": []
+}

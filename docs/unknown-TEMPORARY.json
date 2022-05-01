@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "TEMPORARY",
+  "signature": "inline val MediaKeySessionType.Companion.TEMPORARY: MediaKeySessionType",
+  "items": []
+}

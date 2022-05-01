@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NotificationAction",
+  "signature": "fun NotificationAction( action: String?, title: String?, icon: String? = undefined): NotificationAction",
+  "items": []
+}

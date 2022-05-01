@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "titlecase",
+  "signatures": [
+    {
+      "text": "fun Char.titlecase(): String",
+      "desc": "Converts this character to title case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "fun Char.titlecase(locale: Locale): String",
+      "desc": "Converts this character to title case using Unicode mapping rules of the specified locale."
+    }
+  ],
+  "items": []
+}

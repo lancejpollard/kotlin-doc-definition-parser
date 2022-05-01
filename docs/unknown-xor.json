@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "xor",
+  "signature": "infix fun BigInteger.xor(other: BigInteger): BigInteger",
+  "items": []
+}

@@ -1,0 +1,40 @@
+{
+  "type": "unknown",
+  "name": "ConstantValue",
+  "signature": "object ConstantValue",
+  "items": [
+    {
+      "text": "annotation class Byte"
+    },
+    {
+      "text": "annotation class Double"
+    },
+    {
+      "text": "annotation class Float"
+    },
+    {
+      "text": "annotation class Int"
+    },
+    {
+      "text": "annotation class Long"
+    },
+    {
+      "text": "annotation class Short"
+    },
+    {
+      "text": "annotation class String"
+    },
+    {
+      "text": "annotation class UByte"
+    },
+    {
+      "text": "annotation class UInt"
+    },
+    {
+      "text": "annotation class ULong"
+    },
+    {
+      "text": "annotation class UShort"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onwaiting",
+  "signature": "open var onwaiting: ((Event) -> dynamic)?",
+  "items": []
+}

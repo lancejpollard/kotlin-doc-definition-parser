@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "takeIf",
+  "signature": "inline fun <T> T.takeIf(predicate: (T) -> Boolean): T?",
+  "items": []
+}

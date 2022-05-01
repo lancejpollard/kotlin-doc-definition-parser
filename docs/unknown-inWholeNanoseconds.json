@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "inWholeNanoseconds",
+  "signature": "val inWholeNanoseconds: Long",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hasSurrogatePairAt",
+  "signature": "fun CharSequence.hasSurrogatePairAt(index: Int): Boolean",
+  "items": []
+}

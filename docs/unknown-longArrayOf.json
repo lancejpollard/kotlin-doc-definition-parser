@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "longArrayOf",
+  "signature": "fun longArrayOf(vararg elements: Long): LongArray",
+  "items": []
+}

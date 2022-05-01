@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ExperimentalStdlibApi",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.ANNOTATION_CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.FIELD, AnnotationTarget.LOCAL_VARIABLE, AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.TYPEALIAS]) annotation class ExperimentalStdlibApi",
+  "items": [
+    {
+      "text": "ExperimentalStdlibApi()",
+      "desc": "This annotation marks the standard library API that is considered experimental and is not subject to the general compatibility guarantees given for the standard library: the behavior of such API may be changed or the API may be removed completely in any further release."
+    }
+  ]
+}

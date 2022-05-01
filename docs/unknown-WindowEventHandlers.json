@@ -1,0 +1,68 @@
+{
+  "type": "unknown",
+  "name": "WindowEventHandlers",
+  "signature": "interface WindowEventHandlers",
+  "items": [
+    {
+      "text": "open var onafterprint: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onbeforeprint: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onbeforeunload: ((BeforeUnloadEvent) -> String?)?"
+    },
+    {
+      "text": "open var onhashchange: ((HashChangeEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onlanguagechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onoffline: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ononline: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onpagehide: ((PageTransitionEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpageshow: ((PageTransitionEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpopstate: ((PopStateEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onrejectionhandled: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onstorage: ((StorageEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onunhandledrejection: ((PromiseRejectionEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onunload: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "abstract class HTMLBodyElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLBodyElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFrameSetElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLFrameSetElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    }
+  ]
+}

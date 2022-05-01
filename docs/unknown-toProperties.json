@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toProperties",
+  "signature": "fun Map<String, String>.toProperties(): Properties",
+  "items": []
+}

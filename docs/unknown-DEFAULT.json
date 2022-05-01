@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DEFAULT",
+  "signature": "inline val NotificationPermission.Companion.DEFAULT: NotificationPermission",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UByteArray",
+  "signature": "@ExperimentalUnsignedTypes inline fun UByteArray( size: Int, init: (Int) -> UByte): UByteArray",
+  "items": []
+}

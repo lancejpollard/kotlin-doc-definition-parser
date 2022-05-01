@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ObjCObjectBaseMeta",
+  "signature": "abstract class ObjCObjectBaseMeta : ObjCObjectBase, ObjCObjectMeta",
+  "items": [
+    {
+      "text": "ObjCObjectBaseMeta()"
+    },
+    {
+      "text": "fun <T : ObjCObjectBase> T.initBy(constructorCall: T): T"
+    }
+  ]
+}

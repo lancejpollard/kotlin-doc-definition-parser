@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "primaryConstructor",
+  "signature": "val <T : Any> KClass<T>.primaryConstructor: KFunction<T>?",
+  "items": []
+}

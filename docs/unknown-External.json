@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "external",
+  "signature": "open val external: External",
+  "items": []
+}

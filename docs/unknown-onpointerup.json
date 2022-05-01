@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpointerup",
+  "signature": "open var onpointerup: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

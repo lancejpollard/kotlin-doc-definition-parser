@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onabort",
+  "signature": "open var onabort: ((Event) -> dynamic)?",
+  "items": []
+}

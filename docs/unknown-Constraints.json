@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Constraints",
+  "signature": "fun Constraints( advanced: Array<ConstraintSet>? = undefined): Constraints",
+  "items": []
+}

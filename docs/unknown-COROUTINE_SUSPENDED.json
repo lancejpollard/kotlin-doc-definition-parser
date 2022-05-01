@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "COROUTINE_SUSPENDED",
+  "signature": "val COROUTINE_SUSPENDED: Any",
+  "items": []
+}

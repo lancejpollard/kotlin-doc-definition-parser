@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "TextTrackKind",
+  "signature": "interface TextTrackKind",
+  "items": [
+    {
+      "text": "val TextTrackKind.Companion.CAPTIONS: TextTrackKind"
+    },
+    {
+      "text": "val TextTrackKind.Companion.CHAPTERS: TextTrackKind"
+    },
+    {
+      "text": "val TextTrackKind.Companion.DESCRIPTIONS: TextTrackKind"
+    },
+    {
+      "text": "val TextTrackKind.Companion.METADATA: TextTrackKind"
+    },
+    {
+      "text": "val TextTrackKind.Companion.SUBTITLES: TextTrackKind"
+    }
+  ]
+}

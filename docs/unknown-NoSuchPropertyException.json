@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "NoSuchPropertyException",
+  "signature": "class NoSuchPropertyException : Exception",
+  "items": [
+    {
+      "text": "NoSuchPropertyException(cause: Exception? = null)",
+      "desc": "An exception that is thrown when the code tries to introspect a property of a class or a package and that class or the package no longer has that property."
+    },
+    {
+      "text": "val Throwable.stackTrace: Array<StackTraceElement>",
+      "desc": "Returns an array of stack trace elements representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    }
+  ]
+}

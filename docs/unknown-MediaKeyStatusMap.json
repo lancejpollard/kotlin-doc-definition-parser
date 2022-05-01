@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "MediaKeyStatusMap",
+  "signature": "abstract class MediaKeyStatusMap",
+  "items": [
+    {
+      "text": "MediaKeyStatusMap()",
+      "desc": "Exposes the JavaScript MediaKeyStatusMap to Kotlin"
+    },
+    {
+      "text": "open val size: Int"
+    },
+    {
+      "text": "fun get(keyId: dynamic): Any?"
+    },
+    {
+      "text": "fun has(keyId: dynamic): Boolean"
+    }
+  ]
+}

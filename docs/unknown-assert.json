@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "assert",
+  "signatures": [
+    {
+      "text": "fun assert(value: Boolean)",
+      "desc": "Throws an AssertionError if the value is false and runtime assertions have been enabled on the JVM using the -ea JVM option."
+    },
+    {
+      "text": "inline fun assert(value: Boolean, lazyMessage: () -> Any)",
+      "desc": "Throws an AssertionError calculated by lazyMessage if the value is false and runtime assertions have been enabled on the JVM using the -ea JVM option."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NativePtr",
+  "signature": "typealias NativePtr = NativePtr",
+  "items": []
+}

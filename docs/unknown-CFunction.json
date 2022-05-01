@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "CFunction",
+  "signature": "class CFunction<T : Function<*>> : CPointed",
+  "items": [
+    {
+      "text": "CFunction(rawPtr: NativePtr)",
+      "desc": "The C function."
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    }
+  ]
+}

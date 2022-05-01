@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "free",
+  "signature": "fun NativeFreeablePlacement.free(pointer: CPointer<*>)",
+  "items": []
+}

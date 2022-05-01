@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "suppressedExceptions",
+  "signature": "val Throwable.suppressedExceptions: List<Throwable>",
+  "items": []
+}

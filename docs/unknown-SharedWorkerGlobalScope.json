@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "SharedWorkerGlobalScope",
+  "signature": "abstract class SharedWorkerGlobalScope : WorkerGlobalScope",
+  "items": [
+    {
+      "text": "SharedWorkerGlobalScope()",
+      "desc": "Exposes the JavaScript SharedWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open val applicationCache: ApplicationCache"
+    },
+    {
+      "text": "open val name: String"
+    },
+    {
+      "text": "open var onconnect: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "fun close()"
+    }
+  ]
+}

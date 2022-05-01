@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLShader",
+  "signature": "abstract class WebGLShader : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLShader()",
+      "desc": "Exposes the JavaScript WebGLShader to Kotlin"
+    }
+  ]
+}

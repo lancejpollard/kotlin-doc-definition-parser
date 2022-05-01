@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "binarySearchBy",
+  "signature": "inline fun <T, K : Comparable<K>> List<T>.binarySearchBy( key: K?, fromIndex: Int = 0, toIndex: Int = size, crossinline selector: (T) -> K?): Int",
+  "items": []
+}

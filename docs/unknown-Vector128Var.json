@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Vector128Var",
+  "signature": "typealias Vector128Var = Vector128VarOf<Vector128>",
+  "items": []
+}

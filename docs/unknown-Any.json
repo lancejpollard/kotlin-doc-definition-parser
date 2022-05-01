@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "any",
+  "signatures": [
+    {
+      "text": "fun CharSequence.any(): Boolean",
+      "desc": "Returns true if char sequence has at least one character."
+    },
+    {
+      "text": "inline fun CharSequence.any( predicate: (Char) -> Boolean): Boolean",
+      "desc": "Returns true if at least one character matches the given predicate."
+    }
+  ],
+  "items": []
+}

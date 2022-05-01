@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CASE_INSENSITIVE_ORDER",
+  "signature": "val String.Companion.CASE_INSENSITIVE_ORDER: Comparator<String>",
+  "items": []
+}

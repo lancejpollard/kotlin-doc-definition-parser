@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "VIDEOINPUT",
+  "signature": "inline val MediaDeviceKind.Companion.VIDEOINPUT: MediaDeviceKind",
+  "items": []
+}

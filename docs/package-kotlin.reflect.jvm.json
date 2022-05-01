@@ -1,0 +1,50 @@
+{
+  "type": "package",
+  "name": "kotlin.reflect.jvm",
+  "items": [
+    {
+      "text": "annotation class ExperimentalReflectionOnLambdas",
+      "desc": "This annotation marks the experimental kotlin-reflect API that allows to approximate a Kotlin lambda or a function expression instance to a KFunction instance. The behavior of this API may be changed or the API may be removed completely in any further release."
+    },
+    {
+      "text": "var KCallable<*>.isAccessible: Boolean",
+      "desc": "Provides a way to suppress JVM access checks for a callable."
+    },
+    {
+      "text": "val <T> KFunction<T>.javaConstructor: Constructor<T>?",
+      "desc": "Returns a Java Constructor instance corresponding to the given Kotlin function, or null if this function is not a constructor or cannot be represented by a Java Constructor."
+    },
+    {
+      "text": "val KProperty<*>.javaField: Field?",
+      "desc": "Returns a Java Field instance corresponding to the backing field of the given property, or null if the property has no backing field."
+    },
+    {
+      "text": "val KProperty<*>.javaGetter: Method?",
+      "desc": "Returns a Java Method instance corresponding to the getter of the given property, or null if the property has no getter, for example in case of a simple private val in a class."
+    },
+    {
+      "text": "val KFunction<*>.javaMethod: Method?",
+      "desc": "Returns a Java Method instance corresponding to the given Kotlin function, or null if this function is a constructor or cannot be represented by a Java Method."
+    },
+    {
+      "text": "val KMutableProperty<*>.javaSetter: Method?",
+      "desc": "Returns a Java Method instance corresponding to the setter of the given mutable property, or null if the property has no setter, for example in case of a simple private var in a class."
+    },
+    {
+      "text": "val KType.javaType: Type",
+      "desc": "Returns a Java Type instance corresponding to the given Kotlin type. Note that one Kotlin type may correspond to different JVM types depending on where it appears. For example, Unit corresponds to the JVM class Unit when it's the type of a parameter, or to void when it's the return type of a function."
+    },
+    {
+      "text": "val KType.jvmErasure: KClass<*>",
+      "desc": "Returns the KClass instance representing the runtime class to which this type is erased to on JVM."
+    },
+    {
+      "text": "val KClass<*>.jvmName: String",
+      "desc": "Returns the JVM name of the class represented by this KClass instance."
+    },
+    {
+      "text": "fun <R> Function<R>.reflect(): KFunction<R>?",
+      "desc": "This is an experimental API. Given a class for a compiled Kotlin lambda or a function expression, returns a KFunction instance providing introspection capabilities for that lambda or function expression and its parameters. Not all features are currently supported, in particular KCallable.call and KCallable.callBy will fail at the moment."
+    }
+  ]
+}

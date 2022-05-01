@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "convert",
+  "signature": "fun <reified R : Any> Byte.convert(): R",
+  "items": []
+}

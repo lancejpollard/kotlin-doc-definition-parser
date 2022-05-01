@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minusPolymorphicKey",
+  "signature": "@ExperimentalStdlibApi fun Element.minusPolymorphicKey( key: Key<*>): CoroutineContext",
+  "items": []
+}

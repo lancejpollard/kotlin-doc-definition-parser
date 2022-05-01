@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "RequestCache",
+  "signature": "interface RequestCache",
+  "items": [
+    {
+      "text": "val RequestCache.Companion.DEFAULT: RequestCache"
+    },
+    {
+      "text": "val RequestCache.Companion.FORCE_CACHE: RequestCache"
+    },
+    {
+      "text": "val RequestCache.Companion.NO_CACHE: RequestCache"
+    },
+    {
+      "text": "val RequestCache.Companion.NO_STORE: RequestCache"
+    },
+    {
+      "text": "val RequestCache.Companion.ONLY_IF_CACHED: RequestCache"
+    },
+    {
+      "text": "val RequestCache.Companion.RELOAD: RequestCache"
+    }
+  ]
+}

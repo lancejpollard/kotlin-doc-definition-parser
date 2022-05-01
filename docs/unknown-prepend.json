@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "prepend",
+  "signature": "open fun prepend(vararg nodes: dynamic)",
+  "items": []
+}

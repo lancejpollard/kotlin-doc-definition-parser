@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "SVGUnitTypes",
+  "signature": "interface SVGUnitTypes",
+  "items": [
+    {
+      "text": "val SVG_UNIT_TYPE_OBJECTBOUNDINGBOX: Short"
+    },
+    {
+      "text": "val SVG_UNIT_TYPE_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_UNIT_TYPE_USERSPACEONUSE: Short"
+    },
+    {
+      "text": "abstract class SVGClipPathElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGClipPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGradientElement : SVGElement, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMaskElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGMaskElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPatternElement : SVGElement, SVGFitToViewBox, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGPatternElement to Kotlin"
+    }
+  ]
+}

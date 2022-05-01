@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "capitalize",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.capitalize(): String",
+      "desc": "Returns a copy of this string having its first letter titlecased using the rules of the default locale, or the original string if it's empty or already starts with a title case letter."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.capitalize( locale: Locale): String",
+      "desc": "Returns a copy of this string having its first letter titlecased using the rules of the specified locale, or the original string if it's empty or already starts with a title case letter."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "sortBy",
+  "signatures": [
+    {
+      "text": "inline fun <T, R : Comparable<R>> Array<out T>.sortBy( crossinline selector: (T) -> R?)",
+      "desc": "Sorts elements in the array in-place according to natural sort order of the value returned by specified selector function."
+    },
+    {
+      "text": "inline fun <T, R : Comparable<R>> MutableList<T>.sortBy( crossinline selector: (T) -> R?)",
+      "desc": "Sorts elements in the list in-place according to natural sort order of the value returned by specified selector function."
+    }
+  ],
+  "items": []
+}

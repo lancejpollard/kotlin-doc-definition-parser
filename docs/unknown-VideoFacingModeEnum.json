@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "VideoFacingModeEnum",
+  "signature": "interface VideoFacingModeEnum",
+  "items": [
+    {
+      "text": "val VideoFacingModeEnum.Companion.ENVIRONMENT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.LEFT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.RIGHT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.USER: VideoFacingModeEnum"
+    }
+  ]
+}

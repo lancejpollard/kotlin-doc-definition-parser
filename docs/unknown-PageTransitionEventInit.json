@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PageTransitionEventInit",
+  "signature": "fun PageTransitionEventInit( persisted: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PageTransitionEventInit",
+  "items": []
+}

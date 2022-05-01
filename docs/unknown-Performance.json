@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "Performance",
+  "signature": "abstract class Performance : EventTarget",
+  "items": [
+    {
+      "text": "Performance()",
+      "desc": "Exposes the JavaScript Performance to Kotlin"
+    },
+    {
+      "text": "open val navigation: PerformanceNavigation"
+    },
+    {
+      "text": "open val timing: PerformanceTiming"
+    },
+    {
+      "text": "fun now(): Double"
+    }
+  ]
+}

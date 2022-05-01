@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "readyState",
+  "signature": "open val readyState: DocumentReadyState",
+  "items": []
+}

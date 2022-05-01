@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "replaceFirst",
+  "signatures": [
+    {
+      "text": "fun String.replaceFirst( oldChar: Char, newChar: Char, ignoreCase: Boolean = false): String",
+      "desc": "Returns a new string with the first occurrence of oldChar replaced with newChar."
+    },
+    {
+      "text": "fun String.replaceFirst( oldValue: String, newValue: String, ignoreCase: Boolean = false): String",
+      "desc": "Returns a new string obtained by replacing the first occurrence of the oldValue substring in this string with the specified newValue string."
+    },
+    {
+      "text": "fun CharSequence.replaceFirst( regex: Regex, replacement: String): String",
+      "desc": "Replaces the first occurrence of the given regular expression regex in this char sequence with specified replacement expression."
+    }
+  ],
+  "items": []
+}

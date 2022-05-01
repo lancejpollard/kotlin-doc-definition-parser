@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "readln",
+  "signature": "fun readln(): String",
+  "items": []
+}

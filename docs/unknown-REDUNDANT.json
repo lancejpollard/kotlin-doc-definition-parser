@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "REDUNDANT",
+  "signature": "inline val ServiceWorkerState.Companion.REDUNDANT: ServiceWorkerState",
+  "items": []
+}

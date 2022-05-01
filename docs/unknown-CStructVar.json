@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "CStructVar",
+  "signature": "abstract class CStructVar : CVariable",
+  "items": [
+    {
+      "text": "open class Type : Type"
+    },
+    {
+      "text": "CStructVar(rawPtr: NativePtr)",
+      "desc": "The C struct-typed variable located in memory."
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CStructVar.arrayMemberAt( offset: Long): CArrayPointer<T>"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CPointed> CStructVar.memberAt(offset: Long): T",
+      "desc": "Returns the member of this CStructVar which is located by given offset in bytes."
+    },
+    {
+      "text": "fun <T : CStructVar> T.readValue(): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    }
+  ]
+}

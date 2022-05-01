@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cosh",
+  "signature": "fun cosh(x: Double): Double",
+  "items": []
+}

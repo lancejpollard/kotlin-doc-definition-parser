@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minByOrNull",
+  "signature": "inline fun <R : Comparable<R>> CharSequence.minByOrNull( selector: (Char) -> R): Char?",
+  "items": []
+}

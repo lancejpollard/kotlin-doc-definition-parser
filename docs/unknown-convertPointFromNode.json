@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "convertPointFromNode",
+  "signature": "open fun convertPointFromNode( point: DOMPointInit, from: dynamic, options: ConvertCoordinateOptions): DOMPoint",
+  "items": []
+}

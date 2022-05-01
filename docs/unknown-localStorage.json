@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "localStorage",
+  "signature": "val localStorage: Storage",
+  "items": []
+}

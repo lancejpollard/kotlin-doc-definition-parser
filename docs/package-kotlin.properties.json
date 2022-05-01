@@ -1,0 +1,26 @@
+{
+  "type": "package",
+  "name": "kotlin.properties",
+  "items": [
+    {
+      "text": "object Delegates",
+      "desc": "Standard property delegates."
+    },
+    {
+      "text": "abstract class ObservableProperty<V> : ReadWriteProperty<Any?, V>",
+      "desc": "Implements the core logic of a property delegate for a read/write property that calls callback functions when changed."
+    },
+    {
+      "text": "fun interface PropertyDelegateProvider<in T, out D>",
+      "desc": "Base interface that can be used for implementing property delegate providers."
+    },
+    {
+      "text": "fun interface ReadOnlyProperty<in T, out V>",
+      "desc": "Base interface that can be used for implementing property delegates of read-only properties."
+    },
+    {
+      "text": "interface ReadWriteProperty<in T, V> : ReadOnlyProperty<T, V>",
+      "desc": "Base interface that can be used for implementing property delegates of read-write properties."
+    }
+  ]
+}

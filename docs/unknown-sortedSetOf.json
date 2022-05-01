@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "sortedSetOf",
+  "signatures": [
+    {
+      "text": "fun <T> sortedSetOf(vararg elements: T): TreeSet<T>",
+      "desc": "Returns a new java.util.SortedSet with the given elements."
+    },
+    {
+      "text": "fun <T> sortedSetOf( comparator: Comparator<in T>, vararg elements: T): TreeSet<T>",
+      "desc": "Returns a new java.util.SortedSet with the given comparator and elements."
+    }
+  ],
+  "items": []
+}

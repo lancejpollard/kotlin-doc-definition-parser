@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createDocumentFragment",
+  "signature": "fun createDocumentFragment(): DocumentFragment",
+  "items": []
+}

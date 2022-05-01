@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "ObservableProperty",
+  "signature": "abstract class ObservableProperty<V> : ReadWriteProperty<Any?, V>",
+  "items": [
+    {
+      "text": "ObservableProperty(initialValue: V)",
+      "desc": "Implements the core logic of a property delegate for a read/write property that calls callback functions when changed."
+    },
+    {
+      "text": "open fun afterChange( property: KProperty<*>, oldValue: V, newValue: V)",
+      "desc": "The callback which is called after the change of the property is made. The value of the property has already been changed when this callback is invoked."
+    },
+    {
+      "text": "open fun beforeChange( property: KProperty<*>, oldValue: V, newValue: V): Boolean",
+      "desc": "The callback which is called before a change to the property value is attempted. The value of the property hasn't been changed yet, when this callback is invoked. If the callback returns true the value of the property is being set to the new value, and if the callback returns false the new value is discarded and the property remains its old value."
+    },
+    {
+      "text": "open fun getValue(thisRef: Any?, property: KProperty<*>): V",
+      "desc": "Returns the value of the property for the given object."
+    },
+    {
+      "text": "open fun setValue( thisRef: Any?, property: KProperty<*>, value: V)",
+      "desc": "Sets the value of the property for the given object."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "intersect",
+  "signatures": [
+    {
+      "text": "infix fun <T> Array<out T>.intersect( other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all elements that are contained by both this array and the specified collection."
+    },
+    {
+      "text": "infix fun <T> Iterable<T>.intersect( other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all elements that are contained by both this collection and the specified collection."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "IMAGE",
+  "signature": "inline val RequestType.Companion.IMAGE: RequestType",
+  "items": []
+}

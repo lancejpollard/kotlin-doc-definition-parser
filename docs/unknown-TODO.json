@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "TODO",
+  "signatures": [
+    {
+      "text": "fun TODO(): Nothing",
+      "desc": "Always throws NotImplementedError stating that operation is not implemented."
+    },
+    {
+      "text": "fun TODO(reason: String): Nothing",
+      "desc": "Always throws NotImplementedError stating that operation is not implemented."
+    }
+  ],
+  "items": []
+}

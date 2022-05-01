@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "Clients",
+  "signature": "abstract class Clients",
+  "items": [
+    {
+      "text": "Clients()",
+      "desc": "Exposes the JavaScript Clients to Kotlin"
+    },
+    {
+      "text": "fun claim(): Promise<Unit>"
+    },
+    {
+      "text": "fun get(id: String): Promise<Any?>"
+    },
+    {
+      "text": "fun matchAll( options: ClientQueryOptions = definedExternally): Promise<Array<Client>>"
+    },
+    {
+      "text": "fun openWindow(url: String): Promise<WindowClient?>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "unknown",
+  "name": "ExtendableEvent",
+  "signature": "open class ExtendableEvent : Event",
+  "items": [
+    {
+      "text": "ExtendableEvent( type: String, eventInitDict: ExtendableEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript ExtendableEvent to Kotlin"
+    },
+    {
+      "text": "fun waitUntil(f: Promise<Any?>)"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    },
+    {
+      "text": "open class ExtendableMessageEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript ExtendableMessageEvent to Kotlin"
+    },
+    {
+      "text": "open class FetchEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript FetchEvent to Kotlin"
+    },
+    {
+      "text": "open class ForeignFetchEvent : ExtendableEvent"
+    },
+    {
+      "text": "open class FunctionalEvent : ExtendableEvent"
+    },
+    {
+      "text": "open class InstallEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript InstallEvent to Kotlin"
+    },
+    {
+      "text": "open class NotificationEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript NotificationEvent to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "closed",
+  "signature": "open val closed: Boolean",
+  "items": []
+}

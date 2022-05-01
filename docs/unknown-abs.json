@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "abs",
+  "signatures": [
+    {
+      "text": "fun abs(x: Double): Double",
+      "desc": "Returns the absolute value of the given value x."
+    },
+    {
+      "text": "fun abs(n: Int): Int",
+      "desc": "Returns the absolute value of the given value n."
+    },
+    {
+      "text": "fun abs(n: Long): Long",
+      "desc": "Returns the absolute value of the given value n."
+    }
+  ],
+  "items": []
+}

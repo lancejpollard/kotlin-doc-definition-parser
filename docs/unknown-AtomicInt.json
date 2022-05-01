@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "AtomicInt",
+  "signature": "class AtomicInt",
+  "items": [
+    {
+      "text": "AtomicInt(value_: Int)",
+      "desc": "Atomic values and freezing: atomics AtomicInt, AtomicLong, AtomicNativePtr and AtomicReference are unique types with regard to freezing. Namely, they provide mutating operations, while can participate in frozen subgraphs. So shared frozen objects can have fields of atomic types."
+    },
+    {
+      "text": "var value: Int",
+      "desc": "The value being held by this class."
+    },
+    {
+      "text": "fun addAndGet(delta: Int): Int",
+      "desc": "Increments the value by delta and returns the new value."
+    },
+    {
+      "text": "fun compareAndSet(expected: Int, new: Int): Boolean",
+      "desc": "Compares value with expected and replaces it with new value if values matches."
+    },
+    {
+      "text": "fun compareAndSwap(expected: Int, new: Int): Int",
+      "desc": "Compares value with expected and replaces it with new value if values matches."
+    },
+    {
+      "text": "fun decrement()",
+      "desc": "Decrements value by one."
+    },
+    {
+      "text": "fun increment()",
+      "desc": "Increments value by one."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this object."
+    }
+  ]
+}

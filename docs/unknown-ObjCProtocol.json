@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ObjCProtocol",
+  "signature": "interface ObjCProtocol : ObjCObject",
+  "items": []
+}

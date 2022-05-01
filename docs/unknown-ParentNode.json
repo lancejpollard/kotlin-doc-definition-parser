@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "ParentNode",
+  "signature": "interface ParentNode",
+  "items": [
+    {
+      "text": "abstract val childElementCount: Int"
+    },
+    {
+      "text": "abstract val children: HTMLCollection"
+    },
+    {
+      "text": "open val firstElementChild: Element?"
+    },
+    {
+      "text": "open val lastElementChild: Element?"
+    },
+    {
+      "text": "abstract fun append(vararg nodes: dynamic)"
+    },
+    {
+      "text": "abstract fun prepend(vararg nodes: dynamic)"
+    },
+    {
+      "text": "abstract fun querySelector(selectors: String): Element?"
+    },
+    {
+      "text": "abstract fun querySelectorAll(selectors: String): NodeList"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "open class DocumentFragment : Node, NonElementParentNode, ParentNode",
+      "desc": "Exposes the JavaScript DocumentFragment to Kotlin"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    }
+  ]
+}

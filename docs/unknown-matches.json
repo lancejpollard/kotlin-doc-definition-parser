@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "matches",
+  "signatures": [
+    {
+      "text": "infix fun CharSequence.matches(regex: Regex): Boolean",
+      "desc": "Returns true if this char sequence matches the given regular expression."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.6\") fun String.matches( regex: String): Boolean"
+    }
+  ],
+  "items": []
+}

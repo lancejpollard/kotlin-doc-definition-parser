@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "NavigatorPlugins",
+  "signature": "interface NavigatorPlugins",
+  "items": [
+    {
+      "text": "abstract val mimeTypes: MimeTypeArray"
+    },
+    {
+      "text": "abstract val plugins: PluginArray"
+    },
+    {
+      "text": "abstract fun javaEnabled(): Boolean"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    }
+  ]
+}

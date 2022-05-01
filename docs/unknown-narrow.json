@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "narrow",
+  "signature": "fun <reified R : Number> Number.narrow(): R",
+  "items": []
+}

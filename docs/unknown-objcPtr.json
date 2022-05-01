@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objcPtr",
+  "signature": "fun Any?.objcPtr(): NativePtr",
+  "items": []
+}

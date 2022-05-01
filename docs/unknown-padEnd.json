@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "padEnd",
+  "signatures": [
+    {
+      "text": "fun CharSequence.padEnd( length: Int, padChar: Char = ' '): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence padded at the end to the specified length with the specified character or space."
+    },
+    {
+      "text": "fun String.padEnd(length: Int, padChar: Char = ' '): String",
+      "desc": "Pads the string to the specified length at the end with the specified character or space."
+    }
+  ],
+  "items": []
+}

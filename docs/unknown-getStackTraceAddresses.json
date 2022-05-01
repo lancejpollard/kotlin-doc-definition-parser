@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getStackTraceAddresses",
+  "signature": "fun Throwable.getStackTraceAddresses(): List<Long>",
+  "items": []
+}

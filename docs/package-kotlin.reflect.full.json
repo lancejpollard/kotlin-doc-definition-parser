@@ -1,0 +1,182 @@
+{
+  "type": "package",
+  "name": "kotlin.reflect.full",
+  "items": [
+    {
+      "text": "class IllegalCallableAccessException : Exception",
+      "desc": "An exception that is thrown when call is invoked on a callable or get or set is invoked on a property and that callable is not accessible (in JVM terms) from the calling method."
+    },
+    {
+      "text": "class IllegalPropertyDelegateAccessException : Exception",
+      "desc": "An exception that is thrown when getDelegate is invoked on a KProperty object that was not made accessible with isAccessible."
+    },
+    {
+      "text": "class NoSuchPropertyException : Exception",
+      "desc": "An exception that is thrown when the code tries to introspect a property of a class or a package and that class or the package no longer has that property."
+    },
+    {
+      "text": "val KClass<*>.allSuperclasses: Collection<KClass<*>>",
+      "desc": "All superclasses of this class, including indirect ones, in no particular order. Includes superclasses and superinterfaces of the class, but does not include the class itself. The returned collection does not contain more than one instance of any given class."
+    },
+    {
+      "text": "val KClass<*>.allSupertypes: Collection<KType>",
+      "desc": "All supertypes of this class, including indirect ones, in no particular order. There is not more than one type in the returned collection that has any given classifier."
+    },
+    {
+      "text": "val KClass<*>.companionObject: KClass<*>?",
+      "desc": "Returns a KClass instance representing the companion object of a given class, or null if the class doesn't have a companion object."
+    },
+    {
+      "text": "val KClass<*>.companionObjectInstance: Any?",
+      "desc": "Returns an instance of the companion object of a given class, or null if the class doesn't have a companion object."
+    },
+    {
+      "text": "val KClass<*>.declaredFunctions: Collection<KFunction<*>>",
+      "desc": "Returns all functions declared in this class. If this is a Java class, it includes all non-static methods (both extensions and non-extensions) declared in the class and the superclasses, as well as static methods declared in the class."
+    },
+    {
+      "text": "val KClass<*>.declaredMemberExtensionFunctions: Collection<KFunction<*>>",
+      "desc": "Returns extension functions declared in this class."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.declaredMemberExtensionProperties: Collection<KProperty2<T, *, *>>",
+      "desc": "Returns extension properties declared in this class."
+    },
+    {
+      "text": "val KClass<*>.declaredMemberFunctions: Collection<KFunction<*>>",
+      "desc": "Returns non-extension non-static functions declared in this class."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.declaredMemberProperties: Collection<KProperty1<T, *>>",
+      "desc": "Returns non-extension properties declared in this class."
+    },
+    {
+      "text": "val KClass<*>.declaredMembers: Collection<KCallable<*>>",
+      "desc": "Returns all functions and properties declared in this class. Does not include members declared in supertypes."
+    },
+    {
+      "text": "val KClass<*>.defaultType: KType",
+      "desc": "Returns a type corresponding to the given class with type parameters of that class substituted as the corresponding arguments. For example, for class MyMap<K, V> defaultType would return the type MyMap<K, V>."
+    },
+    {
+      "text": "val KCallable<*>.extensionReceiverParameter: KParameter?",
+      "desc": "Returns a parameter representing the extension receiver instance needed to call this callable, or null if this callable is not an extension."
+    },
+    {
+      "text": "val KClass<*>.functions: Collection<KFunction<*>>",
+      "desc": "Returns all functions declared in this class, including all non-static methods declared in the class and the superclasses, as well as static methods declared in the class."
+    },
+    {
+      "text": "val KCallable<*>.instanceParameter: KParameter?",
+      "desc": "Returns a parameter representing the this instance needed to call this callable, or null if this callable is not a member of a class and thus doesn't take such parameter."
+    },
+    {
+      "text": "val KClass<*>.memberExtensionFunctions: Collection<KFunction<*>>",
+      "desc": "Returns extension functions declared in this class and all of its superclasses."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.memberExtensionProperties: Collection<KProperty2<T, *, *>>",
+      "desc": "Returns extension properties declared in this class and all of its superclasses."
+    },
+    {
+      "text": "val KClass<*>.memberFunctions: Collection<KFunction<*>>",
+      "desc": "Returns non-extension non-static functions declared in this class and all of its superclasses."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.memberProperties: Collection<KProperty1<T, *>>",
+      "desc": "Returns non-extension properties declared in this class and all of its superclasses."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.primaryConstructor: KFunction<T>?",
+      "desc": "Returns the primary constructor of this class, or null if this class has no primary constructor. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "val KClassifier.starProjectedType: KType",
+      "desc": "Creates an instance of KType with the given classifier, substituting all its type parameters with star projections. The resulting type is not marked as nullable and does not have any annotations."
+    },
+    {
+      "text": "val KClass<*>.staticFunctions: Collection<KFunction<*>>",
+      "desc": "Returns static functions declared in this class."
+    },
+    {
+      "text": "val KClass<*>.staticProperties: Collection<KProperty0<*>>",
+      "desc": "Returns static properties declared in this class. Only properties representing static fields of Java classes are considered static."
+    },
+    {
+      "text": "val KClass<*>.superclasses: List<KClass<*>>",
+      "desc": "Immediate superclasses of this class, in the order they are listed in the source code. Includes superclasses and superinterfaces of the class, but does not include the class itself."
+    },
+    {
+      "text": "val KCallable<*>.valueParameters: List<KParameter>",
+      "desc": "Returns parameters of this callable, excluding the this instance and the extension receiver parameter."
+    },
+    {
+      "text": "suspend fun <R> KCallable<R>.callSuspend( vararg args: Any?): R",
+      "desc": "Calls a callable in the current suspend context. If the callable is not a suspend function, behaves as KCallable.call. Otherwise, calls the suspend function with current continuation."
+    },
+    {
+      "text": "suspend fun <R> KCallable<R>.callSuspendBy( args: Map<KParameter, Any?>): R",
+      "desc": "Calls a callable in the current suspend context. If the callable is not a suspend function, behaves as KCallable.callBy. Otherwise, calls the suspend function with current continuation."
+    },
+    {
+      "text": "fun <T : Any> KClass<T>.cast(value: Any?): T",
+      "desc": "Casts the given value to the class represented by this KClass object. Throws an exception if the value is null or if it is not an instance of this class."
+    },
+    {
+      "text": "fun <T : Any> KClass<T>.createInstance(): T",
+      "desc": "Creates a new instance of the class, calling a constructor which either has no parameters or all parameters of which are optional (see KParameter.isOptional). If there are no or many such constructors, an exception is thrown."
+    },
+    {
+      "text": "fun KClassifier.createType( arguments: List<KTypeProjection> = emptyList(), nullable: Boolean = false, annotations: List<Annotation> = emptyList()): KType",
+      "desc": "Creates a KType instance with the given classifier, type arguments, nullability and annotations. If the number of passed type arguments is not equal to the total number of type parameters of a classifier, an exception is thrown. If any of the arguments does not satisfy the bounds of the corresponding type parameter, an exception is thrown."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotation(): T?",
+      "desc": "Returns an annotation of the given type on this element."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotations(): List<T>",
+      "desc": "Returns all annotations of the given type on this element, including individually applied annotations as well as repeated annotations."
+    },
+    {
+      "text": "fun KCallable<*>.findParameterByName( name: String): KParameter?",
+      "desc": "Returns the parameter of this callable with the given name, or null if there's no such parameter."
+    },
+    {
+      "text": "fun KProperty1<*, *>.getExtensionDelegate(): Any?",
+      "desc": "Returns the instance of a delegated extension property, or null if this property is not delegated. Throws an exception if this is not an extension property."
+    },
+    {
+      "text": "fun <D> KProperty2<D, *, *>.getExtensionDelegate( receiver: D): Any?",
+      "desc": "Returns the instance of a delegated member extension property, or null if this property is not delegated. Throws an exception if this is not an extension property."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.hasAnnotation(): Boolean",
+      "desc": "Returns true if this element is annotated with an annotation of type T."
+    },
+    {
+      "text": "fun KClass<*>.isSubclassOf(base: KClass<*>): Boolean",
+      "desc": "Returns true if this class is the same or is a (possibly indirect) subclass of base, false otherwise."
+    },
+    {
+      "text": "fun KType.isSubtypeOf(other: KType): Boolean",
+      "desc": "Returns true if this type is the same or is a subtype of other, false otherwise."
+    },
+    {
+      "text": "fun KClass<*>.isSuperclassOf(derived: KClass<*>): Boolean",
+      "desc": "Returns true if this class is the same or is a (possibly indirect) superclass of derived, false otherwise."
+    },
+    {
+      "text": "fun KType.isSupertypeOf(other: KType): Boolean",
+      "desc": "Returns true if this type is the same or is a supertype of other, false otherwise."
+    },
+    {
+      "text": "fun <T : Any> KClass<T>.safeCast(value: Any?): T?",
+      "desc": "Casts the given value to the class represented by this KClass object. Returns null if the value is null or if it is not an instance of this class."
+    },
+    {
+      "text": "fun KType.withNullability(nullable: Boolean): KType",
+      "desc": "Returns a new type with the same classifier, arguments and annotations as the given type, and with the given nullability."
+    }
+  ]
+}

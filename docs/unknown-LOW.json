@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "LOW",
+  "signature": "inline val ImageSmoothingQuality.Companion.LOW: ImageSmoothingQuality",
+  "items": []
+}

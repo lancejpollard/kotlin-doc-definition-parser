@@ -1,0 +1,34 @@
+{
+  "type": "package",
+  "name": "kotlin.io.path",
+  "items": [
+    {
+      "text": "annotation class ExperimentalPathApi",
+      "desc": "This annotation marks the extensions and top-level functions for working with java.nio.file.Path considered experimental."
+    },
+    {
+      "text": "fun createTempDirectory( prefix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates a new directory in the default temp directory, using the given prefix to generate its name."
+    },
+    {
+      "text": "fun createTempDirectory( directory: Path?, prefix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates a new directory in the specified directory, using the given prefix to generate its name."
+    },
+    {
+      "text": "fun createTempFile( prefix: String? = null, suffix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates an empty file in the default temp directory, using the given prefix and suffix to generate its name."
+    },
+    {
+      "text": "fun createTempFile( directory: Path?, prefix: String? = null, suffix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates an empty file in the specified directory, using the given prefix and suffix to generate its name."
+    },
+    {
+      "text": "fun Path(path: String): Path",
+      "desc": "Converts the provided path string to a Path object of the default filesystem."
+    },
+    {
+      "text": "fun Path(base: String, vararg subpaths: String): Path",
+      "desc": "Converts the name sequence specified with the base path string and a number of subpaths additional names to a Path object of the default filesystem."
+    }
+  ]
+}

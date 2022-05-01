@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SAME_ORIGIN",
+  "signature": "inline val RequestMode.Companion.SAME_ORIGIN: RequestMode",
+  "items": []
+}

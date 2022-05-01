@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asShortArray",
+  "signature": "@ExperimentalUnsignedTypes fun UShortArray.asShortArray(): ShortArray",
+  "items": []
+}

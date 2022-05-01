@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OverconstrainedErrorEventInit",
+  "signature": "fun OverconstrainedErrorEventInit( error: dynamic = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): OverconstrainedErrorEventInit",
+  "items": []
+}

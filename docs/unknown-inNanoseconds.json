@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "inNanoseconds",
+  "signature": "@ExperimentalTime val inNanoseconds: Double",
+  "items": []
+}

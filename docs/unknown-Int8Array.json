@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "Int8Array",
+  "signature": "open class Int8Array : ArrayBufferView",
+  "items": [
+    {
+      "text": "Int8Array(length: Int)"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun set(array: Int8Array, offset: Int = definedExternally)"
+    },
+    {
+      "text": "fun subarray(start: Int, end: Int): Int8Array"
+    },
+    {
+      "text": "val BYTES_PER_ELEMENT: Int"
+    },
+    {
+      "text": "operator fun Int8Array.get(index: Int): Byte"
+    },
+    {
+      "text": "operator fun Int8Array.set(index: Int, value: Byte)"
+    }
+  ]
+}

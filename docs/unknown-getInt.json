@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getInt",
+  "signature": "fun getInt( arena: Arena, obj: Object, propertyPtr: Pointer, propertyLen: Int): Int",
+  "items": []
+}

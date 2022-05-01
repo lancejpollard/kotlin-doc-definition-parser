@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "names",
+  "signature": "vararg val names: Array<out String>",
+  "items": []
+}

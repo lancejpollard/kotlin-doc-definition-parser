@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "plusElement",
+  "signature": "fun <T> Sequence<T>.plusElement(element: T): Sequence<T>",
+  "items": []
+}

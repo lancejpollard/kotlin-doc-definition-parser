@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JsModule",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.FUNCTION, AnnotationTarget.FILE]) annotation class JsModule",
+  "items": [
+    {
+      "text": "JsModule(import: String)",
+      "desc": "Denotes an external declaration that must be imported from native JavaScript library."
+    },
+    {
+      "text": "val import: String",
+      "desc": "name of a module to import declaration from. It is not interpreted by the Kotlin compiler, it's passed as is directly to the target module system."
+    }
+  ]
+}

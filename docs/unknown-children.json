@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "children",
+  "signature": "open val children: HTMLCollection",
+  "items": []
+}

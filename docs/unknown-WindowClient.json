@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "WindowClient",
+  "signature": "abstract class WindowClient : Client",
+  "items": [
+    {
+      "text": "WindowClient()",
+      "desc": "Exposes the JavaScript WindowClient to Kotlin"
+    },
+    {
+      "text": "open val focused: Boolean"
+    },
+    {
+      "text": "open val visibilityState: dynamic"
+    },
+    {
+      "text": "fun focus(): Promise<WindowClient>"
+    },
+    {
+      "text": "fun navigate(url: String): Promise<WindowClient>"
+    }
+  ]
+}

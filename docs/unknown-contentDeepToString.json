@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "contentDeepToString",
+  "signature": "fun <T> Array<out T>.contentDeepToString(): String",
+  "items": []
+}

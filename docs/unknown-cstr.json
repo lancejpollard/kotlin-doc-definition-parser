@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cstr",
+  "signature": "val String.cstr: CValues<ByteVar>",
+  "items": []
+}

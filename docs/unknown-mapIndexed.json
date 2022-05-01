@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapIndexed",
+  "signature": "inline fun <R> CharSequence.mapIndexed( transform: (index: Int, Char) -> R): List<R>",
+  "items": []
+}

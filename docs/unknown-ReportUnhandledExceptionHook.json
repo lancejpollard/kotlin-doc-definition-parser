@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ReportUnhandledExceptionHook",
+  "signature": "typealias ReportUnhandledExceptionHook = (Throwable) -> Unit",
+  "items": []
+}

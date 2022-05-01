@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OPAQUEREDIRECT",
+  "signature": "inline val ResponseType.Companion.OPAQUEREDIRECT: ResponseType",
+  "items": []
+}

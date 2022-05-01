@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "IndexedValue",
+  "signature": "data class IndexedValue<out T>",
+  "items": [
+    {
+      "text": "IndexedValue(index: Int, value: T)",
+      "desc": "Data class representing a value from a collection or sequence, along with its index in that collection or sequence."
+    },
+    {
+      "text": "val index: Int",
+      "desc": "the index of the value in the collection or sequence."
+    },
+    {
+      "text": "val value: T",
+      "desc": "the underlying value."
+    }
+  ]
+}

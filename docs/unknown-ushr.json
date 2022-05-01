@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ushr",
+  "signature": "infix fun ushr(bitCount: Int): Long",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createTempDir",
+  "signature": "fun createTempDir( prefix: String = \"tmp\", suffix: String? = null, directory: File? = null): File",
+  "items": []
+}

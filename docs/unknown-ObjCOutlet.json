@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ObjCOutlet",
+  "signature": "@Target([AnnotationTarget.PROPERTY]) annotation class ObjCOutlet",
+  "items": [
+    {
+      "text": "ObjCOutlet()",
+      "desc": "Makes Kotlin property in Objective-C class settable through Objective-C dispatch to be used as IB outlet."
+    }
+  ]
+}

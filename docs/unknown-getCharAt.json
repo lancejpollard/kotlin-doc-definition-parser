@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getCharAt",
+  "signature": "fun ByteArray.getCharAt(index: Int): Char",
+  "items": []
+}

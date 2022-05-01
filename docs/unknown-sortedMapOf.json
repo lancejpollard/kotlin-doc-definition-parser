@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "sortedMapOf",
+  "signatures": [
+    {
+      "text": "fun <K : Comparable<K>, V> sortedMapOf( vararg pairs: Pair<K, V>): SortedMap<K, V>",
+      "desc": "Returns a new SortedMap with the specified contents, given as a list of pairs where the first value is the key and the second is the value."
+    },
+    {
+      "text": "fun <K, V> sortedMapOf( comparator: Comparator<in K>, vararg pairs: Pair<K, V>): SortedMap<K, V>",
+      "desc": "Returns a new SortedMap with the specified contents, given as a list of pairs where the first value is the key and the second is the value."
+    }
+  ],
+  "items": []
+}

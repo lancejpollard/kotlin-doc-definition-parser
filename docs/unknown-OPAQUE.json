@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OPAQUE",
+  "signature": "inline val ResponseType.Companion.OPAQUE: ResponseType",
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "getValue",
+  "signatures": [
+    {
+      "text": "operator fun <V, V1 : V> Map<in String, V>.getValue( thisRef: Any?, property: KProperty<*>): V1",
+      "desc": "Returns the value of the property for the given object from this read-only map."
+    },
+    {
+      "text": "@JvmName(\"getVar\") operator fun <V, V1 : V> MutableMap<in String, out V>.getValue( thisRef: Any?, property: KProperty<*>): V1",
+      "desc": "Returns the value of the property for the given object from this mutable map."
+    },
+    {
+      "text": "fun <K, V> Map<K, V>.getValue(key: K): V",
+      "desc": "Returns the value for the given key or throws an exception if there is no such key in the map."
+    }
+  ],
+  "items": []
+}

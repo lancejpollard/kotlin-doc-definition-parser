@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "typeOf",
+  "signature": "fun <T : CVariable> typeOf(): Type",
+  "items": []
+}

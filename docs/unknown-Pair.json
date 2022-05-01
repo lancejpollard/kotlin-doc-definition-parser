@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "Pair",
+  "signature": "data class Pair<out A, out B> : Serializable",
+  "items": [
+    {
+      "text": "Pair(first: A, second: B)",
+      "desc": "Creates a new instance of Pair."
+    },
+    {
+      "text": "val first: A",
+      "desc": "First value."
+    },
+    {
+      "text": "val second: B",
+      "desc": "Second value."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns string representation of the Pair including its first and second values."
+    },
+    {
+      "text": "fun <T> Pair<T, T>.toList(): List<T>",
+      "desc": "Converts this pair into a list."
+    }
+  ]
+}

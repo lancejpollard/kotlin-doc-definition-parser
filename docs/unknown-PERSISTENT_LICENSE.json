@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PERSISTENT_LICENSE",
+  "signature": "inline val MediaKeySessionType.Companion.PERSISTENT_LICENSE: MediaKeySessionType",
+  "items": []
+}

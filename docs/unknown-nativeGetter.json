@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "nativeGetter",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class nativeGetter",
+  "items": [
+    {
+      "text": "nativeGetter()"
+    }
+  ]
+}

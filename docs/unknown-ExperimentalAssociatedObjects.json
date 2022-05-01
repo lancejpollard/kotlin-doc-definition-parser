@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ExperimentalAssociatedObjects",
+  "signature": "annotation class ExperimentalAssociatedObjects",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "The experimental marker for associated objects API."
+    }
+  ]
+}

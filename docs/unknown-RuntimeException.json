@@ -1,0 +1,63 @@
+{
+  "type": "unknown",
+  "name": "RuntimeException",
+  "signature": "open class RuntimeException : Exception",
+  "items": [
+    {
+      "text": "<init>()"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "open class ArithmeticException : RuntimeException"
+    },
+    {
+      "text": "open class ClassCastException : RuntimeException"
+    },
+    {
+      "text": "open class ConcurrentModificationException : RuntimeException"
+    },
+    {
+      "text": "class FileFailedToInitializeException : RuntimeException",
+      "desc": "Exception thrown when there was an error during file initalization."
+    },
+    {
+      "text": "class FreezingException : RuntimeException",
+      "desc": "Exception thrown whenever freezing is not possible."
+    },
+    {
+      "text": "open class IllegalArgumentException : RuntimeException"
+    },
+    {
+      "text": "open class IllegalStateException : RuntimeException"
+    },
+    {
+      "text": "class IncorrectDereferenceException : RuntimeException",
+      "desc": "Exception thrown when top level variable is accessed from incorrect execution context."
+    },
+    {
+      "text": "open class IndexOutOfBoundsException : RuntimeException"
+    },
+    {
+      "text": "class InvalidMutabilityException : RuntimeException",
+      "desc": "Exception thrown whenever we attempt to mutate frozen objects."
+    },
+    {
+      "text": "open class NoSuchElementException : RuntimeException"
+    },
+    {
+      "text": "open class NoWhenBranchMatchedException : RuntimeException"
+    },
+    {
+      "text": "open class NullPointerException : RuntimeException"
+    },
+    {
+      "text": "class UninitializedPropertyAccessException : RuntimeException"
+    },
+    {
+      "text": "open class UnsupportedOperationException : RuntimeException"
+    }
+  ]
+}

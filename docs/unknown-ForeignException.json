@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "ForeignException",
+  "signature": "class ForeignException : Exception",
+  "items": [
+    {
+      "text": "val message: String",
+      "desc": "the detail message string."
+    },
+    {
+      "text": "val nativeException: Any?"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    }
+  ]
+}

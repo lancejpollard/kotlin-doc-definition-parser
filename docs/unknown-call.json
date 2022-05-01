@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "call",
+  "signature": "abstract fun call(vararg args: Any?): R",
+  "items": []
+}

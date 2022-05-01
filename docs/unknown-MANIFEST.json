@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MANIFEST",
+  "signature": "inline val RequestDestination.Companion.MANIFEST: RequestDestination",
+  "items": []
+}

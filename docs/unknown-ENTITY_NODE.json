@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ENTITY_NODE",
+  "signature": "val ENTITY_NODE: Short",
+  "items": []
+}

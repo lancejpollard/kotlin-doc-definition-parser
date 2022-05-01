@@ -1,0 +1,30 @@
+{
+  "type": "unknown",
+  "name": "DOMPointReadOnly",
+  "signature": "open class DOMPointReadOnly",
+  "items": [
+    {
+      "text": "DOMPointReadOnly(x: Double, y: Double, z: Double, w: Double)",
+      "desc": "Exposes the JavaScript DOMPointReadOnly to Kotlin"
+    },
+    {
+      "text": "open val w: Double"
+    },
+    {
+      "text": "open val x: Double"
+    },
+    {
+      "text": "open val y: Double"
+    },
+    {
+      "text": "open val z: Double"
+    },
+    {
+      "text": "fun matrixTransform(matrix: DOMMatrixReadOnly): DOMPoint"
+    },
+    {
+      "text": "open class DOMPoint : DOMPointReadOnly",
+      "desc": "Exposes the JavaScript DOMPoint to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaPrimitiveType",
+  "signature": "val <T : Any> KClass<T>.javaPrimitiveType: Class<T>?",
+  "items": []
+}

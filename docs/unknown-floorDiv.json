@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "floorDiv",
+  "signature": "fun floorDiv(other: UByte): UInt",
+  "items": []
+}

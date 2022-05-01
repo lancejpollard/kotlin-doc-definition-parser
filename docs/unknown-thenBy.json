@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "thenBy",
+  "signatures": [
+    {
+      "text": "inline fun <T> Comparator<T>.thenBy( crossinline selector: (T) -> Comparable<*>?): Comparator<T>",
+      "desc": "Creates a comparator comparing values after the primary comparator defined them equal. It uses the function to transform value to a Comparable instance for comparison."
+    },
+    {
+      "text": "inline fun <T, K> Comparator<T>.thenBy( comparator: Comparator<in K>, crossinline selector: (T) -> K): Comparator<T>",
+      "desc": "Creates a comparator comparing values after the primary comparator defined them equal. It uses the selector function to transform values and then compares them with the given comparator."
+    }
+  ],
+  "items": []
+}

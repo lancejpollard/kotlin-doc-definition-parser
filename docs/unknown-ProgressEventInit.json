@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ProgressEventInit",
+  "signature": "fun ProgressEventInit( lengthComputable: Boolean? = false, loaded: Number? = 0, total: Number? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ProgressEventInit",
+  "items": []
+}

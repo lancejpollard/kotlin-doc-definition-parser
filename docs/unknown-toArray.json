@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toArray",
+  "signature": "fun <T> toArray(array: Array<T>): Array<T>",
+  "items": []
+}

@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ObjCAction",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class ObjCAction",
+  "items": [
+    {
+      "text": "ObjCAction()",
+      "desc": "Makes Kotlin method in Objective-C class accessible through Objective-C dispatch to be used as action sent by control in UIKit or AppKit."
+    }
+  ]
+}

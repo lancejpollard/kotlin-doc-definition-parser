@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLUniformLocation",
+  "signature": "abstract class WebGLUniformLocation",
+  "items": [
+    {
+      "text": "WebGLUniformLocation()",
+      "desc": "Exposes the JavaScript WebGLUniformLocation to Kotlin"
+    }
+  ]
+}

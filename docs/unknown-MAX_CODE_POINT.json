@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MAX_CODE_POINT",
+  "signature": "const val MAX_CODE_POINT: Int",
+  "items": []
+}

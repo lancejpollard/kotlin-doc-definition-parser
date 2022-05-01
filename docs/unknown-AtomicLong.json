@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "AtomicLong",
+  "signature": "class AtomicLong",
+  "items": [
+    {
+      "text": "AtomicLong(value_: Long = 0)"
+    },
+    {
+      "text": "var value: Long",
+      "desc": "The value being held by this class."
+    },
+    {
+      "text": "fun addAndGet(delta: Long): Long",
+      "desc": "Increments the value by delta and returns the new value."
+    },
+    {
+      "text": "fun compareAndSet(expected: Long, new: Long): Boolean",
+      "desc": "Compares value with expected and replaces it with new value if values matches."
+    },
+    {
+      "text": "fun compareAndSwap(expected: Long, new: Long): Long",
+      "desc": "Compares value with expected and replaces it with new value if values matches."
+    },
+    {
+      "text": "fun decrement()",
+      "desc": "Decrements value by one."
+    },
+    {
+      "text": "fun increment()",
+      "desc": "Increments value by one."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this object."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "data2",
+  "signature": "val data2: Array<String>",
+  "items": []
+}

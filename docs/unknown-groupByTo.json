@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "groupByTo",
+  "signatures": [
+    {
+      "text": "inline fun <K, M : MutableMap<in K, MutableList<Char>>> CharSequence.groupByTo( destination: M, keySelector: (Char) -> K): M",
+      "desc": "Groups characters of the original char sequence by the key returned by the given keySelector function applied to each character and puts to the destination map each group key associated with a list of corresponding characters."
+    },
+    {
+      "text": "inline fun <K, V, M : MutableMap<in K, MutableList<V>>> CharSequence.groupByTo( destination: M, keySelector: (Char) -> K, valueTransform: (Char) -> V): M",
+      "desc": "Groups values returned by the valueTransform function applied to each character of the original char sequence by the key returned by the given keySelector function applied to the character and puts to the destination map each group key associated with a list of corresponding values."
+    }
+  ],
+  "items": []
+}

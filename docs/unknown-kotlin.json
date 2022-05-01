@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "kotlin",
+  "signature": "val <T : Any> JsClass<T>.kotlin: KClass<T>",
+  "items": []
+}

@@ -1,0 +1,51 @@
+{
+  "type": "unknown",
+  "name": "Grouping",
+  "signature": "interface Grouping<T, out K>",
+  "items": [
+    {
+      "text": "abstract fun keyOf(element: T): K",
+      "desc": "Extracts the key of an element."
+    },
+    {
+      "text": "abstract fun sourceIterator(): Iterator<T>",
+      "desc": "Returns an Iterator over the elements of the source of this grouping."
+    },
+    {
+      "text": "fun <T, K, R> Grouping<T, K>.aggregate( operation: (key: K, accumulator: R?, element: T, first: Boolean) -> R): Map<K, R>",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in a new map."
+    },
+    {
+      "text": "fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.aggregateTo( destination: M, operation: (key: K, accumulator: R?, element: T, first: Boolean) -> R): M",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map."
+    },
+    {
+      "text": "fun <T, K, M : MutableMap<in K, Int>> Grouping<T, K>.eachCountTo( destination: M): M",
+      "desc": "Groups elements from the Grouping source by key and counts elements in each group to the given destination map."
+    },
+    {
+      "text": "fun <T, K, R> Grouping<T, K>.fold( initialValueSelector: (key: K, element: T) -> R, operation: (key: K, accumulator: R, element: T) -> R): Map<K, R>",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in a new map. An initial value of accumulator is provided by initialValueSelector function."
+    },
+    {
+      "text": "fun <T, K, R> Grouping<T, K>.fold( initialValue: R, operation: (accumulator: R, element: T) -> R): Map<K, R>",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in a new map. An initial value of accumulator is the same initialValue for each group."
+    },
+    {
+      "text": "fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.foldTo( destination: M, initialValueSelector: (key: K, element: T) -> R, operation: (key: K, accumulator: R, element: T) -> R): M",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map. An initial value of accumulator is provided by initialValueSelector function."
+    },
+    {
+      "text": "fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.foldTo( destination: M, initialValue: R, operation: (accumulator: R, element: T) -> R): M",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map. An initial value of accumulator is the same initialValue for each group."
+    },
+    {
+      "text": "fun <S, T : S, K> Grouping<T, K>.reduce( operation: (key: K, accumulator: S, element: T) -> S): Map<K, S>",
+      "desc": "Groups elements from the Grouping source by key and applies the reducing operation to the elements of each group sequentially starting from the second element of the group, passing the previously accumulated value and the current element as arguments, and stores the results in a new map. An initial value of accumulator is the first element of the group."
+    },
+    {
+      "text": "fun <S, T : S, K, M : MutableMap<in K, S>> Grouping<T, K>.reduceTo( destination: M, operation: (key: K, accumulator: S, element: T) -> S): M",
+      "desc": "Groups elements from the Grouping source by key and applies the reducing operation to the elements of each group sequentially starting from the second element of the group, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map. An initial value of accumulator is the first element of the group."
+    }
+  ]
+}

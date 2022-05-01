@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "typeParameters",
+  "signature": "abstract val typeParameters: List<KTypeParameter>",
+  "items": []
+}

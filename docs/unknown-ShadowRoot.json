@@ -1,0 +1,77 @@
+{
+  "type": "unknown",
+  "name": "ShadowRoot",
+  "signature": "open class ShadowRoot : DocumentFragment, DocumentOrShadowRoot",
+  "items": [
+    {
+      "text": "ShadowRoot()",
+      "desc": "Exposes the JavaScript ShadowRoot to Kotlin"
+    },
+    {
+      "text": "open val fullscreenElement: Element?"
+    },
+    {
+      "text": "open val host: Element"
+    },
+    {
+      "text": "open val mode: ShadowRootMode"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "open class SVGUseElementShadowRoot : ShadowRoot"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "freeArena",
+  "signature": "fun freeArena(arena: Arena)",
+  "items": []
+}

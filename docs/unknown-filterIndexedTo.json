@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "filterIndexedTo",
+  "signature": "inline fun <C : Appendable> CharSequence.filterIndexedTo( destination: C, predicate: (index: Int, Char) -> Boolean): C",
+  "items": []
+}

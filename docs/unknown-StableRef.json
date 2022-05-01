@@ -1,0 +1,30 @@
+{
+  "type": "unknown",
+  "name": "StableRef",
+  "signature": "class StableRef<out T : Any>",
+  "items": [
+    {
+      "text": "val value: COpaquePointer"
+    },
+    {
+      "text": "fun asCPointer(): COpaquePointer",
+      "desc": "Converts the handle to C pointer."
+    },
+    {
+      "text": "fun dispose()",
+      "desc": "Disposes the handle. It must not be used after that."
+    },
+    {
+      "text": "fun get(): T",
+      "desc": "Returns the object this handle was created for."
+    },
+    {
+      "text": "fun <T : Any> create(any: T): StableRef<T>",
+      "desc": "Creates a handle for given object."
+    },
+    {
+      "text": "fun fromValue(value: COpaquePointer): StableRef<Any>",
+      "desc": "Creates StableRef from given raw value."
+    }
+  ]
+}

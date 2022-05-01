@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "WorkerOptions",
+  "signature": "fun WorkerOptions( type: WorkerType? = WorkerType.CLASSIC, credentials: RequestCredentials? = RequestCredentials.OMIT): WorkerOptions",
+  "items": []
+}

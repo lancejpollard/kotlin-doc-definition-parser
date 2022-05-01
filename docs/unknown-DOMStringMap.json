@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "DOMStringMap",
+  "signature": "abstract class DOMStringMap",
+  "items": [
+    {
+      "text": "DOMStringMap()",
+      "desc": "Exposes the JavaScript DOMStringMap to Kotlin"
+    },
+    {
+      "text": "operator fun DOMStringMap.get(name: String): String?"
+    },
+    {
+      "text": "operator fun DOMStringMap.set(name: String, value: String)"
+    }
+  ]
+}

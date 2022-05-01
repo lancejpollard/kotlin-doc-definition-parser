@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onscroll",
+  "signature": "open var onscroll: ((Event) -> dynamic)?",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onfullscreenchange",
+  "signature": "var onfullscreenchange: ((Event) -> dynamic)?",
+  "items": []
+}

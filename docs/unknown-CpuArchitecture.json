@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "CpuArchitecture",
+  "signature": "enum class CpuArchitecture",
+  "items": [
+    {
+      "text": "val bitness: Int"
+    }
+  ]
+}

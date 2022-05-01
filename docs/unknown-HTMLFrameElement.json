@@ -1,0 +1,94 @@
+{
+  "type": "unknown",
+  "name": "HTMLFrameElement",
+  "signature": "abstract class HTMLFrameElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLFrameElement()"
+    },
+    {
+      "text": "open val contentDocument: Document?"
+    },
+    {
+      "text": "open val contentWindow: Window?"
+    },
+    {
+      "text": "open var frameBorder: String"
+    },
+    {
+      "text": "open var longDesc: String"
+    },
+    {
+      "text": "open var marginHeight: String"
+    },
+    {
+      "text": "open var marginWidth: String"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open var noResize: Boolean"
+    },
+    {
+      "text": "open var scrolling: String"
+    },
+    {
+      "text": "open var src: String"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "arrayMemberAt",
+  "signature": "fun <reified T : CVariable> CStructVar.arrayMemberAt( offset: Long): CArrayPointer<T>",
+  "items": []
+}

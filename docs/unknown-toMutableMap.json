@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toMutableMap",
+  "signature": "fun <K, V> Map<out K, V>.toMutableMap(): MutableMap<K, V>",
+  "items": []
+}

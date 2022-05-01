@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "OutOfMemoryError",
+  "signature": "open class OutOfMemoryError : Error",
+  "items": [
+    {
+      "text": "OutOfMemoryError()"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    }
+  ]
+}

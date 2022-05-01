@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "all",
+  "signature": "open val all: HTMLAllCollection",
+  "items": []
+}

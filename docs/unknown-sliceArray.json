@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "sliceArray",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.sliceArray( indices: Collection<Int>): Array<T>",
+      "desc": "Returns an array containing elements of this array at specified indices."
+    },
+    {
+      "text": "fun <T> Array<T>.sliceArray(indices: IntRange): Array<T>",
+      "desc": "Returns an array containing elements at indices in the specified indices range."
+    }
+  ],
+  "items": []
+}

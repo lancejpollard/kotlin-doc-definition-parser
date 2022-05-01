@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "ptr",
+  "signatures": [
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val <T : CStructVar> ManagedType<T>.ptr: CPointer<T>"
+    }
+  ],
+  "items": []
+}

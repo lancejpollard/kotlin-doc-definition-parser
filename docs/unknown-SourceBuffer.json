@@ -1,0 +1,62 @@
+{
+  "type": "unknown",
+  "name": "SourceBuffer",
+  "signature": "abstract class SourceBuffer : EventTarget",
+  "items": [
+    {
+      "text": "SourceBuffer()",
+      "desc": "Exposes the JavaScript SourceBuffer to Kotlin"
+    },
+    {
+      "text": "open var appendWindowEnd: Double"
+    },
+    {
+      "text": "open var appendWindowStart: Double"
+    },
+    {
+      "text": "open val audioTracks: AudioTrackList"
+    },
+    {
+      "text": "open val buffered: TimeRanges"
+    },
+    {
+      "text": "open var mode: AppendMode"
+    },
+    {
+      "text": "open var onabort: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onupdate: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onupdateend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onupdatestart: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val textTracks: TextTrackList"
+    },
+    {
+      "text": "open var timestampOffset: Double"
+    },
+    {
+      "text": "open val updating: Boolean"
+    },
+    {
+      "text": "open val videoTracks: VideoTrackList"
+    },
+    {
+      "text": "fun abort()"
+    },
+    {
+      "text": "fun appendBuffer(data: dynamic)"
+    },
+    {
+      "text": "fun remove(start: Double, end: Double)"
+    }
+  ]
+}

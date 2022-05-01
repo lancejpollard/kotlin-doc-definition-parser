@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "toCharArray",
+  "signatures": [
+    {
+      "text": "fun String.toCharArray(): CharArray",
+      "desc": "Returns a CharArray containing characters of this string."
+    },
+    {
+      "text": "fun String.toCharArray( startIndex: Int = 0, endIndex: Int = this.length): CharArray",
+      "desc": "Returns a CharArray containing characters of this string or its substring."
+    },
+    {
+      "text": "fun StringBuilder.toCharArray( destination: CharArray, destinationOffset: Int = 0, startIndex: Int = 0, endIndex: Int = this.length)",
+      "desc": "Copies characters from this string builder into the destination character array."
+    },
+    {
+      "text": "fun String.toCharArray( destination: CharArray, destinationOffset: Int = 0, startIndex: Int = 0, endIndex: Int = length): CharArray",
+      "desc": "Copies characters from this string into the destination character array and returns that array."
+    }
+  ],
+  "items": []
+}

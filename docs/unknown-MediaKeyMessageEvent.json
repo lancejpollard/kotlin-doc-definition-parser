@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "MediaKeyMessageEvent",
+  "signature": "open class MediaKeyMessageEvent : Event",
+  "items": [
+    {
+      "text": "MediaKeyMessageEvent( type: String, eventInitDict: MediaKeyMessageEventInit)",
+      "desc": "Exposes the JavaScript MediaKeyMessageEvent to Kotlin"
+    },
+    {
+      "text": "open val message: ArrayBuffer"
+    },
+    {
+      "text": "open val messageType: MediaKeyMessageType"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

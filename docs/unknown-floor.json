@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "floor",
+  "signatures": [
+    {
+      "text": "fun floor(x: Double): Double",
+      "desc": "Rounds the given value x to an integer towards negative infinity."
+    },
+    {
+      "text": "fun floor(x: Float): Float",
+      "desc": "Rounds the given value x to an integer towards negative infinity."
+    }
+  ],
+  "items": []
+}

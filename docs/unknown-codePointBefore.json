@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "codePointBefore",
+  "signature": "fun String.codePointBefore(index: Int): Int",
+  "items": []
+}

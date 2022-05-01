@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "Slotable",
+  "signature": "interface Slotable",
+  "items": [
+    {
+      "text": "open val assignedSlot: HTMLSlotElement?"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "open class Text : CharacterData, Slotable, GeometryUtils",
+      "desc": "Exposes the JavaScript Text to Kotlin"
+    }
+  ]
+}

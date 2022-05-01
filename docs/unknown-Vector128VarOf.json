@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "Vector128VarOf",
+  "signature": "class Vector128VarOf<T : Vector128> : CVariable",
+  "items": [
+    {
+      "text": "companion object Companion : Type"
+    },
+    {
+      "text": "Vector128VarOf(rawPtr: NativePtr)"
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "var <T : Vector128> Vector128VarOf<T>.value: T"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    }
+  ]
+}

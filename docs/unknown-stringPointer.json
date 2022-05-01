@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stringPointer",
+  "signature": "fun stringPointer(message: String): Pointer",
+  "items": []
+}

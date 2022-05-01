@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "lastIndexOfAny",
+  "signatures": [
+    {
+      "text": "fun CharSequence.lastIndexOfAny( chars: CharArray, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the last occurrence of any of the specified chars in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.lastIndexOfAny( strings: Collection<String>, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the last occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    }
+  ],
+  "items": []
+}

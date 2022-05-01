@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getOrThrow",
+  "signature": "fun <T> Result<T>.getOrThrow(): T",
+  "items": []
+}

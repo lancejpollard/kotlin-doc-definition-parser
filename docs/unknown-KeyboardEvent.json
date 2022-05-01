@@ -1,0 +1,74 @@
+{
+  "type": "unknown",
+  "name": "KeyboardEvent",
+  "signature": "open class KeyboardEvent : UIEvent",
+  "items": [
+    {
+      "text": "KeyboardEvent( type: String, eventInitDict: KeyboardEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript KeyboardEvent to Kotlin"
+    },
+    {
+      "text": "open val altKey: Boolean"
+    },
+    {
+      "text": "open val charCode: Int"
+    },
+    {
+      "text": "open val code: String"
+    },
+    {
+      "text": "open val ctrlKey: Boolean"
+    },
+    {
+      "text": "open val isComposing: Boolean"
+    },
+    {
+      "text": "open val key: String"
+    },
+    {
+      "text": "open val keyCode: Int"
+    },
+    {
+      "text": "open val location: Int"
+    },
+    {
+      "text": "open val metaKey: Boolean"
+    },
+    {
+      "text": "open val repeat: Boolean"
+    },
+    {
+      "text": "open val shiftKey: Boolean"
+    },
+    {
+      "text": "open val which: Int"
+    },
+    {
+      "text": "fun getModifierState(keyArg: String): Boolean"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val DOM_KEY_LOCATION_LEFT: Int"
+    },
+    {
+      "text": "val DOM_KEY_LOCATION_NUMPAD: Int"
+    },
+    {
+      "text": "val DOM_KEY_LOCATION_RIGHT: Int"
+    },
+    {
+      "text": "val DOM_KEY_LOCATION_STANDARD: Int"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "alloc",
+  "signatures": [
+    {
+      "text": "fun <reified T : CVariable> NativePlacement.alloc(): T",
+      "desc": "Allocates variable of given type."
+    },
+    {
+      "text": "inline fun <reified T : CVariable> NativePlacement.alloc( initialize: T.() -> Unit): T",
+      "desc": "Allocates variable of given type and initializes it applying given block."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "zipWithNext",
+  "signatures": [
+    {
+      "text": "fun CharSequence.zipWithNext(): List<Pair<Char, Char>>",
+      "desc": "Returns a list of pairs of each two adjacent characters in this char sequence."
+    },
+    {
+      "text": "inline fun <R> CharSequence.zipWithNext( transform: (a: Char, b: Char) -> R): List<R>",
+      "desc": "Returns a list containing the results of applying the given transform function to an each pair of two adjacent characters in this char sequence."
+    }
+  ],
+  "items": []
+}

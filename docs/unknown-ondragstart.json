@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ondragstart",
+  "signature": "open var ondragstart: ((DragEvent) -> dynamic)?",
+  "items": []
+}

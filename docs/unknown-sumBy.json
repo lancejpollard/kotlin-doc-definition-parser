@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sumBy",
+  "signature": "@DeprecatedSinceKotlin(\"1.5\") inline fun CharSequence.sumBy( selector: (Char) -> Int): Int",
+  "items": []
+}

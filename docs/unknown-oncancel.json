@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncancel",
+  "signature": "open var oncancel: ((Event) -> dynamic)?",
+  "items": []
+}

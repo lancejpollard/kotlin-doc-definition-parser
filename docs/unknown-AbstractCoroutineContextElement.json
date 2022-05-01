@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "AbstractCoroutineContextElement",
+  "signature": "abstract class AbstractCoroutineContextElement : Element",
+  "items": [
+    {
+      "text": "AbstractCoroutineContextElement(key: Key<*>)",
+      "desc": "Base class for CoroutineContext.Element implementations."
+    },
+    {
+      "text": "open val key: Key<*>",
+      "desc": "A key of this coroutine context element."
+    },
+    {
+      "text": "fun <E : Element> Element.getPolymorphicElement( key: Key<E>): E?",
+      "desc": "Returns the current element if it is associated with the given key in a polymorphic manner or null otherwise. This method returns non-null value if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    },
+    {
+      "text": "fun Element.minusPolymorphicKey( key: Key<*>): CoroutineContext",
+      "desc": "Returns empty coroutine context if the element is associated with the given key in a polymorphic manner or null otherwise. This method returns empty context if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    }
+  ]
+}

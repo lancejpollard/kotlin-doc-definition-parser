@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FLIPY",
+  "signature": "inline val ImageOrientation.Companion.FLIPY: ImageOrientation",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "InputEventInit",
+  "signature": "fun InputEventInit( data: String? = \"\", isComposing: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): InputEventInit",
+  "items": []
+}

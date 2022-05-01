@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaSetter",
+  "signature": "val KMutableProperty<*>.javaSetter: Method?",
+  "items": []
+}

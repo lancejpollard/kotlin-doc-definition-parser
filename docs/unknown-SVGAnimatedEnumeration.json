@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedEnumeration",
+  "signature": "abstract class SVGAnimatedEnumeration",
+  "items": [
+    {
+      "text": "SVGAnimatedEnumeration()",
+      "desc": "Exposes the JavaScript SVGAnimatedEnumeration to Kotlin"
+    },
+    {
+      "text": "open val animVal: Short"
+    },
+    {
+      "text": "open var baseVal: Short"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConvertCoordinateOptions",
+  "signature": "fun ConvertCoordinateOptions( fromBox: CSSBoxType? = CSSBoxType.BORDER, toBox: CSSBoxType? = CSSBoxType.BORDER): ConvertCoordinateOptions",
+  "items": []
+}

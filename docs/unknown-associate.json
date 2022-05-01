@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "associate",
+  "signature": "inline fun <K, V> CharSequence.associate( transform: (Char) -> Pair<K, V>): Map<K, V>",
+  "items": []
+}

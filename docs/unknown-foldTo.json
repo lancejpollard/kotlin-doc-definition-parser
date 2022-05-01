@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "foldTo",
+  "signatures": [
+    {
+      "text": "inline fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.foldTo( destination: M, initialValueSelector: (key: K, element: T) -> R, operation: (key: K, accumulator: R, element: T) -> R): M",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map. An initial value of accumulator is provided by initialValueSelector function."
+    },
+    {
+      "text": "inline fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.foldTo( destination: M, initialValue: R, operation: (accumulator: R, element: T) -> R): M",
+      "desc": "Groups elements from the Grouping source by key and applies operation to the elements of each group sequentially, passing the previously accumulated value and the current element as arguments, and stores the results in the given destination map. An initial value of accumulator is the same initialValue for each group."
+    }
+  ],
+  "items": []
+}

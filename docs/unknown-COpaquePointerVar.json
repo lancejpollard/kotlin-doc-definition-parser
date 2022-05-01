@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "COpaquePointerVar",
+  "signature": "typealias COpaquePointerVar = CPointerVarOf<COpaquePointer>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "frameElement",
+  "signature": "open val frameElement: Element?",
+  "items": []
+}

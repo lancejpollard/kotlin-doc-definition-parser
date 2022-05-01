@@ -1,0 +1,154 @@
+{
+  "type": "unknown",
+  "name": "SVGElement",
+  "signature": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+  "items": [
+    {
+      "text": "SVGElement()",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    },
+    {
+      "text": "open val dataset: DOMStringMap"
+    },
+    {
+      "text": "open val ownerSVGElement: SVGSVGElement?"
+    },
+    {
+      "text": "open var tabIndex: Int"
+    },
+    {
+      "text": "open val viewportElement: SVGElement?"
+    },
+    {
+      "text": "fun blur()"
+    },
+    {
+      "text": "fun focus()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class SVGClipPathElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGClipPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGCursorElement : SVGElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGCursorElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGDescElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGDescElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGradientElement : SVGElement, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGraphicsElement : SVGElement, SVGTests",
+      "desc": "Exposes the JavaScript SVGGraphicsElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGHatchElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGHatchpathElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGMarkerElement : SVGElement, SVGFitToViewBox"
+    },
+    {
+      "text": "abstract class SVGMaskElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGMaskElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMeshpatchElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGMeshrowElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGMetadataElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGMetadataElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPatternElement : SVGElement, SVGFitToViewBox, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGPatternElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGScriptElement : SVGElement, SVGURIReference, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript SVGScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSolidcolorElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGSolidcolorElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStopElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGStopElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStyleElement : SVGElement, LinkStyle",
+      "desc": "Exposes the JavaScript SVGStyleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTitleElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGTitleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGViewElement : SVGElement, SVGFitToViewBox, SVGZoomAndPan",
+      "desc": "Exposes the JavaScript SVGViewElement to Kotlin"
+    }
+  ]
+}

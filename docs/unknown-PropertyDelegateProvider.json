@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "PropertyDelegateProvider",
+  "signature": "fun interface PropertyDelegateProvider<in T, out D>",
+  "items": [
+    {
+      "text": "abstract operator fun provideDelegate( thisRef: T, property: KProperty<*>): D",
+      "desc": "Returns the delegate of the property for the given object."
+    }
+  ]
+}

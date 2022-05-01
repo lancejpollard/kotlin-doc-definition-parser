@@ -1,0 +1,278 @@
+{
+  "type": "unknown",
+  "name": "Element",
+  "signature": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+  "items": [
+    {
+      "text": "Element()",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "open val attributes: NamedNodeMap"
+    },
+    {
+      "text": "open val classList: DOMTokenList"
+    },
+    {
+      "text": "open var className: String"
+    },
+    {
+      "text": "open val clientHeight: Int"
+    },
+    {
+      "text": "open val clientLeft: Int"
+    },
+    {
+      "text": "open val clientTop: Int"
+    },
+    {
+      "text": "open val clientWidth: Int"
+    },
+    {
+      "text": "open var id: String"
+    },
+    {
+      "text": "open var innerHTML: String"
+    },
+    {
+      "text": "open val localName: String"
+    },
+    {
+      "text": "open val namespaceURI: String?"
+    },
+    {
+      "text": "open var outerHTML: String"
+    },
+    {
+      "text": "open val prefix: String?"
+    },
+    {
+      "text": "open val scrollHeight: Int"
+    },
+    {
+      "text": "open var scrollLeft: Double"
+    },
+    {
+      "text": "open var scrollTop: Double"
+    },
+    {
+      "text": "open val scrollWidth: Int"
+    },
+    {
+      "text": "open val shadowRoot: ShadowRoot?"
+    },
+    {
+      "text": "open var slot: String"
+    },
+    {
+      "text": "open val tagName: String"
+    },
+    {
+      "text": "fun attachShadow(init: ShadowRootInit): ShadowRoot"
+    },
+    {
+      "text": "fun closest(selectors: String): Element?"
+    },
+    {
+      "text": "fun getAttribute(qualifiedName: String): String?"
+    },
+    {
+      "text": "fun getAttributeNames(): Array<String>"
+    },
+    {
+      "text": "fun getAttributeNode(qualifiedName: String): Attr?"
+    },
+    {
+      "text": "fun getAttributeNodeNS( namespace: String?, localName: String): Attr?"
+    },
+    {
+      "text": "fun getAttributeNS( namespace: String?, localName: String): String?"
+    },
+    {
+      "text": "fun getBoundingClientRect(): DOMRect"
+    },
+    {
+      "text": "fun getClientRects(): Array<DOMRect>"
+    },
+    {
+      "text": "fun getElementsByClassName( classNames: String): HTMLCollection"
+    },
+    {
+      "text": "fun getElementsByTagName( qualifiedName: String): HTMLCollection"
+    },
+    {
+      "text": "fun getElementsByTagNameNS( namespace: String?, localName: String): HTMLCollection"
+    },
+    {
+      "text": "fun hasAttribute(qualifiedName: String): Boolean"
+    },
+    {
+      "text": "fun hasAttributeNS( namespace: String?, localName: String): Boolean"
+    },
+    {
+      "text": "fun hasAttributes(): Boolean"
+    },
+    {
+      "text": "fun hasPointerCapture(pointerId: Int): Boolean"
+    },
+    {
+      "text": "fun insertAdjacentElement( where: String, element: Element): Element?"
+    },
+    {
+      "text": "fun insertAdjacentHTML(position: String, text: String)"
+    },
+    {
+      "text": "fun insertAdjacentText(where: String, data: String)"
+    },
+    {
+      "text": "fun matches(selectors: String): Boolean"
+    },
+    {
+      "text": "fun releasePointerCapture(pointerId: Int)"
+    },
+    {
+      "text": "fun removeAttribute(qualifiedName: String)"
+    },
+    {
+      "text": "fun removeAttributeNode(attr: Attr): Attr"
+    },
+    {
+      "text": "fun removeAttributeNS(namespace: String?, localName: String)"
+    },
+    {
+      "text": "fun requestFullscreen(): Promise<Unit>"
+    },
+    {
+      "text": "fun scroll(options: ScrollToOptions = definedExternally)"
+    },
+    {
+      "text": "fun scrollBy(options: ScrollToOptions = definedExternally)"
+    },
+    {
+      "text": "fun scrollIntoView()"
+    },
+    {
+      "text": "fun scrollTo(options: ScrollToOptions = definedExternally)"
+    },
+    {
+      "text": "fun setAttribute(qualifiedName: String, value: String)"
+    },
+    {
+      "text": "fun setAttributeNode(attr: Attr): Attr?"
+    },
+    {
+      "text": "fun setAttributeNodeNS(attr: Attr): Attr?"
+    },
+    {
+      "text": "fun setAttributeNS( namespace: String?, qualifiedName: String, value: String)"
+    },
+    {
+      "text": "fun setPointerCapture(pointerId: Int)"
+    },
+    {
+      "text": "fun webkitMatchesSelector(selectors: String): Boolean"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "fun Element.addClass(vararg cssClasses: String): Boolean",
+      "desc": "Adds CSS class to element. Has no effect if all specified classes are already in class attribute of the element"
+    },
+    {
+      "text": "fun Element.addClass(vararg cssClasses: String): Boolean",
+      "desc": "Adds CSS class to element. Has no effect if all specified classes are already in class attribute of the element"
+    },
+    {
+      "text": "fun Element.appendElement( name: String, init: Element.() -> Unit): Element",
+      "desc": "Appends a newly created element with the specified name to this element."
+    },
+    {
+      "text": "fun Element.appendElement( name: String, init: Element.() -> Unit): Element",
+      "desc": "Appends a newly created element with the specified name to this element."
+    },
+    {
+      "text": "fun Element.appendText(text: String): Element",
+      "desc": "Creates text node and append it to the element."
+    },
+    {
+      "text": "fun Element.appendText(text: String): Element",
+      "desc": "Creates text node and append it to the element."
+    },
+    {
+      "text": "fun Element.hasClass(cssClass: String): Boolean",
+      "desc": "Returns true if the element has the given CSS class style in its 'class' attribute"
+    },
+    {
+      "text": "fun Element.hasClass(cssClass: String): Boolean",
+      "desc": "Returns true if the element has the given CSS class style in its 'class' attribute"
+    },
+    {
+      "text": "fun Element.removeClass(vararg cssClasses: String): Boolean",
+      "desc": "Removes all cssClasses from element. Has no effect if all specified classes are missing in class attribute of the element"
+    },
+    {
+      "text": "fun Element.removeClass(vararg cssClasses: String): Boolean",
+      "desc": "Removes all cssClasses from element. Has no effect if all specified classes are missing in class attribute of the element"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    }
+  ]
+}

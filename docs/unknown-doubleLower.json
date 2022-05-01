@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "doubleLower",
+  "signature": "fun doubleLower(value: Double): Int",
+  "items": []
+}

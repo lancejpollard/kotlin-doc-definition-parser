@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "toComponents",
+  "signatures": [
+    {
+      "text": "inline fun <T> toComponents( action: (days: Long, hours: Int, minutes: Int, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into days, hours, minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "inline fun <T> toComponents( action: (hours: Long, minutes: Int, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into hours, minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "inline fun <T> toComponents( action: (minutes: Long, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "inline fun <T> toComponents( action: (seconds: Long, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    }
+  ],
+  "items": []
+}

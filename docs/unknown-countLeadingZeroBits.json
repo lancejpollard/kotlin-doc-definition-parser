@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "countLeadingZeroBits",
+  "signatures": [
+    {
+      "text": "fun Int.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this Int number."
+    },
+    {
+      "text": "fun Long.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this Long number."
+    },
+    {
+      "text": "fun Byte.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this Byte number."
+    },
+    {
+      "text": "fun Short.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this Short number."
+    },
+    {
+      "text": "fun UInt.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this UInt number."
+    },
+    {
+      "text": "fun ULong.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this ULong number."
+    },
+    {
+      "text": "fun UByte.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this UByte number."
+    },
+    {
+      "text": "fun UShort.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this UShort number."
+    }
+  ],
+  "items": []
+}

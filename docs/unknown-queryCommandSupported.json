@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "queryCommandSupported",
+  "signature": "fun queryCommandSupported(commandId: String): Boolean",
+  "items": []
+}

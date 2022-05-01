@@ -1,0 +1,30 @@
+{
+  "type": "package",
+  "name": "kotlin.annotation",
+  "items": [
+    {
+      "text": "enum class AnnotationRetention",
+      "desc": "Contains the list of possible annotation's retentions."
+    },
+    {
+      "text": "enum class AnnotationTarget",
+      "desc": "Contains the list of code elements which are the possible annotation targets"
+    },
+    {
+      "text": "annotation class MustBeDocumented",
+      "desc": "This meta-annotation determines that an annotation is a part of public API and therefore should be included in the generated documentation for the element to which the annotation is applied."
+    },
+    {
+      "text": "annotation class Repeatable",
+      "desc": "This meta-annotation determines that an annotation is applicable twice or more on a single code element"
+    },
+    {
+      "text": "annotation class Retention",
+      "desc": "This meta-annotation determines whether an annotation is stored in binary output and visible for reflection. By default, both are true."
+    },
+    {
+      "text": "annotation class Target",
+      "desc": "This meta-annotation indicates the kinds of code elements which are possible targets of an annotation."
+    }
+  ]
+}

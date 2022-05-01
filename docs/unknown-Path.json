@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Path",
+  "signatures": [
+    {
+      "text": "fun Path(path: String): Path",
+      "desc": "Converts the provided path string to a Path object of the default filesystem."
+    },
+    {
+      "text": "fun Path(base: String, vararg subpaths: String): Path",
+      "desc": "Converts the name sequence specified with the base path string and a number of subpaths additional names to a Path object of the default filesystem."
+    }
+  ],
+  "items": []
+}

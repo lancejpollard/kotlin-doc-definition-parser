@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "AnnotationRetention",
+  "signature": "enum class AnnotationRetention",
+  "items": [
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    }
+  ]
+}

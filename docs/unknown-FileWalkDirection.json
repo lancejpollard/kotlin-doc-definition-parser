@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FileWalkDirection",
+  "signature": "enum class FileWalkDirection",
+  "items": []
+}

@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "MediaDevices",
+  "signature": "abstract class MediaDevices : EventTarget",
+  "items": [
+    {
+      "text": "MediaDevices()",
+      "desc": "Exposes the JavaScript MediaDevices to Kotlin"
+    },
+    {
+      "text": "open var ondevicechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "fun enumerateDevices(): Promise<Array<MediaDeviceInfo>>"
+    },
+    {
+      "text": "fun getSupportedConstraints(): MediaTrackSupportedConstraints"
+    },
+    {
+      "text": "fun getUserMedia( constraints: MediaStreamConstraints = definedExternally): Promise<MediaStream>"
+    }
+  ]
+}

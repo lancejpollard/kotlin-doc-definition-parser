@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "runLambda",
+  "signature": "fun runLambda( pointer: Int, argumentsArena: Arena, argumentsArenaSize: Int): Int",
+  "items": []
+}

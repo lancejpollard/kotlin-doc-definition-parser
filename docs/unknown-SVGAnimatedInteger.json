@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedInteger",
+  "signature": "abstract class SVGAnimatedInteger",
+  "items": [
+    {
+      "text": "SVGAnimatedInteger()",
+      "desc": "Exposes the JavaScript SVGAnimatedInteger to Kotlin"
+    },
+    {
+      "text": "open val animVal: Int"
+    },
+    {
+      "text": "open var baseVal: Int"
+    }
+  ]
+}

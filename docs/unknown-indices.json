@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "indices",
+  "signature": "val CharSequence.indices: IntRange",
+  "items": []
+}

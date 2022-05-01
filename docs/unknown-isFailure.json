@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isFailure",
+  "signature": "val isFailure: Boolean",
+  "items": []
+}

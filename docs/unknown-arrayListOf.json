@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "arrayListOf",
+  "signatures": [
+    {
+      "text": "fun <T> arrayListOf(): ArrayList<T>",
+      "desc": "Returns an empty new ArrayList."
+    },
+    {
+      "text": "fun <T> arrayListOf(vararg elements: T): ArrayList<T>",
+      "desc": "Returns a new ArrayList with the given elements."
+    }
+  ],
+  "items": []
+}

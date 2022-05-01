@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ObjCStringVarOf",
+  "signature": "typealias ObjCStringVarOf<T> = ObjCNotImplementedVar<T>",
+  "items": []
+}

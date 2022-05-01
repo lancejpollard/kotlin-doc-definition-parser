@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onreset",
+  "signature": "open var onreset: ((Event) -> dynamic)?",
+  "items": []
+}

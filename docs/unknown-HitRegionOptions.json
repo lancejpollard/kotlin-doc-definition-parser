@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "HitRegionOptions",
+  "signature": "fun HitRegionOptions( path: Path2D? = null, fillRule: CanvasFillRule? = CanvasFillRule.NONZERO, id: String? = \"\", parentID: String? = null, cursor: String? = \"inherit\", control: Element? = null, label: String? = null, role: String? = null): HitRegionOptions",
+  "items": []
+}

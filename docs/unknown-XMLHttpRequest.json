@@ -1,0 +1,83 @@
+{
+  "type": "unknown",
+  "name": "XMLHttpRequest",
+  "signature": "open class XMLHttpRequest : XMLHttpRequestEventTarget",
+  "items": [
+    {
+      "text": "XMLHttpRequest()",
+      "desc": "Exposes the JavaScript XMLHttpRequest to Kotlin"
+    },
+    {
+      "text": "var onreadystatechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open val response: Any?"
+    },
+    {
+      "text": "open val responseText: String"
+    },
+    {
+      "text": "var responseType: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "open val responseURL: String"
+    },
+    {
+      "text": "open val responseXML: Document?"
+    },
+    {
+      "text": "open val status: Short"
+    },
+    {
+      "text": "open val statusText: String"
+    },
+    {
+      "text": "var timeout: Int"
+    },
+    {
+      "text": "open val upload: XMLHttpRequestUpload"
+    },
+    {
+      "text": "var withCredentials: Boolean"
+    },
+    {
+      "text": "fun abort()"
+    },
+    {
+      "text": "fun getAllResponseHeaders(): String"
+    },
+    {
+      "text": "fun getResponseHeader(name: String): String?"
+    },
+    {
+      "text": "fun open(method: String, url: String)"
+    },
+    {
+      "text": "fun overrideMimeType(mime: String)"
+    },
+    {
+      "text": "fun send(body: dynamic = definedExternally)"
+    },
+    {
+      "text": "fun setRequestHeader(name: String, value: String)"
+    },
+    {
+      "text": "val DONE: Short"
+    },
+    {
+      "text": "val HEADERS_RECEIVED: Short"
+    },
+    {
+      "text": "val LOADING: Short"
+    },
+    {
+      "text": "val OPENED: Short"
+    },
+    {
+      "text": "val UNSENT: Short"
+    }
+  ]
+}

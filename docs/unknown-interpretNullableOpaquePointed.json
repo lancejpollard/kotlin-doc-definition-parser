@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interpretNullableOpaquePointed",
+  "signature": "fun interpretNullableOpaquePointed( ptr: NativePtr): NativePointed?",
+  "items": []
+}

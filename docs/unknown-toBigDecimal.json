@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBigDecimal",
+  "signatures": [
+    {
+      "text": "fun BigInteger.toBigDecimal(): BigDecimal",
+      "desc": "Returns the value of this BigInteger number as a BigDecimal."
+    },
+    {
+      "text": "fun BigInteger.toBigDecimal( scale: Int = 0, mathContext: MathContext = MathContext.UNLIMITED): BigDecimal",
+      "desc": "Returns the value of this BigInteger number as a BigDecimal scaled according to the specified scale and rounded according to the settings specified with mathContext."
+    }
+  ],
+  "items": []
+}

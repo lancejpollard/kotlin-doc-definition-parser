@@ -1,0 +1,134 @@
+{
+  "type": "unknown",
+  "name": "Enum",
+  "signature": "abstract class Enum<E : Enum<E>> : Comparable<E>",
+  "items": [
+    {
+      "text": "<init>(name: String, ordinal: Int)",
+      "desc": "The common base class of all enum classes. See the Kotlin language documentation for more information on enum classes."
+    },
+    {
+      "text": "val name: String",
+      "desc": "Returns the name of this enum constant, exactly as declared in its enum declaration."
+    },
+    {
+      "text": "val ordinal: Int",
+      "desc": "Returns the ordinal of this enumeration constant (its position in its enum declaration, where the initial constant is assigned an ordinal of zero)."
+    },
+    {
+      "text": "fun clone(): Any",
+      "desc": "Throws an exception since enum constants cannot be cloned. This method prevents enum classes from inheriting from Cloneable."
+    },
+    {
+      "text": "fun compareTo(other: E): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "open fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "enum class AnnotationRetention",
+      "desc": "Contains the list of possible annotation's retentions."
+    },
+    {
+      "text": "enum class AnnotationTarget",
+      "desc": "Contains the list of code elements which are the possible annotation targets"
+    },
+    {
+      "text": "enum class CharCategory",
+      "desc": "Represents the character general category in the Unicode specification."
+    },
+    {
+      "text": "enum class CharDirectionality",
+      "desc": "Represents the Unicode directionality of a character. Character directionality is used to calculate the visual ordering of text."
+    },
+    {
+      "text": "enum class CpuArchitecture",
+      "desc": "Central Processor Unit architecture."
+    },
+    {
+      "text": "enum class DeprecationLevel",
+      "desc": "Possible levels of a deprecation. The level specifies how the deprecated element usages are reported in code."
+    },
+    {
+      "text": "enum class DurationUnit",
+      "desc": "The list of possible time measurement units, in which a duration can be expressed."
+    },
+    {
+      "text": "enum class FileWalkDirection",
+      "desc": "An enumeration to describe possible walk directions. There are two of them: beginning from parents, ending with children, and beginning from children, ending with parents. Both use depth-first search."
+    },
+    {
+      "text": "enum class FutureState",
+      "desc": "State of the future object."
+    },
+    {
+      "text": "enum class InvocationKind",
+      "desc": "Specifies how many times a function invokes its function parameter in place."
+    },
+    {
+      "text": "enum class KVariance",
+      "desc": "Represents variance applied to a type parameter on the declaration site (declaration-site variance), or to a type in a projection (use-site variance)."
+    },
+    {
+      "text": "enum class KVisibility",
+      "desc": "Visibility is an aspect of a Kotlin declaration regulating where that declaration is accessible in the source code. Visibility can be changed with one of the following modifiers: public, protected, internal, private."
+    },
+    {
+      "text": "enum class LazyThreadSafetyMode",
+      "desc": "Specifies how a Lazy instance synchronizes initialization among multiple threads."
+    },
+    {
+      "text": "enum class MemoryModel",
+      "desc": "Memory model."
+    },
+    {
+      "text": "enum class OnErrorAction",
+      "desc": "Enum that can be used to specify behaviour of the copyRecursively() function in exceptional conditions."
+    },
+    {
+      "text": "enum class OsFamily",
+      "desc": "Operating system family."
+    },
+    {
+      "text": "enum class RegexOption",
+      "desc": "Provides enumeration values to use to set regular expression options."
+    },
+    {
+      "text": "enum class TransferMode"
+    }
+  ]
+}

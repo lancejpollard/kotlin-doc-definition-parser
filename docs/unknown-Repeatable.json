@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Repeatable",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class Repeatable",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "This meta-annotation determines that an annotation is applicable twice or more on a single code element"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

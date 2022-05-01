@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DENIED",
+  "signature": "inline val NotificationPermission.Companion.DENIED: NotificationPermission",
+  "items": []
+}

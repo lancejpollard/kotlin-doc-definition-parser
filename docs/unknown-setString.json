@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setString",
+  "signature": "fun setString( arena: Arena, obj: Object, propertyName: Pointer, propertyLength: Int, stringPtr: Pointer, stringLength: Int)",
+  "items": []
+}

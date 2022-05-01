@@ -1,0 +1,97 @@
+{
+  "type": "unknown",
+  "name": "SVGTextPositioningElement",
+  "signature": "abstract class SVGTextPositioningElement : SVGTextContentElement",
+  "items": [
+    {
+      "text": "SVGTextPositioningElement()",
+      "desc": "Exposes the JavaScript SVGTextPositioningElement to Kotlin"
+    },
+    {
+      "text": "open val dx: SVGAnimatedLengthList"
+    },
+    {
+      "text": "open val dy: SVGAnimatedLengthList"
+    },
+    {
+      "text": "open val rotate: SVGAnimatedNumberList"
+    },
+    {
+      "text": "open val x: SVGAnimatedLengthList"
+    },
+    {
+      "text": "open val y: SVGAnimatedLengthList"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_SPACING: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_SPACINGANDGLYPHS: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_UNKNOWN: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class SVGTextElement : SVGTextPositioningElement",
+      "desc": "Exposes the JavaScript SVGTextElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTSpanElement : SVGTextPositioningElement",
+      "desc": "Exposes the JavaScript SVGTSpanElement to Kotlin"
+    }
+  ]
+}

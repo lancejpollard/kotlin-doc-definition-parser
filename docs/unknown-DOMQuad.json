@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "DOMQuad",
+  "signature": "open class DOMQuad",
+  "items": [
+    {
+      "text": "DOMQuad( p1: DOMPointInit = definedExternally, p2: DOMPointInit = definedExternally, p3: DOMPointInit = definedExternally, p4: DOMPointInit = definedExternally)"
+    },
+    {
+      "text": "open val bounds: DOMRectReadOnly"
+    },
+    {
+      "text": "open val p1: DOMPoint"
+    },
+    {
+      "text": "open val p2: DOMPoint"
+    },
+    {
+      "text": "open val p3: DOMPoint"
+    },
+    {
+      "text": "open val p4: DOMPoint"
+    }
+  ]
+}

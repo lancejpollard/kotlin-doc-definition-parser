@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "MediaKeySessionType",
+  "signature": "interface MediaKeySessionType",
+  "items": [
+    {
+      "text": "val MediaKeySessionType.Companion.PERSISTENT_LICENSE: MediaKeySessionType"
+    },
+    {
+      "text": "val MediaKeySessionType.Companion.TEMPORARY: MediaKeySessionType"
+    }
+  ]
+}

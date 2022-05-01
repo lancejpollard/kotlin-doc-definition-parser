@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "pageXOffset",
+  "signature": "open val pageXOffset: Double",
+  "items": []
+}

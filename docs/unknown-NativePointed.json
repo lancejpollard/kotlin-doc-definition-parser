@@ -1,0 +1,24 @@
+{
+  "type": "unknown",
+  "name": "NativePointed",
+  "signature": "open class NativePointed",
+  "items": [
+    {
+      "text": "var rawPtr: NativePtr"
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : NativePointed> NativePointed.reinterpret(): T",
+      "desc": "Changes the interpretation of the pointed data or code."
+    },
+    {
+      "text": "abstract class CPointed : NativePointed",
+      "desc": "C data or code."
+    }
+  ]
+}

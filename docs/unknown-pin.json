@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "pin",
+  "signature": "fun <T : Any> T.pin(): Pinned<T>",
+  "items": []
+}

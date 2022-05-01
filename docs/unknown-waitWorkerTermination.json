@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "waitWorkerTermination",
+  "signature": "fun waitWorkerTermination(worker: Worker)",
+  "items": []
+}

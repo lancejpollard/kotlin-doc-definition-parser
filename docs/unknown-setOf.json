@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "setOf",
+  "signatures": [
+    {
+      "text": "fun <T> setOf(vararg elements: T): Set<T>",
+      "desc": "Returns a new read-only set with the given elements. Elements of the set are iterated in the order they were specified. The returned set is serializable (JVM)."
+    },
+    {
+      "text": "fun <T> setOf(): Set<T>",
+      "desc": "Returns an empty read-only set. The returned set is serializable (JVM)."
+    },
+    {
+      "text": "fun <T> setOf(element: T): Set<T>",
+      "desc": "Returns an immutable set containing only the specified object element. The returned set is serializable."
+    }
+  ],
+  "items": []
+}

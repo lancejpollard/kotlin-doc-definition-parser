@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "importNode",
+  "signature": "fun importNode( node: Node, deep: Boolean = definedExternally): Node",
+  "items": []
+}

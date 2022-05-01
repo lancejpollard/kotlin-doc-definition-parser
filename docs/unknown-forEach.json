@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "forEach",
+  "signature": "inline fun CharSequence.forEach(action: (Char) -> Unit)",
+  "items": []
+}

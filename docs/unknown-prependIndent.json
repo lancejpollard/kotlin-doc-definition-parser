@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "prependIndent",
+  "signature": "fun String.prependIndent(indent: String = \" \"): String",
+  "items": []
+}

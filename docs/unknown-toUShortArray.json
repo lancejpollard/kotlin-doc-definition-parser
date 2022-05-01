@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toUShortArray",
+  "signatures": [
+    {
+      "text": "@ExperimentalUnsignedTypes fun Array<out UShort>.toUShortArray(): UShortArray",
+      "desc": "Returns an array of UShort containing all of the elements of this generic array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun ShortArray.toUShortArray(): UShortArray",
+      "desc": "Returns an array of type UShortArray, which is a copy of this array where each element is an unsigned reinterpretation of the corresponding element of this array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun Collection<UShort>.toUShortArray(): UShortArray",
+      "desc": "Returns an array of UShort containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getUByteAt",
+  "signature": "@ExperimentalUnsignedTypes fun ByteArray.getUByteAt( index: Int): UByte",
+  "items": []
+}

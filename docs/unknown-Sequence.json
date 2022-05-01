@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SEQUENCE",
+  "signature": "inline val AppendMode.Companion.SEQUENCE: AppendMode",
+  "items": []
+}

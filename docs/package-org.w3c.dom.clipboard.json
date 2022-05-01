@@ -1,0 +1,26 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.clipboard",
+  "items": [
+    {
+      "text": "abstract class Clipboard : EventTarget",
+      "desc": "Exposes the JavaScript Clipboard to Kotlin"
+    },
+    {
+      "text": "open class ClipboardEvent : Event",
+      "desc": "Exposes the JavaScript ClipboardEvent to Kotlin"
+    },
+    {
+      "text": "interface ClipboardEventInit : EventInit"
+    },
+    {
+      "text": "interface ClipboardPermissionDescriptor"
+    },
+    {
+      "text": "fun ClipboardEventInit( clipboardData: DataTransfer? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ClipboardEventInit"
+    },
+    {
+      "text": "fun ClipboardPermissionDescriptor( allowWithoutGesture: Boolean? = false): ClipboardPermissionDescriptor"
+    }
+  ]
+}

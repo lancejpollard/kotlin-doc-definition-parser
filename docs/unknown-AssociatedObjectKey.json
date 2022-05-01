@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "AssociatedObjectKey",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class AssociatedObjectKey",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Makes the annotated annotation class an associated object key."
+    }
+  ]
+}

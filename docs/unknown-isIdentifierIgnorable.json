@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isIdentifierIgnorable",
+  "signature": "fun Char.isIdentifierIgnorable(): Boolean",
+  "items": []
+}

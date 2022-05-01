@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "ElementCSSInlineStyle",
+  "signature": "interface ElementCSSInlineStyle",
+  "items": [
+    {
+      "text": "abstract val style: CSSStyleDeclaration"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    }
+  ]
+}

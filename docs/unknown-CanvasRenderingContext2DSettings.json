@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CanvasRenderingContext2DSettings",
+  "signature": "fun CanvasRenderingContext2DSettings( alpha: Boolean? = true): CanvasRenderingContext2DSettings",
+  "items": []
+}

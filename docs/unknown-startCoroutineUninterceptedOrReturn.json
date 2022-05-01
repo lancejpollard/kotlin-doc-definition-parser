@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "startCoroutineUninterceptedOrReturn",
+  "signatures": [
+    {
+      "text": "fun <T> (suspend () -> T).startCoroutineUninterceptedOrReturn( completion: Continuation<T>): Any?",
+      "desc": "Starts an unintercepted coroutine without a receiver and with result type T and executes it until its first suspension. Returns the result of the coroutine or throws its exception if it does not suspend or COROUTINE_SUSPENDED if it suspends. In the latter case, the completion continuation is invoked when the coroutine completes with a result or an exception."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).startCoroutineUninterceptedOrReturn( receiver: R, completion: Continuation<T>): Any?",
+      "desc": "Starts an unintercepted coroutine with receiver type R and result type T and executes it until its first suspension. Returns the result of the coroutine or throws its exception if it does not suspend or COROUTINE_SUSPENDED if it suspends. In the latter case, the completion continuation is invoked when the coroutine completes with a result or an exception."
+    }
+  ],
+  "items": []
+}

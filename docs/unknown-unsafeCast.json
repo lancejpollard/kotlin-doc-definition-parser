@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "unsafeCast",
+  "signatures": [
+    {
+      "text": "fun <T> Any?.unsafeCast(): T",
+      "desc": "Reinterprets this value as a value of the specified type T without any actual type checking."
+    },
+    {
+      "text": "fun <T> dynamic.unsafeCast(): T",
+      "desc": "Reinterprets this dynamic value as a value of the specified type T without any actual type checking."
+    }
+  ],
+  "items": []
+}

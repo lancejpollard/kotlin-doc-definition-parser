@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "NavigatorConcurrentHardware",
+  "signature": "interface NavigatorConcurrentHardware",
+  "items": [
+    {
+      "text": "abstract val hardwareConcurrency: Number"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerNavigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript WorkerNavigator to Kotlin"
+    }
+  ]
+}

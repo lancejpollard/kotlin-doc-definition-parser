@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "TimeRanges",
+  "signature": "abstract class TimeRanges",
+  "items": [
+    {
+      "text": "TimeRanges()",
+      "desc": "Exposes the JavaScript TimeRanges to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun end(index: Int): Double"
+    },
+    {
+      "text": "fun start(index: Int): Double"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CanvasPattern",
+  "signature": "abstract class CanvasPattern",
+  "items": [
+    {
+      "text": "CanvasPattern()",
+      "desc": "Exposes the JavaScript CanvasPattern to Kotlin"
+    },
+    {
+      "text": "fun setTransform(transform: dynamic = definedExternally)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asJavaRandom",
+  "signature": "fun Random.asJavaRandom(): Random",
+  "items": []
+}

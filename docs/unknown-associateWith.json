@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "associateWith",
+  "signature": "inline fun <V> CharSequence.associateWith( valueSelector: (Char) -> V): Map<Char, V>",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "hashMapOf",
+  "signatures": [
+    {
+      "text": "fun <K, V> hashMapOf(): HashMap<K, V>",
+      "desc": "Returns an empty new HashMap."
+    },
+    {
+      "text": "fun <K, V> hashMapOf(vararg pairs: Pair<K, V>): HashMap<K, V>",
+      "desc": "Returns a new HashMap with the specified contents, given as a list of pairs where the first component is the key and the second is the value."
+    }
+  ],
+  "items": []
+}

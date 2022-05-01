@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnsafeNumber",
+  "signature": "@Target([AnnotationTarget.TYPEALIAS]) annotation class UnsafeNumber",
+  "items": [
+    {
+      "text": "UnsafeNumber(actualPlatformTypes: Array<String>)",
+      "desc": "Marker for typealias that will represent numbers of different bit width on at least two platforms."
+    },
+    {
+      "text": "val actualPlatformTypes: Array<String>",
+      "desc": ": Contains the underlying platform types represented as {konanTarget}: {type fqn} e.g. linux_x64:kotlin.Int,linux_arm64:kotlin.Long"
+    }
+  ]
+}

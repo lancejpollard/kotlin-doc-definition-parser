@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "thread",
+  "signature": "fun thread( start: Boolean = true, isDaemon: Boolean = false, contextClassLoader: ClassLoader? = null, name: String? = null, priority: Int = -1, block: () -> Unit): Thread",
+  "items": []
+}

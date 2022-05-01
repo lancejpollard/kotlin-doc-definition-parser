@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "rawPtr",
+  "signature": "val NativePointed?.rawPtr: NativePtr",
+  "items": []
+}

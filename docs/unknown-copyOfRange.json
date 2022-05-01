@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "copyOfRange",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.copyOfRange( fromIndex: Int, toIndex: Int): Array<T>",
+      "desc": "Returns a new array which is a copy of the specified range of the original array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.copyOfRange( fromIndex: Int, toIndex: Int): UIntArray",
+      "desc": "Returns a new array which is a copy of the specified range of the original array."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "TouchEvent",
+  "signature": "open class TouchEvent : UIEvent",
+  "items": [
+    {
+      "text": "TouchEvent()"
+    },
+    {
+      "text": "open val altKey: Boolean"
+    },
+    {
+      "text": "open val changedTouches: TouchList"
+    },
+    {
+      "text": "open val ctrlKey: Boolean"
+    },
+    {
+      "text": "open val metaKey: Boolean"
+    },
+    {
+      "text": "open val shiftKey: Boolean"
+    },
+    {
+      "text": "open val targetTouches: TouchList"
+    },
+    {
+      "text": "open val touches: TouchList"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

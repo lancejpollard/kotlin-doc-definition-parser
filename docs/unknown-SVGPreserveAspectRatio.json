@@ -1,0 +1,59 @@
+{
+  "type": "unknown",
+  "name": "SVGPreserveAspectRatio",
+  "signature": "abstract class SVGPreserveAspectRatio",
+  "items": [
+    {
+      "text": "SVGPreserveAspectRatio()",
+      "desc": "Exposes the JavaScript SVGPreserveAspectRatio to Kotlin"
+    },
+    {
+      "text": "open var align: Short"
+    },
+    {
+      "text": "open var meetOrSlice: Short"
+    },
+    {
+      "text": "val SVG_MEETORSLICE_MEET: Short"
+    },
+    {
+      "text": "val SVG_MEETORSLICE_SLICE: Short"
+    },
+    {
+      "text": "val SVG_MEETORSLICE_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_NONE: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMAXYMAX: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMAXYMID: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMAXYMIN: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMIDYMAX: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMIDYMID: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMIDYMIN: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMINYMAX: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMINYMID: Short"
+    },
+    {
+      "text": "val SVG_PRESERVEASPECTRATIO_XMINYMIN: Short"
+    }
+  ]
+}

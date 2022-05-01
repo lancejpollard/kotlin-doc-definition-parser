@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "MutationRecord",
+  "signature": "abstract class MutationRecord",
+  "items": [
+    {
+      "text": "MutationRecord()",
+      "desc": "Exposes the JavaScript MutationRecord to Kotlin"
+    },
+    {
+      "text": "open val addedNodes: NodeList"
+    },
+    {
+      "text": "open val attributeName: String?"
+    },
+    {
+      "text": "open val attributeNamespace: String?"
+    },
+    {
+      "text": "open val nextSibling: Node?"
+    },
+    {
+      "text": "open val oldValue: String?"
+    },
+    {
+      "text": "open val previousSibling: Node?"
+    },
+    {
+      "text": "open val removedNodes: NodeList"
+    },
+    {
+      "text": "open val target: Node"
+    },
+    {
+      "text": "open val type: String"
+    }
+  ]
+}

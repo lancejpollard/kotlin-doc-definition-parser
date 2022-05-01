@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "SelectionMode",
+  "signature": "interface SelectionMode",
+  "items": [
+    {
+      "text": "val SelectionMode.Companion.END: SelectionMode"
+    },
+    {
+      "text": "val SelectionMode.Companion.PRESERVE: SelectionMode"
+    },
+    {
+      "text": "val SelectionMode.Companion.SELECT: SelectionMode"
+    },
+    {
+      "text": "val SelectionMode.Companion.START: SelectionMode"
+    }
+  ]
+}

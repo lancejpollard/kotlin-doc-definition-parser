@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "count",
+  "signatures": [
+    {
+      "text": "fun CharSequence.count(): Int",
+      "desc": "Returns the length of this char sequence."
+    },
+    {
+      "text": "inline fun CharSequence.count( predicate: (Char) -> Boolean): Int",
+      "desc": "Returns the number of characters matching the given predicate."
+    }
+  ],
+  "items": []
+}

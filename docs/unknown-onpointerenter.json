@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpointerenter",
+  "signature": "open var onpointerenter: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionHTMLOptGroupElementOrHTMLOptionElement",
+  "signature": "interface UnionHTMLOptGroupElementOrHTMLOptionElement",
+  "items": [
+    {
+      "text": "abstract class HTMLOptGroupElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptGroupElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptionElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptionElement to Kotlin"
+    }
+  ]
+}

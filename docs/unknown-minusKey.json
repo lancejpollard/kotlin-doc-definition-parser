@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minusKey",
+  "signature": "abstract fun minusKey(key: Key<*>): CoroutineContext",
+  "items": []
+}

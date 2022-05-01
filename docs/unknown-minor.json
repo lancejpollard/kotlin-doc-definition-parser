@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minor",
+  "signature": "val minor: Int",
+  "items": []
+}

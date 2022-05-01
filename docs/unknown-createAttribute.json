@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createAttribute",
+  "signature": "fun createAttribute(localName: String): Attr",
+  "items": []
+}

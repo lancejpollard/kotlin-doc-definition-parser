@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "RelatedEvent",
+  "signature": "open class RelatedEvent : Event",
+  "items": [
+    {
+      "text": "RelatedEvent( type: String, eventInitDict: RelatedEventInit = definedExternally)"
+    },
+    {
+      "text": "open val relatedTarget: EventTarget?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

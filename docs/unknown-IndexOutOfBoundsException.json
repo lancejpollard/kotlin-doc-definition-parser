@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "IndexOutOfBoundsException",
+  "signature": "open class IndexOutOfBoundsException : RuntimeException",
+  "items": [
+    {
+      "text": "<init>()"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "open class ArrayIndexOutOfBoundsException : IndexOutOfBoundsException"
+    }
+  ]
+}

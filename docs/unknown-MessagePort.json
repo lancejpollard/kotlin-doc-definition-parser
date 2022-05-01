@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "MessagePort",
+  "signature": "abstract class MessagePort : EventTarget, UnionMessagePortOrWindowProxy, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+  "items": [
+    {
+      "text": "MessagePort()",
+      "desc": "Exposes the JavaScript MessagePort to Kotlin"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun close()"
+    },
+    {
+      "text": "fun postMessage( message: Any?, transfer: Array<dynamic> = definedExternally)"
+    },
+    {
+      "text": "fun start()"
+    }
+  ]
+}

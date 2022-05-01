@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConstrainBooleanParameters",
+  "signature": "fun ConstrainBooleanParameters( exact: Boolean? = undefined, ideal: Boolean? = undefined): ConstrainBooleanParameters",
+  "items": []
+}

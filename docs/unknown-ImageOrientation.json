@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ImageOrientation",
+  "signature": "interface ImageOrientation",
+  "items": [
+    {
+      "text": "val ImageOrientation.Companion.FLIPY: ImageOrientation"
+    },
+    {
+      "text": "val ImageOrientation.Companion.NONE: ImageOrientation"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cookie",
+  "signature": "var cookie: String",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isJavaIdentifierStart",
+  "signature": "fun Char.isJavaIdentifierStart(): Boolean",
+  "items": []
+}

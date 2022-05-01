@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "open",
+  "signature": "fun open( url: String = definedExternally, target: String = definedExternally, features: String = definedExternally): Window?",
+  "items": []
+}

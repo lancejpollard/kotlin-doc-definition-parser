@@ -1,0 +1,112 @@
+{
+  "type": "unknown",
+  "name": "SVGMarkerElement",
+  "signature": "abstract class SVGMarkerElement : SVGElement, SVGFitToViewBox",
+  "items": [
+    {
+      "text": "SVGMarkerElement()"
+    },
+    {
+      "text": "open val markerHeight: SVGAnimatedLength"
+    },
+    {
+      "text": "open val markerUnits: SVGAnimatedEnumeration"
+    },
+    {
+      "text": "open val markerWidth: SVGAnimatedLength"
+    },
+    {
+      "text": "open var orient: String"
+    },
+    {
+      "text": "open val orientAngle: SVGAnimatedAngle"
+    },
+    {
+      "text": "open val orientType: SVGAnimatedEnumeration"
+    },
+    {
+      "text": "open val refX: SVGAnimatedLength"
+    },
+    {
+      "text": "open val refY: SVGAnimatedLength"
+    },
+    {
+      "text": "fun setOrientToAngle(angle: SVGAngle)"
+    },
+    {
+      "text": "fun setOrientToAuto()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val SVG_MARKER_ORIENT_ANGLE: Short"
+    },
+    {
+      "text": "val SVG_MARKER_ORIENT_AUTO: Short"
+    },
+    {
+      "text": "val SVG_MARKER_ORIENT_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_MARKERUNITS_STROKEWIDTH: Short"
+    },
+    {
+      "text": "val SVG_MARKERUNITS_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_MARKERUNITS_USERSPACEONUSE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "get",
+  "signature": "operator fun get(index: Int): E",
+  "items": []
+}

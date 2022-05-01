@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "ImmutableBlob",
+  "signature": "class ImmutableBlob",
+  "items": [
+    {
+      "text": "val size: Int"
+    },
+    {
+      "text": "operator fun get(index: Int): Byte"
+    },
+    {
+      "text": "operator fun iterator(): ByteIterator",
+      "desc": "Creates an iterator over the elements of the array."
+    },
+    {
+      "text": "fun ImmutableBlob.asCPointer( offset: Int = 0): CPointer<ByteVar>",
+      "desc": "Returns stable C pointer to data at certain offset, useful as a way to pass resource to C APIs."
+    },
+    {
+      "text": "fun ImmutableBlob.asUCPointer( offset: Int = 0): CPointer<UByteVar>"
+    },
+    {
+      "text": "fun ImmutableBlob.toByteArray( startIndex: Int = 0, endIndex: Int = size): ByteArray",
+      "desc": "Copies the data from this blob into a new ByteArray."
+    },
+    {
+      "text": "fun ImmutableBlob.toUByteArray( startIndex: Int = 0, endIndex: Int = size): UByteArray",
+      "desc": "Copies the data from this blob into a new UByteArray."
+    }
+  ]
+}

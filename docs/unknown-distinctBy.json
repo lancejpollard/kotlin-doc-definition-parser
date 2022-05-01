@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "distinctBy",
+  "signature": "fun <T, K> Sequence<T>.distinctBy( selector: (T) -> K): Sequence<T>",
+  "items": []
+}

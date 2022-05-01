@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "domain",
+  "signature": "var domain: String",
+  "items": []
+}

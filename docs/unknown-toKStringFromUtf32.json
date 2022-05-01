@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toKStringFromUtf32",
+  "signature": "fun CPointer<IntVar>.toKStringFromUtf32(): String",
+  "items": []
+}

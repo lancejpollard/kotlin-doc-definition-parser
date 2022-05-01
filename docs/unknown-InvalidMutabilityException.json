@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "InvalidMutabilityException",
+  "signature": "class InvalidMutabilityException : RuntimeException",
+  "items": [
+    {
+      "text": "InvalidMutabilityException(message: String)",
+      "desc": "Exception thrown whenever we attempt to mutate frozen objects."
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    }
+  ]
+}

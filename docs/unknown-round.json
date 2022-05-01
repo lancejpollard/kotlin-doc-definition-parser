@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ROUND",
+  "signature": "inline val CanvasLineCap.Companion.ROUND: CanvasLineCap",
+  "items": []
+}

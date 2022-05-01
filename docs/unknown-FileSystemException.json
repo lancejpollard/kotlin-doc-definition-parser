@@ -1,0 +1,47 @@
+{
+  "type": "unknown",
+  "name": "FileSystemException",
+  "signature": "open class FileSystemException : IOException",
+  "items": [
+    {
+      "text": "FileSystemException( file: File, other: File? = null, reason: String? = null)",
+      "desc": "A base exception class for file system exceptions."
+    },
+    {
+      "text": "val file: File",
+      "desc": "the file on which the failed operation was performed."
+    },
+    {
+      "text": "val other: File?",
+      "desc": "the second file involved in the operation, if any (for example, the target of a copy or move)"
+    },
+    {
+      "text": "val reason: String?",
+      "desc": "the description of the error"
+    },
+    {
+      "text": "val Throwable.stackTrace: Array<StackTraceElement>",
+      "desc": "Returns an array of stack trace elements representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    },
+    {
+      "text": "class AccessDeniedException : FileSystemException",
+      "desc": "An exception class which is used when we have not enough access for some operation."
+    },
+    {
+      "text": "class FileAlreadyExistsException : FileSystemException",
+      "desc": "An exception class which is used when some file to create or copy to already exists."
+    },
+    {
+      "text": "class NoSuchFileException : FileSystemException",
+      "desc": "An exception class which is used when file to copy does not exist."
+    }
+  ]
+}

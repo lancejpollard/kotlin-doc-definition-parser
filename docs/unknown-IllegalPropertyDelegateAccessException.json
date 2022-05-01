@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "IllegalPropertyDelegateAccessException",
+  "signature": "class IllegalPropertyDelegateAccessException : Exception",
+  "items": [
+    {
+      "text": "IllegalPropertyDelegateAccessException( cause: IllegalAccessException)",
+      "desc": "An exception that is thrown when getDelegate is invoked on a KProperty object that was not made accessible with isAccessible."
+    },
+    {
+      "text": "val Throwable.stackTrace: Array<StackTraceElement>",
+      "desc": "Returns an array of stack trace elements representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    }
+  ]
+}

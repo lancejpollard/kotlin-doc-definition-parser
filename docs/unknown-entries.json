@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "entries",
+  "signature": "abstract val entries: MutableSet<MutableEntry<K, V>>",
+  "items": []
+}

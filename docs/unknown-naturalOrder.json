@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "naturalOrder",
+  "signature": "fun <T : Comparable<T>> naturalOrder(): Comparator<T>",
+  "items": []
+}

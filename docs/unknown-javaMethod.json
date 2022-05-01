@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaMethod",
+  "signature": "val KFunction<*>.javaMethod: Method?",
+  "items": []
+}

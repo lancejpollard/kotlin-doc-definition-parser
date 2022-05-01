@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "Touch",
+  "signature": "abstract class Touch",
+  "items": [
+    {
+      "text": "Touch()",
+      "desc": "Exposes the JavaScript Touch to Kotlin"
+    },
+    {
+      "text": "open val clientX: Int"
+    },
+    {
+      "text": "open val clientY: Int"
+    },
+    {
+      "text": "open val identifier: Int"
+    },
+    {
+      "text": "open val pageX: Int"
+    },
+    {
+      "text": "open val pageY: Int"
+    },
+    {
+      "text": "open val region: String?"
+    },
+    {
+      "text": "open val screenX: Int"
+    },
+    {
+      "text": "open val screenY: Int"
+    },
+    {
+      "text": "open val target: EventTarget"
+    }
+  ]
+}

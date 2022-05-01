@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "nativeNullPtr",
+  "signature": "inline val nativeNullPtr: NativePtr",
+  "items": []
+}

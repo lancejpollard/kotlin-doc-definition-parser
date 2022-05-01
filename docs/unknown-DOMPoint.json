@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "DOMPoint",
+  "signature": "open class DOMPoint : DOMPointReadOnly",
+  "items": [
+    {
+      "text": "DOMPoint(point: DOMPointInit)"
+    },
+    {
+      "text": "open var w: Double"
+    },
+    {
+      "text": "open var x: Double"
+    },
+    {
+      "text": "open var y: Double"
+    },
+    {
+      "text": "open var z: Double"
+    }
+  ]
+}

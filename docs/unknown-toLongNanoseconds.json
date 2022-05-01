@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toLongNanoseconds",
+  "signature": "@ExperimentalTime fun toLongNanoseconds(): Long",
+  "items": []
+}

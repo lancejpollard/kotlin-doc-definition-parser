@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "MediaDeviceInfo",
+  "signature": "abstract class MediaDeviceInfo",
+  "items": [
+    {
+      "text": "MediaDeviceInfo()",
+      "desc": "Exposes the JavaScript MediaDeviceInfo to Kotlin"
+    },
+    {
+      "text": "open val deviceId: String"
+    },
+    {
+      "text": "open val groupId: String"
+    },
+    {
+      "text": "open val kind: MediaDeviceKind"
+    },
+    {
+      "text": "open val label: String"
+    },
+    {
+      "text": "fun toJSON(): dynamic"
+    },
+    {
+      "text": "abstract class InputDeviceInfo : MediaDeviceInfo"
+    }
+  ]
+}

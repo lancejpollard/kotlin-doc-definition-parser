@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ClientQueryOptions",
+  "signature": "fun ClientQueryOptions( includeUncontrolled: Boolean? = false, type: ClientType? = ClientType.WINDOW): ClientQueryOptions",
+  "items": []
+}

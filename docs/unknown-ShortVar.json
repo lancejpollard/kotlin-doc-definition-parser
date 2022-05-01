@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ShortVar",
+  "signature": "typealias ShortVar = ShortVarOf<Short>",
+  "items": []
+}

@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "CharDirectionality",
+  "signature": "enum class CharDirectionality",
+  "items": [
+    {
+      "text": "val value: Int"
+    },
+    {
+      "text": "fun valueOf(directionality: Int): CharDirectionality"
+    }
+  ]
+}

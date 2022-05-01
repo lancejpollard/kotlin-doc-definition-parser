@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "retainAll",
+  "signature": "fun retainAll(elements: Collection<E>): Boolean",
+  "items": []
+}

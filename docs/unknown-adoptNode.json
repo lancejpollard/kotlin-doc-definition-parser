@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "adoptNode",
+  "signature": "fun adoptNode(node: Node): Node",
+  "items": []
+}

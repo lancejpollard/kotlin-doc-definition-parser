@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "SymbolName",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class SymbolName",
+  "items": [
+    {
+      "text": "SymbolName(name: String)",
+      "desc": "This annotation is deprecated. See KT-46649."
+    },
+    {
+      "text": "val name: String"
+    }
+  ]
+}

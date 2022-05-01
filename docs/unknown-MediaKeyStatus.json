@@ -1,0 +1,28 @@
+{
+  "type": "unknown",
+  "name": "MediaKeyStatus",
+  "signature": "interface MediaKeyStatus",
+  "items": [
+    {
+      "text": "val MediaKeyStatus.Companion.EXPIRED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.INTERNAL_ERROR: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.OUTPUT_DOWNSCALED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.OUTPUT_RESTRICTED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.RELEASED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.STATUS_PENDING: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.USABLE: MediaKeyStatus"
+    }
+  ]
+}

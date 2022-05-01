@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "copy",
+  "signature": "inline fun <reified T : CStructVar> CValue<T>.copy( modify: T.() -> Unit): CValue<T>",
+  "items": []
+}

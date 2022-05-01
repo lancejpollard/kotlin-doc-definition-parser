@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "PublishedApi",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY]) annotation class PublishedApi",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "When applied to a class or a member with internal visibility allows to use it from public inline functions and makes it effectively public."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

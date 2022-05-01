@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "memScoped",
+  "signature": "inline fun <R> memScoped(block: MemScope.() -> R): R",
+  "items": []
+}

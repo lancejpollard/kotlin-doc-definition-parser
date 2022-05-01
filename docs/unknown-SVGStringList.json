@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "SVGStringList",
+  "signature": "abstract class SVGStringList",
+  "items": [
+    {
+      "text": "SVGStringList()",
+      "desc": "Exposes the JavaScript SVGStringList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: String): String"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(index: Int): String"
+    },
+    {
+      "text": "fun initialize(newItem: String): String"
+    },
+    {
+      "text": "fun insertItemBefore(newItem: String, index: Int): String"
+    },
+    {
+      "text": "fun removeItem(index: Int): String"
+    },
+    {
+      "text": "fun replaceItem(newItem: String, index: Int): String"
+    },
+    {
+      "text": "operator fun SVGStringList.get(index: Int): String?"
+    },
+    {
+      "text": "operator fun SVGStringList.set(index: Int, newItem: String)"
+    }
+  ]
+}

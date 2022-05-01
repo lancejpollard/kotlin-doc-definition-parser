@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MAX_RADIX",
+  "signature": "const val MAX_RADIX: Int",
+  "items": []
+}

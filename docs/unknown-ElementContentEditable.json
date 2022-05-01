@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "ElementContentEditable",
+  "signature": "interface ElementContentEditable",
+  "items": [
+    {
+      "text": "abstract var contentEditable: String"
+    },
+    {
+      "text": "abstract val isContentEditable: Boolean"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    }
+  ]
+}

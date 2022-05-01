@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "confirm",
+  "signature": "fun confirm(message: String = definedExternally): Boolean",
+  "items": []
+}

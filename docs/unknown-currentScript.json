@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "currentScript",
+  "signature": "open val currentScript: HTMLOrSVGScriptElement?",
+  "items": []
+}

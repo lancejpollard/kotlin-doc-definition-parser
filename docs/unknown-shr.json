@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "shr",
+  "signature": "infix fun BigInteger.shr(n: Int): BigInteger",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SMOOTH",
+  "signature": "inline val ScrollBehavior.Companion.SMOOTH: ScrollBehavior",
+  "items": []
+}

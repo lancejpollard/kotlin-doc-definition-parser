@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createType",
+  "signature": "fun KClassifier.createType( arguments: List<KTypeProjection> = emptyList(), nullable: Boolean = false, annotations: List<Annotation> = emptyList()): KType",
+  "items": []
+}

@@ -1,0 +1,51 @@
+{
+  "type": "unknown",
+  "name": "ClosedRange",
+  "signature": "interface ClosedRange<T : Comparable<T>>",
+  "items": [
+    {
+      "text": "abstract val endInclusive: T",
+      "desc": "The maximum value in the range (inclusive)."
+    },
+    {
+      "text": "abstract val start: T",
+      "desc": "The minimum value in the range."
+    },
+    {
+      "text": "open operator fun contains(value: T): Boolean",
+      "desc": "Checks whether the specified value belongs to the range."
+    },
+    {
+      "text": "open fun isEmpty(): Boolean",
+      "desc": "Checks whether the range is empty."
+    },
+    {
+      "text": "operator fun ClosedRange<Int>.contains(value: Byte): Boolean",
+      "desc": "Checks if the specified value belongs to this range."
+    },
+    {
+      "text": "class CharRange : CharProgression, ClosedRange<Char>",
+      "desc": "A range of values of type Char."
+    },
+    {
+      "text": "interface ClosedFloatingPointRange<T : Comparable<T>> : ClosedRange<T>",
+      "desc": "Represents a range of floating point numbers. Extends ClosedRange interface providing custom operation lessThanOrEquals for comparing values of range domain type."
+    },
+    {
+      "text": "class IntRange : IntProgression, ClosedRange<Int>",
+      "desc": "A range of values of type Int."
+    },
+    {
+      "text": "class LongRange : LongProgression, ClosedRange<Long>",
+      "desc": "A range of values of type Long."
+    },
+    {
+      "text": "class UIntRange : UIntProgression, ClosedRange<UInt>",
+      "desc": "A range of values of type UInt."
+    },
+    {
+      "text": "class ULongRange : ULongProgression, ClosedRange<ULong>",
+      "desc": "A range of values of type ULong."
+    }
+  ]
+}

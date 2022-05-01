@@ -1,0 +1,902 @@
+{
+  "type": "unknown",
+  "name": "WebGLRenderingContext",
+  "signature": "abstract class WebGLRenderingContext : WebGLRenderingContextBase, RenderingContext",
+  "items": [
+    {
+      "text": "WebGLRenderingContext()",
+      "desc": "Exposes the JavaScript WebGLRenderingContext to Kotlin"
+    },
+    {
+      "text": "val ACTIVE_ATTRIBUTES: Int"
+    },
+    {
+      "text": "val ACTIVE_TEXTURE: Int"
+    },
+    {
+      "text": "val ACTIVE_UNIFORMS: Int"
+    },
+    {
+      "text": "val ALIASED_LINE_WIDTH_RANGE: Int"
+    },
+    {
+      "text": "val ALIASED_POINT_SIZE_RANGE: Int"
+    },
+    {
+      "text": "val ALPHA: Int"
+    },
+    {
+      "text": "val ALPHA_BITS: Int"
+    },
+    {
+      "text": "val ALWAYS: Int"
+    },
+    {
+      "text": "val ARRAY_BUFFER: Int"
+    },
+    {
+      "text": "val ARRAY_BUFFER_BINDING: Int"
+    },
+    {
+      "text": "val ATTACHED_SHADERS: Int"
+    },
+    {
+      "text": "val BACK: Int"
+    },
+    {
+      "text": "val BLEND: Int"
+    },
+    {
+      "text": "val BLEND_COLOR: Int"
+    },
+    {
+      "text": "val BLEND_DST_ALPHA: Int"
+    },
+    {
+      "text": "val BLEND_DST_RGB: Int"
+    },
+    {
+      "text": "val BLEND_EQUATION: Int"
+    },
+    {
+      "text": "val BLEND_EQUATION_ALPHA: Int"
+    },
+    {
+      "text": "val BLEND_EQUATION_RGB: Int"
+    },
+    {
+      "text": "val BLEND_SRC_ALPHA: Int"
+    },
+    {
+      "text": "val BLEND_SRC_RGB: Int"
+    },
+    {
+      "text": "val BLUE_BITS: Int"
+    },
+    {
+      "text": "val BOOL: Int"
+    },
+    {
+      "text": "val BOOL_VEC2: Int"
+    },
+    {
+      "text": "val BOOL_VEC3: Int"
+    },
+    {
+      "text": "val BOOL_VEC4: Int"
+    },
+    {
+      "text": "val BROWSER_DEFAULT_WEBGL: Int"
+    },
+    {
+      "text": "val BUFFER_SIZE: Int"
+    },
+    {
+      "text": "val BUFFER_USAGE: Int"
+    },
+    {
+      "text": "val BYTE: Int"
+    },
+    {
+      "text": "val CCW: Int"
+    },
+    {
+      "text": "val CLAMP_TO_EDGE: Int"
+    },
+    {
+      "text": "val COLOR_ATTACHMENT0: Int"
+    },
+    {
+      "text": "val COLOR_BUFFER_BIT: Int"
+    },
+    {
+      "text": "val COLOR_CLEAR_VALUE: Int"
+    },
+    {
+      "text": "val COLOR_WRITEMASK: Int"
+    },
+    {
+      "text": "val COMPILE_STATUS: Int"
+    },
+    {
+      "text": "val COMPRESSED_TEXTURE_FORMATS: Int"
+    },
+    {
+      "text": "val CONSTANT_ALPHA: Int"
+    },
+    {
+      "text": "val CONSTANT_COLOR: Int"
+    },
+    {
+      "text": "val CONTEXT_LOST_WEBGL: Int"
+    },
+    {
+      "text": "val CULL_FACE: Int"
+    },
+    {
+      "text": "val CULL_FACE_MODE: Int"
+    },
+    {
+      "text": "val CURRENT_PROGRAM: Int"
+    },
+    {
+      "text": "val CURRENT_VERTEX_ATTRIB: Int"
+    },
+    {
+      "text": "val CW: Int"
+    },
+    {
+      "text": "val DECR: Int"
+    },
+    {
+      "text": "val DECR_WRAP: Int"
+    },
+    {
+      "text": "val DELETE_STATUS: Int"
+    },
+    {
+      "text": "val DEPTH_ATTACHMENT: Int"
+    },
+    {
+      "text": "val DEPTH_BITS: Int"
+    },
+    {
+      "text": "val DEPTH_BUFFER_BIT: Int"
+    },
+    {
+      "text": "val DEPTH_CLEAR_VALUE: Int"
+    },
+    {
+      "text": "val DEPTH_COMPONENT: Int"
+    },
+    {
+      "text": "val DEPTH_COMPONENT16: Int"
+    },
+    {
+      "text": "val DEPTH_FUNC: Int"
+    },
+    {
+      "text": "val DEPTH_RANGE: Int"
+    },
+    {
+      "text": "val DEPTH_STENCIL: Int"
+    },
+    {
+      "text": "val DEPTH_STENCIL_ATTACHMENT: Int"
+    },
+    {
+      "text": "val DEPTH_TEST: Int"
+    },
+    {
+      "text": "val DEPTH_WRITEMASK: Int"
+    },
+    {
+      "text": "val DITHER: Int"
+    },
+    {
+      "text": "val DONT_CARE: Int"
+    },
+    {
+      "text": "val DST_ALPHA: Int"
+    },
+    {
+      "text": "val DST_COLOR: Int"
+    },
+    {
+      "text": "val DYNAMIC_DRAW: Int"
+    },
+    {
+      "text": "val ELEMENT_ARRAY_BUFFER: Int"
+    },
+    {
+      "text": "val ELEMENT_ARRAY_BUFFER_BINDING: Int"
+    },
+    {
+      "text": "val EQUAL: Int"
+    },
+    {
+      "text": "val FASTEST: Int"
+    },
+    {
+      "text": "val FLOAT: Int"
+    },
+    {
+      "text": "val FLOAT_MAT2: Int"
+    },
+    {
+      "text": "val FLOAT_MAT3: Int"
+    },
+    {
+      "text": "val FLOAT_MAT4: Int"
+    },
+    {
+      "text": "val FLOAT_VEC2: Int"
+    },
+    {
+      "text": "val FLOAT_VEC3: Int"
+    },
+    {
+      "text": "val FLOAT_VEC4: Int"
+    },
+    {
+      "text": "val FRAGMENT_SHADER: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_ATTACHMENT_OBJECT_NAME: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_BINDING: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_COMPLETE: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_INCOMPLETE_ATTACHMENT: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_INCOMPLETE_DIMENSIONS: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT: Int"
+    },
+    {
+      "text": "val FRAMEBUFFER_UNSUPPORTED: Int"
+    },
+    {
+      "text": "val FRONT: Int"
+    },
+    {
+      "text": "val FRONT_AND_BACK: Int"
+    },
+    {
+      "text": "val FRONT_FACE: Int"
+    },
+    {
+      "text": "val FUNC_ADD: Int"
+    },
+    {
+      "text": "val FUNC_REVERSE_SUBTRACT: Int"
+    },
+    {
+      "text": "val FUNC_SUBTRACT: Int"
+    },
+    {
+      "text": "val GENERATE_MIPMAP_HINT: Int"
+    },
+    {
+      "text": "val GEQUAL: Int"
+    },
+    {
+      "text": "val GREATER: Int"
+    },
+    {
+      "text": "val GREEN_BITS: Int"
+    },
+    {
+      "text": "val HIGH_FLOAT: Int"
+    },
+    {
+      "text": "val HIGH_INT: Int"
+    },
+    {
+      "text": "val IMPLEMENTATION_COLOR_READ_FORMAT: Int"
+    },
+    {
+      "text": "val IMPLEMENTATION_COLOR_READ_TYPE: Int"
+    },
+    {
+      "text": "val INCR: Int"
+    },
+    {
+      "text": "val INCR_WRAP: Int"
+    },
+    {
+      "text": "val INT: Int"
+    },
+    {
+      "text": "val INT_VEC2: Int"
+    },
+    {
+      "text": "val INT_VEC3: Int"
+    },
+    {
+      "text": "val INT_VEC4: Int"
+    },
+    {
+      "text": "val INVALID_ENUM: Int"
+    },
+    {
+      "text": "val INVALID_FRAMEBUFFER_OPERATION: Int"
+    },
+    {
+      "text": "val INVALID_OPERATION: Int"
+    },
+    {
+      "text": "val INVALID_VALUE: Int"
+    },
+    {
+      "text": "val INVERT: Int"
+    },
+    {
+      "text": "val KEEP: Int"
+    },
+    {
+      "text": "val LEQUAL: Int"
+    },
+    {
+      "text": "val LESS: Int"
+    },
+    {
+      "text": "val LINE_LOOP: Int"
+    },
+    {
+      "text": "val LINE_STRIP: Int"
+    },
+    {
+      "text": "val LINE_WIDTH: Int"
+    },
+    {
+      "text": "val LINEAR: Int"
+    },
+    {
+      "text": "val LINEAR_MIPMAP_LINEAR: Int"
+    },
+    {
+      "text": "val LINEAR_MIPMAP_NEAREST: Int"
+    },
+    {
+      "text": "val LINES: Int"
+    },
+    {
+      "text": "val LINK_STATUS: Int"
+    },
+    {
+      "text": "val LOW_FLOAT: Int"
+    },
+    {
+      "text": "val LOW_INT: Int"
+    },
+    {
+      "text": "val LUMINANCE: Int"
+    },
+    {
+      "text": "val LUMINANCE_ALPHA: Int"
+    },
+    {
+      "text": "val MAX_COMBINED_TEXTURE_IMAGE_UNITS: Int"
+    },
+    {
+      "text": "val MAX_CUBE_MAP_TEXTURE_SIZE: Int"
+    },
+    {
+      "text": "val MAX_FRAGMENT_UNIFORM_VECTORS: Int"
+    },
+    {
+      "text": "val MAX_RENDERBUFFER_SIZE: Int"
+    },
+    {
+      "text": "val MAX_TEXTURE_IMAGE_UNITS: Int"
+    },
+    {
+      "text": "val MAX_TEXTURE_SIZE: Int"
+    },
+    {
+      "text": "val MAX_VARYING_VECTORS: Int"
+    },
+    {
+      "text": "val MAX_VERTEX_ATTRIBS: Int"
+    },
+    {
+      "text": "val MAX_VERTEX_TEXTURE_IMAGE_UNITS: Int"
+    },
+    {
+      "text": "val MAX_VERTEX_UNIFORM_VECTORS: Int"
+    },
+    {
+      "text": "val MAX_VIEWPORT_DIMS: Int"
+    },
+    {
+      "text": "val MEDIUM_FLOAT: Int"
+    },
+    {
+      "text": "val MEDIUM_INT: Int"
+    },
+    {
+      "text": "val MIRRORED_REPEAT: Int"
+    },
+    {
+      "text": "val NEAREST: Int"
+    },
+    {
+      "text": "val NEAREST_MIPMAP_LINEAR: Int"
+    },
+    {
+      "text": "val NEAREST_MIPMAP_NEAREST: Int"
+    },
+    {
+      "text": "val NEVER: Int"
+    },
+    {
+      "text": "val NICEST: Int"
+    },
+    {
+      "text": "val NO_ERROR: Int"
+    },
+    {
+      "text": "val NONE: Int"
+    },
+    {
+      "text": "val NOTEQUAL: Int"
+    },
+    {
+      "text": "val ONE: Int"
+    },
+    {
+      "text": "val ONE_MINUS_CONSTANT_ALPHA: Int"
+    },
+    {
+      "text": "val ONE_MINUS_CONSTANT_COLOR: Int"
+    },
+    {
+      "text": "val ONE_MINUS_DST_ALPHA: Int"
+    },
+    {
+      "text": "val ONE_MINUS_DST_COLOR: Int"
+    },
+    {
+      "text": "val ONE_MINUS_SRC_ALPHA: Int"
+    },
+    {
+      "text": "val ONE_MINUS_SRC_COLOR: Int"
+    },
+    {
+      "text": "val OUT_OF_MEMORY: Int"
+    },
+    {
+      "text": "val PACK_ALIGNMENT: Int"
+    },
+    {
+      "text": "val POINTS: Int"
+    },
+    {
+      "text": "val POLYGON_OFFSET_FACTOR: Int"
+    },
+    {
+      "text": "val POLYGON_OFFSET_FILL: Int"
+    },
+    {
+      "text": "val POLYGON_OFFSET_UNITS: Int"
+    },
+    {
+      "text": "val RED_BITS: Int"
+    },
+    {
+      "text": "val RENDERBUFFER: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_ALPHA_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_BINDING: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_BLUE_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_DEPTH_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_GREEN_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_HEIGHT: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_INTERNAL_FORMAT: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_RED_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_STENCIL_SIZE: Int"
+    },
+    {
+      "text": "val RENDERBUFFER_WIDTH: Int"
+    },
+    {
+      "text": "val RENDERER: Int"
+    },
+    {
+      "text": "val REPEAT: Int"
+    },
+    {
+      "text": "val REPLACE: Int"
+    },
+    {
+      "text": "val RGB: Int"
+    },
+    {
+      "text": "val RGB565: Int"
+    },
+    {
+      "text": "val RGB5_A1: Int"
+    },
+    {
+      "text": "val RGBA: Int"
+    },
+    {
+      "text": "val RGBA4: Int"
+    },
+    {
+      "text": "val SAMPLE_ALPHA_TO_COVERAGE: Int"
+    },
+    {
+      "text": "val SAMPLE_BUFFERS: Int"
+    },
+    {
+      "text": "val SAMPLE_COVERAGE: Int"
+    },
+    {
+      "text": "val SAMPLE_COVERAGE_INVERT: Int"
+    },
+    {
+      "text": "val SAMPLE_COVERAGE_VALUE: Int"
+    },
+    {
+      "text": "val SAMPLER_2D: Int"
+    },
+    {
+      "text": "val SAMPLER_CUBE: Int"
+    },
+    {
+      "text": "val SAMPLES: Int"
+    },
+    {
+      "text": "val SCISSOR_BOX: Int"
+    },
+    {
+      "text": "val SCISSOR_TEST: Int"
+    },
+    {
+      "text": "val SHADER_TYPE: Int"
+    },
+    {
+      "text": "val SHADING_LANGUAGE_VERSION: Int"
+    },
+    {
+      "text": "val SHORT: Int"
+    },
+    {
+      "text": "val SRC_ALPHA: Int"
+    },
+    {
+      "text": "val SRC_ALPHA_SATURATE: Int"
+    },
+    {
+      "text": "val SRC_COLOR: Int"
+    },
+    {
+      "text": "val STATIC_DRAW: Int"
+    },
+    {
+      "text": "val STENCIL_ATTACHMENT: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_FAIL: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_FUNC: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_PASS_DEPTH_FAIL: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_PASS_DEPTH_PASS: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_REF: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_VALUE_MASK: Int"
+    },
+    {
+      "text": "val STENCIL_BACK_WRITEMASK: Int"
+    },
+    {
+      "text": "val STENCIL_BITS: Int"
+    },
+    {
+      "text": "val STENCIL_BUFFER_BIT: Int"
+    },
+    {
+      "text": "val STENCIL_CLEAR_VALUE: Int"
+    },
+    {
+      "text": "val STENCIL_FAIL: Int"
+    },
+    {
+      "text": "val STENCIL_FUNC: Int"
+    },
+    {
+      "text": "val STENCIL_INDEX: Int"
+    },
+    {
+      "text": "val STENCIL_INDEX8: Int"
+    },
+    {
+      "text": "val STENCIL_PASS_DEPTH_FAIL: Int"
+    },
+    {
+      "text": "val STENCIL_PASS_DEPTH_PASS: Int"
+    },
+    {
+      "text": "val STENCIL_REF: Int"
+    },
+    {
+      "text": "val STENCIL_TEST: Int"
+    },
+    {
+      "text": "val STENCIL_VALUE_MASK: Int"
+    },
+    {
+      "text": "val STENCIL_WRITEMASK: Int"
+    },
+    {
+      "text": "val STREAM_DRAW: Int"
+    },
+    {
+      "text": "val SUBPIXEL_BITS: Int"
+    },
+    {
+      "text": "val TEXTURE: Int"
+    },
+    {
+      "text": "val TEXTURE0: Int"
+    },
+    {
+      "text": "val TEXTURE1: Int"
+    },
+    {
+      "text": "val TEXTURE10: Int"
+    },
+    {
+      "text": "val TEXTURE11: Int"
+    },
+    {
+      "text": "val TEXTURE12: Int"
+    },
+    {
+      "text": "val TEXTURE13: Int"
+    },
+    {
+      "text": "val TEXTURE14: Int"
+    },
+    {
+      "text": "val TEXTURE15: Int"
+    },
+    {
+      "text": "val TEXTURE16: Int"
+    },
+    {
+      "text": "val TEXTURE17: Int"
+    },
+    {
+      "text": "val TEXTURE18: Int"
+    },
+    {
+      "text": "val TEXTURE19: Int"
+    },
+    {
+      "text": "val TEXTURE2: Int"
+    },
+    {
+      "text": "val TEXTURE20: Int"
+    },
+    {
+      "text": "val TEXTURE21: Int"
+    },
+    {
+      "text": "val TEXTURE22: Int"
+    },
+    {
+      "text": "val TEXTURE23: Int"
+    },
+    {
+      "text": "val TEXTURE24: Int"
+    },
+    {
+      "text": "val TEXTURE25: Int"
+    },
+    {
+      "text": "val TEXTURE26: Int"
+    },
+    {
+      "text": "val TEXTURE27: Int"
+    },
+    {
+      "text": "val TEXTURE28: Int"
+    },
+    {
+      "text": "val TEXTURE29: Int"
+    },
+    {
+      "text": "val TEXTURE3: Int"
+    },
+    {
+      "text": "val TEXTURE30: Int"
+    },
+    {
+      "text": "val TEXTURE31: Int"
+    },
+    {
+      "text": "val TEXTURE4: Int"
+    },
+    {
+      "text": "val TEXTURE5: Int"
+    },
+    {
+      "text": "val TEXTURE6: Int"
+    },
+    {
+      "text": "val TEXTURE7: Int"
+    },
+    {
+      "text": "val TEXTURE8: Int"
+    },
+    {
+      "text": "val TEXTURE9: Int"
+    },
+    {
+      "text": "val TEXTURE_2D: Int"
+    },
+    {
+      "text": "val TEXTURE_BINDING_2D: Int"
+    },
+    {
+      "text": "val TEXTURE_BINDING_CUBE_MAP: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_NEGATIVE_X: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_NEGATIVE_Y: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_NEGATIVE_Z: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_POSITIVE_X: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_POSITIVE_Y: Int"
+    },
+    {
+      "text": "val TEXTURE_CUBE_MAP_POSITIVE_Z: Int"
+    },
+    {
+      "text": "val TEXTURE_MAG_FILTER: Int"
+    },
+    {
+      "text": "val TEXTURE_MIN_FILTER: Int"
+    },
+    {
+      "text": "val TEXTURE_WRAP_S: Int"
+    },
+    {
+      "text": "val TEXTURE_WRAP_T: Int"
+    },
+    {
+      "text": "val TRIANGLE_FAN: Int"
+    },
+    {
+      "text": "val TRIANGLE_STRIP: Int"
+    },
+    {
+      "text": "val TRIANGLES: Int"
+    },
+    {
+      "text": "val UNPACK_ALIGNMENT: Int"
+    },
+    {
+      "text": "val UNPACK_COLORSPACE_CONVERSION_WEBGL: Int"
+    },
+    {
+      "text": "val UNPACK_FLIP_Y_WEBGL: Int"
+    },
+    {
+      "text": "val UNPACK_PREMULTIPLY_ALPHA_WEBGL: Int"
+    },
+    {
+      "text": "val UNSIGNED_BYTE: Int"
+    },
+    {
+      "text": "val UNSIGNED_INT: Int"
+    },
+    {
+      "text": "val UNSIGNED_SHORT: Int"
+    },
+    {
+      "text": "val UNSIGNED_SHORT_4_4_4_4: Int"
+    },
+    {
+      "text": "val UNSIGNED_SHORT_5_5_5_1: Int"
+    },
+    {
+      "text": "val UNSIGNED_SHORT_5_6_5: Int"
+    },
+    {
+      "text": "val VALIDATE_STATUS: Int"
+    },
+    {
+      "text": "val VENDOR: Int"
+    },
+    {
+      "text": "val VERSION: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_BUFFER_BINDING: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_ENABLED: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_NORMALIZED: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_POINTER: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_SIZE: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_STRIDE: Int"
+    },
+    {
+      "text": "val VERTEX_ATTRIB_ARRAY_TYPE: Int"
+    },
+    {
+      "text": "val VERTEX_SHADER: Int"
+    },
+    {
+      "text": "val VIEWPORT: Int"
+    },
+    {
+      "text": "val ZERO: Int"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "unknown",
+  "name": "Result",
+  "signature": "inline class Result<out T> : Serializable",
+  "items": [
+    {
+      "text": "val isFailure: Boolean",
+      "desc": "Returns true if this instance represents a failed outcome. In this case isSuccess returns false."
+    },
+    {
+      "text": "val isSuccess: Boolean",
+      "desc": "Returns true if this instance represents a successful outcome. In this case isFailure returns false."
+    },
+    {
+      "text": "fun exceptionOrNull(): Throwable?",
+      "desc": "Returns the encapsulated Throwable exception if this instance represents failure or null if it is success."
+    },
+    {
+      "text": "fun getOrNull(): T?",
+      "desc": "Returns the encapsulated value if this instance represents success or null if it is failure."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string Success(v) if this instance represents success where v is a string representation of the value or a string Failure(x) if it is failure where x is a string representation of the exception."
+    },
+    {
+      "text": "fun <T> failure(exception: Throwable): Result<T>",
+      "desc": "Returns an instance that encapsulates the given Throwable as failure."
+    },
+    {
+      "text": "fun <T> success(value: T): Result<T>",
+      "desc": "Returns an instance that encapsulates the given value as successful value."
+    },
+    {
+      "text": "fun <R, T> Result<T>.fold( onSuccess: (value: T) -> R, onFailure: (exception: Throwable) -> R): R",
+      "desc": "Returns the result of onSuccess for the encapsulated value if this instance represents success or the result of onFailure function for the encapsulated Throwable exception if it is failure."
+    },
+    {
+      "text": "fun <R, T : R> Result<T>.getOrDefault(defaultValue: R): R",
+      "desc": "Returns the encapsulated value if this instance represents success or the defaultValue if it is failure."
+    },
+    {
+      "text": "fun <R, T : R> Result<T>.getOrElse( onFailure: (exception: Throwable) -> R): R",
+      "desc": "Returns the encapsulated value if this instance represents success or the result of onFailure function for the encapsulated Throwable exception if it is failure."
+    },
+    {
+      "text": "fun <T> Result<T>.getOrThrow(): T",
+      "desc": "Returns the encapsulated value if this instance represents success or throws the encapsulated Throwable exception if it is failure."
+    },
+    {
+      "text": "fun <R, T> Result<T>.map( transform: (value: T) -> R): Result<R>",
+      "desc": "Returns the encapsulated result of the given transform function applied to the encapsulated value if this instance represents success or the original encapsulated Throwable exception if it is failure."
+    },
+    {
+      "text": "fun <R, T> Result<T>.mapCatching( transform: (value: T) -> R): Result<R>",
+      "desc": "Returns the encapsulated result of the given transform function applied to the encapsulated value if this instance represents success or the original encapsulated Throwable exception if it is failure."
+    },
+    {
+      "text": "fun <T> Result<T>.onFailure( action: (exception: Throwable) -> Unit): Result<T>",
+      "desc": "Performs the given action on the encapsulated Throwable exception if this instance represents failure. Returns the original Result unchanged."
+    },
+    {
+      "text": "fun <T> Result<T>.onSuccess( action: (value: T) -> Unit): Result<T>",
+      "desc": "Performs the given action on the encapsulated value if this instance represents success. Returns the original Result unchanged."
+    },
+    {
+      "text": "fun <R, T : R> Result<T>.recover( transform: (exception: Throwable) -> R): Result<R>",
+      "desc": "Returns the encapsulated result of the given transform function applied to the encapsulated Throwable exception if this instance represents failure or the original encapsulated value if it is success."
+    },
+    {
+      "text": "fun <R, T : R> Result<T>.recoverCatching( transform: (exception: Throwable) -> R): Result<R>",
+      "desc": "Returns the encapsulated result of the given transform function applied to the encapsulated Throwable exception if this instance represents failure or the original encapsulated value if it is success."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "withNullability",
+  "signature": "fun KType.withNullability(nullable: Boolean): KType",
+  "items": []
+}

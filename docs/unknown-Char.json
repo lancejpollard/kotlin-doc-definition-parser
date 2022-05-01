@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Char",
+  "signatures": [
+    {
+      "text": "fun Char(code: Int): Char",
+      "desc": "Creates a Char with the specified code, or throws an exception if the code is out of Char.MIN_VALUE.code..Char.MAX_VALUE.code."
+    },
+    {
+      "text": "fun Char(code: UShort): Char",
+      "desc": "Creates a Char with the specified code."
+    }
+  ],
+  "items": []
+}

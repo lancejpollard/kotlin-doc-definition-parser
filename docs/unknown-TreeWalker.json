@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "TreeWalker",
+  "signature": "abstract class TreeWalker",
+  "items": [
+    {
+      "text": "TreeWalker()",
+      "desc": "Exposes the JavaScript TreeWalker to Kotlin"
+    },
+    {
+      "text": "open var currentNode: Node"
+    },
+    {
+      "text": "open val filter: NodeFilter?"
+    },
+    {
+      "text": "open val root: Node"
+    },
+    {
+      "text": "open val whatToShow: Int"
+    },
+    {
+      "text": "fun firstChild(): Node?"
+    },
+    {
+      "text": "fun lastChild(): Node?"
+    },
+    {
+      "text": "fun nextNode(): Node?"
+    },
+    {
+      "text": "fun nextSibling(): Node?"
+    },
+    {
+      "text": "fun parentNode(): Node?"
+    },
+    {
+      "text": "fun previousNode(): Node?"
+    },
+    {
+      "text": "fun previousSibling(): Node?"
+    }
+  ]
+}

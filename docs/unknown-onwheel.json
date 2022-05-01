@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onwheel",
+  "signature": "open var onwheel: ((WheelEvent) -> dynamic)?",
+  "items": []
+}

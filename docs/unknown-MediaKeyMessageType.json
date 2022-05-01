@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "MediaKeyMessageType",
+  "signature": "interface MediaKeyMessageType",
+  "items": [
+    {
+      "text": "val MediaKeyMessageType.Companion.INDIVIDUALIZATION_REQUEST: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_RELEASE: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_RENEWAL: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_REQUEST: MediaKeyMessageType"
+    }
+  ]
+}

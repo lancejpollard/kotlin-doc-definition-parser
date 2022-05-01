@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toJSON",
+  "signature": "protected fun toJSON(): Any",
+  "items": []
+}

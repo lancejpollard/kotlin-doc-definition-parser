@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "js",
+  "signatures": [
+    {
+      "text": "fun js(code: String): dynamic",
+      "desc": "Puts the given piece of a JavaScript code right into the calling function. The compiler replaces call to js(...) code with the string constant provided as a parameter."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.js: JsClass<T>",
+      "desc": "Obtains a constructor reference for the given KClass."
+    }
+  ],
+  "items": []
+}

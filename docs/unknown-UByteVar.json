@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UByteVar",
+  "signature": "typealias UByteVar = UByteVarOf<UByte>",
+  "items": []
+}

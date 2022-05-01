@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "TOP_LEVEL",
+  "signature": "inline val FrameType.Companion.TOP_LEVEL: FrameType",
+  "items": []
+}

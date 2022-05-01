@@ -1,0 +1,34 @@
+{
+  "type": "unknown",
+  "name": "WebGLObject",
+  "signature": "abstract class WebGLObject",
+  "items": [
+    {
+      "text": "WebGLObject()"
+    },
+    {
+      "text": "abstract class WebGLBuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLBuffer to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLFramebuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLFramebuffer to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLProgram : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLProgram to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLRenderbuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLRenderbuffer to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLShader : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLShader to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLTexture : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLTexture to Kotlin"
+    }
+  ]
+}

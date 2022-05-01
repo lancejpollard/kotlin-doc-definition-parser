@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "days",
+  "signatures": [
+    {
+      "text": "inline val Int.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of days."
+    },
+    {
+      "text": "inline val Long.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of days."
+    },
+    {
+      "text": "inline val Double.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of days."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun days( value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of days."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun days( value: Double): Duration",
+      "desc": "Returns a Duration representing the specified value number of days."
+    }
+  ],
+  "items": []
+}

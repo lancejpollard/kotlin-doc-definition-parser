@@ -1,0 +1,48 @@
+{
+  "type": "unknown",
+  "name": "NavigatorID",
+  "signature": "interface NavigatorID",
+  "items": [
+    {
+      "text": "abstract val appCodeName: String"
+    },
+    {
+      "text": "abstract val appName: String"
+    },
+    {
+      "text": "abstract val appVersion: String"
+    },
+    {
+      "text": "abstract val oscpu: String"
+    },
+    {
+      "text": "abstract val platform: String"
+    },
+    {
+      "text": "abstract val product: String"
+    },
+    {
+      "text": "abstract val productSub: String"
+    },
+    {
+      "text": "abstract val userAgent: String"
+    },
+    {
+      "text": "abstract val vendor: String"
+    },
+    {
+      "text": "abstract val vendorSub: String"
+    },
+    {
+      "text": "abstract fun taintEnabled(): Boolean"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerNavigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript WorkerNavigator to Kotlin"
+    }
+  ]
+}

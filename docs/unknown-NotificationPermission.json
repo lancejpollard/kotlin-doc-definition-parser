@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "NotificationPermission",
+  "signature": "interface NotificationPermission",
+  "items": [
+    {
+      "text": "val NotificationPermission.Companion.DEFAULT: NotificationPermission"
+    },
+    {
+      "text": "val NotificationPermission.Companion.DENIED: NotificationPermission"
+    },
+    {
+      "text": "val NotificationPermission.Companion.GRANTED: NotificationPermission"
+    }
+  ]
+}

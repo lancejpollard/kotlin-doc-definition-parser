@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "WindowLocalStorage",
+  "signature": "interface WindowLocalStorage",
+  "items": [
+    {
+      "text": "abstract val localStorage: Storage"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    }
+  ]
+}

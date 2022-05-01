@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedRect",
+  "signature": "abstract class SVGAnimatedRect",
+  "items": [
+    {
+      "text": "SVGAnimatedRect()",
+      "desc": "Exposes the JavaScript SVGAnimatedRect to Kotlin"
+    },
+    {
+      "text": "open val animVal: DOMRectReadOnly"
+    },
+    {
+      "text": "open val baseVal: DOMRect"
+    }
+  ]
+}

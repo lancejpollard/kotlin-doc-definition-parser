@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "toKString",
+  "signatures": [
+    {
+      "text": "fun CPointer<ByteVar>.toKString(): String",
+      "desc": "Return the kotlin.String decoded from given zero-terminated UTF-8-encoded C string."
+    },
+    {
+      "text": "fun ByteArray.toKString(): String",
+      "desc": "Decodes a string from the bytes in UTF-8 encoding in this array. Bytes following the first occurrence of 0 byte, if it occurs, are not decoded."
+    },
+    {
+      "text": "fun ByteArray.toKString( startIndex: Int = 0, endIndex: Int = this.size, throwOnInvalidSequence: Boolean = false): String",
+      "desc": "Decodes a string from the bytes in UTF-8 encoding in this array or its subrange. Bytes following the first occurrence of 0 byte, if it occurs, are not decoded."
+    },
+    {
+      "text": "fun CPointer<ShortVar>.toKString(): String"
+    }
+  ],
+  "items": []
+}

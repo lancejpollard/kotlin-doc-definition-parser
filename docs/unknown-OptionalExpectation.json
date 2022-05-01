@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "OptionalExpectation",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) @ExperimentalMultiplatform annotation class OptionalExpectation",
+  "items": [
+    {
+      "text": "OptionalExpectation()",
+      "desc": "Marks an expected annotation class that it isn't required to have actual counterparts in all platforms."
+    }
+  ]
+}

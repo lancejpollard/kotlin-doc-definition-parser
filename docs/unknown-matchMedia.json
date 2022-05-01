@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "matchMedia",
+  "signature": "fun matchMedia(query: String): MediaQueryList",
+  "items": []
+}

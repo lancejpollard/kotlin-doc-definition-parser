@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Arena",
+  "signature": "typealias Arena = Int",
+  "items": []
+}

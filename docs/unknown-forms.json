@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "forms",
+  "signature": "open val forms: HTMLCollection",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "filterNotTo",
+  "signature": "inline fun <C : Appendable> CharSequence.filterNotTo( destination: C, predicate: (Char) -> Boolean): C",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "withSign",
+  "signatures": [
+    {
+      "text": "fun Double.withSign(sign: Double): Double",
+      "desc": "Returns this value with the sign bit same as of the sign value."
+    },
+    {
+      "text": "fun Double.withSign(sign: Int): Double",
+      "desc": "Returns this value with the sign bit same as of the sign value."
+    }
+  ],
+  "items": []
+}

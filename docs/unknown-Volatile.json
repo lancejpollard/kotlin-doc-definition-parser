@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Volatile",
+  "signature": "@Target([AnnotationTarget.FIELD]) annotation class Volatile",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Marks the JVM backing field of the annotated property as volatile, meaning that writes to this field are immediately made visible to other threads."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

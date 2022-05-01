@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "NavigatorContentUtils",
+  "signature": "interface NavigatorContentUtils",
+  "items": [
+    {
+      "text": "abstract fun isContentHandlerRegistered( mimeType: String, url: String): String"
+    },
+    {
+      "text": "abstract fun isProtocolHandlerRegistered( scheme: String, url: String): String"
+    },
+    {
+      "text": "abstract fun registerContentHandler( mimeType: String, url: String, title: String)"
+    },
+    {
+      "text": "abstract fun registerProtocolHandler( scheme: String, url: String, title: String)"
+    },
+    {
+      "text": "abstract fun unregisterContentHandler( mimeType: String, url: String)"
+    },
+    {
+      "text": "abstract fun unregisterProtocolHandler( scheme: String, url: String)"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    }
+  ]
+}

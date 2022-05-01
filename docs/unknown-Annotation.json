@@ -1,0 +1,325 @@
+{
+  "type": "unknown",
+  "name": "Annotation",
+  "signature": "interface Annotation",
+  "items": [
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    },
+    {
+      "text": "annotation class AssociatedObjectKey",
+      "desc": "Makes the annotated annotation class an associated object key."
+    },
+    {
+      "text": "annotation class BuilderInference",
+      "desc": "Allows to infer generic type arguments of a function from the calls in the annotated function parameter of that function."
+    },
+    {
+      "text": "annotation class CCall"
+    },
+    {
+      "text": "annotation class CEnumEntryAlias",
+      "desc": "Denotes property that is an alias to some enum entry."
+    },
+    {
+      "text": "annotation class CEnumVarTypeSize",
+      "desc": "Stores instance size of the type T: CEnumVar."
+    },
+    {
+      "text": "annotation class CName",
+      "desc": "Makes top level function available from C/C++ code with the given name."
+    },
+    {
+      "text": "annotation class CStruct"
+    },
+    {
+      "text": "annotation class Deprecated",
+      "desc": "Marks the annotated declaration as deprecated."
+    },
+    {
+      "text": "annotation class DeprecatedSinceKotlin",
+      "desc": "Marks the annotated declaration as deprecated. In contrast to Deprecated, severity of the reported diagnostic is not a constant value, but differs depending on the API version of the usage (the value of the -api-version argument when compiling the module where the usage is located). If the API version is greater or equal than hiddenSince, the declaration will not be accessible from the code (as if it was deprecated with level DeprecationLevel.HIDDEN), otherwise if the API version is greater or equal than errorSince, the usage will be marked as an error (as with DeprecationLevel.ERROR), otherwise if the API version is greater or equal than warningSince, the usage will be marked as a warning (as with DeprecationLevel.WARNING), otherwise the annotation is ignored."
+    },
+    {
+      "text": "annotation class DslMarker",
+      "desc": "When applied to annotation class X specifies that X defines a DSL language"
+    },
+    {
+      "text": "annotation class EagerInitialization",
+      "desc": "Forces a top-level property to be initialized eagerly, opposed to lazily on the first access to file and/or property. This annotation can be used as temporal migration assistance during the transition from the previous Kotlin/Native initialization scheme \"eager by default\" to the new one, \"lazy by default\"."
+    },
+    {
+      "text": "annotation class Experimental",
+      "desc": "Signals that the annotated annotation class is a marker of an experimental API."
+    },
+    {
+      "text": "annotation class ExperimentalAssociatedObjects",
+      "desc": "The experimental marker for associated objects API."
+    },
+    {
+      "text": "annotation class ExperimentalContracts",
+      "desc": "This marker distinguishes the experimental contract declaration API and is used to opt-in for that feature when declaring contracts of user functions."
+    },
+    {
+      "text": "annotation class ExperimentalJsExport",
+      "desc": "Marks experimental JS export annotations."
+    },
+    {
+      "text": "annotation class ExperimentalMultiplatform",
+      "desc": "The experimental multiplatform support API marker."
+    },
+    {
+      "text": "annotation class ExperimentalPathApi",
+      "desc": "This annotation marks the extensions and top-level functions for working with java.nio.file.Path considered experimental."
+    },
+    {
+      "text": "annotation class ExperimentalReflectionOnLambdas",
+      "desc": "This annotation marks the experimental kotlin-reflect API that allows to approximate a Kotlin lambda or a function expression instance to a KFunction instance. The behavior of this API may be changed or the API may be removed completely in any further release."
+    },
+    {
+      "text": "annotation class ExperimentalStdlibApi",
+      "desc": "This annotation marks the standard library API that is considered experimental and is not subject to the general compatibility guarantees given for the standard library: the behavior of such API may be changed or the API may be removed completely in any further release."
+    },
+    {
+      "text": "annotation class ExperimentalTime",
+      "desc": "This annotation marks the experimental preview of the standard library API for measuring time and working with durations."
+    },
+    {
+      "text": "annotation class ExperimentalTypeInference",
+      "desc": "The experimental marker for type inference augmenting annotations."
+    },
+    {
+      "text": "annotation class ExperimentalUnsignedTypes",
+      "desc": "Marks the API that is dependent on the experimental unsigned types, including those types themselves."
+    },
+    {
+      "text": "annotation class ExportObjCClass",
+      "desc": "Makes Kotlin subclass of Objective-C class visible for runtime lookup after Kotlin main function gets invoked."
+    },
+    {
+      "text": "annotation class ExtensionFunctionType",
+      "desc": "Signifies that the annotated functional type represents an extension function."
+    },
+    {
+      "text": "annotation class ExternalObjCClass"
+    },
+    {
+      "text": "annotation class InteropStubs"
+    },
+    {
+      "text": "annotation class JsExport",
+      "desc": "Exports top-level declaration on JS platform."
+    },
+    {
+      "text": "annotation class JsModule",
+      "desc": "Denotes an external declaration that must be imported from native JavaScript library."
+    },
+    {
+      "text": "annotation class JsName",
+      "desc": "Gives a declaration (a function, a property or a class) specific name in JavaScript."
+    },
+    {
+      "text": "annotation class JsNonModule",
+      "desc": "Denotes an external declaration that can be used without module system."
+    },
+    {
+      "text": "annotation class JsQualifier",
+      "desc": "Adds prefix to external declarations in a source file."
+    },
+    {
+      "text": "annotation class JvmDefault",
+      "desc": "Specifies that a JVM default method should be generated for non-abstract Kotlin interface member."
+    },
+    {
+      "text": "annotation class JvmDefaultWithoutCompatibility",
+      "desc": "Prevents the compiler from generating compatibility accessors for the annotated class or interface, and suppresses any related compatibility warnings. In other words, this annotation makes the compiler generate the annotated class or interface in the -Xjvm-default=all mode, where only JVM default methods are generated, without DefaultImpls."
+    },
+    {
+      "text": "annotation class JvmField",
+      "desc": "Instructs the Kotlin compiler not to generate getters/setters for this property and expose it as a field."
+    },
+    {
+      "text": "annotation class JvmInline",
+      "desc": "Specifies that given value class is inline class."
+    },
+    {
+      "text": "annotation class JvmMultifileClass",
+      "desc": "Instructs the Kotlin compiler to generate a multifile class with top-level functions and properties declared in this file as one of its parts. Name of the corresponding multifile class is provided by the JvmName annotation."
+    },
+    {
+      "text": "annotation class JvmName",
+      "desc": "Specifies the name for the Java class or method which is generated from this element."
+    },
+    {
+      "text": "annotation class JvmOverloads",
+      "desc": "Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values."
+    },
+    {
+      "text": "annotation class JvmRecord",
+      "desc": "Instructs compiler to mark the class as a record and generate relevant toString/equals/hashCode methods"
+    },
+    {
+      "text": "annotation class JvmStatic",
+      "desc": "Specifies that an additional static method needs to be generated from this element if it's a function. If this element is a property, additional static getter/setter methods should be generated."
+    },
+    {
+      "text": "annotation class JvmSuppressWildcards",
+      "desc": "Instructs compiler to generate or omit wildcards for type arguments corresponding to parameters with declaration-site variance, for example such as Collection<out T> has."
+    },
+    {
+      "text": "annotation class JvmSynthetic",
+      "desc": "Sets ACC_SYNTHETIC flag on the annotated target in the Java bytecode."
+    },
+    {
+      "text": "annotation class JvmWildcard",
+      "desc": "Instructs compiler to generate wildcard for annotated type arguments corresponding to parameters with declaration-site variance."
+    },
+    {
+      "text": "annotation class Metadata",
+      "desc": "This annotation is present on any class file produced by the Kotlin compiler and is read by the compiler and reflection. Parameters have very short JVM names on purpose: these names appear in all generated class files, and we'd like to reduce their size."
+    },
+    {
+      "text": "annotation class MustBeDocumented",
+      "desc": "This meta-annotation determines that an annotation is a part of public API and therefore should be included in the generated documentation for the element to which the annotation is applied."
+    },
+    {
+      "text": "annotation class nativeGetter"
+    },
+    {
+      "text": "annotation class nativeInvoke"
+    },
+    {
+      "text": "annotation class nativeSetter"
+    },
+    {
+      "text": "annotation class ObjCAction",
+      "desc": "Makes Kotlin method in Objective-C class accessible through Objective-C dispatch to be used as action sent by control in UIKit or AppKit."
+    },
+    {
+      "text": "annotation class ObjCConstructor"
+    },
+    {
+      "text": "annotation class ObjCFactory"
+    },
+    {
+      "text": "annotation class ObjCMethod"
+    },
+    {
+      "text": "annotation class ObjCOutlet",
+      "desc": "Makes Kotlin property in Objective-C class settable through Objective-C dispatch to be used as IB outlet."
+    },
+    {
+      "text": "annotation class OptIn",
+      "desc": "Allows to use the API denoted by the given markers in the annotated file, declaration, or expression. If a declaration is annotated with OptIn, its usages are not required to opt in to that API."
+    },
+    {
+      "text": "annotation class OptionalExpectation",
+      "desc": "Marks an expected annotation class that it isn't required to have actual counterparts in all platforms."
+    },
+    {
+      "text": "annotation class OverloadResolutionByLambdaReturnType",
+      "desc": "Enables overload selection based on the type of the value returned from lambda argument."
+    },
+    {
+      "text": "annotation class ParameterName",
+      "desc": "Annotates type arguments of functional type and holds corresponding parameter name specified by the user in type declaration (if any)."
+    },
+    {
+      "text": "annotation class PublishedApi",
+      "desc": "When applied to a class or a member with internal visibility allows to use it from public inline functions and makes it effectively public."
+    },
+    {
+      "text": "annotation class PurelyImplements",
+      "desc": "Instructs the Kotlin compiler to treat annotated Java class as pure implementation of given Kotlin interface. \"Pure\" means here that each type parameter of class becomes non-platform type argument of that interface."
+    },
+    {
+      "text": "annotation class Repeatable",
+      "desc": "This meta-annotation determines that an annotation is applicable twice or more on a single code element"
+    },
+    {
+      "text": "annotation class ReplaceWith",
+      "desc": "Specifies a code fragment that can be used to replace a deprecated function, property or class. Tools such as IDEs can automatically apply the replacements specified through this annotation."
+    },
+    {
+      "text": "annotation class RequiresOptIn",
+      "desc": "Signals that the annotated annotation class is a marker of an API that requires an explicit opt-in."
+    },
+    {
+      "text": "annotation class RestrictsSuspension",
+      "desc": "Classes and interfaces marked with this annotation are restricted when used as receivers for extension suspend functions. These suspend extensions can only invoke other member or extension suspend functions on this particular receiver and are restricted from calling arbitrary suspension functions."
+    },
+    {
+      "text": "annotation class Retain",
+      "desc": "Preserve the function entry point during global optimizations."
+    },
+    {
+      "text": "annotation class RetainForTarget",
+      "desc": "Preserve the function entry point during global optimizations, only for the given target."
+    },
+    {
+      "text": "annotation class Retention",
+      "desc": "This meta-annotation determines whether an annotation is stored in binary output and visible for reflection. By default, both are true."
+    },
+    {
+      "text": "annotation class SharedImmutable",
+      "desc": "Marks a top level property with a backing field as immutable. It is possible to share the value of such property between multiple threads, but it becomes deeply frozen, so no changes can be made to its state or the state of objects it refers to."
+    },
+    {
+      "text": "annotation class SinceKotlin",
+      "desc": "Specifies the first version of Kotlin where a declaration has appeared. Using the declaration and specifying an older API version (via the -api-version command line option) will result in an error."
+    },
+    {
+      "text": "annotation class Strictfp",
+      "desc": "Marks the JVM method generated from the annotated function as strictfp, meaning that the precision of floating point operations performed inside the method needs to be restricted in order to achieve better portability."
+    },
+    {
+      "text": "annotation class Suppress",
+      "desc": "Suppresses the given compilation warnings in the annotated element."
+    },
+    {
+      "text": "annotation class SymbolName",
+      "desc": "This annotation is deprecated. See KT-46649."
+    },
+    {
+      "text": "annotation class Synchronized",
+      "desc": "Marks the JVM method generated from the annotated function as synchronized, meaning that the method will be protected from concurrent execution by multiple threads by the monitor of the instance (or, for static methods, the class) on which the method is defined."
+    },
+    {
+      "text": "annotation class Target",
+      "desc": "This meta-annotation indicates the kinds of code elements which are possible targets of an annotation."
+    },
+    {
+      "text": "annotation class ThreadLocal",
+      "desc": "Marks a top level property with a backing field or an object as thread local. The object remains mutable and it is possible to change its state, but every thread will have a distinct copy of this object, so changes in one thread are not reflected in another."
+    },
+    {
+      "text": "annotation class Throws",
+      "desc": "This annotation indicates what exceptions should be declared by a function when compiled to a platform method in Kotlin/JVM and Kotlin/Native."
+    },
+    {
+      "text": "annotation class Throws",
+      "desc": "This annotation indicates what exceptions should be declared by a function when compiled to a JVM method."
+    },
+    {
+      "text": "annotation class Transient",
+      "desc": "Marks the JVM backing field of the annotated property as transient, meaning that it is not part of the default serialized form of the object."
+    },
+    {
+      "text": "annotation class UnsafeNumber",
+      "desc": "Marker for typealias that will represent numbers of different bit width on at least two platforms."
+    },
+    {
+      "text": "annotation class UnsafeVariance",
+      "desc": "Suppresses errors about variance conflict"
+    },
+    {
+      "text": "annotation class UseExperimental",
+      "desc": "Allows to use experimental API denoted by the given markers in the annotated file, declaration, or expression. If a declaration is annotated with UseExperimental, its usages are not required to opt-in to that experimental API."
+    },
+    {
+      "text": "annotation class Volatile",
+      "desc": "Marks the JVM backing field of the annotated property as volatile, meaning that writes to this field are immediately made visible to other threads."
+    }
+  ]
+}

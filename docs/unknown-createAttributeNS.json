@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createAttributeNS",
+  "signature": "fun createAttributeNS( namespace: String?, qualifiedName: String): Attr",
+  "items": []
+}

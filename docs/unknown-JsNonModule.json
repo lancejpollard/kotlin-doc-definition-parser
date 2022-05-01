@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "JsNonModule",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.FUNCTION, AnnotationTarget.FILE]) annotation class JsNonModule",
+  "items": [
+    {
+      "text": "JsNonModule()",
+      "desc": "Denotes an external declaration that can be used without module system."
+    }
+  ]
+}

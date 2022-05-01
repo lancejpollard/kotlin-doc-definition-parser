@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncanplaythrough",
+  "signature": "open var oncanplaythrough: ((Event) -> dynamic)?",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSuperclassOf",
+  "signature": "fun KClass<*>.isSuperclassOf(derived: KClass<*>): Boolean",
+  "items": []
+}

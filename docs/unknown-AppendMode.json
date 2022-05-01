@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "AppendMode",
+  "signature": "interface AppendMode",
+  "items": [
+    {
+      "text": "val AppendMode.Companion.SEGMENTS: AppendMode"
+    },
+    {
+      "text": "val AppendMode.Companion.SEQUENCE: AppendMode"
+    }
+  ]
+}

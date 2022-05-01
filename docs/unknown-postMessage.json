@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "postMessage",
+  "signature": "fun postMessage( message: Any?, targetOrigin: String, transfer: Array<dynamic> = definedExternally)",
+  "items": []
+}

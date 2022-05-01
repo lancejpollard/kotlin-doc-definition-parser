@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lowercaseChar",
+  "signature": "fun Char.lowercaseChar(): Char",
+  "items": []
+}

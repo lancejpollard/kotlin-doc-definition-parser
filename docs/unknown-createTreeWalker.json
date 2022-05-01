@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createTreeWalker",
+  "signature": "fun createTreeWalker( root: Node, whatToShow: Int = definedExternally, filter: NodeFilter? = definedExternally): TreeWalker",
+  "items": []
+}

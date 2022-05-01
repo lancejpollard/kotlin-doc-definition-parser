@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "visibility",
+  "signature": "abstract val visibility: KVisibility?",
+  "items": []
+}

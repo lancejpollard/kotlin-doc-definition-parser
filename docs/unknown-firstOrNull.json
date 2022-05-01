@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "firstOrNull",
+  "signature": "fun firstOrNull(): E?",
+  "items": []
+}

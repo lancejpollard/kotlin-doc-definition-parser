@@ -1,0 +1,80 @@
+{
+  "type": "unknown",
+  "name": "HTMLCanvasElement",
+  "signature": "abstract class HTMLCanvasElement : HTMLElement, CanvasImageSource, TexImageSource",
+  "items": [
+    {
+      "text": "HTMLCanvasElement()",
+      "desc": "Exposes the JavaScript HTMLCanvasElement to Kotlin"
+    },
+    {
+      "text": "open var height: Int"
+    },
+    {
+      "text": "open var width: Int"
+    },
+    {
+      "text": "fun getContext( contextId: String, vararg arguments: Any?): RenderingContext?"
+    },
+    {
+      "text": "fun toBlob( _callback: (Blob?) -> Unit, type: String = definedExternally, quality: Any? = definedExternally)"
+    },
+    {
+      "text": "fun toDataURL( type: String = definedExternally, quality: Any? = definedExternally): String"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

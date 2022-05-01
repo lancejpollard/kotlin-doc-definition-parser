@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cancelAnimationFrame",
+  "signature": "fun cancelAnimationFrame(handle: Int)",
+  "items": []
+}

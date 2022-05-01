@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "ContractBuilder",
+  "signature": "@ExperimentalContracts interface ContractBuilder",
+  "items": [
+    {
+      "text": "abstract fun <R> callsInPlace( lambda: Function<R>, kind: InvocationKind = InvocationKind.UNKNOWN): CallsInPlace",
+      "desc": "Specifies that the function parameter lambda is invoked in place."
+    },
+    {
+      "text": "abstract fun returns(): Returns",
+      "desc": "Describes a situation when a function returns normally, without any exceptions thrown."
+    },
+    {
+      "text": "abstract fun returns(value: Any?): Returns",
+      "desc": "Describes a situation when a function returns normally with the specified return value."
+    },
+    {
+      "text": "abstract fun returnsNotNull(): ReturnsNotNull",
+      "desc": "Describes a situation when a function returns normally with any value that is not null."
+    }
+  ]
+}

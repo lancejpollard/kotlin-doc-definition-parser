@@ -1,0 +1,76 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.css",
+  "items": [
+    {
+      "text": "abstract class CSS",
+      "desc": "Exposes the JavaScript CSS to Kotlin"
+    },
+    {
+      "text": "abstract class CSSGroupingRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSGroupingRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSImportRule : CSSRule"
+    },
+    {
+      "text": "abstract class CSSMarginRule : CSSRule"
+    },
+    {
+      "text": "abstract class CSSMediaRule : CSSGroupingRule",
+      "desc": "Exposes the JavaScript CSSMediaRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSNamespaceRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSNamespaceRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSPageRule : CSSGroupingRule",
+      "desc": "Exposes the JavaScript CSSPageRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSRule",
+      "desc": "Exposes the JavaScript CSSRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSRuleList : ItemArrayLike<CSSRule>",
+      "desc": "Exposes the JavaScript CSSRuleList to Kotlin"
+    },
+    {
+      "text": "abstract class CSSStyleDeclaration : ItemArrayLike<String>",
+      "desc": "Exposes the JavaScript CSSStyleDeclaration to Kotlin"
+    },
+    {
+      "text": "abstract class CSSStyleRule : CSSRule",
+      "desc": "Exposes the JavaScript CSSStyleRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSStyleSheet : StyleSheet",
+      "desc": "Exposes the JavaScript CSSStyleSheet to Kotlin"
+    },
+    {
+      "text": "interface ElementCSSInlineStyle"
+    },
+    {
+      "text": "interface LinkStyle",
+      "desc": "Exposes the JavaScript LinkStyle to Kotlin"
+    },
+    {
+      "text": "abstract class MediaList : ItemArrayLike<String>"
+    },
+    {
+      "text": "abstract class StyleSheet",
+      "desc": "Exposes the JavaScript StyleSheet to Kotlin"
+    },
+    {
+      "text": "abstract class StyleSheetList : ItemArrayLike<StyleSheet>",
+      "desc": "Exposes the JavaScript StyleSheetList to Kotlin"
+    },
+    {
+      "text": "interface UnionElementOrProcessingInstruction"
+    },
+    {
+      "text": "operator fun MediaList.get(index: Int): String?"
+    }
+  ]
+}

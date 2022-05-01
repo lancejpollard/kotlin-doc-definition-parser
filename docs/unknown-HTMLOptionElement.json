@@ -1,0 +1,93 @@
+{
+  "type": "unknown",
+  "name": "HTMLOptionElement",
+  "signature": "abstract class HTMLOptionElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+  "items": [
+    {
+      "text": "HTMLOptionElement()",
+      "desc": "Exposes the JavaScript HTMLOptionElement to Kotlin"
+    },
+    {
+      "text": "open var defaultSelected: Boolean"
+    },
+    {
+      "text": "open var disabled: Boolean"
+    },
+    {
+      "text": "open val form: HTMLFormElement?"
+    },
+    {
+      "text": "open val index: Int"
+    },
+    {
+      "text": "open var label: String"
+    },
+    {
+      "text": "open var selected: Boolean"
+    },
+    {
+      "text": "open var text: String"
+    },
+    {
+      "text": "open var value: String"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "open class Option : HTMLOptionElement",
+      "desc": "Exposes the JavaScript Option to Kotlin"
+    }
+  ]
+}

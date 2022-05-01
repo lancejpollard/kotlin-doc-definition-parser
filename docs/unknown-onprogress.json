@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onprogress",
+  "signature": "open var onprogress: ((ProgressEvent) -> dynamic)?",
+  "items": []
+}

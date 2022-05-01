@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "resumeWithException",
+  "signature": "fun <T> Continuation<T>.resumeWithException( exception: Throwable)",
+  "items": []
+}

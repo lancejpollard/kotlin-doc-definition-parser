@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cValue",
+  "signature": "fun <reified T : CVariable> cValue(): CValue<T>",
+  "items": []
+}

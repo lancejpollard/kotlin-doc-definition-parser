@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CEnumEntryAlias",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class CEnumEntryAlias",
+  "items": [
+    {
+      "text": "CEnumEntryAlias(entryName: String)",
+      "desc": "Denotes property that is an alias to some enum entry."
+    },
+    {
+      "text": "val entryName: String"
+    }
+  ]
+}

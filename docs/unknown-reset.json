@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reset",
+  "signature": "fun RegExp.reset()",
+  "items": []
+}

@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "DataTransferItem",
+  "signature": "abstract class DataTransferItem",
+  "items": [
+    {
+      "text": "DataTransferItem()",
+      "desc": "Exposes the JavaScript DataTransferItem to Kotlin"
+    },
+    {
+      "text": "open val kind: String"
+    },
+    {
+      "text": "open val type: String"
+    },
+    {
+      "text": "fun getAsFile(): File?"
+    },
+    {
+      "text": "fun getAsString(_callback: ((String) -> Unit)?)"
+    }
+  ]
+}

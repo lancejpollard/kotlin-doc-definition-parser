@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onloadeddata",
+  "signature": "open var onloadeddata: ((Event) -> dynamic)?",
+  "items": []
+}

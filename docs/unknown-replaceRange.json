@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "replaceRange",
+  "signatures": [
+    {
+      "text": "fun CharSequence.replaceRange( startIndex: Int, endIndex: Int, replacement: CharSequence): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is replaced with the replacement char sequence."
+    },
+    {
+      "text": "fun String.replaceRange( startIndex: Int, endIndex: Int, replacement: CharSequence): String",
+      "desc": "Replaces the part of the string at the given range with the replacement char sequence."
+    },
+    {
+      "text": "fun CharSequence.replaceRange( range: IntRange, replacement: CharSequence): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is replaced with the replacement char sequence."
+    },
+    {
+      "text": "fun String.replaceRange( range: IntRange, replacement: CharSequence): String",
+      "desc": "Replace the part of string at the given range with the replacement string."
+    }
+  ],
+  "items": []
+}

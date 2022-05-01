@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ClipboardPermissionDescriptor",
+  "signature": "fun ClipboardPermissionDescriptor( allowWithoutGesture: Boolean? = false): ClipboardPermissionDescriptor",
+  "items": []
+}

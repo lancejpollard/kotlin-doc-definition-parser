@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "deleteCharAt",
+  "signature": "@DeprecatedSinceKotlin(\"1.4\", \"1.6\") fun StringBuilder.deleteCharAt( index: Int): StringBuilder",
+  "items": []
+}

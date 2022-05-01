@@ -1,0 +1,50 @@
+{
+  "type": "unknown",
+  "name": "MediaSource",
+  "signature": "open class MediaSource : EventTarget, MediaProvider",
+  "items": [
+    {
+      "text": "MediaSource()",
+      "desc": "Exposes the JavaScript MediaSource to Kotlin"
+    },
+    {
+      "text": "open val activeSourceBuffers: SourceBufferList"
+    },
+    {
+      "text": "var duration: Double"
+    },
+    {
+      "text": "var onsourceclose: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onsourceended: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onsourceopen: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val readyState: ReadyState"
+    },
+    {
+      "text": "open val sourceBuffers: SourceBufferList"
+    },
+    {
+      "text": "fun addSourceBuffer(type: String): SourceBuffer"
+    },
+    {
+      "text": "fun clearLiveSeekableRange()"
+    },
+    {
+      "text": "fun endOfStream(error: EndOfStreamError = definedExternally)"
+    },
+    {
+      "text": "fun removeSourceBuffer(sourceBuffer: SourceBuffer)"
+    },
+    {
+      "text": "fun setLiveSeekableRange(start: Double, end: Double)"
+    },
+    {
+      "text": "fun isTypeSupported(type: String): Boolean"
+    }
+  ]
+}

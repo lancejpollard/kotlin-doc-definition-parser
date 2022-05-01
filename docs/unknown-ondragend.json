@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ondragend",
+  "signature": "open var ondragend: ((DragEvent) -> dynamic)?",
+  "items": []
+}

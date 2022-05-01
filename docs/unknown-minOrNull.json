@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minOrNull",
+  "signature": "fun CharSequence.minOrNull(): Char?",
+  "items": []
+}

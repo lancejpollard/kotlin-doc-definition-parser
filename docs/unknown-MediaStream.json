@@ -1,0 +1,47 @@
+{
+  "type": "unknown",
+  "name": "MediaStream",
+  "signature": "open class MediaStream : EventTarget, MediaProvider",
+  "items": [
+    {
+      "text": "MediaStream(stream: MediaStream)"
+    },
+    {
+      "text": "MediaStream()",
+      "desc": "Exposes the JavaScript MediaStream to Kotlin"
+    },
+    {
+      "text": "open val active: Boolean"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "var onaddtrack: ((MediaStreamTrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "var onremovetrack: ((MediaStreamTrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun addTrack(track: MediaStreamTrack)"
+    },
+    {
+      "text": "fun clone(): MediaStream"
+    },
+    {
+      "text": "fun getAudioTracks(): Array<MediaStreamTrack>"
+    },
+    {
+      "text": "fun getTrackById(trackId: String): MediaStreamTrack?"
+    },
+    {
+      "text": "fun getTracks(): Array<MediaStreamTrack>"
+    },
+    {
+      "text": "fun getVideoTracks(): Array<MediaStreamTrack>"
+    },
+    {
+      "text": "fun removeTrack(track: MediaStreamTrack)"
+    }
+  ]
+}

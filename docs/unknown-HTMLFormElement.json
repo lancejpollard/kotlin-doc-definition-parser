@@ -1,0 +1,113 @@
+{
+  "type": "unknown",
+  "name": "HTMLFormElement",
+  "signature": "abstract class HTMLFormElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLFormElement()",
+      "desc": "Exposes the JavaScript HTMLFormElement to Kotlin"
+    },
+    {
+      "text": "open var acceptCharset: String"
+    },
+    {
+      "text": "open var action: String"
+    },
+    {
+      "text": "open var autocomplete: String"
+    },
+    {
+      "text": "open val elements: HTMLFormControlsCollection"
+    },
+    {
+      "text": "open var encoding: String"
+    },
+    {
+      "text": "open var enctype: String"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open var method: String"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open var noValidate: Boolean"
+    },
+    {
+      "text": "open var target: String"
+    },
+    {
+      "text": "fun checkValidity(): Boolean"
+    },
+    {
+      "text": "fun reportValidity(): Boolean"
+    },
+    {
+      "text": "fun reset()"
+    },
+    {
+      "text": "fun submit()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "operator fun HTMLFormElement.get(index: Int): Element?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "generateSequence",
+  "signatures": [
+    {
+      "text": "fun <T : Any> generateSequence( nextFunction: () -> T?): Sequence<T>",
+      "desc": "Returns a sequence which invokes the function to calculate the next value on each iteration until the function returns null."
+    },
+    {
+      "text": "fun <T : Any> generateSequence( seed: T?, nextFunction: (T) -> T?): Sequence<T>",
+      "desc": "Returns a sequence defined by the starting value seed and the function nextFunction, which is invoked to calculate the next value based on the previous one on each iteration."
+    },
+    {
+      "text": "fun <T : Any> generateSequence( seedFunction: () -> T?, nextFunction: (T) -> T?): Sequence<T>",
+      "desc": "Returns a sequence defined by the function seedFunction, which is invoked to produce the starting value, and the nextFunction, which is invoked to calculate the next value based on the previous one on each iteration."
+    }
+  ],
+  "items": []
+}

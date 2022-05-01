@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EventInit",
+  "signature": "fun EventInit( bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): EventInit",
+  "items": []
+}

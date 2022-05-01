@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onratechange",
+  "signature": "open var onratechange: ((Event) -> dynamic)?",
+  "items": []
+}

@@ -1,0 +1,53 @@
+{
+  "type": "unknown",
+  "name": "PointerEvent",
+  "signature": "open class PointerEvent : MouseEvent",
+  "items": [
+    {
+      "text": "PointerEvent( type: String, eventInitDict: PointerEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript PointerEvent to Kotlin"
+    },
+    {
+      "text": "open val height: Double"
+    },
+    {
+      "text": "open val isPrimary: Boolean"
+    },
+    {
+      "text": "open val pointerId: Int"
+    },
+    {
+      "text": "open val pointerType: String"
+    },
+    {
+      "text": "open val pressure: Float"
+    },
+    {
+      "text": "open val tangentialPressure: Float"
+    },
+    {
+      "text": "open val tiltX: Int"
+    },
+    {
+      "text": "open val tiltY: Int"
+    },
+    {
+      "text": "open val twist: Int"
+    },
+    {
+      "text": "open val width: Double"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

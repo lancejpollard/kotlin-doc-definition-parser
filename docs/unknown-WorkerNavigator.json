@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "WorkerNavigator",
+  "signature": "abstract class WorkerNavigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorConcurrentHardware",
+  "items": [
+    {
+      "text": "WorkerNavigator()",
+      "desc": "Exposes the JavaScript WorkerNavigator to Kotlin"
+    },
+    {
+      "text": "open val serviceWorker: ServiceWorkerContainer"
+    }
+  ]
+}

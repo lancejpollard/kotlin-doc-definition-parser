@@ -1,0 +1,14 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.url",
+  "items": [
+    {
+      "text": "open class URL",
+      "desc": "Exposes the JavaScript URL to Kotlin"
+    },
+    {
+      "text": "open class URLSearchParams",
+      "desc": "Exposes the JavaScript URLSearchParams to Kotlin"
+    }
+  ]
+}

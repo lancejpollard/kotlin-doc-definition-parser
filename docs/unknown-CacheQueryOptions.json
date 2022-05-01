@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CacheQueryOptions",
+  "signature": "fun CacheQueryOptions( ignoreSearch: Boolean? = false, ignoreMethod: Boolean? = false, ignoreVary: Boolean? = false, cacheName: String? = undefined): CacheQueryOptions",
+  "items": []
+}

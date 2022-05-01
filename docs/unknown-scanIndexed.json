@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scanIndexed",
+  "signature": "inline fun <R> CharSequence.scanIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): List<R>",
+  "items": []
+}

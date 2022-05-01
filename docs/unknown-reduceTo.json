@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reduceTo",
+  "signature": "inline fun <S, T : S, K, M : MutableMap<in K, S>> Grouping<T, K>.reduceTo( destination: M, operation: (key: K, accumulator: S, element: T) -> S): M",
+  "items": []
+}

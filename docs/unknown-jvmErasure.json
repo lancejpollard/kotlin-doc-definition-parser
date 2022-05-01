@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "jvmErasure",
+  "signature": "val KType.jvmErasure: KClass<*>",
+  "items": []
+}

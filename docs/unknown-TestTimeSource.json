@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "TestTimeSource",
+  "signature": "@ExperimentalTime class TestTimeSource : AbstractLongTimeSource",
+  "items": [
+    {
+      "text": "TestTimeSource()",
+      "desc": "A time source that has programmatically updatable readings. It is useful as a predictable source of time in tests."
+    },
+    {
+      "text": "operator fun plusAssign(duration: Duration)",
+      "desc": "Advances the current reading value of this time source by the specified duration."
+    },
+    {
+      "text": "fun read(): Long",
+      "desc": "This protected method should be overridden to return the current reading of the time source expressed as a Long number in the unit specified by the unit property."
+    },
+    {
+      "text": "fun TimeSource.measureTime(block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    },
+    {
+      "text": "fun <T> TimeSource.measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given block and returns an instance of TimedValue class, containing both the result of function execution and the duration of elapsed time interval."
+    }
+  ]
+}

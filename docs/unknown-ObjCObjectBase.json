@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ObjCObjectBase",
+  "signature": "abstract class ObjCObjectBase : ObjCObject",
+  "items": [
+    {
+      "text": "annotation class OverrideInit"
+    },
+    {
+      "text": "ObjCObjectBase()"
+    },
+    {
+      "text": "fun <T : ObjCObjectBase> T.initBy(constructorCall: T): T"
+    },
+    {
+      "text": "abstract class ObjCObjectBaseMeta : ObjCObjectBase, ObjCObjectMeta"
+    }
+  ]
+}

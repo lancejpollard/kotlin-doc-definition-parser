@@ -1,0 +1,52 @@
+{
+  "type": "unknown",
+  "name": "UIEvent",
+  "signature": "open class UIEvent : Event",
+  "items": [
+    {
+      "text": "UIEvent( type: String, eventInitDict: UIEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript UIEvent to Kotlin"
+    },
+    {
+      "text": "open val detail: Int"
+    },
+    {
+      "text": "open val view: Window?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    },
+    {
+      "text": "open class CompositionEvent : UIEvent",
+      "desc": "Exposes the JavaScript CompositionEvent to Kotlin"
+    },
+    {
+      "text": "open class FocusEvent : UIEvent",
+      "desc": "Exposes the JavaScript FocusEvent to Kotlin"
+    },
+    {
+      "text": "open class InputEvent : UIEvent",
+      "desc": "Exposes the JavaScript InputEvent to Kotlin"
+    },
+    {
+      "text": "open class KeyboardEvent : UIEvent",
+      "desc": "Exposes the JavaScript KeyboardEvent to Kotlin"
+    },
+    {
+      "text": "open class MouseEvent : UIEvent, UnionElementOrMouseEvent",
+      "desc": "Exposes the JavaScript MouseEvent to Kotlin"
+    },
+    {
+      "text": "open class TouchEvent : UIEvent"
+    }
+  ]
+}

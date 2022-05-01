@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "declaredMembers",
+  "signature": "val KClass<*>.declaredMembers: Collection<KCallable<*>>",
+  "items": []
+}

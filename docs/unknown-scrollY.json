@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scrollY",
+  "signature": "open val scrollY: Double",
+  "items": []
+}

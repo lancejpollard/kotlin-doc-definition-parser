@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DECODE",
+  "signature": "inline val EndOfStreamError.Companion.DECODE: EndOfStreamError",
+  "items": []
+}

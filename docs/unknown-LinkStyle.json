@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "LinkStyle",
+  "signature": "interface LinkStyle",
+  "items": [
+    {
+      "text": "open val sheet: StyleSheet?"
+    },
+    {
+      "text": "abstract class HTMLLinkElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLLinkElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLStyleElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLStyleElement to Kotlin"
+    },
+    {
+      "text": "abstract class ProcessingInstruction : CharacterData, LinkStyle, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript ProcessingInstruction to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStyleElement : SVGElement, LinkStyle",
+      "desc": "Exposes the JavaScript SVGStyleElement to Kotlin"
+    }
+  ]
+}

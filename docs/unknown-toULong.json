@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toULong",
+  "signature": "fun toULong(): ULong",
+  "items": []
+}

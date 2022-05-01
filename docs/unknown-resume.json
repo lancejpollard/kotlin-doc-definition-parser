@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "resume",
+  "signature": "fun <T> Continuation<T>.resume(value: T)",
+  "items": []
+}

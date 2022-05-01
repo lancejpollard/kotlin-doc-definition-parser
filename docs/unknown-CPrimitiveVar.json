@@ -1,0 +1,62 @@
+{
+  "type": "unknown",
+  "name": "CPrimitiveVar",
+  "signature": "sealed class CPrimitiveVar : CVariable",
+  "items": [
+    {
+      "text": "open class Type : Type"
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    },
+    {
+      "text": "class BooleanVarOf<T : Boolean> : CPrimitiveVar"
+    },
+    {
+      "text": "class ByteVarOf<T : Byte> : CPrimitiveVar"
+    },
+    {
+      "text": "abstract class CEnumVar : CPrimitiveVar"
+    },
+    {
+      "text": "class DoubleVarOf<T : Double> : CPrimitiveVar"
+    },
+    {
+      "text": "class FloatVarOf<T : Float> : CPrimitiveVar"
+    },
+    {
+      "text": "class IntVarOf<T : Int> : CPrimitiveVar"
+    },
+    {
+      "text": "class LongVarOf<T : Long> : CPrimitiveVar"
+    },
+    {
+      "text": "class ShortVarOf<T : Short> : CPrimitiveVar"
+    },
+    {
+      "text": "class UByteVarOf<T : UByte> : CPrimitiveVar"
+    },
+    {
+      "text": "class UIntVarOf<T : UInt> : CPrimitiveVar"
+    },
+    {
+      "text": "class ULongVarOf<T : ULong> : CPrimitiveVar"
+    },
+    {
+      "text": "class UShortVarOf<T : UShort> : CPrimitiveVar"
+    }
+  ]
+}

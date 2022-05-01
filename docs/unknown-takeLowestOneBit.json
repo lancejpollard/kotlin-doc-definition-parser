@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "takeLowestOneBit",
+  "signatures": [
+    {
+      "text": "fun Int.takeLowestOneBit(): Int",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this Int number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Long.takeLowestOneBit(): Long",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this Long number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Byte.takeLowestOneBit(): Byte",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this Byte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Short.takeLowestOneBit(): Short",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this Short number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UInt.takeLowestOneBit(): UInt",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this UInt number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun ULong.takeLowestOneBit(): ULong",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this ULong number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UByte.takeLowestOneBit(): UByte",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this UByte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UShort.takeLowestOneBit(): UShort",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this UShort number, or zero, if this number is zero."
+    }
+  ],
+  "items": []
+}

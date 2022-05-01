@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "allSupertypes",
+  "signature": "val KClass<*>.allSupertypes: Collection<KType>",
+  "items": []
+}

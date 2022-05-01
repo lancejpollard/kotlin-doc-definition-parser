@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hypot",
+  "signature": "fun hypot(x: Double, y: Double): Double",
+  "items": []
+}

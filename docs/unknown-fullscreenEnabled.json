@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "fullscreenEnabled",
+  "signature": "open val fullscreenEnabled: Boolean",
+  "items": []
+}

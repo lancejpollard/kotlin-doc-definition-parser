@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "SVGPointList",
+  "signature": "abstract class SVGPointList",
+  "items": [
+    {
+      "text": "SVGPointList()"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: DOMPoint): DOMPoint"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(index: Int): DOMPoint"
+    },
+    {
+      "text": "fun initialize(newItem: DOMPoint): DOMPoint"
+    },
+    {
+      "text": "fun insertItemBefore(newItem: DOMPoint, index: Int): DOMPoint"
+    },
+    {
+      "text": "fun removeItem(index: Int): DOMPoint"
+    },
+    {
+      "text": "fun replaceItem(newItem: DOMPoint, index: Int): DOMPoint"
+    },
+    {
+      "text": "operator fun SVGPointList.get(index: Int): DOMPoint?"
+    },
+    {
+      "text": "operator fun SVGPointList.set(index: Int, newItem: DOMPoint)"
+    }
+  ]
+}

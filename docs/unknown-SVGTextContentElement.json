@@ -1,0 +1,115 @@
+{
+  "type": "unknown",
+  "name": "SVGTextContentElement",
+  "signature": "abstract class SVGTextContentElement : SVGGraphicsElement",
+  "items": [
+    {
+      "text": "SVGTextContentElement()",
+      "desc": "Exposes the JavaScript SVGTextContentElement to Kotlin"
+    },
+    {
+      "text": "open val lengthAdjust: SVGAnimatedEnumeration"
+    },
+    {
+      "text": "open val textLength: SVGAnimatedLength"
+    },
+    {
+      "text": "fun getCharNumAtPosition(point: DOMPoint): Int"
+    },
+    {
+      "text": "fun getComputedTextLength(): Float"
+    },
+    {
+      "text": "fun getEndPositionOfChar(charnum: Int): DOMPoint"
+    },
+    {
+      "text": "fun getExtentOfChar(charnum: Int): DOMRect"
+    },
+    {
+      "text": "fun getNumberOfChars(): Int"
+    },
+    {
+      "text": "fun getRotationOfChar(charnum: Int): Float"
+    },
+    {
+      "text": "fun getStartPositionOfChar(charnum: Int): DOMPoint"
+    },
+    {
+      "text": "fun getSubStringLength(charnum: Int, nchars: Int): Float"
+    },
+    {
+      "text": "fun selectSubString(charnum: Int, nchars: Int)"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_SPACING: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_SPACINGANDGLYPHS: Short"
+    },
+    {
+      "text": "val LENGTHADJUST_UNKNOWN: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class SVGTextPathElement : SVGTextContentElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGTextPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextPositioningElement : SVGTextContentElement",
+      "desc": "Exposes the JavaScript SVGTextPositioningElement to Kotlin"
+    }
+  ]
+}

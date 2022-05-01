@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "StorageEvent",
+  "signature": "open class StorageEvent : Event",
+  "items": [
+    {
+      "text": "StorageEvent( type: String, eventInitDict: StorageEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript StorageEvent to Kotlin"
+    },
+    {
+      "text": "open val key: String?"
+    },
+    {
+      "text": "open val newValue: String?"
+    },
+    {
+      "text": "open val oldValue: String?"
+    },
+    {
+      "text": "open val storageArea: Storage?"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

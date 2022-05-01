@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "PerformanceNavigation",
+  "signature": "abstract class PerformanceNavigation",
+  "items": [
+    {
+      "text": "PerformanceNavigation()",
+      "desc": "Exposes the JavaScript PerformanceNavigation to Kotlin"
+    },
+    {
+      "text": "open val redirectCount: Short"
+    },
+    {
+      "text": "open val type: Short"
+    },
+    {
+      "text": "val TYPE_BACK_FORWARD: Short"
+    },
+    {
+      "text": "val TYPE_NAVIGATE: Short"
+    },
+    {
+      "text": "val TYPE_RELOAD: Short"
+    },
+    {
+      "text": "val TYPE_RESERVED: Short"
+    }
+  ]
+}

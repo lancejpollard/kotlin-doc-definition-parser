@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "readBytes",
+  "signature": "fun COpaquePointer.readBytes(count: Int): ByteArray",
+  "items": []
+}

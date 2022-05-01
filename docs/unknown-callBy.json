@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "callBy",
+  "signature": "abstract fun callBy(args: Map<KParameter, Any?>): R",
+  "items": []
+}

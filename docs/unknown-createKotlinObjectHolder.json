@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createKotlinObjectHolder",
+  "signature": "fun createKotlinObjectHolder(any: Any?): NativePtr",
+  "items": []
+}

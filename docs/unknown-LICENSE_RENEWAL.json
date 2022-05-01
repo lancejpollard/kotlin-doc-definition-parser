@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "LICENSE_RENEWAL",
+  "signature": "inline val MediaKeyMessageType.Companion.LICENSE_RENEWAL: MediaKeyMessageType",
+  "items": []
+}

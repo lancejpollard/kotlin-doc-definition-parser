@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isNegative",
+  "signature": "fun isNegative(): Boolean",
+  "items": []
+}

@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "Charsets",
+  "signature": "object Charsets",
+  "items": [
+    {
+      "text": "val ISO_8859_1: Charset",
+      "desc": "ISO Latin Alphabet No. 1, a.k.a. ISO-LATIN-1."
+    },
+    {
+      "text": "val US_ASCII: Charset",
+      "desc": "Seven-bit ASCII, a.k.a. ISO646-US, a.k.a. the Basic Latin block of the Unicode character set."
+    },
+    {
+      "text": "val UTF_16: Charset",
+      "desc": "Sixteen-bit UCS Transformation Format, byte order identified by an optional byte-order mark."
+    },
+    {
+      "text": "val UTF_16BE: Charset",
+      "desc": "Sixteen-bit UCS Transformation Format, big-endian byte order."
+    },
+    {
+      "text": "val UTF_16LE: Charset",
+      "desc": "Sixteen-bit UCS Transformation Format, little-endian byte order."
+    },
+    {
+      "text": "val UTF_32: Charset",
+      "desc": "32-bit Unicode (or UCS) Transformation Format, byte order identified by an optional byte-order mark"
+    },
+    {
+      "text": "val UTF_32BE: Charset",
+      "desc": "32-bit Unicode (or UCS) Transformation Format, big-endian byte order."
+    },
+    {
+      "text": "val UTF_32LE: Charset",
+      "desc": "32-bit Unicode (or UCS) Transformation Format, little-endian byte order."
+    },
+    {
+      "text": "val UTF_8: Charset",
+      "desc": "Eight-bit UCS Transformation Format."
+    }
+  ]
+}

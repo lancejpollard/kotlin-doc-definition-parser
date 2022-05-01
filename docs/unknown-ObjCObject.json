@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ObjCObject",
+  "signature": "interface ObjCObject",
+  "items": [
+    {
+      "text": "fun <T : ObjCObject> ObjCObject.reinterpret(): T"
+    },
+    {
+      "text": "interface ObjCClass : ObjCObject"
+    },
+    {
+      "text": "abstract class ObjCObjectBase : ObjCObject"
+    },
+    {
+      "text": "interface ObjCProtocol : ObjCObject"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "fill",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.fill( element: T, fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Fills this array or its subrange with the specified element value."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.fill( element: UInt, fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Fills this array or its subrange with the specified element value."
+    },
+    {
+      "text": "fun <T> MutableList<T>.fill(value: T)",
+      "desc": "Fills the list with the provided value."
+    }
+  ],
+  "items": []
+}

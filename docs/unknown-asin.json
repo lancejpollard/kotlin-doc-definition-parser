@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asin",
+  "signature": "fun asin(x: Double): Double",
+  "items": []
+}

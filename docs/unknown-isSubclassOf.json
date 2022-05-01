@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSubclassOf",
+  "signature": "fun KClass<*>.isSubclassOf(base: KClass<*>): Boolean",
+  "items": []
+}

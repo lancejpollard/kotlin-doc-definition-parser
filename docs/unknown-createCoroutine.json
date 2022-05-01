@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "createCoroutine",
+  "signatures": [
+    {
+      "text": "fun <T> (suspend () -> T).createCoroutine( completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates a coroutine without a receiver and with result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).createCoroutine( receiver: R, completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates a coroutine with receiver type R and result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    }
+  ],
+  "items": []
+}

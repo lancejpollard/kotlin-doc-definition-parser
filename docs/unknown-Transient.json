@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Transient",
+  "signature": "@Target([AnnotationTarget.FIELD]) annotation class Transient",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Marks the JVM backing field of the annotated property as transient, meaning that it is not part of the default serialized form of the object."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

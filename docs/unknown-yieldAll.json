@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "yieldAll",
+  "signatures": [
+    {
+      "text": "abstract suspend fun yieldAll(iterator: Iterator<T>)",
+      "desc": "Yields all values from the iterator to the Iterator being built and suspends until all these values are iterated and the next one is requested."
+    },
+    {
+      "text": "suspend fun yieldAll(elements: Iterable<T>)",
+      "desc": "Yields a collections of values to the Iterator being built and suspends until all these values are iterated and the next one is requested."
+    },
+    {
+      "text": "suspend fun yieldAll(sequence: Sequence<T>)",
+      "desc": "Yields potentially infinite sequence of values to the Iterator being built and suspends until all these values are iterated and the next one is requested."
+    }
+  ],
+  "items": []
+}

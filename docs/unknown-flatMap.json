@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "flatMap",
+  "signature": "inline fun <R> CharSequence.flatMap( transform: (Char) -> Iterable<R>): List<R>",
+  "items": []
+}

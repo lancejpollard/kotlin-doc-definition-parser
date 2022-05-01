@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "WebGLContextEvent",
+  "signature": "open class WebGLContextEvent : Event",
+  "items": [
+    {
+      "text": "WebGLContextEvent( type: String, eventInit: WebGLContextEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript WebGLContextEvent to Kotlin"
+    },
+    {
+      "text": "open val statusMessage: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

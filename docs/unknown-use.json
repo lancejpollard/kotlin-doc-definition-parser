@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "use",
+  "signature": "inline fun <T : Closeable?, R> T.use(block: (T) -> R): R",
+  "items": []
+}

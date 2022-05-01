@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionMessagePortOrServiceWorker",
+  "signature": "interface UnionMessagePortOrServiceWorker",
+  "items": [
+    {
+      "text": "abstract class MessagePort : EventTarget, UnionMessagePortOrWindowProxy, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript MessagePort to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorker : EventTarget, AbstractWorker, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript ServiceWorker to Kotlin"
+    }
+  ]
+}

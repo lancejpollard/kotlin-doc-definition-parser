@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toUShort",
+  "signature": "fun toUShort(): UShort",
+  "items": []
+}

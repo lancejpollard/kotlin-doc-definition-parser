@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asUCPointer",
+  "signature": "fun ImmutableBlob.asUCPointer( offset: Int = 0): CPointer<UByteVar>",
+  "items": []
+}

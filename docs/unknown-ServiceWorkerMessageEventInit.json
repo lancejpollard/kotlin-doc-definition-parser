@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerMessageEventInit",
+  "signature": "fun ServiceWorkerMessageEventInit( data: Any? = undefined, origin: String? = undefined, lastEventId: String? = undefined, source: UnionMessagePortOrServiceWorker? = undefined, ports: Array<MessagePort>? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ServiceWorkerMessageEventInit",
+  "items": []
+}

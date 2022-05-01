@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLRenderbuffer",
+  "signature": "abstract class WebGLRenderbuffer : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLRenderbuffer()",
+      "desc": "Exposes the JavaScript WebGLRenderbuffer to Kotlin"
+    }
+  ]
+}

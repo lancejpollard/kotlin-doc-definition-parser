@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isHighSurrogate",
+  "signature": "fun Char.isHighSurrogate(): Boolean",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "apply",
+  "signature": "inline fun <T> T.apply(block: T.() -> Unit): T",
+  "items": []
+}

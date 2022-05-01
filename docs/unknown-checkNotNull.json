@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "checkNotNull",
+  "signatures": [
+    {
+      "text": "fun <T : Any> checkNotNull(value: T?): T",
+      "desc": "Throws an IllegalStateException if the value is null. Otherwise returns the not null value."
+    },
+    {
+      "text": "inline fun <T : Any> checkNotNull( value: T?, lazyMessage: () -> Any): T",
+      "desc": "Throws an IllegalStateException with the result of calling lazyMessage if the value is null. Otherwise returns the not null value."
+    }
+  ],
+  "items": []
+}

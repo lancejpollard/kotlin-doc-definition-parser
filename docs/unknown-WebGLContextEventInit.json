@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "WebGLContextEventInit",
+  "signature": "fun WebGLContextEventInit( statusMessage: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): WebGLContextEventInit",
+  "items": []
+}

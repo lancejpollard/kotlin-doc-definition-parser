@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "CustomEvent",
+  "signature": "open class CustomEvent : Event",
+  "items": [
+    {
+      "text": "CustomEvent( type: String, eventInitDict: CustomEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript CustomEvent to Kotlin"
+    },
+    {
+      "text": "open val detail: Any?"
+    },
+    {
+      "text": "fun initCustomEvent( type: String, bubbles: Boolean, cancelable: Boolean, detail: Any?)"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

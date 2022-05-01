@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CacheBatchOperation",
+  "signature": "fun CacheBatchOperation( type: String? = undefined, request: Request? = undefined, response: Response? = undefined, options: CacheQueryOptions? = undefined): CacheBatchOperation",
+  "items": []
+}

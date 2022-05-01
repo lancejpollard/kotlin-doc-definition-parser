@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "KClassifier",
+  "signature": "interface KClassifier",
+  "items": [
+    {
+      "text": "val KClassifier.starProjectedType: KType",
+      "desc": "Creates an instance of KType with the given classifier, substituting all its type parameters with star projections. The resulting type is not marked as nullable and does not have any annotations."
+    },
+    {
+      "text": "fun KClassifier.createType( arguments: List<KTypeProjection> = emptyList(), nullable: Boolean = false, annotations: List<Annotation> = emptyList()): KType",
+      "desc": "Creates a KType instance with the given classifier, type arguments, nullability and annotations. If the number of passed type arguments is not equal to the total number of type parameters of a classifier, an exception is thrown. If any of the arguments does not satisfy the bounds of the corresponding type parameter, an exception is thrown."
+    },
+    {
+      "text": "interface KClass<T : Any> : KClassifier",
+      "desc": "Represents a class and provides introspection capabilities. Instances of this class are obtainable by the ::class syntax. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "interface KTypeParameter : KClassifier",
+      "desc": "Represents a declaration of a type parameter of a class or a callable. See the Kotlin language documentation for more information."
+    }
+  ]
+}

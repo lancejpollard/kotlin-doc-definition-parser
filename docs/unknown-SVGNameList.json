@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "SVGNameList",
+  "signature": "abstract class SVGNameList",
+  "items": [
+    {
+      "text": "SVGNameList()"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: dynamic): dynamic"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(index: Int): dynamic"
+    },
+    {
+      "text": "fun initialize(newItem: dynamic): dynamic"
+    },
+    {
+      "text": "fun insertItemBefore(newItem: dynamic, index: Int): dynamic"
+    },
+    {
+      "text": "fun removeItem(index: Int): dynamic"
+    },
+    {
+      "text": "fun replaceItem(newItem: dynamic, index: Int): dynamic"
+    },
+    {
+      "text": "operator fun SVGNameList.get(index: Int): dynamic"
+    },
+    {
+      "text": "operator fun SVGNameList.set(index: Int, newItem: dynamic)"
+    }
+  ]
+}

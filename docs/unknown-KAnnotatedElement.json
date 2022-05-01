@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "KAnnotatedElement",
+  "signature": "interface KAnnotatedElement",
+  "items": [
+    {
+      "text": "abstract val annotations: List<Annotation>",
+      "desc": "Annotations which are present on this element."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotation(): T?",
+      "desc": "Returns an annotation of the given type on this element."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotations(): List<T>",
+      "desc": "Returns all annotations of the given type on this element, including individually applied annotations as well as repeated annotations."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.hasAnnotation(): Boolean",
+      "desc": "Returns true if this element is annotated with an annotation of type T."
+    },
+    {
+      "text": "interface KCallable<out R>",
+      "desc": "Represents a callable entity, such as a function or a property."
+    },
+    {
+      "text": "interface KClass<T : Any> : KClassifier",
+      "desc": "Represents a class and provides introspection capabilities. Instances of this class are obtainable by the ::class syntax. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "interface KParameter : KAnnotatedElement",
+      "desc": "Represents a parameter passed to a function or a property getter/setter, including this and extension receiver parameters."
+    },
+    {
+      "text": "interface KType",
+      "desc": "Represents a type. Type is usually either a class with optional type arguments, or a type parameter of some declaration, plus nullability."
+    }
+  ]
+}

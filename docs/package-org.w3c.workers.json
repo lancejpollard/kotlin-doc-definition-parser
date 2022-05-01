@@ -1,0 +1,188 @@
+{
+  "type": "package",
+  "name": "org.w3c.workers",
+  "items": [
+    {
+      "text": "abstract class Cache",
+      "desc": "Exposes the JavaScript Cache to Kotlin"
+    },
+    {
+      "text": "interface CacheBatchOperation"
+    },
+    {
+      "text": "interface CacheQueryOptions"
+    },
+    {
+      "text": "abstract class CacheStorage",
+      "desc": "Exposes the JavaScript CacheStorage to Kotlin"
+    },
+    {
+      "text": "abstract class Client : UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript Client to Kotlin"
+    },
+    {
+      "text": "interface ClientQueryOptions"
+    },
+    {
+      "text": "abstract class Clients",
+      "desc": "Exposes the JavaScript Clients to Kotlin"
+    },
+    {
+      "text": "interface ClientType"
+    },
+    {
+      "text": "open class ExtendableEvent : Event",
+      "desc": "Exposes the JavaScript ExtendableEvent to Kotlin"
+    },
+    {
+      "text": "interface ExtendableEventInit : EventInit"
+    },
+    {
+      "text": "open class ExtendableMessageEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript ExtendableMessageEvent to Kotlin"
+    },
+    {
+      "text": "interface ExtendableMessageEventInit : ExtendableEventInit"
+    },
+    {
+      "text": "open class FetchEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript FetchEvent to Kotlin"
+    },
+    {
+      "text": "interface FetchEventInit : ExtendableEventInit"
+    },
+    {
+      "text": "open class ForeignFetchEvent : ExtendableEvent"
+    },
+    {
+      "text": "interface ForeignFetchEventInit : ExtendableEventInit"
+    },
+    {
+      "text": "interface ForeignFetchOptions"
+    },
+    {
+      "text": "interface ForeignFetchResponse"
+    },
+    {
+      "text": "interface FrameType"
+    },
+    {
+      "text": "open class FunctionalEvent : ExtendableEvent"
+    },
+    {
+      "text": "open class InstallEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript InstallEvent to Kotlin"
+    },
+    {
+      "text": "interface RegistrationOptions"
+    },
+    {
+      "text": "abstract class ServiceWorker : EventTarget, AbstractWorker, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript ServiceWorker to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorkerContainer : EventTarget",
+      "desc": "Exposes the JavaScript ServiceWorkerContainer to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript ServiceWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open class ServiceWorkerMessageEvent : Event",
+      "desc": "Exposes the JavaScript ServiceWorkerMessageEvent to Kotlin"
+    },
+    {
+      "text": "interface ServiceWorkerMessageEventInit : EventInit"
+    },
+    {
+      "text": "abstract class ServiceWorkerRegistration : EventTarget",
+      "desc": "Exposes the JavaScript ServiceWorkerRegistration to Kotlin"
+    },
+    {
+      "text": "interface ServiceWorkerState"
+    },
+    {
+      "text": "interface UnionClientOrMessagePortOrServiceWorker"
+    },
+    {
+      "text": "interface UnionMessagePortOrServiceWorker"
+    },
+    {
+      "text": "abstract class WindowClient : Client",
+      "desc": "Exposes the JavaScript WindowClient to Kotlin"
+    },
+    {
+      "text": "fun CacheBatchOperation( type: String? = undefined, request: Request? = undefined, response: Response? = undefined, options: CacheQueryOptions? = undefined): CacheBatchOperation"
+    },
+    {
+      "text": "fun CacheQueryOptions( ignoreSearch: Boolean? = false, ignoreMethod: Boolean? = false, ignoreVary: Boolean? = false, cacheName: String? = undefined): CacheQueryOptions"
+    },
+    {
+      "text": "fun ClientQueryOptions( includeUncontrolled: Boolean? = false, type: ClientType? = ClientType.WINDOW): ClientQueryOptions"
+    },
+    {
+      "text": "fun ExtendableEventInit( bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ExtendableEventInit"
+    },
+    {
+      "text": "fun ExtendableMessageEventInit( data: Any? = undefined, origin: String? = undefined, lastEventId: String? = undefined, source: UnionClientOrMessagePortOrServiceWorker? = undefined, ports: Array<MessagePort>? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ExtendableMessageEventInit"
+    },
+    {
+      "text": "fun FetchEventInit( request: Request?, clientId: String? = null, isReload: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): FetchEventInit"
+    },
+    {
+      "text": "fun ForeignFetchEventInit( request: Request?, origin: String? = \"null\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ForeignFetchEventInit"
+    },
+    {
+      "text": "fun ForeignFetchOptions( scopes: Array<String>?, origins: Array<String>?): ForeignFetchOptions"
+    },
+    {
+      "text": "fun ForeignFetchResponse( response: Response?, origin: String? = undefined, headers: Array<String>? = undefined): ForeignFetchResponse"
+    },
+    {
+      "text": "fun RegistrationOptions( scope: String? = undefined, type: WorkerType? = WorkerType.CLASSIC): RegistrationOptions"
+    },
+    {
+      "text": "fun ServiceWorkerMessageEventInit( data: Any? = undefined, origin: String? = undefined, lastEventId: String? = undefined, source: UnionMessagePortOrServiceWorker? = undefined, ports: Array<MessagePort>? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ServiceWorkerMessageEventInit"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.ACTIVATED: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.ACTIVATING: ServiceWorkerState"
+    },
+    {
+      "text": "val ClientType.Companion.ALL: ClientType"
+    },
+    {
+      "text": "val FrameType.Companion.AUXILIARY: FrameType"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.INSTALLED: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.INSTALLING: ServiceWorkerState"
+    },
+    {
+      "text": "val FrameType.Companion.NESTED: FrameType"
+    },
+    {
+      "text": "val FrameType.Companion.NONE: FrameType"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.REDUNDANT: ServiceWorkerState"
+    },
+    {
+      "text": "val ClientType.Companion.SHAREDWORKER: ClientType"
+    },
+    {
+      "text": "val FrameType.Companion.TOP_LEVEL: FrameType"
+    },
+    {
+      "text": "val ClientType.Companion.WINDOW: ClientType"
+    },
+    {
+      "text": "val ClientType.Companion.WORKER: ClientType"
+    }
+  ]
+}

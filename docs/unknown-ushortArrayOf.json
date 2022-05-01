@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ushortArrayOf",
+  "signature": "@ExperimentalUnsignedTypes fun ushortArrayOf( vararg elements: UShort): UShortArray",
+  "items": []
+}

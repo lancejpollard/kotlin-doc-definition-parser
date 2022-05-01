@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "append",
+  "signature": "open fun append(vararg nodes: dynamic)",
+  "items": []
+}

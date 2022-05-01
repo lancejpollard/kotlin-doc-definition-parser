@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "HTMLOrSVGScriptElement",
+  "signature": "interface HTMLOrSVGScriptElement",
+  "items": [
+    {
+      "text": "abstract class HTMLScriptElement : HTMLElement, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript HTMLScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGScriptElement : SVGElement, SVGURIReference, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript SVGScriptElement to Kotlin"
+    }
+  ]
+}

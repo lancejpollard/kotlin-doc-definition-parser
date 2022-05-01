@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "JsExport",
+  "signature": "@ExperimentalJsExport @Target([AnnotationTarget.CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.FUNCTION, AnnotationTarget.FILE]) annotation class JsExport",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Exports top-level declaration on JS platform."
+    }
+  ]
+}

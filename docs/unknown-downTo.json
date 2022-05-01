@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "downTo",
+  "signature": "infix fun Int.downTo(to: Byte): IntProgression",
+  "items": []
+}

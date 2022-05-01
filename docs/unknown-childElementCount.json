@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "childElementCount",
+  "signature": "open val childElementCount: Int",
+  "items": []
+}

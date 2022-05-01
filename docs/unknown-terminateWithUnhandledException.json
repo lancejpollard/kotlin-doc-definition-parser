@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "terminateWithUnhandledException",
+  "signature": "@ExperimentalStdlibApi fun terminateWithUnhandledException( throwable: Throwable): Nothing",
+  "items": []
+}

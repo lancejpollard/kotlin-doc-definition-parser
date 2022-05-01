@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "addressOf",
+  "signature": "fun Pinned<ByteArray>.addressOf( index: Int): CPointer<ByteVar>",
+  "items": []
+}

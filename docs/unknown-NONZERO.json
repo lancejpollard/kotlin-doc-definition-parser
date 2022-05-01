@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NONZERO",
+  "signature": "inline val CanvasFillRule.Companion.NONZERO: CanvasFillRule",
+  "items": []
+}

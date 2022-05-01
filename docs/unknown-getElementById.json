@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getElementById",
+  "signature": "open fun getElementById(elementId: String): Element?",
+  "items": []
+}

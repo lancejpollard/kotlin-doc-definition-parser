@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "randomOrNull",
+  "signatures": [
+    {
+      "text": "fun CharSequence.randomOrNull(): Char?",
+      "desc": "Returns a random character from this char sequence, or null if this char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.randomOrNull(random: Random): Char?",
+      "desc": "Returns a random character from this char sequence using the specified source of randomness, or null if this char sequence is empty."
+    }
+  ],
+  "items": []
+}

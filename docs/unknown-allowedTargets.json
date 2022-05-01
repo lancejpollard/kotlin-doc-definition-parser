@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "allowedTargets",
+  "signature": "vararg val allowedTargets: Array<out AnnotationTarget>",
+  "items": []
+}

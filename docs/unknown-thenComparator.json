@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "thenComparator",
+  "signature": "inline fun <T> Comparator<T>.thenComparator( crossinline comparison: (a: T, b: T) -> Int): Comparator<T>",
+  "items": []
+}

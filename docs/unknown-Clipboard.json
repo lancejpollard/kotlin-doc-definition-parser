@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "Clipboard",
+  "signature": "abstract class Clipboard : EventTarget",
+  "items": [
+    {
+      "text": "Clipboard()",
+      "desc": "Exposes the JavaScript Clipboard to Kotlin"
+    },
+    {
+      "text": "fun read(): Promise<DataTransfer>"
+    },
+    {
+      "text": "fun readText(): Promise<String>"
+    },
+    {
+      "text": "fun write(data: DataTransfer): Promise<Unit>"
+    },
+    {
+      "text": "fun writeText(data: String): Promise<Unit>"
+    }
+  ]
+}

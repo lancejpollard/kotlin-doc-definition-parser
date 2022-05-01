@@ -1,0 +1,204 @@
+{
+  "type": "unknown",
+  "name": "Double",
+  "signature": "class Double : Number, Comparable<Double>",
+  "items": [
+    {
+      "text": "operator fun compareTo(other: Byte): Int",
+      "desc": "Compares this value with the specified value for order. Returns zero if this value is equal to the specified other value, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun dec(): Double",
+      "desc": "Returns this value decremented by one."
+    },
+    {
+      "text": "operator fun div(other: Byte): Double",
+      "desc": "Divides this value by the other value."
+    },
+    {
+      "text": "fun equals(other: Double): Boolean"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "operator fun inc(): Double",
+      "desc": "Returns this value incremented by one."
+    },
+    {
+      "text": "operator fun minus(other: Byte): Double",
+      "desc": "Subtracts the other value from this value."
+    },
+    {
+      "text": "operator fun plus(other: Byte): Double",
+      "desc": "Adds the other value to this value."
+    },
+    {
+      "text": "operator fun rem(other: Byte): Double",
+      "desc": "Calculates the remainder of truncating division of this value by the other value."
+    },
+    {
+      "text": "operator fun times(other: Byte): Double",
+      "desc": "Multiplies this value by the other value."
+    },
+    {
+      "text": "fun toByte(): Byte",
+      "desc": "Converts this Double value to Byte."
+    },
+    {
+      "text": "fun toChar(): Char",
+      "desc": "Converts this Double value to Char."
+    },
+    {
+      "text": "fun toDouble(): Double",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "fun toFloat(): Float",
+      "desc": "Converts this Double value to Float."
+    },
+    {
+      "text": "fun toInt(): Int",
+      "desc": "Converts this Double value to Int."
+    },
+    {
+      "text": "fun toLong(): Long",
+      "desc": "Converts this Double value to Long."
+    },
+    {
+      "text": "fun toShort(): Short",
+      "desc": "Converts this Double value to Short."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "operator fun unaryMinus(): Double",
+      "desc": "Returns the negative of this value."
+    },
+    {
+      "text": "operator fun unaryPlus(): Double",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "const val MAX_VALUE: Double",
+      "desc": "A constant holding the largest positive finite value of Double."
+    },
+    {
+      "text": "const val MIN_VALUE: Double",
+      "desc": "A constant holding the smallest positive nonzero value of Double."
+    },
+    {
+      "text": "const val NaN: Double",
+      "desc": "A constant holding the \"not a number\" value of Double."
+    },
+    {
+      "text": "const val NEGATIVE_INFINITY: Double",
+      "desc": "A constant holding the negative infinity value of Double."
+    },
+    {
+      "text": "const val POSITIVE_INFINITY: Double",
+      "desc": "A constant holding the positive infinity value of Double."
+    },
+    {
+      "text": "const val SIZE_BITS: Int",
+      "desc": "The number of bits used to represent an instance of Double in a binary form."
+    },
+    {
+      "text": "const val SIZE_BYTES: Int",
+      "desc": "The number of bytes used to represent an instance of Double in a binary form."
+    },
+    {
+      "text": "val Double.days: Duration",
+      "desc": "Returns a Duration equal to this Double number of days."
+    },
+    {
+      "text": "val Double.hours: Duration",
+      "desc": "Returns a Duration equal to this Double number of hours."
+    },
+    {
+      "text": "val Double.microseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of microseconds."
+    },
+    {
+      "text": "val Double.milliseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of milliseconds."
+    },
+    {
+      "text": "val Double.minutes: Duration",
+      "desc": "Returns a Duration equal to this Double number of minutes."
+    },
+    {
+      "text": "val Double.nanoseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of nanoseconds."
+    },
+    {
+      "text": "val Double.seconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of seconds."
+    },
+    {
+      "text": "fun Double.coerceAtLeast(minimumValue: Double): Double",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun Double.coerceAtMost(maximumValue: Double): Double",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun Double.coerceIn( minimumValue: Double, maximumValue: Double): Double",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun Double.mod(other: Float): Double",
+      "desc": "Calculates the remainder of flooring division of this value by the other value."
+    },
+    {
+      "text": "fun <R : Number> Number.narrow(): R"
+    },
+    {
+      "text": "operator fun Double.rangeTo( that: Double): ClosedFloatingPointRange<Double>",
+      "desc": "Creates a range from this Double value to the specified that value."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun <R : Number> Number.signExtend(): R"
+    },
+    {
+      "text": "operator fun Double.times(duration: Duration): Duration",
+      "desc": "Returns a duration whose value is the specified duration value multiplied by this number."
+    },
+    {
+      "text": "fun Double.toBigDecimal(): BigDecimal",
+      "desc": "Returns the value of this Double number as a BigDecimal."
+    },
+    {
+      "text": "fun Double.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Double number of the specified unit."
+    },
+    {
+      "text": "fun Double.toUInt(): UInt",
+      "desc": "Converts this Double value to UInt."
+    },
+    {
+      "text": "fun Double.toULong(): ULong",
+      "desc": "Converts this Double value to ULong."
+    }
+  ]
+}

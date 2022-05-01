@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "Experimental",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class Experimental",
+  "items": [
+    {
+      "text": "enum class Level",
+      "desc": "Severity of the diagnostic that should be reported on usages of experimental API which did not explicitly accept the experimental aspect of that API either by using UseExperimental or by being annotated with the corresponding marker annotation."
+    },
+    {
+      "text": "Experimental(level: Level = Level.ERROR)",
+      "desc": "Signals that the annotated annotation class is a marker of an experimental API."
+    },
+    {
+      "text": "val level: Level"
+    }
+  ]
+}

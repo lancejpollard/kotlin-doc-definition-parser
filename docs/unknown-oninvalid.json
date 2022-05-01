@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oninvalid",
+  "signature": "open var oninvalid: ((Event) -> dynamic)?",
+  "items": []
+}

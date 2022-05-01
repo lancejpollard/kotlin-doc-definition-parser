@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "decodeToString",
+  "signatures": [
+    {
+      "text": "fun ByteArray.decodeToString(): String",
+      "desc": "Decodes a string from the bytes in UTF-8 encoding in this array."
+    },
+    {
+      "text": "fun ByteArray.decodeToString( startIndex: Int = 0, endIndex: Int = this.size, throwOnInvalidSequence: Boolean = false): String",
+      "desc": "Decodes a string from the bytes in UTF-8 encoding in this array or its subrange."
+    }
+  ],
+  "items": []
+}

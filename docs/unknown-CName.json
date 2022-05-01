@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "CName",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class CName",
+  "items": [
+    {
+      "text": "<init>(externName: String = \"\", shortName: String = \"\")",
+      "desc": "Makes top level function available from C/C++ code with the given name."
+    },
+    {
+      "text": "val externName: String"
+    },
+    {
+      "text": "val shortName: String"
+    }
+  ]
+}

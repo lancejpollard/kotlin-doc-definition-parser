@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toLongArray",
+  "signatures": [
+    {
+      "text": "fun Array<out Long>.toLongArray(): LongArray",
+      "desc": "Returns an array of Long containing all of the elements of this generic array."
+    },
+    {
+      "text": "fun Collection<Long>.toLongArray(): LongArray",
+      "desc": "Returns an array of Long containing all of the elements of this collection."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun ULongArray.toLongArray(): LongArray",
+      "desc": "Returns an array of type LongArray, which is a copy of this array where each element is a signed reinterpretation of the corresponding element of this array."
+    }
+  ],
+  "items": []
+}

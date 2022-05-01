@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "document",
+  "signature": "open val document: Document",
+  "items": []
+}

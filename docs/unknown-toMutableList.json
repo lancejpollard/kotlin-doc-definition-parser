@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toMutableList",
+  "signature": "fun CharSequence.toMutableList(): MutableList<Char>",
+  "items": []
+}

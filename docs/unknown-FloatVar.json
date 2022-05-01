@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FloatVar",
+  "signature": "typealias FloatVar = FloatVarOf<Float>",
+  "items": []
+}

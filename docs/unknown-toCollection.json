@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toCollection",
+  "signature": "fun <C : MutableCollection<in Char>> CharSequence.toCollection( destination: C): C",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "declaredMemberExtensionFunctions",
+  "signature": "val KClass<*>.declaredMemberExtensionFunctions: Collection<KFunction<*>>",
+  "items": []
+}

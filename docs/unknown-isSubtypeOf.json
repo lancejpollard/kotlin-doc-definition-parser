@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSubtypeOf",
+  "signature": "fun KType.isSubtypeOf(other: KType): Boolean",
+  "items": []
+}

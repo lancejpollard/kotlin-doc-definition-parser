@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "WebGLShaderPrecisionFormat",
+  "signature": "abstract class WebGLShaderPrecisionFormat",
+  "items": [
+    {
+      "text": "WebGLShaderPrecisionFormat()",
+      "desc": "Exposes the JavaScript WebGLShaderPrecisionFormat to Kotlin"
+    },
+    {
+      "text": "open val precision: Int"
+    },
+    {
+      "text": "open val rangeMax: Int"
+    },
+    {
+      "text": "open val rangeMin: Int"
+    }
+  ]
+}

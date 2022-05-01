@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "MutableListIterator",
+  "signature": "interface MutableListIterator<T> : ListIterator<T>, MutableIterator<T>",
+  "items": [
+    {
+      "text": "abstract fun add(element: T)",
+      "desc": "Adds the specified element element into the underlying collection immediately before the element that would be returned by next, if any, and after the element that would be returned by previous, if any. (If the collection contains no elements, the new element becomes the sole element in the collection.) The new element is inserted before the implicit cursor: a subsequent call to next would be unaffected, and a subsequent call to previous would return the new element. (This call increases by one the value that would be returned by a call to nextIndex or previousIndex.)"
+    },
+    {
+      "text": "abstract fun hasNext(): Boolean",
+      "desc": "Returns true if the iteration has more elements."
+    },
+    {
+      "text": "abstract fun next(): T",
+      "desc": "Returns the next element in the iteration."
+    },
+    {
+      "text": "abstract fun remove()",
+      "desc": "Removes from the underlying collection the last element returned by this iterator."
+    },
+    {
+      "text": "abstract fun set(element: T)",
+      "desc": "Replaces the last element returned by next or previous with the specified element element."
+    },
+    {
+      "text": "fun <T> Iterator<T>.asSequence(): Sequence<T>",
+      "desc": "Creates a sequence that returns all elements from this iterator. The sequence is constrained to be iterated only once."
+    },
+    {
+      "text": "fun <T> Iterator<T>.forEach(operation: (T) -> Unit)",
+      "desc": "Performs the given operation on each element of this Iterator."
+    },
+    {
+      "text": "operator fun <T> Iterator<T>.iterator(): Iterator<T>",
+      "desc": "Returns the given iterator itself. This allows to use an instance of iterator in a for loop."
+    },
+    {
+      "text": "fun <T> Iterator<T>.withIndex(): Iterator<IndexedValue<T>>",
+      "desc": "Returns an Iterator that wraps each element produced by the original iterator into an IndexedValue containing the index of that element and the element itself."
+    }
+  ]
+}

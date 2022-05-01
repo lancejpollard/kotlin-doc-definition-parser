@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "StableObjPtr",
+  "signature": "typealias StableObjPtr = StableRef<*>",
+  "items": []
+}

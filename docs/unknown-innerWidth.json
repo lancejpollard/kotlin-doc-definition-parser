@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "innerWidth",
+  "signature": "open val innerWidth: Int",
+  "items": []
+}

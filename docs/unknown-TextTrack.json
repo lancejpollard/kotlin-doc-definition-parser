@@ -1,0 +1,47 @@
+{
+  "type": "unknown",
+  "name": "TextTrack",
+  "signature": "abstract class TextTrack : EventTarget, UnionAudioTrackOrTextTrackOrVideoTrack",
+  "items": [
+    {
+      "text": "TextTrack()",
+      "desc": "Exposes the JavaScript TextTrack to Kotlin"
+    },
+    {
+      "text": "open val activeCues: TextTrackCueList?"
+    },
+    {
+      "text": "open val cues: TextTrackCueList?"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "open val inBandMetadataTrackDispatchType: String"
+    },
+    {
+      "text": "open val kind: TextTrackKind"
+    },
+    {
+      "text": "open val label: String"
+    },
+    {
+      "text": "open val language: String"
+    },
+    {
+      "text": "open var mode: TextTrackMode"
+    },
+    {
+      "text": "open var oncuechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val sourceBuffer: SourceBuffer?"
+    },
+    {
+      "text": "fun addCue(cue: TextTrackCue)"
+    },
+    {
+      "text": "fun removeCue(cue: TextTrackCue)"
+    }
+  ]
+}

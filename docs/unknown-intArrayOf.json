@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "intArrayOf",
+  "signature": "fun intArrayOf(vararg elements: Int): IntArray",
+  "items": []
+}

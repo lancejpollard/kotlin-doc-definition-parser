@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ShadowRootMode",
+  "signature": "interface ShadowRootMode",
+  "items": [
+    {
+      "text": "val ShadowRootMode.Companion.CLOSED: ShadowRootMode"
+    },
+    {
+      "text": "val ShadowRootMode.Companion.OPEN: ShadowRootMode"
+    }
+  ]
+}

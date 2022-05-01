@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CSS",
+  "signature": "abstract class CSS",
+  "items": [
+    {
+      "text": "CSS()",
+      "desc": "Exposes the JavaScript CSS to Kotlin"
+    },
+    {
+      "text": "fun escape(ident: String): String"
+    }
+  ]
+}

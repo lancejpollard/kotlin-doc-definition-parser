@@ -1,0 +1,95 @@
+{
+  "type": "unknown",
+  "name": "Comparable",
+  "signature": "interface Comparable<in T>",
+  "items": [
+    {
+      "text": "abstract operator fun compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "class Boolean : Comparable<Boolean>",
+      "desc": "Represents a value which is either true or false. On the JVM, non-nullable values of this type are represented as values of the primitive type boolean."
+    },
+    {
+      "text": "class Byte : Number, Comparable<Byte>",
+      "desc": "Represents a 8-bit signed integer. On the JVM, non-nullable values of this type are represented as values of the primitive type byte."
+    },
+    {
+      "text": "class Char : Comparable<Char>",
+      "desc": "Represents a 16-bit Unicode character."
+    },
+    {
+      "text": "class Double : Number, Comparable<Double>",
+      "desc": "Represents a double-precision 64-bit IEEE 754 floating point number. On the JVM, non-nullable values of this type are represented as values of the primitive type double."
+    },
+    {
+      "text": "class Duration : Comparable<Duration>",
+      "desc": "Represents the amount of time one instant of time is away from another instant."
+    },
+    {
+      "text": "abstract class Enum<E : Enum<E>> : Comparable<E>",
+      "desc": "The common base class of all enum classes. See the Kotlin language documentation for more information on enum classes."
+    },
+    {
+      "text": "class Float : Number, Comparable<Float>",
+      "desc": "Represents a single-precision 32-bit IEEE 754 floating point number. On the JVM, non-nullable values of this type are represented as values of the primitive type float."
+    },
+    {
+      "text": "class Int : Number, Comparable<Int>",
+      "desc": "Represents a 32-bit signed integer. On the JVM, non-nullable values of this type are represented as values of the primitive type int."
+    },
+    {
+      "text": "class KotlinVersion : Comparable<KotlinVersion>",
+      "desc": "Represents a version of the Kotlin standard library."
+    },
+    {
+      "text": "class Long : Number, Comparable<Long>",
+      "desc": "Represents a 64-bit signed integer. On the JVM, non-nullable values of this type are represented as values of the primitive type long."
+    },
+    {
+      "text": "class Short : Number, Comparable<Short>",
+      "desc": "Represents a 16-bit signed integer. On the JVM, non-nullable values of this type are represented as values of the primitive type short."
+    },
+    {
+      "text": "class String : Comparable<String>, CharSequence",
+      "desc": "The String class represents character strings. All string literals in Kotlin programs, such as \"abc\", are implemented as instances of this class."
+    },
+    {
+      "text": "class UByte : Comparable<UByte>"
+    },
+    {
+      "text": "class UInt : Comparable<UInt>"
+    },
+    {
+      "text": "class ULong : Comparable<ULong>"
+    },
+    {
+      "text": "class UShort : Comparable<UShort>"
+    }
+  ]
+}

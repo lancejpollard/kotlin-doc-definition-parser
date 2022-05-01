@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "ScrollBehavior",
+  "signature": "interface ScrollBehavior",
+  "items": [
+    {
+      "text": "val ScrollBehavior.Companion.AUTO: ScrollBehavior"
+    },
+    {
+      "text": "val ScrollBehavior.Companion.INSTANT: ScrollBehavior"
+    },
+    {
+      "text": "val ScrollBehavior.Companion.SMOOTH: ScrollBehavior"
+    }
+  ]
+}

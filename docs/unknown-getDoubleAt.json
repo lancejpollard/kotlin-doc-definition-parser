@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getDoubleAt",
+  "signature": "fun ByteArray.getDoubleAt(index: Int): Double",
+  "items": []
+}

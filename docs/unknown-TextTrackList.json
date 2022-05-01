@@ -1,0 +1,28 @@
+{
+  "type": "unknown",
+  "name": "TextTrackList",
+  "signature": "abstract class TextTrackList : EventTarget",
+  "items": [
+    {
+      "text": "TextTrackList()"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open var onaddtrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onremovetrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun getTrackById(id: String): TextTrack?"
+    },
+    {
+      "text": "operator fun TextTrackList.get(index: Int): TextTrack?"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "Path2D",
+  "signature": "open class Path2D : CanvasPath",
+  "items": [
+    {
+      "text": "Path2D(path: Path2D)"
+    },
+    {
+      "text": "Path2D()",
+      "desc": "Exposes the JavaScript Path2D to Kotlin"
+    },
+    {
+      "text": "fun addPath( path: Path2D, transform: dynamic = definedExternally)"
+    },
+    {
+      "text": "open fun arc( x: Double, y: Double, radius: Double, startAngle: Double, endAngle: Double, anticlockwise: Boolean)"
+    },
+    {
+      "text": "open fun arcTo( x1: Double, y1: Double, x2: Double, y2: Double, radius: Double)"
+    },
+    {
+      "text": "open fun bezierCurveTo( cp1x: Double, cp1y: Double, cp2x: Double, cp2y: Double, x: Double, y: Double)"
+    },
+    {
+      "text": "open fun closePath()"
+    },
+    {
+      "text": "open fun ellipse( x: Double, y: Double, radiusX: Double, radiusY: Double, rotation: Double, startAngle: Double, endAngle: Double, anticlockwise: Boolean)"
+    },
+    {
+      "text": "open fun lineTo(x: Double, y: Double)"
+    },
+    {
+      "text": "open fun moveTo(x: Double, y: Double)"
+    },
+    {
+      "text": "open fun quadraticCurveTo( cpx: Double, cpy: Double, x: Double, y: Double)"
+    },
+    {
+      "text": "open fun rect(x: Double, y: Double, w: Double, h: Double)"
+    }
+  ]
+}

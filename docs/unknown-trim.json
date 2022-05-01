@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "trim",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.trim( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing characters matching the predicate removed."
+    },
+    {
+      "text": "inline fun String.trim(predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string having leading and trailing characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trim(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun String.trim(vararg chars: Char): String",
+      "desc": "Returns a string having leading and trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trim(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing whitespace removed."
+    },
+    {
+      "text": "fun String.trim(): String",
+      "desc": "Returns a string having leading and trailing whitespace removed."
+    }
+  ],
+  "items": []
+}

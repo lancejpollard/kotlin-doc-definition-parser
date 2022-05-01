@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FetchEventInit",
+  "signature": "fun FetchEventInit( request: Request?, clientId: String? = null, isReload: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): FetchEventInit",
+  "items": []
+}

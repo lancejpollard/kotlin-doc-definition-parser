@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "opener",
+  "signature": "open var opener: Any?",
+  "items": []
+}

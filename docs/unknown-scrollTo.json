@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scrollTo",
+  "signature": "fun scrollTo(options: ScrollToOptions = definedExternally)",
+  "items": []
+}

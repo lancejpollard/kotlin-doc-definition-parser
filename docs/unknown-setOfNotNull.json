@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "setOfNotNull",
+  "signatures": [
+    {
+      "text": "fun <T : Any> setOfNotNull(element: T?): Set<T>",
+      "desc": "Returns a new read-only set either with single given element, if it is not null, or empty set if the element is null. The returned set is serializable (JVM)."
+    },
+    {
+      "text": "fun <T : Any> setOfNotNull(vararg elements: T?): Set<T>",
+      "desc": "Returns a new read-only set only with those given elements, that are not null. Elements of the set are iterated in the order they were specified. The returned set is serializable (JVM)."
+    }
+  ],
+  "items": []
+}

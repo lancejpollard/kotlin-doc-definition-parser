@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setLength",
+  "signature": "@DeprecatedSinceKotlin(\"1.3\", \"1.6\") fun StringBuilder.setLength( l: Int)",
+  "items": []
+}

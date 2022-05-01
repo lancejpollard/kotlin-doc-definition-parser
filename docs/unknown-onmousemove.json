@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onmousemove",
+  "signature": "open var onmousemove: ((MouseEvent) -> dynamic)?",
+  "items": []
+}

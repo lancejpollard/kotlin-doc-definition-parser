@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "copyInto",
+  "signatures": [
+    {
+      "text": "fun <T> Array<out T>.copyInto( destination: Array<T>, destinationOffset: Int = 0, startIndex: Int = 0, endIndex: Int = size): Array<T>",
+      "desc": "Copies this array or its subrange into the destination array and returns that array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.copyInto( destination: UIntArray, destinationOffset: Int = 0, startIndex: Int = 0, endIndex: Int = size): UIntArray",
+      "desc": "Copies this array or its subrange into the destination array and returns that array."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapValuesTo",
+  "signature": "inline fun <K, V, R, M : MutableMap<in K, in R>> Map<out K, V>.mapValuesTo( destination: M, transform: (Entry<K, V>) -> R): M",
+  "items": []
+}

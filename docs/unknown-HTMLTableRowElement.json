@@ -1,0 +1,95 @@
+{
+  "type": "unknown",
+  "name": "HTMLTableRowElement",
+  "signature": "abstract class HTMLTableRowElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLTableRowElement()",
+      "desc": "Exposes the JavaScript HTMLTableRowElement to Kotlin"
+    },
+    {
+      "text": "open var align: String"
+    },
+    {
+      "text": "open var bgColor: String"
+    },
+    {
+      "text": "open val cells: HTMLCollection"
+    },
+    {
+      "text": "open var ch: String"
+    },
+    {
+      "text": "open var chOff: String"
+    },
+    {
+      "text": "open val rowIndex: Int"
+    },
+    {
+      "text": "open val sectionRowIndex: Int"
+    },
+    {
+      "text": "open var vAlign: String"
+    },
+    {
+      "text": "fun deleteCell(index: Int)"
+    },
+    {
+      "text": "fun insertCell(index: Int = definedExternally): HTMLElement"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

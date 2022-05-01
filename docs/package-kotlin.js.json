@@ -1,0 +1,154 @@
+{
+  "type": "package",
+  "name": "kotlin.js",
+  "items": [
+    {
+      "text": "interface Console",
+      "desc": "Exposes the console API to Kotlin."
+    },
+    {
+      "text": "class Date",
+      "desc": "Exposes the Date API to Kotlin."
+    },
+    {
+      "text": "interface JsClass<T : Any>",
+      "desc": "Represents the constructor of a class. Instances of JsClass can be passed to JavaScript APIs that expect a constructor reference."
+    },
+    {
+      "text": "interface Json",
+      "desc": "An interface for indexing access to a collection of key-value pairs, where type of key is String and type of value is Any?."
+    },
+    {
+      "text": "object JSON",
+      "desc": "Exposes the JavaScript JSON object to Kotlin."
+    },
+    {
+      "text": "open class Promise<out T>",
+      "desc": "Exposes the JavaScript Promise object to Kotlin."
+    },
+    {
+      "text": "class RegExp",
+      "desc": "Exposes the JavaScript RegExp object to Kotlin."
+    },
+    {
+      "text": "interface RegExpMatch",
+      "desc": "Represents the return value of RegExp.exec."
+    },
+    {
+      "text": "annotation class ExperimentalJsExport",
+      "desc": "Marks experimental JS export annotations."
+    },
+    {
+      "text": "annotation class JsExport",
+      "desc": "Exports top-level declaration on JS platform."
+    },
+    {
+      "text": "annotation class JsModule",
+      "desc": "Denotes an external declaration that must be imported from native JavaScript library."
+    },
+    {
+      "text": "annotation class JsName",
+      "desc": "Gives a declaration (a function, a property or a class) specific name in JavaScript."
+    },
+    {
+      "text": "annotation class JsNonModule",
+      "desc": "Denotes an external declaration that can be used without module system."
+    },
+    {
+      "text": "annotation class JsQualifier",
+      "desc": "Adds prefix to external declarations in a source file."
+    },
+    {
+      "text": "annotation class nativeGetter"
+    },
+    {
+      "text": "annotation class nativeInvoke"
+    },
+    {
+      "text": "annotation class nativeSetter"
+    },
+    {
+      "text": "val console: Console",
+      "desc": "Exposes the console API to Kotlin."
+    },
+    {
+      "text": "val definedExternally: Nothing",
+      "desc": "The property that can be used as a placeholder for statements and values that are defined in JavaScript."
+    },
+    {
+      "text": "val <T : Any> KClass<T>.js: JsClass<T>",
+      "desc": "Obtains a constructor reference for the given KClass."
+    },
+    {
+      "text": "val <T : Any> JsClass<T>.kotlin: KClass<T>",
+      "desc": "Obtains a KClass instance for the given constructor reference."
+    },
+    {
+      "text": "val noImpl: Nothing"
+    },
+    {
+      "text": "val undefined: Nothing?",
+      "desc": "Exposes the JavaScript undefined property to Kotlin."
+    },
+    {
+      "text": "fun Json.add(other: Json): Json",
+      "desc": "Adds key-value pairs from other to this. Returns the original receiver."
+    },
+    {
+      "text": "fun RegExpMatch.asArray(): Array<out String?>",
+      "desc": "Converts the result of RegExp.exec to an array where the first element contains the entire matched text and each subsequent element is the text matched by each capturing parenthesis."
+    },
+    {
+      "text": "fun Any?.asDynamic(): dynamic",
+      "desc": "Reinterprets this value as a value of the dynamic type."
+    },
+    {
+      "text": "fun dateLocaleOptions( init: LocaleOptions.() -> Unit): LocaleOptions"
+    },
+    {
+      "text": "fun eval(expr: String): dynamic",
+      "desc": "Exposes the JavaScript eval function to Kotlin."
+    },
+    {
+      "text": "operator fun RegExpMatch.get(index: Int): String?",
+      "desc": "Returns the entire text matched by RegExp.exec if the index parameter is 0, or the text matched by the capturing parenthesis at the given index."
+    },
+    {
+      "text": "operator fun dynamic.iterator(): Iterator<dynamic>",
+      "desc": "Allows to iterate this dynamic object in the following cases:"
+    },
+    {
+      "text": "fun js(code: String): dynamic",
+      "desc": "Puts the given piece of a JavaScript code right into the calling function. The compiler replaces call to js(...) code with the string constant provided as a parameter."
+    },
+    {
+      "text": "fun json(vararg pairs: Pair<String, Any?>): Json",
+      "desc": "Returns a simple JavaScript object (as Json) using provided key-value pairs as names and values of its properties."
+    },
+    {
+      "text": "fun jsTypeOf(a: Any?): String",
+      "desc": "Function corresponding to JavaScript's typeof operator"
+    },
+    {
+      "text": "fun parseFloat( s: String, radix: Int = definedExternally): Double"
+    },
+    {
+      "text": "fun parseInt(s: String): Int"
+    },
+    {
+      "text": "fun RegExp.reset()",
+      "desc": "Resets the regular expression so that subsequent RegExp.test and RegExp.exec calls will match starting with the beginning of the input string."
+    },
+    {
+      "text": "fun <T, S> Promise<Promise<T>>.then( onFulfilled: ((T) -> S)?): Promise<S>"
+    },
+    {
+      "text": "fun <T> Any?.unsafeCast(): T",
+      "desc": "Reinterprets this value as a value of the specified type T without any actual type checking."
+    },
+    {
+      "text": "fun <T> dynamic.unsafeCast(): T",
+      "desc": "Reinterprets this dynamic value as a value of the specified type T without any actual type checking."
+    }
+  ]
+}

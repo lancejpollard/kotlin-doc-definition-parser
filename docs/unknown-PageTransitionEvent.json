@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "PageTransitionEvent",
+  "signature": "open class PageTransitionEvent : Event",
+  "items": [
+    {
+      "text": "PageTransitionEvent( type: String, eventInitDict: PageTransitionEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript PageTransitionEvent to Kotlin"
+    },
+    {
+      "text": "open val persisted: Boolean"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

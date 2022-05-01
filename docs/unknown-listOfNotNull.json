@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "listOfNotNull",
+  "signatures": [
+    {
+      "text": "fun <T : Any> listOfNotNull(element: T?): List<T>",
+      "desc": "Returns a new read-only list either of single given element, if it is not null, or empty list if the element is null. The returned list is serializable (JVM)."
+    },
+    {
+      "text": "fun <T : Any> listOfNotNull(vararg elements: T?): List<T>",
+      "desc": "Returns a new read-only list only of those given elements, that are not null. The returned list is serializable (JVM)."
+    }
+  ],
+  "items": []
+}

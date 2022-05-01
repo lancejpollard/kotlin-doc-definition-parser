@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "FileReaderSync",
+  "signature": "open class FileReaderSync",
+  "items": [
+    {
+      "text": "FileReaderSync()",
+      "desc": "Exposes the JavaScript FileReaderSync to Kotlin"
+    },
+    {
+      "text": "fun readAsArrayBuffer(blob: Blob): ArrayBuffer"
+    },
+    {
+      "text": "fun readAsBinaryString(blob: Blob): String"
+    },
+    {
+      "text": "fun readAsDataURL(blob: Blob): String"
+    },
+    {
+      "text": "fun readAsText( blob: Blob, label: String = definedExternally): String"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "digitToIntOrNull",
+  "signatures": [
+    {
+      "text": "fun Char.digitToIntOrNull(): Int?",
+      "desc": "Returns the numeric value of the decimal digit that this Char represents, or null if this Char is not a valid decimal digit."
+    },
+    {
+      "text": "fun Char.digitToIntOrNull(radix: Int): Int?",
+      "desc": "Returns the numeric value of the digit that this Char represents in the specified radix, or null if this Char is not a valid digit in the specified radix. Throws an exception if the radix is not in the range 2..36."
+    }
+  ],
+  "items": []
+}

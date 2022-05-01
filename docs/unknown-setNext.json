@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setNext",
+  "signature": "protected fun setNext(value: T)",
+  "items": []
+}

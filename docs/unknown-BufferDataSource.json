@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "BufferDataSource",
+  "signature": "interface BufferDataSource",
+  "items": [
+    {
+      "text": "open class ArrayBuffer : BufferDataSource",
+      "desc": "Exposes the JavaScript ArrayBuffer to Kotlin"
+    },
+    {
+      "text": "interface ArrayBufferView : BufferDataSource",
+      "desc": "Exposes the JavaScript ArrayBufferView to Kotlin"
+    }
+  ]
+}

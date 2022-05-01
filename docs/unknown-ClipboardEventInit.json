@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ClipboardEventInit",
+  "signature": "fun ClipboardEventInit( clipboardData: DataTransfer? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ClipboardEventInit",
+  "items": []
+}

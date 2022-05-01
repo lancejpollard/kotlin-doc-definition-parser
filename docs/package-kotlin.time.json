@@ -1,0 +1,168 @@
+{
+  "type": "package",
+  "name": "kotlin.time",
+  "items": [
+    {
+      "text": "abstract class AbstractDoubleTimeSource : TimeSource",
+      "desc": "An abstract class used to implement time sources that return their readings as Double values in the specified unit."
+    },
+    {
+      "text": "abstract class AbstractLongTimeSource : TimeSource",
+      "desc": "An abstract class used to implement time sources that return their readings as Long values in the specified unit."
+    },
+    {
+      "text": "class Duration : Comparable<Duration>",
+      "desc": "Represents the amount of time one instant of time is away from another instant."
+    },
+    {
+      "text": "enum class DurationUnit",
+      "desc": "The list of possible time measurement units, in which a duration can be expressed."
+    },
+    {
+      "text": "class TestTimeSource : AbstractLongTimeSource",
+      "desc": "A time source that has programmatically updatable readings. It is useful as a predictable source of time in tests."
+    },
+    {
+      "text": "data class TimedValue<T>",
+      "desc": "Data class representing a result of executing an action, along with the duration of elapsed time interval."
+    },
+    {
+      "text": "abstract class TimeMark",
+      "desc": "Represents a time point notched on a particular TimeSource. Remains bound to the time source it was taken from and allows querying for the duration of time elapsed from that point (see the function elapsedNow)."
+    },
+    {
+      "text": "interface TimeSource",
+      "desc": "A source of time for measuring time intervals."
+    },
+    {
+      "text": "annotation class ExperimentalTime",
+      "desc": "This annotation marks the experimental preview of the standard library API for measuring time and working with durations."
+    },
+    {
+      "text": "val Int.days: Duration",
+      "desc": "Returns a Duration equal to this Int number of days."
+    },
+    {
+      "text": "val Long.days: Duration",
+      "desc": "Returns a Duration equal to this Long number of days."
+    },
+    {
+      "text": "val Double.days: Duration",
+      "desc": "Returns a Duration equal to this Double number of days."
+    },
+    {
+      "text": "val Int.hours: Duration",
+      "desc": "Returns a Duration equal to this Int number of hours."
+    },
+    {
+      "text": "val Long.hours: Duration",
+      "desc": "Returns a Duration equal to this Long number of hours."
+    },
+    {
+      "text": "val Double.hours: Duration",
+      "desc": "Returns a Duration equal to this Double number of hours."
+    },
+    {
+      "text": "val Int.microseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of microseconds."
+    },
+    {
+      "text": "val Long.microseconds: Duration",
+      "desc": "Returns a Duration equal to this Long number of microseconds."
+    },
+    {
+      "text": "val Double.microseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of microseconds."
+    },
+    {
+      "text": "val Int.milliseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of milliseconds."
+    },
+    {
+      "text": "val Long.milliseconds: Duration",
+      "desc": "Returns a Duration equal to this Long number of milliseconds."
+    },
+    {
+      "text": "val Double.milliseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of milliseconds."
+    },
+    {
+      "text": "val Int.minutes: Duration",
+      "desc": "Returns a Duration equal to this Int number of minutes."
+    },
+    {
+      "text": "val Long.minutes: Duration",
+      "desc": "Returns a Duration equal to this Long number of minutes."
+    },
+    {
+      "text": "val Double.minutes: Duration",
+      "desc": "Returns a Duration equal to this Double number of minutes."
+    },
+    {
+      "text": "val Int.nanoseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of nanoseconds."
+    },
+    {
+      "text": "val Long.nanoseconds: Duration",
+      "desc": "Returns a Duration equal to this Long number of nanoseconds."
+    },
+    {
+      "text": "val Double.nanoseconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of nanoseconds."
+    },
+    {
+      "text": "val Int.seconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of seconds."
+    },
+    {
+      "text": "val Long.seconds: Duration",
+      "desc": "Returns a Duration equal to this Long number of seconds."
+    },
+    {
+      "text": "val Double.seconds: Duration",
+      "desc": "Returns a Duration equal to this Double number of seconds."
+    },
+    {
+      "text": "operator fun TimeMark.compareTo(other: TimeMark): Int"
+    },
+    {
+      "text": "fun measureTime(block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    },
+    {
+      "text": "fun <T> measureTimedValue(block: () -> T): TimedValue<T>",
+      "desc": "Executes the given function block and returns an instance of TimedValue class, containing both the result of the function execution and the duration of elapsed time interval."
+    },
+    {
+      "text": "fun <T> TimeSource.measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given block and returns an instance of TimedValue class, containing both the result of function execution and the duration of elapsed time interval."
+    },
+    {
+      "text": "operator fun TimeMark.minus(other: TimeMark): Duration"
+    },
+    {
+      "text": "operator fun Int.times(duration: Duration): Duration",
+      "desc": "Returns a duration whose value is the specified duration value multiplied by this number."
+    },
+    {
+      "text": "fun Int.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Int number of the specified unit."
+    },
+    {
+      "text": "fun Long.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Long number of the specified unit."
+    },
+    {
+      "text": "fun Double.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Double number of the specified unit."
+    },
+    {
+      "text": "fun Duration.toJavaDuration(): Duration",
+      "desc": "Converts kotlin.time.Duration value to java.time.Duration value."
+    },
+    {
+      "text": "fun DurationUnit.toTimeUnit(): TimeUnit",
+      "desc": "Converts this kotlin.time.DurationUnit enum value to the corresponding java.util.concurrent.TimeUnit value."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "SourceBufferList",
+  "signature": "abstract class SourceBufferList : EventTarget",
+  "items": [
+    {
+      "text": "SourceBufferList()",
+      "desc": "Exposes the JavaScript SourceBufferList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open var onaddsourcebuffer: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onremovesourcebuffer: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "operator fun SourceBufferList.get(index: Int): SourceBuffer?"
+    }
+  ]
+}

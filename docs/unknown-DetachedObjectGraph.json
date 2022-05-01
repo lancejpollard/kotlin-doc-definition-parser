@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "DetachedObjectGraph",
+  "signature": "class DetachedObjectGraph<T>",
+  "items": [
+    {
+      "text": "DetachedObjectGraph( mode: TransferMode = TransferMode.SAFE, producer: () -> T)",
+      "desc": "Creates stable pointer to object, ensuring associated object subgraph is disjoint in specified mode (TransferMode.SAFE by default). Raw value returned by asCPointer could be stored to a C variable or passed to another Kotlin machine."
+    },
+    {
+      "text": "DetachedObjectGraph(pointer: COpaquePointer?)",
+      "desc": "Restores detached object graph from the value stored earlier in a C raw pointer."
+    },
+    {
+      "text": "fun asCPointer(): COpaquePointer?",
+      "desc": "Returns raw C pointer value, usable for interoperability with C scenarious."
+    },
+    {
+      "text": "fun <T> DetachedObjectGraph<T>.attach(): T",
+      "desc": "Attaches previously detached object subgraph created by DetachedObjectGraph. Please note, that once object graph is attached, the DetachedObjectGraph.stable pointer does not make sense anymore, and shall be discarded, so attach of one DetachedObjectGraph object can only happen once."
+    }
+  ]
+}

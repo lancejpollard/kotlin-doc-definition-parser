@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "FileList",
+  "signature": "abstract class FileList : ItemArrayLike<File>",
+  "items": [
+    {
+      "text": "FileList()",
+      "desc": "Exposes the JavaScript FileList to Kotlin"
+    },
+    {
+      "text": "open fun item(index: Int): File?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun FileList.get(index: Int): File?"
+    }
+  ]
+}

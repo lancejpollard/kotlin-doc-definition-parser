@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exp",
+  "signature": "fun exp(x: Double): Double",
+  "items": []
+}

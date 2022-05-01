@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SequenceBuilder",
+  "signature": "typealias SequenceBuilder<T> = SequenceScope<T>",
+  "items": []
+}

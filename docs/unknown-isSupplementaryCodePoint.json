@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSupplementaryCodePoint",
+  "signature": "fun Char.Companion.isSupplementaryCodePoint( codepoint: Int): Boolean",
+  "items": []
+}

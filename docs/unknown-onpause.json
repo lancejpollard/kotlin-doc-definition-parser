@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpause",
+  "signature": "open var onpause: ((Event) -> dynamic)?",
+  "items": []
+}

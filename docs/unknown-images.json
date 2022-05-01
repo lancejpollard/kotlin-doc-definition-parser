@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "images",
+  "signature": "open val images: HTMLCollection",
+  "items": []
+}

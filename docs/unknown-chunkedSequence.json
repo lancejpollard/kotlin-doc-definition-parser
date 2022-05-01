@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "chunkedSequence",
+  "signatures": [
+    {
+      "text": "fun CharSequence.chunkedSequence(size: Int): Sequence<String>",
+      "desc": "Splits this char sequence into a sequence of strings each not exceeding the given size."
+    },
+    {
+      "text": "fun <R> CharSequence.chunkedSequence( size: Int, transform: (CharSequence) -> R): Sequence<R>",
+      "desc": "Splits this char sequence into several char sequences each not exceeding the given size and applies the given transform function to an each."
+    }
+  ],
+  "items": []
+}

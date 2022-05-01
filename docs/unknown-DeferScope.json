@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "DeferScope",
+  "signature": "open class DeferScope",
+  "items": [
+    {
+      "text": "DeferScope()"
+    },
+    {
+      "text": "fun defer(block: () -> Unit)"
+    },
+    {
+      "text": "abstract class AutofreeScope : DeferScope, NativePlacement"
+    }
+  ]
+}

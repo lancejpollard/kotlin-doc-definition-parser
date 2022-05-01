@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CLASSIC",
+  "signature": "inline val WorkerType.Companion.CLASSIC: WorkerType",
+  "items": []
+}

@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "NamedNodeMap",
+  "signature": "abstract class NamedNodeMap : ItemArrayLike<Attr>",
+  "items": [
+    {
+      "text": "NamedNodeMap()",
+      "desc": "Exposes the JavaScript NamedNodeMap to Kotlin"
+    },
+    {
+      "text": "fun getNamedItem(qualifiedName: String): Attr?"
+    },
+    {
+      "text": "fun getNamedItemNS( namespace: String?, localName: String): Attr?"
+    },
+    {
+      "text": "open fun item(index: Int): Attr?"
+    },
+    {
+      "text": "fun removeNamedItem(qualifiedName: String): Attr"
+    },
+    {
+      "text": "fun removeNamedItemNS( namespace: String?, localName: String): Attr"
+    },
+    {
+      "text": "fun setNamedItem(attr: Attr): Attr?"
+    },
+    {
+      "text": "fun setNamedItemNS(attr: Attr): Attr?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun NamedNodeMap.get(index: Int): Attr?"
+    }
+  ]
+}

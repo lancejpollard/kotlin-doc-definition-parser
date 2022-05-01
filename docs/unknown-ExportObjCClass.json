@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "ExportObjCClass",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class ExportObjCClass",
+  "items": [
+    {
+      "text": "ExportObjCClass(name: String = \"\")",
+      "desc": "Makes Kotlin subclass of Objective-C class visible for runtime lookup after Kotlin main function gets invoked."
+    },
+    {
+      "text": "val name: String"
+    }
+  ]
+}

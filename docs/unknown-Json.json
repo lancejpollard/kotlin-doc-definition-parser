@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "JSON",
+  "signature": "inline val XMLHttpRequestResponseType.Companion.JSON: XMLHttpRequestResponseType",
+  "items": []
+}

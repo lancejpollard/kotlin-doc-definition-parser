@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interpretPointed",
+  "signature": "fun <reified T : NativePointed> interpretPointed( ptr: NativePtr): T",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "filterIndexed",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.filterIndexed( predicate: (index: Int, Char) -> Boolean): CharSequence",
+      "desc": "Returns a char sequence containing only those characters from the original char sequence that match the given predicate."
+    },
+    {
+      "text": "inline fun String.filterIndexed( predicate: (index: Int, Char) -> Boolean): String",
+      "desc": "Returns a string containing only those characters from the original string that match the given predicate."
+    }
+  ],
+  "items": []
+}

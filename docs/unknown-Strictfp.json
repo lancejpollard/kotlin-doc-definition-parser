@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "Strictfp",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.CLASS]) annotation class Strictfp",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Marks the JVM method generated from the annotated function as strictfp, meaning that the precision of floating point operations performed inside the method needs to be restricted in order to achieve better portability."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

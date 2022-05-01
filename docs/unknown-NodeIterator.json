@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "NodeIterator",
+  "signature": "abstract class NodeIterator",
+  "items": [
+    {
+      "text": "NodeIterator()",
+      "desc": "Exposes the JavaScript NodeIterator to Kotlin"
+    },
+    {
+      "text": "open val filter: NodeFilter?"
+    },
+    {
+      "text": "open val pointerBeforeReferenceNode: Boolean"
+    },
+    {
+      "text": "open val referenceNode: Node"
+    },
+    {
+      "text": "open val root: Node"
+    },
+    {
+      "text": "open val whatToShow: Int"
+    },
+    {
+      "text": "fun detach()"
+    },
+    {
+      "text": "fun nextNode(): Node?"
+    },
+    {
+      "text": "fun previousNode(): Node?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "SinceKotlin",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.PROPERTY, AnnotationTarget.FIELD, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.TYPEALIAS]) annotation class SinceKotlin",
+  "items": [
+    {
+      "text": "<init>(version: String)",
+      "desc": "Specifies the first version of Kotlin where a declaration has appeared. Using the declaration and specifying an older API version (via the -api-version command line option) will result in an error."
+    },
+    {
+      "text": "val version: String",
+      "desc": "the version in the following formats: <major>.<minor> or <major>.<minor>.<patch>, where major, minor and patch are non-negative integer numbers without leading zeros."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asUByteArray",
+  "signature": "@ExperimentalUnsignedTypes fun ByteArray.asUByteArray(): UByteArray",
+  "items": []
+}

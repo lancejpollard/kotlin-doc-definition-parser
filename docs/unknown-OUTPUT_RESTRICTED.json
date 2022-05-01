@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OUTPUT_RESTRICTED",
+  "signature": "inline val MediaKeyStatus.Companion.OUTPUT_RESTRICTED: MediaKeyStatus",
+  "items": []
+}

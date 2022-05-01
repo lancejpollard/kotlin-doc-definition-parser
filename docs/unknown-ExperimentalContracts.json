@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ExperimentalContracts",
+  "signature": "annotation class ExperimentalContracts",
+  "items": [
+    {
+      "text": "ExperimentalContracts()",
+      "desc": "This marker distinguishes the experimental contract declaration API and is used to opt-in for that feature when declaring contracts of user functions."
+    }
+  ]
+}

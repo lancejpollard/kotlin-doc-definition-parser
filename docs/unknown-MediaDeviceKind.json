@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "MediaDeviceKind",
+  "signature": "interface MediaDeviceKind",
+  "items": [
+    {
+      "text": "val MediaDeviceKind.Companion.AUDIOINPUT: MediaDeviceKind"
+    },
+    {
+      "text": "val MediaDeviceKind.Companion.AUDIOOUTPUT: MediaDeviceKind"
+    },
+    {
+      "text": "val MediaDeviceKind.Companion.VIDEOINPUT: MediaDeviceKind"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "run",
+  "signatures": [
+    {
+      "text": "inline fun <R> run(block: () -> R): R",
+      "desc": "Calls the specified function block and returns its result."
+    },
+    {
+      "text": "inline fun <T, R> T.run(block: T.() -> R): R",
+      "desc": "Calls the specified function block with this value as its receiver and returns its result."
+    }
+  ],
+  "items": []
+}

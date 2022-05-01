@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findLast",
+  "signature": "inline fun CharSequence.findLast( predicate: (Char) -> Boolean): Char?",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "RegistrationOptions",
+  "signature": "fun RegistrationOptions( scope: String? = undefined, type: WorkerType? = WorkerType.CLASSIC): RegistrationOptions",
+  "items": []
+}

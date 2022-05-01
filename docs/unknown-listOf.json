@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "listOf",
+  "signatures": [
+    {
+      "text": "fun <T> listOf(vararg elements: T): List<T>",
+      "desc": "Returns a new read-only list of given elements. The returned list is serializable (JVM)."
+    },
+    {
+      "text": "fun <T> listOf(): List<T>",
+      "desc": "Returns an empty read-only list. The returned list is serializable (JVM)."
+    },
+    {
+      "text": "fun <T> listOf(element: T): List<T>",
+      "desc": "Returns an immutable list containing only the specified object element. The returned list is serializable."
+    }
+  ],
+  "items": []
+}

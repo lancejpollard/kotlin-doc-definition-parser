@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ShadowRootInit",
+  "signature": "fun ShadowRootInit(mode: ShadowRootMode?): ShadowRootInit",
+  "items": []
+}

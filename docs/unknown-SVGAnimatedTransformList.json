@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedTransformList",
+  "signature": "abstract class SVGAnimatedTransformList",
+  "items": [
+    {
+      "text": "SVGAnimatedTransformList()",
+      "desc": "Exposes the JavaScript SVGAnimatedTransformList to Kotlin"
+    },
+    {
+      "text": "open val animVal: SVGTransformList"
+    },
+    {
+      "text": "open val baseVal: SVGTransformList"
+    }
+  ]
+}

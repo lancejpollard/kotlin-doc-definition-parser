@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "unwrapKotlinObjectHolder",
+  "signature": "fun <reified T : Any> unwrapKotlinObjectHolder( holder: Any?): T",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "HTMLOrSVGImageElement",
+  "signature": "interface HTMLOrSVGImageElement : CanvasImageSource",
+  "items": [
+    {
+      "text": "abstract class HTMLImageElement : HTMLElement, HTMLOrSVGImageElement, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGImageElement : SVGGraphicsElement, SVGURIReference, HTMLOrSVGImageElement",
+      "desc": "Exposes the JavaScript SVGImageElement to Kotlin"
+    }
+  ]
+}

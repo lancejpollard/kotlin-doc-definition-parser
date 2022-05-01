@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toUByteOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toUByteOrNull(): UByte?",
+      "desc": "Parses the string as an UByte number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toUByteOrNull(radix: Int): UByte?",
+      "desc": "Parses the string as an UByte number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

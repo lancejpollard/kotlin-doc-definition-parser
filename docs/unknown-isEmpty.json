@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isEmpty",
+  "signature": "fun isEmpty(): Boolean",
+  "items": []
+}

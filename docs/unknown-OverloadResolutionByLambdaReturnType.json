@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "OverloadResolutionByLambdaReturnType",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) @ExperimentalTypeInference annotation class OverloadResolutionByLambdaReturnType",
+  "items": [
+    {
+      "text": "OverloadResolutionByLambdaReturnType()",
+      "desc": "Enables overload selection based on the type of the value returned from lambda argument."
+    }
+  ]
+}

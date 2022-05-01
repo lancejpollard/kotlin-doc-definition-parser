@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ImageData",
+  "signature": "open class ImageData : ImageBitmapSource, TexImageSource",
+  "items": [
+    {
+      "text": "ImageData(sw: Int, sh: Int)"
+    },
+    {
+      "text": "open val data: Uint8ClampedArray"
+    },
+    {
+      "text": "open val height: Int"
+    },
+    {
+      "text": "open val width: Int"
+    }
+  ]
+}

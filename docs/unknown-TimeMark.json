@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "TimeMark",
+  "signature": "@ExperimentalTime abstract class TimeMark",
+  "items": [
+    {
+      "text": "TimeMark()",
+      "desc": "Represents a time point notched on a particular TimeSource. Remains bound to the time source it was taken from and allows querying for the duration of time elapsed from that point (see the function elapsedNow)."
+    },
+    {
+      "text": "abstract fun elapsedNow(): Duration",
+      "desc": "Returns the amount of time passed from this mark measured with the time source from which this mark was taken."
+    },
+    {
+      "text": "fun hasNotPassedNow(): Boolean",
+      "desc": "Returns false if this time mark has not passed according to the time source from which this mark was taken."
+    },
+    {
+      "text": "fun hasPassedNow(): Boolean",
+      "desc": "Returns true if this time mark has passed according to the time source from which this mark was taken."
+    },
+    {
+      "text": "open operator fun minus(duration: Duration): TimeMark",
+      "desc": "Returns a time mark on the same time source that is behind this time mark by the specified duration."
+    },
+    {
+      "text": "open operator fun plus(duration: Duration): TimeMark",
+      "desc": "Returns a time mark on the same time source that is ahead of this time mark by the specified duration."
+    },
+    {
+      "text": "operator fun TimeMark.compareTo(other: TimeMark): Int"
+    },
+    {
+      "text": "operator fun TimeMark.minus(other: TimeMark): Duration"
+    }
+  ]
+}

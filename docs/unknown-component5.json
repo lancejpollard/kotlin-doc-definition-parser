@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "component5",
+  "signatures": [
+    {
+      "text": "operator fun <T> Array<out T>.component5(): T",
+      "desc": "Returns 5th element from the array."
+    },
+    {
+      "text": "operator fun <T> List<T>.component5(): T",
+      "desc": "Returns 5th element from the list."
+    }
+  ],
+  "items": []
+}

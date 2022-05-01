@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scan",
+  "signature": "inline fun <R> CharSequence.scan( initial: R, operation: (acc: R, Char) -> R): List<R>",
+  "items": []
+}

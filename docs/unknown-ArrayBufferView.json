@@ -1,0 +1,56 @@
+{
+  "type": "unknown",
+  "name": "ArrayBufferView",
+  "signature": "interface ArrayBufferView : BufferDataSource",
+  "items": [
+    {
+      "text": "abstract val buffer: ArrayBuffer"
+    },
+    {
+      "text": "abstract val byteLength: Int"
+    },
+    {
+      "text": "abstract val byteOffset: Int"
+    },
+    {
+      "text": "open class DataView : ArrayBufferView",
+      "desc": "Exposes the JavaScript DataView to Kotlin"
+    },
+    {
+      "text": "open class Float32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Float32Array to Kotlin"
+    },
+    {
+      "text": "open class Float64Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Float64Array to Kotlin"
+    },
+    {
+      "text": "open class Int16Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int16Array to Kotlin"
+    },
+    {
+      "text": "open class Int32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int32Array to Kotlin"
+    },
+    {
+      "text": "open class Int8Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int8Array to Kotlin"
+    },
+    {
+      "text": "open class Uint16Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint16Array to Kotlin"
+    },
+    {
+      "text": "open class Uint32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint32Array to Kotlin"
+    },
+    {
+      "text": "open class Uint8Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint8Array to Kotlin"
+    },
+    {
+      "text": "open class Uint8ClampedArray : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint8ClampedArray to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "CharacterCodingException",
+  "signature": "open class CharacterCodingException : Exception",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "The exception thrown when a character encoding or decoding error occurs."
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mod",
+  "signature": "fun mod(other: UByte): UByte",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EventListener",
+  "signature": "fun EventListener(handler: (Event) -> Unit): EventListener",
+  "items": []
+}

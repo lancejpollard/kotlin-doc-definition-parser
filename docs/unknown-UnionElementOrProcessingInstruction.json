@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionElementOrProcessingInstruction",
+  "signature": "interface UnionElementOrProcessingInstruction",
+  "items": [
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "abstract class ProcessingInstruction : CharacterData, LinkStyle, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript ProcessingInstruction to Kotlin"
+    }
+  ]
+}

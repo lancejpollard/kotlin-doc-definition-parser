@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PopStateEventInit",
+  "signature": "fun PopStateEventInit( state: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PopStateEventInit",
+  "items": []
+}

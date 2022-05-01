@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findParameterByName",
+  "signature": "fun KCallable<*>.findParameterByName( name: String): KParameter?",
+  "items": []
+}

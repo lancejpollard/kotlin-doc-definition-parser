@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "plugins",
+  "signature": "open val plugins: HTMLCollection",
+  "items": []
+}

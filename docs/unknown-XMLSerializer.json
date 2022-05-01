@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "XMLSerializer",
+  "signature": "open class XMLSerializer",
+  "items": [
+    {
+      "text": "XMLSerializer()",
+      "desc": "Exposes the JavaScript XMLSerializer to Kotlin"
+    },
+    {
+      "text": "fun serializeToString(root: Node): String"
+    }
+  ]
+}

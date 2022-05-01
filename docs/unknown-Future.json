@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "Future",
+  "signature": "inline class Future<T>",
+  "items": [
+    {
+      "text": "val id: Int"
+    },
+    {
+      "text": "val result: T",
+      "desc": "The result of the future computation. Blocks execution until the future is ready. Second attempt to get will result in an error."
+    },
+    {
+      "text": "val state: FutureState",
+      "desc": "A FutureState of this future"
+    },
+    {
+      "text": "fun <R> consume(code: (T) -> R): R",
+      "desc": "Blocks execution until the future is ready."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    }
+  ]
+}

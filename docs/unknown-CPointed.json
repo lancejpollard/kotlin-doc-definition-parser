@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "CPointed",
+  "signature": "abstract class CPointed : NativePointed",
+  "items": [
+    {
+      "text": "CPointed(rawPtr: NativePtr)",
+      "desc": "C data or code."
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    },
+    {
+      "text": "class CFunction<T : Function<*>> : CPointed",
+      "desc": "The C function."
+    },
+    {
+      "text": "abstract class COpaque : CPointed",
+      "desc": "The CPointed without any specified interpretation."
+    },
+    {
+      "text": "abstract class CVariable : CPointed",
+      "desc": "The C data variable located in memory."
+    }
+  ]
+}

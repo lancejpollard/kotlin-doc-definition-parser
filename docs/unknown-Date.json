@@ -1,0 +1,104 @@
+{
+  "type": "unknown",
+  "name": "Date",
+  "signature": "class Date",
+  "items": [
+    {
+      "text": "interface LocaleOptions"
+    },
+    {
+      "text": "Date(milliseconds: Number)"
+    },
+    {
+      "text": "Date()",
+      "desc": "Exposes the Date API to Kotlin."
+    },
+    {
+      "text": "fun getDate(): Int"
+    },
+    {
+      "text": "fun getDay(): Int"
+    },
+    {
+      "text": "fun getFullYear(): Int"
+    },
+    {
+      "text": "fun getHours(): Int"
+    },
+    {
+      "text": "fun getMilliseconds(): Int"
+    },
+    {
+      "text": "fun getMinutes(): Int"
+    },
+    {
+      "text": "fun getMonth(): Int"
+    },
+    {
+      "text": "fun getSeconds(): Int"
+    },
+    {
+      "text": "fun getTime(): Double"
+    },
+    {
+      "text": "fun getTimezoneOffset(): Int"
+    },
+    {
+      "text": "fun getUTCDate(): Int"
+    },
+    {
+      "text": "fun getUTCDay(): Int"
+    },
+    {
+      "text": "fun getUTCFullYear(): Int"
+    },
+    {
+      "text": "fun getUTCHours(): Int"
+    },
+    {
+      "text": "fun getUTCMilliseconds(): Int"
+    },
+    {
+      "text": "fun getUTCMinutes(): Int"
+    },
+    {
+      "text": "fun getUTCMonth(): Int"
+    },
+    {
+      "text": "fun getUTCSeconds(): Int"
+    },
+    {
+      "text": "fun toDateString(): String"
+    },
+    {
+      "text": "fun toISOString(): String"
+    },
+    {
+      "text": "fun toJSON(): Json"
+    },
+    {
+      "text": "fun toLocaleDateString( locales: Array<String> = definedExternally, options: LocaleOptions = definedExternally): String"
+    },
+    {
+      "text": "fun toLocaleString( locales: Array<String> = definedExternally, options: LocaleOptions = definedExternally): String"
+    },
+    {
+      "text": "fun toLocaleTimeString( locales: Array<String> = definedExternally, options: LocaleOptions = definedExternally): String"
+    },
+    {
+      "text": "fun toTimeString(): String"
+    },
+    {
+      "text": "fun toUTCString(): String"
+    },
+    {
+      "text": "fun now(): Double"
+    },
+    {
+      "text": "fun parse(dateString: String): Double"
+    },
+    {
+      "text": "fun UTC(year: Int, month: Int): Double"
+    }
+  ]
+}

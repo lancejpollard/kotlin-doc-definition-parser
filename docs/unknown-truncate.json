@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "truncate",
+  "signature": "fun truncate(x: Double): Double",
+  "items": []
+}

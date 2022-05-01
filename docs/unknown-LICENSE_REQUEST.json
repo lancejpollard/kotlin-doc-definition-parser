@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "LICENSE_REQUEST",
+  "signature": "inline val MediaKeyMessageType.Companion.LICENSE_REQUEST: MediaKeyMessageType",
+  "items": []
+}

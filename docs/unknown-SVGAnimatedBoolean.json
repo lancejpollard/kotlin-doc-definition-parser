@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedBoolean",
+  "signature": "abstract class SVGAnimatedBoolean",
+  "items": [
+    {
+      "text": "SVGAnimatedBoolean()",
+      "desc": "Exposes the JavaScript SVGAnimatedBoolean to Kotlin"
+    },
+    {
+      "text": "open val animVal: Boolean"
+    },
+    {
+      "text": "open var baseVal: Boolean"
+    }
+  ]
+}

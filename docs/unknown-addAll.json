@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "addAll",
+  "signatures": [
+    {
+      "text": "fun addAll(elements: Collection<E>): Boolean",
+      "desc": "Adds all of the elements of the specified collection to the end of this list."
+    },
+    {
+      "text": "fun addAll(index: Int, elements: Collection<E>): Boolean",
+      "desc": "Inserts all of the elements of the specified collection elements into this list at the specified index."
+    }
+  ],
+  "items": []
+}

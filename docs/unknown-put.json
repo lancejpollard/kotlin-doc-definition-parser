@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "put",
+  "signature": "abstract fun put(key: K, value: V): V?",
+  "items": []
+}

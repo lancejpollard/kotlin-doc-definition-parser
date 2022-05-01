@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "COMPLETE",
+  "signature": "inline val DocumentReadyState.Companion.COMPLETE: DocumentReadyState",
+  "items": []
+}

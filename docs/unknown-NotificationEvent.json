@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "NotificationEvent",
+  "signature": "open class NotificationEvent : ExtendableEvent",
+  "items": [
+    {
+      "text": "NotificationEvent( type: String, eventInitDict: NotificationEventInit)",
+      "desc": "Exposes the JavaScript NotificationEvent to Kotlin"
+    },
+    {
+      "text": "open val action: String"
+    },
+    {
+      "text": "open val notification: Notification"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

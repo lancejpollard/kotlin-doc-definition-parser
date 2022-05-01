@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hasFocus",
+  "signature": "fun hasFocus(): Boolean",
+  "items": []
+}

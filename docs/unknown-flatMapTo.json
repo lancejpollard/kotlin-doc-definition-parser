@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "flatMapTo",
+  "signature": "inline fun <R, C : MutableCollection<in R>> CharSequence.flatMapTo( destination: C, transform: (Char) -> Iterable<R>): C",
+  "items": []
+}

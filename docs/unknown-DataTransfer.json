@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "DataTransfer",
+  "signature": "abstract class DataTransfer",
+  "items": [
+    {
+      "text": "DataTransfer()",
+      "desc": "Exposes the JavaScript DataTransfer to Kotlin"
+    },
+    {
+      "text": "open var dropEffect: String"
+    },
+    {
+      "text": "open var effectAllowed: String"
+    },
+    {
+      "text": "open val files: FileList"
+    },
+    {
+      "text": "open val items: DataTransferItemList"
+    },
+    {
+      "text": "open val types: Array<out String>"
+    },
+    {
+      "text": "fun clearData(format: String = definedExternally)"
+    },
+    {
+      "text": "fun getData(format: String): String"
+    },
+    {
+      "text": "fun setData(format: String, data: String)"
+    },
+    {
+      "text": "fun setDragImage(image: Element, x: Int, y: Int)"
+    }
+  ]
+}

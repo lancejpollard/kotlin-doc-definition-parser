@@ -1,0 +1,128 @@
+{
+  "type": "package",
+  "name": "org.khronos.webgl",
+  "items": [
+    {
+      "text": "open class ArrayBuffer : BufferDataSource",
+      "desc": "Exposes the JavaScript ArrayBuffer to Kotlin"
+    },
+    {
+      "text": "interface ArrayBufferView : BufferDataSource",
+      "desc": "Exposes the JavaScript ArrayBufferView to Kotlin"
+    },
+    {
+      "text": "interface BufferDataSource"
+    },
+    {
+      "text": "open class DataView : ArrayBufferView",
+      "desc": "Exposes the JavaScript DataView to Kotlin"
+    },
+    {
+      "text": "open class Float32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Float32Array to Kotlin"
+    },
+    {
+      "text": "open class Float64Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Float64Array to Kotlin"
+    },
+    {
+      "text": "open class Int16Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int16Array to Kotlin"
+    },
+    {
+      "text": "open class Int32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int32Array to Kotlin"
+    },
+    {
+      "text": "open class Int8Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Int8Array to Kotlin"
+    },
+    {
+      "text": "interface TexImageSource"
+    },
+    {
+      "text": "open class Uint16Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint16Array to Kotlin"
+    },
+    {
+      "text": "open class Uint32Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint32Array to Kotlin"
+    },
+    {
+      "text": "open class Uint8Array : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint8Array to Kotlin"
+    },
+    {
+      "text": "open class Uint8ClampedArray : ArrayBufferView",
+      "desc": "Exposes the JavaScript Uint8ClampedArray to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLActiveInfo",
+      "desc": "Exposes the JavaScript WebGLActiveInfo to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLBuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLBuffer to Kotlin"
+    },
+    {
+      "text": "interface WebGLContextAttributes"
+    },
+    {
+      "text": "open class WebGLContextEvent : Event",
+      "desc": "Exposes the JavaScript WebGLContextEvent to Kotlin"
+    },
+    {
+      "text": "interface WebGLContextEventInit : EventInit"
+    },
+    {
+      "text": "abstract class WebGLFramebuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLFramebuffer to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLObject"
+    },
+    {
+      "text": "abstract class WebGLProgram : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLProgram to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLRenderbuffer : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLRenderbuffer to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLRenderingContext : WebGLRenderingContextBase, RenderingContext",
+      "desc": "Exposes the JavaScript WebGLRenderingContext to Kotlin"
+    },
+    {
+      "text": "interface WebGLRenderingContextBase"
+    },
+    {
+      "text": "abstract class WebGLShader : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLShader to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLShaderPrecisionFormat",
+      "desc": "Exposes the JavaScript WebGLShaderPrecisionFormat to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLTexture : WebGLObject",
+      "desc": "Exposes the JavaScript WebGLTexture to Kotlin"
+    },
+    {
+      "text": "abstract class WebGLUniformLocation",
+      "desc": "Exposes the JavaScript WebGLUniformLocation to Kotlin"
+    },
+    {
+      "text": "operator fun Int8Array.get(index: Int): Byte"
+    },
+    {
+      "text": "operator fun Int8Array.set(index: Int, value: Byte)"
+    },
+    {
+      "text": "fun WebGLContextAttributes( alpha: Boolean? = true, depth: Boolean? = true, stencil: Boolean? = false, antialias: Boolean? = true, premultipliedAlpha: Boolean? = true, preserveDrawingBuffer: Boolean? = false, preferLowPowerToHighPerformance: Boolean? = false, failIfMajorPerformanceCaveat: Boolean? = false): WebGLContextAttributes"
+    },
+    {
+      "text": "fun WebGLContextEventInit( statusMessage: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): WebGLContextEventInit"
+    }
+  ]
+}

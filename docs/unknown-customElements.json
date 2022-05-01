@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "customElements",
+  "signature": "open val customElements: CustomElementRegistry",
+  "items": []
+}

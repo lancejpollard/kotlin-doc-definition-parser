@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "IllegalStateException",
+  "signature": "open class IllegalStateException : RuntimeException",
+  "items": [
+    {
+      "text": "<init>()"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "open class CancellationException : IllegalStateException",
+      "desc": "Thrown by cancellable suspending functions if the coroutine is cancelled while it is suspended. It indicates normal cancellation of a coroutine."
+    }
+  ]
+}

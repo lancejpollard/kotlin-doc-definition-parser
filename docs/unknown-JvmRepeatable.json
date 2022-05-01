@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "JvmRepeatable",
+  "signature": "typealias JvmRepeatable = Repeatable",
+  "items": []
+}

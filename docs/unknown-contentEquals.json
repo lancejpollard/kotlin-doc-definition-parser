@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "contentEquals",
+  "signatures": [
+    {
+      "text": "infix fun CharSequence?.contentEquals( other: CharSequence?): Boolean",
+      "desc": "Returns true if the contents of this char sequence are equal to the contents of the specified other, i.e. both char sequences contain the same number of the same characters in the same order."
+    },
+    {
+      "text": "fun CharSequence?.contentEquals( other: CharSequence?, ignoreCase: Boolean): Boolean",
+      "desc": "Returns true if the contents of this char sequence are equal to the contents of the specified other, optionally ignoring case difference."
+    },
+    {
+      "text": "fun String.contentEquals(charSequence: CharSequence): Boolean",
+      "desc": "Returns true if this string is equal to the contents of the specified CharSequence, false otherwise."
+    },
+    {
+      "text": "fun String.contentEquals( stringBuilder: StringBuffer): Boolean",
+      "desc": "Returns true if this string is equal to the contents of the specified StringBuffer, false otherwise."
+    }
+  ],
+  "items": []
+}

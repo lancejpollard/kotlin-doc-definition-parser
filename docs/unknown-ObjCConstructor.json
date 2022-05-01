@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "ObjCConstructor",
+  "signature": "@Target([AnnotationTarget.CONSTRUCTOR]) annotation class ObjCConstructor",
+  "items": [
+    {
+      "text": "ObjCConstructor(initSelector: String, designated: Boolean)"
+    },
+    {
+      "text": "val designated: Boolean"
+    },
+    {
+      "text": "val initSelector: String"
+    }
+  ]
+}

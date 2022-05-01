@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "allocArrayOfPointersTo",
+  "signature": "fun <T : CPointed> NativePlacement.allocArrayOfPointersTo( elements: List<T?>): CArrayPointer<CPointerVar<T>>",
+  "items": []
+}

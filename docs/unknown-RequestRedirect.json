@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "RequestRedirect",
+  "signature": "interface RequestRedirect",
+  "items": [
+    {
+      "text": "val RequestRedirect.Companion.ERROR: RequestRedirect"
+    },
+    {
+      "text": "val RequestRedirect.Companion.FOLLOW: RequestRedirect"
+    },
+    {
+      "text": "val RequestRedirect.Companion.MANUAL: RequestRedirect"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "arrayOf",
+  "signature": "fun <reified T> arrayOf(vararg elements: T): Array<T>",
+  "items": []
+}

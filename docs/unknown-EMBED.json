@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EMBED",
+  "signature": "inline val RequestDestination.Companion.EMBED: RequestDestination",
+  "items": []
+}

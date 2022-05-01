@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minusElement",
+  "signature": "fun <T> Sequence<T>.minusElement(element: T): Sequence<T>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setUByteAt",
+  "signature": "fun ByteArray.setUByteAt(index: Int, value: UByte)",
+  "items": []
+}

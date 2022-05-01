@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedLengthList",
+  "signature": "abstract class SVGAnimatedLengthList",
+  "items": [
+    {
+      "text": "SVGAnimatedLengthList()",
+      "desc": "Exposes the JavaScript SVGAnimatedLengthList to Kotlin"
+    },
+    {
+      "text": "open val animVal: SVGLengthList"
+    },
+    {
+      "text": "open val baseVal: SVGLengthList"
+    }
+  ]
+}

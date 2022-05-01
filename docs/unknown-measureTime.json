@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "measureTime",
+  "signatures": [
+    {
+      "text": "@ExperimentalTime inline fun measureTime( block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    },
+    {
+      "text": "@ExperimentalTime inline fun TimeSource.measureTime( block: () -> Unit): Duration",
+      "desc": "Executes the given function block and returns the duration of elapsed time interval."
+    }
+  ],
+  "items": []
+}

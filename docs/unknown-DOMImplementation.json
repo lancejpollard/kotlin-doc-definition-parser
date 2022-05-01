@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "DOMImplementation",
+  "signature": "abstract class DOMImplementation",
+  "items": [
+    {
+      "text": "DOMImplementation()",
+      "desc": "Exposes the JavaScript DOMImplementation to Kotlin"
+    },
+    {
+      "text": "fun createDocument( namespace: String?, qualifiedName: String, doctype: DocumentType? = definedExternally): XMLDocument"
+    },
+    {
+      "text": "fun createDocumentType( qualifiedName: String, publicId: String, systemId: String): DocumentType"
+    },
+    {
+      "text": "fun createHTMLDocument( title: String = definedExternally): Document"
+    },
+    {
+      "text": "fun hasFeature(): Boolean"
+    }
+  ]
+}

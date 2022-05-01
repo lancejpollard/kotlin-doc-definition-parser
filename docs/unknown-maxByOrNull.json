@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "maxByOrNull",
+  "signature": "inline fun <R : Comparable<R>> CharSequence.maxByOrNull( selector: (Char) -> R): Char?",
+  "items": []
+}

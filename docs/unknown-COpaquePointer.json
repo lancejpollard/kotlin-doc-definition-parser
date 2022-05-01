@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "COpaquePointer",
+  "signature": "typealias COpaquePointer = CPointer<out CPointed>",
+  "items": []
+}

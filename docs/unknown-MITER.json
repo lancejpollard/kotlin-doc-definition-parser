@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MITER",
+  "signature": "inline val CanvasLineJoin.Companion.MITER: CanvasLineJoin",
+  "items": []
+}

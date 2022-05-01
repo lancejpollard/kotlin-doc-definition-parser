@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "MediaQueryList",
+  "signature": "abstract class MediaQueryList : EventTarget",
+  "items": [
+    {
+      "text": "MediaQueryList()",
+      "desc": "Exposes the JavaScript MediaQueryList to Kotlin"
+    },
+    {
+      "text": "open val matches: Boolean"
+    },
+    {
+      "text": "open val media: String"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "fun addListener(listener: EventListener?)"
+    },
+    {
+      "text": "fun removeListener(listener: EventListener?)"
+    }
+  ]
+}

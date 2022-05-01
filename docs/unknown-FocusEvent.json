@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "FocusEvent",
+  "signature": "open class FocusEvent : UIEvent",
+  "items": [
+    {
+      "text": "FocusEvent( type: String, eventInitDict: FocusEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript FocusEvent to Kotlin"
+    },
+    {
+      "text": "open val relatedTarget: EventTarget?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

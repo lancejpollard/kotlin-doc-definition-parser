@@ -1,0 +1,214 @@
+{
+  "type": "package",
+  "name": "kotlin.math",
+  "items": [
+    {
+      "text": "val Double.absoluteValue: Double",
+      "desc": "Returns the absolute value of this value."
+    },
+    {
+      "text": "const val E: Double",
+      "desc": "Base of the natural logarithms, approximately 2.71828."
+    },
+    {
+      "text": "const val PI: Double",
+      "desc": "Ratio of the circumference of a circle to its diameter, approximately 3.14159."
+    },
+    {
+      "text": "val Double.sign: Double",
+      "desc": "Returns the sign of this value:"
+    },
+    {
+      "text": "val Double.ulp: Double",
+      "desc": "Returns the ulp (unit in the last place) of this value."
+    },
+    {
+      "text": "val Float.ulp: Float",
+      "desc": "Returns the ulp of this value."
+    },
+    {
+      "text": "fun abs(x: Double): Double",
+      "desc": "Returns the absolute value of the given value x."
+    },
+    {
+      "text": "fun abs(n: Int): Int",
+      "desc": "Returns the absolute value of the given value n."
+    },
+    {
+      "text": "fun acos(x: Double): Double",
+      "desc": "Computes the arc cosine of the value x; the returned value is an angle in the range from 0.0 to PI radians."
+    },
+    {
+      "text": "fun acosh(x: Double): Double",
+      "desc": "Computes the inverse hyperbolic cosine of the value x."
+    },
+    {
+      "text": "fun asin(x: Double): Double",
+      "desc": "Computes the arc sine of the value x; the returned value is an angle in the range from -PI/2 to PI/2 radians."
+    },
+    {
+      "text": "fun asinh(x: Double): Double",
+      "desc": "Computes the inverse hyperbolic sine of the value x."
+    },
+    {
+      "text": "fun atan(x: Double): Double",
+      "desc": "Computes the arc tangent of the value x; the returned value is an angle in the range from -PI/2 to PI/2 radians."
+    },
+    {
+      "text": "fun atan2(y: Double, x: Double): Double",
+      "desc": "Returns the angle theta of the polar coordinates (r, theta) that correspond to the rectangular coordinates (x, y) by computing the arc tangent of the value y / x; the returned value is an angle in the range from -PI to PI radians."
+    },
+    {
+      "text": "fun atanh(x: Double): Double",
+      "desc": "Computes the inverse hyperbolic tangent of the value x."
+    },
+    {
+      "text": "fun ceil(x: Double): Double",
+      "desc": "Rounds the given value x to an integer towards positive infinity."
+    },
+    {
+      "text": "fun cos(x: Double): Double",
+      "desc": "Computes the cosine of the angle x given in radians."
+    },
+    {
+      "text": "fun cosh(x: Double): Double",
+      "desc": "Computes the hyperbolic cosine of the value x."
+    },
+    {
+      "text": "fun exp(x: Double): Double",
+      "desc": "Computes Euler's number e raised to the power of the value x."
+    },
+    {
+      "text": "fun expm1(x: Double): Double",
+      "desc": "Computes exp(x) - 1."
+    },
+    {
+      "text": "fun floor(x: Double): Double",
+      "desc": "Rounds the given value x to an integer towards negative infinity."
+    },
+    {
+      "text": "fun hypot(x: Double, y: Double): Double",
+      "desc": "Computes sqrt(x^2 + y^2) without intermediate overflow or underflow."
+    },
+    {
+      "text": "fun Double.IEEErem(divisor: Double): Double",
+      "desc": "Computes the remainder of division of this value by the divisor value according to the IEEE 754 standard."
+    },
+    {
+      "text": "fun ln(x: Double): Double",
+      "desc": "Computes the natural logarithm (base E) of the value x."
+    },
+    {
+      "text": "fun ln1p(x: Double): Double",
+      "desc": "Computes ln(x + 1)."
+    },
+    {
+      "text": "fun ln1p(x: Float): Float",
+      "desc": "Computes ln(a + 1)."
+    },
+    {
+      "text": "fun log(x: Double, base: Double): Double",
+      "desc": "Computes the logarithm of the value x to the given base."
+    },
+    {
+      "text": "fun log10(x: Double): Double",
+      "desc": "Computes the common logarithm (base 10) of the value x."
+    },
+    {
+      "text": "fun log2(x: Double): Double",
+      "desc": "Computes the binary logarithm (base 2) of the value x."
+    },
+    {
+      "text": "fun max(a: UInt, b: UInt): UInt",
+      "desc": "Returns the greater of two values."
+    },
+    {
+      "text": "fun min(a: UInt, b: UInt): UInt",
+      "desc": "Returns the smaller of two values."
+    },
+    {
+      "text": "fun Double.nextDown(): Double",
+      "desc": "Returns the Double value nearest to this value in direction of negative infinity."
+    },
+    {
+      "text": "fun Float.nextDown(): Float",
+      "desc": "Returns the Float value nearest to this value in direction of negative infinity."
+    },
+    {
+      "text": "fun Double.nextTowards(to: Double): Double",
+      "desc": "Returns the Double value nearest to this value in direction from this value towards the value to."
+    },
+    {
+      "text": "fun Float.nextTowards(to: Float): Float",
+      "desc": "Returns the Float value nearest to this value in direction from this value towards the value to."
+    },
+    {
+      "text": "fun Double.nextUp(): Double",
+      "desc": "Returns the Double value nearest to this value in direction of positive infinity."
+    },
+    {
+      "text": "fun Float.nextUp(): Float",
+      "desc": "Returns the Float value nearest to this value in direction of positive infinity."
+    },
+    {
+      "text": "fun Double.pow(x: Double): Double",
+      "desc": "Raises this value to the power x."
+    },
+    {
+      "text": "fun Double.pow(n: Int): Double",
+      "desc": "Raises this value to the integer power n."
+    },
+    {
+      "text": "fun round(x: Double): Double",
+      "desc": "Rounds the given value x towards the closest integer with ties rounded towards even integer."
+    },
+    {
+      "text": "fun Double.roundToInt(): Int",
+      "desc": "Rounds this Double value to the nearest integer and converts the result to Int. Ties are rounded towards positive infinity."
+    },
+    {
+      "text": "fun Float.roundToInt(): Int",
+      "desc": "Rounds this Float value to the nearest integer and converts the result to Int. Ties are rounded towards positive infinity."
+    },
+    {
+      "text": "fun Double.roundToLong(): Long",
+      "desc": "Rounds this Double value to the nearest integer and converts the result to Long. Ties are rounded towards positive infinity."
+    },
+    {
+      "text": "fun Float.roundToLong(): Long",
+      "desc": "Rounds this Float value to the nearest integer and converts the result to Long. Ties are rounded towards positive infinity."
+    },
+    {
+      "text": "fun sign(x: Double): Double",
+      "desc": "Returns the sign of the given value x:"
+    },
+    {
+      "text": "fun sin(x: Double): Double",
+      "desc": "Computes the sine of the angle x given in radians."
+    },
+    {
+      "text": "fun sinh(x: Double): Double",
+      "desc": "Computes the hyperbolic sine of the value x."
+    },
+    {
+      "text": "fun sqrt(x: Double): Double",
+      "desc": "Computes the positive square root of the value x."
+    },
+    {
+      "text": "fun tan(x: Double): Double",
+      "desc": "Computes the tangent of the angle x given in radians."
+    },
+    {
+      "text": "fun tanh(x: Double): Double",
+      "desc": "Computes the hyperbolic tangent of the value x."
+    },
+    {
+      "text": "fun truncate(x: Double): Double",
+      "desc": "Rounds the given value x to an integer towards zero."
+    },
+    {
+      "text": "fun Double.withSign(sign: Double): Double",
+      "desc": "Returns this value with the sign bit same as of the sign value."
+    }
+  ]
+}

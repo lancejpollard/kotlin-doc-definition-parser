@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "nextUInt",
+  "signatures": [
+    {
+      "text": "fun Random.nextUInt(): UInt",
+      "desc": "Gets the next random UInt from the random number generator."
+    },
+    {
+      "text": "fun Random.nextUInt(until: UInt): UInt",
+      "desc": "Gets the next random UInt from the random number generator less than the specified until bound."
+    },
+    {
+      "text": "fun Random.nextUInt(from: UInt, until: UInt): UInt",
+      "desc": "Gets the next random UInt from the random number generator in the specified range."
+    },
+    {
+      "text": "fun Random.nextUInt(range: UIntRange): UInt",
+      "desc": "Gets the next random UInt from the random number generator in the specified range."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "subSequence",
+  "signature": "fun subSequence(startIndex: Int, endIndex: Int): CharSequence",
+  "items": []
+}

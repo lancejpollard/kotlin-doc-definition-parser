@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Effect",
+  "signature": "@ExperimentalContracts interface Effect",
+  "items": [
+    {
+      "text": "interface CallsInPlace : Effect",
+      "desc": "An effect of calling a functional parameter in place."
+    },
+    {
+      "text": "interface ConditionalEffect : Effect",
+      "desc": "An effect of some condition being true after observing another effect of a function."
+    },
+    {
+      "text": "interface SimpleEffect : Effect",
+      "desc": "An effect that can be observed after a function invocation."
+    }
+  ]
+}

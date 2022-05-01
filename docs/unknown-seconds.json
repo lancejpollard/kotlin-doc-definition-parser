@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "seconds",
+  "signatures": [
+    {
+      "text": "inline val Int.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of seconds."
+    },
+    {
+      "text": "inline val Long.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of seconds."
+    },
+    {
+      "text": "inline val Double.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of seconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun seconds( value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of seconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun seconds( value: Double): Duration",
+      "desc": "Returns a Duration representing the specified value number of seconds."
+    }
+  ],
+  "items": []
+}

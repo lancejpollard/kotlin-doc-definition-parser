@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedPoints",
+  "signature": "interface SVGAnimatedPoints",
+  "items": [
+    {
+      "text": "abstract val animatedPoints: SVGPointList"
+    },
+    {
+      "text": "abstract val points: SVGPointList"
+    },
+    {
+      "text": "abstract class SVGPolygonElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolygonElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPolylineElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolylineElement to Kotlin"
+    }
+  ]
+}

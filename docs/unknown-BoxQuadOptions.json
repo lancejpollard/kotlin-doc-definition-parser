@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BoxQuadOptions",
+  "signature": "fun BoxQuadOptions( box: CSSBoxType? = CSSBoxType.BORDER, relativeTo: dynamic = undefined): BoxQuadOptions",
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ObjCMethod",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER]) annotation class ObjCMethod",
+  "items": [
+    {
+      "text": "ObjCMethod( selector: String, encoding: String, isStret: Boolean = false)"
+    },
+    {
+      "text": "val encoding: String"
+    },
+    {
+      "text": "val isStret: Boolean"
+    },
+    {
+      "text": "val selector: String"
+    }
+  ]
+}

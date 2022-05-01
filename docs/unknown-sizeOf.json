@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sizeOf",
+  "signature": "fun <reified T : CVariable> sizeOf(): Long",
+  "items": []
+}

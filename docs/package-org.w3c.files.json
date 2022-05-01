@@ -1,0 +1,41 @@
+{
+  "type": "package",
+  "name": "org.w3c.files",
+  "items": [
+    {
+      "text": "open class Blob : MediaProvider, ImageBitmapSource",
+      "desc": "Exposes the JavaScript Blob to Kotlin"
+    },
+    {
+      "text": "interface BlobPropertyBag"
+    },
+    {
+      "text": "open class File : Blob",
+      "desc": "Exposes the JavaScript File to Kotlin"
+    },
+    {
+      "text": "abstract class FileList : ItemArrayLike<File>",
+      "desc": "Exposes the JavaScript FileList to Kotlin"
+    },
+    {
+      "text": "interface FilePropertyBag : BlobPropertyBag"
+    },
+    {
+      "text": "open class FileReader : EventTarget",
+      "desc": "Exposes the JavaScript FileReader to Kotlin"
+    },
+    {
+      "text": "open class FileReaderSync",
+      "desc": "Exposes the JavaScript FileReaderSync to Kotlin"
+    },
+    {
+      "text": "fun BlobPropertyBag(type: String? = \"\"): BlobPropertyBag"
+    },
+    {
+      "text": "fun FilePropertyBag( lastModified: Int? = undefined, type: String? = \"\"): FilePropertyBag"
+    },
+    {
+      "text": "operator fun FileList.get(index: Int): File?"
+    }
+  ]
+}

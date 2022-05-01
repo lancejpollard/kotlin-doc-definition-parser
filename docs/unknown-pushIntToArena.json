@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "pushIntToArena",
+  "signature": "fun pushIntToArena(arena: Arena, value: Int)",
+  "items": []
+}

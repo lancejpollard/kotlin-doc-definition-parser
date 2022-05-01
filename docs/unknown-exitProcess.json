@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exitProcess",
+  "signature": "fun exitProcess(status: Int): Nothing",
+  "items": []
+}

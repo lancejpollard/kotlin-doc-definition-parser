@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "MediaStreamTrackEvent",
+  "signature": "open class MediaStreamTrackEvent : Event",
+  "items": [
+    {
+      "text": "MediaStreamTrackEvent( type: String, eventInitDict: MediaStreamTrackEventInit)",
+      "desc": "Exposes the JavaScript MediaStreamTrackEvent to Kotlin"
+    },
+    {
+      "text": "open val track: MediaStreamTrack"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

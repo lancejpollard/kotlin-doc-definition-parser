@@ -1,0 +1,104 @@
+{
+  "type": "unknown",
+  "name": "SVGRadialGradientElement",
+  "signature": "abstract class SVGRadialGradientElement : SVGGradientElement",
+  "items": [
+    {
+      "text": "SVGRadialGradientElement()",
+      "desc": "Exposes the JavaScript SVGRadialGradientElement to Kotlin"
+    },
+    {
+      "text": "open val cx: SVGAnimatedLength"
+    },
+    {
+      "text": "open val cy: SVGAnimatedLength"
+    },
+    {
+      "text": "open val fr: SVGAnimatedLength"
+    },
+    {
+      "text": "open val fx: SVGAnimatedLength"
+    },
+    {
+      "text": "open val fy: SVGAnimatedLength"
+    },
+    {
+      "text": "open val r: SVGAnimatedLength"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val SVG_SPREADMETHOD_PAD: Short"
+    },
+    {
+      "text": "val SVG_SPREADMETHOD_REFLECT: Short"
+    },
+    {
+      "text": "val SVG_SPREADMETHOD_REPEAT: Short"
+    },
+    {
+      "text": "val SVG_SPREADMETHOD_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_UNIT_TYPE_OBJECTBOUNDINGBOX: Short"
+    },
+    {
+      "text": "val SVG_UNIT_TYPE_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_UNIT_TYPE_USERSPACEONUSE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

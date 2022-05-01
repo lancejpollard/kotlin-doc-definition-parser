@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "DataTransferItemList",
+  "signature": "abstract class DataTransferItemList",
+  "items": [
+    {
+      "text": "DataTransferItemList()",
+      "desc": "Exposes the JavaScript DataTransferItemList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun add(data: String, type: String): DataTransferItem?"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun remove(index: Int)"
+    },
+    {
+      "text": "operator fun DataTransferItemList.get( index: Int): DataTransferItem?"
+    }
+  ]
+}

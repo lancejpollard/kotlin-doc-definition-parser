@@ -1,0 +1,126 @@
+{
+  "type": "package",
+  "name": "kotlin.ranges",
+  "items": [
+    {
+      "text": "open class CharProgression : Iterable<Char>",
+      "desc": "A progression of values of type Char."
+    },
+    {
+      "text": "class CharRange : CharProgression, ClosedRange<Char>",
+      "desc": "A range of values of type Char."
+    },
+    {
+      "text": "interface ClosedFloatingPointRange<T : Comparable<T>> : ClosedRange<T>",
+      "desc": "Represents a range of floating point numbers. Extends ClosedRange interface providing custom operation lessThanOrEquals for comparing values of range domain type."
+    },
+    {
+      "text": "interface ClosedRange<T : Comparable<T>>",
+      "desc": "Represents a range of values (for example, numbers or characters). See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "open class IntProgression : Iterable<Int>",
+      "desc": "A progression of values of type Int."
+    },
+    {
+      "text": "class IntRange : IntProgression, ClosedRange<Int>",
+      "desc": "A range of values of type Int."
+    },
+    {
+      "text": "open class LongProgression : Iterable<Long>",
+      "desc": "A progression of values of type Long."
+    },
+    {
+      "text": "class LongRange : LongProgression, ClosedRange<Long>",
+      "desc": "A range of values of type Long."
+    },
+    {
+      "text": "open class UIntProgression : Iterable<UInt>",
+      "desc": "A progression of values of type UInt."
+    },
+    {
+      "text": "class UIntRange : UIntProgression, ClosedRange<UInt>",
+      "desc": "A range of values of type UInt."
+    },
+    {
+      "text": "open class ULongProgression : Iterable<ULong>",
+      "desc": "A progression of values of type ULong."
+    },
+    {
+      "text": "class ULongRange : ULongProgression, ClosedRange<ULong>",
+      "desc": "A range of values of type ULong."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "operator fun IntRange.contains(element: Int?): Boolean",
+      "desc": "Returns true if this range contains the specified element."
+    },
+    {
+      "text": "operator fun ClosedRange<Int>.contains(value: Byte): Boolean",
+      "desc": "Checks if the specified value belongs to this range."
+    },
+    {
+      "text": "operator fun <T : Any, R> R.contains( element: T?): Boolean where R : Iterable<T>, R : ClosedRange<T>",
+      "desc": "Returns true if this iterable range contains the specified element."
+    },
+    {
+      "text": "infix fun Int.downTo(to: Byte): IntProgression",
+      "desc": "Returns a progression from this value down to the specified to value with the step -1."
+    },
+    {
+      "text": "fun IntRange.random(): Int",
+      "desc": "Returns a random element from this range."
+    },
+    {
+      "text": "fun IntRange.random(random: Random): Int",
+      "desc": "Returns a random element from this range using the specified source of randomness."
+    },
+    {
+      "text": "fun IntRange.randomOrNull(): Int?",
+      "desc": "Returns a random element from this range, or null if this range is empty."
+    },
+    {
+      "text": "fun IntRange.randomOrNull(random: Random): Int?",
+      "desc": "Returns a random element from this range using the specified source of randomness, or null if this range is empty."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "operator fun Double.rangeTo( that: Double): ClosedFloatingPointRange<Double>",
+      "desc": "Creates a range from this Double value to the specified that value."
+    },
+    {
+      "text": "operator fun Float.rangeTo( that: Float): ClosedFloatingPointRange<Float>",
+      "desc": "Creates a range from this Float value to the specified that value."
+    },
+    {
+      "text": "fun IntProgression.reversed(): IntProgression",
+      "desc": "Returns a progression that goes over the same range in the opposite direction with the same step."
+    },
+    {
+      "text": "infix fun IntProgression.step(step: Int): IntProgression",
+      "desc": "Returns a progression that goes over the same range with the given step."
+    },
+    {
+      "text": "infix fun Int.until(to: Byte): IntRange",
+      "desc": "Returns a range from this value up to but excluding the specified to value."
+    }
+  ]
+}

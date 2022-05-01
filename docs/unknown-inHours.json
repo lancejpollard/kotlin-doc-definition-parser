@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "inHours",
+  "signature": "@ExperimentalTime val inHours: Double",
+  "items": []
+}

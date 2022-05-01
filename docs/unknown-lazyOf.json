@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lazyOf",
+  "signature": "fun <T> lazyOf(value: T): Lazy<T>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "RTL",
+  "signature": "inline val NotificationDirection.Companion.RTL: NotificationDirection",
+  "items": []
+}

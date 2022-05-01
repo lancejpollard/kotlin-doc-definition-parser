@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "CaretPosition",
+  "signature": "abstract class CaretPosition",
+  "items": [
+    {
+      "text": "CaretPosition()",
+      "desc": "Exposes the JavaScript CaretPosition to Kotlin"
+    },
+    {
+      "text": "open val offset: Int"
+    },
+    {
+      "text": "open val offsetNode: Node"
+    },
+    {
+      "text": "fun getClientRect(): DOMRect?"
+    }
+  ]
+}

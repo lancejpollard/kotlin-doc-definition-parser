@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "callContinuation2",
+  "signature": "fun <T1, T2> COpaquePointer.callContinuation2()",
+  "items": []
+}

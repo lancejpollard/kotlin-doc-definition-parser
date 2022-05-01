@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapCatching",
+  "signature": "inline fun <R, T> Result<T>.mapCatching( transform: (value: T) -> R): Result<R>",
+  "items": []
+}

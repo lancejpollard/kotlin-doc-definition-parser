@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "CanvasTextBaseline",
+  "signature": "interface CanvasTextBaseline",
+  "items": [
+    {
+      "text": "val CanvasTextBaseline.Companion.ALPHABETIC: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.BOTTOM: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.HANGING: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.IDEOGRAPHIC: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.MIDDLE: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.TOP: CanvasTextBaseline"
+    }
+  ]
+}

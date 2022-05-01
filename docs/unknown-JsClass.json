@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JsClass",
+  "signature": "interface JsClass<T : Any>",
+  "items": [
+    {
+      "text": "abstract val name: String",
+      "desc": "Returns the unqualified name of the class represented by this instance."
+    },
+    {
+      "text": "val <T : Any> JsClass<T>.kotlin: KClass<T>",
+      "desc": "Obtains a KClass instance for the given constructor reference."
+    }
+  ]
+}

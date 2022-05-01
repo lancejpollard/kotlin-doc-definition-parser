@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ExtendableEventInit",
+  "signature": "interface ExtendableEventInit : EventInit",
+  "items": []
+}

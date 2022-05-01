@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "maxOf",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.maxOf( selector: (Char) -> Double): Double",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "inline fun <R : Comparable<R>> CharSequence.maxOf( selector: (Char) -> R): R",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence."
+    }
+  ],
+  "items": []
+}

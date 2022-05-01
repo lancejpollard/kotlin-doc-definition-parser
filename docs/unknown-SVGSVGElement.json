@@ -1,0 +1,146 @@
+{
+  "type": "unknown",
+  "name": "SVGSVGElement",
+  "signature": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+  "items": [
+    {
+      "text": "SVGSVGElement()",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "open var currentScale: Float"
+    },
+    {
+      "text": "open val currentTranslate: DOMPointReadOnly"
+    },
+    {
+      "text": "open val height: SVGAnimatedLength"
+    },
+    {
+      "text": "open val width: SVGAnimatedLength"
+    },
+    {
+      "text": "open val x: SVGAnimatedLength"
+    },
+    {
+      "text": "open val y: SVGAnimatedLength"
+    },
+    {
+      "text": "fun checkEnclosure( element: SVGElement, rect: DOMRectReadOnly): Boolean"
+    },
+    {
+      "text": "fun checkIntersection( element: SVGElement, rect: DOMRectReadOnly): Boolean"
+    },
+    {
+      "text": "fun createSVGAngle(): SVGAngle"
+    },
+    {
+      "text": "fun createSVGLength(): SVGLength"
+    },
+    {
+      "text": "fun createSVGMatrix(): DOMMatrix"
+    },
+    {
+      "text": "fun createSVGNumber(): SVGNumber"
+    },
+    {
+      "text": "fun createSVGPoint(): DOMPoint"
+    },
+    {
+      "text": "fun createSVGRect(): DOMRect"
+    },
+    {
+      "text": "fun createSVGTransform(): SVGTransform"
+    },
+    {
+      "text": "fun createSVGTransformFromMatrix( matrix: DOMMatrixReadOnly): SVGTransform"
+    },
+    {
+      "text": "fun deselectAll()"
+    },
+    {
+      "text": "fun forceRedraw()"
+    },
+    {
+      "text": "fun getElementById(elementId: String): Element"
+    },
+    {
+      "text": "fun getEnclosureList( rect: DOMRectReadOnly, referenceElement: SVGElement?): NodeList"
+    },
+    {
+      "text": "fun getIntersectionList( rect: DOMRectReadOnly, referenceElement: SVGElement?): NodeList"
+    },
+    {
+      "text": "fun suspendRedraw(maxWaitMilliseconds: Int): Int"
+    },
+    {
+      "text": "fun unsuspendRedraw(suspendHandleID: Int)"
+    },
+    {
+      "text": "fun unsuspendRedrawAll()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_DISABLE: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_MAGNIFY: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_UNKNOWN: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

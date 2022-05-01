@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "DOMRect",
+  "signature": "open class DOMRect : DOMRectReadOnly",
+  "items": [
+    {
+      "text": "DOMRect( x: Double = definedExternally, y: Double = definedExternally, width: Double = definedExternally, height: Double = definedExternally)",
+      "desc": "Exposes the JavaScript DOMRect to Kotlin"
+    },
+    {
+      "text": "open var height: Double"
+    },
+    {
+      "text": "open var width: Double"
+    },
+    {
+      "text": "open var x: Double"
+    },
+    {
+      "text": "open var y: Double"
+    }
+  ]
+}

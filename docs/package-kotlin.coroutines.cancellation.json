@@ -1,0 +1,18 @@
+{
+  "type": "package",
+  "name": "kotlin.coroutines.cancellation",
+  "items": [
+    {
+      "text": "open class CancellationException : IllegalStateException",
+      "desc": "Thrown by cancellable suspending functions if the coroutine is cancelled while it is suspended. It indicates normal cancellation of a coroutine."
+    },
+    {
+      "text": "fun CancellationException( message: String?, cause: Throwable?): CancellationException",
+      "desc": "Creates an instance of CancellationException with the given message and cause."
+    },
+    {
+      "text": "fun CancellationException( cause: Throwable?): CancellationException",
+      "desc": "Creates an instance of CancellationException with the given cause."
+    }
+  ]
+}

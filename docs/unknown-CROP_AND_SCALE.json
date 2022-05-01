@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CROP_AND_SCALE",
+  "signature": "inline val VideoResizeModeEnum.Companion.CROP_AND_SCALE: VideoResizeModeEnum",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaStreamTrackEventInit",
+  "signature": "fun MediaStreamTrackEventInit( track: MediaStreamTrack?, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaStreamTrackEventInit",
+  "items": []
+}

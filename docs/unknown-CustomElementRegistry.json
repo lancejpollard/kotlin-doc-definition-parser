@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "CustomElementRegistry",
+  "signature": "abstract class CustomElementRegistry",
+  "items": [
+    {
+      "text": "CustomElementRegistry()",
+      "desc": "Exposes the JavaScript CustomElementRegistry to Kotlin"
+    },
+    {
+      "text": "fun define( name: String, constructor: () -> dynamic, options: ElementDefinitionOptions = definedExternally)"
+    },
+    {
+      "text": "fun get(name: String): Any?"
+    },
+    {
+      "text": "fun whenDefined(name: String): Promise<Unit>"
+    }
+  ]
+}

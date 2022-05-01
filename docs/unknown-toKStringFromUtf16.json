@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "toKStringFromUtf16",
+  "signatures": [
+    {
+      "text": "fun CPointer<ShortVar>.toKStringFromUtf16(): String",
+      "desc": "Return the kotlin.String decoded from given zero-terminated UTF-16-encoded C string."
+    },
+    {
+      "text": "fun CPointer<UShortVar>.toKStringFromUtf16(): String"
+    }
+  ],
+  "items": []
+}

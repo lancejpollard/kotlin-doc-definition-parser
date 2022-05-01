@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onselect",
+  "signature": "open var onselect: ((Event) -> dynamic)?",
+  "items": []
+}

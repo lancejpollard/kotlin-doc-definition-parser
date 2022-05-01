@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "linkedStringMapOf",
+  "signature": "fun <V> linkedStringMapOf( vararg pairs: Pair<String, V>): LinkedHashMap<String, V>",
+  "items": []
+}

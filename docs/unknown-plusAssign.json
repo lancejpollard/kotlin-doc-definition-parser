@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "plusAssign",
+  "signatures": [
+    {
+      "text": "operator fun <K, V> MutableMap<in K, in V>.plusAssign( pair: Pair<K, V>)",
+      "desc": "Appends or replaces the given pair in this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<in K, in V>.plusAssign( pairs: Iterable<Pair<K, V>>)",
+      "desc": "Appends or replaces all pairs from the given collection of pairs in this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<in K, in V>.plusAssign( pairs: Array<out Pair<K, V>>)",
+      "desc": "Appends or replaces all pairs from the given array of pairs in this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<in K, in V>.plusAssign( pairs: Sequence<Pair<K, V>>)",
+      "desc": "Appends or replaces all pairs from the given sequence of pairs in this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<in K, in V>.plusAssign( map: Map<K, V>)",
+      "desc": "Appends or replaces all entries from the given map in this mutable map."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.plusAssign( element: T)",
+      "desc": "Adds the specified element to this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.plusAssign( elements: Iterable<T>)",
+      "desc": "Adds all elements of the given elements collection to this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.plusAssign( elements: Array<T>)",
+      "desc": "Adds all elements of the given elements array to this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.plusAssign( elements: Sequence<T>)",
+      "desc": "Adds all elements of the given elements sequence to this mutable collection."
+    }
+  ],
+  "items": []
+}

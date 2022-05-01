@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "pow",
+  "signatures": [
+    {
+      "text": "fun Double.pow(x: Double): Double",
+      "desc": "Raises this value to the power x."
+    },
+    {
+      "text": "fun Double.pow(n: Int): Double",
+      "desc": "Raises this value to the integer power n."
+    }
+  ],
+  "items": []
+}

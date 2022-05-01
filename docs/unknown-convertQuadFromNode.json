@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "convertQuadFromNode",
+  "signature": "open fun convertQuadFromNode( quad: dynamic, from: dynamic, options: ConvertCoordinateOptions): DOMQuad",
+  "items": []
+}

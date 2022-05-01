@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "DeprecatedSinceKotlin",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY, AnnotationTarget.ANNOTATION_CLASS, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.PROPERTY_SETTER, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.TYPEALIAS]) annotation class DeprecatedSinceKotlin",
+  "items": [
+    {
+      "text": "<init>( warningSince: String = \"\", errorSince: String = \"\", hiddenSince: String = \"\")",
+      "desc": "Marks the annotated declaration as deprecated. In contrast to Deprecated, severity of the reported diagnostic is not a constant value, but differs depending on the API version of the usage (the value of the -api-version argument when compiling the module where the usage is located). If the API version is greater or equal than hiddenSince, the declaration will not be accessible from the code (as if it was deprecated with level DeprecationLevel.HIDDEN), otherwise if the API version is greater or equal than errorSince, the usage will be marked as an error (as with DeprecationLevel.ERROR), otherwise if the API version is greater or equal than warningSince, the usage will be marked as a warning (as with DeprecationLevel.WARNING), otherwise the annotation is ignored."
+    },
+    {
+      "text": "val errorSince: String",
+      "desc": "the version, since which this deprecation should be reported as a error."
+    },
+    {
+      "text": "val hiddenSince: String",
+      "desc": "the version, since which the annotated declaration should not be available in code."
+    },
+    {
+      "text": "val warningSince: String",
+      "desc": "the version, since which this deprecation should be reported as a warning."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

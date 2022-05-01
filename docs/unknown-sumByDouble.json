@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sumByDouble",
+  "signature": "@DeprecatedSinceKotlin(\"1.5\") inline fun CharSequence.sumByDouble( selector: (Char) -> Double): Double",
+  "items": []
+}

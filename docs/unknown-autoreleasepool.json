@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "autoreleasepool",
+  "signature": "inline fun <R> autoreleasepool(block: () -> R): R",
+  "items": []
+}

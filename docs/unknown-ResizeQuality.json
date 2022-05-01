@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ResizeQuality",
+  "signature": "interface ResizeQuality",
+  "items": [
+    {
+      "text": "val ResizeQuality.Companion.HIGH: ResizeQuality"
+    },
+    {
+      "text": "val ResizeQuality.Companion.LOW: ResizeQuality"
+    },
+    {
+      "text": "val ResizeQuality.Companion.MEDIUM: ResizeQuality"
+    },
+    {
+      "text": "val ResizeQuality.Companion.PIXELATED: ResizeQuality"
+    }
+  ]
+}

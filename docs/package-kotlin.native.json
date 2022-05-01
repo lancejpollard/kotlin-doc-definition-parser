@@ -1,0 +1,201 @@
+{
+  "type": "package",
+  "name": "kotlin.native",
+  "items": [
+    {
+      "text": "class BitSet",
+      "desc": "A vector of bits growing if necessary and allowing one to set/clear/read bits from it by a bit index."
+    },
+    {
+      "text": "enum class CpuArchitecture",
+      "desc": "Central Processor Unit architecture."
+    },
+    {
+      "text": "class FileFailedToInitializeException : RuntimeException",
+      "desc": "Exception thrown when there was an error during file initalization."
+    },
+    {
+      "text": "class ImmutableBlob",
+      "desc": "An immutable compile-time array of bytes."
+    },
+    {
+      "text": "class IncorrectDereferenceException : RuntimeException",
+      "desc": "Exception thrown when top level variable is accessed from incorrect execution context."
+    },
+    {
+      "text": "enum class MemoryModel",
+      "desc": "Memory model."
+    },
+    {
+      "text": "enum class OsFamily",
+      "desc": "Operating system family."
+    },
+    {
+      "text": "object Platform",
+      "desc": "Object describing the current platform program executes upon."
+    },
+    {
+      "text": "typealias ReportUnhandledExceptionHook = (Throwable) -> Unit",
+      "desc": "Typealias describing custom exception reporting hook."
+    },
+    {
+      "text": "class Vector128"
+    },
+    {
+      "text": "annotation class CName",
+      "desc": "Makes top level function available from C/C++ code with the given name."
+    },
+    {
+      "text": "annotation class EagerInitialization",
+      "desc": "Forces a top-level property to be initialized eagerly, opposed to lazily on the first access to file and/or property. This annotation can be used as temporal migration assistance during the transition from the previous Kotlin/Native initialization scheme \"eager by default\" to the new one, \"lazy by default\"."
+    },
+    {
+      "text": "annotation class Retain",
+      "desc": "Preserve the function entry point during global optimizations."
+    },
+    {
+      "text": "annotation class RetainForTarget",
+      "desc": "Preserve the function entry point during global optimizations, only for the given target."
+    },
+    {
+      "text": "annotation class SymbolName",
+      "desc": "This annotation is deprecated. See KT-46649."
+    },
+    {
+      "text": "fun ImmutableBlob.asCPointer( offset: Int = 0): CPointer<ByteVar>",
+      "desc": "Returns stable C pointer to data at certain offset, useful as a way to pass resource to C APIs."
+    },
+    {
+      "text": "fun ImmutableBlob.asUCPointer( offset: Int = 0): CPointer<UByteVar>"
+    },
+    {
+      "text": "fun deinitRuntimeIfNeeded()",
+      "desc": "Deinitializes Kotlin runtime for the current thread, if was inited. Cannot be called from Kotlin frames holding references, thus deprecated."
+    },
+    {
+      "text": "fun ByteArray.getCharAt(index: Int): Char",
+      "desc": "Gets Char out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getDoubleAt(index: Int): Double",
+      "desc": "Gets Double out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getFloatAt(index: Int): Float",
+      "desc": "Gets Float out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getIntAt(index: Int): Int",
+      "desc": "Gets Int out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getLongAt(index: Int): Long",
+      "desc": "Gets Long out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getShortAt(index: Int): Short",
+      "desc": "Gets Short out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun ByteArray.getUByteAt(index: Int): UByte",
+      "desc": "Gets UByte out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getUIntAt(index: Int): UInt",
+      "desc": "Gets UInt out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.getULongAt(index: Int): ULong",
+      "desc": "Gets ULong out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun getUnhandledExceptionHook(): ReportUnhandledExceptionHook?",
+      "desc": "Returns a user-defined uncaught exception handler set by setUnhandledExceptionHook or null if no user-defined handlers were set."
+    },
+    {
+      "text": "fun ByteArray.getUShortAt(index: Int): UShort",
+      "desc": "Gets UShort out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun Any?.identityHashCode(): Int",
+      "desc": "Compute stable wrt potential object relocations by the memory manager identity hash code."
+    },
+    {
+      "text": "fun immutableBlobOf(vararg elements: Short): ImmutableBlob",
+      "desc": "Creates ImmutableBlob out of compile-time constant data."
+    },
+    {
+      "text": "fun initRuntimeIfNeeded()",
+      "desc": "Initializes Kotlin runtime for the current thread, if not inited already."
+    },
+    {
+      "text": "fun isExperimentalMM(): Boolean"
+    },
+    {
+      "text": "fun processUnhandledException(throwable: Throwable)",
+      "desc": "Performs the default processing of unhandled exception."
+    },
+    {
+      "text": "fun ByteArray.setCharAt(index: Int, value: Char)",
+      "desc": "Sets Char out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setDoubleAt(index: Int, value: Double)",
+      "desc": "Sets Double out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setFloatAt(index: Int, value: Float)",
+      "desc": "Sets Float out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setIntAt(index: Int, value: Int)",
+      "desc": "Sets Int out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setLongAt(index: Int, value: Long)",
+      "desc": "Sets Long out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setShortAt(index: Int, value: Short)",
+      "desc": "Sets Short out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setUByteAt(index: Int, value: UByte)",
+      "desc": "Sets UByte out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setUIntAt(index: Int, value: UInt)",
+      "desc": "Sets UInt out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun ByteArray.setULongAt(index: Int, value: ULong)",
+      "desc": "Sets ULong out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun setUnhandledExceptionHook( hook: ReportUnhandledExceptionHook): ReportUnhandledExceptionHook?",
+      "desc": "Install custom unhandled exception hook. Returns old hook, or null if it was not specified. Hook is invoked whenever there's uncaught exception reaching boundaries of the Kotlin world, i.e. top level main(), or when Objective-C to Kotlin call not marked with @Throws throws an exception. Hook must be a frozen lambda, so that it could be called from any thread/worker."
+    },
+    {
+      "text": "fun ByteArray.setUShortAt(index: Int, value: UShort)",
+      "desc": "Sets UShort out of the ByteArray byte buffer at specified index index"
+    },
+    {
+      "text": "fun terminateWithUnhandledException( throwable: Throwable): Nothing"
+    },
+    {
+      "text": "fun ImmutableBlob.toByteArray( startIndex: Int = 0, endIndex: Int = size): ByteArray",
+      "desc": "Copies the data from this blob into a new ByteArray."
+    },
+    {
+      "text": "fun ImmutableBlob.toUByteArray( startIndex: Int = 0, endIndex: Int = size): UByteArray",
+      "desc": "Copies the data from this blob into a new UByteArray."
+    },
+    {
+      "text": "fun vectorOf( f0: Float, f1: Float, f2: Float, f3: Float): Vector128"
+    }
+  ]
+}

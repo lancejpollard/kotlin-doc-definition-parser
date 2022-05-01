@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ForeignFetchOptions",
+  "signature": "fun ForeignFetchOptions( scopes: Array<String>?, origins: Array<String>?): ForeignFetchOptions",
+  "items": []
+}

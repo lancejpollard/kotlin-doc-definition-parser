@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ExperimentalJsExport",
+  "signature": "annotation class ExperimentalJsExport",
+  "items": [
+    {
+      "text": "ExperimentalJsExport()",
+      "desc": "Marks experimental JS export annotations."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asStableRef",
+  "signature": "fun <reified T : Any> CPointer<*>.asStableRef(): StableRef<T>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "pageYOffset",
+  "signature": "open val pageYOffset: Double",
+  "items": []
+}

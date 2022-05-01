@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toCodePoint",
+  "signature": "fun Char.Companion.toCodePoint(high: Char, low: Char): Int",
+  "items": []
+}

@@ -1,0 +1,157 @@
+{
+  "type": "unknown",
+  "name": "Event",
+  "signature": "open class Event",
+  "items": [
+    {
+      "text": "Event( type: String, eventInitDict: EventInit = definedExternally)",
+      "desc": "Exposes the JavaScript Event to Kotlin"
+    },
+    {
+      "text": "open val bubbles: Boolean"
+    },
+    {
+      "text": "open val cancelable: Boolean"
+    },
+    {
+      "text": "open val composed: Boolean"
+    },
+    {
+      "text": "open val currentTarget: EventTarget?"
+    },
+    {
+      "text": "open val defaultPrevented: Boolean"
+    },
+    {
+      "text": "open val eventPhase: Short"
+    },
+    {
+      "text": "open val isTrusted: Boolean"
+    },
+    {
+      "text": "open val target: EventTarget?"
+    },
+    {
+      "text": "open val timeStamp: Number"
+    },
+    {
+      "text": "open val type: String"
+    },
+    {
+      "text": "fun composedPath(): Array<EventTarget>"
+    },
+    {
+      "text": "fun initEvent( type: String, bubbles: Boolean, cancelable: Boolean)"
+    },
+    {
+      "text": "fun preventDefault()"
+    },
+    {
+      "text": "fun stopImmediatePropagation()"
+    },
+    {
+      "text": "fun stopPropagation()"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    },
+    {
+      "text": "open class BeforeUnloadEvent : Event",
+      "desc": "Exposes the JavaScript BeforeUnloadEvent to Kotlin"
+    },
+    {
+      "text": "open class ClipboardEvent : Event",
+      "desc": "Exposes the JavaScript ClipboardEvent to Kotlin"
+    },
+    {
+      "text": "open class CloseEvent : Event",
+      "desc": "Exposes the JavaScript CloseEvent to Kotlin"
+    },
+    {
+      "text": "open class CustomEvent : Event",
+      "desc": "Exposes the JavaScript CustomEvent to Kotlin"
+    },
+    {
+      "text": "open class ErrorEvent : Event",
+      "desc": "Exposes the JavaScript ErrorEvent to Kotlin"
+    },
+    {
+      "text": "open class ExtendableEvent : Event",
+      "desc": "Exposes the JavaScript ExtendableEvent to Kotlin"
+    },
+    {
+      "text": "open class HashChangeEvent : Event",
+      "desc": "Exposes the JavaScript HashChangeEvent to Kotlin"
+    },
+    {
+      "text": "open class MediaEncryptedEvent : Event"
+    },
+    {
+      "text": "open class MediaKeyMessageEvent : Event",
+      "desc": "Exposes the JavaScript MediaKeyMessageEvent to Kotlin"
+    },
+    {
+      "text": "open class MediaQueryListEvent : Event",
+      "desc": "Exposes the JavaScript MediaQueryListEvent to Kotlin"
+    },
+    {
+      "text": "open class MediaStreamTrackEvent : Event",
+      "desc": "Exposes the JavaScript MediaStreamTrackEvent to Kotlin"
+    },
+    {
+      "text": "open class MessageEvent : Event",
+      "desc": "Exposes the JavaScript MessageEvent to Kotlin"
+    },
+    {
+      "text": "open class OverconstrainedErrorEvent : Event"
+    },
+    {
+      "text": "open class PageTransitionEvent : Event",
+      "desc": "Exposes the JavaScript PageTransitionEvent to Kotlin"
+    },
+    {
+      "text": "open class PopStateEvent : Event",
+      "desc": "Exposes the JavaScript PopStateEvent to Kotlin"
+    },
+    {
+      "text": "open class ProgressEvent : Event",
+      "desc": "Exposes the JavaScript ProgressEvent to Kotlin"
+    },
+    {
+      "text": "open class PromiseRejectionEvent : Event",
+      "desc": "Exposes the JavaScript PromiseRejectionEvent to Kotlin"
+    },
+    {
+      "text": "open class RelatedEvent : Event"
+    },
+    {
+      "text": "open class ServiceWorkerMessageEvent : Event",
+      "desc": "Exposes the JavaScript ServiceWorkerMessageEvent to Kotlin"
+    },
+    {
+      "text": "open class StorageEvent : Event",
+      "desc": "Exposes the JavaScript StorageEvent to Kotlin"
+    },
+    {
+      "text": "open class TrackEvent : Event",
+      "desc": "Exposes the JavaScript TrackEvent to Kotlin"
+    },
+    {
+      "text": "open class UIEvent : Event",
+      "desc": "Exposes the JavaScript UIEvent to Kotlin"
+    },
+    {
+      "text": "open class WebGLContextEvent : Event",
+      "desc": "Exposes the JavaScript WebGLContextEvent to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "TextTrackMode",
+  "signature": "interface TextTrackMode",
+  "items": [
+    {
+      "text": "val TextTrackMode.Companion.DISABLED: TextTrackMode"
+    },
+    {
+      "text": "val TextTrackMode.Companion.HIDDEN: TextTrackMode"
+    },
+    {
+      "text": "val TextTrackMode.Companion.SHOWING: TextTrackMode"
+    }
+  ]
+}

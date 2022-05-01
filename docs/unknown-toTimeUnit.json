@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toTimeUnit",
+  "signature": "@ExperimentalTime fun DurationUnit.toTimeUnit(): TimeUnit",
+  "items": []
+}

@@ -1,0 +1,30 @@
+{
+  "type": "package",
+  "name": "kotlin.concurrent",
+  "items": [
+    {
+      "text": "fun fixedRateTimer( name: String? = null, daemon: Boolean = false, initialDelay: Long = 0.toLong(), period: Long, action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting after the specified initialDelay (expressed in milliseconds) and with the interval of period milliseconds between the start of the previous task and the start of the next one."
+    },
+    {
+      "text": "fun fixedRateTimer( name: String? = null, daemon: Boolean = false, startAt: Date, period: Long, action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting at the specified startAt date and with the interval of period milliseconds between the start of the previous task and the start of the next one."
+    },
+    {
+      "text": "fun thread( start: Boolean = true, isDaemon: Boolean = false, contextClassLoader: ClassLoader? = null, name: String? = null, priority: Int = -1, block: () -> Unit): Thread",
+      "desc": "Creates a thread that runs the specified block of code."
+    },
+    {
+      "text": "fun timer( name: String? = null, daemon: Boolean = false, initialDelay: Long = 0.toLong(), period: Long, action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting after the specified initialDelay (expressed in milliseconds) and with the interval of period milliseconds between the end of the previous task and the start of the next one."
+    },
+    {
+      "text": "fun timer( name: String? = null, daemon: Boolean = false, startAt: Date, period: Long, action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting at the specified startAt date and with the interval of period milliseconds between the end of the previous task and the start of the next one."
+    },
+    {
+      "text": "fun timerTask(action: TimerTask.() -> Unit): TimerTask",
+      "desc": "Wraps the specified action in a TimerTask."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "unknown",
+  "name": "MediaEncryptedEvent",
+  "signature": "open class MediaEncryptedEvent : Event",
+  "items": [
+    {
+      "text": "MediaEncryptedEvent( type: String, eventInitDict: MediaEncryptedEventInit = definedExternally)"
+    },
+    {
+      "text": "open val initData: ArrayBuffer?"
+    },
+    {
+      "text": "open val initDataType: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

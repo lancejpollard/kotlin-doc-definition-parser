@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interceptContinuation",
+  "signature": "abstract fun <T> interceptContinuation( continuation: Continuation<T>): Continuation<T>",
+  "items": []
+}

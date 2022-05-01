@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "CanvasDrawPath",
+  "signature": "interface CanvasDrawPath",
+  "items": [
+    {
+      "text": "abstract fun beginPath()"
+    },
+    {
+      "text": "abstract fun clip( fillRule: CanvasFillRule = definedExternally)"
+    },
+    {
+      "text": "abstract fun fill( fillRule: CanvasFillRule = definedExternally)"
+    },
+    {
+      "text": "abstract fun isPointInPath( x: Double, y: Double, fillRule: CanvasFillRule = definedExternally): Boolean"
+    },
+    {
+      "text": "abstract fun isPointInStroke(x: Double, y: Double): Boolean"
+    },
+    {
+      "text": "abstract fun resetClip()"
+    },
+    {
+      "text": "abstract fun stroke()"
+    },
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    }
+  ]
+}

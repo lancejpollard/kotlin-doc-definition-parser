@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "wrapFunction",
+  "signature": "fun <R> wrapFunction(func: KtFunction<R>): Int",
+  "items": []
+}

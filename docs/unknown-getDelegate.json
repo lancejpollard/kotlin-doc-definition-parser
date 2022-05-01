@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getDelegate",
+  "signature": "abstract fun getDelegate(receiver: T): Any?",
+  "items": []
+}

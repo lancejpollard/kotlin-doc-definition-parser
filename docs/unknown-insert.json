@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "insert",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.3\", \"1.6\") fun StringBuilder.insert( index: Int, c: Char): StringBuilder"
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\", \"1.6\") fun StringBuilder.insert( index: Int, csq: CharSequence?, start: Int, end: Int): StringBuilder",
+      "desc": "Inserts characters in a subsequence of the specified character sequence csq into this string builder at the specified index and returns this instance."
+    }
+  ],
+  "items": []
+}

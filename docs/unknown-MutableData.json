@@ -1,0 +1,47 @@
+{
+  "type": "unknown",
+  "name": "MutableData",
+  "signature": "class MutableData",
+  "items": [
+    {
+      "text": "MutableData(capacity: Int = 16)",
+      "desc": "Mutable concurrently accessible data buffer. Could be accessed from several workers simulteniously."
+    },
+    {
+      "text": "val size: Int",
+      "desc": "Current data size, may concurrently change later on."
+    },
+    {
+      "text": "fun append(data: MutableData)",
+      "desc": "Appends data to the buffer."
+    },
+    {
+      "text": "fun append( data: ByteArray, fromIndex: Int = 0, toIndex: Int = data.size)",
+      "desc": "Appends byte array to the buffer."
+    },
+    {
+      "text": "fun append(data: COpaquePointer?, count: Int)",
+      "desc": "Appends C data to the buffer, if data is null or count is non-positive - return."
+    },
+    {
+      "text": "fun copyInto( output: ByteArray, destinationIndex: Int, startIndex: Int, endIndex: Int)",
+      "desc": "Copies range of mutable data to the byte array."
+    },
+    {
+      "text": "operator fun get(index: Int): Byte",
+      "desc": "Get a byte from the mutable data."
+    },
+    {
+      "text": "fun reset()",
+      "desc": "Reset the data buffer, makings its size 0."
+    },
+    {
+      "text": "fun <R> withBufferLocked( block: (array: ByteArray, dataSize: Int) -> R): R",
+      "desc": "Executes provided block under lock with the raw data buffer. Block is executed under the spinlock, and must be short."
+    },
+    {
+      "text": "fun <R> withPointerLocked( block: (COpaquePointer, dataSize: Int) -> R): R",
+      "desc": "Executes provided block under lock with raw pointer to the data stored in the buffer. Block is executed under the spinlock, and must be short."
+    }
+  ]
+}

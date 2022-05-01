@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "atanh",
+  "signature": "fun atanh(x: Double): Double",
+  "items": []
+}

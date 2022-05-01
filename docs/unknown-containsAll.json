@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "containsAll",
+  "signature": "fun containsAll( elements: Collection<@UnsafeVariance E>): Boolean",
+  "items": []
+}

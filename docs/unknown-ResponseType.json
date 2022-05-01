@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "ResponseType",
+  "signature": "interface ResponseType",
+  "items": [
+    {
+      "text": "val ResponseType.Companion.BASIC: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.CORS: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.DEFAULT: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.ERROR: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.OPAQUE: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.OPAQUEREDIRECT: ResponseType"
+    }
+  ]
+}

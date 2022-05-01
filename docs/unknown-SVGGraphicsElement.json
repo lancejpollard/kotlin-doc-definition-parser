@@ -1,0 +1,124 @@
+{
+  "type": "unknown",
+  "name": "SVGGraphicsElement",
+  "signature": "abstract class SVGGraphicsElement : SVGElement, SVGTests",
+  "items": [
+    {
+      "text": "SVGGraphicsElement()",
+      "desc": "Exposes the JavaScript SVGGraphicsElement to Kotlin"
+    },
+    {
+      "text": "open val transform: SVGAnimatedTransformList"
+    },
+    {
+      "text": "fun getBBox( options: SVGBoundingBoxOptions = definedExternally): DOMRect"
+    },
+    {
+      "text": "fun getCTM(): DOMMatrix?"
+    },
+    {
+      "text": "fun getScreenCTM(): DOMMatrix?"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class SVGAElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGAElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGDefsElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGDefsElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGForeignObjectElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGForeignObjectElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGeometryElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGGeometryElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGImageElement : SVGGraphicsElement, SVGURIReference, HTMLOrSVGImageElement",
+      "desc": "Exposes the JavaScript SVGImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSwitchElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGSwitchElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSymbolElement : SVGGraphicsElement, SVGFitToViewBox",
+      "desc": "Exposes the JavaScript SVGSymbolElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextContentElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGTextContentElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGUnknownElement : SVGGraphicsElement"
+    },
+    {
+      "text": "abstract class SVGUseElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGUseElement to Kotlin"
+    }
+  ]
+}

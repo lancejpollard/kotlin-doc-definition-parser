@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "average",
+  "signature": "@JvmName(\"averageOfByte\") fun Sequence<Byte>.average(): Double",
+  "items": []
+}

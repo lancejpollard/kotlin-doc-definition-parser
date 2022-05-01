@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "CloseEvent",
+  "signature": "open class CloseEvent : Event",
+  "items": [
+    {
+      "text": "CloseEvent( type: String, eventInitDict: CloseEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript CloseEvent to Kotlin"
+    },
+    {
+      "text": "open val code: Short"
+    },
+    {
+      "text": "open val reason: String"
+    },
+    {
+      "text": "open val wasClean: Boolean"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

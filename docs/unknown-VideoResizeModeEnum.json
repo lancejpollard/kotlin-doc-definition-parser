@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "VideoResizeModeEnum",
+  "signature": "interface VideoResizeModeEnum",
+  "items": [
+    {
+      "text": "val VideoResizeModeEnum.Companion.CROP_AND_SCALE: VideoResizeModeEnum"
+    },
+    {
+      "text": "val VideoResizeModeEnum.Companion.NONE: VideoResizeModeEnum"
+    }
+  ]
+}

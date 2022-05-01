@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "XMLHttpRequestEventTarget",
+  "signature": "abstract class XMLHttpRequestEventTarget : EventTarget",
+  "items": [
+    {
+      "text": "XMLHttpRequestEventTarget()",
+      "desc": "Exposes the JavaScript XMLHttpRequestEventTarget to Kotlin"
+    },
+    {
+      "text": "open var onabort: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onload: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadstart: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onprogress: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ontimeout: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open class XMLHttpRequest : XMLHttpRequestEventTarget",
+      "desc": "Exposes the JavaScript XMLHttpRequest to Kotlin"
+    },
+    {
+      "text": "abstract class XMLHttpRequestUpload : XMLHttpRequestEventTarget"
+    }
+  ]
+}

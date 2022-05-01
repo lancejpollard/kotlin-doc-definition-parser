@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "doubleUpper",
+  "signature": "fun doubleUpper(value: Double): Int",
+  "items": []
+}

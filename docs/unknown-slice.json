@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "slice",
+  "signatures": [
+    {
+      "text": "fun CharSequence.slice(indices: IntRange): CharSequence",
+      "desc": "Returns a char sequence containing characters of the original char sequence at the specified range of indices."
+    },
+    {
+      "text": "fun String.slice(indices: IntRange): String",
+      "desc": "Returns a string containing characters of the original string at the specified range of indices."
+    },
+    {
+      "text": "fun CharSequence.slice(indices: Iterable<Int>): CharSequence",
+      "desc": "Returns a char sequence containing characters of the original char sequence at specified indices."
+    },
+    {
+      "text": "fun String.slice(indices: Iterable<Int>): String",
+      "desc": "Returns a string containing characters of the original string at specified indices."
+    }
+  ],
+  "items": []
+}

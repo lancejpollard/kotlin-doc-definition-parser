@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "VideoTrackList",
+  "signature": "abstract class VideoTrackList : EventTarget",
+  "items": [
+    {
+      "text": "VideoTrackList()",
+      "desc": "Exposes the JavaScript VideoTrackList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open var onaddtrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onremovetrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val selectedIndex: Int"
+    },
+    {
+      "text": "fun getTrackById(id: String): VideoTrack?"
+    },
+    {
+      "text": "operator fun VideoTrackList.get(index: Int): VideoTrack?"
+    }
+  ]
+}

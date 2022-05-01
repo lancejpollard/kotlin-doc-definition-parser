@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "ProgressEvent",
+  "signature": "open class ProgressEvent : Event",
+  "items": [
+    {
+      "text": "ProgressEvent( type: String, eventInitDict: ProgressEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript ProgressEvent to Kotlin"
+    },
+    {
+      "text": "open val lengthComputable: Boolean"
+    },
+    {
+      "text": "open val loaded: Number"
+    },
+    {
+      "text": "open val total: Number"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

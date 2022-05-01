@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "ExternalObjCClass",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class ExternalObjCClass",
+  "items": [
+    {
+      "text": "ExternalObjCClass( protocolGetter: String = \"\", binaryName: String = \"\")"
+    },
+    {
+      "text": "val binaryName: String"
+    },
+    {
+      "text": "val protocolGetter: String"
+    }
+  ]
+}

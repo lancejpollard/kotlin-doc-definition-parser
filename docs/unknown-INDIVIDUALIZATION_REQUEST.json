@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "INDIVIDUALIZATION_REQUEST",
+  "signature": "inline val MediaKeyMessageType.Companion.INDIVIDUALIZATION_REQUEST: MediaKeyMessageType",
+  "items": []
+}

@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "XMLHttpRequestUpload",
+  "signature": "abstract class XMLHttpRequestUpload : XMLHttpRequestEventTarget",
+  "items": [
+    {
+      "text": "XMLHttpRequestUpload()"
+    }
+  ]
+}

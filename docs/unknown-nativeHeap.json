@@ -1,0 +1,46 @@
+{
+  "type": "unknown",
+  "name": "nativeHeap",
+  "signature": "object nativeHeap : NativeFreeablePlacement",
+  "items": [
+    {
+      "text": "fun alloc(size: Long, align: Int): NativePointed"
+    },
+    {
+      "text": "fun free(mem: NativePtr)"
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.alloc(): T",
+      "desc": "Allocates variable of given type."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.alloc( initialize: T.() -> Unit): T",
+      "desc": "Allocates variable of given type and initializes it applying given block."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.allocArray( length: Long): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length."
+    },
+    {
+      "text": "fun <T : CVariable> NativePlacement.allocArray( length: Long, initializer: T.(index: Long) -> Unit): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length, and initializes its elements applying given block."
+    },
+    {
+      "text": "fun <T : CPointer<*>> NativePlacement.allocArrayOf( vararg elements: T?): CArrayPointer<CPointerVarOf<T>>",
+      "desc": "Allocates C array of given values."
+    },
+    {
+      "text": "fun NativePlacement.allocArrayOf( elements: ByteArray): CArrayPointer<ByteVar>"
+    },
+    {
+      "text": "fun <T : CPointed> NativePlacement.allocArrayOfPointersTo( elements: List<T?>): CArrayPointer<CPointerVar<T>>",
+      "desc": "Allocates C array of pointers to given elements."
+    },
+    {
+      "text": "fun <T : CPointed> NativePlacement.allocPointerTo(): CPointerVar<T>"
+    },
+    {
+      "text": "fun NativeFreeablePlacement.free(pointer: CPointer<*>)"
+    }
+  ]
+}

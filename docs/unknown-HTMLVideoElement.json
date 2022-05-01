@@ -1,0 +1,110 @@
+{
+  "type": "unknown",
+  "name": "HTMLVideoElement",
+  "signature": "abstract class HTMLVideoElement : HTMLMediaElement, CanvasImageSource, TexImageSource",
+  "items": [
+    {
+      "text": "HTMLVideoElement()",
+      "desc": "Exposes the JavaScript HTMLVideoElement to Kotlin"
+    },
+    {
+      "text": "open var height: Int"
+    },
+    {
+      "text": "open var playsInline: Boolean"
+    },
+    {
+      "text": "open var poster: String"
+    },
+    {
+      "text": "open val videoHeight: Int"
+    },
+    {
+      "text": "open val videoWidth: Int"
+    },
+    {
+      "text": "open var width: Int"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val HAVE_CURRENT_DATA: Short"
+    },
+    {
+      "text": "val HAVE_ENOUGH_DATA: Short"
+    },
+    {
+      "text": "val HAVE_FUTURE_DATA: Short"
+    },
+    {
+      "text": "val HAVE_METADATA: Short"
+    },
+    {
+      "text": "val HAVE_NOTHING: Short"
+    },
+    {
+      "text": "val NETWORK_EMPTY: Short"
+    },
+    {
+      "text": "val NETWORK_IDLE: Short"
+    },
+    {
+      "text": "val NETWORK_LOADING: Short"
+    },
+    {
+      "text": "val NETWORK_NO_SOURCE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

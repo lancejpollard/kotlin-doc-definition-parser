@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "dropLast",
+  "signatures": [
+    {
+      "text": "fun CharSequence.dropLast(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence with the last n characters removed."
+    },
+    {
+      "text": "fun String.dropLast(n: Int): String",
+      "desc": "Returns a string with the last n characters removed."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "parse",
+  "signature": "fun parse(value: String): Duration",
+  "items": []
+}

@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "CanvasLineJoin",
+  "signature": "interface CanvasLineJoin",
+  "items": [
+    {
+      "text": "val CanvasLineJoin.Companion.BEVEL: CanvasLineJoin"
+    },
+    {
+      "text": "val CanvasLineJoin.Companion.MITER: CanvasLineJoin"
+    },
+    {
+      "text": "val CanvasLineJoin.Companion.ROUND: CanvasLineJoin"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "type": "unknown",
+  "name": "HTMLElement",
+  "signature": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+  "items": [
+    {
+      "text": "HTMLElement()",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    },
+    {
+      "text": "open var accessKey: String"
+    },
+    {
+      "text": "open val accessKeyLabel: String"
+    },
+    {
+      "text": "open var contextMenu: HTMLMenuElement?"
+    },
+    {
+      "text": "open val dataset: DOMStringMap"
+    },
+    {
+      "text": "open var dir: String"
+    },
+    {
+      "text": "open var draggable: Boolean"
+    },
+    {
+      "text": "open val dropzone: DOMTokenList"
+    },
+    {
+      "text": "open var hidden: Boolean"
+    },
+    {
+      "text": "open var innerText: String"
+    },
+    {
+      "text": "open var lang: String"
+    },
+    {
+      "text": "open val offsetHeight: Int"
+    },
+    {
+      "text": "open val offsetLeft: Int"
+    },
+    {
+      "text": "open val offsetParent: Element?"
+    },
+    {
+      "text": "open val offsetTop: Int"
+    },
+    {
+      "text": "open val offsetWidth: Int"
+    },
+    {
+      "text": "open var spellcheck: Boolean"
+    },
+    {
+      "text": "open var tabIndex: Int"
+    },
+    {
+      "text": "open var title: String"
+    },
+    {
+      "text": "open var translate: Boolean"
+    },
+    {
+      "text": "fun blur()"
+    },
+    {
+      "text": "fun click()"
+    },
+    {
+      "text": "fun focus()"
+    },
+    {
+      "text": "fun forceSpellCheck()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class HTMLAnchorElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAnchorElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLAppletElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLAreaElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAreaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBaseElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLBaseElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBodyElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLBodyElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBRElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLBRElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLButtonElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLButtonElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLCanvasElement : HTMLElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLCanvasElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDataElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDataElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDataListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDataListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDetailsElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDetailsElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDialogElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDialogElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDirectoryElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLDivElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDivElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLEmbedElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLEmbedElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFieldSetElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFieldSetElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFontElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFontElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFormElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFormElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFrameElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLFrameSetElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLFrameSetElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHeadElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHeadElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHeadingElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHeadingElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHRElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHRElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHtmlElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHtmlElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLIFrameElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLIFrameElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLImageElement : HTMLElement, HTMLOrSVGImageElement, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLInputElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLInputElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLKeygenElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLKeygenElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLabelElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLabelElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLegendElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLegendElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLIElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLIElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLinkElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLLinkElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMapElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMapElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMarqueeElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMarqueeElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMediaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMediaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMenuElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLMenuItemElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLMetaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMetaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMeterElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMeterElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLModElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLModElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLObjectElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLObjectElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLOListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptGroupElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptGroupElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptionElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOutputElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLOutputElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLParagraphElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLParagraphElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLParamElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLParamElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLPictureElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLPictureElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLPreElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLPreElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLProgressElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLProgressElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLQuoteElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLQuoteElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLScriptElement : HTMLElement, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript HTMLScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSelectElement : HTMLElement, ItemArrayLike<Element>",
+      "desc": "Exposes the JavaScript HTMLSelectElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSlotElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSlotElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSourceElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSourceElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSpanElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSpanElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLStyleElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLStyleElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableCaptionElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableCaptionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableCellElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableCellElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableColElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableColElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableRowElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableRowElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableSectionElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableSectionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTemplateElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTemplateElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTextAreaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTextAreaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTimeElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTimeElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTitleElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTitleElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTrackElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTrackElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLUListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLUListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLUnknownElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLUnknownElement to Kotlin"
+    }
+  ]
+}

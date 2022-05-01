@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "require",
+  "signatures": [
+    {
+      "text": "fun require(value: Boolean)",
+      "desc": "Throws an IllegalArgumentException if the value is false."
+    },
+    {
+      "text": "inline fun require(value: Boolean, lazyMessage: () -> Any)",
+      "desc": "Throws an IllegalArgumentException with the result of calling lazyMessage if the value is false."
+    }
+  ],
+  "items": []
+}

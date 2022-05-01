@@ -1,0 +1,168 @@
+{
+  "type": "unknown",
+  "name": "Float",
+  "signature": "class Float : Number, Comparable<Float>",
+  "items": [
+    {
+      "text": "operator fun compareTo(other: Byte): Int",
+      "desc": "Compares this value with the specified value for order. Returns zero if this value is equal to the specified other value, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun dec(): Float",
+      "desc": "Returns this value decremented by one."
+    },
+    {
+      "text": "operator fun div(other: Byte): Float",
+      "desc": "Divides this value by the other value."
+    },
+    {
+      "text": "fun equals(other: Float): Boolean"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "operator fun inc(): Float",
+      "desc": "Returns this value incremented by one."
+    },
+    {
+      "text": "operator fun minus(other: Byte): Float",
+      "desc": "Subtracts the other value from this value."
+    },
+    {
+      "text": "operator fun plus(other: Byte): Float",
+      "desc": "Adds the other value to this value."
+    },
+    {
+      "text": "operator fun rem(other: Byte): Float",
+      "desc": "Calculates the remainder of truncating division of this value by the other value."
+    },
+    {
+      "text": "operator fun times(other: Byte): Float",
+      "desc": "Multiplies this value by the other value."
+    },
+    {
+      "text": "fun toByte(): Byte",
+      "desc": "Converts this Float value to Byte."
+    },
+    {
+      "text": "fun toChar(): Char",
+      "desc": "Converts this Float value to Char."
+    },
+    {
+      "text": "fun toDouble(): Double",
+      "desc": "Converts this Float value to Double."
+    },
+    {
+      "text": "fun toFloat(): Float",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "fun toInt(): Int",
+      "desc": "Converts this Float value to Int."
+    },
+    {
+      "text": "fun toLong(): Long",
+      "desc": "Converts this Float value to Long."
+    },
+    {
+      "text": "fun toShort(): Short",
+      "desc": "Converts this Float value to Short."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "operator fun unaryMinus(): Float",
+      "desc": "Returns the negative of this value."
+    },
+    {
+      "text": "operator fun unaryPlus(): Float",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "const val MAX_VALUE: Float",
+      "desc": "A constant holding the largest positive finite value of Float."
+    },
+    {
+      "text": "const val MIN_VALUE: Float",
+      "desc": "A constant holding the smallest positive nonzero value of Float."
+    },
+    {
+      "text": "const val NaN: Float",
+      "desc": "A constant holding the \"not a number\" value of Float."
+    },
+    {
+      "text": "const val NEGATIVE_INFINITY: Float",
+      "desc": "A constant holding the negative infinity value of Float."
+    },
+    {
+      "text": "const val POSITIVE_INFINITY: Float",
+      "desc": "A constant holding the positive infinity value of Float."
+    },
+    {
+      "text": "const val SIZE_BITS: Int",
+      "desc": "The number of bits used to represent an instance of Float in a binary form."
+    },
+    {
+      "text": "const val SIZE_BYTES: Int",
+      "desc": "The number of bytes used to represent an instance of Float in a binary form."
+    },
+    {
+      "text": "fun Float.coerceAtLeast(minimumValue: Float): Float",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun Float.coerceAtMost(maximumValue: Float): Float",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun Float.coerceIn( minimumValue: Float, maximumValue: Float): Float",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun Float.mod(other: Float): Float",
+      "desc": "Calculates the remainder of flooring division of this value by the other value."
+    },
+    {
+      "text": "fun <R : Number> Number.narrow(): R"
+    },
+    {
+      "text": "operator fun Float.rangeTo( that: Float): ClosedFloatingPointRange<Float>",
+      "desc": "Creates a range from this Float value to the specified that value."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun <R : Number> Number.signExtend(): R"
+    },
+    {
+      "text": "fun Float.toBigDecimal(): BigDecimal",
+      "desc": "Returns the value of this Float number as a BigDecimal."
+    },
+    {
+      "text": "fun Float.toUInt(): UInt",
+      "desc": "Converts this Float value to UInt."
+    },
+    {
+      "text": "fun Float.toULong(): ULong",
+      "desc": "Converts this Float value to ULong."
+    }
+  ]
+}

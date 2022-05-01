@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLFramebuffer",
+  "signature": "abstract class WebGLFramebuffer : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLFramebuffer()",
+      "desc": "Exposes the JavaScript WebGLFramebuffer to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "not",
+  "signature": "operator fun not(): Boolean",
+  "items": []
+}

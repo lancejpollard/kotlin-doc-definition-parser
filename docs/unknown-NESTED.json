@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NESTED",
+  "signature": "inline val FrameType.Companion.NESTED: FrameType",
+  "items": []
+}

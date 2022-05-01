@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "IntVar",
+  "signature": "typealias IntVar = IntVarOf<Int>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "readValues",
+  "signature": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>",
+  "items": []
+}

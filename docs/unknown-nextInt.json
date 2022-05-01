@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "nextInt",
+  "signature": "fun Random.nextInt(range: IntRange): Int",
+  "items": []
+}

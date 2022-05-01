@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "MediaQueryListEvent",
+  "signature": "open class MediaQueryListEvent : Event",
+  "items": [
+    {
+      "text": "MediaQueryListEvent( type: String, eventInitDict: MediaQueryListEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript MediaQueryListEvent to Kotlin"
+    },
+    {
+      "text": "open val matches: Boolean"
+    },
+    {
+      "text": "open val media: String"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

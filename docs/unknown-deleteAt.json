@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "deleteAt",
+  "signature": "fun StringBuilder.deleteAt(index: Int): StringBuilder",
+  "items": []
+}

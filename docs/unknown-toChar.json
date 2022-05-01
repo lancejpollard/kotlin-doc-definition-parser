@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toChar",
+  "signature": "@DeprecatedSinceKotlin(\"1.5\") fun toChar(): Char",
+  "items": []
+}

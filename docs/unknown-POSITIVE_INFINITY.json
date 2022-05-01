@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "POSITIVE_INFINITY",
+  "signature": "const val POSITIVE_INFINITY: Float",
+  "items": []
+}

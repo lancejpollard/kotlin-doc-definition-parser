@@ -1,0 +1,41 @@
+{
+  "type": "unknown",
+  "name": "EventSource",
+  "signature": "open class EventSource : EventTarget",
+  "items": [
+    {
+      "text": "EventSource( url: String, eventSourceInitDict: EventSourceInit = definedExternally)",
+      "desc": "Exposes the JavaScript EventSource to Kotlin"
+    },
+    {
+      "text": "var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "var onopen: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "open val withCredentials: Boolean"
+    },
+    {
+      "text": "fun close()"
+    },
+    {
+      "text": "val CLOSED: Short"
+    },
+    {
+      "text": "val CONNECTING: Short"
+    },
+    {
+      "text": "val OPEN: Short"
+    }
+  ]
+}

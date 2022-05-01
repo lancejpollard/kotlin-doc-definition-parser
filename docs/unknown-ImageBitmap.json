@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "ImageBitmap",
+  "signature": "abstract class ImageBitmap : CanvasImageSource, TexImageSource",
+  "items": [
+    {
+      "text": "ImageBitmap()",
+      "desc": "Exposes the JavaScript ImageBitmap to Kotlin"
+    },
+    {
+      "text": "open val height: Int"
+    },
+    {
+      "text": "open val width: Int"
+    },
+    {
+      "text": "fun close()"
+    }
+  ]
+}

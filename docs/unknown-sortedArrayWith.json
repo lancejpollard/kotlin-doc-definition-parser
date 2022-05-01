@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sortedArrayWith",
+  "signature": "fun <T> Array<out T>.sortedArrayWith( comparator: Comparator<in T>): Array<out T>",
+  "items": []
+}

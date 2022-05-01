@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "allocateArena",
+  "signature": "fun allocateArena(): Arena",
+  "items": []
+}

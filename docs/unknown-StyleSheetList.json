@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "StyleSheetList",
+  "signature": "abstract class StyleSheetList : ItemArrayLike<StyleSheet>",
+  "items": [
+    {
+      "text": "StyleSheetList()",
+      "desc": "Exposes the JavaScript StyleSheetList to Kotlin"
+    },
+    {
+      "text": "open fun item(index: Int): StyleSheet?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun StyleSheetList.get(index: Int): StyleSheet?"
+    }
+  ]
+}

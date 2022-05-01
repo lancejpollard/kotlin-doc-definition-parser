@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "CanvasDrawImage",
+  "signature": "interface CanvasDrawImage",
+  "items": [
+    {
+      "text": "abstract fun drawImage( image: CanvasImageSource, dx: Double, dy: Double)"
+    },
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    }
+  ]
+}

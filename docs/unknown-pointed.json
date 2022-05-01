@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "pointed",
+  "signatures": [
+    {
+      "text": "inline val <reified T : CPointed> CPointer<T>.pointed: T",
+      "desc": "Returns the corresponding CPointed."
+    },
+    {
+      "text": "inline var <reified T : CPointed, reified P : CPointer<T>> CPointerVarOf<P>.pointed: T?",
+      "desc": "The code or data pointed by the value of this variable."
+    }
+  ],
+  "items": []
+}

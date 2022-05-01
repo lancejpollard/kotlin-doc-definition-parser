@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PREMULTIPLY",
+  "signature": "inline val PremultiplyAlpha.Companion.PREMULTIPLY: PremultiplyAlpha",
+  "items": []
+}

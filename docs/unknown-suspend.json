@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "suspend",
+  "signature": "inline fun <R> suspend( noinline block: suspend () -> R): suspend () -> R",
+  "items": []
+}

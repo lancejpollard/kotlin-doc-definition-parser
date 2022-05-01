@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "addSuppressed",
+  "signature": "fun Throwable.addSuppressed(exception: Throwable)",
+  "items": []
+}

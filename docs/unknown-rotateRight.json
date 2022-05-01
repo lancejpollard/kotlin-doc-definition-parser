@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "rotateRight",
+  "signatures": [
+    {
+      "text": "fun Int.rotateRight(bitCount: Int): Int",
+      "desc": "Rotates the binary representation of this Int number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun Long.rotateRight(bitCount: Int): Long",
+      "desc": "Rotates the binary representation of this Long number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun Byte.rotateRight(bitCount: Int): Byte",
+      "desc": "Rotates the binary representation of this Byte number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun Short.rotateRight(bitCount: Int): Short",
+      "desc": "Rotates the binary representation of this Short number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun UInt.rotateRight(bitCount: Int): UInt",
+      "desc": "Rotates the binary representation of this UInt number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun ULong.rotateRight(bitCount: Int): ULong",
+      "desc": "Rotates the binary representation of this ULong number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun UByte.rotateRight(bitCount: Int): UByte",
+      "desc": "Rotates the binary representation of this UByte number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun UShort.rotateRight(bitCount: Int): UShort",
+      "desc": "Rotates the binary representation of this UShort number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    }
+  ],
+  "items": []
+}

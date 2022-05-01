@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "minOf",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.minOf( selector: (Char) -> Double): Double",
+      "desc": "Returns the smallest value among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "inline fun <R : Comparable<R>> CharSequence.minOf( selector: (Char) -> R): R",
+      "desc": "Returns the smallest value among all values produced by selector function applied to each character in the char sequence."
+    }
+  ],
+  "items": []
+}

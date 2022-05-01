@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapIndexedNotNullTo",
+  "signature": "inline fun <R : Any, C : MutableCollection<in R>> CharSequence.mapIndexedNotNullTo( destination: C, transform: (index: Int, Char) -> R?): C",
+  "items": []
+}

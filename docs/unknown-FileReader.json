@@ -1,0 +1,62 @@
+{
+  "type": "unknown",
+  "name": "FileReader",
+  "signature": "open class FileReader : EventTarget",
+  "items": [
+    {
+      "text": "FileReader()",
+      "desc": "Exposes the JavaScript FileReader to Kotlin"
+    },
+    {
+      "text": "open val error: dynamic"
+    },
+    {
+      "text": "var onabort: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onload: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onloadend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onloadstart: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "var onprogress: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open val result: dynamic"
+    },
+    {
+      "text": "fun abort()"
+    },
+    {
+      "text": "fun readAsArrayBuffer(blob: Blob)"
+    },
+    {
+      "text": "fun readAsBinaryString(blob: Blob)"
+    },
+    {
+      "text": "fun readAsDataURL(blob: Blob)"
+    },
+    {
+      "text": "fun readAsText(blob: Blob, label: String = definedExternally)"
+    },
+    {
+      "text": "val DONE: Short"
+    },
+    {
+      "text": "val EMPTY: Short"
+    },
+    {
+      "text": "val LOADING: Short"
+    }
+  ]
+}

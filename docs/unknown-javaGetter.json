@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaGetter",
+  "signature": "val KProperty<*>.javaGetter: Method?",
+  "items": []
+}

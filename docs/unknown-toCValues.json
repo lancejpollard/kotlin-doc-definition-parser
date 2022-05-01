@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toCValues",
+  "signature": "fun ByteArray.toCValues(): CValues<ByteVar>",
+  "items": []
+}

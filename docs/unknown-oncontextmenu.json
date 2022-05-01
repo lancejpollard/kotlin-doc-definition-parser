@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncontextmenu",
+  "signature": "open var oncontextmenu: ((MouseEvent) -> dynamic)?",
+  "items": []
+}

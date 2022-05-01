@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ACTIVATING",
+  "signature": "inline val ServiceWorkerState.Companion.ACTIVATING: ServiceWorkerState",
+  "items": []
+}

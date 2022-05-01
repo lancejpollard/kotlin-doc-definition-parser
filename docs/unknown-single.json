@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "single",
+  "signatures": [
+    {
+      "text": "fun CharSequence.single(): Char",
+      "desc": "Returns the single character, or throws an exception if the char sequence is empty or has more than one character."
+    },
+    {
+      "text": "inline fun CharSequence.single( predicate: (Char) -> Boolean): Char",
+      "desc": "Returns the single character matching the given predicate, or throws exception if there is no or more than one matching character."
+    }
+  ],
+  "items": []
+}

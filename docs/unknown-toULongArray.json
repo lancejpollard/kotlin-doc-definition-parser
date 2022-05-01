@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toULongArray",
+  "signatures": [
+    {
+      "text": "@ExperimentalUnsignedTypes fun Array<out ULong>.toULongArray(): ULongArray",
+      "desc": "Returns an array of ULong containing all of the elements of this generic array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun LongArray.toULongArray(): ULongArray",
+      "desc": "Returns an array of type ULongArray, which is a copy of this array where each element is an unsigned reinterpretation of the corresponding element of this array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun Collection<ULong>.toULongArray(): ULongArray",
+      "desc": "Returns an array of ULong containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

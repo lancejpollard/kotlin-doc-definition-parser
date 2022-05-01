@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "Entry",
+  "signature": "interface Entry<out K, out V>",
+  "items": [
+    {
+      "text": "abstract val key: K",
+      "desc": "Returns the key of this key/value pair."
+    },
+    {
+      "text": "abstract val value: V",
+      "desc": "Returns the value of this key/value pair."
+    },
+    {
+      "text": "operator fun <K, V> Entry<K, V>.component1(): K",
+      "desc": "Returns the key component of the map entry."
+    },
+    {
+      "text": "operator fun <K, V> Entry<K, V>.component2(): V",
+      "desc": "Returns the value component of the map entry."
+    },
+    {
+      "text": "fun <K, V> Entry<K, V>.toPair(): Pair<K, V>",
+      "desc": "Converts entry to Pair with key being first component and value being second."
+    },
+    {
+      "text": "interface MutableEntry<K, V> : Entry<K, V>",
+      "desc": "Represents a key/value pair held by a MutableMap."
+    }
+  ]
+}

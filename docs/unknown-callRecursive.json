@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "callRecursive",
+  "signatures": [
+    {
+      "text": "abstract suspend fun callRecursive(value: T): R",
+      "desc": "Makes recursive call to this DeepRecursiveFunction function putting the call activation frame on the heap, as opposed to the actual call stack that is used by a regular recursive call."
+    },
+    {
+      "text": "abstract suspend fun <U, S> DeepRecursiveFunction<U, S>.callRecursive( value: U): S",
+      "desc": "Makes call to the specified DeepRecursiveFunction function putting the call activation frame on the heap, as opposed to the actual call stack that is used by a regular call."
+    }
+  ],
+  "items": []
+}

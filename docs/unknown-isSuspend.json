@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSuspend",
+  "signature": "abstract val isSuspend: Boolean",
+  "items": []
+}

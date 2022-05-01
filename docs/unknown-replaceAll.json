@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "replaceAll",
+  "signature": "fun <T> MutableList<T>.replaceAll(transformation: (T) -> T)",
+  "items": []
+}

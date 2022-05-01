@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isNotBlank",
+  "signature": "fun CharSequence.isNotBlank(): Boolean",
+  "items": []
+}

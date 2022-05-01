@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onmouseout",
+  "signature": "open var onmouseout: ((MouseEvent) -> dynamic)?",
+  "items": []
+}

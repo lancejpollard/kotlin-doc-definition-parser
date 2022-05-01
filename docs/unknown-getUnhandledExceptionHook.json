@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getUnhandledExceptionHook",
+  "signature": "@ExperimentalStdlibApi fun getUnhandledExceptionHook(): ReportUnhandledExceptionHook?",
+  "items": []
+}

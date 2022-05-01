@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DESCRIPTIONS",
+  "signature": "inline val TextTrackKind.Companion.DESCRIPTIONS: TextTrackKind",
+  "items": []
+}

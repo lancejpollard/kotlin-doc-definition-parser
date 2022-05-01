@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "OverconstrainedErrorEvent",
+  "signature": "open class OverconstrainedErrorEvent : Event",
+  "items": [
+    {
+      "text": "OverconstrainedErrorEvent( type: String, eventInitDict: OverconstrainedErrorEventInit)"
+    },
+    {
+      "text": "open val error: dynamic"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

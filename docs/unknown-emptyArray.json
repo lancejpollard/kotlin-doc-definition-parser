@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "emptyArray",
+  "signature": "fun <reified T> emptyArray(): Array<T>",
+  "items": []
+}

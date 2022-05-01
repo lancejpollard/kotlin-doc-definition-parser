@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "buildList",
+  "signatures": [
+    {
+      "text": "inline fun <E> buildList( builderAction: MutableList<E>.() -> Unit): List<E>",
+      "desc": "Builds a new read-only List by populating a MutableList using the given builderAction and returning a read-only list with the same elements."
+    },
+    {
+      "text": "inline fun <E> buildList( capacity: Int, builderAction: MutableList<E>.() -> Unit): List<E>",
+      "desc": "Builds a new read-only List by populating a MutableList using the given builderAction and returning a read-only list with the same elements."
+    }
+  ],
+  "items": []
+}

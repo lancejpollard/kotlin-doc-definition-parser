@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asArray",
+  "signature": "fun RegExpMatch.asArray(): Array<out String?>",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "fixedRateTimer",
+  "signatures": [
+    {
+      "text": "inline fun fixedRateTimer( name: String? = null, daemon: Boolean = false, initialDelay: Long = 0.toLong(), period: Long, crossinline action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting after the specified initialDelay (expressed in milliseconds) and with the interval of period milliseconds between the start of the previous task and the start of the next one."
+    },
+    {
+      "text": "inline fun fixedRateTimer( name: String? = null, daemon: Boolean = false, startAt: Date, period: Long, crossinline action: TimerTask.() -> Unit): Timer",
+      "desc": "Creates a timer that executes the specified action periodically, starting at the specified startAt date and with the interval of period milliseconds between the start of the previous task and the start of the next one."
+    }
+  ],
+  "items": []
+}

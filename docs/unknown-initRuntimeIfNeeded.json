@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "initRuntimeIfNeeded",
+  "signature": "fun initRuntimeIfNeeded()",
+  "items": []
+}

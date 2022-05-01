@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CONTENT",
+  "signature": "inline val CSSBoxType.Companion.CONTENT: CSSBoxType",
+  "items": []
+}

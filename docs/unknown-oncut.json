@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncut",
+  "signature": "open var oncut: ((ClipboardEvent) -> dynamic)?",
+  "items": []
+}

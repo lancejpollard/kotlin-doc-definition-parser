@@ -1,0 +1,46 @@
+{
+  "type": "unknown",
+  "name": "SVGURIReference",
+  "signature": "interface SVGURIReference",
+  "items": [
+    {
+      "text": "abstract val href: SVGAnimatedString"
+    },
+    {
+      "text": "abstract class SVGAElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGAElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGCursorElement : SVGElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGCursorElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGradientElement : SVGElement, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGImageElement : SVGGraphicsElement, SVGURIReference, HTMLOrSVGImageElement",
+      "desc": "Exposes the JavaScript SVGImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMeshElement : SVGGeometryElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGMeshElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPatternElement : SVGElement, SVGFitToViewBox, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGPatternElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGScriptElement : SVGElement, SVGURIReference, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript SVGScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextPathElement : SVGTextContentElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGTextPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGUseElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGUseElement to Kotlin"
+    }
+  ]
+}

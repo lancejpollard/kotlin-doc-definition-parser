@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "suspendCoroutine",
+  "signature": "suspend inline fun <T> suspendCoroutine( crossinline block: (Continuation<T>) -> Unit): T",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "querySelectorAll",
+  "signature": "open fun querySelectorAll(selectors: String): NodeList",
+  "items": []
+}

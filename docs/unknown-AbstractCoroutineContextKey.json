@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "AbstractCoroutineContextKey",
+  "signature": "@ExperimentalStdlibApi abstract class AbstractCoroutineContextKey<B : Element, E : B> : Key<E>",
+  "items": [
+    {
+      "text": "AbstractCoroutineContextKey( baseKey: Key<B>, safeCast: (element: Element) -> E?)",
+      "desc": "Base class for CoroutineContext.Key associated with polymorphic CoroutineContext.Element implementation. Polymorphic element implementation implies delegating its get and minusKey to getPolymorphicElement and minusPolymorphicKey respectively."
+    }
+  ]
+}

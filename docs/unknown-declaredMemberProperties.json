@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "declaredMemberProperties",
+  "signature": "val <T : Any> KClass<T>.declaredMemberProperties: Collection<KProperty1<T, *>>",
+  "items": []
+}

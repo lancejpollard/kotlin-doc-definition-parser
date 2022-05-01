@@ -1,0 +1,202 @@
+{
+  "type": "unknown",
+  "name": "UInt",
+  "signature": "inline class UInt : Comparable<UInt>",
+  "items": [
+    {
+      "text": "infix fun and(other: UInt): UInt",
+      "desc": "Performs a bitwise AND operation between the two values."
+    },
+    {
+      "text": "operator fun compareTo(other: UByte): Int",
+      "desc": "Compares this value with the specified value for order. Returns zero if this value is equal to the specified other value, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun dec(): UInt",
+      "desc": "Returns this value decremented by one."
+    },
+    {
+      "text": "operator fun div(other: UByte): UInt",
+      "desc": "Divides this value by the other value, truncating the result to an integer that is closer to zero."
+    },
+    {
+      "text": "fun floorDiv(other: UByte): UInt",
+      "desc": "Divides this value by the other value, flooring the result to an integer that is closer to negative infinity."
+    },
+    {
+      "text": "operator fun inc(): UInt",
+      "desc": "Returns this value incremented by one."
+    },
+    {
+      "text": "fun inv(): UInt",
+      "desc": "Inverts the bits in this value."
+    },
+    {
+      "text": "operator fun minus(other: UByte): UInt",
+      "desc": "Subtracts the other value from this value."
+    },
+    {
+      "text": "fun mod(other: UByte): UByte",
+      "desc": "Calculates the remainder of flooring division of this value by the other value."
+    },
+    {
+      "text": "infix fun or(other: UInt): UInt",
+      "desc": "Performs a bitwise OR operation between the two values."
+    },
+    {
+      "text": "operator fun plus(other: UByte): UInt",
+      "desc": "Adds the other value to this value."
+    },
+    {
+      "text": "operator fun rangeTo(other: UInt): UIntRange",
+      "desc": "Creates a range from this value to the specified other value."
+    },
+    {
+      "text": "operator fun rem(other: UByte): UInt",
+      "desc": "Calculates the remainder of truncating division of this value by the other value."
+    },
+    {
+      "text": "infix fun shl(bitCount: Int): UInt",
+      "desc": "Shifts this value left by the bitCount number of bits."
+    },
+    {
+      "text": "infix fun shr(bitCount: Int): UInt",
+      "desc": "Shifts this value right by the bitCount number of bits, filling the leftmost bits with zeros."
+    },
+    {
+      "text": "operator fun times(other: UByte): UInt",
+      "desc": "Multiplies this value by the other value."
+    },
+    {
+      "text": "fun toByte(): Byte",
+      "desc": "Converts this UInt value to Byte."
+    },
+    {
+      "text": "fun toDouble(): Double",
+      "desc": "Converts this UInt value to Double."
+    },
+    {
+      "text": "fun toFloat(): Float",
+      "desc": "Converts this UInt value to Float."
+    },
+    {
+      "text": "fun toInt(): Int",
+      "desc": "Converts this UInt value to Int."
+    },
+    {
+      "text": "fun toLong(): Long",
+      "desc": "Converts this UInt value to Long."
+    },
+    {
+      "text": "fun toShort(): Short",
+      "desc": "Converts this UInt value to Short."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "fun toUByte(): UByte",
+      "desc": "Converts this UInt value to UByte."
+    },
+    {
+      "text": "fun toUInt(): UInt",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "fun toULong(): ULong",
+      "desc": "Converts this UInt value to ULong."
+    },
+    {
+      "text": "fun toUShort(): UShort",
+      "desc": "Converts this UInt value to UShort."
+    },
+    {
+      "text": "infix fun xor(other: UInt): UInt",
+      "desc": "Performs a bitwise XOR operation between the two values."
+    },
+    {
+      "text": "const val MAX_VALUE: UInt",
+      "desc": "A constant holding the maximum value an instance of UInt can have."
+    },
+    {
+      "text": "const val MIN_VALUE: UInt",
+      "desc": "A constant holding the minimum value an instance of UInt can have."
+    },
+    {
+      "text": "const val SIZE_BITS: Int",
+      "desc": "The number of bits used to represent an instance of UInt in a binary form."
+    },
+    {
+      "text": "const val SIZE_BYTES: Int",
+      "desc": "The number of bytes used to represent an instance of UInt in a binary form."
+    },
+    {
+      "text": "fun UInt.coerceAtLeast(minimumValue: UInt): UInt",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun UInt.coerceAtMost(maximumValue: UInt): UInt",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun UInt.coerceIn( minimumValue: UInt, maximumValue: UInt): UInt",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun UInt.coerceIn(range: ClosedRange<UInt>): UInt",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun <R : Any> UInt.convert(): R"
+    },
+    {
+      "text": "fun UInt.countLeadingZeroBits(): Int",
+      "desc": "Counts the number of consecutive most significant bits that are zero in the binary representation of this UInt number."
+    },
+    {
+      "text": "fun UInt.countOneBits(): Int",
+      "desc": "Counts the number of set bits in the binary representation of this UInt number."
+    },
+    {
+      "text": "fun UInt.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this UInt number."
+    },
+    {
+      "text": "infix fun UInt.downTo(to: UInt): UIntProgression",
+      "desc": "Returns a progression from this value down to the specified to value with the step -1."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun UInt.rotateLeft(bitCount: Int): UInt",
+      "desc": "Rotates the binary representation of this UInt number left by the specified bitCount number of bits. The most significant bits pushed out from the left side reenter the number as the least significant bits on the right side."
+    },
+    {
+      "text": "fun UInt.rotateRight(bitCount: Int): UInt",
+      "desc": "Rotates the binary representation of this UInt number right by the specified bitCount number of bits. The least significant bits pushed out from the right side reenter the number as the most significant bits on the left side."
+    },
+    {
+      "text": "fun UInt.takeHighestOneBit(): UInt",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this UInt number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UInt.takeLowestOneBit(): UInt",
+      "desc": "Returns a number having a single bit set in the position of the least significant set bit of this UInt number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UInt.toString(radix: Int): String",
+      "desc": "Returns a string representation of this Int value in the specified radix."
+    },
+    {
+      "text": "infix fun UInt.until(to: UInt): UIntRange",
+      "desc": "Returns a range from this value up to but excluding the specified to value."
+    }
+  ]
+}

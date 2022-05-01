@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DOCUMENT_POSITION_PRECEDING",
+  "signature": "val DOCUMENT_POSITION_PRECEDING: Short",
+  "items": []
+}

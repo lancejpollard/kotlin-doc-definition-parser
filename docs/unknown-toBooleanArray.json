@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBooleanArray",
+  "signatures": [
+    {
+      "text": "fun Array<out Boolean>.toBooleanArray(): BooleanArray",
+      "desc": "Returns an array of Boolean containing all of the elements of this generic array."
+    },
+    {
+      "text": "fun Collection<Boolean>.toBooleanArray(): BooleanArray",
+      "desc": "Returns an array of Boolean containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ondragexit",
+  "signature": "open var ondragexit: ((DragEvent) -> dynamic)?",
+  "items": []
+}

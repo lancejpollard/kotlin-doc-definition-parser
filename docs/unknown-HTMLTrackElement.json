@@ -1,0 +1,98 @@
+{
+  "type": "unknown",
+  "name": "HTMLTrackElement",
+  "signature": "abstract class HTMLTrackElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLTrackElement()",
+      "desc": "Exposes the JavaScript HTMLTrackElement to Kotlin"
+    },
+    {
+      "text": "open var default: Boolean"
+    },
+    {
+      "text": "open var kind: String"
+    },
+    {
+      "text": "open var label: String"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open var src: String"
+    },
+    {
+      "text": "open var srclang: String"
+    },
+    {
+      "text": "open val track: TextTrack"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val ERROR: Short"
+    },
+    {
+      "text": "val LOADED: Short"
+    },
+    {
+      "text": "val LOADING: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

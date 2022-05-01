@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "CCall",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER]) annotation class CCall",
+  "items": [
+    {
+      "text": "annotation class Consumed"
+    },
+    {
+      "text": "annotation class ConsumesReceiver"
+    },
+    {
+      "text": "annotation class CppClassConstructor"
+    },
+    {
+      "text": "annotation class CString"
+    },
+    {
+      "text": "annotation class ReturnsRetained"
+    },
+    {
+      "text": "annotation class WCString"
+    },
+    {
+      "text": "CCall(id: String)"
+    },
+    {
+      "text": "val id: String"
+    }
+  ]
+}

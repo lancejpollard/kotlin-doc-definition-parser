@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PRESERVE",
+  "signature": "inline val SelectionMode.Companion.PRESERVE: SelectionMode",
+  "items": []
+}

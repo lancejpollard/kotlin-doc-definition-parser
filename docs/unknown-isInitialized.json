@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isInitialized",
+  "signature": "abstract fun isInitialized(): Boolean",
+  "items": []
+}

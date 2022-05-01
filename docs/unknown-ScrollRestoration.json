@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ScrollRestoration",
+  "signature": "interface ScrollRestoration",
+  "items": [
+    {
+      "text": "val ScrollRestoration.Companion.AUTO: ScrollRestoration"
+    },
+    {
+      "text": "val ScrollRestoration.Companion.MANUAL: ScrollRestoration"
+    }
+  ]
+}

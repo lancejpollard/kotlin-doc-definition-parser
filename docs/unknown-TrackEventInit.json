@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "TrackEventInit",
+  "signature": "fun TrackEventInit( track: UnionAudioTrackOrTextTrackOrVideoTrack? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): TrackEventInit",
+  "items": []
+}

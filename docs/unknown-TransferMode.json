@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "TransferMode",
+  "signature": "enum class TransferMode",
+  "items": [
+    {
+      "text": "val value: Int"
+    }
+  ]
+}

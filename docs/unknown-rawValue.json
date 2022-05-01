@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "rawValue",
+  "signature": "val CPointer<*>?.rawValue: NativePtr",
+  "items": []
+}

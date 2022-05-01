@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Continuation",
+  "signature": "inline fun <T> Continuation( context: CoroutineContext, crossinline resumeWith: (Result<T>) -> Unit): Continuation<T>",
+  "items": []
+}

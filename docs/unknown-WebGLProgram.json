@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "WebGLProgram",
+  "signature": "abstract class WebGLProgram : WebGLObject",
+  "items": [
+    {
+      "text": "WebGLProgram()",
+      "desc": "Exposes the JavaScript WebGLProgram to Kotlin"
+    }
+  ]
+}

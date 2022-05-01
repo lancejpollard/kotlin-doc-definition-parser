@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "RequestInit",
+  "signature": "fun RequestInit( method: String? = undefined, headers: dynamic = undefined, body: dynamic = undefined, referrer: String? = undefined, referrerPolicy: dynamic = undefined, mode: RequestMode? = undefined, credentials: RequestCredentials? = undefined, cache: RequestCache? = undefined, redirect: RequestRedirect? = undefined, integrity: String? = undefined, keepalive: Boolean? = undefined, window: Any? = undefined): RequestInit",
+  "items": []
+}

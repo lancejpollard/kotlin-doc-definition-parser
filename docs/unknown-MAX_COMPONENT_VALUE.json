@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MAX_COMPONENT_VALUE",
+  "signature": "const val MAX_COMPONENT_VALUE: Int",
+  "items": []
+}

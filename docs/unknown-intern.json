@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "intern",
+  "signature": "fun String.intern(): String",
+  "items": []
+}

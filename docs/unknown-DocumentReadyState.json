@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "DocumentReadyState",
+  "signature": "interface DocumentReadyState",
+  "items": [
+    {
+      "text": "val DocumentReadyState.Companion.COMPLETE: DocumentReadyState"
+    },
+    {
+      "text": "val DocumentReadyState.Companion.INTERACTIVE: DocumentReadyState"
+    },
+    {
+      "text": "val DocumentReadyState.Companion.LOADING: DocumentReadyState"
+    }
+  ]
+}

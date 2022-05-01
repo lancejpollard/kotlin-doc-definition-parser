@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "floatArrayOf",
+  "signature": "fun floatArrayOf(vararg elements: Float): FloatArray",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "titlecaseChar",
+  "signature": "fun Char.titlecaseChar(): Char",
+  "items": []
+}

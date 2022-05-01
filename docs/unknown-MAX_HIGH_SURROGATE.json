@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MAX_HIGH_SURROGATE",
+  "signature": "const val MAX_HIGH_SURROGATE: Char",
+  "items": []
+}

@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "NavigatorLanguage",
+  "signature": "interface NavigatorLanguage",
+  "items": [
+    {
+      "text": "abstract val language: String"
+    },
+    {
+      "text": "abstract val languages: Array<out String>"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerNavigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript WorkerNavigator to Kotlin"
+    }
+  ]
+}

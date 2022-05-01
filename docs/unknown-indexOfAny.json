@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "indexOfAny",
+  "signatures": [
+    {
+      "text": "fun CharSequence.indexOfAny( chars: CharArray, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the first occurrence of any of the specified chars in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.indexOfAny( strings: Collection<String>, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the first occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    }
+  ],
+  "items": []
+}

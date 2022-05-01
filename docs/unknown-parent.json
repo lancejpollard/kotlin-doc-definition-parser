@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "parent",
+  "signature": "open val parent: Window",
+  "items": []
+}

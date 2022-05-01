@@ -1,0 +1,24 @@
+{
+  "type": "unknown",
+  "name": "DocumentAndElementEventHandlers",
+  "signature": "interface DocumentAndElementEventHandlers",
+  "items": [
+    {
+      "text": "open var oncopy: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncut: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpaste: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    }
+  ]
+}

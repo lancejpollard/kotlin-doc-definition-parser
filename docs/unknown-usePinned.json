@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "usePinned",
+  "signature": "inline fun <T : Any, R> T.usePinned( block: (Pinned<T>) -> R): R",
+  "items": []
+}

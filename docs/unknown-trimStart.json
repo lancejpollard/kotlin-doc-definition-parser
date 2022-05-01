@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "trimStart",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.trimStart( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading characters matching the predicate removed."
+    },
+    {
+      "text": "inline fun String.trimStart( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string having leading characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trimStart(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading characters from the chars array removed."
+    },
+    {
+      "text": "fun String.trimStart(vararg chars: Char): String",
+      "desc": "Returns a string having leading characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trimStart(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading whitespace removed."
+    },
+    {
+      "text": "fun String.trimStart(): String",
+      "desc": "Returns a string having leading whitespace removed."
+    }
+  ],
+  "items": []
+}

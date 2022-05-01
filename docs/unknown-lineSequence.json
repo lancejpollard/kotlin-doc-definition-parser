@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lineSequence",
+  "signature": "fun CharSequence.lineSequence(): Sequence<String>",
+  "items": []
+}

@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "Client",
+  "signature": "abstract class Client : UnionClientOrMessagePortOrServiceWorker",
+  "items": [
+    {
+      "text": "Client()",
+      "desc": "Exposes the JavaScript Client to Kotlin"
+    },
+    {
+      "text": "open val frameType: FrameType"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "fun postMessage( message: Any?, transfer: Array<dynamic> = definedExternally)"
+    },
+    {
+      "text": "abstract class WindowClient : Client",
+      "desc": "Exposes the JavaScript WindowClient to Kotlin"
+    }
+  ]
+}

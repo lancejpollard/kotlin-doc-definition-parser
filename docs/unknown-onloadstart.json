@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onloadstart",
+  "signature": "open var onloadstart: ((ProgressEvent) -> dynamic)?",
+  "items": []
+}

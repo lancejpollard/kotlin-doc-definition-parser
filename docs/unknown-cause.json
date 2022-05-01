@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cause",
+  "signature": "open val cause: Throwable?",
+  "items": []
+}

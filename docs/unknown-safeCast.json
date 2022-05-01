@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "safeCast",
+  "signature": "fun <T : Any> KClass<T>.safeCast(value: Any?): T?",
+  "items": []
+}

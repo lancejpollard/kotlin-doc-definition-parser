@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "INSTALLING",
+  "signature": "inline val ServiceWorkerState.Companion.INSTALLING: ServiceWorkerState",
+  "items": []
+}

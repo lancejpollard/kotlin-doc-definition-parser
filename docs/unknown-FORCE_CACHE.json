@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FORCE_CACHE",
+  "signature": "inline val RequestCache.Companion.FORCE_CACHE: RequestCache",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "digitToChar",
+  "signatures": [
+    {
+      "text": "fun Int.digitToChar(): Char",
+      "desc": "Returns the Char that represents this decimal digit. Throws an exception if this value is not in the range 0..9."
+    },
+    {
+      "text": "fun Int.digitToChar(radix: Int): Char",
+      "desc": "Returns the Char that represents this numeric digit value in the specified radix. Throws an exception if the radix is not in the range 2..36 or if this value is not in the range 0 until radix."
+    }
+  ],
+  "items": []
+}

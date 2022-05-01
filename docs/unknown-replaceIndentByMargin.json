@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "replaceIndentByMargin",
+  "signature": "fun String.replaceIndentByMargin( newIndent: String = \"\", marginPrefix: String = \"|\"): String",
+  "items": []
+}

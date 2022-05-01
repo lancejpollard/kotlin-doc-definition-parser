@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "CSSStyleSheet",
+  "signature": "abstract class CSSStyleSheet : StyleSheet",
+  "items": [
+    {
+      "text": "CSSStyleSheet()",
+      "desc": "Exposes the JavaScript CSSStyleSheet to Kotlin"
+    },
+    {
+      "text": "open val cssRules: CSSRuleList"
+    },
+    {
+      "text": "open val ownerRule: CSSRule?"
+    },
+    {
+      "text": "fun deleteRule(index: Int)"
+    },
+    {
+      "text": "fun insertRule(rule: String, index: Int): Int"
+    }
+  ]
+}

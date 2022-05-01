@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ThreadLocal",
+  "signature": "@Target([AnnotationTarget.PROPERTY, AnnotationTarget.CLASS]) annotation class ThreadLocal",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Marks a top level property with a backing field or an object as thread local. The object remains mutable and it is possible to change its state, but every thread will have a distinct copy of this object, so changes in one thread are not reflected in another."
+    }
+  ]
+}

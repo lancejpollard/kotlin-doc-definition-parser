@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "ImageBitmapSource",
+  "signature": "interface ImageBitmapSource",
+  "items": [
+    {
+      "text": "open class Blob : MediaProvider, ImageBitmapSource",
+      "desc": "Exposes the JavaScript Blob to Kotlin"
+    },
+    {
+      "text": "interface CanvasImageSource : ImageBitmapSource"
+    },
+    {
+      "text": "open class ImageData : ImageBitmapSource, TexImageSource",
+      "desc": "Exposes the JavaScript ImageData to Kotlin"
+    }
+  ]
+}

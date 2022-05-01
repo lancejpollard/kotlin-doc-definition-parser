@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getPolymorphicElement",
+  "signature": "@ExperimentalStdlibApi fun <E : Element> Element.getPolymorphicElement( key: Key<E>): E?",
+  "items": []
+}

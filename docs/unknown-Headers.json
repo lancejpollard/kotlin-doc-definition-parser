@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "Headers",
+  "signature": "open class Headers",
+  "items": [
+    {
+      "text": "Headers(init: dynamic = definedExternally)",
+      "desc": "Exposes the JavaScript Headers to Kotlin"
+    },
+    {
+      "text": "fun append(name: String, value: String)"
+    },
+    {
+      "text": "fun delete(name: String)"
+    },
+    {
+      "text": "fun get(name: String): String?"
+    },
+    {
+      "text": "fun has(name: String): Boolean"
+    },
+    {
+      "text": "fun set(name: String, value: String)"
+    }
+  ]
+}

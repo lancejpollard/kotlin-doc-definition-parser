@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toSortedMap",
+  "signatures": [
+    {
+      "text": "fun <K : Comparable<K>, V> Map<out K, V>.toSortedMap(): SortedMap<K, V>",
+      "desc": "Converts this Map to a SortedMap. The resulting SortedMap determines the equality and order of keys according to their natural sorting order."
+    },
+    {
+      "text": "fun <K, V> Map<out K, V>.toSortedMap( comparator: Comparator<in K>): SortedMap<K, V>",
+      "desc": "Converts this Map to a SortedMap. The resulting SortedMap determines the equality and order of keys according to the sorting order provided by the given comparator."
+    }
+  ],
+  "items": []
+}

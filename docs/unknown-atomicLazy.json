@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "atomicLazy",
+  "signature": "fun <T> atomicLazy(initializer: () -> T): Lazy<T>",
+  "items": []
+}

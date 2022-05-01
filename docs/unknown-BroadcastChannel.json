@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "BroadcastChannel",
+  "signature": "open class BroadcastChannel : EventTarget",
+  "items": [
+    {
+      "text": "BroadcastChannel(name: String)",
+      "desc": "Exposes the JavaScript BroadcastChannel to Kotlin"
+    },
+    {
+      "text": "open val name: String"
+    },
+    {
+      "text": "var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun close()"
+    },
+    {
+      "text": "fun postMessage(message: Any?)"
+    }
+  ]
+}

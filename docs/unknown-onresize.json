@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onresize",
+  "signature": "open var onresize: ((Event) -> dynamic)?",
+  "items": []
+}

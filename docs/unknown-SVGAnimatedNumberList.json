@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedNumberList",
+  "signature": "abstract class SVGAnimatedNumberList",
+  "items": [
+    {
+      "text": "SVGAnimatedNumberList()",
+      "desc": "Exposes the JavaScript SVGAnimatedNumberList to Kotlin"
+    },
+    {
+      "text": "open val animVal: SVGNumberList"
+    },
+    {
+      "text": "open val baseVal: SVGNumberList"
+    }
+  ]
+}

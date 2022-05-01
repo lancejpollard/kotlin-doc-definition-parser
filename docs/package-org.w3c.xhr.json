@@ -1,0 +1,52 @@
+{
+  "type": "package",
+  "name": "org.w3c.xhr",
+  "items": [
+    {
+      "text": "open class FormData",
+      "desc": "Exposes the JavaScript FormData to Kotlin"
+    },
+    {
+      "text": "open class ProgressEvent : Event",
+      "desc": "Exposes the JavaScript ProgressEvent to Kotlin"
+    },
+    {
+      "text": "interface ProgressEventInit : EventInit"
+    },
+    {
+      "text": "open class XMLHttpRequest : XMLHttpRequestEventTarget",
+      "desc": "Exposes the JavaScript XMLHttpRequest to Kotlin"
+    },
+    {
+      "text": "abstract class XMLHttpRequestEventTarget : EventTarget",
+      "desc": "Exposes the JavaScript XMLHttpRequestEventTarget to Kotlin"
+    },
+    {
+      "text": "interface XMLHttpRequestResponseType"
+    },
+    {
+      "text": "abstract class XMLHttpRequestUpload : XMLHttpRequestEventTarget"
+    },
+    {
+      "text": "fun ProgressEventInit( lengthComputable: Boolean? = false, loaded: Number? = 0, total: Number? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ProgressEventInit"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.ARRAYBUFFER: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.BLOB: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.DOCUMENT: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.EMPTY: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.JSON: XMLHttpRequestResponseType"
+    },
+    {
+      "text": "val XMLHttpRequestResponseType.Companion.TEXT: XMLHttpRequestResponseType"
+    }
+  ]
+}

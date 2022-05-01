@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "WindowSessionStorage",
+  "signature": "interface WindowSessionStorage",
+  "items": [
+    {
+      "text": "abstract val sessionStorage: Storage"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "arrayOfNulls",
+  "signature": "fun <reified T> arrayOfNulls(size: Int): Array<T?>",
+  "items": []
+}

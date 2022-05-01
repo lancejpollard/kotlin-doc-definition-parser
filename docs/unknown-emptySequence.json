@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "emptySequence",
+  "signature": "fun <T> emptySequence(): Sequence<T>",
+  "items": []
+}

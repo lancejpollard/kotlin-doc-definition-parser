@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "zeroValue",
+  "signature": "fun <T : CVariable> zeroValue( size: Int, align: Int): CValue<T>",
+  "items": []
+}

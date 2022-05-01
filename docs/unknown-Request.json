@@ -1,0 +1,71 @@
+{
+  "type": "unknown",
+  "name": "Request",
+  "signature": "open class Request : Body",
+  "items": [
+    {
+      "text": "Request( input: dynamic, init: RequestInit = definedExternally)",
+      "desc": "Exposes the JavaScript Request to Kotlin"
+    },
+    {
+      "text": "open val bodyUsed: Boolean"
+    },
+    {
+      "text": "open val cache: RequestCache"
+    },
+    {
+      "text": "open val credentials: RequestCredentials"
+    },
+    {
+      "text": "open val destination: RequestDestination"
+    },
+    {
+      "text": "open val headers: Headers"
+    },
+    {
+      "text": "open val integrity: String"
+    },
+    {
+      "text": "open val keepalive: Boolean"
+    },
+    {
+      "text": "open val method: String"
+    },
+    {
+      "text": "open val mode: RequestMode"
+    },
+    {
+      "text": "open val redirect: RequestRedirect"
+    },
+    {
+      "text": "open val referrer: String"
+    },
+    {
+      "text": "open val referrerPolicy: dynamic"
+    },
+    {
+      "text": "open val type: RequestType"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "open fun arrayBuffer(): Promise<ArrayBuffer>"
+    },
+    {
+      "text": "open fun blob(): Promise<Blob>"
+    },
+    {
+      "text": "fun clone(): Request"
+    },
+    {
+      "text": "open fun formData(): Promise<FormData>"
+    },
+    {
+      "text": "open fun json(): Promise<Any?>"
+    },
+    {
+      "text": "open fun text(): Promise<String>"
+    }
+  ]
+}

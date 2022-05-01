@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "embeds",
+  "signature": "open val embeds: HTMLCollection",
+  "items": []
+}

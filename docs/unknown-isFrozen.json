@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isFrozen",
+  "signature": "val Any?.isFrozen: Boolean",
+  "items": []
+}

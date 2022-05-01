@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "MediaKeysRequirement",
+  "signature": "interface MediaKeysRequirement",
+  "items": [
+    {
+      "text": "val MediaKeysRequirement.Companion.NOT_ALLOWED: MediaKeysRequirement"
+    },
+    {
+      "text": "val MediaKeysRequirement.Companion.OPTIONAL: MediaKeysRequirement"
+    },
+    {
+      "text": "val MediaKeysRequirement.Companion.REQUIRED: MediaKeysRequirement"
+    }
+  ]
+}

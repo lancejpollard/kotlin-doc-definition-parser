@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "coerceAtLeast",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun Byte.coerceAtLeast(minimumValue: Byte): Byte",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun UInt.coerceAtLeast(minimumValue: UInt): UInt",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    }
+  ],
+  "items": []
+}

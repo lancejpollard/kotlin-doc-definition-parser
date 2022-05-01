@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "vectorOf",
+  "signature": "fun vectorOf( f0: Float, f1: Float, f2: Float, f3: Float): Vector128",
+  "items": []
+}

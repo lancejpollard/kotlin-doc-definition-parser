@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "utf16",
+  "signature": "val String.utf16: CValues<UShortVar>",
+  "items": []
+}

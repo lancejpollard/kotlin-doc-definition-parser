@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "AudioTrackList",
+  "signature": "abstract class AudioTrackList : EventTarget",
+  "items": [
+    {
+      "text": "AudioTrackList()",
+      "desc": "Exposes the JavaScript AudioTrackList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open var onaddtrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onremovetrack: ((TrackEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun getTrackById(id: String): AudioTrack?"
+    },
+    {
+      "text": "operator fun AudioTrackList.get(index: Int): AudioTrack?"
+    }
+  ]
+}

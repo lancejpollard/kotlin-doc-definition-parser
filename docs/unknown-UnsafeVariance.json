@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnsafeVariance",
+  "signature": "@Target([AnnotationTarget.TYPE]) annotation class UnsafeVariance",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Suppresses errors about variance conflict"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

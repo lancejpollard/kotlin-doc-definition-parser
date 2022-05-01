@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "enumValues",
+  "signature": "fun <reified T : Enum<T>> enumValues(): Array<T>",
+  "items": []
+}

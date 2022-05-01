@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onfullscreenerror",
+  "signature": "var onfullscreenerror: ((Event) -> dynamic)?",
+  "items": []
+}

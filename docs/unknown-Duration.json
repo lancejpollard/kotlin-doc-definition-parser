@@ -1,0 +1,326 @@
+{
+  "type": "unknown",
+  "name": "Duration",
+  "signature": "inline class Duration : Comparable<Duration>",
+  "items": [
+    {
+      "text": "val absoluteValue: Duration",
+      "desc": "Returns the absolute value of this value. The returned value is always non-negative."
+    },
+    {
+      "text": "val inDays: Double",
+      "desc": "The value of this duration expressed as a Double number of days."
+    },
+    {
+      "text": "val inHours: Double",
+      "desc": "The value of this duration expressed as a Double number of hours."
+    },
+    {
+      "text": "val inMicroseconds: Double",
+      "desc": "The value of this duration expressed as a Double number of microseconds."
+    },
+    {
+      "text": "val inMilliseconds: Double",
+      "desc": "The value of this duration expressed as a Double number of milliseconds."
+    },
+    {
+      "text": "val inMinutes: Double",
+      "desc": "The value of this duration expressed as a Double number of minutes."
+    },
+    {
+      "text": "val inNanoseconds: Double",
+      "desc": "The value of this duration expressed as a Double number of nanoseconds."
+    },
+    {
+      "text": "val inSeconds: Double",
+      "desc": "The value of this duration expressed as a Double number of seconds."
+    },
+    {
+      "text": "val inWholeDays: Long",
+      "desc": "The value of this duration expressed as a Long number of days."
+    },
+    {
+      "text": "val inWholeHours: Long",
+      "desc": "The value of this duration expressed as a Long number of hours."
+    },
+    {
+      "text": "val inWholeMicroseconds: Long",
+      "desc": "The value of this duration expressed as a Long number of microseconds."
+    },
+    {
+      "text": "val inWholeMilliseconds: Long",
+      "desc": "The value of this duration expressed as a Long number of milliseconds."
+    },
+    {
+      "text": "val inWholeMinutes: Long",
+      "desc": "The value of this duration expressed as a Long number of minutes."
+    },
+    {
+      "text": "val inWholeNanoseconds: Long",
+      "desc": "The value of this duration expressed as a Long number of nanoseconds."
+    },
+    {
+      "text": "val inWholeSeconds: Long",
+      "desc": "The value of this duration expressed as a Long number of seconds."
+    },
+    {
+      "text": "fun compareTo(other: Duration): Int"
+    },
+    {
+      "text": "operator fun div(scale: Int): Duration",
+      "desc": "Returns a duration whose value is this duration value divided by the given scale number."
+    },
+    {
+      "text": "operator fun div(other: Duration): Double",
+      "desc": "Returns a number that is the ratio of this and other duration values."
+    },
+    {
+      "text": "fun isFinite(): Boolean",
+      "desc": "Returns true, if the duration value is finite."
+    },
+    {
+      "text": "fun isInfinite(): Boolean",
+      "desc": "Returns true, if the duration value is infinite."
+    },
+    {
+      "text": "fun isNegative(): Boolean",
+      "desc": "Returns true, if the duration value is less than zero."
+    },
+    {
+      "text": "fun isPositive(): Boolean",
+      "desc": "Returns true, if the duration value is greater than zero."
+    },
+    {
+      "text": "operator fun minus(other: Duration): Duration",
+      "desc": "Returns a duration whose value is the difference between this and other duration values."
+    },
+    {
+      "text": "operator fun plus(other: Duration): Duration",
+      "desc": "Returns a duration whose value is the sum of this and other duration values."
+    },
+    {
+      "text": "operator fun times(scale: Int): Duration",
+      "desc": "Returns a duration whose value is this duration value multiplied by the given scale number."
+    },
+    {
+      "text": "fun <T> toComponents( action: (days: Long, hours: Int, minutes: Int, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into days, hours, minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "fun <T> toComponents( action: (hours: Long, minutes: Int, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into hours, minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "fun <T> toComponents( action: (minutes: Long, seconds: Int, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into minutes, seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "fun <T> toComponents( action: (seconds: Long, nanoseconds: Int) -> T): T",
+      "desc": "Splits this duration into seconds, and nanoseconds and executes the given action with these components. The result of action is returned as the result of this function."
+    },
+    {
+      "text": "fun toDouble(unit: DurationUnit): Double",
+      "desc": "Returns the value of this duration expressed as a Double number of the specified unit."
+    },
+    {
+      "text": "fun toInt(unit: DurationUnit): Int",
+      "desc": "Returns the value of this duration expressed as an Int number of the specified unit."
+    },
+    {
+      "text": "fun toIsoString(): String",
+      "desc": "Returns an ISO-8601 based string representation of this duration."
+    },
+    {
+      "text": "fun toLong(unit: DurationUnit): Long",
+      "desc": "Returns the value of this duration expressed as a Long number of the specified unit."
+    },
+    {
+      "text": "fun toLongMilliseconds(): Long",
+      "desc": "Returns the value of this duration expressed as a Long number of milliseconds."
+    },
+    {
+      "text": "fun toLongNanoseconds(): Long",
+      "desc": "Returns the value of this duration expressed as a Long number of nanoseconds."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of this duration value expressed as a combination of numeric components, each in its own unit."
+    },
+    {
+      "text": "fun toString(unit: DurationUnit, decimals: Int = 0): String",
+      "desc": "Returns a string representation of this duration value expressed in the given unit and formatted with the specified decimals number of digits after decimal point."
+    },
+    {
+      "text": "operator fun unaryMinus(): Duration",
+      "desc": "Returns the negative of this value."
+    },
+    {
+      "text": "val Int.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of days."
+    },
+    {
+      "text": "val Long.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of days."
+    },
+    {
+      "text": "val Double.days: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of days."
+    },
+    {
+      "text": "val Int.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of hours."
+    },
+    {
+      "text": "val Long.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of hours."
+    },
+    {
+      "text": "val Double.hours: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of hours."
+    },
+    {
+      "text": "val INFINITE: Duration",
+      "desc": "The duration whose value is positive infinity. It is useful for representing timeouts that should never expire."
+    },
+    {
+      "text": "val Int.microseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of microseconds."
+    },
+    {
+      "text": "val Long.microseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of microseconds."
+    },
+    {
+      "text": "val Double.microseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of microseconds."
+    },
+    {
+      "text": "val Int.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of milliseconds."
+    },
+    {
+      "text": "val Long.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of milliseconds."
+    },
+    {
+      "text": "val Double.milliseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of milliseconds."
+    },
+    {
+      "text": "val Int.minutes: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of minutes."
+    },
+    {
+      "text": "val Long.minutes: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of minutes."
+    },
+    {
+      "text": "val Double.minutes: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of minutes."
+    },
+    {
+      "text": "val Int.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of nanoseconds."
+    },
+    {
+      "text": "val Long.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of nanoseconds."
+    },
+    {
+      "text": "val Double.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of nanoseconds."
+    },
+    {
+      "text": "val Int.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of seconds."
+    },
+    {
+      "text": "val Long.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of seconds."
+    },
+    {
+      "text": "val Double.seconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of seconds."
+    },
+    {
+      "text": "val ZERO: Duration",
+      "desc": "The duration equal to exactly 0 seconds."
+    },
+    {
+      "text": "fun convert( value: Double, sourceUnit: DurationUnit, targetUnit: DurationUnit): Double",
+      "desc": "Converts the given time duration value expressed in the specified sourceUnit into the specified targetUnit."
+    },
+    {
+      "text": "fun days(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of days."
+    },
+    {
+      "text": "fun hours(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of hours."
+    },
+    {
+      "text": "fun microseconds(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of microseconds."
+    },
+    {
+      "text": "fun milliseconds(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of milliseconds."
+    },
+    {
+      "text": "fun minutes(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of minutes."
+    },
+    {
+      "text": "fun nanoseconds(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of nanoseconds."
+    },
+    {
+      "text": "fun parse(value: String): Duration",
+      "desc": "Parses a string that represents a duration and returns the parsed Duration value."
+    },
+    {
+      "text": "fun parseIsoString(value: String): Duration",
+      "desc": "Parses a string that represents a duration in ISO-8601 format and returns the parsed Duration value."
+    },
+    {
+      "text": "fun parseIsoStringOrNull(value: String): Duration?",
+      "desc": "Parses a string that represents a duration in ISO-8601 format and returns the parsed Duration value, or null if the string doesn't represent a duration in ISO-8601 format."
+    },
+    {
+      "text": "fun parseOrNull(value: String): Duration?",
+      "desc": "Parses a string that represents a duration and returns the parsed Duration value, or null if the string doesn't represent a duration in any of the supported formats."
+    },
+    {
+      "text": "fun seconds(value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of seconds."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun Duration.toJavaDuration(): Duration",
+      "desc": "Converts kotlin.time.Duration value to java.time.Duration value."
+    }
+  ]
+}

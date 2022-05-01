@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toUByte",
+  "signature": "fun toUByte(): UByte",
+  "items": []
+}

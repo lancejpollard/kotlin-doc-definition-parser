@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objc_autoreleasePoolPush",
+  "signature": "fun objc_autoreleasePoolPush(): NativePtr",
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "type": "unknown",
+  "name": "JsValue",
+  "signature": "open class JsValue",
+  "items": [
+    {
+      "text": "JsValue(arena: Arena, index: Object)"
+    },
+    {
+      "text": "val arena: Arena"
+    },
+    {
+      "text": "val index: Object"
+    },
+    {
+      "text": "fun getInt(property: String): Int"
+    },
+    {
+      "text": "fun getProperty(property: String): JsValue"
+    },
+    {
+      "text": "open class JsArray : JsValue"
+    }
+  ]
+}

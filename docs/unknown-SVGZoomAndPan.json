@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "SVGZoomAndPan",
+  "signature": "interface SVGZoomAndPan",
+  "items": [
+    {
+      "text": "abstract var zoomAndPan: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_DISABLE: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_MAGNIFY: Short"
+    },
+    {
+      "text": "val SVG_ZOOMANDPAN_UNKNOWN: Short"
+    },
+    {
+      "text": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGViewElement : SVGElement, SVGFitToViewBox, SVGZoomAndPan",
+      "desc": "Exposes the JavaScript SVGViewElement to Kotlin"
+    }
+  ]
+}

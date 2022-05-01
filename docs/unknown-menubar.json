@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "menubar",
+  "signature": "open val menubar: BarProp",
+  "items": []
+}

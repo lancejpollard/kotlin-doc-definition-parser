@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "ObjCObjectMeta",
+  "signature": "typealias ObjCObjectMeta = ObjCClass",
+  "items": [
+    {
+      "text": "abstract class ObjCObjectBaseMeta : ObjCObjectBase, ObjCObjectMeta"
+    }
+  ]
+}

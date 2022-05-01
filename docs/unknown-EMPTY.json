@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EMPTY",
+  "signature": "inline val XMLHttpRequestResponseType.Companion.EMPTY: XMLHttpRequestResponseType",
+  "items": []
+}

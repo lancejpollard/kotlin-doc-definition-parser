@@ -1,0 +1,107 @@
+{
+  "type": "unknown",
+  "name": "HTMLAnchorElement",
+  "signature": "abstract class HTMLAnchorElement : HTMLElement, HTMLHyperlinkElementUtils",
+  "items": [
+    {
+      "text": "HTMLAnchorElement()",
+      "desc": "Exposes the JavaScript HTMLAnchorElement to Kotlin"
+    },
+    {
+      "text": "open var charset: String"
+    },
+    {
+      "text": "open var coords: String"
+    },
+    {
+      "text": "open var download: String"
+    },
+    {
+      "text": "open var hreflang: String"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open var ping: String"
+    },
+    {
+      "text": "open var referrerPolicy: String"
+    },
+    {
+      "text": "open var rel: String"
+    },
+    {
+      "text": "open val relList: DOMTokenList"
+    },
+    {
+      "text": "open var rev: String"
+    },
+    {
+      "text": "open var shape: String"
+    },
+    {
+      "text": "open var target: String"
+    },
+    {
+      "text": "open var text: String"
+    },
+    {
+      "text": "open var type: String"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

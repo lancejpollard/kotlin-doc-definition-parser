@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stackTrace",
+  "signature": "val Throwable.stackTrace: Array<StackTraceElement>",
+  "items": []
+}

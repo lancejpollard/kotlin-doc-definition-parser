@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JsName",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY, AnnotationTarget.CONSTRUCTOR, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER]) annotation class JsName",
+  "items": [
+    {
+      "text": "<init>(name: String)",
+      "desc": "Gives a declaration (a function, a property or a class) specific name in JavaScript."
+    },
+    {
+      "text": "val name: String",
+      "desc": "the name which compiler uses both for declaration itself and for all references to the declaration. It's required to denote a valid JavaScript identifier."
+    }
+  ]
+}

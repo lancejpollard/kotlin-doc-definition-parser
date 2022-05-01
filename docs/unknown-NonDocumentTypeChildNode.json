@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "NonDocumentTypeChildNode",
+  "signature": "interface NonDocumentTypeChildNode",
+  "items": [
+    {
+      "text": "open val nextElementSibling: Element?"
+    },
+    {
+      "text": "open val previousElementSibling: Element?"
+    },
+    {
+      "text": "abstract class CharacterData : Node, NonDocumentTypeChildNode, ChildNode",
+      "desc": "Exposes the JavaScript CharacterData to Kotlin"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    }
+  ]
+}

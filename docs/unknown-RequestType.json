@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "RequestType",
+  "signature": "interface RequestType",
+  "items": [
+    {
+      "text": "val RequestType.Companion.AUDIO: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.EMPTY: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.FONT: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.IMAGE: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.SCRIPT: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.STYLE: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.TRACK: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.VIDEO: RequestType"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "GRANTED",
+  "signature": "inline val NotificationPermission.Companion.GRANTED: NotificationPermission",
+  "items": []
+}

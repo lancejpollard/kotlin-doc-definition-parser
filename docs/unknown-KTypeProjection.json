@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "KTypeProjection",
+  "signature": "data class KTypeProjection",
+  "items": [
+    {
+      "text": "KTypeProjection(variance: KVariance?, type: KType?)",
+      "desc": "Represents a type projection. Type projection is usually the argument to another type in a type usage. For example, in the type Array<out Number>, out Number is the covariant projection of the type represented by the class Number."
+    },
+    {
+      "text": "val type: KType?",
+      "desc": "The type specified in the projection, or null if this is a star projection."
+    },
+    {
+      "text": "val variance: KVariance?",
+      "desc": "The use-site variance specified in the projection, or null if this is a star projection."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "val STAR: KTypeProjection",
+      "desc": "Star projection, denoted by the * character. For example, in the type KClass<*>, * is the star projection. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "fun contravariant(type: KType): KTypeProjection",
+      "desc": "Creates a contravariant projection of a given type, denoted by the in modifier applied to a type. For example, in the type MutableList<in Number>, in Number is a contravariant projection of the type of class Number."
+    },
+    {
+      "text": "fun covariant(type: KType): KTypeProjection",
+      "desc": "Creates a covariant projection of a given type, denoted by the out modifier applied to a type. For example, in the type Array<out Number>, out Number is a covariant projection of the type of class Number."
+    },
+    {
+      "text": "fun invariant(type: KType): KTypeProjection",
+      "desc": "Creates an invariant projection of a given type. Invariant projection is just the type itself, without any use-site variance modifiers applied to it. For example, in the type Set<String>, String is an invariant projection of the type represented by the class String."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cast",
+  "signature": "fun <T : Any> KClass<T>.cast(value: Any?): T",
+  "items": []
+}

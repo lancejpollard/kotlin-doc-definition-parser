@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "subtract",
+  "signatures": [
+    {
+      "text": "infix fun <T> Array<out T>.subtract( other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all elements that are contained by this array and not contained by the specified collection."
+    },
+    {
+      "text": "infix fun <T> Iterable<T>.subtract( other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all elements that are contained by this collection and not contained by the specified collection."
+    }
+  ],
+  "items": []
+}

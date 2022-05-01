@@ -1,0 +1,195 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.mediacapture",
+  "items": [
+    {
+      "text": "interface Capabilities"
+    },
+    {
+      "text": "interface ConstrainablePattern"
+    },
+    {
+      "text": "interface ConstrainBooleanParameters",
+      "desc": "Exposes the JavaScript ConstrainBooleanParameters to Kotlin"
+    },
+    {
+      "text": "interface ConstrainDOMStringParameters",
+      "desc": "Exposes the JavaScript ConstrainDOMStringParameters to Kotlin"
+    },
+    {
+      "text": "interface ConstrainDoubleRange : DoubleRange"
+    },
+    {
+      "text": "interface Constraints : ConstraintSet"
+    },
+    {
+      "text": "interface ConstraintSet"
+    },
+    {
+      "text": "interface ConstrainULongRange : ULongRange"
+    },
+    {
+      "text": "interface DoubleRange",
+      "desc": "Exposes the JavaScript DoubleRange to Kotlin"
+    },
+    {
+      "text": "abstract class InputDeviceInfo : MediaDeviceInfo"
+    },
+    {
+      "text": "abstract class MediaDeviceInfo",
+      "desc": "Exposes the JavaScript MediaDeviceInfo to Kotlin"
+    },
+    {
+      "text": "interface MediaDeviceKind"
+    },
+    {
+      "text": "abstract class MediaDevices : EventTarget",
+      "desc": "Exposes the JavaScript MediaDevices to Kotlin"
+    },
+    {
+      "text": "open class MediaStream : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaStream to Kotlin"
+    },
+    {
+      "text": "interface MediaStreamConstraints",
+      "desc": "Exposes the JavaScript MediaStreamConstraints to Kotlin"
+    },
+    {
+      "text": "abstract class MediaStreamTrack : EventTarget",
+      "desc": "Exposes the JavaScript MediaStreamTrack to Kotlin"
+    },
+    {
+      "text": "open class MediaStreamTrackEvent : Event",
+      "desc": "Exposes the JavaScript MediaStreamTrackEvent to Kotlin"
+    },
+    {
+      "text": "interface MediaStreamTrackEventInit : EventInit"
+    },
+    {
+      "text": "interface MediaStreamTrackState"
+    },
+    {
+      "text": "interface MediaTrackCapabilities"
+    },
+    {
+      "text": "interface MediaTrackConstraints : MediaTrackConstraintSet",
+      "desc": "Exposes the JavaScript MediaTrackConstraints to Kotlin"
+    },
+    {
+      "text": "interface MediaTrackConstraintSet"
+    },
+    {
+      "text": "interface MediaTrackSettings",
+      "desc": "Exposes the JavaScript MediaTrackSettings to Kotlin"
+    },
+    {
+      "text": "interface MediaTrackSupportedConstraints",
+      "desc": "Exposes the JavaScript MediaTrackSupportedConstraints to Kotlin"
+    },
+    {
+      "text": "open class OverconstrainedErrorEvent : Event"
+    },
+    {
+      "text": "interface OverconstrainedErrorEventInit : EventInit"
+    },
+    {
+      "text": "interface Settings"
+    },
+    {
+      "text": "interface ULongRange"
+    },
+    {
+      "text": "interface VideoFacingModeEnum"
+    },
+    {
+      "text": "interface VideoResizeModeEnum"
+    },
+    {
+      "text": "fun Capabilities(): Capabilities"
+    },
+    {
+      "text": "fun ConstrainBooleanParameters( exact: Boolean? = undefined, ideal: Boolean? = undefined): ConstrainBooleanParameters"
+    },
+    {
+      "text": "fun ConstrainDOMStringParameters( exact: dynamic = undefined, ideal: dynamic = undefined): ConstrainDOMStringParameters"
+    },
+    {
+      "text": "fun ConstrainDoubleRange( exact: Double? = undefined, ideal: Double? = undefined, max: Double? = undefined, min: Double? = undefined): ConstrainDoubleRange"
+    },
+    {
+      "text": "fun Constraints( advanced: Array<ConstraintSet>? = undefined): Constraints"
+    },
+    {
+      "text": "fun ConstraintSet(): ConstraintSet"
+    },
+    {
+      "text": "fun ConstrainULongRange( exact: Int? = undefined, ideal: Int? = undefined, max: Int? = undefined, min: Int? = undefined): ConstrainULongRange"
+    },
+    {
+      "text": "fun DoubleRange( max: Double? = undefined, min: Double? = undefined): DoubleRange"
+    },
+    {
+      "text": "fun MediaStreamConstraints( video: dynamic = false, audio: dynamic = false): MediaStreamConstraints"
+    },
+    {
+      "text": "fun MediaStreamTrackEventInit( track: MediaStreamTrack?, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaStreamTrackEventInit"
+    },
+    {
+      "text": "fun MediaTrackCapabilities( width: ULongRange? = undefined, height: ULongRange? = undefined, aspectRatio: DoubleRange? = undefined, frameRate: DoubleRange? = undefined, facingMode: Array<String>? = undefined, resizeMode: Array<String>? = undefined, volume: DoubleRange? = undefined, sampleRate: ULongRange? = undefined, sampleSize: ULongRange? = undefined, echoCancellation: Array<Boolean>? = undefined, autoGainControl: Array<Boolean>? = undefined, noiseSuppression: Array<Boolean>? = undefined, latency: DoubleRange? = undefined, channelCount: ULongRange? = undefined, deviceId: String? = undefined, groupId: String? = undefined): MediaTrackCapabilities"
+    },
+    {
+      "text": "fun MediaTrackConstraints( advanced: Array<MediaTrackConstraintSet>? = undefined, width: dynamic = undefined, height: dynamic = undefined, aspectRatio: dynamic = undefined, frameRate: dynamic = undefined, facingMode: dynamic = undefined, resizeMode: dynamic = undefined, volume: dynamic = undefined, sampleRate: dynamic = undefined, sampleSize: dynamic = undefined, echoCancellation: dynamic = undefined, autoGainControl: dynamic = undefined, noiseSuppression: dynamic = undefined, latency: dynamic = undefined, channelCount: dynamic = undefined, deviceId: dynamic = undefined, groupId: dynamic = undefined): MediaTrackConstraints"
+    },
+    {
+      "text": "fun MediaTrackConstraintSet( width: dynamic = undefined, height: dynamic = undefined, aspectRatio: dynamic = undefined, frameRate: dynamic = undefined, facingMode: dynamic = undefined, resizeMode: dynamic = undefined, volume: dynamic = undefined, sampleRate: dynamic = undefined, sampleSize: dynamic = undefined, echoCancellation: dynamic = undefined, autoGainControl: dynamic = undefined, noiseSuppression: dynamic = undefined, latency: dynamic = undefined, channelCount: dynamic = undefined, deviceId: dynamic = undefined, groupId: dynamic = undefined): MediaTrackConstraintSet"
+    },
+    {
+      "text": "fun MediaTrackSettings( width: Int? = undefined, height: Int? = undefined, aspectRatio: Double? = undefined, frameRate: Double? = undefined, facingMode: String? = undefined, resizeMode: String? = undefined, volume: Double? = undefined, sampleRate: Int? = undefined, sampleSize: Int? = undefined, echoCancellation: Boolean? = undefined, autoGainControl: Boolean? = undefined, noiseSuppression: Boolean? = undefined, latency: Double? = undefined, channelCount: Int? = undefined, deviceId: String? = undefined, groupId: String? = undefined): MediaTrackSettings"
+    },
+    {
+      "text": "fun MediaTrackSupportedConstraints( width: Boolean? = true, height: Boolean? = true, aspectRatio: Boolean? = true, frameRate: Boolean? = true, facingMode: Boolean? = true, resizeMode: Boolean? = true, volume: Boolean? = true, sampleRate: Boolean? = true, sampleSize: Boolean? = true, echoCancellation: Boolean? = true, autoGainControl: Boolean? = true, noiseSuppression: Boolean? = true, latency: Boolean? = true, channelCount: Boolean? = true, deviceId: Boolean? = true, groupId: Boolean? = true): MediaTrackSupportedConstraints"
+    },
+    {
+      "text": "fun OverconstrainedErrorEventInit( error: dynamic = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): OverconstrainedErrorEventInit"
+    },
+    {
+      "text": "fun Settings(): Settings"
+    },
+    {
+      "text": "fun ULongRange( max: Int? = undefined, min: Int? = undefined): ULongRange"
+    },
+    {
+      "text": "val MediaDeviceKind.Companion.AUDIOINPUT: MediaDeviceKind"
+    },
+    {
+      "text": "val MediaDeviceKind.Companion.AUDIOOUTPUT: MediaDeviceKind"
+    },
+    {
+      "text": "val VideoResizeModeEnum.Companion.CROP_AND_SCALE: VideoResizeModeEnum"
+    },
+    {
+      "text": "val MediaStreamTrackState.Companion.ENDED: MediaStreamTrackState"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.ENVIRONMENT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.LEFT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val MediaStreamTrackState.Companion.LIVE: MediaStreamTrackState"
+    },
+    {
+      "text": "val VideoResizeModeEnum.Companion.NONE: VideoResizeModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.RIGHT: VideoFacingModeEnum"
+    },
+    {
+      "text": "val VideoFacingModeEnum.Companion.USER: VideoFacingModeEnum"
+    },
+    {
+      "text": "val MediaDeviceKind.Companion.VIDEOINPUT: MediaDeviceKind"
+    }
+  ]
+}

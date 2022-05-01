@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "Pinned",
+  "signature": "data class Pinned<out T : Any>",
+  "items": [
+    {
+      "text": "fun get(): T",
+      "desc": "Returns the underlying pinned object."
+    },
+    {
+      "text": "fun unpin()",
+      "desc": "Disposes the handle. It must not be used after that."
+    },
+    {
+      "text": "fun Pinned<ByteArray>.addressOf( index: Int): CPointer<ByteVar>"
+    }
+  ]
+}

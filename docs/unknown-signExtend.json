@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "signExtend",
+  "signature": "fun <reified R : Number> Number.signExtend(): R",
+  "items": []
+}

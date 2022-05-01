@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toShortOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toShortOrNull(): Short?",
+      "desc": "Parses the string as a Short number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toShortOrNull(radix: Int): Short?",
+      "desc": "Parses the string as a Short number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

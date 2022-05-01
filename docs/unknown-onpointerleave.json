@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpointerleave",
+  "signature": "open var onpointerleave: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

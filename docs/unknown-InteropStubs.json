@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "InteropStubs",
+  "signature": "@Target([AnnotationTarget.FILE]) annotation class InteropStubs",
+  "items": [
+    {
+      "text": "InteropStubs()"
+    }
+  ]
+}

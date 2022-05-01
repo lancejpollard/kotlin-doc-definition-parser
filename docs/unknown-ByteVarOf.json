@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "ByteVarOf",
+  "signature": "class ByteVarOf<T : Byte> : CPrimitiveVar",
+  "items": [
+    {
+      "text": "companion object Companion : Type"
+    },
+    {
+      "text": "ByteVarOf(rawPtr: NativePtr)"
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "var <T : Byte> ByteVarOf<T>.value: T"
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    }
+  ]
+}

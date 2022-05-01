@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "TextTrackCueList",
+  "signature": "abstract class TextTrackCueList",
+  "items": [
+    {
+      "text": "TextTrackCueList()"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun getCueById(id: String): TextTrackCue?"
+    },
+    {
+      "text": "operator fun TextTrackCueList.get(index: Int): TextTrackCue?"
+    }
+  ]
+}

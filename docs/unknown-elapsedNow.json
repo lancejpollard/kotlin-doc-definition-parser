@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "elapsedNow",
+  "signature": "abstract fun elapsedNow(): Duration",
+  "items": []
+}

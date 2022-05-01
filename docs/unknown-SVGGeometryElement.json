@@ -1,0 +1,112 @@
+{
+  "type": "unknown",
+  "name": "SVGGeometryElement",
+  "signature": "abstract class SVGGeometryElement : SVGGraphicsElement",
+  "items": [
+    {
+      "text": "SVGGeometryElement()",
+      "desc": "Exposes the JavaScript SVGGeometryElement to Kotlin"
+    },
+    {
+      "text": "open val pathLength: SVGAnimatedNumber"
+    },
+    {
+      "text": "fun getPointAtLength(distance: Float): DOMPoint"
+    },
+    {
+      "text": "fun getTotalLength(): Float"
+    },
+    {
+      "text": "fun isPointInFill(point: DOMPoint): Boolean"
+    },
+    {
+      "text": "fun isPointInStroke(point: DOMPoint): Boolean"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class SVGCircleElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGCircleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGEllipseElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGEllipseElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGLineElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGLineElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMeshElement : SVGGeometryElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGMeshElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPathElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPolygonElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolygonElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPolylineElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolylineElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGRectElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGRectElement to Kotlin"
+    }
+  ]
+}

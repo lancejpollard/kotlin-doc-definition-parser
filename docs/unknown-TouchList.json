@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "TouchList",
+  "signature": "abstract class TouchList : ItemArrayLike<Touch>",
+  "items": [
+    {
+      "text": "TouchList()"
+    },
+    {
+      "text": "open fun item(index: Int): Touch?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun TouchList.get(index: Int): Touch?"
+    }
+  ]
+}

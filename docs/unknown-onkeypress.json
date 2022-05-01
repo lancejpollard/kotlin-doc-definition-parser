@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onkeypress",
+  "signature": "open var onkeypress: ((KeyboardEvent) -> dynamic)?",
+  "items": []
+}

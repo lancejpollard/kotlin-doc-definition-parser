@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "coroutineContext",
+  "signature": "suspend inline val coroutineContext: CoroutineContext",
+  "items": []
+}

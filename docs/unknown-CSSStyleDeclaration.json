@@ -1,0 +1,726 @@
+{
+  "type": "unknown",
+  "name": "CSSStyleDeclaration",
+  "signature": "abstract class CSSStyleDeclaration : ItemArrayLike<String>",
+  "items": [
+    {
+      "text": "CSSStyleDeclaration()",
+      "desc": "Exposes the JavaScript CSSStyleDeclaration to Kotlin"
+    },
+    {
+      "text": "open var _camel_cased_attribute: String"
+    },
+    {
+      "text": "open var _dashed_attribute: String"
+    },
+    {
+      "text": "open var _webkit_cased_attribute: String"
+    },
+    {
+      "text": "open var alignContent: String"
+    },
+    {
+      "text": "open var alignItems: String"
+    },
+    {
+      "text": "open var alignSelf: String"
+    },
+    {
+      "text": "open var animation: String"
+    },
+    {
+      "text": "open var animationDelay: String"
+    },
+    {
+      "text": "open var animationDirection: String"
+    },
+    {
+      "text": "open var animationDuration: String"
+    },
+    {
+      "text": "open var animationFillMode: String"
+    },
+    {
+      "text": "open var animationIterationCount: String"
+    },
+    {
+      "text": "open var animationName: String"
+    },
+    {
+      "text": "open var animationPlayState: String"
+    },
+    {
+      "text": "open var animationTimingFunction: String"
+    },
+    {
+      "text": "open var backfaceVisibility: String"
+    },
+    {
+      "text": "open var background: String"
+    },
+    {
+      "text": "open var backgroundAttachment: String"
+    },
+    {
+      "text": "open var backgroundClip: String"
+    },
+    {
+      "text": "open var backgroundColor: String"
+    },
+    {
+      "text": "open var backgroundImage: String"
+    },
+    {
+      "text": "open var backgroundOrigin: String"
+    },
+    {
+      "text": "open var backgroundPosition: String"
+    },
+    {
+      "text": "open var backgroundRepeat: String"
+    },
+    {
+      "text": "open var backgroundSize: String"
+    },
+    {
+      "text": "open var border: String"
+    },
+    {
+      "text": "open var borderBottom: String"
+    },
+    {
+      "text": "open var borderBottomColor: String"
+    },
+    {
+      "text": "open var borderBottomLeftRadius: String"
+    },
+    {
+      "text": "open var borderBottomRightRadius: String"
+    },
+    {
+      "text": "open var borderBottomStyle: String"
+    },
+    {
+      "text": "open var borderBottomWidth: String"
+    },
+    {
+      "text": "open var borderCollapse: String"
+    },
+    {
+      "text": "open var borderColor: String"
+    },
+    {
+      "text": "open var borderImage: String"
+    },
+    {
+      "text": "open var borderImageOutset: String"
+    },
+    {
+      "text": "open var borderImageRepeat: String"
+    },
+    {
+      "text": "open var borderImageSlice: String"
+    },
+    {
+      "text": "open var borderImageSource: String"
+    },
+    {
+      "text": "open var borderImageWidth: String"
+    },
+    {
+      "text": "open var borderLeft: String"
+    },
+    {
+      "text": "open var borderLeftColor: String"
+    },
+    {
+      "text": "open var borderLeftStyle: String"
+    },
+    {
+      "text": "open var borderLeftWidth: String"
+    },
+    {
+      "text": "open var borderRadius: String"
+    },
+    {
+      "text": "open var borderRight: String"
+    },
+    {
+      "text": "open var borderRightColor: String"
+    },
+    {
+      "text": "open var borderRightStyle: String"
+    },
+    {
+      "text": "open var borderRightWidth: String"
+    },
+    {
+      "text": "open var borderSpacing: String"
+    },
+    {
+      "text": "open var borderStyle: String"
+    },
+    {
+      "text": "open var borderTop: String"
+    },
+    {
+      "text": "open var borderTopColor: String"
+    },
+    {
+      "text": "open var borderTopLeftRadius: String"
+    },
+    {
+      "text": "open var borderTopRightRadius: String"
+    },
+    {
+      "text": "open var borderTopStyle: String"
+    },
+    {
+      "text": "open var borderTopWidth: String"
+    },
+    {
+      "text": "open var borderWidth: String"
+    },
+    {
+      "text": "open var bottom: String"
+    },
+    {
+      "text": "open var boxDecorationBreak: String"
+    },
+    {
+      "text": "open var boxShadow: String"
+    },
+    {
+      "text": "open var boxSizing: String"
+    },
+    {
+      "text": "open var breakAfter: String"
+    },
+    {
+      "text": "open var breakBefore: String"
+    },
+    {
+      "text": "open var breakInside: String"
+    },
+    {
+      "text": "open var captionSide: String"
+    },
+    {
+      "text": "open var clear: String"
+    },
+    {
+      "text": "open var clip: String"
+    },
+    {
+      "text": "open var color: String"
+    },
+    {
+      "text": "open var columnCount: String"
+    },
+    {
+      "text": "open var columnFill: String"
+    },
+    {
+      "text": "open var columnGap: String"
+    },
+    {
+      "text": "open var columnRule: String"
+    },
+    {
+      "text": "open var columnRuleColor: String"
+    },
+    {
+      "text": "open var columnRuleStyle: String"
+    },
+    {
+      "text": "open var columnRuleWidth: String"
+    },
+    {
+      "text": "open var columns: String"
+    },
+    {
+      "text": "open var columnSpan: String"
+    },
+    {
+      "text": "open var columnWidth: String"
+    },
+    {
+      "text": "open var content: String"
+    },
+    {
+      "text": "open var counterIncrement: String"
+    },
+    {
+      "text": "open var counterReset: String"
+    },
+    {
+      "text": "open var cssFloat: String"
+    },
+    {
+      "text": "open var cssText: String"
+    },
+    {
+      "text": "open var cursor: String"
+    },
+    {
+      "text": "open var direction: String"
+    },
+    {
+      "text": "open var display: String"
+    },
+    {
+      "text": "open var emptyCells: String"
+    },
+    {
+      "text": "open var filter: String"
+    },
+    {
+      "text": "open var flex: String"
+    },
+    {
+      "text": "open var flexBasis: String"
+    },
+    {
+      "text": "open var flexDirection: String"
+    },
+    {
+      "text": "open var flexFlow: String"
+    },
+    {
+      "text": "open var flexGrow: String"
+    },
+    {
+      "text": "open var flexShrink: String"
+    },
+    {
+      "text": "open var flexWrap: String"
+    },
+    {
+      "text": "open var font: String"
+    },
+    {
+      "text": "open var fontFamily: String"
+    },
+    {
+      "text": "open var fontFeatureSettings: String"
+    },
+    {
+      "text": "open var fontKerning: String"
+    },
+    {
+      "text": "open var fontLanguageOverride: String"
+    },
+    {
+      "text": "open var fontSize: String"
+    },
+    {
+      "text": "open var fontSizeAdjust: String"
+    },
+    {
+      "text": "open var fontStretch: String"
+    },
+    {
+      "text": "open var fontStyle: String"
+    },
+    {
+      "text": "open var fontSynthesis: String"
+    },
+    {
+      "text": "open var fontVariant: String"
+    },
+    {
+      "text": "open var fontVariantAlternates: String"
+    },
+    {
+      "text": "open var fontVariantCaps: String"
+    },
+    {
+      "text": "open var fontVariantEastAsian: String"
+    },
+    {
+      "text": "open var fontVariantLigatures: String"
+    },
+    {
+      "text": "open var fontVariantNumeric: String"
+    },
+    {
+      "text": "open var fontVariantPosition: String"
+    },
+    {
+      "text": "open var fontWeight: String"
+    },
+    {
+      "text": "open var hangingPunctuation: String"
+    },
+    {
+      "text": "open var height: String"
+    },
+    {
+      "text": "open var hyphens: String"
+    },
+    {
+      "text": "open var imageOrientation: String"
+    },
+    {
+      "text": "open var imageRendering: String"
+    },
+    {
+      "text": "open var imageResolution: String"
+    },
+    {
+      "text": "open var imeMode: String"
+    },
+    {
+      "text": "open var justifyContent: String"
+    },
+    {
+      "text": "open var left: String"
+    },
+    {
+      "text": "open var letterSpacing: String"
+    },
+    {
+      "text": "open var lineBreak: String"
+    },
+    {
+      "text": "open var lineHeight: String"
+    },
+    {
+      "text": "open var listStyle: String"
+    },
+    {
+      "text": "open var listStyleImage: String"
+    },
+    {
+      "text": "open var listStylePosition: String"
+    },
+    {
+      "text": "open var listStyleType: String"
+    },
+    {
+      "text": "open var margin: String"
+    },
+    {
+      "text": "open var marginBottom: String"
+    },
+    {
+      "text": "open var marginLeft: String"
+    },
+    {
+      "text": "open var marginRight: String"
+    },
+    {
+      "text": "open var marginTop: String"
+    },
+    {
+      "text": "open var mark: String"
+    },
+    {
+      "text": "open var markAfter: String"
+    },
+    {
+      "text": "open var markBefore: String"
+    },
+    {
+      "text": "open var marks: String"
+    },
+    {
+      "text": "open var marqueeDirection: String"
+    },
+    {
+      "text": "open var marqueePlayCount: String"
+    },
+    {
+      "text": "open var marqueeSpeed: String"
+    },
+    {
+      "text": "open var marqueeStyle: String"
+    },
+    {
+      "text": "open var mask: String"
+    },
+    {
+      "text": "open var maskType: String"
+    },
+    {
+      "text": "open var maxHeight: String"
+    },
+    {
+      "text": "open var maxWidth: String"
+    },
+    {
+      "text": "open var minHeight: String"
+    },
+    {
+      "text": "open var minWidth: String"
+    },
+    {
+      "text": "open var navDown: String"
+    },
+    {
+      "text": "open var navIndex: String"
+    },
+    {
+      "text": "open var navLeft: String"
+    },
+    {
+      "text": "open var navRight: String"
+    },
+    {
+      "text": "open var navUp: String"
+    },
+    {
+      "text": "open var objectFit: String"
+    },
+    {
+      "text": "open var objectPosition: String"
+    },
+    {
+      "text": "open var opacity: String"
+    },
+    {
+      "text": "open var order: String"
+    },
+    {
+      "text": "open var orphans: String"
+    },
+    {
+      "text": "open var outline: String"
+    },
+    {
+      "text": "open var outlineColor: String"
+    },
+    {
+      "text": "open var outlineOffset: String"
+    },
+    {
+      "text": "open var outlineStyle: String"
+    },
+    {
+      "text": "open var outlineWidth: String"
+    },
+    {
+      "text": "open var overflowWrap: String"
+    },
+    {
+      "text": "open var overflowX: String"
+    },
+    {
+      "text": "open var overflowY: String"
+    },
+    {
+      "text": "open var padding: String"
+    },
+    {
+      "text": "open var paddingBottom: String"
+    },
+    {
+      "text": "open var paddingLeft: String"
+    },
+    {
+      "text": "open var paddingRight: String"
+    },
+    {
+      "text": "open var paddingTop: String"
+    },
+    {
+      "text": "open var pageBreakAfter: String"
+    },
+    {
+      "text": "open var pageBreakBefore: String"
+    },
+    {
+      "text": "open var pageBreakInside: String"
+    },
+    {
+      "text": "open val parentRule: CSSRule?"
+    },
+    {
+      "text": "open var perspective: String"
+    },
+    {
+      "text": "open var perspectiveOrigin: String"
+    },
+    {
+      "text": "open var phonemes: String"
+    },
+    {
+      "text": "open var position: String"
+    },
+    {
+      "text": "open var quotes: String"
+    },
+    {
+      "text": "open var resize: String"
+    },
+    {
+      "text": "open var rest: String"
+    },
+    {
+      "text": "open var restAfter: String"
+    },
+    {
+      "text": "open var restBefore: String"
+    },
+    {
+      "text": "open var right: String"
+    },
+    {
+      "text": "open var tableLayout: String"
+    },
+    {
+      "text": "open var tabSize: String"
+    },
+    {
+      "text": "open var textAlign: String"
+    },
+    {
+      "text": "open var textAlignLast: String"
+    },
+    {
+      "text": "open var textCombineUpright: String"
+    },
+    {
+      "text": "open var textDecoration: String"
+    },
+    {
+      "text": "open var textDecorationColor: String"
+    },
+    {
+      "text": "open var textDecorationLine: String"
+    },
+    {
+      "text": "open var textDecorationStyle: String"
+    },
+    {
+      "text": "open var textIndent: String"
+    },
+    {
+      "text": "open var textJustify: String"
+    },
+    {
+      "text": "open var textOrientation: String"
+    },
+    {
+      "text": "open var textOverflow: String"
+    },
+    {
+      "text": "open var textShadow: String"
+    },
+    {
+      "text": "open var textTransform: String"
+    },
+    {
+      "text": "open var textUnderlinePosition: String"
+    },
+    {
+      "text": "open var top: String"
+    },
+    {
+      "text": "open var transform: String"
+    },
+    {
+      "text": "open var transformOrigin: String"
+    },
+    {
+      "text": "open var transformStyle: String"
+    },
+    {
+      "text": "open var transition: String"
+    },
+    {
+      "text": "open var transitionDelay: String"
+    },
+    {
+      "text": "open var transitionDuration: String"
+    },
+    {
+      "text": "open var transitionProperty: String"
+    },
+    {
+      "text": "open var transitionTimingFunction: String"
+    },
+    {
+      "text": "open var unicodeBidi: String"
+    },
+    {
+      "text": "open var verticalAlign: String"
+    },
+    {
+      "text": "open var visibility: String"
+    },
+    {
+      "text": "open var voiceBalance: String"
+    },
+    {
+      "text": "open var voiceDuration: String"
+    },
+    {
+      "text": "open var voicePitch: String"
+    },
+    {
+      "text": "open var voicePitchRange: String"
+    },
+    {
+      "text": "open var voiceRate: String"
+    },
+    {
+      "text": "open var voiceStress: String"
+    },
+    {
+      "text": "open var voiceVolume: String"
+    },
+    {
+      "text": "open var whiteSpace: String"
+    },
+    {
+      "text": "open var widows: String"
+    },
+    {
+      "text": "open var width: String"
+    },
+    {
+      "text": "open var wordBreak: String"
+    },
+    {
+      "text": "open var wordSpacing: String"
+    },
+    {
+      "text": "open var wordWrap: String"
+    },
+    {
+      "text": "open var writingMode: String"
+    },
+    {
+      "text": "open var zIndex: String"
+    },
+    {
+      "text": "fun getPropertyPriority(property: String): String"
+    },
+    {
+      "text": "fun getPropertyValue(property: String): String"
+    },
+    {
+      "text": "open fun item(index: Int): String"
+    },
+    {
+      "text": "fun removeProperty(property: String): String"
+    },
+    {
+      "text": "fun setProperty( property: String, value: String, priority: String = definedExternally)"
+    },
+    {
+      "text": "fun setPropertyPriority(property: String, priority: String)"
+    },
+    {
+      "text": "fun setPropertyValue(property: String, value: String)"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun CSSStyleDeclaration.get(index: Int): String?"
+    }
+  ]
+}

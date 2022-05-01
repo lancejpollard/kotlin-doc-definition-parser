@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "iterator",
+  "signature": "fun iterator(): MutableIterator<E>",
+  "items": []
+}

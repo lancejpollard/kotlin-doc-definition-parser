@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "coerceAtMost",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun Byte.coerceAtMost(maximumValue: Byte): Byte",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun UInt.coerceAtMost(maximumValue: UInt): UInt",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    }
+  ],
+  "items": []
+}

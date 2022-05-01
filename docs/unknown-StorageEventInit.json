@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "StorageEventInit",
+  "signature": "fun StorageEventInit( key: String? = null, oldValue: String? = null, newValue: String? = null, url: String? = \"\", storageArea: Storage? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): StorageEventInit",
+  "items": []
+}

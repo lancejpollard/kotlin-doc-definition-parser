@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "STYLE",
+  "signature": "inline val RequestType.Companion.STYLE: RequestType",
+  "items": []
+}

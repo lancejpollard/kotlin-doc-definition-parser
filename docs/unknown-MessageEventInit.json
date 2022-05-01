@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MessageEventInit",
+  "signature": "fun MessageEventInit( data: Any? = null, origin: String? = \"\", lastEventId: String? = \"\", source: UnionMessagePortOrWindowProxy? = null, ports: Array<MessagePort>? = arrayOf(), bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MessageEventInit",
+  "items": []
+}

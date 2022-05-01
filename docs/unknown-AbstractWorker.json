@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "AbstractWorker",
+  "signature": "interface AbstractWorker",
+  "items": [
+    {
+      "text": "open var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "abstract class ServiceWorker : EventTarget, AbstractWorker, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript ServiceWorker to Kotlin"
+    },
+    {
+      "text": "open class SharedWorker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript SharedWorker to Kotlin"
+    },
+    {
+      "text": "open class Worker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript Worker to Kotlin"
+    }
+  ]
+}

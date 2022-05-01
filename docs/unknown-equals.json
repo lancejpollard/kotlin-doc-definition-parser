@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "equals",
+  "signature": "fun equals(other: Any?): Boolean",
+  "items": []
+}

@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "Platform",
+  "signature": "object Platform",
+  "items": [
+    {
+      "text": "val canAccessUnaligned: Boolean",
+      "desc": "Check if current architecture allows unaligned access to wider than byte locations."
+    },
+    {
+      "text": "val cpuArchitecture: CpuArchitecture",
+      "desc": "Architechture of the CPU program executes upon."
+    },
+    {
+      "text": "var isCleanersLeakCheckerActive: Boolean"
+    },
+    {
+      "text": "val isDebugBinary: Boolean",
+      "desc": "If binary was compiled in debug mode."
+    },
+    {
+      "text": "val isLittleEndian: Boolean",
+      "desc": "Check if byte order of the current platform is least significant byte (LSB) first, aka little endian."
+    },
+    {
+      "text": "var isMemoryLeakCheckerActive: Boolean",
+      "desc": "If the memory leak checker is activated, by default true in debug mode, false in release. When memory leak checker is activated, and leak is detected during last Kotlin context deinitialization process - error message with leak information is printed and application execution is aborted."
+    },
+    {
+      "text": "val memoryModel: MemoryModel",
+      "desc": "Memory model binary was compiled with."
+    },
+    {
+      "text": "val osFamily: OsFamily",
+      "desc": "Operating system family program executes upon."
+    }
+  ]
+}

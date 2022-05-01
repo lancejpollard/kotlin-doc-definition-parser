@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onEach",
+  "signature": "inline fun <S : CharSequence> S.onEach( action: (Char) -> Unit): S",
+  "items": []
+}

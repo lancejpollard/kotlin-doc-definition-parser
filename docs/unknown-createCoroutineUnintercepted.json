@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "createCoroutineUnintercepted",
+  "signatures": [
+    {
+      "text": "fun <T> (suspend () -> T).createCoroutineUnintercepted( completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates unintercepted coroutine without receiver and with result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).createCoroutineUnintercepted( receiver: R, completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates unintercepted coroutine with receiver type R and result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    }
+  ],
+  "items": []
+}

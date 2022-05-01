@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "test",
+  "signature": "fun test(str: String): Boolean",
+  "items": []
+}

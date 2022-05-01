@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Accessor",
+  "signature": "interface Accessor<out V>",
+  "items": [
+    {
+      "text": "abstract val property: KProperty<V>",
+      "desc": "The property which this accessor is originated from."
+    },
+    {
+      "text": "interface Getter<out V> : KProperty.Accessor<V>, KFunction<V>",
+      "desc": "Getter of the property is a get method declared alongside the property."
+    },
+    {
+      "text": "interface Setter<V> : KProperty.Accessor<V>, KFunction<Unit>",
+      "desc": "Setter of the property is a set method declared alongside the property."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Iterable",
+  "signature": "inline fun <T> Iterable( crossinline iterator: () -> Iterator<T>): Iterable<T>",
+  "items": []
+}

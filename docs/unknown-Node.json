@@ -1,0 +1,200 @@
+{
+  "type": "unknown",
+  "name": "Node",
+  "signature": "abstract class Node : EventTarget",
+  "items": [
+    {
+      "text": "Node()",
+      "desc": "Exposes the JavaScript Node to Kotlin"
+    },
+    {
+      "text": "open val baseURI: String"
+    },
+    {
+      "text": "open val childNodes: NodeList"
+    },
+    {
+      "text": "open val firstChild: Node?"
+    },
+    {
+      "text": "open val isConnected: Boolean"
+    },
+    {
+      "text": "open val lastChild: Node?"
+    },
+    {
+      "text": "open val nextSibling: Node?"
+    },
+    {
+      "text": "open val nodeName: String"
+    },
+    {
+      "text": "open val nodeType: Short"
+    },
+    {
+      "text": "open var nodeValue: String?"
+    },
+    {
+      "text": "open val ownerDocument: Document?"
+    },
+    {
+      "text": "open val parentElement: Element?"
+    },
+    {
+      "text": "open val parentNode: Node?"
+    },
+    {
+      "text": "open val previousSibling: Node?"
+    },
+    {
+      "text": "open var textContent: String?"
+    },
+    {
+      "text": "fun appendChild(node: Node): Node"
+    },
+    {
+      "text": "fun cloneNode(deep: Boolean = definedExternally): Node"
+    },
+    {
+      "text": "fun compareDocumentPosition(other: Node): Short"
+    },
+    {
+      "text": "fun contains(other: Node?): Boolean"
+    },
+    {
+      "text": "fun getRootNode( options: GetRootNodeOptions = definedExternally): Node"
+    },
+    {
+      "text": "fun hasChildNodes(): Boolean"
+    },
+    {
+      "text": "fun insertBefore(node: Node, child: Node?): Node"
+    },
+    {
+      "text": "fun isDefaultNamespace(namespace: String?): Boolean"
+    },
+    {
+      "text": "fun isEqualNode(otherNode: Node?): Boolean"
+    },
+    {
+      "text": "fun isSameNode(otherNode: Node?): Boolean"
+    },
+    {
+      "text": "fun lookupNamespaceURI(prefix: String?): String?"
+    },
+    {
+      "text": "fun lookupPrefix(namespace: String?): String?"
+    },
+    {
+      "text": "fun normalize()"
+    },
+    {
+      "text": "fun removeChild(child: Node): Node"
+    },
+    {
+      "text": "fun replaceChild(node: Node, child: Node): Node"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "val Node.isElement: Boolean",
+      "desc": "Gets a value indicating whether this node is an Element."
+    },
+    {
+      "text": "val Node.isElement: Boolean",
+      "desc": "Gets a value indicating whether this node is an Element."
+    },
+    {
+      "text": "val Node.isText: Boolean",
+      "desc": "Gets a value indicating whether this node is a TEXT_NODE or a CDATA_SECTION_NODE."
+    },
+    {
+      "text": "val Node.isText: Boolean",
+      "desc": "Gets a value indicating whether this node is a TEXT_NODE or a CDATA_SECTION_NODE."
+    },
+    {
+      "text": "fun Node.clear()",
+      "desc": "Removes all the children from this node."
+    },
+    {
+      "text": "fun Node.clear()",
+      "desc": "Removes all the children from this node."
+    },
+    {
+      "text": "abstract class Attr : Node",
+      "desc": "Exposes the JavaScript Attr to Kotlin"
+    },
+    {
+      "text": "abstract class CharacterData : Node, NonDocumentTypeChildNode, ChildNode",
+      "desc": "Exposes the JavaScript CharacterData to Kotlin"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "open class DocumentFragment : Node, NonElementParentNode, ParentNode",
+      "desc": "Exposes the JavaScript DocumentFragment to Kotlin"
+    },
+    {
+      "text": "abstract class DocumentType : Node, ChildNode",
+      "desc": "Exposes the JavaScript DocumentType to Kotlin"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    }
+  ]
+}

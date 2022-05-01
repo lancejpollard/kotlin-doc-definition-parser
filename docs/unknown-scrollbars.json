@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scrollbars",
+  "signature": "open val scrollbars: BarProp",
+  "items": []
+}

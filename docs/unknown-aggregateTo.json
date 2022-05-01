@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "aggregateTo",
+  "signature": "inline fun <T, K, R, M : MutableMap<in K, R>> Grouping<T, K>.aggregateTo( destination: M, operation: (key: K, accumulator: R?, element: T, first: Boolean) -> R): M",
+  "items": []
+}

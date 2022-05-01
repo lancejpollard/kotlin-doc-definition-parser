@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ByteVar",
+  "signature": "typealias ByteVar = ByteVarOf<Byte>",
+  "items": []
+}

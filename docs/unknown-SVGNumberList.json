@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "SVGNumberList",
+  "signature": "abstract class SVGNumberList",
+  "items": [
+    {
+      "text": "SVGNumberList()",
+      "desc": "Exposes the JavaScript SVGNumberList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: SVGNumber): SVGNumber"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(index: Int): SVGNumber"
+    },
+    {
+      "text": "fun initialize(newItem: SVGNumber): SVGNumber"
+    },
+    {
+      "text": "fun insertItemBefore( newItem: SVGNumber, index: Int): SVGNumber"
+    },
+    {
+      "text": "fun removeItem(index: Int): SVGNumber"
+    },
+    {
+      "text": "fun replaceItem(newItem: SVGNumber, index: Int): SVGNumber"
+    },
+    {
+      "text": "operator fun SVGNumberList.get(index: Int): SVGNumber?"
+    },
+    {
+      "text": "operator fun SVGNumberList.set( index: Int, newItem: SVGNumber)"
+    }
+  ]
+}

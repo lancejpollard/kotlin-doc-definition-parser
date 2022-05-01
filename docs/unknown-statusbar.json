@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "statusbar",
+  "signature": "open val statusbar: BarProp",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ExtendableMessageEventInit",
+  "signature": "fun ExtendableMessageEventInit( data: Any? = undefined, origin: String? = undefined, lastEventId: String? = undefined, source: UnionClientOrMessagePortOrServiceWorker? = undefined, ports: Array<MessagePort>? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ExtendableMessageEventInit",
+  "items": []
+}

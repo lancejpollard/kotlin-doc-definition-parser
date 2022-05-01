@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "jsTypeOf",
+  "signature": "fun jsTypeOf(a: Any?): String",
+  "items": []
+}

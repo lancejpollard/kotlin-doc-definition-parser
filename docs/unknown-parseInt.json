@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "parseInt",
+  "signature": "fun parseInt(s: String): Int",
+  "items": []
+}

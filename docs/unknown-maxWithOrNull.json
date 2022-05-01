@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "maxWithOrNull",
+  "signature": "fun CharSequence.maxWithOrNull( comparator: Comparator<in Char>): Char?",
+  "items": []
+}

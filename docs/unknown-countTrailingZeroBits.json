@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "countTrailingZeroBits",
+  "signatures": [
+    {
+      "text": "fun Int.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this Int number."
+    },
+    {
+      "text": "fun Long.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this Long number."
+    },
+    {
+      "text": "fun Byte.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this Byte number."
+    },
+    {
+      "text": "fun Short.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this Short number."
+    },
+    {
+      "text": "fun UInt.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this UInt number."
+    },
+    {
+      "text": "fun ULong.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this ULong number."
+    },
+    {
+      "text": "fun UByte.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this UByte number."
+    },
+    {
+      "text": "fun UShort.countTrailingZeroBits(): Int",
+      "desc": "Counts the number of consecutive least significant bits that are zero in the binary representation of this UShort number."
+    }
+  ],
+  "items": []
+}

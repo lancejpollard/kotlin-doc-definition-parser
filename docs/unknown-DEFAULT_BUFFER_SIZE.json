@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DEFAULT_BUFFER_SIZE",
+  "signature": "const val DEFAULT_BUFFER_SIZE: Int",
+  "items": []
+}

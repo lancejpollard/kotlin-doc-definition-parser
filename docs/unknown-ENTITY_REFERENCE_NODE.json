@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ENTITY_REFERENCE_NODE",
+  "signature": "val ENTITY_REFERENCE_NODE: Short",
+  "items": []
+}

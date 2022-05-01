@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ArenaManager",
+  "signature": "object ArenaManager",
+  "items": [
+    {
+      "text": "var currentArena: Arena"
+    },
+    {
+      "text": "val globalArena: Arena"
+    }
+  ]
+}

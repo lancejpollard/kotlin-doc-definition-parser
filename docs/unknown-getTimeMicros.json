@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getTimeMicros",
+  "signature": "fun getTimeMicros(): Long",
+  "items": []
+}

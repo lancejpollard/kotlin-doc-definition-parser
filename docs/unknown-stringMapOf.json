@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stringMapOf",
+  "signature": "fun <V> stringMapOf( vararg pairs: Pair<String, V>): HashMap<String, V>",
+  "items": []
+}

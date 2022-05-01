@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "uintArrayOf",
+  "signature": "@ExperimentalUnsignedTypes fun uintArrayOf( vararg elements: UInt): UIntArray",
+  "items": []
+}

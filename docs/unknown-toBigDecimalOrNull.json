@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBigDecimalOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toBigDecimalOrNull(): BigDecimal?",
+      "desc": "Parses the string as a java.math.BigDecimal number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toBigDecimalOrNull( mathContext: MathContext): BigDecimal?",
+      "desc": "Parses the string as a java.math.BigDecimal number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

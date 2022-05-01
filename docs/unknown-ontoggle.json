@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ontoggle",
+  "signature": "open var ontoggle: ((Event) -> dynamic)?",
+  "items": []
+}

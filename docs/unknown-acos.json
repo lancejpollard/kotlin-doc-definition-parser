@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "acos",
+  "signature": "fun acos(x: Double): Double",
+  "items": []
+}

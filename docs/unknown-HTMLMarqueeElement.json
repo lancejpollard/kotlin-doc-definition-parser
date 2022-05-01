@@ -1,0 +1,113 @@
+{
+  "type": "unknown",
+  "name": "HTMLMarqueeElement",
+  "signature": "abstract class HTMLMarqueeElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLMarqueeElement()",
+      "desc": "Exposes the JavaScript HTMLMarqueeElement to Kotlin"
+    },
+    {
+      "text": "open var behavior: String"
+    },
+    {
+      "text": "open var bgColor: String"
+    },
+    {
+      "text": "open var direction: String"
+    },
+    {
+      "text": "open var height: String"
+    },
+    {
+      "text": "open var hspace: Int"
+    },
+    {
+      "text": "open var loop: Int"
+    },
+    {
+      "text": "open var onbounce: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onfinish: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onstart: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var scrollAmount: Int"
+    },
+    {
+      "text": "open var scrollDelay: Int"
+    },
+    {
+      "text": "open var trueSpeed: Boolean"
+    },
+    {
+      "text": "open var vspace: Int"
+    },
+    {
+      "text": "open var width: String"
+    },
+    {
+      "text": "fun start()"
+    },
+    {
+      "text": "fun stop()"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "emptySet",
+  "signature": "fun <T> emptySet(): Set<T>",
+  "items": []
+}

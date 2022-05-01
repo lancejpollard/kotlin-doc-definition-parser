@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaConstructor",
+  "signature": "val <T> KFunction<T>.javaConstructor: Constructor<T>?",
+  "items": []
+}

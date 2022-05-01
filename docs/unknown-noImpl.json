@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "noImpl",
+  "signature": "val noImpl: Nothing",
+  "items": []
+}

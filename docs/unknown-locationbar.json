@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "locationbar",
+  "signature": "open val locationbar: BarProp",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "withIndex",
+  "signature": "fun CharSequence.withIndex(): Iterable<IndexedValue<Char>>",
+  "items": []
+}

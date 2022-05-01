@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ReturnsNotNull",
+  "signature": "@ExperimentalContracts interface ReturnsNotNull : SimpleEffect",
+  "items": []
+}

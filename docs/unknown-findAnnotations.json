@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findAnnotations",
+  "signature": "@ExperimentalStdlibApi fun <reified T : Annotation> KAnnotatedElement.findAnnotations(): List<T>",
+  "items": []
+}

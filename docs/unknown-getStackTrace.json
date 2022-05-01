@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getStackTrace",
+  "signature": "fun getStackTrace(): Array<String>",
+  "items": []
+}

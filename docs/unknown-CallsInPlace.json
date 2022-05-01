@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "callsInPlace",
+  "signature": "abstract fun <R> callsInPlace( lambda: Function<R>, kind: InvocationKind = InvocationKind.UNKNOWN): CallsInPlace",
+  "items": []
+}

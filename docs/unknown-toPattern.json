@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toPattern",
+  "signature": "fun String.toPattern(flags: Int = 0): Pattern",
+  "items": []
+}

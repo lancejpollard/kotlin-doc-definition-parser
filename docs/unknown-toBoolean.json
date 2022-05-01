@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toBoolean",
+  "signature": "fun Byte.toBoolean(): Boolean",
+  "items": []
+}

@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "Float32Array",
+  "signature": "open class Float32Array : ArrayBufferView",
+  "items": [
+    {
+      "text": "Float32Array(length: Int)"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun set(array: Float32Array, offset: Int = definedExternally)"
+    },
+    {
+      "text": "fun subarray(start: Int, end: Int): Float32Array"
+    },
+    {
+      "text": "val BYTES_PER_ELEMENT: Int"
+    },
+    {
+      "text": "operator fun Float32Array.get(index: Int): Float"
+    },
+    {
+      "text": "operator fun Float32Array.set(index: Int, value: Float)"
+    }
+  ]
+}

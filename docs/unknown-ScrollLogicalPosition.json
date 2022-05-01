@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ScrollLogicalPosition",
+  "signature": "interface ScrollLogicalPosition",
+  "items": [
+    {
+      "text": "val ScrollLogicalPosition.Companion.CENTER: ScrollLogicalPosition"
+    },
+    {
+      "text": "val ScrollLogicalPosition.Companion.END: ScrollLogicalPosition"
+    },
+    {
+      "text": "val ScrollLogicalPosition.Companion.NEAREST: ScrollLogicalPosition"
+    },
+    {
+      "text": "val ScrollLogicalPosition.Companion.START: ScrollLogicalPosition"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "uppercase",
+  "signatures": [
+    {
+      "text": "fun Char.uppercase(): String",
+      "desc": "Converts this character to upper case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "fun String.uppercase(): String",
+      "desc": "Returns a copy of this string converted to upper case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "fun Char.uppercase(locale: Locale): String",
+      "desc": "Converts this character to upper case using Unicode mapping rules of the specified locale."
+    },
+    {
+      "text": "fun String.uppercase(locale: Locale): String",
+      "desc": "Returns a copy of this string converted to upper case using the rules of the specified locale."
+    }
+  ],
+  "items": []
+}

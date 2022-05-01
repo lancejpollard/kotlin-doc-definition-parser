@@ -1,0 +1,116 @@
+{
+  "type": "unknown",
+  "name": "HTMLLinkElement",
+  "signature": "abstract class HTMLLinkElement : HTMLElement, LinkStyle",
+  "items": [
+    {
+      "text": "HTMLLinkElement()",
+      "desc": "Exposes the JavaScript HTMLLinkElement to Kotlin"
+    },
+    {
+      "text": "open var as: RequestDestination"
+    },
+    {
+      "text": "open var charset: String"
+    },
+    {
+      "text": "open var crossOrigin: String?"
+    },
+    {
+      "text": "open var href: String"
+    },
+    {
+      "text": "open var hreflang: String"
+    },
+    {
+      "text": "open var media: String"
+    },
+    {
+      "text": "open var nonce: String"
+    },
+    {
+      "text": "open var referrerPolicy: String"
+    },
+    {
+      "text": "open var rel: String"
+    },
+    {
+      "text": "open val relList: DOMTokenList"
+    },
+    {
+      "text": "open var rev: String"
+    },
+    {
+      "text": "open var scope: String"
+    },
+    {
+      "text": "open val sizes: DOMTokenList"
+    },
+    {
+      "text": "open var target: String"
+    },
+    {
+      "text": "open var type: String"
+    },
+    {
+      "text": "open var workerType: WorkerType"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "var HTMLLinkElement.as_: RequestDestination"
+    }
+  ]
+}

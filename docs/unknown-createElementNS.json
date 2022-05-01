@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createElementNS",
+  "signature": "fun createElementNS( namespace: String?, qualifiedName: String, options: ElementCreationOptions = definedExternally): Element",
+  "items": []
+}

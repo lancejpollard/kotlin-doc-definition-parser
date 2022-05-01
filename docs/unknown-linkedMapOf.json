@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "linkedMapOf",
+  "signatures": [
+    {
+      "text": "fun <K, V> linkedMapOf(): LinkedHashMap<K, V>",
+      "desc": "Returns an empty new LinkedHashMap."
+    },
+    {
+      "text": "fun <K, V> linkedMapOf( vararg pairs: Pair<K, V>): LinkedHashMap<K, V>",
+      "desc": "Returns a new LinkedHashMap with the specified contents, given as a list of pairs where the first component is the key and the second is the value."
+    }
+  ],
+  "items": []
+}

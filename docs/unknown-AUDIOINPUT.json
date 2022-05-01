@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "AUDIOINPUT",
+  "signature": "inline val MediaDeviceKind.Companion.AUDIOINPUT: MediaDeviceKind",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "category",
+  "signature": "val Char.category: CharCategory",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "extraInt",
+  "signature": "val extraInt: Int",
+  "items": []
+}

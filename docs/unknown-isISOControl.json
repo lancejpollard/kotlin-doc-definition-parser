@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isISOControl",
+  "signature": "fun Char.isISOControl(): Boolean",
+  "items": []
+}

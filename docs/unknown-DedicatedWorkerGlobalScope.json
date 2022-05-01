@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "DedicatedWorkerGlobalScope",
+  "signature": "abstract class DedicatedWorkerGlobalScope : WorkerGlobalScope",
+  "items": [
+    {
+      "text": "DedicatedWorkerGlobalScope()",
+      "desc": "Exposes the JavaScript DedicatedWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "fun close()"
+    },
+    {
+      "text": "fun postMessage( message: Any?, transfer: Array<dynamic> = definedExternally)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "AudioTrack",
+  "signature": "abstract class AudioTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+  "items": [
+    {
+      "text": "AudioTrack()",
+      "desc": "Exposes the JavaScript AudioTrack to Kotlin"
+    },
+    {
+      "text": "open var enabled: Boolean"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "open val kind: String"
+    },
+    {
+      "text": "open val label: String"
+    },
+    {
+      "text": "open val language: String"
+    },
+    {
+      "text": "open val sourceBuffer: SourceBuffer?"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "Triple",
+  "signature": "data class Triple<out A, out B, out C> : Serializable",
+  "items": [
+    {
+      "text": "Triple(first: A, second: B, third: C)",
+      "desc": "Represents a triad of values"
+    },
+    {
+      "text": "val first: A",
+      "desc": "First value."
+    },
+    {
+      "text": "val second: B",
+      "desc": "Second value."
+    },
+    {
+      "text": "val third: C",
+      "desc": "Third value."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns string representation of the Triple including its first, second and third values."
+    },
+    {
+      "text": "fun <T> Triple<T, T, T>.toList(): List<T>",
+      "desc": "Converts this triple into a list."
+    }
+  ]
+}

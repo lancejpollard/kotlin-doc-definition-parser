@@ -1,0 +1,68 @@
+{
+  "type": "unknown",
+  "name": "DataView",
+  "signature": "open class DataView : ArrayBufferView",
+  "items": [
+    {
+      "text": "DataView( buffer: ArrayBuffer, byteOffset: Int = definedExternally, byteLength: Int = definedExternally)",
+      "desc": "Exposes the JavaScript DataView to Kotlin"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "fun getFloat32( byteOffset: Int, littleEndian: Boolean = definedExternally): Float"
+    },
+    {
+      "text": "fun getFloat64( byteOffset: Int, littleEndian: Boolean = definedExternally): Double"
+    },
+    {
+      "text": "fun getInt16( byteOffset: Int, littleEndian: Boolean = definedExternally): Short"
+    },
+    {
+      "text": "fun getInt32( byteOffset: Int, littleEndian: Boolean = definedExternally): Int"
+    },
+    {
+      "text": "fun getInt8(byteOffset: Int): Byte"
+    },
+    {
+      "text": "fun getUint16( byteOffset: Int, littleEndian: Boolean = definedExternally): Short"
+    },
+    {
+      "text": "fun getUint32( byteOffset: Int, littleEndian: Boolean = definedExternally): Int"
+    },
+    {
+      "text": "fun getUint8(byteOffset: Int): Byte"
+    },
+    {
+      "text": "fun setFloat32( byteOffset: Int, value: Float, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setFloat64( byteOffset: Int, value: Double, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setInt16( byteOffset: Int, value: Short, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setInt32( byteOffset: Int, value: Int, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setInt8(byteOffset: Int, value: Byte)"
+    },
+    {
+      "text": "fun setUint16( byteOffset: Int, value: Short, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setUint32( byteOffset: Int, value: Int, littleEndian: Boolean = definedExternally)"
+    },
+    {
+      "text": "fun setUint8(byteOffset: Int, value: Byte)"
+    }
+  ]
+}

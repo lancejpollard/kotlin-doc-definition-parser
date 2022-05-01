@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "commonPrefixWith",
+  "signature": "fun CharSequence.commonPrefixWith( other: CharSequence, ignoreCase: Boolean = false): String",
+  "items": []
+}

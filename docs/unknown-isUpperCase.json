@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isUpperCase",
+  "signature": "fun Char.isUpperCase(): Boolean",
+  "items": []
+}

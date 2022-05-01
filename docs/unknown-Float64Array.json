@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "Float64Array",
+  "signature": "open class Float64Array : ArrayBufferView",
+  "items": [
+    {
+      "text": "Float64Array(length: Int)"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun set(array: Float64Array, offset: Int = definedExternally)"
+    },
+    {
+      "text": "fun subarray(start: Int, end: Int): Float64Array"
+    },
+    {
+      "text": "val BYTES_PER_ELEMENT: Int"
+    },
+    {
+      "text": "operator fun Float64Array.get(index: Int): Double"
+    },
+    {
+      "text": "operator fun Float64Array.set(index: Int, value: Double)"
+    }
+  ]
+}

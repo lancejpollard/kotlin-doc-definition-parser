@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "ValidityState",
+  "signature": "abstract class ValidityState",
+  "items": [
+    {
+      "text": "ValidityState()",
+      "desc": "Exposes the JavaScript ValidityState to Kotlin"
+    },
+    {
+      "text": "open val badInput: Boolean"
+    },
+    {
+      "text": "open val customError: Boolean"
+    },
+    {
+      "text": "open val patternMismatch: Boolean"
+    },
+    {
+      "text": "open val rangeOverflow: Boolean"
+    },
+    {
+      "text": "open val rangeUnderflow: Boolean"
+    },
+    {
+      "text": "open val stepMismatch: Boolean"
+    },
+    {
+      "text": "open val tooLong: Boolean"
+    },
+    {
+      "text": "open val tooShort: Boolean"
+    },
+    {
+      "text": "open val typeMismatch: Boolean"
+    },
+    {
+      "text": "open val valid: Boolean"
+    },
+    {
+      "text": "open val valueMissing: Boolean"
+    }
+  ]
+}

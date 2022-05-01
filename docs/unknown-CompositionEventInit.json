@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CompositionEventInit",
+  "signature": "fun CompositionEventInit( data: String? = \"\", view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CompositionEventInit",
+  "items": []
+}

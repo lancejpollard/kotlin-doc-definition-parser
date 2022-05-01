@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toDoubleOrNull",
+  "signature": "fun String.toDoubleOrNull(): Double?",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConstraintSet",
+  "signature": "interface ConstraintSet",
+  "items": []
+}

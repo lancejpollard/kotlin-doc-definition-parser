@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "replace",
+  "signatures": [
+    {
+      "text": "fun String.replace( oldChar: Char, newChar: Char, ignoreCase: Boolean = false): String",
+      "desc": "Returns a new string with all occurrences of oldChar replaced with newChar."
+    },
+    {
+      "text": "fun String.replace( oldValue: String, newValue: String, ignoreCase: Boolean = false): String",
+      "desc": "Returns a new string obtained by replacing all occurrences of the oldValue substring in this string with the specified newValue string."
+    },
+    {
+      "text": "fun CharSequence.replace( regex: Regex, replacement: String): String",
+      "desc": "Returns a new string obtained by replacing each substring of this char sequence that matches the given regular expression with the given replacement."
+    },
+    {
+      "text": "inline fun CharSequence.replace( regex: Regex, noinline transform: (MatchResult) -> CharSequence): String",
+      "desc": "Returns a new string obtained by replacing each substring of this char sequence that matches the given regular expression with the result of the given function transform that takes MatchResult and returns a string to be used as a replacement for that match."
+    }
+  ],
+  "items": []
+}

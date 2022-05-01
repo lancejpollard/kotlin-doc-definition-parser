@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "until",
+  "signature": "infix fun Int.until(to: Byte): IntRange",
+  "items": []
+}

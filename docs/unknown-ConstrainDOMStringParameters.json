@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ConstrainDOMStringParameters",
+  "signature": "fun ConstrainDOMStringParameters( exact: dynamic = undefined, ideal: dynamic = undefined): ConstrainDOMStringParameters",
+  "items": []
+}

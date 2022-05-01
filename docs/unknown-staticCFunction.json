@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "staticCFunction",
+  "signatures": [
+    {
+      "text": "fun <R> staticCFunction( function: () -> R): CPointer<CFunction<() -> R>>",
+      "desc": "Returns a pointer to C function which calls given Kotlin static function."
+    },
+    {
+      "text": "fun <P1, R> staticCFunction( function: (P1) -> R): CPointer<CFunction<(P1) -> R>>"
+    }
+  ],
+  "items": []
+}

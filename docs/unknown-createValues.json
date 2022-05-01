@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createValues",
+  "signature": "inline fun <reified T : CVariable> createValues( count: Int, initializer: T.(index: Int) -> Unit): CValues<T>",
+  "items": []
+}

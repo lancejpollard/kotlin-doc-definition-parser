@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lastElementChild",
+  "signature": "open val lastElementChild: Element?",
+  "items": []
+}

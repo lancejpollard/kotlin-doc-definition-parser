@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "concat",
+  "signature": "@DeprecatedSinceKotlin(\"1.6\") fun String.concat( str: String): String",
+  "items": []
+}

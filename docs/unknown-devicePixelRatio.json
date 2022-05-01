@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "devicePixelRatio",
+  "signature": "open val devicePixelRatio: Double",
+  "items": []
+}

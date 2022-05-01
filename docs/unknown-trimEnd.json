@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "trimEnd",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.trimEnd( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing characters matching the predicate removed."
+    },
+    {
+      "text": "inline fun String.trimEnd( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string having trailing characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trimEnd(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun String.trimEnd(vararg chars: Char): String",
+      "desc": "Returns a string having trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trimEnd(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing whitespace removed."
+    },
+    {
+      "text": "fun String.trimEnd(): String",
+      "desc": "Returns a string having trailing whitespace removed."
+    }
+  ],
+  "items": []
+}

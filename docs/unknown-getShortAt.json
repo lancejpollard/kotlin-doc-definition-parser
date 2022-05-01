@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getShortAt",
+  "signature": "fun ByteArray.getShortAt(index: Int): Short",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSuccess",
+  "signature": "val isSuccess: Boolean",
+  "items": []
+}

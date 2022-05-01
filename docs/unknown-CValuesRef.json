@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "CValuesRef",
+  "signature": "abstract class CValuesRef<T : CPointed>",
+  "items": [
+    {
+      "text": "CValuesRef()",
+      "desc": "Represents a reference to (possibly empty) sequence of C values. It can be either a stable pointer CPointer or a sequence of immutable values CValues."
+    },
+    {
+      "text": "abstract fun getPointer(scope: AutofreeScope): CPointer<T>",
+      "desc": "If this reference is CPointer, returns this pointer, otherwise allocate storage value in the scope and return it."
+    },
+    {
+      "text": "class CPointer<T : CPointed> : CValuesRef<T>",
+      "desc": "C pointer."
+    },
+    {
+      "text": "abstract class CValues<T : CVariable> : CValuesRef<T>",
+      "desc": "The (possibly empty) sequence of immutable C values. It is self-contained and doesn't depend on native memory."
+    }
+  ]
+}

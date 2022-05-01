@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "commonSuffixWith",
+  "signature": "fun CharSequence.commonSuffixWith( other: CharSequence, ignoreCase: Boolean = false): String",
+  "items": []
+}

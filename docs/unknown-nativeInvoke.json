@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "nativeInvoke",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class nativeInvoke",
+  "items": [
+    {
+      "text": "nativeInvoke()"
+    }
+  ]
+}

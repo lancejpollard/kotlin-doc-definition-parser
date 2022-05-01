@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "WebGLActiveInfo",
+  "signature": "abstract class WebGLActiveInfo",
+  "items": [
+    {
+      "text": "WebGLActiveInfo()",
+      "desc": "Exposes the JavaScript WebGLActiveInfo to Kotlin"
+    },
+    {
+      "text": "open val name: String"
+    },
+    {
+      "text": "open val size: Int"
+    },
+    {
+      "text": "open val type: Int"
+    }
+  ]
+}

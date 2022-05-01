@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "JsArray",
+  "signature": "open class JsArray : JsValue",
+  "items": [
+    {
+      "text": "JsArray(jsValue: JsValue)"
+    },
+    {
+      "text": "val size: Int"
+    },
+    {
+      "text": "operator fun get(index: Int): JsValue"
+    },
+    {
+      "text": "fun setter( obj: JsValue, property: String, lambda: KtFunction<Unit>)"
+    }
+  ]
+}

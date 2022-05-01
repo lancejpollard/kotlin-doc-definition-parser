@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NETWORK",
+  "signature": "inline val EndOfStreamError.Companion.NETWORK: EndOfStreamError",
+  "items": []
+}

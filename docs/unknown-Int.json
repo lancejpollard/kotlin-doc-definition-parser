@@ -1,0 +1,259 @@
+{
+  "type": "unknown",
+  "name": "Int",
+  "signature": "class Int : Number, Comparable<Int>",
+  "items": [
+    {
+      "text": "infix fun and(other: Int): Int",
+      "desc": "Performs a bitwise AND operation between the two values."
+    },
+    {
+      "text": "operator fun compareTo(other: Byte): Int",
+      "desc": "Compares this value with the specified value for order. Returns zero if this value is equal to the specified other value, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun dec(): Int",
+      "desc": "Returns this value decremented by one."
+    },
+    {
+      "text": "operator fun div(other: Byte): Int",
+      "desc": "Divides this value by the other value, truncating the result to an integer that is closer to zero."
+    },
+    {
+      "text": "operator fun div(other: Float): Float",
+      "desc": "Divides this value by the other value."
+    },
+    {
+      "text": "fun equals(other: Int): Boolean"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "operator fun inc(): Int",
+      "desc": "Returns this value incremented by one."
+    },
+    {
+      "text": "fun inv(): Int",
+      "desc": "Inverts the bits in this value."
+    },
+    {
+      "text": "operator fun minus(other: Byte): Int",
+      "desc": "Subtracts the other value from this value."
+    },
+    {
+      "text": "infix fun or(other: Int): Int",
+      "desc": "Performs a bitwise OR operation between the two values."
+    },
+    {
+      "text": "operator fun plus(other: Byte): Int",
+      "desc": "Adds the other value to this value."
+    },
+    {
+      "text": "operator fun rangeTo(other: Byte): IntRange",
+      "desc": "Creates a range from this value to the specified other value."
+    },
+    {
+      "text": "operator fun rem(other: Byte): Int",
+      "desc": "Calculates the remainder of truncating division of this value by the other value."
+    },
+    {
+      "text": "infix fun shl(bitCount: Int): Int",
+      "desc": "Shifts this value left by the bitCount number of bits."
+    },
+    {
+      "text": "infix fun shr(bitCount: Int): Int",
+      "desc": "Shifts this value right by the bitCount number of bits, filling the leftmost bits with copies of the sign bit."
+    },
+    {
+      "text": "operator fun times(other: Byte): Int",
+      "desc": "Multiplies this value by the other value."
+    },
+    {
+      "text": "fun toByte(): Byte",
+      "desc": "Converts this Int value to Byte."
+    },
+    {
+      "text": "fun toChar(): Char",
+      "desc": "Converts this Int value to Char."
+    },
+    {
+      "text": "fun toDouble(): Double",
+      "desc": "Converts this Int value to Double."
+    },
+    {
+      "text": "fun toFloat(): Float",
+      "desc": "Converts this Int value to Float."
+    },
+    {
+      "text": "fun toInt(): Int",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "fun toLong(): Long",
+      "desc": "Converts this Int value to Long."
+    },
+    {
+      "text": "fun toShort(): Short",
+      "desc": "Converts this Int value to Short."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "operator fun unaryMinus(): Int",
+      "desc": "Returns the negative of this value."
+    },
+    {
+      "text": "operator fun unaryPlus(): Int",
+      "desc": "Returns this value."
+    },
+    {
+      "text": "infix fun ushr(bitCount: Int): Int",
+      "desc": "Shifts this value right by the bitCount number of bits, filling the leftmost bits with zeros."
+    },
+    {
+      "text": "infix fun xor(other: Int): Int",
+      "desc": "Performs a bitwise XOR operation between the two values."
+    },
+    {
+      "text": "const val MAX_VALUE: Int",
+      "desc": "A constant holding the maximum value an instance of Int can have."
+    },
+    {
+      "text": "const val MIN_VALUE: Int",
+      "desc": "A constant holding the minimum value an instance of Int can have."
+    },
+    {
+      "text": "const val SIZE_BITS: Int",
+      "desc": "The number of bits used to represent an instance of Int in a binary form."
+    },
+    {
+      "text": "const val SIZE_BYTES: Int",
+      "desc": "The number of bytes used to represent an instance of Int in a binary form."
+    },
+    {
+      "text": "val Int.days: Duration",
+      "desc": "Returns a Duration equal to this Int number of days."
+    },
+    {
+      "text": "val Int.hours: Duration",
+      "desc": "Returns a Duration equal to this Int number of hours."
+    },
+    {
+      "text": "val Int.microseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of microseconds."
+    },
+    {
+      "text": "val Int.milliseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of milliseconds."
+    },
+    {
+      "text": "val Int.minutes: Duration",
+      "desc": "Returns a Duration equal to this Int number of minutes."
+    },
+    {
+      "text": "val Int.nanoseconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of nanoseconds."
+    },
+    {
+      "text": "val Int.seconds: Duration",
+      "desc": "Returns a Duration equal to this Int number of seconds."
+    },
+    {
+      "text": "fun Int.coerceAtLeast(minimumValue: Int): Int",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun Int.coerceAtMost(maximumValue: Int): Int",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun Int.coerceIn(minimumValue: Int, maximumValue: Int): Int",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun Int.coerceIn(range: ClosedRange<Int>): Int",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun <R : Any> Int.convert(): R"
+    },
+    {
+      "text": "fun Int.digitToChar(): Char",
+      "desc": "Returns the Char that represents this decimal digit. Throws an exception if this value is not in the range 0..9."
+    },
+    {
+      "text": "fun Int.digitToChar(radix: Int): Char",
+      "desc": "Returns the Char that represents this numeric digit value in the specified radix. Throws an exception if the radix is not in the range 2..36 or if this value is not in the range 0 until radix."
+    },
+    {
+      "text": "infix fun Int.downTo(to: Byte): IntProgression",
+      "desc": "Returns a progression from this value down to the specified to value with the step -1."
+    },
+    {
+      "text": "fun Int.floorDiv(other: Byte): Int",
+      "desc": "Divides this value by the other value, flooring the result to an integer that is closer to negative infinity."
+    },
+    {
+      "text": "fun Int.mod(other: Byte): Byte",
+      "desc": "Calculates the remainder of flooring division of this value by the other value."
+    },
+    {
+      "text": "fun <R : Number> Number.narrow(): R"
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun <R : Number> Number.signExtend(): R"
+    },
+    {
+      "text": "operator fun Int.times(duration: Duration): Duration",
+      "desc": "Returns a duration whose value is the specified duration value multiplied by this number."
+    },
+    {
+      "text": "fun Int.toBigDecimal(): BigDecimal",
+      "desc": "Returns the value of this Int number as a BigDecimal."
+    },
+    {
+      "text": "fun Int.toBigInteger(): BigInteger",
+      "desc": "Returns the value of this Int number as a BigInteger."
+    },
+    {
+      "text": "fun Int.toDuration(unit: DurationUnit): Duration",
+      "desc": "Returns a Duration equal to this Int number of the specified unit."
+    },
+    {
+      "text": "fun Int.toUByte(): UByte",
+      "desc": "Converts this Int value to UByte."
+    },
+    {
+      "text": "fun Int.toUInt(): UInt",
+      "desc": "Converts this Int value to UInt."
+    },
+    {
+      "text": "fun Int.toULong(): ULong",
+      "desc": "Converts this Int value to ULong."
+    },
+    {
+      "text": "fun Int.toUShort(): UShort",
+      "desc": "Converts this Int value to UShort."
+    },
+    {
+      "text": "infix fun Int.until(to: Byte): IntRange",
+      "desc": "Returns a range from this value up to but excluding the specified to value."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ResponseInit",
+  "signature": "fun ResponseInit( status: Short? = 200, statusText: String? = \"OK\", headers: dynamic = undefined): ResponseInit",
+  "items": []
+}

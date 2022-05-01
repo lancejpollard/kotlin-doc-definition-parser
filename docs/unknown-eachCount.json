@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "eachCount",
+  "signature": "fun <T, K> Grouping<T, K>.eachCount(): Map<K, Int>",
+  "items": []
+}

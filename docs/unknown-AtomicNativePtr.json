@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "AtomicNativePtr",
+  "signature": "class AtomicNativePtr",
+  "items": [
+    {
+      "text": "AtomicNativePtr(value_: NativePtr)"
+    },
+    {
+      "text": "var value: NativePtr",
+      "desc": "The value being held by this class."
+    },
+    {
+      "text": "fun compareAndSet( expected: NativePtr, new: NativePtr): Boolean",
+      "desc": "Compares value with expected and replaces it with new value if values matches."
+    },
+    {
+      "text": "fun compareAndSwap( expected: NativePtr, new: NativePtr): NativePtr",
+      "desc": "Compares value with expected and replaces it with new value if values matches. If new value is not null, it must be frozen or permanent object."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this object."
+    }
+  ]
+}

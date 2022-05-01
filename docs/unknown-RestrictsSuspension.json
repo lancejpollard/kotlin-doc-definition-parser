@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "RestrictsSuspension",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class RestrictsSuspension",
+  "items": [
+    {
+      "text": "RestrictsSuspension()",
+      "desc": "Classes and interfaces marked with this annotation are restricted when used as receivers for extension suspend functions. These suspend extensions can only invoke other member or extension suspend functions on this particular receiver and are restricted from calling arbitrary suspension functions."
+    }
+  ]
+}

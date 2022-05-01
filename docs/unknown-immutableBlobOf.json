@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "immutableBlobOf",
+  "signature": "fun immutableBlobOf(vararg elements: Short): ImmutableBlob",
+  "items": []
+}

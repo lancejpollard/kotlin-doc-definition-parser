@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "insertRange",
+  "signatures": [
+    {
+      "text": "fun StringBuilder.insertRange( index: Int, value: CharArray, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Inserts characters in a subarray of the specified character array value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun StringBuilder.insertRange( index: Int, value: CharSequence, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Inserts characters in a subsequence of the specified character sequence value into this string builder at the specified index and returns this instance."
+    }
+  ],
+  "items": []
+}

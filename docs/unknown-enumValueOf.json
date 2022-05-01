@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "enumValueOf",
+  "signature": "fun <reified T : Enum<T>> enumValueOf(name: String): T",
+  "items": []
+}

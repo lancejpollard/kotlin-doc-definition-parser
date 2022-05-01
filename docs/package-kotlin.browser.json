@@ -1,0 +1,18 @@
+{
+  "type": "package",
+  "name": "kotlin.browser",
+  "items": [
+    {
+      "text": "val document: Document"
+    },
+    {
+      "text": "val localStorage: Storage"
+    },
+    {
+      "text": "val sessionStorage: Storage"
+    },
+    {
+      "text": "val window: Window"
+    }
+  ]
+}

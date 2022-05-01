@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "MimeType",
+  "signature": "abstract class MimeType",
+  "items": [
+    {
+      "text": "MimeType()",
+      "desc": "Exposes the JavaScript MimeType to Kotlin"
+    },
+    {
+      "text": "open val description: String"
+    },
+    {
+      "text": "open val enabledPlugin: Plugin"
+    },
+    {
+      "text": "open val suffixes: String"
+    },
+    {
+      "text": "open val type: String"
+    }
+  ]
+}

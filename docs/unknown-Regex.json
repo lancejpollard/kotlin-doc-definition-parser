@@ -1,0 +1,95 @@
+{
+  "type": "unknown",
+  "name": "Regex",
+  "signature": "class Regex",
+  "items": [
+    {
+      "text": "<init>(pattern: String)",
+      "desc": "Creates a regular expression from the specified pattern string and the default options."
+    },
+    {
+      "text": "<init>(pattern: String, option: RegexOption)",
+      "desc": "Creates a regular expression from the specified pattern string and the specified single option."
+    },
+    {
+      "text": "<init>(pattern: String, options: Set<RegexOption>)",
+      "desc": "Creates a regular expression from the specified pattern string and the specified set of options."
+    },
+    {
+      "text": "val options: Set<RegexOption>",
+      "desc": "The set of options that were used to create this regular expression."
+    },
+    {
+      "text": "val pattern: String",
+      "desc": "The pattern string of this regular expression."
+    },
+    {
+      "text": "fun containsMatchIn(input: CharSequence): Boolean",
+      "desc": "Indicates whether the regular expression can find at least one match in the specified input."
+    },
+    {
+      "text": "fun find( input: CharSequence, startIndex: Int = 0): MatchResult?",
+      "desc": "Returns the first match of a regular expression in the input, beginning at the specified startIndex."
+    },
+    {
+      "text": "fun findAll( input: CharSequence, startIndex: Int = 0): Sequence<MatchResult>",
+      "desc": "Returns a sequence of all occurrences of a regular expression within the input string, beginning at the specified startIndex."
+    },
+    {
+      "text": "fun matchAt(input: CharSequence, index: Int): MatchResult?",
+      "desc": "Attempts to match a regular expression exactly at the specified index in the input char sequence."
+    },
+    {
+      "text": "fun matchEntire(input: CharSequence): MatchResult?",
+      "desc": "Attempts to match the entire input CharSequence against the pattern."
+    },
+    {
+      "text": "infix fun matches(input: CharSequence): Boolean",
+      "desc": "Indicates whether the regular expression matches the entire input."
+    },
+    {
+      "text": "fun matchesAt(input: CharSequence, index: Int): Boolean",
+      "desc": "Checks if a regular expression matches a part of the specified input char sequence exactly at the specified index."
+    },
+    {
+      "text": "fun replace(input: CharSequence, replacement: String): String",
+      "desc": "Replaces all occurrences of this regular expression in the specified input string with specified replacement expression."
+    },
+    {
+      "text": "fun replace( input: CharSequence, transform: (MatchResult) -> CharSequence): String",
+      "desc": "Replaces all occurrences of this regular expression in the specified input string with the result of the given function transform that takes MatchResult and returns a string to be used as a replacement for that match."
+    },
+    {
+      "text": "fun replaceFirst( input: CharSequence, replacement: String): String",
+      "desc": "Replaces the first occurrence of this regular expression in the specified input string with specified replacement expression."
+    },
+    {
+      "text": "fun split(input: CharSequence, limit: Int = 0): List<String>",
+      "desc": "Splits the input CharSequence to a list of strings around matches of this regular expression."
+    },
+    {
+      "text": "fun splitToSequence( input: CharSequence, limit: Int = 0): Sequence<String>",
+      "desc": "Splits the input CharSequence to a sequence of strings around matches of this regular expression."
+    },
+    {
+      "text": "fun toPattern(): Pattern",
+      "desc": "Returns an instance of Pattern with the same pattern string and options as this instance of Regex has."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this regular expression, namely the pattern of this regular expression."
+    },
+    {
+      "text": "fun escape(literal: String): String",
+      "desc": "Returns a regular expression pattern string that matches the specified literal string literally. No characters of that string will have special meaning when searching for an occurrence of the regular expression."
+    },
+    {
+      "text": "fun escapeReplacement(literal: String): String",
+      "desc": "Returns a literal replacement expression for the specified literal string. No characters of that string will have special meaning when it is used as a replacement string in Regex.replace function."
+    },
+    {
+      "text": "fun fromLiteral(literal: String): Regex",
+      "desc": "Returns a regular expression that matches the specified literal string literally. No characters of that string will have special meaning when searching for an occurrence of the regular expression."
+    }
+  ]
+}

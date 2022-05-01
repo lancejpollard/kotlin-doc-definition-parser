@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "listIterator",
+  "signatures": [
+    {
+      "text": "fun listIterator(): MutableListIterator<E>",
+      "desc": "Returns a list iterator over the elements in this list (in proper sequence)."
+    },
+    {
+      "text": "fun listIterator(index: Int): MutableListIterator<E>",
+      "desc": "Returns a list iterator over the elements in this list (in proper sequence), starting at the specified index."
+    }
+  ],
+  "items": []
+}

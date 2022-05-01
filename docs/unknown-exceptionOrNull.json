@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exceptionOrNull",
+  "signature": "fun exceptionOrNull(): Throwable?",
+  "items": []
+}

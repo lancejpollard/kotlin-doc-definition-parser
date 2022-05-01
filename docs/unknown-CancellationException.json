@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "CancellationException",
+  "signatures": [
+    {
+      "text": "fun CancellationException( message: String?, cause: Throwable?): CancellationException",
+      "desc": "Creates an instance of CancellationException with the given message and cause."
+    },
+    {
+      "text": "fun CancellationException( cause: Throwable?): CancellationException",
+      "desc": "Creates an instance of CancellationException with the given cause."
+    }
+  ],
+  "items": []
+}

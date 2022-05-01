@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findAnyOf",
+  "signature": "fun CharSequence.findAnyOf( strings: Collection<String>, startIndex: Int = 0, ignoreCase: Boolean = false): Pair<Int, String>?",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exceptionClasses",
+  "signature": "vararg val exceptionClasses: Array<out KClass<out Throwable>>",
+  "items": []
+}

@@ -1,0 +1,21 @@
+{
+  "type": "unknown",
+  "name": "CSSRuleList",
+  "signature": "abstract class CSSRuleList : ItemArrayLike<CSSRule>",
+  "items": [
+    {
+      "text": "CSSRuleList()",
+      "desc": "Exposes the JavaScript CSSRuleList to Kotlin"
+    },
+    {
+      "text": "open fun item(index: Int): CSSRule?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun CSSRuleList.get(index: Int): CSSRule?"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getBoxQuads",
+  "signature": "open fun getBoxQuads(options: BoxQuadOptions): Array<DOMQuad>",
+  "items": []
+}

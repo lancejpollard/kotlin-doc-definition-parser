@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "MatchResult",
+  "signature": "interface MatchResult",
+  "items": [
+    {
+      "text": "class Destructured",
+      "desc": "Provides components for destructuring assignment of group values."
+    },
+    {
+      "text": "open val destructured: Destructured",
+      "desc": "An instance of MatchResult.Destructured wrapper providing components for destructuring assignment of group values."
+    },
+    {
+      "text": "abstract val groups: MatchGroupCollection",
+      "desc": "A collection of groups matched by the regular expression."
+    },
+    {
+      "text": "abstract val groupValues: List<String>",
+      "desc": "A list of matched indexed group values."
+    },
+    {
+      "text": "abstract val range: IntRange",
+      "desc": "The range of indices in the original string where match was captured."
+    },
+    {
+      "text": "abstract val value: String",
+      "desc": "The substring from the input string captured by this match."
+    },
+    {
+      "text": "abstract fun next(): MatchResult?",
+      "desc": "Returns a new MatchResult with the results for the next match, starting at the position at which the last match ended (at the character after the last matched character)."
+    }
+  ]
+}

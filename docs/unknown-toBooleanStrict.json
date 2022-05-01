@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toBooleanStrict",
+  "signature": "fun String.toBooleanStrict(): Boolean",
+  "items": []
+}

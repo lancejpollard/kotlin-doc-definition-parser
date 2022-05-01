@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MIN_VALUE",
+  "signature": "const val MIN_VALUE: UShort",
+  "items": []
+}

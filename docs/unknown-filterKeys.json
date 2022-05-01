@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "filterKeys",
+  "signature": "inline fun <K, V> Map<out K, V>.filterKeys( predicate: (K) -> Boolean): Map<K, V>",
+  "items": []
+}

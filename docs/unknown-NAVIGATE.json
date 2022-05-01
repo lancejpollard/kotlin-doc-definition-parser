@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NAVIGATE",
+  "signature": "inline val RequestMode.Companion.NAVIGATE: RequestMode",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "unaryPlus",
+  "signature": "operator fun unaryPlus(): Int",
+  "items": []
+}

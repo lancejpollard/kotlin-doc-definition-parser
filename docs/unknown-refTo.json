@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "refTo",
+  "signature": "fun ByteArray.refTo(index: Int): CValuesRef<ByteVar>",
+  "items": []
+}

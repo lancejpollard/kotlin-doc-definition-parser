@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "GeometryUtils",
+  "signature": "interface GeometryUtils",
+  "items": [
+    {
+      "text": "abstract fun convertPointFromNode( point: DOMPointInit, from: dynamic, options: ConvertCoordinateOptions = definedExternally): DOMPoint"
+    },
+    {
+      "text": "abstract fun convertQuadFromNode( quad: dynamic, from: dynamic, options: ConvertCoordinateOptions = definedExternally): DOMQuad"
+    },
+    {
+      "text": "abstract fun convertRectFromNode( rect: DOMRectReadOnly, from: dynamic, options: ConvertCoordinateOptions = definedExternally): DOMQuad"
+    },
+    {
+      "text": "abstract fun getBoxQuads( options: BoxQuadOptions = definedExternally): Array<DOMQuad>"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "open class Text : CharacterData, Slotable, GeometryUtils",
+      "desc": "Exposes the JavaScript Text to Kotlin"
+    }
+  ]
+}

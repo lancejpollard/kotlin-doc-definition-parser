@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ongotpointercapture",
+  "signature": "open var ongotpointercapture: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

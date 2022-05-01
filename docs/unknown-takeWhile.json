@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "takeWhile",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.takeWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing the first characters that satisfy the given predicate."
+    },
+    {
+      "text": "inline fun String.takeWhile( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string containing the first characters that satisfy the given predicate."
+    }
+  ],
+  "items": []
+}

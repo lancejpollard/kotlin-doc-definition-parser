@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "EVENODD",
+  "signature": "inline val CanvasFillRule.Companion.EVENODD: CanvasFillRule",
+  "items": []
+}

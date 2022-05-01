@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaType",
+  "signature": "val KType.javaType: Type",
+  "items": []
+}

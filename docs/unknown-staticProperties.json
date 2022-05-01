@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "staticProperties",
+  "signature": "val KClass<*>.staticProperties: Collection<KProperty0<*>>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BooleanVar",
+  "signature": "typealias BooleanVar = BooleanVarOf<Boolean>",
+  "items": []
+}

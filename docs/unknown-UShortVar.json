@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UShortVar",
+  "signature": "typealias UShortVar = UShortVarOf<UShort>",
+  "items": []
+}

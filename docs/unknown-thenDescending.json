@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "thenDescending",
+  "signature": "infix fun <T> Comparator<T>.thenDescending( comparator: Comparator<in T>): Comparator<T>",
+  "items": []
+}

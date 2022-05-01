@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "union",
+  "signatures": [
+    {
+      "text": "infix fun <T> Array<out T>.union(other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all distinct elements from both collections."
+    },
+    {
+      "text": "infix fun <T> Iterable<T>.union(other: Iterable<T>): Set<T>",
+      "desc": "Returns a set containing all distinct elements from both collections."
+    }
+  ],
+  "items": []
+}

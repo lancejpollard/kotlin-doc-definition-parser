@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UIntVar",
+  "signature": "typealias UIntVar = UIntVarOf<UInt>",
+  "items": []
+}

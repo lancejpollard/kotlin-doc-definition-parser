@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "appendText",
+  "signature": "fun Element.appendText(text: String): Element",
+  "items": []
+}

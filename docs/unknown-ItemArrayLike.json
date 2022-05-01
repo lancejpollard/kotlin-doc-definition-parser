@@ -1,0 +1,74 @@
+{
+  "type": "unknown",
+  "name": "ItemArrayLike",
+  "signature": "interface ItemArrayLike<out T>",
+  "items": [
+    {
+      "text": "abstract val length: Int"
+    },
+    {
+      "text": "abstract fun item(index: Int): T?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "abstract class CSSRuleList : ItemArrayLike<CSSRule>",
+      "desc": "Exposes the JavaScript CSSRuleList to Kotlin"
+    },
+    {
+      "text": "abstract class CSSStyleDeclaration : ItemArrayLike<String>",
+      "desc": "Exposes the JavaScript CSSStyleDeclaration to Kotlin"
+    },
+    {
+      "text": "interface DOMRectList : ItemArrayLike<DOMRect>"
+    },
+    {
+      "text": "abstract class DOMTokenList : ItemArrayLike<String>",
+      "desc": "Exposes the JavaScript DOMTokenList to Kotlin"
+    },
+    {
+      "text": "abstract class FileList : ItemArrayLike<File>",
+      "desc": "Exposes the JavaScript FileList to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLCollection : ItemArrayLike<Element>, UnionElementOrHTMLCollection",
+      "desc": "Exposes the JavaScript HTMLCollection to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSelectElement : HTMLElement, ItemArrayLike<Element>",
+      "desc": "Exposes the JavaScript HTMLSelectElement to Kotlin"
+    },
+    {
+      "text": "abstract class MediaList : ItemArrayLike<String>"
+    },
+    {
+      "text": "abstract class MimeTypeArray : ItemArrayLike<MimeType>",
+      "desc": "Exposes the JavaScript MimeTypeArray to Kotlin"
+    },
+    {
+      "text": "abstract class NamedNodeMap : ItemArrayLike<Attr>",
+      "desc": "Exposes the JavaScript NamedNodeMap to Kotlin"
+    },
+    {
+      "text": "abstract class NodeList : ItemArrayLike<Node>",
+      "desc": "Exposes the JavaScript NodeList to Kotlin"
+    },
+    {
+      "text": "abstract class Plugin : ItemArrayLike<MimeType>",
+      "desc": "Exposes the JavaScript Plugin to Kotlin"
+    },
+    {
+      "text": "abstract class PluginArray : ItemArrayLike<Plugin>",
+      "desc": "Exposes the JavaScript PluginArray to Kotlin"
+    },
+    {
+      "text": "abstract class StyleSheetList : ItemArrayLike<StyleSheet>",
+      "desc": "Exposes the JavaScript StyleSheetList to Kotlin"
+    },
+    {
+      "text": "abstract class TouchList : ItemArrayLike<Touch>"
+    }
+  ]
+}

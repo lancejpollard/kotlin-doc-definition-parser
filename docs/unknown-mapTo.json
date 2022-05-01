@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapTo",
+  "signature": "inline fun <R, C : MutableCollection<in R>> CharSequence.mapTo( destination: C, transform: (Char) -> R): C",
+  "items": []
+}

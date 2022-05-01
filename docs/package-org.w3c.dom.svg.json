@@ -1,0 +1,316 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.svg",
+  "items": [
+    {
+      "text": "interface GetSVGDocument"
+    },
+    {
+      "text": "open class ShadowAnimation"
+    },
+    {
+      "text": "abstract class SVGAElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGAElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAngle",
+      "desc": "Exposes the JavaScript SVGAngle to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedAngle",
+      "desc": "Exposes the JavaScript SVGAnimatedAngle to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedBoolean",
+      "desc": "Exposes the JavaScript SVGAnimatedBoolean to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedEnumeration",
+      "desc": "Exposes the JavaScript SVGAnimatedEnumeration to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedInteger",
+      "desc": "Exposes the JavaScript SVGAnimatedInteger to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedLength",
+      "desc": "Exposes the JavaScript SVGAnimatedLength to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedLengthList",
+      "desc": "Exposes the JavaScript SVGAnimatedLengthList to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedNumber",
+      "desc": "Exposes the JavaScript SVGAnimatedNumber to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedNumberList",
+      "desc": "Exposes the JavaScript SVGAnimatedNumberList to Kotlin"
+    },
+    {
+      "text": "interface SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGAnimatedPoints to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedPreserveAspectRatio",
+      "desc": "Exposes the JavaScript SVGAnimatedPreserveAspectRatio to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedRect",
+      "desc": "Exposes the JavaScript SVGAnimatedRect to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedString",
+      "desc": "Exposes the JavaScript SVGAnimatedString to Kotlin"
+    },
+    {
+      "text": "abstract class SVGAnimatedTransformList",
+      "desc": "Exposes the JavaScript SVGAnimatedTransformList to Kotlin"
+    },
+    {
+      "text": "interface SVGBoundingBoxOptions"
+    },
+    {
+      "text": "abstract class SVGCircleElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGCircleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGCursorElement : SVGElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGCursorElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGDefsElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGDefsElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGDescElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGDescElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    },
+    {
+      "text": "interface SVGElementInstance"
+    },
+    {
+      "text": "abstract class SVGEllipseElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGEllipseElement to Kotlin"
+    },
+    {
+      "text": "interface SVGFitToViewBox"
+    },
+    {
+      "text": "abstract class SVGForeignObjectElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGForeignObjectElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGeometryElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGGeometryElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGradientElement : SVGElement, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGGraphicsElement : SVGElement, SVGTests",
+      "desc": "Exposes the JavaScript SVGGraphicsElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGHatchElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGHatchpathElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGImageElement : SVGGraphicsElement, SVGURIReference, HTMLOrSVGImageElement",
+      "desc": "Exposes the JavaScript SVGImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGLength",
+      "desc": "Exposes the JavaScript SVGLength to Kotlin"
+    },
+    {
+      "text": "abstract class SVGLengthList",
+      "desc": "Exposes the JavaScript SVGLengthList to Kotlin"
+    },
+    {
+      "text": "abstract class SVGLinearGradientElement : SVGGradientElement",
+      "desc": "Exposes the JavaScript SVGLinearGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGLineElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGLineElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMarkerElement : SVGElement, SVGFitToViewBox"
+    },
+    {
+      "text": "abstract class SVGMeshElement : SVGGeometryElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGMeshElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMeshGradientElement : SVGGradientElement"
+    },
+    {
+      "text": "abstract class SVGMeshpatchElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGMeshrowElement : SVGElement"
+    },
+    {
+      "text": "abstract class SVGMetadataElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGMetadataElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGNameList"
+    },
+    {
+      "text": "abstract class SVGNumber",
+      "desc": "Exposes the JavaScript SVGNumber to Kotlin"
+    },
+    {
+      "text": "abstract class SVGNumberList",
+      "desc": "Exposes the JavaScript SVGNumberList to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPathElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPatternElement : SVGElement, SVGFitToViewBox, SVGURIReference, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGPatternElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPointList"
+    },
+    {
+      "text": "abstract class SVGPolygonElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolygonElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPolylineElement : SVGGeometryElement, SVGAnimatedPoints",
+      "desc": "Exposes the JavaScript SVGPolylineElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGPreserveAspectRatio",
+      "desc": "Exposes the JavaScript SVGPreserveAspectRatio to Kotlin"
+    },
+    {
+      "text": "abstract class SVGRadialGradientElement : SVGGradientElement",
+      "desc": "Exposes the JavaScript SVGRadialGradientElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGRectElement : SVGGeometryElement",
+      "desc": "Exposes the JavaScript SVGRectElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGScriptElement : SVGElement, SVGURIReference, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript SVGScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSolidcolorElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGSolidcolorElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStopElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGStopElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStringList",
+      "desc": "Exposes the JavaScript SVGStringList to Kotlin"
+    },
+    {
+      "text": "abstract class SVGStyleElement : SVGElement, LinkStyle",
+      "desc": "Exposes the JavaScript SVGStyleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSVGElement : SVGGraphicsElement, SVGFitToViewBox, SVGZoomAndPan, WindowEventHandlers",
+      "desc": "Exposes the JavaScript SVGSVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSwitchElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGSwitchElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGSymbolElement : SVGGraphicsElement, SVGFitToViewBox",
+      "desc": "Exposes the JavaScript SVGSymbolElement to Kotlin"
+    },
+    {
+      "text": "interface SVGTests",
+      "desc": "Exposes the JavaScript SVGTests to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextContentElement : SVGGraphicsElement",
+      "desc": "Exposes the JavaScript SVGTextContentElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextElement : SVGTextPositioningElement",
+      "desc": "Exposes the JavaScript SVGTextElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextPathElement : SVGTextContentElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGTextPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTextPositioningElement : SVGTextContentElement",
+      "desc": "Exposes the JavaScript SVGTextPositioningElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTitleElement : SVGElement",
+      "desc": "Exposes the JavaScript SVGTitleElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTransform",
+      "desc": "Exposes the JavaScript SVGTransform to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTransformList",
+      "desc": "Exposes the JavaScript SVGTransformList to Kotlin"
+    },
+    {
+      "text": "abstract class SVGTSpanElement : SVGTextPositioningElement",
+      "desc": "Exposes the JavaScript SVGTSpanElement to Kotlin"
+    },
+    {
+      "text": "interface SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGUnitTypes to Kotlin"
+    },
+    {
+      "text": "abstract class SVGUnknownElement : SVGGraphicsElement"
+    },
+    {
+      "text": "interface SVGURIReference",
+      "desc": "Exposes the JavaScript SVGURIReference to Kotlin"
+    },
+    {
+      "text": "abstract class SVGUseElement : SVGGraphicsElement, SVGURIReference",
+      "desc": "Exposes the JavaScript SVGUseElement to Kotlin"
+    },
+    {
+      "text": "open class SVGUseElementShadowRoot : ShadowRoot"
+    },
+    {
+      "text": "abstract class SVGViewElement : SVGElement, SVGFitToViewBox, SVGZoomAndPan",
+      "desc": "Exposes the JavaScript SVGViewElement to Kotlin"
+    },
+    {
+      "text": "interface SVGZoomAndPan",
+      "desc": "Exposes the JavaScript SVGZoomAndPan to Kotlin"
+    },
+    {
+      "text": "operator fun SVGNameList.get(index: Int): dynamic"
+    },
+    {
+      "text": "operator fun SVGNameList.set(index: Int, newItem: dynamic)"
+    },
+    {
+      "text": "fun SVGBoundingBoxOptions( fill: Boolean? = true, stroke: Boolean? = false, markers: Boolean? = false, clipped: Boolean? = false): SVGBoundingBoxOptions"
+    }
+  ]
+}

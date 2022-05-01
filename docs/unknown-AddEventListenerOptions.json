@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "AddEventListenerOptions",
+  "signature": "fun AddEventListenerOptions( passive: Boolean? = false, once: Boolean? = false, capture: Boolean? = false): AddEventListenerOptions",
+  "items": []
+}

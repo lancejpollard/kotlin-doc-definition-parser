@@ -1,0 +1,46 @@
+{
+  "type": "unknown",
+  "name": "Vector128",
+  "signature": "class Vector128",
+  "items": [
+    {
+      "text": "fun equals(other: Vector128): Boolean"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun getByteAt(index: Int): Byte"
+    },
+    {
+      "text": "fun getDoubleAt(index: Int): Double"
+    },
+    {
+      "text": "fun getFloatAt(index: Int): Float"
+    },
+    {
+      "text": "fun getIntAt(index: Int): Int"
+    },
+    {
+      "text": "fun getLongAt(index: Int): Long"
+    },
+    {
+      "text": "fun getUByteAt(index: Int): UByte"
+    },
+    {
+      "text": "fun getUIntAt(index: Int): UInt"
+    },
+    {
+      "text": "fun getULongAt(index: Int): ULong"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    }
+  ]
+}

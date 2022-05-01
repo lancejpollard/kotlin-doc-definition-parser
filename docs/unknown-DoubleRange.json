@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DoubleRange",
+  "signature": "fun DoubleRange( max: Double? = undefined, min: Double? = undefined): DoubleRange",
+  "items": []
+}

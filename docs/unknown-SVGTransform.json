@@ -1,0 +1,59 @@
+{
+  "type": "unknown",
+  "name": "SVGTransform",
+  "signature": "abstract class SVGTransform",
+  "items": [
+    {
+      "text": "SVGTransform()",
+      "desc": "Exposes the JavaScript SVGTransform to Kotlin"
+    },
+    {
+      "text": "open val angle: Float"
+    },
+    {
+      "text": "open val matrix: DOMMatrix"
+    },
+    {
+      "text": "open val type: Short"
+    },
+    {
+      "text": "fun setMatrix(matrix: DOMMatrixReadOnly)"
+    },
+    {
+      "text": "fun setRotate(angle: Float, cx: Float, cy: Float)"
+    },
+    {
+      "text": "fun setScale(sx: Float, sy: Float)"
+    },
+    {
+      "text": "fun setSkewX(angle: Float)"
+    },
+    {
+      "text": "fun setSkewY(angle: Float)"
+    },
+    {
+      "text": "fun setTranslate(tx: Float, ty: Float)"
+    },
+    {
+      "text": "val SVG_TRANSFORM_MATRIX: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_ROTATE: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_SCALE: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_SKEWX: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_SKEWY: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_TRANSLATE: Short"
+    },
+    {
+      "text": "val SVG_TRANSFORM_UNKNOWN: Short"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "reinterpret",
+  "signatures": [
+    {
+      "text": "fun <reified T : NativePointed> NativePointed.reinterpret(): T",
+      "desc": "Changes the interpretation of the pointed data or code."
+    },
+    {
+      "text": "fun <T : CPointed> CPointer<*>.reinterpret(): CPointer<T>"
+    }
+  ],
+  "items": []
+}

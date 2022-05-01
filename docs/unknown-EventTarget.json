@@ -1,0 +1,142 @@
+{
+  "type": "unknown",
+  "name": "EventTarget",
+  "signature": "abstract class EventTarget",
+  "items": [
+    {
+      "text": "EventTarget()",
+      "desc": "Exposes the JavaScript EventTarget to Kotlin"
+    },
+    {
+      "text": "fun addEventListener( type: String, callback: EventListener?, options: dynamic = definedExternally)"
+    },
+    {
+      "text": "fun dispatchEvent(event: Event): Boolean"
+    },
+    {
+      "text": "fun removeEventListener( type: String, callback: EventListener?, options: dynamic = definedExternally)"
+    },
+    {
+      "text": "abstract class ApplicationCache : EventTarget"
+    },
+    {
+      "text": "abstract class AudioTrackList : EventTarget",
+      "desc": "Exposes the JavaScript AudioTrackList to Kotlin"
+    },
+    {
+      "text": "open class BroadcastChannel : EventTarget",
+      "desc": "Exposes the JavaScript BroadcastChannel to Kotlin"
+    },
+    {
+      "text": "abstract class Clipboard : EventTarget",
+      "desc": "Exposes the JavaScript Clipboard to Kotlin"
+    },
+    {
+      "text": "open class EventSource : EventTarget",
+      "desc": "Exposes the JavaScript EventSource to Kotlin"
+    },
+    {
+      "text": "open class FileReader : EventTarget",
+      "desc": "Exposes the JavaScript FileReader to Kotlin"
+    },
+    {
+      "text": "abstract class MediaDevices : EventTarget",
+      "desc": "Exposes the JavaScript MediaDevices to Kotlin"
+    },
+    {
+      "text": "abstract class MediaKeySession : EventTarget",
+      "desc": "Exposes the JavaScript MediaKeySession to Kotlin"
+    },
+    {
+      "text": "abstract class MediaQueryList : EventTarget",
+      "desc": "Exposes the JavaScript MediaQueryList to Kotlin"
+    },
+    {
+      "text": "open class MediaSource : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaSource to Kotlin"
+    },
+    {
+      "text": "open class MediaStream : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaStream to Kotlin"
+    },
+    {
+      "text": "abstract class MediaStreamTrack : EventTarget",
+      "desc": "Exposes the JavaScript MediaStreamTrack to Kotlin"
+    },
+    {
+      "text": "abstract class MessagePort : EventTarget, UnionMessagePortOrWindowProxy, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript MessagePort to Kotlin"
+    },
+    {
+      "text": "abstract class Node : EventTarget",
+      "desc": "Exposes the JavaScript Node to Kotlin"
+    },
+    {
+      "text": "open class Notification : EventTarget",
+      "desc": "Exposes the JavaScript Notification to Kotlin"
+    },
+    {
+      "text": "abstract class Performance : EventTarget",
+      "desc": "Exposes the JavaScript Performance to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorker : EventTarget, AbstractWorker, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript ServiceWorker to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorkerContainer : EventTarget",
+      "desc": "Exposes the JavaScript ServiceWorkerContainer to Kotlin"
+    },
+    {
+      "text": "abstract class ServiceWorkerRegistration : EventTarget",
+      "desc": "Exposes the JavaScript ServiceWorkerRegistration to Kotlin"
+    },
+    {
+      "text": "open class SharedWorker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript SharedWorker to Kotlin"
+    },
+    {
+      "text": "abstract class SourceBuffer : EventTarget",
+      "desc": "Exposes the JavaScript SourceBuffer to Kotlin"
+    },
+    {
+      "text": "abstract class SourceBufferList : EventTarget",
+      "desc": "Exposes the JavaScript SourceBufferList to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrack : EventTarget, UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript TextTrack to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrackCue : EventTarget",
+      "desc": "Exposes the JavaScript TextTrackCue to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrackList : EventTarget"
+    },
+    {
+      "text": "abstract class VideoTrackList : EventTarget",
+      "desc": "Exposes the JavaScript VideoTrackList to Kotlin"
+    },
+    {
+      "text": "open class WebSocket : EventTarget",
+      "desc": "Exposes the JavaScript WebSocket to Kotlin"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    },
+    {
+      "text": "open class Worker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript Worker to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerGlobalScope : EventTarget, WindowOrWorkerGlobalScope, GlobalPerformance",
+      "desc": "Exposes the JavaScript WorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "abstract class XMLHttpRequestEventTarget : EventTarget",
+      "desc": "Exposes the JavaScript XMLHttpRequestEventTarget to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "takeLastWhile",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.takeLastWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing last characters that satisfy the given predicate."
+    },
+    {
+      "text": "inline fun String.takeLastWhile( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string containing last characters that satisfy the given predicate."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "match",
+  "signature": "@DeprecatedSinceKotlin(\"1.6\") fun String.match( regex: String): Array<String>?",
+  "items": []
+}

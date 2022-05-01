@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "step",
+  "signature": "infix fun IntProgression.step(step: Int): IntProgression",
+  "items": []
+}

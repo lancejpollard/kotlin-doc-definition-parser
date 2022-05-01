@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ObjCBlockVar",
+  "signature": "typealias ObjCBlockVar<T> = ObjCNotImplementedVar<T>",
+  "items": []
+}

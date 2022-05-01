@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "attach",
+  "signature": "fun <reified T> DetachedObjectGraph<T>.attach(): T",
+  "items": []
+}

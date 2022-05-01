@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "coerceIn",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun Byte.coerceIn( minimumValue: Byte, maximumValue: Byte): Byte",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn(range: ClosedRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "fun Int.coerceIn(range: ClosedRange<Int>): Int",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "fun UInt.coerceIn( minimumValue: UInt, maximumValue: UInt): UInt",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun UInt.coerceIn(range: ClosedRange<UInt>): UInt",
+      "desc": "Ensures that this value lies in the specified range."
+    }
+  ],
+  "items": []
+}

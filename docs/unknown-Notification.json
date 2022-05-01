@@ -1,0 +1,83 @@
+{
+  "type": "unknown",
+  "name": "Notification",
+  "signature": "open class Notification : EventTarget",
+  "items": [
+    {
+      "text": "Notification( title: String, options: NotificationOptions = definedExternally)",
+      "desc": "Exposes the JavaScript Notification to Kotlin"
+    },
+    {
+      "text": "open val actions: Array<out NotificationAction>"
+    },
+    {
+      "text": "open val badge: String"
+    },
+    {
+      "text": "open val body: String"
+    },
+    {
+      "text": "open val data: Any?"
+    },
+    {
+      "text": "open val dir: NotificationDirection"
+    },
+    {
+      "text": "open val icon: String"
+    },
+    {
+      "text": "open val image: String"
+    },
+    {
+      "text": "open val lang: String"
+    },
+    {
+      "text": "open val noscreen: Boolean"
+    },
+    {
+      "text": "var onclick: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val renotify: Boolean"
+    },
+    {
+      "text": "open val requireInteraction: Boolean"
+    },
+    {
+      "text": "open val silent: Boolean"
+    },
+    {
+      "text": "open val sound: String"
+    },
+    {
+      "text": "open val sticky: Boolean"
+    },
+    {
+      "text": "open val tag: String"
+    },
+    {
+      "text": "open val timestamp: Number"
+    },
+    {
+      "text": "open val title: String"
+    },
+    {
+      "text": "open val vibrate: Array<out Int>"
+    },
+    {
+      "text": "fun close()"
+    },
+    {
+      "text": "val maxActions: Int"
+    },
+    {
+      "text": "val permission: NotificationPermission"
+    },
+    {
+      "text": "fun requestPermission( deprecatedCallback: (NotificationPermission) -> Unit = definedExternally): Promise<NotificationPermission>"
+    }
+  ]
+}

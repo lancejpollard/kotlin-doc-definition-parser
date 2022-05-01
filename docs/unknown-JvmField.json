@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JvmField",
+  "signature": "@Target([AnnotationTarget.FIELD]) annotation class JvmField",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Instructs the Kotlin compiler not to generate getters/setters for this property and expose it as a field."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

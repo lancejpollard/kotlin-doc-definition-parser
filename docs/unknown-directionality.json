@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "directionality",
+  "signature": "val Char.directionality: CharDirectionality",
+  "items": []
+}

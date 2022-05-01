@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BORDER",
+  "signature": "inline val CSSBoxType.Companion.BORDER: CSSBoxType",
+  "items": []
+}

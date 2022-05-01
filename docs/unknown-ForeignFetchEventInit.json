@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ForeignFetchEventInit",
+  "signature": "fun ForeignFetchEventInit( request: Request?, origin: String? = \"null\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ForeignFetchEventInit",
+  "items": []
+}

@@ -1,0 +1,14 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.parsing",
+  "items": [
+    {
+      "text": "open class DOMParser",
+      "desc": "Exposes the JavaScript DOMParser to Kotlin"
+    },
+    {
+      "text": "open class XMLSerializer",
+      "desc": "Exposes the JavaScript XMLSerializer to Kotlin"
+    }
+  ]
+}

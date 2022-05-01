@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "implementation",
+  "signature": "open val implementation: DOMImplementation",
+  "items": []
+}

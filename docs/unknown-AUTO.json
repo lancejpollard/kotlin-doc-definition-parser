@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "AUTO",
+  "signature": "inline val NotificationDirection.Companion.AUTO: NotificationDirection",
+  "items": []
+}

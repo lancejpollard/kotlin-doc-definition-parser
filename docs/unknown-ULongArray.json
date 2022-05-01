@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ULongArray",
+  "signature": "@ExperimentalUnsignedTypes inline fun ULongArray( size: Int, init: (Int) -> ULong): ULongArray",
+  "items": []
+}

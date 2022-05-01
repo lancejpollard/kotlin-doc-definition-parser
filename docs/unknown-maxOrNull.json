@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "maxOrNull",
+  "signature": "fun CharSequence.maxOrNull(): Char?",
+  "items": []
+}

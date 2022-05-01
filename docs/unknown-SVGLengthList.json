@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "SVGLengthList",
+  "signature": "abstract class SVGLengthList",
+  "items": [
+    {
+      "text": "SVGLengthList()",
+      "desc": "Exposes the JavaScript SVGLengthList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: SVGLength): SVGLength"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(index: Int): SVGLength"
+    },
+    {
+      "text": "fun initialize(newItem: SVGLength): SVGLength"
+    },
+    {
+      "text": "fun insertItemBefore( newItem: SVGLength, index: Int): SVGLength"
+    },
+    {
+      "text": "fun removeItem(index: Int): SVGLength"
+    },
+    {
+      "text": "fun replaceItem(newItem: SVGLength, index: Int): SVGLength"
+    },
+    {
+      "text": "operator fun SVGLengthList.get(index: Int): SVGLength?"
+    },
+    {
+      "text": "operator fun SVGLengthList.set( index: Int, newItem: SVGLength)"
+    }
+  ]
+}

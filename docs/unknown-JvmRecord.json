@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JvmRecord",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class JvmRecord",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Instructs compiler to mark the class as a record and generate relevant toString/equals/hashCode methods"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

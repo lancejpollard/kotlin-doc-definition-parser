@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "CanvasImageSource",
+  "signature": "interface CanvasImageSource : ImageBitmapSource",
+  "items": [
+    {
+      "text": "abstract class HTMLCanvasElement : HTMLElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLCanvasElement to Kotlin"
+    },
+    {
+      "text": "interface HTMLOrSVGImageElement : CanvasImageSource"
+    },
+    {
+      "text": "abstract class HTMLVideoElement : HTMLMediaElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLVideoElement to Kotlin"
+    },
+    {
+      "text": "abstract class ImageBitmap : CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript ImageBitmap to Kotlin"
+    }
+  ]
+}

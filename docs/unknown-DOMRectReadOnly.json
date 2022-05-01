@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "DOMRectReadOnly",
+  "signature": "open class DOMRectReadOnly",
+  "items": [
+    {
+      "text": "DOMRectReadOnly( x: Double, y: Double, width: Double, height: Double)",
+      "desc": "Exposes the JavaScript DOMRectReadOnly to Kotlin"
+    },
+    {
+      "text": "open val bottom: Double"
+    },
+    {
+      "text": "open val height: Double"
+    },
+    {
+      "text": "open val left: Double"
+    },
+    {
+      "text": "open val right: Double"
+    },
+    {
+      "text": "open val top: Double"
+    },
+    {
+      "text": "open val width: Double"
+    },
+    {
+      "text": "open val x: Double"
+    },
+    {
+      "text": "open val y: Double"
+    },
+    {
+      "text": "open class DOMRect : DOMRectReadOnly",
+      "desc": "Exposes the JavaScript DOMRect to Kotlin"
+    }
+  ]
+}

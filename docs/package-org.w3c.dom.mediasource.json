@@ -1,0 +1,51 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.mediasource",
+  "items": [
+    {
+      "text": "interface AppendMode"
+    },
+    {
+      "text": "interface EndOfStreamError"
+    },
+    {
+      "text": "open class MediaSource : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaSource to Kotlin"
+    },
+    {
+      "text": "interface ReadyState"
+    },
+    {
+      "text": "abstract class SourceBuffer : EventTarget",
+      "desc": "Exposes the JavaScript SourceBuffer to Kotlin"
+    },
+    {
+      "text": "abstract class SourceBufferList : EventTarget",
+      "desc": "Exposes the JavaScript SourceBufferList to Kotlin"
+    },
+    {
+      "text": "operator fun SourceBufferList.get(index: Int): SourceBuffer?"
+    },
+    {
+      "text": "val ReadyState.Companion.CLOSED: ReadyState"
+    },
+    {
+      "text": "val EndOfStreamError.Companion.DECODE: EndOfStreamError"
+    },
+    {
+      "text": "val ReadyState.Companion.ENDED: ReadyState"
+    },
+    {
+      "text": "val EndOfStreamError.Companion.NETWORK: EndOfStreamError"
+    },
+    {
+      "text": "val ReadyState.Companion.OPEN: ReadyState"
+    },
+    {
+      "text": "val AppendMode.Companion.SEGMENTS: AppendMode"
+    },
+    {
+      "text": "val AppendMode.Companion.SEQUENCE: AppendMode"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "queryCommandIndeterm",
+  "signature": "fun queryCommandIndeterm(commandId: String): Boolean",
+  "items": []
+}

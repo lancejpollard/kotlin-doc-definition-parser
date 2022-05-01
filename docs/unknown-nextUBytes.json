@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "nextUBytes",
+  "signatures": [
+    {
+      "text": "@ExperimentalUnsignedTypes fun Random.nextUBytes( array: UByteArray): UByteArray",
+      "desc": "Fills the specified unsigned byte array with random bytes and returns it."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun Random.nextUBytes( size: Int): UByteArray",
+      "desc": "Creates an unsigned byte array of the specified size, filled with random bytes."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun Random.nextUBytes( array: UByteArray, fromIndex: Int = 0, toIndex: Int = array.size): UByteArray",
+      "desc": "Fills a subrange of the specified UByte array starting from fromIndex inclusive and ending toIndex exclusive with random UBytes."
+    }
+  ],
+  "items": []
+}

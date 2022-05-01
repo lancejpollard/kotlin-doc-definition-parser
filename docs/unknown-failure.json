@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "failure",
+  "signature": "@JvmName(\"failure\") fun <T> failure( exception: Throwable): Result<T>",
+  "items": []
+}

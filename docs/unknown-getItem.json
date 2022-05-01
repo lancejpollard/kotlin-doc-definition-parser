@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getItem",
+  "signature": "fun getItem(key: String): String?",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "decapitalize",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.decapitalize(): String",
+      "desc": "Returns a copy of this string having its first letter lowercased using the rules of the default locale, or the original string if it's empty or already starts with a lower case letter."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.decapitalize( locale: Locale): String",
+      "desc": "Returns a copy of this string having its first letter lowercased using the rules of the specified locale, or the original string, if it's empty or already starts with a lower case letter."
+    }
+  ],
+  "items": []
+}

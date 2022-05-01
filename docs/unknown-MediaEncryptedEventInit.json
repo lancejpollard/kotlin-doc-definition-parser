@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaEncryptedEventInit",
+  "signature": "fun MediaEncryptedEventInit( initDataType: String? = \"\", initData: ArrayBuffer? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaEncryptedEventInit",
+  "items": []
+}

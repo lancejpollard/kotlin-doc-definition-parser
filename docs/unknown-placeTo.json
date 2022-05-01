@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "placeTo",
+  "signature": "fun <T : CVariable> CValues<T>.placeTo( scope: AutofreeScope): CPointer<T>",
+  "items": []
+}

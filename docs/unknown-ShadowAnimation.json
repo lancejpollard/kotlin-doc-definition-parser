@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "ShadowAnimation",
+  "signature": "open class ShadowAnimation",
+  "items": [
+    {
+      "text": "ShadowAnimation(source: dynamic, newTarget: dynamic)"
+    },
+    {
+      "text": "open val sourceAnimation: dynamic"
+    }
+  ]
+}

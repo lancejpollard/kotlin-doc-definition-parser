@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onpointerdown",
+  "signature": "open var onpointerdown: ((PointerEvent) -> dynamic)?",
+  "items": []
+}

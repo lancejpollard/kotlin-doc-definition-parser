@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "encodeToByteArray",
+  "signatures": [
+    {
+      "text": "fun String.encodeToByteArray(): ByteArray",
+      "desc": "Encodes this string to an array of bytes in UTF-8 encoding."
+    },
+    {
+      "text": "fun String.encodeToByteArray( startIndex: Int = 0, endIndex: Int = this.length, throwOnInvalidSequence: Boolean = false): ByteArray",
+      "desc": "Encodes this string or its substring to an array of bytes in UTF-8 encoding."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setUnhandledExceptionHook",
+  "signature": "fun setUnhandledExceptionHook( hook: ReportUnhandledExceptionHook): ReportUnhandledExceptionHook?",
+  "items": []
+}

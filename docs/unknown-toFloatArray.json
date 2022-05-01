@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toFloatArray",
+  "signatures": [
+    {
+      "text": "fun Array<out Float>.toFloatArray(): FloatArray",
+      "desc": "Returns an array of Float containing all of the elements of this generic array."
+    },
+    {
+      "text": "fun Collection<Float>.toFloatArray(): FloatArray",
+      "desc": "Returns an array of Float containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

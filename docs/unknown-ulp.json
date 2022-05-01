@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "ulp",
+  "signatures": [
+    {
+      "text": "val Double.ulp: Double",
+      "desc": "Returns the ulp (unit in the last place) of this value."
+    },
+    {
+      "text": "inline val Float.ulp: Float",
+      "desc": "Returns the ulp of this value."
+    }
+  ],
+  "items": []
+}

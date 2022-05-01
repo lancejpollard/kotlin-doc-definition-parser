@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "tan",
+  "signature": "fun tan(x: Double): Double",
+  "items": []
+}

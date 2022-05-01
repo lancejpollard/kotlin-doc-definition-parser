@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "ClosedFloatingPointRange",
+  "signature": "interface ClosedFloatingPointRange<T : Comparable<T>> : ClosedRange<T>",
+  "items": [
+    {
+      "text": "open fun contains(value: T): Boolean"
+    },
+    {
+      "text": "open fun isEmpty(): Boolean"
+    },
+    {
+      "text": "abstract fun lessThanOrEquals(a: T, b: T): Boolean",
+      "desc": "Compares two values of range domain type and returns true if first is less than or equal to second."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBigInteger",
+  "signatures": [
+    {
+      "text": "fun String.toBigInteger(): BigInteger",
+      "desc": "Parses the string as a java.math.BigInteger number and returns the result."
+    },
+    {
+      "text": "fun String.toBigInteger(radix: Int): BigInteger",
+      "desc": "Parses the string as a java.math.BigInteger number and returns the result."
+    }
+  ],
+  "items": []
+}

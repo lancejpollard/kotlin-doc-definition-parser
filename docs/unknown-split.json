@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "split",
+  "signatures": [
+    {
+      "text": "fun CharSequence.split( vararg delimiters: String, ignoreCase: Boolean = false, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence to a list of strings around occurrences of the specified delimiters."
+    },
+    {
+      "text": "fun CharSequence.split( vararg delimiters: Char, ignoreCase: Boolean = false, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence to a list of strings around occurrences of the specified delimiters."
+    },
+    {
+      "text": "fun CharSequence.split( regex: Regex, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence to a list of strings around matches of the given regular expression."
+    },
+    {
+      "text": "fun CharSequence.split( regex: Pattern, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence around matches of the given regular expression."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "LOADING",
+  "signature": "inline val DocumentReadyState.Companion.LOADING: DocumentReadyState",
+  "items": []
+}

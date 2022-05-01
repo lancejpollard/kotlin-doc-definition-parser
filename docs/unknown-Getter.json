@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getter",
+  "signature": "abstract val getter: KProperty1.Getter<T, V>",
+  "items": []
+}

@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "PremultiplyAlpha",
+  "signature": "interface PremultiplyAlpha",
+  "items": [
+    {
+      "text": "val PremultiplyAlpha.Companion.DEFAULT: PremultiplyAlpha"
+    },
+    {
+      "text": "val PremultiplyAlpha.Companion.NONE: PremultiplyAlpha"
+    },
+    {
+      "text": "val PremultiplyAlpha.Companion.PREMULTIPLY: PremultiplyAlpha"
+    }
+  ]
+}

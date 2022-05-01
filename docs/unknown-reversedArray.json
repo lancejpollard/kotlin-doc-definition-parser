@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reversedArray",
+  "signature": "fun <T> Array<T>.reversedArray(): Array<T>",
+  "items": []
+}

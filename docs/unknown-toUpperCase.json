@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toUpperCase",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun Char.toUpperCase(): Char",
+      "desc": "Converts this character to upper case using Unicode mapping rules of the invariant locale."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.toUpperCase(): String",
+      "desc": "Returns a copy of this string converted to upper case using the rules of the default locale."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.5\") fun String.toUpperCase( locale: Locale): String",
+      "desc": "Returns a copy of this string converted to upper case using the rules of the specified locale."
+    }
+  ],
+  "items": []
+}

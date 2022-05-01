@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onerror",
+  "signature": "open var onerror: ((dynamic, String, Int, Int, Any?) -> dynamic)?",
+  "items": []
+}

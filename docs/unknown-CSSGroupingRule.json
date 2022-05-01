@@ -1,0 +1,52 @@
+{
+  "type": "unknown",
+  "name": "CSSGroupingRule",
+  "signature": "abstract class CSSGroupingRule : CSSRule",
+  "items": [
+    {
+      "text": "CSSGroupingRule()",
+      "desc": "Exposes the JavaScript CSSGroupingRule to Kotlin"
+    },
+    {
+      "text": "open val cssRules: CSSRuleList"
+    },
+    {
+      "text": "fun deleteRule(index: Int)"
+    },
+    {
+      "text": "fun insertRule(rule: String, index: Int): Int"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    },
+    {
+      "text": "abstract class CSSMediaRule : CSSGroupingRule",
+      "desc": "Exposes the JavaScript CSSMediaRule to Kotlin"
+    },
+    {
+      "text": "abstract class CSSPageRule : CSSGroupingRule",
+      "desc": "Exposes the JavaScript CSSPageRule to Kotlin"
+    }
+  ]
+}

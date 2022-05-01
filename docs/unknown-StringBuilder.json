@@ -1,0 +1,1033 @@
+{
+  "type": "unknown",
+  "name": "StringBuilder",
+  "signature": "class StringBuilder : Appendable, CharSequence",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Constructs an empty string builder."
+    },
+    {
+      "text": "<init>(capacity: Int)",
+      "desc": "Constructs an empty string builder with the specified initial capacity."
+    },
+    {
+      "text": "<init>(content: CharSequence)",
+      "desc": "Constructs a string builder that contains the same characters as the specified content char sequence."
+    },
+    {
+      "text": "<init>(content: String)",
+      "desc": "Constructs a string builder that contains the same characters as the specified content string."
+    },
+    {
+      "text": "val length: Int",
+      "desc": "Returns the length of this character sequence."
+    },
+    {
+      "text": "fun append(value: Byte): StringBuilder"
+    },
+    {
+      "text": "fun append(value: Char): StringBuilder",
+      "desc": "Appends the specified character value to this Appendable and returns this instance."
+    },
+    {
+      "text": "fun append(value: CharSequence?): StringBuilder",
+      "desc": "Appends the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "fun append( value: CharSequence?, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Appends a subsequence of the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "fun append(value: Any?): StringBuilder",
+      "desc": "Appends the string representation of the specified object value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun append(value: Boolean): StringBuilder",
+      "desc": "Appends the string representation of the specified boolean value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun append(value: CharArray): StringBuilder",
+      "desc": "Appends characters in the specified character array value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun append(value: String?): StringBuilder",
+      "desc": "Appends the specified string value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun appendRange( value: CharArray, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Appends characters in a subarray of the specified character array value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun appendRange( value: CharSequence, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Appends a subsequence of the specified character sequence value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun capacity(): Int",
+      "desc": "Returns the current capacity of this string builder."
+    },
+    {
+      "text": "fun clear(): StringBuilder",
+      "desc": "Clears the content of this string builder making it empty and returns this instance."
+    },
+    {
+      "text": "fun deleteAt(index: Int): StringBuilder",
+      "desc": "Removes the character at the specified index from this string builder and returns this instance."
+    },
+    {
+      "text": "fun deleteRange( startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Removes characters in the specified range from this string builder and returns this instance."
+    },
+    {
+      "text": "fun ensureCapacity(minimumCapacity: Int)",
+      "desc": "Ensures that the capacity of this string builder is at least equal to the specified minimumCapacity."
+    },
+    {
+      "text": "operator fun get(index: Int): Char",
+      "desc": "Returns the character at the specified index in this character sequence."
+    },
+    {
+      "text": "fun indexOf(string: String): Int",
+      "desc": "Returns the index within this string builder of the first occurrence of the specified string."
+    },
+    {
+      "text": "fun indexOf(string: String, startIndex: Int): Int",
+      "desc": "Returns the index within this string builder of the first occurrence of the specified string, starting at the specified startIndex."
+    },
+    {
+      "text": "fun insert(index: Int, value: Byte): StringBuilder"
+    },
+    {
+      "text": "fun insert(index: Int, value: Boolean): StringBuilder",
+      "desc": "Inserts the string representation of the specified boolean value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insert(index: Int, value: Char): StringBuilder",
+      "desc": "Inserts the specified character value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insert(index: Int, value: CharArray): StringBuilder",
+      "desc": "Inserts characters in the specified character array value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insert(index: Int, value: CharSequence?): StringBuilder",
+      "desc": "Inserts characters in the specified character sequence value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insert(index: Int, value: Any?): StringBuilder",
+      "desc": "Inserts the string representation of the specified object value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insert(index: Int, value: String?): StringBuilder",
+      "desc": "Inserts the string value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insertRange( index: Int, value: CharArray, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Inserts characters in a subarray of the specified character array value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun insertRange( index: Int, value: CharSequence, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Inserts characters in a subsequence of the specified character sequence value into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun lastIndexOf(string: String): Int",
+      "desc": "Returns the index within this string builder of the last occurrence of the specified string. The last occurrence of empty string \"\" is considered to be at the index equal to this.length."
+    },
+    {
+      "text": "fun lastIndexOf(string: String, startIndex: Int): Int",
+      "desc": "Returns the index within this string builder of the last occurrence of the specified string, starting from the specified startIndex toward the beginning."
+    },
+    {
+      "text": "fun reverse(): StringBuilder",
+      "desc": "Reverses the contents of this string builder and returns this instance."
+    },
+    {
+      "text": "operator fun set(index: Int, value: Char)",
+      "desc": "Sets the character at the specified index to the specified value."
+    },
+    {
+      "text": "fun setLength(newLength: Int)",
+      "desc": "Sets the length of this string builder to the specified newLength."
+    },
+    {
+      "text": "fun setRange( startIndex: Int, endIndex: Int, value: String): StringBuilder",
+      "desc": "Replaces characters in the specified range of this string builder with characters in the specified string value and returns this instance."
+    },
+    {
+      "text": "fun subSequence(startIndex: Int, endIndex: Int): CharSequence",
+      "desc": "Returns a new character sequence that is a subsequence of this character sequence, starting at the specified startIndex and ending right before the specified endIndex."
+    },
+    {
+      "text": "fun substring(startIndex: Int): String",
+      "desc": "Returns a new String that contains characters in this string builder at startIndex (inclusive) and up to the length (exclusive)."
+    },
+    {
+      "text": "fun substring(startIndex: Int, endIndex: Int): String",
+      "desc": "Returns a new String that contains characters in this string builder at startIndex (inclusive) and up to the endIndex (exclusive)."
+    },
+    {
+      "text": "fun toCharArray( destination: CharArray, destinationOffset: Int = 0, startIndex: Int = 0, endIndex: Int = this.length)",
+      "desc": "Copies characters from this string builder into the destination character array."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "fun trimToSize()",
+      "desc": "Attempts to reduce storage used for this string builder."
+    },
+    {
+      "text": "val CharSequence.indices: IntRange",
+      "desc": "Returns the range of valid character indices for this char sequence."
+    },
+    {
+      "text": "val CharSequence.lastIndex: Int",
+      "desc": "Returns the index of the last character in the char sequence or -1 if it is empty."
+    },
+    {
+      "text": "fun CharSequence.all(predicate: (Char) -> Boolean): Boolean",
+      "desc": "Returns true if all characters match the given predicate."
+    },
+    {
+      "text": "fun CharSequence.any(): Boolean",
+      "desc": "Returns true if char sequence has at least one character."
+    },
+    {
+      "text": "fun CharSequence.any(predicate: (Char) -> Boolean): Boolean",
+      "desc": "Returns true if at least one character matches the given predicate."
+    },
+    {
+      "text": "fun StringBuilder.append(obj: Any?): StringBuilder"
+    },
+    {
+      "text": "fun StringBuilder.append( vararg value: String?): StringBuilder",
+      "desc": "Appends all arguments to the given StringBuilder."
+    },
+    {
+      "text": "fun <T : Appendable> T.append(vararg value: CharSequence?): T",
+      "desc": "Appends all arguments to the given Appendable."
+    },
+    {
+      "text": "fun StringBuilder.appendLine(): StringBuilder",
+      "desc": "Appends a line feed character (\\n) to this StringBuilder."
+    },
+    {
+      "text": "fun StringBuilder.appendLine( value: CharSequence?): StringBuilder",
+      "desc": "Appends value to this StringBuilder, followed by a line feed character (\\n)."
+    },
+    {
+      "text": "fun StringBuilder.appendln(it: String): StringBuilder"
+    },
+    {
+      "text": "fun CharSequence.asIterable(): Iterable<Char>",
+      "desc": "Creates an Iterable instance that wraps the original char sequence returning its characters when being iterated."
+    },
+    {
+      "text": "fun CharSequence.asSequence(): Sequence<Char>",
+      "desc": "Creates a Sequence instance that wraps the original char sequence returning its characters when being iterated."
+    },
+    {
+      "text": "fun <K, V> CharSequence.associate( transform: (Char) -> Pair<K, V>): Map<K, V>",
+      "desc": "Returns a Map containing key-value pairs provided by transform function applied to characters of the given char sequence."
+    },
+    {
+      "text": "fun <K> CharSequence.associateBy( keySelector: (Char) -> K): Map<K, Char>",
+      "desc": "Returns a Map containing the characters from the given char sequence indexed by the key returned from keySelector function applied to each character."
+    },
+    {
+      "text": "fun <K, V> CharSequence.associateBy( keySelector: (Char) -> K, valueTransform: (Char) -> V): Map<K, V>",
+      "desc": "Returns a Map containing the values provided by valueTransform and indexed by keySelector functions applied to characters of the given char sequence."
+    },
+    {
+      "text": "fun <K, M : MutableMap<in K, in Char>> CharSequence.associateByTo( destination: M, keySelector: (Char) -> K): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs, where key is provided by the keySelector function applied to each character of the given char sequence and value is the character itself."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> CharSequence.associateByTo( destination: M, keySelector: (Char) -> K, valueTransform: (Char) -> V): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs, where key is provided by the keySelector function and and value is provided by the valueTransform function applied to characters of the given char sequence."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, in V>> CharSequence.associateTo( destination: M, transform: (Char) -> Pair<K, V>): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs provided by transform function applied to each character of the given char sequence."
+    },
+    {
+      "text": "fun <V> CharSequence.associateWith( valueSelector: (Char) -> V): Map<Char, V>",
+      "desc": "Returns a Map where keys are characters from the given char sequence and values are produced by the valueSelector function applied to each character."
+    },
+    {
+      "text": "fun <V, M : MutableMap<in Char, in V>> CharSequence.associateWithTo( destination: M, valueSelector: (Char) -> V): M",
+      "desc": "Populates and returns the destination mutable map with key-value pairs for each character of the given char sequence, where key is the character itself and value is provided by the valueSelector function applied to that key."
+    },
+    {
+      "text": "fun CharSequence.chunked(size: Int): List<String>",
+      "desc": "Splits this char sequence into a list of strings each not exceeding the given size."
+    },
+    {
+      "text": "fun <R> CharSequence.chunked( size: Int, transform: (CharSequence) -> R): List<R>",
+      "desc": "Splits this char sequence into several char sequences each not exceeding the given size and applies the given transform function to an each."
+    },
+    {
+      "text": "fun CharSequence.chunkedSequence(size: Int): Sequence<String>",
+      "desc": "Splits this char sequence into a sequence of strings each not exceeding the given size."
+    },
+    {
+      "text": "fun <R> CharSequence.chunkedSequence( size: Int, transform: (CharSequence) -> R): Sequence<R>",
+      "desc": "Splits this char sequence into several char sequences each not exceeding the given size and applies the given transform function to an each."
+    },
+    {
+      "text": "fun CharSequence.commonPrefixWith( other: CharSequence, ignoreCase: Boolean = false): String",
+      "desc": "Returns the longest string prefix such that this char sequence and other char sequence both start with this prefix, taking care not to split surrogate pairs. If this and other have no common prefix, returns the empty string."
+    },
+    {
+      "text": "fun CharSequence.commonSuffixWith( other: CharSequence, ignoreCase: Boolean = false): String",
+      "desc": "Returns the longest string suffix such that this char sequence and other char sequence both end with this suffix, taking care not to split surrogate pairs. If this and other have no common suffix, returns the empty string."
+    },
+    {
+      "text": "operator fun CharSequence.contains( other: CharSequence, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence contains the specified other sequence of characters as a substring."
+    },
+    {
+      "text": "operator fun CharSequence.contains( char: Char, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence contains the specified character char."
+    },
+    {
+      "text": "operator fun CharSequence.contains(regex: Regex): Boolean",
+      "desc": "Returns true if this char sequence contains at least one match of the specified regular expression regex."
+    },
+    {
+      "text": "fun CharSequence.count(): Int",
+      "desc": "Returns the length of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.count(predicate: (Char) -> Boolean): Int",
+      "desc": "Returns the number of characters matching the given predicate."
+    },
+    {
+      "text": "fun StringBuilder.deleteCharAt(index: Int): StringBuilder",
+      "desc": "Removes the character at the specified index from this string builder and returns this instance."
+    },
+    {
+      "text": "fun CharSequence.drop(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence with the first n characters removed."
+    },
+    {
+      "text": "fun CharSequence.dropLast(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence with the last n characters removed."
+    },
+    {
+      "text": "fun CharSequence.dropLastWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing all characters except last characters that satisfy the given predicate."
+    },
+    {
+      "text": "fun CharSequence.dropWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing all characters except first characters that satisfy the given predicate."
+    },
+    {
+      "text": "fun CharSequence.elementAtOrElse( index: Int, defaultValue: (Int) -> Char): Char",
+      "desc": "Returns a character at the given index or the result of calling the defaultValue function if the index is out of bounds of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.elementAtOrNull(index: Int): Char?",
+      "desc": "Returns a character at the given index or null if the index is out of bounds of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.endsWith( char: Char, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence ends with the specified character."
+    },
+    {
+      "text": "fun CharSequence.endsWith( suffix: CharSequence, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence ends with the specified suffix."
+    },
+    {
+      "text": "fun StringBuilder.ensureCapacity(capacity: Int)"
+    },
+    {
+      "text": "fun CharSequence.filter( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a char sequence containing only those characters from the original char sequence that match the given predicate."
+    },
+    {
+      "text": "fun CharSequence.filterIndexed( predicate: (index: Int, Char) -> Boolean): CharSequence",
+      "desc": "Returns a char sequence containing only those characters from the original char sequence that match the given predicate."
+    },
+    {
+      "text": "fun <C : Appendable> CharSequence.filterIndexedTo( destination: C, predicate: (index: Int, Char) -> Boolean): C",
+      "desc": "Appends all characters matching the given predicate to the given destination."
+    },
+    {
+      "text": "fun CharSequence.filterNot( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a char sequence containing only those characters from the original char sequence that do not match the given predicate."
+    },
+    {
+      "text": "fun <C : Appendable> CharSequence.filterNotTo( destination: C, predicate: (Char) -> Boolean): C",
+      "desc": "Appends all characters not matching the given predicate to the given destination."
+    },
+    {
+      "text": "fun <C : Appendable> CharSequence.filterTo( destination: C, predicate: (Char) -> Boolean): C",
+      "desc": "Appends all characters matching the given predicate to the given destination."
+    },
+    {
+      "text": "fun CharSequence.find(predicate: (Char) -> Boolean): Char?",
+      "desc": "Returns the first character matching the given predicate, or null if no such character was found."
+    },
+    {
+      "text": "fun CharSequence.findAnyOf( strings: Collection<String>, startIndex: Int = 0, ignoreCase: Boolean = false): Pair<Int, String>?",
+      "desc": "Finds the first occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.findLast( predicate: (Char) -> Boolean): Char?",
+      "desc": "Returns the last character matching the given predicate, or null if no such character was found."
+    },
+    {
+      "text": "fun CharSequence.findLastAnyOf( strings: Collection<String>, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Pair<Int, String>?",
+      "desc": "Finds the last occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.first(): Char",
+      "desc": "Returns first character."
+    },
+    {
+      "text": "fun CharSequence.first(predicate: (Char) -> Boolean): Char",
+      "desc": "Returns the first character matching the given predicate."
+    },
+    {
+      "text": "fun <R : Any> CharSequence.firstNotNullOf( transform: (Char) -> R?): R",
+      "desc": "Returns the first non-null value produced by transform function being applied to characters of this char sequence in iteration order, or throws NoSuchElementException if no non-null value was produced."
+    },
+    {
+      "text": "fun <R : Any> CharSequence.firstNotNullOfOrNull( transform: (Char) -> R?): R?",
+      "desc": "Returns the first non-null value produced by transform function being applied to characters of this char sequence in iteration order, or null if no non-null value was produced."
+    },
+    {
+      "text": "fun CharSequence.firstOrNull(): Char?",
+      "desc": "Returns the first character, or null if the char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.firstOrNull( predicate: (Char) -> Boolean): Char?",
+      "desc": "Returns the first character matching the given predicate, or null if character was not found."
+    },
+    {
+      "text": "fun <R> CharSequence.flatMap( transform: (Char) -> Iterable<R>): List<R>",
+      "desc": "Returns a single list of all elements yielded from results of transform function being invoked on each character of original char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.flatMapIndexed( transform: (index: Int, Char) -> Iterable<R>): List<R>",
+      "desc": "Returns a single list of all elements yielded from results of transform function being invoked on each character and its index in the original char sequence."
+    },
+    {
+      "text": "fun <R, C : MutableCollection<in R>> CharSequence.flatMapIndexedTo( destination: C, transform: (index: Int, Char) -> Iterable<R>): C",
+      "desc": "Appends all elements yielded from results of transform function being invoked on each character and its index in the original char sequence, to the given destination."
+    },
+    {
+      "text": "fun <R, C : MutableCollection<in R>> CharSequence.flatMapTo( destination: C, transform: (Char) -> Iterable<R>): C",
+      "desc": "Appends all elements yielded from results of transform function being invoked on each character of original char sequence, to the given destination."
+    },
+    {
+      "text": "fun <R> CharSequence.fold( initial: R, operation: (acc: R, Char) -> R): R",
+      "desc": "Accumulates value starting with initial value and applying operation from left to right to current accumulator value and each character."
+    },
+    {
+      "text": "fun <R> CharSequence.foldIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): R",
+      "desc": "Accumulates value starting with initial value and applying operation from left to right to current accumulator value and each character with its index in the original char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.foldRight( initial: R, operation: (Char, acc: R) -> R): R",
+      "desc": "Accumulates value starting with initial value and applying operation from right to left to each character and current accumulator value."
+    },
+    {
+      "text": "fun <R> CharSequence.foldRightIndexed( initial: R, operation: (index: Int, Char, acc: R) -> R): R",
+      "desc": "Accumulates value starting with initial value and applying operation from right to left to each character with its index in the original char sequence and current accumulator value."
+    },
+    {
+      "text": "fun CharSequence.forEach(action: (Char) -> Unit)",
+      "desc": "Performs the given action on each character."
+    },
+    {
+      "text": "fun CharSequence.forEachIndexed( action: (index: Int, Char) -> Unit)",
+      "desc": "Performs the given action on each character, providing sequential index with the character."
+    },
+    {
+      "text": "fun CharSequence.getOrElse( index: Int, defaultValue: (Int) -> Char): Char",
+      "desc": "Returns a character at the given index or the result of calling the defaultValue function if the index is out of bounds of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.getOrNull(index: Int): Char?",
+      "desc": "Returns a character at the given index or null if the index is out of bounds of this char sequence."
+    },
+    {
+      "text": "fun <K> CharSequence.groupBy( keySelector: (Char) -> K): Map<K, List<Char>>",
+      "desc": "Groups characters of the original char sequence by the key returned by the given keySelector function applied to each character and returns a map where each group key is associated with a list of corresponding characters."
+    },
+    {
+      "text": "fun <K, V> CharSequence.groupBy( keySelector: (Char) -> K, valueTransform: (Char) -> V): Map<K, List<V>>",
+      "desc": "Groups values returned by the valueTransform function applied to each character of the original char sequence by the key returned by the given keySelector function applied to the character and returns a map where each group key is associated with a list of corresponding values."
+    },
+    {
+      "text": "fun <K, M : MutableMap<in K, MutableList<Char>>> CharSequence.groupByTo( destination: M, keySelector: (Char) -> K): M",
+      "desc": "Groups characters of the original char sequence by the key returned by the given keySelector function applied to each character and puts to the destination map each group key associated with a list of corresponding characters."
+    },
+    {
+      "text": "fun <K, V, M : MutableMap<in K, MutableList<V>>> CharSequence.groupByTo( destination: M, keySelector: (Char) -> K, valueTransform: (Char) -> V): M",
+      "desc": "Groups values returned by the valueTransform function applied to each character of the original char sequence by the key returned by the given keySelector function applied to the character and puts to the destination map each group key associated with a list of corresponding values."
+    },
+    {
+      "text": "fun <K> CharSequence.groupingBy( keySelector: (Char) -> K): Grouping<Char, K>",
+      "desc": "Creates a Grouping source from a char sequence to be used later with one of group-and-fold operations using the specified keySelector function to extract a key from each character."
+    },
+    {
+      "text": "fun CharSequence.hasSurrogatePairAt(index: Int): Boolean",
+      "desc": "Returns true if this CharSequence has Unicode surrogate pair at the specified index."
+    },
+    {
+      "text": "fun <C, R> C.ifBlank( defaultValue: () -> R): R where C : CharSequence, C : R",
+      "desc": "Returns this char sequence if it is not empty and doesn't consist solely of whitespace characters, or the result of calling defaultValue function otherwise."
+    },
+    {
+      "text": "fun <C, R> C.ifEmpty( defaultValue: () -> R): R where C : CharSequence, C : R",
+      "desc": "Returns this char sequence if it's not empty or the result of calling defaultValue function if the char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.indexOf( char: Char, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Returns the index within this string of the first occurrence of the specified character, starting from the specified startIndex."
+    },
+    {
+      "text": "fun CharSequence.indexOf( string: String, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Returns the index within this char sequence of the first occurrence of the specified string, starting from the specified startIndex."
+    },
+    {
+      "text": "fun CharSequence.indexOfAny( chars: CharArray, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the first occurrence of any of the specified chars in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.indexOfAny( strings: Collection<String>, startIndex: Int = 0, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the first occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.indexOfFirst( predicate: (Char) -> Boolean): Int",
+      "desc": "Returns index of the first character matching the given predicate, or -1 if the char sequence does not contain such character."
+    },
+    {
+      "text": "fun CharSequence.indexOfLast( predicate: (Char) -> Boolean): Int",
+      "desc": "Returns index of the last character matching the given predicate, or -1 if the char sequence does not contain such character."
+    },
+    {
+      "text": "fun StringBuilder.insert(index: Int, c: Char): StringBuilder"
+    },
+    {
+      "text": "fun StringBuilder.insert( index: Int, csq: CharSequence?, start: Int, end: Int): StringBuilder",
+      "desc": "Inserts characters in a subsequence of the specified character sequence csq into this string builder at the specified index and returns this instance."
+    },
+    {
+      "text": "fun CharSequence.isEmpty(): Boolean",
+      "desc": "Returns true if this char sequence is empty (contains no characters)."
+    },
+    {
+      "text": "fun CharSequence.isNotBlank(): Boolean",
+      "desc": "Returns true if this char sequence is not empty and contains some characters except of whitespace characters."
+    },
+    {
+      "text": "fun CharSequence.isNotEmpty(): Boolean",
+      "desc": "Returns true if this char sequence is not empty."
+    },
+    {
+      "text": "fun CharSequence?.isNullOrBlank(): Boolean",
+      "desc": "Returns true if this nullable char sequence is either null or empty or consists solely of whitespace characters."
+    },
+    {
+      "text": "fun CharSequence?.isNullOrEmpty(): Boolean",
+      "desc": "Returns true if this nullable char sequence is either null or empty."
+    },
+    {
+      "text": "operator fun CharSequence.iterator(): CharIterator",
+      "desc": "Iterator for characters of the given char sequence."
+    },
+    {
+      "text": "fun CharSequence.last(): Char",
+      "desc": "Returns the last character."
+    },
+    {
+      "text": "fun CharSequence.last(predicate: (Char) -> Boolean): Char",
+      "desc": "Returns the last character matching the given predicate."
+    },
+    {
+      "text": "fun CharSequence.lastIndexOf( char: Char, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Returns the index within this char sequence of the last occurrence of the specified character, starting from the specified startIndex."
+    },
+    {
+      "text": "fun CharSequence.lastIndexOf( string: String, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Returns the index within this char sequence of the last occurrence of the specified string, starting from the specified startIndex."
+    },
+    {
+      "text": "fun CharSequence.lastIndexOfAny( chars: CharArray, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the last occurrence of any of the specified chars in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.lastIndexOfAny( strings: Collection<String>, startIndex: Int = lastIndex, ignoreCase: Boolean = false): Int",
+      "desc": "Finds the index of the last occurrence of any of the specified strings in this char sequence, starting from the specified startIndex and optionally ignoring the case."
+    },
+    {
+      "text": "fun CharSequence.lastOrNull(): Char?",
+      "desc": "Returns the last character, or null if the char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.lastOrNull( predicate: (Char) -> Boolean): Char?",
+      "desc": "Returns the last character matching the given predicate, or null if no such character was found."
+    },
+    {
+      "text": "fun CharSequence.lines(): List<String>",
+      "desc": "Splits this char sequence to a list of lines delimited by any of the following character sequences: CRLF, LF or CR."
+    },
+    {
+      "text": "fun CharSequence.lineSequence(): Sequence<String>",
+      "desc": "Splits this char sequence to a sequence of lines delimited by any of the following character sequences: CRLF, LF or CR."
+    },
+    {
+      "text": "fun <R> CharSequence.map(transform: (Char) -> R): List<R>",
+      "desc": "Returns a list containing the results of applying the given transform function to each character in the original char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.mapIndexed( transform: (index: Int, Char) -> R): List<R>",
+      "desc": "Returns a list containing the results of applying the given transform function to each character and its index in the original char sequence."
+    },
+    {
+      "text": "fun <R : Any> CharSequence.mapIndexedNotNull( transform: (index: Int, Char) -> R?): List<R>",
+      "desc": "Returns a list containing only the non-null results of applying the given transform function to each character and its index in the original char sequence."
+    },
+    {
+      "text": "fun <R : Any, C : MutableCollection<in R>> CharSequence.mapIndexedNotNullTo( destination: C, transform: (index: Int, Char) -> R?): C",
+      "desc": "Applies the given transform function to each character and its index in the original char sequence and appends only the non-null results to the given destination."
+    },
+    {
+      "text": "fun <R, C : MutableCollection<in R>> CharSequence.mapIndexedTo( destination: C, transform: (index: Int, Char) -> R): C",
+      "desc": "Applies the given transform function to each character and its index in the original char sequence and appends the results to the given destination."
+    },
+    {
+      "text": "fun <R : Any> CharSequence.mapNotNull( transform: (Char) -> R?): List<R>",
+      "desc": "Returns a list containing only the non-null results of applying the given transform function to each character in the original char sequence."
+    },
+    {
+      "text": "fun <R : Any, C : MutableCollection<in R>> CharSequence.mapNotNullTo( destination: C, transform: (Char) -> R?): C",
+      "desc": "Applies the given transform function to each character in the original char sequence and appends only the non-null results to the given destination."
+    },
+    {
+      "text": "fun <R, C : MutableCollection<in R>> CharSequence.mapTo( destination: C, transform: (Char) -> R): C",
+      "desc": "Applies the given transform function to each character of the original char sequence and appends the results to the given destination."
+    },
+    {
+      "text": "infix fun CharSequence.matches(regex: Regex): Boolean",
+      "desc": "Returns true if this char sequence matches the given regular expression."
+    },
+    {
+      "text": "fun CharSequence.max(): Char?"
+    },
+    {
+      "text": "fun <R : Comparable<R>> CharSequence.maxBy( selector: (Char) -> R): Char?"
+    },
+    {
+      "text": "fun <R : Comparable<R>> CharSequence.maxByOrNull( selector: (Char) -> R): Char?",
+      "desc": "Returns the first character yielding the largest value of the given function or null if there are no characters."
+    },
+    {
+      "text": "fun <R : Comparable<R>> any_iterable<R>.maxOf( selector: (Char) -> R): R",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun <R : Comparable<R>> any_iterable<R>.maxOfOrNull( selector: (Char) -> R): R?",
+      "desc": "Returns the largest value among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    },
+    {
+      "text": "fun <R> CharSequence.maxOfWith( comparator: Comparator<in R>, selector: (Char) -> R): R",
+      "desc": "Returns the largest value according to the provided comparator among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.maxOfWithOrNull( comparator: Comparator<in R>, selector: (Char) -> R): R?",
+      "desc": "Returns the largest value according to the provided comparator among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.maxOrNull(): Char?",
+      "desc": "Returns the largest character or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.maxWith( comparator: Comparator<in Char>): Char?"
+    },
+    {
+      "text": "fun CharSequence.maxWithOrNull( comparator: Comparator<in Char>): Char?",
+      "desc": "Returns the first character having the largest value according to the provided comparator or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.min(): Char?"
+    },
+    {
+      "text": "fun <R : Comparable<R>> CharSequence.minBy( selector: (Char) -> R): Char?"
+    },
+    {
+      "text": "fun <R : Comparable<R>> CharSequence.minByOrNull( selector: (Char) -> R): Char?",
+      "desc": "Returns the first character yielding the smallest value of the given function or null if there are no characters."
+    },
+    {
+      "text": "fun <R : Comparable<R>> any_iterable<R>.minOf( selector: (Char) -> R): R",
+      "desc": "Returns the smallest value among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun <R : Comparable<R>> any_iterable<R>.minOfOrNull( selector: (Char) -> R): R?",
+      "desc": "Returns the smallest value among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    },
+    {
+      "text": "fun <R> CharSequence.minOfWith( comparator: Comparator<in R>, selector: (Char) -> R): R",
+      "desc": "Returns the smallest value according to the provided comparator among all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.minOfWithOrNull( comparator: Comparator<in R>, selector: (Char) -> R): R?",
+      "desc": "Returns the smallest value according to the provided comparator among all values produced by selector function applied to each character in the char sequence or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.minOrNull(): Char?",
+      "desc": "Returns the smallest character or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.minWith( comparator: Comparator<in Char>): Char?"
+    },
+    {
+      "text": "fun CharSequence.minWithOrNull( comparator: Comparator<in Char>): Char?",
+      "desc": "Returns the first character having the smallest value according to the provided comparator or null if there are no characters."
+    },
+    {
+      "text": "fun CharSequence.none(): Boolean",
+      "desc": "Returns true if the char sequence has no characters."
+    },
+    {
+      "text": "fun CharSequence.none(predicate: (Char) -> Boolean): Boolean",
+      "desc": "Returns true if no characters match the given predicate."
+    },
+    {
+      "text": "fun <S : CharSequence> S.onEach(action: (Char) -> Unit): S",
+      "desc": "Performs the given action on each character and returns the char sequence itself afterwards."
+    },
+    {
+      "text": "fun <S : CharSequence> S.onEachIndexed( action: (index: Int, Char) -> Unit): S",
+      "desc": "Performs the given action on each character, providing sequential index with the character, and returns the char sequence itself afterwards."
+    },
+    {
+      "text": "fun CharSequence.padEnd( length: Int, padChar: Char = ' '): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence padded at the end to the specified length with the specified character or space."
+    },
+    {
+      "text": "fun CharSequence.padStart( length: Int, padChar: Char = ' '): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence padded at the beginning to the specified length with the specified character or space."
+    },
+    {
+      "text": "fun CharSequence.partition( predicate: (Char) -> Boolean): Pair<CharSequence, CharSequence>",
+      "desc": "Splits the original char sequence into pair of char sequences, where first char sequence contains characters for which predicate yielded true, while second char sequence contains characters for which predicate yielded false."
+    },
+    {
+      "text": "fun CharSequence.random(): Char",
+      "desc": "Returns a random character from this char sequence."
+    },
+    {
+      "text": "fun CharSequence.random(random: Random): Char",
+      "desc": "Returns a random character from this char sequence using the specified source of randomness."
+    },
+    {
+      "text": "fun CharSequence.randomOrNull(): Char?",
+      "desc": "Returns a random character from this char sequence, or null if this char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.randomOrNull(random: Random): Char?",
+      "desc": "Returns a random character from this char sequence using the specified source of randomness, or null if this char sequence is empty."
+    },
+    {
+      "text": "fun CharSequence.reduce( operation: (acc: Char, Char) -> Char): Char",
+      "desc": "Accumulates value starting with the first character and applying operation from left to right to current accumulator value and each character."
+    },
+    {
+      "text": "fun CharSequence.reduceIndexed( operation: (index: Int, acc: Char, Char) -> Char): Char",
+      "desc": "Accumulates value starting with the first character and applying operation from left to right to current accumulator value and each character with its index in the original char sequence."
+    },
+    {
+      "text": "fun CharSequence.reduceIndexedOrNull( operation: (index: Int, acc: Char, Char) -> Char): Char?",
+      "desc": "Accumulates value starting with the first character and applying operation from left to right to current accumulator value and each character with its index in the original char sequence."
+    },
+    {
+      "text": "fun CharSequence.reduceOrNull( operation: (acc: Char, Char) -> Char): Char?",
+      "desc": "Accumulates value starting with the first character and applying operation from left to right to current accumulator value and each character."
+    },
+    {
+      "text": "fun CharSequence.reduceRight( operation: (Char, acc: Char) -> Char): Char",
+      "desc": "Accumulates value starting with the last character and applying operation from right to left to each character and current accumulator value."
+    },
+    {
+      "text": "fun CharSequence.reduceRightIndexed( operation: (index: Int, Char, acc: Char) -> Char): Char",
+      "desc": "Accumulates value starting with the last character and applying operation from right to left to each character with its index in the original char sequence and current accumulator value."
+    },
+    {
+      "text": "fun CharSequence.reduceRightIndexedOrNull( operation: (index: Int, Char, acc: Char) -> Char): Char?",
+      "desc": "Accumulates value starting with the last character and applying operation from right to left to each character with its index in the original char sequence and current accumulator value."
+    },
+    {
+      "text": "fun CharSequence.reduceRightOrNull( operation: (Char, acc: Char) -> Char): Char?",
+      "desc": "Accumulates value starting with the last character and applying operation from right to left to each character and current accumulator value."
+    },
+    {
+      "text": "fun CharSequence.removePrefix( prefix: CharSequence): CharSequence",
+      "desc": "If this char sequence starts with the given prefix, returns a new char sequence with the prefix removed. Otherwise, returns a new char sequence with the same characters."
+    },
+    {
+      "text": "fun CharSequence.removeRange( startIndex: Int, endIndex: Int): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is removed."
+    },
+    {
+      "text": "fun CharSequence.removeRange(range: IntRange): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is removed."
+    },
+    {
+      "text": "fun CharSequence.removeSuffix( suffix: CharSequence): CharSequence",
+      "desc": "If this char sequence ends with the given suffix, returns a new char sequence with the suffix removed. Otherwise, returns a new char sequence with the same characters."
+    },
+    {
+      "text": "fun CharSequence.removeSurrounding( prefix: CharSequence, suffix: CharSequence): CharSequence",
+      "desc": "When this char sequence starts with the given prefix and ends with the given suffix, returns a new char sequence having both the given prefix and suffix removed. Otherwise returns a new char sequence with the same characters."
+    },
+    {
+      "text": "fun CharSequence.removeSurrounding( delimiter: CharSequence): CharSequence",
+      "desc": "When this char sequence starts with and ends with the given delimiter, returns a new char sequence having this delimiter removed both from the start and end. Otherwise returns a new char sequence with the same characters."
+    },
+    {
+      "text": "fun CharSequence.replace( regex: Regex, replacement: String): String",
+      "desc": "Returns a new string obtained by replacing each substring of this char sequence that matches the given regular expression with the given replacement."
+    },
+    {
+      "text": "fun CharSequence.replace( regex: Regex, transform: (MatchResult) -> CharSequence): String",
+      "desc": "Returns a new string obtained by replacing each substring of this char sequence that matches the given regular expression with the result of the given function transform that takes MatchResult and returns a string to be used as a replacement for that match."
+    },
+    {
+      "text": "fun CharSequence.replaceFirst( regex: Regex, replacement: String): String",
+      "desc": "Replaces the first occurrence of the given regular expression regex in this char sequence with specified replacement expression."
+    },
+    {
+      "text": "fun CharSequence.replaceRange( startIndex: Int, endIndex: Int, replacement: CharSequence): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is replaced with the replacement char sequence."
+    },
+    {
+      "text": "fun CharSequence.replaceRange( range: IntRange, replacement: CharSequence): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence where its part at the given range is replaced with the replacement char sequence."
+    },
+    {
+      "text": "fun CharSequence.reversed(): CharSequence",
+      "desc": "Returns a char sequence with characters in reversed order."
+    },
+    {
+      "text": "fun <R> CharSequence.runningFold( initial: R, operation: (acc: R, Char) -> R): List<R>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character and current accumulator value that starts with initial value."
+    },
+    {
+      "text": "fun <R> CharSequence.runningFoldIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): List<R>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character, its index in the original char sequence and current accumulator value that starts with initial value."
+    },
+    {
+      "text": "fun CharSequence.runningReduce( operation: (acc: Char, Char) -> Char): List<Char>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character and current accumulator value that starts with the first character of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.runningReduceIndexed( operation: (index: Int, acc: Char, Char) -> Char): List<Char>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character, its index in the original char sequence and current accumulator value that starts with the first character of this char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.scan( initial: R, operation: (acc: R, Char) -> R): List<R>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character and current accumulator value that starts with initial value."
+    },
+    {
+      "text": "fun <R> CharSequence.scanIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): List<R>",
+      "desc": "Returns a list containing successive accumulation values generated by applying operation from left to right to each character, its index in the original char sequence and current accumulator value that starts with initial value."
+    },
+    {
+      "text": "fun StringBuilder.setCharAt(index: Int, value: Char)"
+    },
+    {
+      "text": "fun StringBuilder.setLength(l: Int)"
+    },
+    {
+      "text": "fun CharSequence.single(): Char",
+      "desc": "Returns the single character, or throws an exception if the char sequence is empty or has more than one character."
+    },
+    {
+      "text": "fun CharSequence.single(predicate: (Char) -> Boolean): Char",
+      "desc": "Returns the single character matching the given predicate, or throws exception if there is no or more than one matching character."
+    },
+    {
+      "text": "fun CharSequence.singleOrNull(): Char?",
+      "desc": "Returns single character, or null if the char sequence is empty or has more than one character."
+    },
+    {
+      "text": "fun CharSequence.singleOrNull( predicate: (Char) -> Boolean): Char?",
+      "desc": "Returns the single character matching the given predicate, or null if character was not found or more than one character was found."
+    },
+    {
+      "text": "fun CharSequence.slice(indices: IntRange): CharSequence",
+      "desc": "Returns a char sequence containing characters of the original char sequence at the specified range of indices."
+    },
+    {
+      "text": "fun CharSequence.slice(indices: Iterable<Int>): CharSequence",
+      "desc": "Returns a char sequence containing characters of the original char sequence at specified indices."
+    },
+    {
+      "text": "fun CharSequence.split( vararg delimiters: String, ignoreCase: Boolean = false, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence to a list of strings around occurrences of the specified delimiters."
+    },
+    {
+      "text": "fun CharSequence.split( regex: Regex, limit: Int = 0): List<String>",
+      "desc": "Splits this char sequence to a list of strings around matches of the given regular expression."
+    },
+    {
+      "text": "fun CharSequence.splitToSequence( vararg delimiters: String, ignoreCase: Boolean = false, limit: Int = 0): Sequence<String>",
+      "desc": "Splits this char sequence to a sequence of strings around occurrences of the specified delimiters."
+    },
+    {
+      "text": "fun CharSequence.splitToSequence( regex: Regex, limit: Int = 0): Sequence<String>",
+      "desc": "Splits this char sequence to a sequence of strings around matches of the given regular expression."
+    },
+    {
+      "text": "fun CharSequence.startsWith( char: Char, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence starts with the specified character."
+    },
+    {
+      "text": "fun CharSequence.startsWith( prefix: CharSequence, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence starts with the specified prefix."
+    },
+    {
+      "text": "fun CharSequence.startsWith( prefix: CharSequence, startIndex: Int, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if a substring of this char sequence starting at the specified offset startIndex starts with the specified prefix."
+    },
+    {
+      "text": "fun CharSequence.subSequence(range: IntRange): CharSequence",
+      "desc": "Returns a subsequence of this char sequence specified by the given range of indices."
+    },
+    {
+      "text": "fun CharSequence.substring( startIndex: Int, endIndex: Int = length): String",
+      "desc": "Returns a substring of chars from a range of this char sequence starting at the startIndex and ending right before the endIndex."
+    },
+    {
+      "text": "fun CharSequence.substring(range: IntRange): String",
+      "desc": "Returns a substring of chars at indices from the specified range of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.sumBy(selector: (Char) -> Int): Int",
+      "desc": "Returns the sum of all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun CharSequence.sumByDouble( selector: (Char) -> Double): Double",
+      "desc": "Returns the sum of all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun CharSequence.sumOf(selector: (Char) -> Double): Double",
+      "desc": "Returns the sum of all values produced by selector function applied to each character in the char sequence."
+    },
+    {
+      "text": "fun CharSequence.take(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing the first n characters from this char sequence, or the entire char sequence if this char sequence is shorter."
+    },
+    {
+      "text": "fun CharSequence.takeLast(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing the last n characters from this char sequence, or the entire char sequence if this char sequence is shorter."
+    },
+    {
+      "text": "fun CharSequence.takeLastWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing last characters that satisfy the given predicate."
+    },
+    {
+      "text": "fun CharSequence.takeWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing the first characters that satisfy the given predicate."
+    },
+    {
+      "text": "fun <C : MutableCollection<in Char>> CharSequence.toCollection( destination: C): C",
+      "desc": "Appends all characters to the given destination collection."
+    },
+    {
+      "text": "fun CharSequence.toHashSet(): HashSet<Char>",
+      "desc": "Returns a new HashSet of all characters."
+    },
+    {
+      "text": "fun CharSequence.toList(): List<Char>",
+      "desc": "Returns a List containing all characters."
+    },
+    {
+      "text": "fun CharSequence.toMutableList(): MutableList<Char>",
+      "desc": "Returns a new MutableList filled with all characters of this char sequence."
+    },
+    {
+      "text": "fun CharSequence.toSet(): Set<Char>",
+      "desc": "Returns a Set of all characters."
+    },
+    {
+      "text": "fun CharSequence.trim( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trim(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trim(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading and trailing whitespace removed."
+    },
+    {
+      "text": "fun CharSequence.trimEnd( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trimEnd(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trimEnd(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having trailing whitespace removed."
+    },
+    {
+      "text": "fun CharSequence.trimStart( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading characters matching the predicate removed."
+    },
+    {
+      "text": "fun CharSequence.trimStart(vararg chars: Char): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading characters from the chars array removed."
+    },
+    {
+      "text": "fun CharSequence.trimStart(): CharSequence",
+      "desc": "Returns a sub sequence of this char sequence having leading whitespace removed."
+    },
+    {
+      "text": "fun CharSequence.windowed( size: Int, step: Int = 1, partialWindows: Boolean = false): List<String>",
+      "desc": "Returns a list of snapshots of the window of the given size sliding along this char sequence with the given step, where each snapshot is a string."
+    },
+    {
+      "text": "fun <R> CharSequence.windowed( size: Int, step: Int = 1, partialWindows: Boolean = false, transform: (CharSequence) -> R): List<R>",
+      "desc": "Returns a list of results of applying the given transform function to an each char sequence representing a view over the window of the given size sliding along this char sequence with the given step."
+    },
+    {
+      "text": "fun CharSequence.windowedSequence( size: Int, step: Int = 1, partialWindows: Boolean = false): Sequence<String>",
+      "desc": "Returns a sequence of snapshots of the window of the given size sliding along this char sequence with the given step, where each snapshot is a string."
+    },
+    {
+      "text": "fun <R> CharSequence.windowedSequence( size: Int, step: Int = 1, partialWindows: Boolean = false, transform: (CharSequence) -> R): Sequence<R>",
+      "desc": "Returns a sequence of results of applying the given transform function to an each char sequence representing a view over the window of the given size sliding along this char sequence with the given step."
+    },
+    {
+      "text": "fun CharSequence.withIndex(): Iterable<IndexedValue<Char>>",
+      "desc": "Returns a lazy Iterable that wraps each character of the original char sequence into an IndexedValue containing the index of that character and the character itself."
+    },
+    {
+      "text": "infix fun CharSequence.zip( other: CharSequence): List<Pair<Char, Char>>",
+      "desc": "Returns a list of pairs built from the characters of this and the other char sequences with the same index The returned list has length of the shortest char sequence."
+    },
+    {
+      "text": "fun <V> CharSequence.zip( other: CharSequence, transform: (a: Char, b: Char) -> V): List<V>",
+      "desc": "Returns a list of values built from the characters of this and the other char sequences with the same index using the provided transform function applied to each pair of characters. The returned list has length of the shortest char sequence."
+    },
+    {
+      "text": "fun CharSequence.zipWithNext(): List<Pair<Char, Char>>",
+      "desc": "Returns a list of pairs of each two adjacent characters in this char sequence."
+    },
+    {
+      "text": "fun <R> CharSequence.zipWithNext( transform: (a: Char, b: Char) -> R): List<R>",
+      "desc": "Returns a list containing the results of applying the given transform function to an each pair of two adjacent characters in this char sequence."
+    }
+  ]
+}

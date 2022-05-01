@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "InputEvent",
+  "signature": "open class InputEvent : UIEvent",
+  "items": [
+    {
+      "text": "InputEvent( type: String, eventInitDict: InputEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript InputEvent to Kotlin"
+    },
+    {
+      "text": "open val data: String"
+    },
+    {
+      "text": "open val isComposing: Boolean"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

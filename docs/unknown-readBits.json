@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "readBits",
+  "signature": "fun readBits( ptr: NativePtr, offset: Long, size: Int, signed: Boolean): Long",
+  "items": []
+}

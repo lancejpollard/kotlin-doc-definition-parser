@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "ImageSmoothingQuality",
+  "signature": "interface ImageSmoothingQuality",
+  "items": [
+    {
+      "text": "val ImageSmoothingQuality.Companion.HIGH: ImageSmoothingQuality"
+    },
+    {
+      "text": "val ImageSmoothingQuality.Companion.LOW: ImageSmoothingQuality"
+    },
+    {
+      "text": "val ImageSmoothingQuality.Companion.MEDIUM: ImageSmoothingQuality"
+    }
+  ]
+}

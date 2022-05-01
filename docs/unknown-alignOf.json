@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "alignOf",
+  "signature": "fun <reified T : CVariable> alignOf(): Int",
+  "items": []
+}

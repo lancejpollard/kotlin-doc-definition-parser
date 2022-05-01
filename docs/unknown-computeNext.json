@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "computeNext",
+  "signature": "protected abstract fun computeNext()",
+  "items": []
+}

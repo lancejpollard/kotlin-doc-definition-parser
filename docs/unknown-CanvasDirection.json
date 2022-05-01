@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "CanvasDirection",
+  "signature": "interface CanvasDirection",
+  "items": [
+    {
+      "text": "val CanvasDirection.Companion.INHERIT: CanvasDirection"
+    },
+    {
+      "text": "val CanvasDirection.Companion.LTR: CanvasDirection"
+    },
+    {
+      "text": "val CanvasDirection.Companion.RTL: CanvasDirection"
+    }
+  ]
+}

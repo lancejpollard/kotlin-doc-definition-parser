@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "subList",
+  "signature": "abstract fun subList( fromIndex: Int, toIndex: Int): MutableList<E>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "console",
+  "signature": "val console: Console",
+  "items": []
+}

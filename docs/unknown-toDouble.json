@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toDouble",
+  "signature": "fun toDouble(): Double",
+  "items": []
+}

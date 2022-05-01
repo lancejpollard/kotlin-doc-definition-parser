@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "MutationObserver",
+  "signature": "open class MutationObserver",
+  "items": [
+    {
+      "text": "MutationObserver( callback: (Array<MutationRecord>, MutationObserver) -> Unit)",
+      "desc": "Exposes the JavaScript MutationObserver to Kotlin"
+    },
+    {
+      "text": "fun disconnect()"
+    },
+    {
+      "text": "fun observe( target: Node, options: MutationObserverInit = definedExternally)"
+    },
+    {
+      "text": "fun takeRecords(): Array<MutationRecord>"
+    }
+  ]
+}

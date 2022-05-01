@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "AssignedNodesOptions",
+  "signature": "fun AssignedNodesOptions( flatten: Boolean? = false): AssignedNodesOptions",
+  "items": []
+}

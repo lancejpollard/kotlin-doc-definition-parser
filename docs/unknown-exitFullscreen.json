@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "exitFullscreen",
+  "signature": "fun exitFullscreen(): Promise<Unit>",
+  "items": []
+}

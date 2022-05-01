@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "MustBeDocumented",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class MustBeDocumented",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "This meta-annotation determines that an annotation is a part of public API and therefore should be included in the generated documentation for the element to which the annotation is applied."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

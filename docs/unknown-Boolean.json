@@ -1,0 +1,69 @@
+{
+  "type": "unknown",
+  "name": "Boolean",
+  "signature": "class Boolean : Comparable<Boolean>",
+  "items": [
+    {
+      "text": "infix fun and(other: Boolean): Boolean",
+      "desc": "Performs a logical and operation between this Boolean and the other one. Unlike the && operator, this function does not perform short-circuit evaluation. Both this and other will always be evaluated."
+    },
+    {
+      "text": "fun compareTo(other: Boolean): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "fun equals(other: Boolean): Boolean"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "operator fun not(): Boolean",
+      "desc": "Returns the inverse of this boolean."
+    },
+    {
+      "text": "infix fun or(other: Boolean): Boolean",
+      "desc": "Performs a logical or operation between this Boolean and the other one. Unlike the || operator, this function does not perform short-circuit evaluation. Both this and other will always be evaluated."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "infix fun xor(other: Boolean): Boolean",
+      "desc": "Performs a logical xor operation between this Boolean and the other one."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtLeast(minimumValue: T): T",
+      "desc": "Ensures that this value is not less than the specified minimumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceAtMost(maximumValue: T): T",
+      "desc": "Ensures that this value is not greater than the specified maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( minimumValue: T?, maximumValue: T?): T",
+      "desc": "Ensures that this value lies in the specified range minimumValue..maximumValue."
+    },
+    {
+      "text": "fun <T : Comparable<T>> T.coerceIn( range: ClosedFloatingPointRange<T>): T",
+      "desc": "Ensures that this value lies in the specified range."
+    },
+    {
+      "text": "infix fun <T> Comparable<T>.compareTo(other: T): Int",
+      "desc": "Compares this object with the specified object for order. Returns zero if this object is equal to the specified other object, a negative number if it's less than other, or a positive number if it's greater than other."
+    },
+    {
+      "text": "operator fun <T : Comparable<T>> T.rangeTo( that: T): ClosedRange<T>",
+      "desc": "Creates a range from this Comparable value to the specified that value."
+    },
+    {
+      "text": "fun Boolean.toByte(): Byte"
+    }
+  ]
+}

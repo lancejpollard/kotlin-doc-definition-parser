@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "MediaProvider",
+  "signature": "interface MediaProvider",
+  "items": [
+    {
+      "text": "open class Blob : MediaProvider, ImageBitmapSource",
+      "desc": "Exposes the JavaScript Blob to Kotlin"
+    },
+    {
+      "text": "open class MediaSource : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaSource to Kotlin"
+    },
+    {
+      "text": "open class MediaStream : EventTarget, MediaProvider",
+      "desc": "Exposes the JavaScript MediaStream to Kotlin"
+    }
+  ]
+}

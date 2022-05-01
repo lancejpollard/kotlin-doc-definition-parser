@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toByteOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toByteOrNull(): Byte?",
+      "desc": "Parses the string as a signed Byte number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toByteOrNull(radix: Int): Byte?",
+      "desc": "Parses the string as a signed Byte number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

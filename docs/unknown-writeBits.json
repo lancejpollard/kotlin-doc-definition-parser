@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "writeBits",
+  "signature": "fun writeBits( ptr: NativePtr, offset: Long, size: Int, value: Long)",
+  "items": []
+}

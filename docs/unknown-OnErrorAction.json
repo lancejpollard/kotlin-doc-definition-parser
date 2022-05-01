@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OnErrorAction",
+  "signature": "enum class OnErrorAction",
+  "items": []
+}

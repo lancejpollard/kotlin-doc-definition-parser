@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ensureCapacity",
+  "signature": "fun ensureCapacity(minCapacity: Int)",
+  "items": []
+}

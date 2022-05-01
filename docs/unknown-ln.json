@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ln",
+  "signature": "fun ln(x: Double): Double",
+  "items": []
+}

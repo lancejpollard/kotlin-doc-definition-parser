@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "shl",
+  "signature": "infix fun BigInteger.shl(n: Int): BigInteger",
+  "items": []
+}

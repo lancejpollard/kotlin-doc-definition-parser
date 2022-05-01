@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NOTATION_NODE",
+  "signature": "val NOTATION_NODE: Short",
+  "items": []
+}

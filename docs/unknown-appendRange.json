@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "appendRange",
+  "signatures": [
+    {
+      "text": "fun <T : Appendable> T.appendRange( value: CharSequence, startIndex: Int, endIndex: Int): T",
+      "desc": "Appends a subsequence of the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "fun StringBuilder.appendRange( value: CharArray, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Appends characters in a subarray of the specified character array value to this string builder and returns this instance."
+    },
+    {
+      "text": "fun StringBuilder.appendRange( value: CharSequence, startIndex: Int, endIndex: Int): StringBuilder",
+      "desc": "Appends a subsequence of the specified character sequence value to this string builder and returns this instance."
+    }
+  ],
+  "items": []
+}

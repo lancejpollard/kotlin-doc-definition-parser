@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "ForeignFetchEvent",
+  "signature": "open class ForeignFetchEvent : ExtendableEvent",
+  "items": [
+    {
+      "text": "ForeignFetchEvent( type: String, eventInitDict: ForeignFetchEventInit)"
+    },
+    {
+      "text": "open val origin: String"
+    },
+    {
+      "text": "open val request: Request"
+    },
+    {
+      "text": "fun respondWith(r: Promise<ForeignFetchResponse>)"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

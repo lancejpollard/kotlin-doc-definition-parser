@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "indexOfFirst",
+  "signature": "inline fun CharSequence.indexOfFirst( predicate: (Char) -> Boolean): Int",
+  "items": []
+}

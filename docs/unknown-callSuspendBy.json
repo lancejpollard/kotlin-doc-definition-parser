@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "callSuspendBy",
+  "signature": "suspend fun <R> KCallable<R>.callSuspendBy( args: Map<KParameter, Any?>): R",
+  "items": []
+}

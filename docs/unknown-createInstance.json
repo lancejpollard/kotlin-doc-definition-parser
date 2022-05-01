@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createInstance",
+  "signature": "fun <T : Any> KClass<T>.createInstance(): T",
+  "items": []
+}

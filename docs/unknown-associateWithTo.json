@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "associateWithTo",
+  "signature": "inline fun <V, M : MutableMap<in Char, in V>> CharSequence.associateWithTo( destination: M, valueSelector: (Char) -> V): M",
+  "items": []
+}

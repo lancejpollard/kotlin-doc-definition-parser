@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "nextULong",
+  "signatures": [
+    {
+      "text": "fun Random.nextULong(): ULong",
+      "desc": "Gets the next random ULong from the random number generator."
+    },
+    {
+      "text": "fun Random.nextULong(until: ULong): ULong",
+      "desc": "Gets the next random ULong from the random number generator less than the specified until bound."
+    },
+    {
+      "text": "fun Random.nextULong(from: ULong, until: ULong): ULong",
+      "desc": "Gets the next random ULong from the random number generator in the specified range."
+    },
+    {
+      "text": "fun Random.nextULong(range: ULongRange): ULong",
+      "desc": "Gets the next random ULong from the random number generator in the specified range."
+    }
+  ],
+  "items": []
+}

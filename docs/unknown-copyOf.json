@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "copyOf",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.copyOf(): Array<T>",
+      "desc": "Returns new array which is a copy of the original array."
+    },
+    {
+      "text": "fun ByteArray.copyOf(newSize: Int): ByteArray",
+      "desc": "Returns new array which is a copy of the original array, resized to the given newSize. The copy is either truncated or padded at the end with zero values if necessary."
+    },
+    {
+      "text": "fun BooleanArray.copyOf(newSize: Int): BooleanArray",
+      "desc": "Returns new array which is a copy of the original array, resized to the given newSize. The copy is either truncated or padded at the end with false values if necessary."
+    },
+    {
+      "text": "fun CharArray.copyOf(newSize: Int): CharArray",
+      "desc": "Returns new array which is a copy of the original array, resized to the given newSize. The copy is either truncated or padded at the end with null char (\\u0000) values if necessary."
+    },
+    {
+      "text": "fun <T> Array<T>.copyOf(newSize: Int): Array<T?>",
+      "desc": "Returns new array which is a copy of the original array, resized to the given newSize. The copy is either truncated or padded at the end with null values if necessary."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.copyOf(): UIntArray",
+      "desc": "Returns new array which is a copy of the original array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.copyOf( newSize: Int): UIntArray",
+      "desc": "Returns new array which is a copy of the original array, resized to the given newSize. The copy is either truncated or padded at the end with zero values if necessary."
+    }
+  ],
+  "items": []
+}

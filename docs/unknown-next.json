@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "next",
+  "signature": "abstract operator fun next(): T",
+  "items": []
+}

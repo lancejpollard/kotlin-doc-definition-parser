@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "findAnnotation",
+  "signature": "fun <reified T : Annotation> KAnnotatedElement.findAnnotation(): T?",
+  "items": []
+}

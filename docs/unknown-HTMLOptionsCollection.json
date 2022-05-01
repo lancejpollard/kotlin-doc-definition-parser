@@ -1,0 +1,33 @@
+{
+  "type": "unknown",
+  "name": "HTMLOptionsCollection",
+  "signature": "abstract class HTMLOptionsCollection : HTMLCollection",
+  "items": [
+    {
+      "text": "HTMLOptionsCollection()",
+      "desc": "Exposes the JavaScript HTMLOptionsCollection to Kotlin"
+    },
+    {
+      "text": "open var length: Int"
+    },
+    {
+      "text": "open var selectedIndex: Int"
+    },
+    {
+      "text": "fun add( element: UnionHTMLOptGroupElementOrHTMLOptionElement, before: dynamic = definedExternally)"
+    },
+    {
+      "text": "fun remove(index: Int)"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun HTMLCollection.get(index: Int): Element?"
+    },
+    {
+      "text": "operator fun HTMLOptionsCollection.set( index: Int, option: HTMLOptionElement?)"
+    }
+  ]
+}

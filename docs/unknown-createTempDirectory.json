@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "createTempDirectory",
+  "signatures": [
+    {
+      "text": "fun createTempDirectory( prefix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates a new directory in the default temp directory, using the given prefix to generate its name."
+    },
+    {
+      "text": "fun createTempDirectory( directory: Path?, prefix: String? = null, vararg attributes: FileAttribute<*>): Path",
+      "desc": "Creates a new directory in the specified directory, using the given prefix to generate its name."
+    }
+  ],
+  "items": []
+}

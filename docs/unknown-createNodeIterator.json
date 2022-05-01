@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createNodeIterator",
+  "signature": "fun createNodeIterator( root: Node, whatToShow: Int = definedExternally, filter: NodeFilter? = definedExternally): NodeIterator",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MutationObserverInit",
+  "signature": "fun MutationObserverInit( childList: Boolean? = false, attributes: Boolean? = undefined, characterData: Boolean? = undefined, subtree: Boolean? = false, attributeOldValue: Boolean? = undefined, characterDataOldValue: Boolean? = undefined, attributeFilter: Array<String>? = undefined): MutationObserverInit",
+  "items": []
+}

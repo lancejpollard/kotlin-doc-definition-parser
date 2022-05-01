@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "clone",
+  "signature": "protected fun clone(): Any",
+  "items": []
+}

@@ -1,0 +1,82 @@
+{
+  "type": "package",
+  "name": "kotlin.coroutines",
+  "items": [
+    {
+      "text": "abstract class AbstractCoroutineContextElement : Element",
+      "desc": "Base class for CoroutineContext.Element implementations."
+    },
+    {
+      "text": "abstract class AbstractCoroutineContextKey<B : Element, E : B> : Key<E>",
+      "desc": "Base class for CoroutineContext.Key associated with polymorphic CoroutineContext.Element implementation. Polymorphic element implementation implies delegating its get and minusKey to getPolymorphicElement and minusPolymorphicKey respectively."
+    },
+    {
+      "text": "interface Continuation<in T>",
+      "desc": "Interface representing a continuation after a suspension point that returns a value of type T."
+    },
+    {
+      "text": "interface ContinuationInterceptor : Element",
+      "desc": "Marks coroutine context element that intercepts coroutine continuations. The coroutines framework uses ContinuationInterceptor.Key to retrieve the interceptor and intercepts all coroutine continuations with interceptContinuation invocations."
+    },
+    {
+      "text": "interface CoroutineContext",
+      "desc": "Persistent context for the coroutine. It is an indexed set of Element instances. An indexed set is a mix between a set and a map. Every element in this set has a unique Key."
+    },
+    {
+      "text": "object EmptyCoroutineContext : CoroutineContext, Serializable",
+      "desc": "An empty coroutine context."
+    },
+    {
+      "text": "interface SuspendFunction<out R>",
+      "desc": "Represents a value of a functional type, such as a lambda, an anonymous function or a function reference."
+    },
+    {
+      "text": "annotation class RestrictsSuspension",
+      "desc": "Classes and interfaces marked with this annotation are restricted when used as receivers for extension suspend functions. These suspend extensions can only invoke other member or extension suspend functions on this particular receiver and are restricted from calling arbitrary suspension functions."
+    },
+    {
+      "text": "suspend val coroutineContext: CoroutineContext",
+      "desc": "Returns the context of the current coroutine."
+    },
+    {
+      "text": "fun <T> Continuation( context: CoroutineContext, resumeWith: (Result<T>) -> Unit): Continuation<T>",
+      "desc": "Creates a Continuation instance with the given context and implementation of resumeWith method."
+    },
+    {
+      "text": "fun <T> (suspend () -> T).createCoroutine( completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates a coroutine without a receiver and with result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).createCoroutine( receiver: R, completion: Continuation<T>): Continuation<Unit>",
+      "desc": "Creates a coroutine with receiver type R and result type T. This function creates a new, fresh instance of suspendable computation every time it is invoked."
+    },
+    {
+      "text": "fun <E : Element> Element.getPolymorphicElement( key: Key<E>): E?",
+      "desc": "Returns the current element if it is associated with the given key in a polymorphic manner or null otherwise. This method returns non-null value if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    },
+    {
+      "text": "fun Element.minusPolymorphicKey( key: Key<*>): CoroutineContext",
+      "desc": "Returns empty coroutine context if the element is associated with the given key in a polymorphic manner or null otherwise. This method returns empty context if either Element.key is equal to the given key or if the key is associated with Element.key via AbstractCoroutineContextKey. See AbstractCoroutineContextKey for the example of usage."
+    },
+    {
+      "text": "fun <T> Continuation<T>.resume(value: T)",
+      "desc": "Resumes the execution of the corresponding coroutine passing value as the return value of the last suspension point."
+    },
+    {
+      "text": "fun <T> Continuation<T>.resumeWithException( exception: Throwable)",
+      "desc": "Resumes the execution of the corresponding coroutine so that the exception is re-thrown right after the last suspension point."
+    },
+    {
+      "text": "fun <T> (suspend () -> T).startCoroutine( completion: Continuation<T>)",
+      "desc": "Starts a coroutine without a receiver and with result type T. This function creates and starts a new, fresh instance of suspendable computation every time it is invoked. The completion continuation is invoked when the coroutine completes with a result or an exception."
+    },
+    {
+      "text": "fun <R, T> (suspend R.() -> T).startCoroutine( receiver: R, completion: Continuation<T>)",
+      "desc": "Starts a coroutine with receiver type R and result type T. This function creates and starts a new, fresh instance of suspendable computation every time it is invoked. The completion continuation is invoked when the coroutine completes with a result or an exception."
+    },
+    {
+      "text": "suspend fun <T> suspendCoroutine( block: (Continuation<T>) -> Unit): T",
+      "desc": "Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ObjCClassOf",
+  "signature": "interface ObjCClassOf<T : ObjCObject> : ObjCClass",
+  "items": []
+}

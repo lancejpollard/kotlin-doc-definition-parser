@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ImageBitmapRenderingContextSettings",
+  "signature": "fun ImageBitmapRenderingContextSettings( alpha: Boolean? = true): ImageBitmapRenderingContextSettings",
+  "items": []
+}

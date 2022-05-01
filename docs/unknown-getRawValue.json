@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getRawValue",
+  "signature": "fun CPointer<*>.getRawValue(): NativePtr",
+  "items": []
+}

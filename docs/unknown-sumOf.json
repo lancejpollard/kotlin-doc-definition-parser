@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sumOf",
+  "signature": "@JvmName(\"sumOfDouble\") inline fun CharSequence.sumOf( selector: (Char) -> Double): Double",
+  "items": []
+}

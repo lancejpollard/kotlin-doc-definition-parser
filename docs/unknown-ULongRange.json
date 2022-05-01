@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ULongRange",
+  "signature": "fun ULongRange( max: Int? = undefined, min: Int? = undefined): ULongRange",
+  "items": []
+}

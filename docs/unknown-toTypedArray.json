@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toTypedArray",
+  "signatures": [
+    {
+      "text": "fun ByteArray.toTypedArray(): Array<Byte>",
+      "desc": "Returns a typed object array containing all of the elements of this primitive array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.toTypedArray(): Array<UInt>",
+      "desc": "Returns a typed object array containing all of the elements of this primitive array."
+    },
+    {
+      "text": "fun <reified T> Collection<T>.toTypedArray(): Array<T>",
+      "desc": "Returns a typed array containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

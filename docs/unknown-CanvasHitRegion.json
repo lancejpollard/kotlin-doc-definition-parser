@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "CanvasHitRegion",
+  "signature": "interface CanvasHitRegion",
+  "items": [
+    {
+      "text": "abstract fun addHitRegion( options: HitRegionOptions = definedExternally)"
+    },
+    {
+      "text": "abstract fun clearHitRegions()"
+    },
+    {
+      "text": "abstract fun removeHitRegion(id: String)"
+    },
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    }
+  ]
+}

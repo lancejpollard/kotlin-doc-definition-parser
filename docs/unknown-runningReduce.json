@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "runningReduce",
+  "signature": "inline fun CharSequence.runningReduce( operation: (acc: Char, Char) -> Char): List<Char>",
+  "items": []
+}

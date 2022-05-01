@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaQueryListEventInit",
+  "signature": "fun MediaQueryListEventInit( media: String? = \"\", matches: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaQueryListEventInit",
+  "items": []
+}

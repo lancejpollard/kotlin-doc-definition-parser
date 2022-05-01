@@ -1,0 +1,46 @@
+{
+  "type": "package",
+  "name": "kotlin.contracts",
+  "items": [
+    {
+      "text": "interface CallsInPlace : Effect",
+      "desc": "An effect of calling a functional parameter in place."
+    },
+    {
+      "text": "interface ConditionalEffect : Effect",
+      "desc": "An effect of some condition being true after observing another effect of a function."
+    },
+    {
+      "text": "interface ContractBuilder",
+      "desc": "Provides a scope, where the functions of the contract DSL, such as returns, callsInPlace, etc., can be used to describe the contract of a function."
+    },
+    {
+      "text": "interface Effect",
+      "desc": "Represents an effect of a function invocation, either directly observable, such as the function returning normally, or a side-effect, such as the function's lambda parameter being called in place."
+    },
+    {
+      "text": "enum class InvocationKind",
+      "desc": "Specifies how many times a function invokes its function parameter in place."
+    },
+    {
+      "text": "interface Returns : SimpleEffect",
+      "desc": "Describes a situation when a function returns normally with a given return value."
+    },
+    {
+      "text": "interface ReturnsNotNull : SimpleEffect",
+      "desc": "Describes a situation when a function returns normally with any non-null return value."
+    },
+    {
+      "text": "interface SimpleEffect : Effect",
+      "desc": "An effect that can be observed after a function invocation."
+    },
+    {
+      "text": "annotation class ExperimentalContracts",
+      "desc": "This marker distinguishes the experimental contract declaration API and is used to opt-in for that feature when declaring contracts of user functions."
+    },
+    {
+      "text": "fun contract(builder: ContractBuilder.() -> Unit)",
+      "desc": "Specifies the contract of a function."
+    }
+  ]
+}

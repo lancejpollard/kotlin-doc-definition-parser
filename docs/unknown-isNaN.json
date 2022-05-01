@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isNaN",
+  "signature": "fun Double.isNaN(): Boolean",
+  "items": []
+}

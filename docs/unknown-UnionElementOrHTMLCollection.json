@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionElementOrHTMLCollection",
+  "signature": "interface UnionElementOrHTMLCollection",
+  "items": [
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLCollection : ItemArrayLike<Element>, UnionElementOrHTMLCollection",
+      "desc": "Exposes the JavaScript HTMLCollection to Kotlin"
+    }
+  ]
+}

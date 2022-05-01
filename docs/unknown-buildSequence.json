@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "buildSequence",
+  "signature": "inline fun <T> buildSequence( noinline builderAction: suspend SequenceScope<T>.() -> Unit): Sequence<T>",
+  "items": []
+}

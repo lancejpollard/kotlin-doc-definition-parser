@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "execCommand",
+  "signature": "fun execCommand( commandId: String, showUI: Boolean = definedExternally, value: String = definedExternally): Boolean",
+  "items": []
+}

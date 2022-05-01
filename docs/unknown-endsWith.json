@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "endsWith",
+  "signatures": [
+    {
+      "text": "fun String.endsWith( suffix: String, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this string ends with the specified suffix."
+    },
+    {
+      "text": "fun CharSequence.endsWith( char: Char, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence ends with the specified character."
+    },
+    {
+      "text": "fun CharSequence.endsWith( suffix: CharSequence, ignoreCase: Boolean = false): Boolean",
+      "desc": "Returns true if this char sequence ends with the specified suffix."
+    }
+  ],
+  "items": []
+}

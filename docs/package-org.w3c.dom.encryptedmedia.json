@@ -1,0 +1,114 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.encryptedmedia",
+  "items": [
+    {
+      "text": "open class MediaEncryptedEvent : Event"
+    },
+    {
+      "text": "interface MediaEncryptedEventInit : EventInit"
+    },
+    {
+      "text": "open class MediaKeyMessageEvent : Event",
+      "desc": "Exposes the JavaScript MediaKeyMessageEvent to Kotlin"
+    },
+    {
+      "text": "interface MediaKeyMessageEventInit : EventInit"
+    },
+    {
+      "text": "interface MediaKeyMessageType"
+    },
+    {
+      "text": "abstract class MediaKeys",
+      "desc": "Exposes the JavaScript MediaKeys to Kotlin"
+    },
+    {
+      "text": "abstract class MediaKeySession : EventTarget",
+      "desc": "Exposes the JavaScript MediaKeySession to Kotlin"
+    },
+    {
+      "text": "interface MediaKeySessionType"
+    },
+    {
+      "text": "interface MediaKeysRequirement"
+    },
+    {
+      "text": "interface MediaKeyStatus"
+    },
+    {
+      "text": "abstract class MediaKeyStatusMap",
+      "desc": "Exposes the JavaScript MediaKeyStatusMap to Kotlin"
+    },
+    {
+      "text": "abstract class MediaKeySystemAccess",
+      "desc": "Exposes the JavaScript MediaKeySystemAccess to Kotlin"
+    },
+    {
+      "text": "interface MediaKeySystemConfiguration",
+      "desc": "Exposes the JavaScript MediaKeySystemConfiguration to Kotlin"
+    },
+    {
+      "text": "interface MediaKeySystemMediaCapability"
+    },
+    {
+      "text": "fun MediaEncryptedEventInit( initDataType: String? = \"\", initData: ArrayBuffer? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaEncryptedEventInit"
+    },
+    {
+      "text": "fun MediaKeyMessageEventInit( messageType: MediaKeyMessageType?, message: ArrayBuffer?, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaKeyMessageEventInit"
+    },
+    {
+      "text": "fun MediaKeySystemConfiguration( label: String? = \"\", initDataTypes: Array<String>? = arrayOf(), audioCapabilities: Array<MediaKeySystemMediaCapability>? = arrayOf(), videoCapabilities: Array<MediaKeySystemMediaCapability>? = arrayOf(), distinctiveIdentifier: MediaKeysRequirement? = MediaKeysRequirement.OPTIONAL, persistentState: MediaKeysRequirement? = MediaKeysRequirement.OPTIONAL, sessionTypes: Array<String>? = undefined): MediaKeySystemConfiguration"
+    },
+    {
+      "text": "fun MediaKeySystemMediaCapability( contentType: String? = \"\", robustness: String? = \"\"): MediaKeySystemMediaCapability"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.EXPIRED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.INDIVIDUALIZATION_REQUEST: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.INTERNAL_ERROR: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_RELEASE: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_RENEWAL: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeyMessageType.Companion.LICENSE_REQUEST: MediaKeyMessageType"
+    },
+    {
+      "text": "val MediaKeysRequirement.Companion.NOT_ALLOWED: MediaKeysRequirement"
+    },
+    {
+      "text": "val MediaKeysRequirement.Companion.OPTIONAL: MediaKeysRequirement"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.OUTPUT_DOWNSCALED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.OUTPUT_RESTRICTED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeySessionType.Companion.PERSISTENT_LICENSE: MediaKeySessionType"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.RELEASED: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeysRequirement.Companion.REQUIRED: MediaKeysRequirement"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.STATUS_PENDING: MediaKeyStatus"
+    },
+    {
+      "text": "val MediaKeySessionType.Companion.TEMPORARY: MediaKeySessionType"
+    },
+    {
+      "text": "val MediaKeyStatus.Companion.USABLE: MediaKeyStatus"
+    }
+  ]
+}

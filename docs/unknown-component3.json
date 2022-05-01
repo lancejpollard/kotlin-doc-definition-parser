@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "component3",
+  "signatures": [
+    {
+      "text": "operator fun <T> Array<out T>.component3(): T",
+      "desc": "Returns 3rd element from the array."
+    },
+    {
+      "text": "operator fun <T> List<T>.component3(): T",
+      "desc": "Returns 3rd element from the list."
+    }
+  ],
+  "items": []
+}

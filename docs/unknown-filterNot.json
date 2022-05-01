@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "filterNot",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.filterNot( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a char sequence containing only those characters from the original char sequence that do not match the given predicate."
+    },
+    {
+      "text": "inline fun String.filterNot( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string containing only those characters from the original string that do not match the given predicate."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reader",
+  "signature": "fun String.reader(): StringReader",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "resizeBy",
+  "signature": "fun resizeBy(x: Int, y: Int)",
+  "items": []
+}

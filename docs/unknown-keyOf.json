@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "keyOf",
+  "signature": "abstract fun keyOf(element: T): K",
+  "items": []
+}

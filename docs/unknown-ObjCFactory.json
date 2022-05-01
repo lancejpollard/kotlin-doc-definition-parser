@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ObjCFactory",
+  "signature": "@Target([AnnotationTarget.FUNCTION]) annotation class ObjCFactory",
+  "items": [
+    {
+      "text": "ObjCFactory( selector: String, encoding: String, isStret: Boolean = false)"
+    },
+    {
+      "text": "val encoding: String"
+    },
+    {
+      "text": "val isStret: Boolean"
+    },
+    {
+      "text": "val selector: String"
+    }
+  ]
+}

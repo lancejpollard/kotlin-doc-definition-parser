@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "InputDeviceInfo",
+  "signature": "abstract class InputDeviceInfo : MediaDeviceInfo",
+  "items": [
+    {
+      "text": "InputDeviceInfo()"
+    },
+    {
+      "text": "fun getCapabilities(): MediaTrackCapabilities"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "extensionReceiverParameter",
+  "signature": "val KCallable<*>.extensionReceiverParameter: KParameter?",
+  "items": []
+}

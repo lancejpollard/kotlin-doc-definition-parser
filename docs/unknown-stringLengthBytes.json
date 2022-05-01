@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stringLengthBytes",
+  "signature": "fun stringLengthBytes(message: String): Int",
+  "items": []
+}

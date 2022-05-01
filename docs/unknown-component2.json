@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "component2",
+  "signatures": [
+    {
+      "text": "operator fun <T> Array<out T>.component2(): T",
+      "desc": "Returns 2nd element from the array."
+    },
+    {
+      "text": "operator fun <T> List<T>.component2(): T",
+      "desc": "Returns 2nd element from the list."
+    },
+    {
+      "text": "operator fun <K, V> Entry<K, V>.component2(): V",
+      "desc": "Returns the value component of the map entry."
+    }
+  ],
+  "items": []
+}

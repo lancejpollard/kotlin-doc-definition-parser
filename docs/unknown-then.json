@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "then",
+  "signature": "inline fun <T, S> Promise<Promise<T>>.then( noinline onFulfilled: ((T) -> S)?): Promise<S>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "success",
+  "signature": "@JvmName(\"success\") fun <T> success(value: T): Result<T>",
+  "items": []
+}

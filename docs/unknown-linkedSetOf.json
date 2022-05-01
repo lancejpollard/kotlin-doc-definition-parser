@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "linkedSetOf",
+  "signatures": [
+    {
+      "text": "fun <T> linkedSetOf(): LinkedHashSet<T>",
+      "desc": "Returns an empty new LinkedHashSet."
+    },
+    {
+      "text": "fun <T> linkedSetOf(vararg elements: T): LinkedHashSet<T>",
+      "desc": "Returns a new LinkedHashSet with the given elements. Elements of the set are iterated in the order they were specified."
+    }
+  ],
+  "items": []
+}

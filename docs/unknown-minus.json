@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minus",
+  "signature": "operator fun BigInteger.minus(other: BigInteger): BigInteger",
+  "items": []
+}

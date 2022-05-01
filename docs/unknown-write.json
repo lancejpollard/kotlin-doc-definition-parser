@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "write",
+  "signature": "fun write(vararg text: String)",
+  "items": []
+}

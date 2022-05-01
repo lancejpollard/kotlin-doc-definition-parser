@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "oncanplay",
+  "signature": "open var oncanplay: ((Event) -> dynamic)?",
+  "items": []
+}

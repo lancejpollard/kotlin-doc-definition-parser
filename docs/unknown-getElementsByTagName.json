@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getElementsByTagName",
+  "signature": "fun getElementsByTagName( qualifiedName: String): HTMLCollection",
+  "items": []
+}

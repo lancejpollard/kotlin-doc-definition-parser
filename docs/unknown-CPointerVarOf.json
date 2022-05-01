@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "CPointerVarOf",
+  "signature": "class CPointerVarOf<T : CPointer<*>> : CVariable",
+  "items": [
+    {
+      "text": "companion object Companion : Type"
+    },
+    {
+      "text": "CPointerVarOf(rawPtr: NativePtr)"
+    },
+    {
+      "text": "var <T : CPointed, P : CPointer<T>> CPointerVarOf<P>.pointed: T?",
+      "desc": "The code or data pointed by the value of this variable."
+    },
+    {
+      "text": "val <T : CPointed> T.ptr: CPointer<T>",
+      "desc": "Returns the pointer to this data or code."
+    },
+    {
+      "text": "val NativePointed?.rawPtr: NativePtr"
+    },
+    {
+      "text": "var <P : CPointer<*>> CPointerVarOf<P>.value: P?",
+      "desc": "The value of this variable."
+    },
+    {
+      "text": "fun NativePointed.getRawPointer(): NativePtr"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValue( size: Long, align: Int): CValue<T>"
+    },
+    {
+      "text": "fun <T : CVariable> CPointed.readValues( size: Int, align: Int): CValues<T>"
+    }
+  ]
+}

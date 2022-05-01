@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "freeze",
+  "signature": "fun <T> T.freeze(): T",
+  "items": []
+}

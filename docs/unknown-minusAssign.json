@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "minusAssign",
+  "signatures": [
+    {
+      "text": "operator fun <K, V> MutableMap<K, V>.minusAssign(key: K)",
+      "desc": "Removes the entry with the given key from this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<K, V>.minusAssign( keys: Iterable<K>)",
+      "desc": "Removes all entries the keys of which are contained in the given keys collection from this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<K, V>.minusAssign( keys: Array<out K>)",
+      "desc": "Removes all entries the keys of which are contained in the given keys array from this mutable map."
+    },
+    {
+      "text": "operator fun <K, V> MutableMap<K, V>.minusAssign( keys: Sequence<K>)",
+      "desc": "Removes all entries from the keys of which are contained in the given keys sequence from this mutable map."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.minusAssign( element: T)",
+      "desc": "Removes a single instance of the specified element from this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.minusAssign( elements: Iterable<T>)",
+      "desc": "Removes all elements contained in the given elements collection from this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.minusAssign( elements: Array<T>)",
+      "desc": "Removes all elements contained in the given elements array from this mutable collection."
+    },
+    {
+      "text": "operator fun <T> MutableCollection<in T>.minusAssign( elements: Sequence<T>)",
+      "desc": "Removes all elements contained in the given elements sequence from this mutable collection."
+    }
+  ],
+  "items": []
+}

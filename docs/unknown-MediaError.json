@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "MediaError",
+  "signature": "abstract class MediaError",
+  "items": [
+    {
+      "text": "MediaError()",
+      "desc": "Exposes the JavaScript MediaError to Kotlin"
+    },
+    {
+      "text": "open val code: Short"
+    },
+    {
+      "text": "val MEDIA_ERR_ABORTED: Short"
+    },
+    {
+      "text": "val MEDIA_ERR_DECODE: Short"
+    },
+    {
+      "text": "val MEDIA_ERR_NETWORK: Short"
+    },
+    {
+      "text": "val MEDIA_ERR_SRC_NOT_SUPPORTED: Short"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "firstNotNullOfOrNull",
+  "signature": "inline fun <R : Any> CharSequence.firstNotNullOfOrNull( transform: (Char) -> R?): R?",
+  "items": []
+}

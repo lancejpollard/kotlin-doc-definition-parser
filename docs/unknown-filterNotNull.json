@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "filterNotNull",
+  "signature": "fun <T : Any> Sequence<T?>.filterNotNull(): Sequence<T>",
+  "items": []
+}

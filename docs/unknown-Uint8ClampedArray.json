@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "Uint8ClampedArray",
+  "signature": "open class Uint8ClampedArray : ArrayBufferView",
+  "items": [
+    {
+      "text": "Uint8ClampedArray(length: Int)"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun set( array: Uint8ClampedArray, offset: Int = definedExternally)"
+    },
+    {
+      "text": "fun subarray(start: Int, end: Int): Uint8ClampedArray"
+    },
+    {
+      "text": "val BYTES_PER_ELEMENT: Int"
+    },
+    {
+      "text": "operator fun Uint8ClampedArray.get(index: Int): Byte"
+    },
+    {
+      "text": "operator fun Uint8ClampedArray.set(index: Int, value: Byte)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "Continuation0",
+  "signature": "class Continuation0 : () -> Unit",
+  "items": [
+    {
+      "text": "Continuation0( block: () -> Unit, invoker: CPointer<CFunction<(COpaquePointer?) -> Unit>>, singleShot: Boolean = false)"
+    },
+    {
+      "text": "fun dispose()"
+    },
+    {
+      "text": "operator fun invoke()"
+    }
+  ]
+}

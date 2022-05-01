@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getOrElse",
+  "signature": "inline fun CharSequence.getOrElse( index: Int, defaultValue: (Int) -> Char): Char",
+  "items": []
+}

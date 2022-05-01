@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "add",
+  "signatures": [
+    {
+      "text": "fun add(element: E): Boolean",
+      "desc": "Adds the specified element to the end of this list."
+    },
+    {
+      "text": "fun add(index: Int, element: E)",
+      "desc": "Inserts an element into the list at the specified index."
+    }
+  ],
+  "items": []
+}

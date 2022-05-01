@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "contract",
+  "signature": "@ExperimentalContracts inline fun contract( builder: ContractBuilder.() -> Unit)",
+  "items": []
+}

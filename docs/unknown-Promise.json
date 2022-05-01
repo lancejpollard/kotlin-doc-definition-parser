@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "Promise",
+  "signature": "open class Promise<out T>",
+  "items": [
+    {
+      "text": "Promise( executor: (resolve: (T) -> Unit, reject: (Throwable) -> Unit) -> Unit)",
+      "desc": "Exposes the JavaScript Promise object to Kotlin."
+    },
+    {
+      "text": "open fun <S> catch(onRejected: (Throwable) -> S): Promise<S>"
+    },
+    {
+      "text": "open fun <S> then(onFulfilled: ((T) -> S)?): Promise<S>"
+    },
+    {
+      "text": "fun <S> all( promise: Array<out Promise<S>>): Promise<Array<out S>>"
+    },
+    {
+      "text": "fun <S> race(promise: Array<out Promise<S>>): Promise<S>"
+    },
+    {
+      "text": "fun reject(e: Throwable): Promise<Nothing>"
+    },
+    {
+      "text": "fun <S> resolve(e: S): Promise<S>"
+    },
+    {
+      "text": "fun <T, S> Promise<Promise<T>>.then( onFulfilled: ((T) -> S)?): Promise<S>"
+    }
+  ]
+}

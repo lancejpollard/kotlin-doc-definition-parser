@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reflect",
+  "signature": "@ExperimentalReflectionOnLambdas fun <R> Function<R>.reflect(): KFunction<R>?",
+  "items": []
+}

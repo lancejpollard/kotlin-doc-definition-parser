@@ -1,0 +1,119 @@
+{
+  "type": "unknown",
+  "name": "BitSet",
+  "signature": "class BitSet",
+  "items": [
+    {
+      "text": "BitSet(length: Int, initializer: (Int) -> Boolean)",
+      "desc": "Creates a bit set of given length filling elements using initializer"
+    },
+    {
+      "text": "BitSet(size: Int = ELEMENT_SIZE)",
+      "desc": "creates an empty bit set with the specified size"
+    },
+    {
+      "text": "val isEmpty: Boolean",
+      "desc": "True if this BitSet contains no bits set to true."
+    },
+    {
+      "text": "val lastTrueIndex: Int",
+      "desc": "Returns an index of the last bit that has true value. Returns -1 if the set is empty."
+    },
+    {
+      "text": "var size: Int",
+      "desc": "Actual number of bits available in the set. All bits with indices >= size assumed to be 0"
+    },
+    {
+      "text": "fun and(another: BitSet)",
+      "desc": "Performs a logical and operation over corresponding bits of this and another BitSets. The result is saved in this BitSet."
+    },
+    {
+      "text": "fun andNot(another: BitSet)",
+      "desc": "Performs a logical and + not operations over corresponding bits of this and another BitSets. The result is saved in this BitSet."
+    },
+    {
+      "text": "fun clear(index: Int)",
+      "desc": "Clears the bit specified"
+    },
+    {
+      "text": "fun clear(from: Int, to: Int)",
+      "desc": "Clears the bits with indices between from (inclusive) and to (exclusive) to the specified value."
+    },
+    {
+      "text": "fun clear()",
+      "desc": "Sets all bits in the BitSet to false."
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun flip(index: Int)",
+      "desc": "Reverses the bit specified."
+    },
+    {
+      "text": "fun flip(from: Int, to: Int)",
+      "desc": "Reverses the bits with indices between from (inclusive) and to (exclusive)."
+    },
+    {
+      "text": "fun flip(range: IntRange)",
+      "desc": "Reverses the bits from the range specified."
+    },
+    {
+      "text": "operator fun get(index: Int): Boolean",
+      "desc": "Returns a value of a bit with the index specified."
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "fun intersects(another: BitSet): Boolean",
+      "desc": "Returns true if the specified BitSet has any bits set to true that are also set to true in this BitSet."
+    },
+    {
+      "text": "fun nextClearBit(startIndex: Int = 0): Int",
+      "desc": "Returns an index of a next bit which value is false after startIndex (inclusive). Returns size if there is no such bits between startIndex and size - 1 assuming that the set has an infinite sequence of false bits after (size - 1)-th."
+    },
+    {
+      "text": "fun nextSetBit(startIndex: Int = 0): Int",
+      "desc": "Returns an index of a next bit which value is true after startIndex (inclusive). Returns -1 if there is no such bits after startIndex."
+    },
+    {
+      "text": "fun or(another: BitSet)",
+      "desc": "Performs a logical or operation over corresponding bits of this and another BitSets. The result is saved in this BitSet."
+    },
+    {
+      "text": "fun previousBit(startIndex: Int, lookFor: Boolean): Int",
+      "desc": "Returns the biggest index of a bit which value is lookFor before startIndex (inclusive). Returns -1 if there is no such bits before startIndex. If startIndex >= size returns -1"
+    },
+    {
+      "text": "fun previousClearBit(startIndex: Int): Int",
+      "desc": "Returns the biggest index of a bit which value is false before startIndex (inclusive). Returns -1 if there is no such bits before startIndex or if startIndex == -1. If startIndex >= size will return startIndex assuming that the set has an infinite sequence of false bits after (size - 1)-th."
+    },
+    {
+      "text": "fun previousSetBit(startIndex: Int): Int",
+      "desc": "Returns the biggest index of a bit which value is true before startIndex (inclusive). Returns -1 if there is no such bits before startIndex or if startIndex == -1. If startIndex >= size will search from (size - 1)-th bit."
+    },
+    {
+      "text": "fun set(index: Int, value: Boolean = true)",
+      "desc": "Set the bit specified to the specified value."
+    },
+    {
+      "text": "fun set(from: Int, to: Int, value: Boolean = true)",
+      "desc": "Sets the bits with indices between from (inclusive) and to (exclusive) to the specified value."
+    },
+    {
+      "text": "fun set(range: IntRange, value: Boolean = true)",
+      "desc": "Sets the bits from the range specified to the specified value."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "fun xor(another: BitSet)",
+      "desc": "Performs a logical xor operation over corresponding bits of this and another BitSets. The result is saved in this BitSet."
+    }
+  ]
+}

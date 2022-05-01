@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "valueParameters",
+  "signature": "val KCallable<*>.valueParameters: List<KParameter>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "codePointCount",
+  "signature": "fun String.codePointCount( beginIndex: Int, endIndex: Int): Int",
+  "items": []
+}

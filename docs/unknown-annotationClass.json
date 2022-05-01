@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "annotationClass",
+  "signature": "val <T : Annotation> T.annotationClass: KClass<out T>",
+  "items": []
+}

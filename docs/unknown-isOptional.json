@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isOptional",
+  "signature": "abstract val isOptional: Boolean",
+  "items": []
+}

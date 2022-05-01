@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "OUTPUT_DOWNSCALED",
+  "signature": "inline val MediaKeyStatus.Companion.OUTPUT_DOWNSCALED: MediaKeyStatus",
+  "items": []
+}

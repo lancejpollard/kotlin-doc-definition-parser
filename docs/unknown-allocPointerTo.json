@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "allocPointerTo",
+  "signature": "fun <T : CPointed> NativePlacement.allocPointerTo(): CPointerVar<T>",
+  "items": []
+}

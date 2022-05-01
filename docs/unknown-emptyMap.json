@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "emptyMap",
+  "signature": "fun <K, V> emptyMap(): Map<K, V>",
+  "items": []
+}

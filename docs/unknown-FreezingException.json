@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "FreezingException",
+  "signature": "class FreezingException : RuntimeException",
+  "items": [
+    {
+      "text": "FreezingException(toFreeze: Any, blocker: Any)",
+      "desc": "Exception thrown whenever freezing is not possible."
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    }
+  ]
+}

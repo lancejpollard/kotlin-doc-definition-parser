@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setCharAt",
+  "signature": "@DeprecatedSinceKotlin(\"1.3\", \"1.6\") fun StringBuilder.setCharAt( index: Int, value: Char)",
+  "items": []
+}

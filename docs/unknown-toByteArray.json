@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toByteArray",
+  "signature": "fun String.toByteArray( charset: Charset = Charsets.UTF_8): ByteArray",
+  "items": []
+}

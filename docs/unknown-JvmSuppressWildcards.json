@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "JvmSuppressWildcards",
+  "signature": "@Target([AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY, AnnotationTarget.TYPE]) annotation class JvmSuppressWildcards",
+  "items": [
+    {
+      "text": "<init>(suppress: Boolean = true)",
+      "desc": "Instructs compiler to generate or omit wildcards for type arguments corresponding to parameters with declaration-site variance, for example such as Collection<out T> has."
+    },
+    {
+      "text": "val suppress: Boolean"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

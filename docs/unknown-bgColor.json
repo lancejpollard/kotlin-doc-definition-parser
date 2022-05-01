@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "bgColor",
+  "signature": "var bgColor: String",
+  "items": []
+}

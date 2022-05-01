@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "contentDeepEquals",
+  "signatures": [
+    {
+      "text": "infix fun <T> Array<out T>.contentDeepEquals( other: Array<out T>): Boolean",
+      "desc": "Returns true if the two specified arrays are deeply equal to one another, i.e. contain the same number of the same elements in the same order."
+    },
+    {
+      "text": "infix fun <T> Array<out T>?.contentDeepEquals( other: Array<out T>?): Boolean",
+      "desc": "Returns true if the two specified arrays are deeply equal to one another, i.e. contain the same number of the same elements in the same order."
+    }
+  ],
+  "items": []
+}

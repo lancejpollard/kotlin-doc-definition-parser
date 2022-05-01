@@ -1,0 +1,122 @@
+{
+  "type": "unknown",
+  "name": "HTMLButtonElement",
+  "signature": "abstract class HTMLButtonElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLButtonElement()",
+      "desc": "Exposes the JavaScript HTMLButtonElement to Kotlin"
+    },
+    {
+      "text": "open var autofocus: Boolean"
+    },
+    {
+      "text": "open var disabled: Boolean"
+    },
+    {
+      "text": "open val form: HTMLFormElement?"
+    },
+    {
+      "text": "open var formAction: String"
+    },
+    {
+      "text": "open var formEnctype: String"
+    },
+    {
+      "text": "open var formMethod: String"
+    },
+    {
+      "text": "open var formNoValidate: Boolean"
+    },
+    {
+      "text": "open var formTarget: String"
+    },
+    {
+      "text": "open val labels: NodeList"
+    },
+    {
+      "text": "open var menu: HTMLMenuElement?"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open var type: String"
+    },
+    {
+      "text": "open val validationMessage: String"
+    },
+    {
+      "text": "open val validity: ValidityState"
+    },
+    {
+      "text": "open var value: String"
+    },
+    {
+      "text": "open val willValidate: Boolean"
+    },
+    {
+      "text": "fun checkValidity(): Boolean"
+    },
+    {
+      "text": "fun reportValidity(): Boolean"
+    },
+    {
+      "text": "fun setCustomValidity(error: String)"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

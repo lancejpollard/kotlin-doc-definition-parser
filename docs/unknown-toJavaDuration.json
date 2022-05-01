@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toJavaDuration",
+  "signature": "fun Duration.toJavaDuration(): Duration",
+  "items": []
+}

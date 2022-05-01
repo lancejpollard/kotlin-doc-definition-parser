@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "window",
+  "signature": "open val window: Window",
+  "items": []
+}

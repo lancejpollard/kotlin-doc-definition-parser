@@ -1,0 +1,20 @@
+{
+  "type": "unknown",
+  "name": "MediaKeySystemAccess",
+  "signature": "abstract class MediaKeySystemAccess",
+  "items": [
+    {
+      "text": "MediaKeySystemAccess()",
+      "desc": "Exposes the JavaScript MediaKeySystemAccess to Kotlin"
+    },
+    {
+      "text": "open val keySystem: String"
+    },
+    {
+      "text": "fun createMediaKeys(): Promise<MediaKeys>"
+    },
+    {
+      "text": "fun getConfiguration(): MediaKeySystemConfiguration"
+    }
+  ]
+}

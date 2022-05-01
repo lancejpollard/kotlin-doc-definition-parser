@@ -1,0 +1,59 @@
+{
+  "type": "unknown",
+  "name": "MediaStreamTrack",
+  "signature": "abstract class MediaStreamTrack : EventTarget",
+  "items": [
+    {
+      "text": "MediaStreamTrack()",
+      "desc": "Exposes the JavaScript MediaStreamTrack to Kotlin"
+    },
+    {
+      "text": "open var enabled: Boolean"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "open val kind: String"
+    },
+    {
+      "text": "open val label: String"
+    },
+    {
+      "text": "open val muted: Boolean"
+    },
+    {
+      "text": "open var onended: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onmute: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onoverconstrained: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onunmute: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val readyState: MediaStreamTrackState"
+    },
+    {
+      "text": "fun applyConstraints( constraints: MediaTrackConstraints = definedExternally): Promise<Unit>"
+    },
+    {
+      "text": "fun clone(): MediaStreamTrack"
+    },
+    {
+      "text": "fun getCapabilities(): MediaTrackCapabilities"
+    },
+    {
+      "text": "fun getConstraints(): MediaTrackConstraints"
+    },
+    {
+      "text": "fun getSettings(): MediaTrackSettings"
+    },
+    {
+      "text": "fun stop()"
+    }
+  ]
+}

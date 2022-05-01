@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "reversed",
+  "signatures": [
+    {
+      "text": "fun CharSequence.reversed(): CharSequence",
+      "desc": "Returns a char sequence with characters in reversed order."
+    },
+    {
+      "text": "fun String.reversed(): String",
+      "desc": "Returns a string with characters in reversed order."
+    }
+  ],
+  "items": []
+}

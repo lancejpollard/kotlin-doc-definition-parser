@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "anchors",
+  "signature": "open val anchors: HTMLCollection",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "addClass",
+  "signature": "fun Element.addClass(vararg cssClasses: String): Boolean",
+  "items": []
+}

@@ -1,0 +1,41 @@
+{
+  "type": "unknown",
+  "name": "CSSNamespaceRule",
+  "signature": "abstract class CSSNamespaceRule : CSSRule",
+  "items": [
+    {
+      "text": "CSSNamespaceRule()",
+      "desc": "Exposes the JavaScript CSSNamespaceRule to Kotlin"
+    },
+    {
+      "text": "open val namespaceURI: String"
+    },
+    {
+      "text": "open val prefix: String"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    }
+  ]
+}

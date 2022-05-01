@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hasClass",
+  "signature": "fun Element.hasClass(cssClass: String): Boolean",
+  "items": []
+}

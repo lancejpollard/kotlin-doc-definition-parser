@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Pointer",
+  "signature": "typealias Pointer = Int",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UnionMessagePortOrWindow",
+  "signature": "typealias UnionMessagePortOrWindow = UnionMessagePortOrWindowProxy",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "fullscreenElement",
+  "signature": "open val fullscreenElement: Element?",
+  "items": []
+}

@@ -1,0 +1,48 @@
+{
+  "type": "unknown",
+  "name": "Exception",
+  "signature": "open class Exception : Throwable",
+  "items": [
+    {
+      "text": "<init>()"
+    },
+    {
+      "text": "fun getStackTrace(): Array<String>",
+      "desc": "Returns an array of stack trace strings representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun printStackTrace()",
+      "desc": "Prints the detailed description of this throwable to the standard output."
+    },
+    {
+      "text": "open fun toString(): String",
+      "desc": "Returns the short description of this throwable consisting of the exception class name (fully qualified if possible) followed by the exception message if it is not null."
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "open class CharacterCodingException : Exception",
+      "desc": "The exception thrown when a character encoding or decoding error occurs."
+    },
+    {
+      "text": "class ForeignException : Exception"
+    },
+    {
+      "text": "class IllegalCallableAccessException : Exception",
+      "desc": "An exception that is thrown when call is invoked on a callable or get or set is invoked on a property and that callable is not accessible (in JVM terms) from the calling method."
+    },
+    {
+      "text": "class IllegalPropertyDelegateAccessException : Exception",
+      "desc": "An exception that is thrown when getDelegate is invoked on a KProperty object that was not made accessible with isAccessible."
+    },
+    {
+      "text": "class NoSuchPropertyException : Exception",
+      "desc": "An exception that is thrown when the code tries to introspect a property of a class or a package and that class or the package no longer has that property."
+    },
+    {
+      "text": "open class RuntimeException : Exception"
+    }
+  ]
+}

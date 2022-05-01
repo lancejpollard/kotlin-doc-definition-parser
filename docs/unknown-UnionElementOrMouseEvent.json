@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionElementOrMouseEvent",
+  "signature": "interface UnionElementOrMouseEvent",
+  "items": [
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "open class MouseEvent : UIEvent, UnionElementOrMouseEvent",
+      "desc": "Exposes the JavaScript MouseEvent to Kotlin"
+    }
+  ]
+}

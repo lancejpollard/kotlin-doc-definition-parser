@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedAngle",
+  "signature": "abstract class SVGAnimatedAngle",
+  "items": [
+    {
+      "text": "SVGAnimatedAngle()",
+      "desc": "Exposes the JavaScript SVGAnimatedAngle to Kotlin"
+    },
+    {
+      "text": "open val animVal: SVGAngle"
+    },
+    {
+      "text": "open val baseVal: SVGAngle"
+    }
+  ]
+}

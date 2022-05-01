@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interpretObjCPointerOrNull",
+  "signature": "fun <T> interpretObjCPointerOrNull(objcPtr: NativePtr): T?",
+  "items": []
+}

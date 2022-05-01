@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "byteInputStream",
+  "signature": "fun String.byteInputStream( charset: Charset = Charsets.UTF_8): ByteArrayInputStream",
+  "items": []
+}

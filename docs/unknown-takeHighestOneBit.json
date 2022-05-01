@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "takeHighestOneBit",
+  "signatures": [
+    {
+      "text": "fun Int.takeHighestOneBit(): Int",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this Int number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Long.takeHighestOneBit(): Long",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this Long number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Byte.takeHighestOneBit(): Byte",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this Byte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun Short.takeHighestOneBit(): Short",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this Short number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UInt.takeHighestOneBit(): UInt",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this UInt number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun ULong.takeHighestOneBit(): ULong",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this ULong number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UByte.takeHighestOneBit(): UByte",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this UByte number, or zero, if this number is zero."
+    },
+    {
+      "text": "fun UShort.takeHighestOneBit(): UShort",
+      "desc": "Returns a number having a single bit set in the position of the most significant set bit of this UShort number, or zero, if this number is zero."
+    }
+  ],
+  "items": []
+}

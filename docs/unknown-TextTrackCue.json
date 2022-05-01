@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "TextTrackCue",
+  "signature": "abstract class TextTrackCue : EventTarget",
+  "items": [
+    {
+      "text": "TextTrackCue()",
+      "desc": "Exposes the JavaScript TextTrackCue to Kotlin"
+    },
+    {
+      "text": "open var endTime: Double"
+    },
+    {
+      "text": "open var id: String"
+    },
+    {
+      "text": "open var onenter: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onexit: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var pauseOnExit: Boolean"
+    },
+    {
+      "text": "open var startTime: Double"
+    },
+    {
+      "text": "open val track: TextTrack?"
+    }
+  ]
+}

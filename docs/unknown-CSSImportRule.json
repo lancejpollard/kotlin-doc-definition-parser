@@ -1,0 +1,43 @@
+{
+  "type": "unknown",
+  "name": "CSSImportRule",
+  "signature": "abstract class CSSImportRule : CSSRule",
+  "items": [
+    {
+      "text": "CSSImportRule()"
+    },
+    {
+      "text": "open val href: String"
+    },
+    {
+      "text": "open val media: MediaList"
+    },
+    {
+      "text": "open val styleSheet: CSSStyleSheet"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    }
+  ]
+}

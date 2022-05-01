@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "lazy",
+  "signatures": [
+    {
+      "text": "fun <T> lazy(initializer: () -> T): Lazy<T>",
+      "desc": "Creates a new instance of the Lazy that uses the specified initialization function initializer and the default thread-safety mode LazyThreadSafetyMode.SYNCHRONIZED."
+    },
+    {
+      "text": "fun <T> lazy( mode: LazyThreadSafetyMode, initializer: () -> T): Lazy<T>",
+      "desc": "Creates a new instance of the Lazy that uses the specified initialization function initializer."
+    },
+    {
+      "text": "fun <T> lazy(lock: Any?, initializer: () -> T): Lazy<T>",
+      "desc": "Creates a new instance of the Lazy that uses the specified initialization function initializer."
+    }
+  ],
+  "items": []
+}

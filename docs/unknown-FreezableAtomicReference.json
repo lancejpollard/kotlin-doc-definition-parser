@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "FreezableAtomicReference",
+  "signature": "class FreezableAtomicReference<T>",
+  "items": [
+    {
+      "text": "FreezableAtomicReference(value_: T)",
+      "desc": "An atomic reference to a Kotlin object. Can be used in concurrent scenarious, but must be frozen first, otherwise behaves as regular box for the value. If frozen, shall be zeroed out once no longer needed. Otherwise memory leak could happen. To detect such leaks kotlin.native.internal.GC.detectCycles in debug mode could be helpful."
+    },
+    {
+      "text": "var value: T",
+      "desc": "The referenced value. Gets the value or sets the new value. If new value is not null, and this is frozen - it must be frozen or permanent object."
+    },
+    {
+      "text": "fun compareAndSet(expected: T, new: T): Boolean",
+      "desc": "Compares value with expected and replaces it with new value if values matches. Note that comparison is identity-based, not value-based."
+    },
+    {
+      "text": "fun compareAndSwap(expected: T, new: T): T",
+      "desc": "Compares value with expected and replaces it with new value if values matches. If new value is not null and object is frozen, it must be frozen or permanent object."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this object."
+    }
+  ]
+}

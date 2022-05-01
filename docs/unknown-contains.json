@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "contains",
+  "signature": "fun contains(element: @UnsafeVariance E): Boolean",
+  "items": []
+}

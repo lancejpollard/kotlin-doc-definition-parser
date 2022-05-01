@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "activeElement",
+  "signature": "open val activeElement: Element?",
+  "items": []
+}

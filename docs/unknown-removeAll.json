@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeAll",
+  "signature": "fun removeAll(elements: Collection<E>): Boolean",
+  "items": []
+}

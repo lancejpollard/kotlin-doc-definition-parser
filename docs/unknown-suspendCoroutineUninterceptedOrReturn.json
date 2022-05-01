@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "suspendCoroutineUninterceptedOrReturn",
+  "signature": "suspend inline fun <T> suspendCoroutineUninterceptedOrReturn( crossinline block: (Continuation<T>) -> Any?): T",
+  "items": []
+}

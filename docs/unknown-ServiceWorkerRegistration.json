@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerRegistration",
+  "signature": "abstract class ServiceWorkerRegistration : EventTarget",
+  "items": [
+    {
+      "text": "ServiceWorkerRegistration()",
+      "desc": "Exposes the JavaScript ServiceWorkerRegistration to Kotlin"
+    },
+    {
+      "text": "open val active: ServiceWorker?"
+    },
+    {
+      "text": "open val APISpace: dynamic"
+    },
+    {
+      "text": "open val installing: ServiceWorker?"
+    },
+    {
+      "text": "open var onupdatefound: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val scope: String"
+    },
+    {
+      "text": "open val waiting: ServiceWorker?"
+    },
+    {
+      "text": "fun getNotifications( filter: GetNotificationOptions = definedExternally): Promise<Array<Notification>>"
+    },
+    {
+      "text": "fun methodName(): Promise<dynamic>"
+    },
+    {
+      "text": "fun showNotification( title: String, options: NotificationOptions = definedExternally): Promise<Unit>"
+    },
+    {
+      "text": "fun unregister(): Promise<Boolean>"
+    },
+    {
+      "text": "fun update(): Promise<Unit>"
+    }
+  ]
+}

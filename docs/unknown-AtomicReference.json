@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "AtomicReference",
+  "signature": "class AtomicReference<T>",
+  "items": [
+    {
+      "text": "AtomicReference(value: T)",
+      "desc": "Creates a new atomic reference pointing to given ref."
+    },
+    {
+      "text": "var value: T",
+      "desc": "The referenced value. Gets the value or sets the new value. If new value is not null, it must be frozen or permanent object."
+    },
+    {
+      "text": "fun compareAndSet(expected: T, new: T): Boolean",
+      "desc": "Compares value with expected and replaces it with new value if values matches. Note that comparison is identity-based, not value-based."
+    },
+    {
+      "text": "fun compareAndSwap(expected: T, new: T): T",
+      "desc": "Compares value with expected and replaces it with new value if values matches. Note that comparison is identity-based, not value-based. If new value is not null, it must be frozen or permanent object."
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns the string representation of this object."
+    }
+  ]
+}

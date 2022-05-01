@@ -1,0 +1,1372 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom",
+  "items": [
+    {
+      "text": "interface AbstractWorker",
+      "desc": "Exposes the JavaScript AbstractWorker to Kotlin"
+    },
+    {
+      "text": "interface AddEventListenerOptions : EventListenerOptions"
+    },
+    {
+      "text": "abstract class ApplicationCache : EventTarget"
+    },
+    {
+      "text": "interface AssignedNodesOptions"
+    },
+    {
+      "text": "abstract class Attr : Node",
+      "desc": "Exposes the JavaScript Attr to Kotlin"
+    },
+    {
+      "text": "open class Audio : HTMLAudioElement"
+    },
+    {
+      "text": "abstract class AudioTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript AudioTrack to Kotlin"
+    },
+    {
+      "text": "abstract class AudioTrackList : EventTarget",
+      "desc": "Exposes the JavaScript AudioTrackList to Kotlin"
+    },
+    {
+      "text": "abstract class BarProp"
+    },
+    {
+      "text": "open class BeforeUnloadEvent : Event",
+      "desc": "Exposes the JavaScript BeforeUnloadEvent to Kotlin"
+    },
+    {
+      "text": "interface BinaryType"
+    },
+    {
+      "text": "interface BoxQuadOptions"
+    },
+    {
+      "text": "open class BroadcastChannel : EventTarget",
+      "desc": "Exposes the JavaScript BroadcastChannel to Kotlin"
+    },
+    {
+      "text": "interface CanPlayTypeResult"
+    },
+    {
+      "text": "interface CanvasCompositing"
+    },
+    {
+      "text": "interface CanvasDirection"
+    },
+    {
+      "text": "interface CanvasDrawImage"
+    },
+    {
+      "text": "interface CanvasDrawPath"
+    },
+    {
+      "text": "interface CanvasFillRule"
+    },
+    {
+      "text": "interface CanvasFillStrokeStyles"
+    },
+    {
+      "text": "interface CanvasFilters"
+    },
+    {
+      "text": "abstract class CanvasGradient",
+      "desc": "Exposes the JavaScript CanvasGradient to Kotlin"
+    },
+    {
+      "text": "interface CanvasHitRegion"
+    },
+    {
+      "text": "interface CanvasImageData"
+    },
+    {
+      "text": "interface CanvasImageSmoothing"
+    },
+    {
+      "text": "interface CanvasImageSource : ImageBitmapSource"
+    },
+    {
+      "text": "interface CanvasLineCap"
+    },
+    {
+      "text": "interface CanvasLineJoin"
+    },
+    {
+      "text": "interface CanvasPath"
+    },
+    {
+      "text": "interface CanvasPathDrawingStyles"
+    },
+    {
+      "text": "abstract class CanvasPattern",
+      "desc": "Exposes the JavaScript CanvasPattern to Kotlin"
+    },
+    {
+      "text": "interface CanvasRect"
+    },
+    {
+      "text": "abstract class CanvasRenderingContext2D : CanvasState, CanvasTransform, CanvasCompositing, CanvasImageSmoothing, CanvasFillStrokeStyles, CanvasShadowStyles, CanvasFilters, CanvasRect, CanvasDrawPath, CanvasUserInterface, CanvasText, CanvasDrawImage, CanvasHitRegion, CanvasImageData, CanvasPathDrawingStyles, CanvasTextDrawingStyles, CanvasPath, RenderingContext",
+      "desc": "Exposes the JavaScript CanvasRenderingContext2D to Kotlin"
+    },
+    {
+      "text": "interface CanvasRenderingContext2DSettings"
+    },
+    {
+      "text": "interface CanvasShadowStyles"
+    },
+    {
+      "text": "interface CanvasState"
+    },
+    {
+      "text": "interface CanvasText"
+    },
+    {
+      "text": "interface CanvasTextAlign"
+    },
+    {
+      "text": "interface CanvasTextBaseline"
+    },
+    {
+      "text": "interface CanvasTextDrawingStyles"
+    },
+    {
+      "text": "interface CanvasTransform"
+    },
+    {
+      "text": "interface CanvasUserInterface"
+    },
+    {
+      "text": "abstract class CaretPosition",
+      "desc": "Exposes the JavaScript CaretPosition to Kotlin"
+    },
+    {
+      "text": "open class CDATASection : Text",
+      "desc": "Exposes the JavaScript CDATASection to Kotlin"
+    },
+    {
+      "text": "abstract class CharacterData : Node, NonDocumentTypeChildNode, ChildNode",
+      "desc": "Exposes the JavaScript CharacterData to Kotlin"
+    },
+    {
+      "text": "interface ChildNode",
+      "desc": "Exposes the JavaScript ChildNode to Kotlin"
+    },
+    {
+      "text": "open class CloseEvent : Event",
+      "desc": "Exposes the JavaScript CloseEvent to Kotlin"
+    },
+    {
+      "text": "interface CloseEventInit : EventInit"
+    },
+    {
+      "text": "interface ColorSpaceConversion"
+    },
+    {
+      "text": "open class Comment : CharacterData",
+      "desc": "Exposes the JavaScript Comment to Kotlin"
+    },
+    {
+      "text": "interface ConvertCoordinateOptions"
+    },
+    {
+      "text": "interface CSSBoxType"
+    },
+    {
+      "text": "abstract class CustomElementRegistry",
+      "desc": "Exposes the JavaScript CustomElementRegistry to Kotlin"
+    },
+    {
+      "text": "open class CustomEvent : Event",
+      "desc": "Exposes the JavaScript CustomEvent to Kotlin"
+    },
+    {
+      "text": "interface CustomEventInit : EventInit"
+    },
+    {
+      "text": "abstract class DataTransfer",
+      "desc": "Exposes the JavaScript DataTransfer to Kotlin"
+    },
+    {
+      "text": "abstract class DataTransferItem",
+      "desc": "Exposes the JavaScript DataTransferItem to Kotlin"
+    },
+    {
+      "text": "abstract class DataTransferItemList",
+      "desc": "Exposes the JavaScript DataTransferItemList to Kotlin"
+    },
+    {
+      "text": "abstract class DedicatedWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript DedicatedWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "interface DocumentAndElementEventHandlers"
+    },
+    {
+      "text": "open class DocumentFragment : Node, NonElementParentNode, ParentNode",
+      "desc": "Exposes the JavaScript DocumentFragment to Kotlin"
+    },
+    {
+      "text": "interface DocumentOrShadowRoot",
+      "desc": "Exposes the JavaScript DocumentOrShadowRoot to Kotlin"
+    },
+    {
+      "text": "interface DocumentReadyState"
+    },
+    {
+      "text": "abstract class DocumentType : Node, ChildNode",
+      "desc": "Exposes the JavaScript DocumentType to Kotlin"
+    },
+    {
+      "text": "abstract class DOMImplementation",
+      "desc": "Exposes the JavaScript DOMImplementation to Kotlin"
+    },
+    {
+      "text": "open class DOMMatrix : DOMMatrixReadOnly",
+      "desc": "Exposes the JavaScript DOMMatrix to Kotlin"
+    },
+    {
+      "text": "open class DOMMatrixReadOnly",
+      "desc": "Exposes the JavaScript DOMMatrixReadOnly to Kotlin"
+    },
+    {
+      "text": "open class DOMPoint : DOMPointReadOnly",
+      "desc": "Exposes the JavaScript DOMPoint to Kotlin"
+    },
+    {
+      "text": "interface DOMPointInit",
+      "desc": "Exposes the JavaScript DOMPointInit to Kotlin"
+    },
+    {
+      "text": "open class DOMPointReadOnly",
+      "desc": "Exposes the JavaScript DOMPointReadOnly to Kotlin"
+    },
+    {
+      "text": "open class DOMQuad",
+      "desc": "Exposes the JavaScript DOMQuad to Kotlin"
+    },
+    {
+      "text": "open class DOMRect : DOMRectReadOnly",
+      "desc": "Exposes the JavaScript DOMRect to Kotlin"
+    },
+    {
+      "text": "interface DOMRectInit"
+    },
+    {
+      "text": "interface DOMRectList : ItemArrayLike<DOMRect>"
+    },
+    {
+      "text": "open class DOMRectReadOnly",
+      "desc": "Exposes the JavaScript DOMRectReadOnly to Kotlin"
+    },
+    {
+      "text": "abstract class DOMStringMap",
+      "desc": "Exposes the JavaScript DOMStringMap to Kotlin"
+    },
+    {
+      "text": "abstract class DOMTokenList : ItemArrayLike<String>",
+      "desc": "Exposes the JavaScript DOMTokenList to Kotlin"
+    },
+    {
+      "text": "open class DragEvent : MouseEvent",
+      "desc": "Exposes the JavaScript DragEvent to Kotlin"
+    },
+    {
+      "text": "interface DragEventInit : MouseEventInit"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    },
+    {
+      "text": "interface ElementContentEditable"
+    },
+    {
+      "text": "interface ElementCreationOptions"
+    },
+    {
+      "text": "interface ElementDefinitionOptions"
+    },
+    {
+      "text": "open class ErrorEvent : Event",
+      "desc": "Exposes the JavaScript ErrorEvent to Kotlin"
+    },
+    {
+      "text": "interface ErrorEventInit : EventInit"
+    },
+    {
+      "text": "interface EventInit"
+    },
+    {
+      "text": "interface EventListenerOptions"
+    },
+    {
+      "text": "open class EventSource : EventTarget",
+      "desc": "Exposes the JavaScript EventSource to Kotlin"
+    },
+    {
+      "text": "interface EventSourceInit"
+    },
+    {
+      "text": "interface External"
+    },
+    {
+      "text": "interface GeometryUtils",
+      "desc": "Exposes the JavaScript GeometryUtils to Kotlin"
+    },
+    {
+      "text": "interface GetRootNodeOptions"
+    },
+    {
+      "text": "interface GlobalEventHandlers",
+      "desc": "Exposes the JavaScript GlobalEventHandlers to Kotlin"
+    },
+    {
+      "text": "open class HashChangeEvent : Event",
+      "desc": "Exposes the JavaScript HashChangeEvent to Kotlin"
+    },
+    {
+      "text": "interface HashChangeEventInit : EventInit"
+    },
+    {
+      "text": "abstract class History",
+      "desc": "Exposes the JavaScript History to Kotlin"
+    },
+    {
+      "text": "interface HitRegionOptions"
+    },
+    {
+      "text": "abstract class HTMLAllCollection"
+    },
+    {
+      "text": "abstract class HTMLAnchorElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAnchorElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLAppletElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLAreaElement : HTMLElement, HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLAreaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLAudioElement : HTMLMediaElement",
+      "desc": "Exposes the JavaScript HTMLAudioElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBaseElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLBaseElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBodyElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLBodyElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLBRElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLBRElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLButtonElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLButtonElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLCanvasElement : HTMLElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLCanvasElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLCollection : ItemArrayLike<Element>, UnionElementOrHTMLCollection",
+      "desc": "Exposes the JavaScript HTMLCollection to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDataElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDataElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDataListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDataListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDetailsElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDetailsElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDialogElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDialogElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDirectoryElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLDivElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDivElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLDListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLDListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLEmbedElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLEmbedElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFieldSetElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFieldSetElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFontElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFontElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFormControlsCollection : HTMLCollection",
+      "desc": "Exposes the JavaScript HTMLFormControlsCollection to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFormElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLFormElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLFrameElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLFrameSetElement : HTMLElement, WindowEventHandlers",
+      "desc": "Exposes the JavaScript HTMLFrameSetElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHeadElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHeadElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHeadingElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHeadingElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHRElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHRElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLHtmlElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLHtmlElement to Kotlin"
+    },
+    {
+      "text": "interface HTMLHyperlinkElementUtils",
+      "desc": "Exposes the JavaScript HTMLHyperlinkElementUtils to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLIFrameElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLIFrameElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLImageElement : HTMLElement, HTMLOrSVGImageElement, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLImageElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLInputElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLInputElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLKeygenElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLKeygenElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLabelElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLabelElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLegendElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLegendElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLIElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLLIElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLLinkElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLLinkElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMapElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMapElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMarqueeElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMarqueeElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMediaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMediaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMenuElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLMenuItemElement : HTMLElement"
+    },
+    {
+      "text": "abstract class HTMLMetaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMetaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLMeterElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLMeterElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLModElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLModElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLObjectElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLObjectElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLOListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptGroupElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptGroupElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptionElement : HTMLElement, UnionHTMLOptGroupElementOrHTMLOptionElement",
+      "desc": "Exposes the JavaScript HTMLOptionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptionsCollection : HTMLCollection",
+      "desc": "Exposes the JavaScript HTMLOptionsCollection to Kotlin"
+    },
+    {
+      "text": "interface HTMLOrSVGImageElement : CanvasImageSource"
+    },
+    {
+      "text": "interface HTMLOrSVGScriptElement"
+    },
+    {
+      "text": "abstract class HTMLOutputElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLOutputElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLParagraphElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLParagraphElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLParamElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLParamElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLPictureElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLPictureElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLPreElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLPreElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLProgressElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLProgressElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLQuoteElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLQuoteElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLScriptElement : HTMLElement, HTMLOrSVGScriptElement",
+      "desc": "Exposes the JavaScript HTMLScriptElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSelectElement : HTMLElement, ItemArrayLike<Element>",
+      "desc": "Exposes the JavaScript HTMLSelectElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSlotElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSlotElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSourceElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSourceElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLSpanElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLSpanElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLStyleElement : HTMLElement, LinkStyle",
+      "desc": "Exposes the JavaScript HTMLStyleElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableCaptionElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableCaptionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableCellElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableCellElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableColElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableColElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableRowElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableRowElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTableSectionElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTableSectionElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTemplateElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTemplateElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTextAreaElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTextAreaElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTimeElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTimeElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTitleElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTitleElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLTrackElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLTrackElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLUListElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLUListElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLUnknownElement : HTMLElement",
+      "desc": "Exposes the JavaScript HTMLUnknownElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLVideoElement : HTMLMediaElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLVideoElement to Kotlin"
+    },
+    {
+      "text": "open class Image : HTMLImageElement",
+      "desc": "Exposes the JavaScript Image to Kotlin"
+    },
+    {
+      "text": "abstract class ImageBitmap : CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript ImageBitmap to Kotlin"
+    },
+    {
+      "text": "interface ImageBitmapOptions"
+    },
+    {
+      "text": "abstract class ImageBitmapRenderingContext",
+      "desc": "Exposes the JavaScript ImageBitmapRenderingContext to Kotlin"
+    },
+    {
+      "text": "interface ImageBitmapRenderingContextSettings"
+    },
+    {
+      "text": "interface ImageBitmapSource"
+    },
+    {
+      "text": "open class ImageData : ImageBitmapSource, TexImageSource",
+      "desc": "Exposes the JavaScript ImageData to Kotlin"
+    },
+    {
+      "text": "interface ImageOrientation"
+    },
+    {
+      "text": "interface ImageSmoothingQuality"
+    },
+    {
+      "text": "interface ItemArrayLike<out T>"
+    },
+    {
+      "text": "abstract class Location",
+      "desc": "Exposes the JavaScript Location to Kotlin"
+    },
+    {
+      "text": "abstract class MediaError",
+      "desc": "Exposes the JavaScript MediaError to Kotlin"
+    },
+    {
+      "text": "interface MediaProvider"
+    },
+    {
+      "text": "abstract class MediaQueryList : EventTarget",
+      "desc": "Exposes the JavaScript MediaQueryList to Kotlin"
+    },
+    {
+      "text": "open class MediaQueryListEvent : Event",
+      "desc": "Exposes the JavaScript MediaQueryListEvent to Kotlin"
+    },
+    {
+      "text": "interface MediaQueryListEventInit : EventInit"
+    },
+    {
+      "text": "open class MessageChannel",
+      "desc": "Exposes the JavaScript MessageChannel to Kotlin"
+    },
+    {
+      "text": "open class MessageEvent : Event",
+      "desc": "Exposes the JavaScript MessageEvent to Kotlin"
+    },
+    {
+      "text": "interface MessageEventInit : EventInit"
+    },
+    {
+      "text": "abstract class MessagePort : EventTarget, UnionMessagePortOrWindowProxy, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript MessagePort to Kotlin"
+    },
+    {
+      "text": "abstract class MimeType",
+      "desc": "Exposes the JavaScript MimeType to Kotlin"
+    },
+    {
+      "text": "abstract class MimeTypeArray : ItemArrayLike<MimeType>",
+      "desc": "Exposes the JavaScript MimeTypeArray to Kotlin"
+    },
+    {
+      "text": "open class MutationObserver",
+      "desc": "Exposes the JavaScript MutationObserver to Kotlin"
+    },
+    {
+      "text": "interface MutationObserverInit",
+      "desc": "Exposes the JavaScript MutationObserverInit to Kotlin"
+    },
+    {
+      "text": "abstract class MutationRecord",
+      "desc": "Exposes the JavaScript MutationRecord to Kotlin"
+    },
+    {
+      "text": "abstract class NamedNodeMap : ItemArrayLike<Attr>",
+      "desc": "Exposes the JavaScript NamedNodeMap to Kotlin"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    },
+    {
+      "text": "interface NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript NavigatorConcurrentHardware to Kotlin"
+    },
+    {
+      "text": "interface NavigatorContentUtils"
+    },
+    {
+      "text": "interface NavigatorCookies"
+    },
+    {
+      "text": "interface NavigatorID",
+      "desc": "Exposes the JavaScript NavigatorID to Kotlin"
+    },
+    {
+      "text": "interface NavigatorLanguage",
+      "desc": "Exposes the JavaScript NavigatorLanguage to Kotlin"
+    },
+    {
+      "text": "interface NavigatorOnLine",
+      "desc": "Exposes the JavaScript NavigatorOnLine to Kotlin"
+    },
+    {
+      "text": "interface NavigatorPlugins",
+      "desc": "Exposes the JavaScript NavigatorPlugins to Kotlin"
+    },
+    {
+      "text": "abstract class Node : EventTarget",
+      "desc": "Exposes the JavaScript Node to Kotlin"
+    },
+    {
+      "text": "interface NodeFilter",
+      "desc": "Exposes the JavaScript NodeFilter to Kotlin"
+    },
+    {
+      "text": "abstract class NodeIterator",
+      "desc": "Exposes the JavaScript NodeIterator to Kotlin"
+    },
+    {
+      "text": "abstract class NodeList : ItemArrayLike<Node>",
+      "desc": "Exposes the JavaScript NodeList to Kotlin"
+    },
+    {
+      "text": "interface NonDocumentTypeChildNode",
+      "desc": "Exposes the JavaScript NonDocumentTypeChildNode to Kotlin"
+    },
+    {
+      "text": "interface NonElementParentNode"
+    },
+    {
+      "text": "open class Option : HTMLOptionElement",
+      "desc": "Exposes the JavaScript Option to Kotlin"
+    },
+    {
+      "text": "open class PageTransitionEvent : Event",
+      "desc": "Exposes the JavaScript PageTransitionEvent to Kotlin"
+    },
+    {
+      "text": "interface PageTransitionEventInit : EventInit"
+    },
+    {
+      "text": "interface ParentNode",
+      "desc": "Exposes the JavaScript ParentNode to Kotlin"
+    },
+    {
+      "text": "open class Path2D : CanvasPath",
+      "desc": "Exposes the JavaScript Path2D to Kotlin"
+    },
+    {
+      "text": "abstract class Plugin : ItemArrayLike<MimeType>",
+      "desc": "Exposes the JavaScript Plugin to Kotlin"
+    },
+    {
+      "text": "abstract class PluginArray : ItemArrayLike<Plugin>",
+      "desc": "Exposes the JavaScript PluginArray to Kotlin"
+    },
+    {
+      "text": "open class PopStateEvent : Event",
+      "desc": "Exposes the JavaScript PopStateEvent to Kotlin"
+    },
+    {
+      "text": "interface PopStateEventInit : EventInit"
+    },
+    {
+      "text": "interface PremultiplyAlpha"
+    },
+    {
+      "text": "abstract class ProcessingInstruction : CharacterData, LinkStyle, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript ProcessingInstruction to Kotlin"
+    },
+    {
+      "text": "open class PromiseRejectionEvent : Event",
+      "desc": "Exposes the JavaScript PromiseRejectionEvent to Kotlin"
+    },
+    {
+      "text": "interface PromiseRejectionEventInit : EventInit"
+    },
+    {
+      "text": "abstract class RadioNodeList : NodeList, UnionElementOrRadioNodeList",
+      "desc": "Exposes the JavaScript RadioNodeList to Kotlin"
+    },
+    {
+      "text": "open class Range",
+      "desc": "Exposes the JavaScript Range to Kotlin"
+    },
+    {
+      "text": "open class RelatedEvent : Event"
+    },
+    {
+      "text": "interface RelatedEventInit : EventInit"
+    },
+    {
+      "text": "interface RenderingContext"
+    },
+    {
+      "text": "interface ResizeQuality"
+    },
+    {
+      "text": "abstract class Screen",
+      "desc": "Exposes the JavaScript Screen to Kotlin"
+    },
+    {
+      "text": "interface ScrollBehavior"
+    },
+    {
+      "text": "interface ScrollIntoViewOptions : ScrollOptions"
+    },
+    {
+      "text": "interface ScrollLogicalPosition"
+    },
+    {
+      "text": "interface ScrollOptions"
+    },
+    {
+      "text": "interface ScrollRestoration"
+    },
+    {
+      "text": "interface ScrollToOptions : ScrollOptions",
+      "desc": "Exposes the JavaScript ScrollToOptions to Kotlin"
+    },
+    {
+      "text": "interface SelectionMode"
+    },
+    {
+      "text": "open class ShadowRoot : DocumentFragment, DocumentOrShadowRoot",
+      "desc": "Exposes the JavaScript ShadowRoot to Kotlin"
+    },
+    {
+      "text": "interface ShadowRootInit"
+    },
+    {
+      "text": "interface ShadowRootMode"
+    },
+    {
+      "text": "open class SharedWorker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript SharedWorker to Kotlin"
+    },
+    {
+      "text": "abstract class SharedWorkerGlobalScope : WorkerGlobalScope",
+      "desc": "Exposes the JavaScript SharedWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "interface Slotable",
+      "desc": "Exposes the JavaScript Slotable to Kotlin"
+    },
+    {
+      "text": "abstract class Storage",
+      "desc": "Exposes the JavaScript Storage to Kotlin"
+    },
+    {
+      "text": "open class StorageEvent : Event",
+      "desc": "Exposes the JavaScript StorageEvent to Kotlin"
+    },
+    {
+      "text": "interface StorageEventInit : EventInit"
+    },
+    {
+      "text": "open class Text : CharacterData, Slotable, GeometryUtils",
+      "desc": "Exposes the JavaScript Text to Kotlin"
+    },
+    {
+      "text": "abstract class TextMetrics",
+      "desc": "Exposes the JavaScript TextMetrics to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrack : EventTarget, UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript TextTrack to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrackCue : EventTarget",
+      "desc": "Exposes the JavaScript TextTrackCue to Kotlin"
+    },
+    {
+      "text": "abstract class TextTrackCueList"
+    },
+    {
+      "text": "interface TextTrackKind"
+    },
+    {
+      "text": "abstract class TextTrackList : EventTarget"
+    },
+    {
+      "text": "interface TextTrackMode"
+    },
+    {
+      "text": "abstract class TimeRanges",
+      "desc": "Exposes the JavaScript TimeRanges to Kotlin"
+    },
+    {
+      "text": "abstract class Touch",
+      "desc": "Exposes the JavaScript Touch to Kotlin"
+    },
+    {
+      "text": "open class TouchEvent : UIEvent"
+    },
+    {
+      "text": "abstract class TouchList : ItemArrayLike<Touch>"
+    },
+    {
+      "text": "open class TrackEvent : Event",
+      "desc": "Exposes the JavaScript TrackEvent to Kotlin"
+    },
+    {
+      "text": "interface TrackEventInit : EventInit"
+    },
+    {
+      "text": "abstract class TreeWalker",
+      "desc": "Exposes the JavaScript TreeWalker to Kotlin"
+    },
+    {
+      "text": "interface UnionAudioTrackOrTextTrackOrVideoTrack"
+    },
+    {
+      "text": "interface UnionElementOrHTMLCollection"
+    },
+    {
+      "text": "interface UnionElementOrMouseEvent"
+    },
+    {
+      "text": "interface UnionElementOrRadioNodeList"
+    },
+    {
+      "text": "interface UnionHTMLOptGroupElementOrHTMLOptionElement"
+    },
+    {
+      "text": "typealias UnionMessagePortOrWindow = UnionMessagePortOrWindowProxy"
+    },
+    {
+      "text": "interface UnionMessagePortOrWindowProxy"
+    },
+    {
+      "text": "abstract class ValidityState",
+      "desc": "Exposes the JavaScript ValidityState to Kotlin"
+    },
+    {
+      "text": "abstract class VideoTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+      "desc": "Exposes the JavaScript VideoTrack to Kotlin"
+    },
+    {
+      "text": "abstract class VideoTrackList : EventTarget",
+      "desc": "Exposes the JavaScript VideoTrackList to Kotlin"
+    },
+    {
+      "text": "open class WebSocket : EventTarget",
+      "desc": "Exposes the JavaScript WebSocket to Kotlin"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    },
+    {
+      "text": "interface WindowEventHandlers",
+      "desc": "Exposes the JavaScript WindowEventHandlers to Kotlin"
+    },
+    {
+      "text": "interface WindowLocalStorage",
+      "desc": "Exposes the JavaScript WindowLocalStorage to Kotlin"
+    },
+    {
+      "text": "interface WindowOrWorkerGlobalScope",
+      "desc": "Exposes the JavaScript WindowOrWorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "interface WindowSessionStorage",
+      "desc": "Exposes the JavaScript WindowSessionStorage to Kotlin"
+    },
+    {
+      "text": "open class Worker : EventTarget, AbstractWorker",
+      "desc": "Exposes the JavaScript Worker to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerGlobalScope : EventTarget, WindowOrWorkerGlobalScope, GlobalPerformance",
+      "desc": "Exposes the JavaScript WorkerGlobalScope to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerLocation",
+      "desc": "Exposes the JavaScript WorkerLocation to Kotlin"
+    },
+    {
+      "text": "abstract class WorkerNavigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript WorkerNavigator to Kotlin"
+    },
+    {
+      "text": "interface WorkerOptions"
+    },
+    {
+      "text": "interface WorkerType"
+    },
+    {
+      "text": "open class XMLDocument : Document",
+      "desc": "Exposes the JavaScript XMLDocument to Kotlin"
+    },
+    {
+      "text": "var HTMLLinkElement.as_: RequestDestination"
+    },
+    {
+      "text": "var ElementCreationOptions.is_: String?"
+    },
+    {
+      "text": "fun AddEventListenerOptions( passive: Boolean? = false, once: Boolean? = false, capture: Boolean? = false): AddEventListenerOptions"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "fun AssignedNodesOptions( flatten: Boolean? = false): AssignedNodesOptions"
+    },
+    {
+      "text": "fun BoxQuadOptions( box: CSSBoxType? = CSSBoxType.BORDER, relativeTo: dynamic = undefined): BoxQuadOptions"
+    },
+    {
+      "text": "fun CanvasRenderingContext2DSettings( alpha: Boolean? = true): CanvasRenderingContext2DSettings"
+    },
+    {
+      "text": "fun CloseEventInit( wasClean: Boolean? = false, code: Short? = 0, reason: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CloseEventInit"
+    },
+    {
+      "text": "fun ConvertCoordinateOptions( fromBox: CSSBoxType? = CSSBoxType.BORDER, toBox: CSSBoxType? = CSSBoxType.BORDER): ConvertCoordinateOptions"
+    },
+    {
+      "text": "fun CustomEventInit( detail: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CustomEventInit"
+    },
+    {
+      "text": "fun DOMPointInit( x: Double? = 0.0, y: Double? = 0.0, z: Double? = 0.0, w: Double? = 1.0): DOMPointInit"
+    },
+    {
+      "text": "fun DOMRectInit( x: Double? = 0.0, y: Double? = 0.0, width: Double? = 0.0, height: Double? = 0.0): DOMRectInit"
+    },
+    {
+      "text": "fun DragEventInit( dataTransfer: DataTransfer? = null, screenX: Int? = 0, screenY: Int? = 0, clientX: Int? = 0, clientY: Int? = 0, button: Short? = 0, buttons: Short? = 0, relatedTarget: EventTarget? = null, region: String? = null, ctrlKey: Boolean? = false, shiftKey: Boolean? = false, altKey: Boolean? = false, metaKey: Boolean? = false, modifierAltGraph: Boolean? = false, modifierCapsLock: Boolean? = false, modifierFn: Boolean? = false, modifierFnLock: Boolean? = false, modifierHyper: Boolean? = false, modifierNumLock: Boolean? = false, modifierScrollLock: Boolean? = false, modifierSuper: Boolean? = false, modifierSymbol: Boolean? = false, modifierSymbolLock: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): DragEventInit"
+    },
+    {
+      "text": "fun ElementCreationOptions( is: String? = undefined): ElementCreationOptions"
+    },
+    {
+      "text": "fun ElementDefinitionOptions( extends: String? = undefined): ElementDefinitionOptions"
+    },
+    {
+      "text": "fun ErrorEventInit( message: String? = \"\", filename: String? = \"\", lineno: Int? = 0, colno: Int? = 0, error: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ErrorEventInit"
+    },
+    {
+      "text": "fun EventInit( bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): EventInit"
+    },
+    {
+      "text": "fun EventListenerOptions( capture: Boolean? = false): EventListenerOptions"
+    },
+    {
+      "text": "fun EventSourceInit( withCredentials: Boolean? = false): EventSourceInit"
+    },
+    {
+      "text": "operator fun HTMLAllCollection.get(index: Int): Element?"
+    },
+    {
+      "text": "fun GetRootNodeOptions( composed: Boolean? = false): GetRootNodeOptions"
+    },
+    {
+      "text": "fun HashChangeEventInit( oldURL: String? = \"\", newURL: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): HashChangeEventInit"
+    },
+    {
+      "text": "fun HitRegionOptions( path: Path2D? = null, fillRule: CanvasFillRule? = CanvasFillRule.NONZERO, id: String? = \"\", parentID: String? = null, cursor: String? = \"inherit\", control: Element? = null, label: String? = null, role: String? = null): HitRegionOptions"
+    },
+    {
+      "text": "fun ImageBitmapOptions( imageOrientation: ImageOrientation? = ImageOrientation.NONE, premultiplyAlpha: PremultiplyAlpha? = PremultiplyAlpha.DEFAULT, colorSpaceConversion: ColorSpaceConversion? = ColorSpaceConversion.DEFAULT, resizeWidth: Int? = undefined, resizeHeight: Int? = undefined, resizeQuality: ResizeQuality? = ResizeQuality.LOW): ImageBitmapOptions"
+    },
+    {
+      "text": "fun ImageBitmapRenderingContextSettings( alpha: Boolean? = true): ImageBitmapRenderingContextSettings"
+    },
+    {
+      "text": "fun MediaQueryListEventInit( media: String? = \"\", matches: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaQueryListEventInit"
+    },
+    {
+      "text": "fun MessageEventInit( data: Any? = null, origin: String? = \"\", lastEventId: String? = \"\", source: UnionMessagePortOrWindowProxy? = null, ports: Array<MessagePort>? = arrayOf(), bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MessageEventInit"
+    },
+    {
+      "text": "fun MutationObserverInit( childList: Boolean? = false, attributes: Boolean? = undefined, characterData: Boolean? = undefined, subtree: Boolean? = false, attributeOldValue: Boolean? = undefined, characterDataOldValue: Boolean? = undefined, attributeFilter: Array<String>? = undefined): MutationObserverInit"
+    },
+    {
+      "text": "fun PageTransitionEventInit( persisted: Boolean? = false, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PageTransitionEventInit"
+    },
+    {
+      "text": "fun PopStateEventInit( state: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PopStateEventInit"
+    },
+    {
+      "text": "fun PromiseRejectionEventInit( promise: Promise<Any?>?, reason: Any? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PromiseRejectionEventInit"
+    },
+    {
+      "text": "fun RelatedEventInit( relatedTarget: EventTarget? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): RelatedEventInit"
+    },
+    {
+      "text": "fun ScrollIntoViewOptions( block: ScrollLogicalPosition? = ScrollLogicalPosition.CENTER, inline: ScrollLogicalPosition? = ScrollLogicalPosition.CENTER, behavior: ScrollBehavior? = ScrollBehavior.AUTO): ScrollIntoViewOptions"
+    },
+    {
+      "text": "fun ScrollOptions( behavior: ScrollBehavior? = ScrollBehavior.AUTO): ScrollOptions"
+    },
+    {
+      "text": "fun ScrollToOptions( left: Double? = undefined, top: Double? = undefined, behavior: ScrollBehavior? = ScrollBehavior.AUTO): ScrollToOptions"
+    },
+    {
+      "text": "operator fun HTMLOptionsCollection.set( index: Int, option: HTMLOptionElement?)"
+    },
+    {
+      "text": "fun ShadowRootInit(mode: ShadowRootMode?): ShadowRootInit"
+    },
+    {
+      "text": "fun StorageEventInit( key: String? = null, oldValue: String? = null, newValue: String? = null, url: String? = \"\", storageArea: Storage? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): StorageEventInit"
+    },
+    {
+      "text": "fun TrackEventInit( track: UnionAudioTrackOrTextTrackOrVideoTrack? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): TrackEventInit"
+    },
+    {
+      "text": "fun WorkerOptions( type: WorkerType? = WorkerType.CLASSIC, credentials: RequestCredentials? = RequestCredentials.OMIT): WorkerOptions"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.ALPHABETIC: CanvasTextBaseline"
+    },
+    {
+      "text": "val BinaryType.Companion.ARRAYBUFFER: BinaryType"
+    },
+    {
+      "text": "val ScrollRestoration.Companion.AUTO: ScrollRestoration"
+    },
+    {
+      "text": "val CanvasLineJoin.Companion.BEVEL: CanvasLineJoin"
+    },
+    {
+      "text": "val BinaryType.Companion.BLOB: BinaryType"
+    },
+    {
+      "text": "val CSSBoxType.Companion.BORDER: CSSBoxType"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.BOTTOM: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasLineCap.Companion.BUTT: CanvasLineCap"
+    },
+    {
+      "text": "val TextTrackKind.Companion.CAPTIONS: TextTrackKind"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.CENTER: CanvasTextAlign"
+    },
+    {
+      "text": "val TextTrackKind.Companion.CHAPTERS: TextTrackKind"
+    },
+    {
+      "text": "val WorkerType.Companion.CLASSIC: WorkerType"
+    },
+    {
+      "text": "val ShadowRootMode.Companion.CLOSED: ShadowRootMode"
+    },
+    {
+      "text": "val DocumentReadyState.Companion.COMPLETE: DocumentReadyState"
+    },
+    {
+      "text": "val CSSBoxType.Companion.CONTENT: CSSBoxType"
+    },
+    {
+      "text": "val PremultiplyAlpha.Companion.DEFAULT: PremultiplyAlpha"
+    },
+    {
+      "text": "val TextTrackKind.Companion.DESCRIPTIONS: TextTrackKind"
+    },
+    {
+      "text": "val TextTrackMode.Companion.DISABLED: TextTrackMode"
+    },
+    {
+      "text": "val CanPlayTypeResult.Companion.EMPTY: CanPlayTypeResult"
+    },
+    {
+      "text": "val SelectionMode.Companion.END: SelectionMode"
+    },
+    {
+      "text": "val CanvasFillRule.Companion.EVENODD: CanvasFillRule"
+    },
+    {
+      "text": "val ImageOrientation.Companion.FLIPY: ImageOrientation"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.HANGING: CanvasTextBaseline"
+    },
+    {
+      "text": "val TextTrackMode.Companion.HIDDEN: TextTrackMode"
+    },
+    {
+      "text": "val ImageSmoothingQuality.Companion.HIGH: ImageSmoothingQuality"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.IDEOGRAPHIC: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasDirection.Companion.INHERIT: CanvasDirection"
+    },
+    {
+      "text": "val ScrollBehavior.Companion.INSTANT: ScrollBehavior"
+    },
+    {
+      "text": "val DocumentReadyState.Companion.INTERACTIVE: DocumentReadyState"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.LEFT: CanvasTextAlign"
+    },
+    {
+      "text": "val DocumentReadyState.Companion.LOADING: DocumentReadyState"
+    },
+    {
+      "text": "val ImageSmoothingQuality.Companion.LOW: ImageSmoothingQuality"
+    },
+    {
+      "text": "val CanvasDirection.Companion.LTR: CanvasDirection"
+    },
+    {
+      "text": "val ScrollRestoration.Companion.MANUAL: ScrollRestoration"
+    },
+    {
+      "text": "val CSSBoxType.Companion.MARGIN: CSSBoxType"
+    },
+    {
+      "text": "val CanPlayTypeResult.Companion.MAYBE: CanPlayTypeResult"
+    },
+    {
+      "text": "val ImageSmoothingQuality.Companion.MEDIUM: ImageSmoothingQuality"
+    },
+    {
+      "text": "val TextTrackKind.Companion.METADATA: TextTrackKind"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.MIDDLE: CanvasTextBaseline"
+    },
+    {
+      "text": "val CanvasLineJoin.Companion.MITER: CanvasLineJoin"
+    },
+    {
+      "text": "val WorkerType.Companion.MODULE: WorkerType"
+    },
+    {
+      "text": "val ScrollLogicalPosition.Companion.NEAREST: ScrollLogicalPosition"
+    },
+    {
+      "text": "val ImageOrientation.Companion.NONE: ImageOrientation"
+    },
+    {
+      "text": "val CanvasFillRule.Companion.NONZERO: CanvasFillRule"
+    },
+    {
+      "text": "val ShadowRootMode.Companion.OPEN: ShadowRootMode"
+    },
+    {
+      "text": "val CSSBoxType.Companion.PADDING: CSSBoxType"
+    },
+    {
+      "text": "val ResizeQuality.Companion.PIXELATED: ResizeQuality"
+    },
+    {
+      "text": "val PremultiplyAlpha.Companion.PREMULTIPLY: PremultiplyAlpha"
+    },
+    {
+      "text": "val SelectionMode.Companion.PRESERVE: SelectionMode"
+    },
+    {
+      "text": "val CanPlayTypeResult.Companion.PROBABLY: CanPlayTypeResult"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.RIGHT: CanvasTextAlign"
+    },
+    {
+      "text": "val CanvasLineCap.Companion.ROUND: CanvasLineCap"
+    },
+    {
+      "text": "val CanvasDirection.Companion.RTL: CanvasDirection"
+    },
+    {
+      "text": "val SelectionMode.Companion.SELECT: SelectionMode"
+    },
+    {
+      "text": "val TextTrackMode.Companion.SHOWING: TextTrackMode"
+    },
+    {
+      "text": "val ScrollBehavior.Companion.SMOOTH: ScrollBehavior"
+    },
+    {
+      "text": "val CanvasLineCap.Companion.SQUARE: CanvasLineCap"
+    },
+    {
+      "text": "val SelectionMode.Companion.START: SelectionMode"
+    },
+    {
+      "text": "val TextTrackKind.Companion.SUBTITLES: TextTrackKind"
+    },
+    {
+      "text": "val CanvasTextBaseline.Companion.TOP: CanvasTextBaseline"
+    }
+  ]
+}

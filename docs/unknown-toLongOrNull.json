@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toLongOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toLongOrNull(): Long?",
+      "desc": "Parses the string as a Long number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toLongOrNull(radix: Int): Long?",
+      "desc": "Parses the string as a Long number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

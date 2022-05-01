@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "ManagedType",
+  "signature": "abstract class ManagedType<T : CStructVar>",
+  "items": [
+    {
+      "text": "ManagedType(cpp: T)"
+    },
+    {
+      "text": "val cpp: T"
+    },
+    {
+      "text": "val <T : CStructVar> ManagedType<T>.ptr: CPointer<T>"
+    }
+  ]
+}

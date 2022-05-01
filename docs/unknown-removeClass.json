@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeClass",
+  "signature": "fun Element.removeClass(vararg cssClasses: String): Boolean",
+  "items": []
+}

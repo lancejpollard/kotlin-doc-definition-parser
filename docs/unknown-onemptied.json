@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onemptied",
+  "signature": "open var onemptied: ((Event) -> dynamic)?",
+  "items": []
+}

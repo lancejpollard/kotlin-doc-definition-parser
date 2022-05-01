@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "declaredFunctions",
+  "signature": "val KClass<*>.declaredFunctions: Collection<KFunction<*>>",
+  "items": []
+}

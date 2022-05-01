@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "PromiseRejectionEventInit",
+  "signature": "fun PromiseRejectionEventInit( promise: Promise<Any?>?, reason: Any? = undefined, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): PromiseRejectionEventInit",
+  "items": []
+}

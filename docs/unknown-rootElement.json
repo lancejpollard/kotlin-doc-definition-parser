@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "rootElement",
+  "signature": "open val rootElement: SVGSVGElement?",
+  "items": []
+}

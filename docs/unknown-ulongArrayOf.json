@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ulongArrayOf",
+  "signature": "@ExperimentalUnsignedTypes fun ulongArrayOf( vararg elements: ULong): ULongArray",
+  "items": []
+}

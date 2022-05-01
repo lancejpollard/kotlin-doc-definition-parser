@@ -1,0 +1,10 @@
+{
+  "type": "package",
+  "name": "kotlin.native.ref",
+  "items": [
+    {
+      "text": "class WeakReference<T : Any>",
+      "desc": "Class WeakReference encapsulates weak reference to an object, which could be used to either retrieve a strong reference to an object, or return null, if object was already destroyed by the memory manager."
+    }
+  ]
+}

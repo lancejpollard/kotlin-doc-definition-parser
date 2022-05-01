@@ -1,0 +1,47 @@
+{
+  "type": "unknown",
+  "name": "TextMetrics",
+  "signature": "abstract class TextMetrics",
+  "items": [
+    {
+      "text": "TextMetrics()",
+      "desc": "Exposes the JavaScript TextMetrics to Kotlin"
+    },
+    {
+      "text": "open val actualBoundingBoxAscent: Double"
+    },
+    {
+      "text": "open val actualBoundingBoxDescent: Double"
+    },
+    {
+      "text": "open val actualBoundingBoxLeft: Double"
+    },
+    {
+      "text": "open val actualBoundingBoxRight: Double"
+    },
+    {
+      "text": "open val alphabeticBaseline: Double"
+    },
+    {
+      "text": "open val emHeightAscent: Double"
+    },
+    {
+      "text": "open val emHeightDescent: Double"
+    },
+    {
+      "text": "open val fontBoundingBoxAscent: Double"
+    },
+    {
+      "text": "open val fontBoundingBoxDescent: Double"
+    },
+    {
+      "text": "open val hangingBaseline: Double"
+    },
+    {
+      "text": "open val ideographicBaseline: Double"
+    },
+    {
+      "text": "open val width: Double"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "replaceFirstChar",
+  "signature": "@JvmName(\"replaceFirstCharWithChar\") inline fun String.replaceFirstChar( transform: (Char) -> Char): String",
+  "items": []
+}

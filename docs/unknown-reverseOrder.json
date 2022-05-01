@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reverseOrder",
+  "signature": "fun <T : Comparable<T>> reverseOrder(): Comparator<T>",
+  "items": []
+}

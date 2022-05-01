@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BOTTOM",
+  "signature": "inline val CanvasTextBaseline.Companion.BOTTOM: CanvasTextBaseline",
+  "items": []
+}

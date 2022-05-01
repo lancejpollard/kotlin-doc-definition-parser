@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "minBy",
+  "signature": "@DeprecatedSinceKotlin(\"1.4\", \"1.5\", \"1.6\") inline fun <R : Comparable<R>> CharSequence.minBy( selector: (Char) -> R): Char?",
+  "items": []
+}

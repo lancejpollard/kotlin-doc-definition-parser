@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "measureTimedValue",
+  "signatures": [
+    {
+      "text": "@ExperimentalTime inline fun <T> measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given function block and returns an instance of TimedValue class, containing both the result of the function execution and the duration of elapsed time interval."
+    },
+    {
+      "text": "@ExperimentalTime inline fun <T> TimeSource.measureTimedValue( block: () -> T): TimedValue<T>",
+      "desc": "Executes the given block and returns an instance of TimedValue class, containing both the result of function execution and the duration of elapsed time interval."
+    }
+  ],
+  "items": []
+}

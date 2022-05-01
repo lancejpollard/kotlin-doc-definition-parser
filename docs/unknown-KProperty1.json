@@ -1,0 +1,102 @@
+{
+  "type": "unknown",
+  "name": "KProperty1",
+  "signature": "interface KProperty1<T, out V> : KProperty<V>, (T) -> V",
+  "items": [
+    {
+      "text": "interface Getter<T, out V> : KProperty.Getter<V>, (T) -> V",
+      "desc": "Getter of the property is a get method declared alongside the property."
+    },
+    {
+      "text": "abstract val getter: KProperty1.Getter<T, V>",
+      "desc": "The getter of this property, used to obtain the value of the property."
+    },
+    {
+      "text": "abstract val getter: KProperty.Getter<V>",
+      "desc": "The getter of this property, used to obtain the value of the property."
+    },
+    {
+      "text": "abstract val isConst: Boolean",
+      "desc": "true if this property is const. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "abstract val isLateinit: Boolean",
+      "desc": "true if this property is lateinit. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "abstract fun get(receiver: T): V",
+      "desc": "Returns the current value of the property."
+    },
+    {
+      "text": "abstract fun getDelegate(receiver: T): Any?",
+      "desc": "Returns the value of the delegate if this is a delegated property, or null if this property is not delegated. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "abstract operator fun invoke(p1: T): V"
+    },
+    {
+      "text": "val KCallable<*>.extensionReceiverParameter: KParameter?",
+      "desc": "Returns a parameter representing the extension receiver instance needed to call this callable, or null if this callable is not an extension."
+    },
+    {
+      "text": "val KCallable<*>.instanceParameter: KParameter?",
+      "desc": "Returns a parameter representing the this instance needed to call this callable, or null if this callable is not a member of a class and thus doesn't take such parameter."
+    },
+    {
+      "text": "var KCallable<*>.isAccessible: Boolean",
+      "desc": "Provides a way to suppress JVM access checks for a callable."
+    },
+    {
+      "text": "val KProperty<*>.javaField: Field?",
+      "desc": "Returns a Java Field instance corresponding to the backing field of the given property, or null if the property has no backing field."
+    },
+    {
+      "text": "val KProperty<*>.javaGetter: Method?",
+      "desc": "Returns a Java Method instance corresponding to the getter of the given property, or null if the property has no getter, for example in case of a simple private val in a class."
+    },
+    {
+      "text": "val KCallable<*>.valueParameters: List<KParameter>",
+      "desc": "Returns parameters of this callable, excluding the this instance and the extension receiver parameter."
+    },
+    {
+      "text": "suspend fun <R> KCallable<R>.callSuspend( vararg args: Any?): R",
+      "desc": "Calls a callable in the current suspend context. If the callable is not a suspend function, behaves as KCallable.call. Otherwise, calls the suspend function with current continuation."
+    },
+    {
+      "text": "suspend fun <R> KCallable<R>.callSuspendBy( args: Map<KParameter, Any?>): R",
+      "desc": "Calls a callable in the current suspend context. If the callable is not a suspend function, behaves as KCallable.callBy. Otherwise, calls the suspend function with current continuation."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotation(): T?",
+      "desc": "Returns an annotation of the given type on this element."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.findAnnotations(): List<T>",
+      "desc": "Returns all annotations of the given type on this element, including individually applied annotations as well as repeated annotations."
+    },
+    {
+      "text": "fun KCallable<*>.findParameterByName( name: String): KParameter?",
+      "desc": "Returns the parameter of this callable with the given name, or null if there's no such parameter."
+    },
+    {
+      "text": "fun KProperty1<*, *>.getExtensionDelegate(): Any?",
+      "desc": "Returns the instance of a delegated extension property, or null if this property is not delegated. Throws an exception if this is not an extension property."
+    },
+    {
+      "text": "operator fun <T, V> KProperty1<T, V>.getValue( thisRef: T, property: KProperty<*>): V",
+      "desc": "An extension operator that allows delegating a read-only member or extension property of type V to a property reference to a member or extension property of type V or its subtype."
+    },
+    {
+      "text": "fun <T : Annotation> KAnnotatedElement.hasAnnotation(): Boolean",
+      "desc": "Returns true if this element is annotated with an annotation of type T."
+    },
+    {
+      "text": "fun <R> Function<R>.reflect(): KFunction<R>?",
+      "desc": "This is an experimental API. Given a class for a compiled Kotlin lambda or a function expression, returns a KFunction instance providing introspection capabilities for that lambda or function expression and its parameters. Not all features are currently supported, in particular KCallable.call and KCallable.callBy will fail at the moment."
+    },
+    {
+      "text": "interface KMutableProperty1<T, V> : KProperty1<T, V>, KMutableProperty<V>",
+      "desc": "Represents a var-property, operations on which take one receiver as a parameter."
+    }
+  ]
+}

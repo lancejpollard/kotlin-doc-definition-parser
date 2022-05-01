@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ifEmpty",
+  "signature": "inline fun <C, R> C.ifEmpty( defaultValue: () -> R): R where C : CharSequence, C : R",
+  "items": []
+}

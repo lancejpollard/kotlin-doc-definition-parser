@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "cos",
+  "signature": "fun cos(x: Double): Double",
+  "items": []
+}

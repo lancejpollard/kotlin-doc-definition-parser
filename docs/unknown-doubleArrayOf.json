@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "doubleArrayOf",
+  "signature": "fun doubleArrayOf(vararg elements: Double): DoubleArray",
+  "items": []
+}

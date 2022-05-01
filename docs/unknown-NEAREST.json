@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NEAREST",
+  "signature": "inline val ScrollLogicalPosition.Companion.NEAREST: ScrollLogicalPosition",
+  "items": []
+}

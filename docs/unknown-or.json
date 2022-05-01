@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "or",
+  "signature": "infix fun BigInteger.or(other: BigInteger): BigInteger",
+  "items": []
+}

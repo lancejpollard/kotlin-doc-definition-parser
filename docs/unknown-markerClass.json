@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "markerClass",
+  "signature": "vararg val markerClass: Array<out KClass<out Annotation>>",
+  "items": []
+}

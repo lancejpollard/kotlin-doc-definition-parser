@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "BarProp",
+  "signature": "abstract class BarProp",
+  "items": [
+    {
+      "text": "BarProp()"
+    },
+    {
+      "text": "open val visible: Boolean"
+    }
+  ]
+}

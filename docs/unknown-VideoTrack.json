@@ -1,0 +1,29 @@
+{
+  "type": "unknown",
+  "name": "VideoTrack",
+  "signature": "abstract class VideoTrack : UnionAudioTrackOrTextTrackOrVideoTrack",
+  "items": [
+    {
+      "text": "VideoTrack()",
+      "desc": "Exposes the JavaScript VideoTrack to Kotlin"
+    },
+    {
+      "text": "open val id: String"
+    },
+    {
+      "text": "open val kind: String"
+    },
+    {
+      "text": "open val label: String"
+    },
+    {
+      "text": "open val language: String"
+    },
+    {
+      "text": "open var selected: Boolean"
+    },
+    {
+      "text": "open val sourceBuffer: SourceBuffer?"
+    }
+  ]
+}

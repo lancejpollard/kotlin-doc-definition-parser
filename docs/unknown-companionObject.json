@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "companionObject",
+  "signature": "val KClass<*>.companionObject: KClass<*>?",
+  "items": []
+}

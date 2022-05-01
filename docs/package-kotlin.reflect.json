@@ -1,0 +1,114 @@
+{
+  "type": "package",
+  "name": "kotlin.reflect",
+  "items": [
+    {
+      "text": "interface KAnnotatedElement",
+      "desc": "Represents an annotated element and allows to obtain its annotations. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "interface KCallable<out R>",
+      "desc": "Represents a callable entity, such as a function or a property."
+    },
+    {
+      "text": "interface KClass<T : Any> : KClassifier",
+      "desc": "Represents a class and provides introspection capabilities. Instances of this class are obtainable by the ::class syntax. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "interface KClassifier",
+      "desc": "A classifier is either a class or a type parameter."
+    },
+    {
+      "text": "interface KDeclarationContainer",
+      "desc": "Represents an entity which may contain declarations of any other entities, such as a class or a package."
+    },
+    {
+      "text": "interface KFunction<out R> : KCallable<R>, Function<R>",
+      "desc": "Represents a function with introspection capabilities."
+    },
+    {
+      "text": "interface KMutableProperty<V> : KProperty<V>",
+      "desc": "Represents a property declared as a var."
+    },
+    {
+      "text": "interface KMutableProperty0<V> : KProperty0<V>, KMutableProperty<V>",
+      "desc": "Represents a var-property without any kind of receiver."
+    },
+    {
+      "text": "interface KMutableProperty1<T, V> : KProperty1<T, V>, KMutableProperty<V>",
+      "desc": "Represents a var-property, operations on which take one receiver as a parameter."
+    },
+    {
+      "text": "interface KMutableProperty2<D, E, V> : KProperty2<D, E, V>, KMutableProperty<V>",
+      "desc": "Represents a var-property, operations on which take two receivers as parameters."
+    },
+    {
+      "text": "interface KParameter : KAnnotatedElement",
+      "desc": "Represents a parameter passed to a function or a property getter/setter, including this and extension receiver parameters."
+    },
+    {
+      "text": "interface KProperty<out V> : KCallable<V>",
+      "desc": "Represents a property, such as a named val or var declaration. Instances of this class are obtainable by the :: operator."
+    },
+    {
+      "text": "interface KProperty0<out V> : KProperty<V>, () -> V",
+      "desc": "Represents a property without any kind of receiver. Such property is either originally declared in a receiverless context such as a package, or has the receiver bound to it."
+    },
+    {
+      "text": "interface KProperty1<T, out V> : KProperty<V>, (T) -> V",
+      "desc": "Represents a property, operations on which take one receiver as a parameter."
+    },
+    {
+      "text": "interface KProperty2<D, E, out V> : KProperty<V>, (D, E) -> V",
+      "desc": "Represents a property, operations on which take two receivers as parameters, such as an extension property declared in a class."
+    },
+    {
+      "text": "interface KType",
+      "desc": "Represents a type. Type is usually either a class with optional type arguments, or a type parameter of some declaration, plus nullability."
+    },
+    {
+      "text": "interface KTypeParameter : KClassifier",
+      "desc": "Represents a declaration of a type parameter of a class or a callable. See the Kotlin language documentation for more information."
+    },
+    {
+      "text": "data class KTypeProjection",
+      "desc": "Represents a type projection. Type projection is usually the argument to another type in a type usage. For example, in the type Array<out Number>, out Number is the covariant projection of the type represented by the class Number."
+    },
+    {
+      "text": "enum class KVariance",
+      "desc": "Represents variance applied to a type parameter on the declaration site (declaration-site variance), or to a type in a projection (use-site variance)."
+    },
+    {
+      "text": "enum class KVisibility",
+      "desc": "Visibility is an aspect of a Kotlin declaration regulating where that declaration is accessible in the source code. Visibility can be changed with one of the following modifiers: public, protected, internal, private."
+    },
+    {
+      "text": "annotation class AssociatedObjectKey",
+      "desc": "Makes the annotated annotation class an associated object key."
+    },
+    {
+      "text": "annotation class ExperimentalAssociatedObjects",
+      "desc": "The experimental marker for associated objects API."
+    },
+    {
+      "text": "val KType.javaType: Type",
+      "desc": "Returns a Java Type instance corresponding to the given Kotlin type."
+    },
+    {
+      "text": "fun <T : Any> KClass<T>.cast(value: Any?): T",
+      "desc": "Casts the given value to the class represented by this KClass object. Throws an exception if the value is null or if it is not an instance of this class."
+    },
+    {
+      "text": "fun <T : Annotation> KClass<*>.findAssociatedObject(): Any?",
+      "desc": "If T is an @AssociatedObjectKey-annotated annotation class and this class is annotated with @T (S::class), returns object S."
+    },
+    {
+      "text": "fun <T : Any> KClass<T>.safeCast(value: Any?): T?",
+      "desc": "Casts the given value to the class represented by this KClass object. Returns null if the value is null or if it is not an instance of this class."
+    },
+    {
+      "text": "fun <T> typeOf(): KType",
+      "desc": "Returns a runtime representation of the given reified type T as an instance of KType."
+    }
+  ]
+}

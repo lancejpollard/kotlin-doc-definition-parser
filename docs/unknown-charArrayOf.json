@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "charArrayOf",
+  "signature": "fun charArrayOf(vararg elements: Char): CharArray",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaKeySystemConfiguration",
+  "signature": "fun MediaKeySystemConfiguration( label: String? = \"\", initDataTypes: Array<String>? = arrayOf(), audioCapabilities: Array<MediaKeySystemMediaCapability>? = arrayOf(), videoCapabilities: Array<MediaKeySystemMediaCapability>? = arrayOf(), distinctiveIdentifier: MediaKeysRequirement? = MediaKeysRequirement.OPTIONAL, persistentState: MediaKeysRequirement? = MediaKeysRequirement.OPTIONAL, sessionTypes: Array<String>? = undefined): MediaKeySystemConfiguration",
+  "items": []
+}

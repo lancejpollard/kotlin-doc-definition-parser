@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "buildMap",
+  "signatures": [
+    {
+      "text": "inline fun <K, V> buildMap( builderAction: MutableMap<K, V>.() -> Unit): Map<K, V>",
+      "desc": "Builds a new read-only Map by populating a MutableMap using the given builderAction and returning a read-only map with the same key-value pairs."
+    },
+    {
+      "text": "inline fun <K, V> buildMap( capacity: Int, builderAction: MutableMap<K, V>.() -> Unit): Map<K, V>",
+      "desc": "Builds a new read-only Map by populating a MutableMap using the given builderAction and returning a read-only map with the same key-value pairs."
+    }
+  ],
+  "items": []
+}

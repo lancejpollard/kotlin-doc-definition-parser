@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onSuccess",
+  "signature": "inline fun <T> Result<T>.onSuccess( action: (value: T) -> Unit): Result<T>",
+  "items": []
+}

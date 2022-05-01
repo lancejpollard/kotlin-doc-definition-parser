@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "scrollX",
+  "signature": "open val scrollX: Double",
+  "items": []
+}

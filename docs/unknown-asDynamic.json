@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asDynamic",
+  "signature": "fun Any?.asDynamic(): dynamic",
+  "items": []
+}

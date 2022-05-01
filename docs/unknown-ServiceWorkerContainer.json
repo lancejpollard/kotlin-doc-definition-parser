@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerContainer",
+  "signature": "abstract class ServiceWorkerContainer : EventTarget",
+  "items": [
+    {
+      "text": "ServiceWorkerContainer()",
+      "desc": "Exposes the JavaScript ServiceWorkerContainer to Kotlin"
+    },
+    {
+      "text": "open val controller: ServiceWorker?"
+    },
+    {
+      "text": "open var oncontrollerchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val ready: Promise<ServiceWorkerRegistration>"
+    },
+    {
+      "text": "fun getRegistration( clientURL: String = definedExternally): Promise<Any?>"
+    },
+    {
+      "text": "fun getRegistrations(): Promise<Array<ServiceWorkerRegistration>>"
+    },
+    {
+      "text": "fun register( scriptURL: String, options: RegistrationOptions = definedExternally): Promise<ServiceWorkerRegistration>"
+    },
+    {
+      "text": "fun startMessages()"
+    }
+  ]
+}

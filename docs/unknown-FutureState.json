@@ -1,0 +1,10 @@
+{
+  "type": "unknown",
+  "name": "FutureState",
+  "signature": "enum class FutureState",
+  "items": [
+    {
+      "text": "val value: Int"
+    }
+  ]
+}

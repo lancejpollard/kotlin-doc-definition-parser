@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "memberAt",
+  "signature": "fun <reified T : CPointed> CStructVar.memberAt( offset: Long): T",
+  "items": []
+}

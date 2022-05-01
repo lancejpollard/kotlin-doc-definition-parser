@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "sortDescending",
+  "signatures": [
+    {
+      "text": "fun <T : Comparable<T>> Array<out T>.sortDescending()",
+      "desc": "Sorts elements in the array in-place descending according to their natural sort order."
+    },
+    {
+      "text": "fun ByteArray.sortDescending()",
+      "desc": "Sorts elements in the array in-place descending according to their natural sort order."
+    },
+    {
+      "text": "fun <T : Comparable<T>> Array<out T>.sortDescending( fromIndex: Int, toIndex: Int)",
+      "desc": "Sorts elements of the array in the specified range in-place. The elements are sorted descending according to their natural sort order."
+    },
+    {
+      "text": "fun ByteArray.sortDescending(fromIndex: Int, toIndex: Int)",
+      "desc": "Sorts elements of the array in the specified range in-place. The elements are sorted descending according to their natural sort order."
+    },
+    {
+      "text": "fun <T : Comparable<T>> MutableList<T>.sortDescending()",
+      "desc": "Sorts elements in the list in-place descending according to their natural sort order."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,37 @@
+{
+  "type": "unknown",
+  "name": "Uint16Array",
+  "signature": "open class Uint16Array : ArrayBufferView",
+  "items": [
+    {
+      "text": "Uint16Array(length: Int)"
+    },
+    {
+      "text": "open val buffer: ArrayBuffer"
+    },
+    {
+      "text": "open val byteLength: Int"
+    },
+    {
+      "text": "open val byteOffset: Int"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun set(array: Uint16Array, offset: Int = definedExternally)"
+    },
+    {
+      "text": "fun subarray(start: Int, end: Int): Uint16Array"
+    },
+    {
+      "text": "val BYTES_PER_ELEMENT: Int"
+    },
+    {
+      "text": "operator fun Uint16Array.get(index: Int): Short"
+    },
+    {
+      "text": "operator fun Uint16Array.set(index: Int, value: Short)"
+    }
+  ]
+}

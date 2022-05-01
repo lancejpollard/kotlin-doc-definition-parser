@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "ln1p",
+  "signatures": [
+    {
+      "text": "fun ln1p(x: Double): Double",
+      "desc": "Computes ln(x + 1)."
+    },
+    {
+      "text": "fun ln1p(x: Float): Float",
+      "desc": "Computes ln(a + 1)."
+    }
+  ],
+  "items": []
+}

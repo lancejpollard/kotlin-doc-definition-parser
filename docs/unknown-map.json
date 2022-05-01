@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "map",
+  "signature": "inline fun <R> CharSequence.map( transform: (Char) -> R): List<R>",
+  "items": []
+}

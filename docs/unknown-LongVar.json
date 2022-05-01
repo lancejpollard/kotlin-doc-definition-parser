@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "LongVar",
+  "signature": "typealias LongVar = LongVarOf<Long>",
+  "items": []
+}

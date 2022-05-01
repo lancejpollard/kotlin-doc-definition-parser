@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "setter",
+  "signature": "abstract val setter: KMutableProperty1.Setter<T, V>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaStreamConstraints",
+  "signature": "fun MediaStreamConstraints( video: dynamic = false, audio: dynamic = false): MediaStreamConstraints",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "windowed",
+  "signatures": [
+    {
+      "text": "fun CharSequence.windowed( size: Int, step: Int = 1, partialWindows: Boolean = false): List<String>",
+      "desc": "Returns a list of snapshots of the window of the given size sliding along this char sequence with the given step, where each snapshot is a string."
+    },
+    {
+      "text": "fun <R> CharSequence.windowed( size: Int, step: Int = 1, partialWindows: Boolean = false, transform: (CharSequence) -> R): List<R>",
+      "desc": "Returns a list of results of applying the given transform function to an each char sequence representing a view over the window of the given size sliding along this char sequence with the given step."
+    }
+  ],
+  "items": []
+}

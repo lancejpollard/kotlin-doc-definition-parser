@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "prompt",
+  "signature": "fun prompt( message: String = definedExternally, default: String = definedExternally): String?",
+  "items": []
+}

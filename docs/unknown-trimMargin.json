@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "trimMargin",
+  "signature": "fun String.trimMargin(marginPrefix: String = \"|\"): String",
+  "items": []
+}

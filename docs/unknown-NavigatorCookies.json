@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "NavigatorCookies",
+  "signature": "interface NavigatorCookies",
+  "items": [
+    {
+      "text": "abstract val cookieEnabled: Boolean"
+    },
+    {
+      "text": "abstract class Navigator : NavigatorID, NavigatorLanguage, NavigatorOnLine, NavigatorContentUtils, NavigatorCookies, NavigatorPlugins, NavigatorConcurrentHardware",
+      "desc": "Exposes the JavaScript Navigator to Kotlin"
+    }
+  ]
+}

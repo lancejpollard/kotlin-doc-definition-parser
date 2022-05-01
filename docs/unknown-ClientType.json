@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "ClientType",
+  "signature": "interface ClientType",
+  "items": [
+    {
+      "text": "val ClientType.Companion.ALL: ClientType"
+    },
+    {
+      "text": "val ClientType.Companion.SHAREDWORKER: ClientType"
+    },
+    {
+      "text": "val ClientType.Companion.WINDOW: ClientType"
+    },
+    {
+      "text": "val ClientType.Companion.WORKER: ClientType"
+    }
+  ]
+}

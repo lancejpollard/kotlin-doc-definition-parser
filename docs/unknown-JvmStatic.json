@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JvmStatic",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.PROPERTY_SETTER]) annotation class JvmStatic",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Specifies that an additional static method needs to be generated from this element if it's a function. If this element is a property, additional static getter/setter methods should be generated."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

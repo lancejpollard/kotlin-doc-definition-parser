@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "Konan_js_getProperty",
+  "signature": "fun Konan_js_getProperty( arena: Arena, obj: Object, propertyPtr: Pointer, propertyLen: Int): Int",
+  "items": []
+}

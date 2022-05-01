@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "HTMLAllCollection",
+  "signature": "abstract class HTMLAllCollection",
+  "items": [
+    {
+      "text": "HTMLAllCollection()"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun item( nameOrIndex: String = definedExternally): UnionElementOrHTMLCollection?"
+    },
+    {
+      "text": "fun namedItem(name: String): UnionElementOrHTMLCollection?"
+    },
+    {
+      "text": "operator fun HTMLAllCollection.get(index: Int): Element?"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "unknown",
+  "name": "javaClass",
+  "signatures": [
+    {
+      "text": "inline val <T : Any> T.javaClass: Class<T>",
+      "desc": "Returns the runtime Java class of this object."
+    },
+    {
+      "text": "inline val <T : Any> KClass<T>.javaClass: Class<KClass<T>>"
+    }
+  ],
+  "items": []
+}

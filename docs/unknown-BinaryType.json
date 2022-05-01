@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "BinaryType",
+  "signature": "interface BinaryType",
+  "items": [
+    {
+      "text": "val BinaryType.Companion.ARRAYBUFFER: BinaryType"
+    },
+    {
+      "text": "val BinaryType.Companion.BLOB: BinaryType"
+    }
+  ]
+}

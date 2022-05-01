@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "reverse",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.reverse()",
+      "desc": "Reverses elements in the array in-place."
+    },
+    {
+      "text": "fun <T> Array<T>.reverse(fromIndex: Int, toIndex: Int)",
+      "desc": "Reverses elements of the array in the specified range in-place."
+    },
+    {
+      "text": "fun <T> MutableList<T>.reverse()",
+      "desc": "Reverses elements in the list in-place."
+    }
+  ],
+  "items": []
+}

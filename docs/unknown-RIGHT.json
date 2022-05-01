@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "RIGHT",
+  "signature": "inline val VideoFacingModeEnum.Companion.RIGHT: VideoFacingModeEnum",
+  "items": []
+}

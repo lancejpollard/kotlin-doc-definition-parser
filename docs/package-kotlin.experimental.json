@@ -1,0 +1,26 @@
+{
+  "type": "package",
+  "name": "kotlin.experimental",
+  "items": [
+    {
+      "text": "annotation class ExperimentalTypeInference",
+      "desc": "The experimental marker for type inference augmenting annotations."
+    },
+    {
+      "text": "infix fun Byte.and(other: Byte): Byte",
+      "desc": "Performs a bitwise AND operation between the two values."
+    },
+    {
+      "text": "fun Byte.inv(): Byte",
+      "desc": "Inverts the bits in this value."
+    },
+    {
+      "text": "infix fun Byte.or(other: Byte): Byte",
+      "desc": "Performs a bitwise OR operation between the two values."
+    },
+    {
+      "text": "infix fun Byte.xor(other: Byte): Byte",
+      "desc": "Performs a bitwise XOR operation between the two values."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "stringSetOf",
+  "signature": "fun stringSetOf(vararg elements: String): HashSet<String>",
+  "items": []
+}

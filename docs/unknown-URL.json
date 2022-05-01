@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "URL",
+  "signature": "open val URL: String",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "distinct",
+  "signature": "fun <T> Sequence<T>.distinct(): Sequence<T>",
+  "items": []
+}

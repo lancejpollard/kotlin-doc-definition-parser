@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "take",
+  "signatures": [
+    {
+      "text": "fun CharSequence.take(n: Int): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing the first n characters from this char sequence, or the entire char sequence if this char sequence is shorter."
+    },
+    {
+      "text": "fun String.take(n: Int): String",
+      "desc": "Returns a string containing the first n characters from this string, or the entire string if this string is shorter."
+    }
+  ],
+  "items": []
+}

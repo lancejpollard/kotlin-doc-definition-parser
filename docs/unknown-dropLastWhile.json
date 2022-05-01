@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "dropLastWhile",
+  "signatures": [
+    {
+      "text": "inline fun CharSequence.dropLastWhile( predicate: (Char) -> Boolean): CharSequence",
+      "desc": "Returns a subsequence of this char sequence containing all characters except last characters that satisfy the given predicate."
+    },
+    {
+      "text": "inline fun String.dropLastWhile( predicate: (Char) -> Boolean): String",
+      "desc": "Returns a string containing all characters except last characters that satisfy the given predicate."
+    }
+  ],
+  "items": []
+}

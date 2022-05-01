@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getRawPointer",
+  "signature": "fun NativePointed.getRawPointer(): NativePtr",
+  "items": []
+}

@@ -1,0 +1,236 @@
+{
+  "type": "unknown",
+  "name": "GlobalEventHandlers",
+  "signature": "interface GlobalEventHandlers",
+  "items": [
+    {
+      "text": "open var onabort: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onblur: ((FocusEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncancel: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncanplay: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncanplaythrough: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onclick: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onclose: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncontextmenu: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncuechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ondblclick: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondrag: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragend: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragenter: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragexit: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragleave: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragover: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragstart: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondrop: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondurationchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onemptied: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onended: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onerror: ((dynamic, String, Int, Int, Any?) -> dynamic)?"
+    },
+    {
+      "text": "open var onfocus: ((FocusEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ongotpointercapture: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oninput: ((InputEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oninvalid: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeydown: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeypress: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeyup: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onload: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadeddata: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadedmetadata: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadstart: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onlostpointercapture: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmousedown: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseenter: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseleave: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmousemove: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseout: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseover: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseup: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpause: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onplay: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onplaying: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointercancel: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerdown: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerenter: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerleave: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointermove: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerout: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerover: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerup: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onprogress: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onratechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onreset: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onresize: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onscroll: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onseeked: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onseeking: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onselect: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onshow: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onstalled: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onsubmit: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onsuspend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ontimeupdate: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ontoggle: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onvolumechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onwaiting: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onwheel: ((WheelEvent) -> dynamic)?"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLElement : Element, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, ElementCSSInlineStyle",
+      "desc": "Exposes the JavaScript HTMLElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGElement : Element, ElementCSSInlineStyle, GlobalEventHandlers, SVGElementInstance",
+      "desc": "Exposes the JavaScript SVGElement to Kotlin"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createEvent",
+  "signature": "fun createEvent(interface: String): Event",
+  "items": []
+}

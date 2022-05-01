@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "allocArray",
+  "signatures": [
+    {
+      "text": "fun <reified T : CVariable> NativePlacement.allocArray( length: Long): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length."
+    },
+    {
+      "text": "inline fun <reified T : CVariable> NativePlacement.allocArray( length: Long, initializer: T.(index: Long) -> Unit): CArrayPointer<T>",
+      "desc": "Allocates C array of given elements type and length, and initializes its elements applying given block."
+    }
+  ],
+  "items": []
+}

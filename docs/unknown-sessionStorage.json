@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sessionStorage",
+  "signature": "val sessionStorage: Storage",
+  "items": []
+}

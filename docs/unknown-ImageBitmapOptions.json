@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ImageBitmapOptions",
+  "signature": "fun ImageBitmapOptions( imageOrientation: ImageOrientation? = ImageOrientation.NONE, premultiplyAlpha: PremultiplyAlpha? = PremultiplyAlpha.DEFAULT, colorSpaceConversion: ColorSpaceConversion? = ColorSpaceConversion.DEFAULT, resizeWidth: Int? = undefined, resizeHeight: Int? = undefined, resizeQuality: ResizeQuality? = ResizeQuality.LOW): ImageBitmapOptions",
+  "items": []
+}

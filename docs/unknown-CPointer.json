@@ -1,0 +1,82 @@
+{
+  "type": "unknown",
+  "name": "CPointer",
+  "signature": "class CPointer<T : CPointed> : CValuesRef<T>",
+  "items": [
+    {
+      "text": "val rawValue: NativePtr"
+    },
+    {
+      "text": "fun equals(other: Any?): Boolean",
+      "desc": "Indicates whether some other object is \"equal to\" this one. Implementations must fulfil the following requirements:"
+    },
+    {
+      "text": "fun getPointer(scope: AutofreeScope): CPointer<T>",
+      "desc": "If this reference is CPointer, returns this pointer, otherwise allocate storage value in the scope and return it."
+    },
+    {
+      "text": "fun hashCode(): Int",
+      "desc": "Returns a hash code value for the object. The general contract of hashCode is:"
+    },
+    {
+      "text": "fun toString(): String",
+      "desc": "Returns a string representation of the object."
+    },
+    {
+      "text": "val <T : CPointed> CPointer<T>.pointed: T",
+      "desc": "Returns the corresponding CPointed."
+    },
+    {
+      "text": "val CPointer<*>?.rawValue: NativePtr"
+    },
+    {
+      "text": "fun <T : Any> CPointer<*>.asStableRef(): StableRef<T>",
+      "desc": "Converts to StableRef this opaque pointer produced by StableRef.asCPointer."
+    },
+    {
+      "text": "fun COpaquePointer.callContinuation0()"
+    },
+    {
+      "text": "fun <T1> COpaquePointer.callContinuation1()"
+    },
+    {
+      "text": "fun <T1, T2> COpaquePointer.callContinuation2()"
+    },
+    {
+      "text": "operator fun <T : Byte> CPointer<ByteVarOf<T>>.get( index: Int): T"
+    },
+    {
+      "text": "fun CPointer<*>.getRawValue(): NativePtr"
+    },
+    {
+      "text": "operator fun <R> CPointer<CFunction<() -> R>>.invoke(): R"
+    },
+    {
+      "text": "operator fun <T : ByteVarOf<*>> CPointer<T>?.plus( index: Long): CPointer<T>?"
+    },
+    {
+      "text": "fun COpaquePointer.readBytes(count: Int): ByteArray"
+    },
+    {
+      "text": "fun <T : CPointed> CPointer<*>.reinterpret(): CPointer<T>"
+    },
+    {
+      "text": "operator fun <T : Byte> CPointer<ByteVarOf<T>>.set( index: Int, value: T)"
+    },
+    {
+      "text": "fun CPointer<ByteVar>.toKString(): String"
+    },
+    {
+      "text": "fun CPointer<ShortVar>.toKStringFromUtf16(): String"
+    },
+    {
+      "text": "fun CPointer<IntVar>.toKStringFromUtf32(): String"
+    },
+    {
+      "text": "fun CPointer<ByteVar>.toKStringFromUtf8(): String"
+    },
+    {
+      "text": "fun <T : CPointed> CPointer<T>?.toLong(): Long"
+    }
+  ]
+}

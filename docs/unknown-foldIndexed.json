@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "foldIndexed",
+  "signature": "inline fun <R> CharSequence.foldIndexed( initial: R, operation: (index: Int, acc: R, Char) -> R): R",
+  "items": []
+}

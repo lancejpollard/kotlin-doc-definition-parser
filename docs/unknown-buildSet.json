@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "buildSet",
+  "signatures": [
+    {
+      "text": "inline fun <E> buildSet( builderAction: MutableSet<E>.() -> Unit): Set<E>",
+      "desc": "Builds a new read-only Set by populating a MutableSet using the given builderAction and returning a read-only set with the same elements."
+    },
+    {
+      "text": "inline fun <E> buildSet( capacity: Int, builderAction: MutableSet<E>.() -> Unit): Set<E>",
+      "desc": "Builds a new read-only Set by populating a MutableSet using the given builderAction and returning a read-only set with the same elements."
+    }
+  ],
+  "items": []
+}

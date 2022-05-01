@@ -1,0 +1,31 @@
+{
+  "type": "unknown",
+  "name": "ChildNode",
+  "signature": "interface ChildNode",
+  "items": [
+    {
+      "text": "abstract fun after(vararg nodes: dynamic)"
+    },
+    {
+      "text": "abstract fun before(vararg nodes: dynamic)"
+    },
+    {
+      "text": "abstract fun remove()"
+    },
+    {
+      "text": "abstract fun replaceWith(vararg nodes: dynamic)"
+    },
+    {
+      "text": "abstract class CharacterData : Node, NonDocumentTypeChildNode, ChildNode",
+      "desc": "Exposes the JavaScript CharacterData to Kotlin"
+    },
+    {
+      "text": "abstract class DocumentType : Node, ChildNode",
+      "desc": "Exposes the JavaScript DocumentType to Kotlin"
+    },
+    {
+      "text": "abstract class Element : Node, ParentNode, NonDocumentTypeChildNode, ChildNode, Slotable, GeometryUtils, UnionElementOrHTMLCollection, UnionElementOrRadioNodeList, UnionElementOrMouseEvent, UnionElementOrProcessingInstruction",
+      "desc": "Exposes the JavaScript Element to Kotlin"
+    }
+  ]
+}

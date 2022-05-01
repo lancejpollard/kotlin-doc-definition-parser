@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interpretNullablePointed",
+  "signature": "fun <T : NativePointed> interpretNullablePointed( ptr: NativePtr): T?",
+  "items": []
+}

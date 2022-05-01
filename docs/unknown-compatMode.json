@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "compatMode",
+  "signature": "open val compatMode: String",
+  "items": []
+}

@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "nanoseconds",
+  "signatures": [
+    {
+      "text": "inline val Int.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Int number of nanoseconds."
+    },
+    {
+      "text": "inline val Long.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Long number of nanoseconds."
+    },
+    {
+      "text": "inline val Double.nanoseconds: <ERROR CLASS>",
+      "desc": "Returns a Duration equal to this Double number of nanoseconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun nanoseconds( value: Int): Duration",
+      "desc": "Returns a Duration representing the specified value number of nanoseconds."
+    },
+    {
+      "text": "@ExperimentalTime @DeprecatedSinceKotlin(\"1.6\") fun nanoseconds( value: Double): Duration",
+      "desc": "Returns a Duration representing the specified value number of nanoseconds."
+    }
+  ],
+  "items": []
+}

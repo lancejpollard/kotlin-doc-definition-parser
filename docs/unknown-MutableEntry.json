@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "MutableEntry",
+  "signature": "interface MutableEntry<K, V> : Entry<K, V>",
+  "items": [
+    {
+      "text": "abstract fun setValue(newValue: V): V",
+      "desc": "Changes the value associated with the key of this entry."
+    }
+  ]
+}

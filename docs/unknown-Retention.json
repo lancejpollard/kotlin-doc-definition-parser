@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Retention",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class Retention",
+  "items": [
+    {
+      "text": "<init>( value: AnnotationRetention = AnnotationRetention.RUNTIME)",
+      "desc": "This meta-annotation determines whether an annotation is stored in binary output and visible for reflection. By default, both are true."
+    },
+    {
+      "text": "val value: AnnotationRetention",
+      "desc": "necessary annotation retention (RUNTIME, BINARY or SOURCE)"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

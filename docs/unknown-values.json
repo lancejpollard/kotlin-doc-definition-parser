@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "values",
+  "signature": "abstract val values: MutableCollection<V>",
+  "items": []
+}

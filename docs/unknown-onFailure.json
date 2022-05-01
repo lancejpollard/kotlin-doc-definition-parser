@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onFailure",
+  "signature": "inline fun <T> Result<T>.onFailure( action: (exception: Throwable) -> Unit): Result<T>",
+  "items": []
+}

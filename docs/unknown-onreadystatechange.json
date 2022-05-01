@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onreadystatechange",
+  "signature": "var onreadystatechange: ((Event) -> dynamic)?",
+  "items": []
+}

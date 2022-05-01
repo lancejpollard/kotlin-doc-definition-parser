@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "compare",
+  "signature": "abstract fun compare(a: T, b: T): Int",
+  "items": []
+}

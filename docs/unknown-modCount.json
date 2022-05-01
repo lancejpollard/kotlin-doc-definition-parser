@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "modCount",
+  "signature": "protected var modCount: Int",
+  "items": []
+}

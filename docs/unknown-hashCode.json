@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hashCode",
+  "signature": "fun hashCode(): Int",
+  "items": []
+}

@@ -1,0 +1,214 @@
+{
+  "type": "unknown",
+  "name": "HTMLMediaElement",
+  "signature": "abstract class HTMLMediaElement : HTMLElement",
+  "items": [
+    {
+      "text": "HTMLMediaElement()",
+      "desc": "Exposes the JavaScript HTMLMediaElement to Kotlin"
+    },
+    {
+      "text": "open val audioTracks: AudioTrackList"
+    },
+    {
+      "text": "open var autoplay: Boolean"
+    },
+    {
+      "text": "open val buffered: TimeRanges"
+    },
+    {
+      "text": "open var controls: Boolean"
+    },
+    {
+      "text": "open var crossOrigin: String?"
+    },
+    {
+      "text": "open val currentSrc: String"
+    },
+    {
+      "text": "open var currentTime: Double"
+    },
+    {
+      "text": "open var defaultMuted: Boolean"
+    },
+    {
+      "text": "open var defaultPlaybackRate: Double"
+    },
+    {
+      "text": "open val duration: Double"
+    },
+    {
+      "text": "open val ended: Boolean"
+    },
+    {
+      "text": "open val error: MediaError?"
+    },
+    {
+      "text": "open var loop: Boolean"
+    },
+    {
+      "text": "open val mediaKeys: MediaKeys?"
+    },
+    {
+      "text": "open var muted: Boolean"
+    },
+    {
+      "text": "open val networkState: Short"
+    },
+    {
+      "text": "open var onencrypted: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onwaitingforkey: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val paused: Boolean"
+    },
+    {
+      "text": "open var playbackRate: Double"
+    },
+    {
+      "text": "open val played: TimeRanges"
+    },
+    {
+      "text": "open var preload: String"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open val seekable: TimeRanges"
+    },
+    {
+      "text": "open val seeking: Boolean"
+    },
+    {
+      "text": "open var src: String"
+    },
+    {
+      "text": "open var srcObject: MediaProvider?"
+    },
+    {
+      "text": "open val textTracks: TextTrackList"
+    },
+    {
+      "text": "open val videoTracks: VideoTrackList"
+    },
+    {
+      "text": "open var volume: Double"
+    },
+    {
+      "text": "fun addTextTrack( kind: TextTrackKind, label: String = definedExternally, language: String = definedExternally): TextTrack"
+    },
+    {
+      "text": "fun canPlayType(type: String): CanPlayTypeResult"
+    },
+    {
+      "text": "fun fastSeek(time: Double)"
+    },
+    {
+      "text": "fun getStartDate(): dynamic"
+    },
+    {
+      "text": "fun load()"
+    },
+    {
+      "text": "fun pause()"
+    },
+    {
+      "text": "fun play(): Promise<Unit>"
+    },
+    {
+      "text": "fun setMediaKeys(mediaKeys: MediaKeys?): Promise<Unit>"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val HAVE_CURRENT_DATA: Short"
+    },
+    {
+      "text": "val HAVE_ENOUGH_DATA: Short"
+    },
+    {
+      "text": "val HAVE_FUTURE_DATA: Short"
+    },
+    {
+      "text": "val HAVE_METADATA: Short"
+    },
+    {
+      "text": "val HAVE_NOTHING: Short"
+    },
+    {
+      "text": "val NETWORK_EMPTY: Short"
+    },
+    {
+      "text": "val NETWORK_IDLE: Short"
+    },
+    {
+      "text": "val NETWORK_LOADING: Short"
+    },
+    {
+      "text": "val NETWORK_NO_SOURCE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "abstract class HTMLAudioElement : HTMLMediaElement",
+      "desc": "Exposes the JavaScript HTMLAudioElement to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLVideoElement : HTMLMediaElement, CanvasImageSource, TexImageSource",
+      "desc": "Exposes the JavaScript HTMLVideoElement to Kotlin"
+    }
+  ]
+}

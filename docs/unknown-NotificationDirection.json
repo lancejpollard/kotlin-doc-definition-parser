@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "NotificationDirection",
+  "signature": "interface NotificationDirection",
+  "items": [
+    {
+      "text": "val NotificationDirection.Companion.AUTO: NotificationDirection"
+    },
+    {
+      "text": "val NotificationDirection.Companion.LTR: NotificationDirection"
+    },
+    {
+      "text": "val NotificationDirection.Companion.RTL: NotificationDirection"
+    }
+  ]
+}

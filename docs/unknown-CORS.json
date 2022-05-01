@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CORS",
+  "signature": "inline val RequestMode.Companion.CORS: RequestMode",
+  "items": []
+}

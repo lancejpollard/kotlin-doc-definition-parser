@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "IllegalCallableAccessException",
+  "signature": "class IllegalCallableAccessException : Exception",
+  "items": [
+    {
+      "text": "IllegalCallableAccessException(cause: IllegalAccessException)",
+      "desc": "An exception that is thrown when call is invoked on a callable or get or set is invoked on a property and that callable is not accessible (in JVM terms) from the calling method."
+    },
+    {
+      "text": "val Throwable.stackTrace: Array<StackTraceElement>",
+      "desc": "Returns an array of stack trace elements representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    }
+  ]
+}

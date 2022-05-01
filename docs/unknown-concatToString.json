@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "concatToString",
+  "signatures": [
+    {
+      "text": "fun CharArray.concatToString(): String",
+      "desc": "Concatenates characters in this CharArray into a String."
+    },
+    {
+      "text": "fun CharArray.concatToString( startIndex: Int = 0, endIndex: Int = this.size): String",
+      "desc": "Concatenates characters in this CharArray or its subrange into a String."
+    }
+  ],
+  "items": []
+}

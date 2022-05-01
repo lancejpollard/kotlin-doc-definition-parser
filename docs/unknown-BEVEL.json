@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BEVEL",
+  "signature": "inline val CanvasLineJoin.Companion.BEVEL: CanvasLineJoin",
+  "items": []
+}

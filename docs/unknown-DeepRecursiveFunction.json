@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "DeepRecursiveFunction",
+  "signature": "@ExperimentalStdlibApi class DeepRecursiveFunction<T, R>",
+  "items": [
+    {
+      "text": "DeepRecursiveFunction( block: suspend DeepRecursiveScope<T, R>.(T) -> R)",
+      "desc": "Defines deep recursive function that keeps its stack on the heap, which allows very deep recursive computations that do not use the actual call stack. To initiate a call to this deep recursive function use its invoke function. As a rule of thumb, it should be used if recursion goes deeper than a thousand calls."
+    },
+    {
+      "text": "operator fun <T, R> DeepRecursiveFunction<T, R>.invoke( value: T): R",
+      "desc": "Initiates a call to this deep recursive function, forming a root of the call tree."
+    }
+  ]
+}

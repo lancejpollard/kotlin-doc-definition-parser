@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MutableList",
+  "signature": "inline fun <T> MutableList( size: Int, init: (index: Int) -> T): MutableList<T>",
+  "items": []
+}

@@ -1,0 +1,14 @@
+{
+  "type": "package",
+  "name": "org.w3c.css.masking",
+  "items": [
+    {
+      "text": "abstract class SVGClipPathElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGClipPathElement to Kotlin"
+    },
+    {
+      "text": "abstract class SVGMaskElement : SVGElement, SVGUnitTypes",
+      "desc": "Exposes the JavaScript SVGMaskElement to Kotlin"
+    }
+  ]
+}

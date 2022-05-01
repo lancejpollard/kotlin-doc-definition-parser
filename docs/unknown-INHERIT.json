@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "INHERIT",
+  "signature": "inline val CanvasDirection.Companion.INHERIT: CanvasDirection",
+  "items": []
+}

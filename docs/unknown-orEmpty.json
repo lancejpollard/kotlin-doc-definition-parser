@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "orEmpty",
+  "signature": "fun String?.orEmpty(): String",
+  "items": []
+}

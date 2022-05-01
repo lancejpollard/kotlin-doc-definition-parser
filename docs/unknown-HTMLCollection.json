@@ -1,0 +1,32 @@
+{
+  "type": "unknown",
+  "name": "HTMLCollection",
+  "signature": "abstract class HTMLCollection : ItemArrayLike<Element>, UnionElementOrHTMLCollection",
+  "items": [
+    {
+      "text": "HTMLCollection()",
+      "desc": "Exposes the JavaScript HTMLCollection to Kotlin"
+    },
+    {
+      "text": "open fun item(index: Int): Element?"
+    },
+    {
+      "text": "fun namedItem(name: String): Element?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun HTMLCollection.get(index: Int): Element?"
+    },
+    {
+      "text": "abstract class HTMLFormControlsCollection : HTMLCollection",
+      "desc": "Exposes the JavaScript HTMLFormControlsCollection to Kotlin"
+    },
+    {
+      "text": "abstract class HTMLOptionsCollection : HTMLCollection",
+      "desc": "Exposes the JavaScript HTMLOptionsCollection to Kotlin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "initBy",
+  "signature": "fun <T : ObjCObjectBase> T.initBy(constructorCall: T): T",
+  "items": []
+}

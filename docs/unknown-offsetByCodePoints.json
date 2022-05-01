@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "offsetByCodePoints",
+  "signature": "fun String.offsetByCodePoints( index: Int, codePointOffset: Int): Int",
+  "items": []
+}

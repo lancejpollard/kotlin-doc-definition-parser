@@ -1,0 +1,35 @@
+{
+  "type": "unknown",
+  "name": "Storage",
+  "signature": "abstract class Storage",
+  "items": [
+    {
+      "text": "Storage()",
+      "desc": "Exposes the JavaScript Storage to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun getItem(key: String): String?"
+    },
+    {
+      "text": "fun key(index: Int): String?"
+    },
+    {
+      "text": "fun removeItem(key: String)"
+    },
+    {
+      "text": "fun setItem(key: String, value: String)"
+    },
+    {
+      "text": "operator fun Storage.get(key: String): String?"
+    },
+    {
+      "text": "operator fun Storage.set(key: String, value: String)"
+    }
+  ]
+}

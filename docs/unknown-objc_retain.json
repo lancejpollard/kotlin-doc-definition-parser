@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objc_retain",
+  "signature": "fun objc_retain(ptr: NativePtr): NativePtr",
+  "items": []
+}

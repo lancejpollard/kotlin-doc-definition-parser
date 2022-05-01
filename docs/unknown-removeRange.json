@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "removeRange",
+  "signature": "protected open fun removeRange(fromIndex: Int, toIndex: Int)",
+  "items": []
+}

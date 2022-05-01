@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BlobPropertyBag",
+  "signature": "fun BlobPropertyBag(type: String? = \"\"): BlobPropertyBag",
+  "items": []
+}

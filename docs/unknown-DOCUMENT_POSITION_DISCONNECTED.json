@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "DOCUMENT_POSITION_DISCONNECTED",
+  "signature": "val DOCUMENT_POSITION_DISCONNECTED: Short",
+  "items": []
+}

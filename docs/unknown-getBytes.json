@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getBytes",
+  "signature": "fun <T : CVariable> CValues<T>.getBytes(): ByteArray",
+  "items": []
+}

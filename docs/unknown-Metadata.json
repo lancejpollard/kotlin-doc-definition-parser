@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "METADATA",
+  "signature": "inline val TextTrackKind.Companion.METADATA: TextTrackKind",
+  "items": []
+}

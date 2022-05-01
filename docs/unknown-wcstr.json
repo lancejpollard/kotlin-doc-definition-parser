@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "wcstr",
+  "signature": "val String.wcstr: CValues<UShortVar>",
+  "items": []
+}

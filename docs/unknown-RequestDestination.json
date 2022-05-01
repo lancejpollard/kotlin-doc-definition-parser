@@ -1,0 +1,52 @@
+{
+  "type": "unknown",
+  "name": "RequestDestination",
+  "signature": "interface RequestDestination",
+  "items": [
+    {
+      "text": "val RequestDestination.Companion.DOCUMENT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.EMBED: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.EMPTY: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.FONT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.IMAGE: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.MANIFEST: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.MEDIA: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.OBJECT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.REPORT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.SCRIPT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.SERVICEWORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.SHAREDWORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.STYLE: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.WORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.XSLT: RequestDestination"
+    }
+  ]
+}

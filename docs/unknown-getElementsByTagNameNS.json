@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getElementsByTagNameNS",
+  "signature": "fun getElementsByTagNameNS( namespace: String?, localName: String): HTMLCollection",
+  "items": []
+}

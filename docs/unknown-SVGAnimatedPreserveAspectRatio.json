@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedPreserveAspectRatio",
+  "signature": "abstract class SVGAnimatedPreserveAspectRatio",
+  "items": [
+    {
+      "text": "SVGAnimatedPreserveAspectRatio()",
+      "desc": "Exposes the JavaScript SVGAnimatedPreserveAspectRatio to Kotlin"
+    },
+    {
+      "text": "open val animVal: SVGPreserveAspectRatio"
+    },
+    {
+      "text": "open val baseVal: SVGPreserveAspectRatio"
+    }
+  ]
+}

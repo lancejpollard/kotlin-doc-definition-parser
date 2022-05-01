@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asIterable",
+  "signature": "fun CharSequence.asIterable(): Iterable<Char>",
+  "items": []
+}

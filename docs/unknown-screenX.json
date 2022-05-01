@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "screenX",
+  "signature": "open val screenX: Int",
+  "items": []
+}

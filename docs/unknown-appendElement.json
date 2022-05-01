@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "appendElement",
+  "signature": "fun Element.appendElement( name: String, init: Element.() -> Unit): Element",
+  "items": []
+}

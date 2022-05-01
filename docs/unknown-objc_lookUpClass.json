@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objc_lookUpClass",
+  "signature": "fun objc_lookUpClass(name: NativePtr): NativePtr",
+  "items": []
+}

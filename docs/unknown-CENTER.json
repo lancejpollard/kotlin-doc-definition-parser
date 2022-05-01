@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "CENTER",
+  "signature": "inline val CanvasTextAlign.Companion.CENTER: CanvasTextAlign",
+  "items": []
+}

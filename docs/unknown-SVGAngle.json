@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "SVGAngle",
+  "signature": "abstract class SVGAngle",
+  "items": [
+    {
+      "text": "SVGAngle()",
+      "desc": "Exposes the JavaScript SVGAngle to Kotlin"
+    },
+    {
+      "text": "open val unitType: Short"
+    },
+    {
+      "text": "open var value: Float"
+    },
+    {
+      "text": "open var valueAsString: String"
+    },
+    {
+      "text": "open var valueInSpecifiedUnits: Float"
+    },
+    {
+      "text": "fun convertToSpecifiedUnits(unitType: Short)"
+    },
+    {
+      "text": "fun newValueSpecifiedUnits( unitType: Short, valueInSpecifiedUnits: Float)"
+    },
+    {
+      "text": "val SVG_ANGLETYPE_DEG: Short"
+    },
+    {
+      "text": "val SVG_ANGLETYPE_GRAD: Short"
+    },
+    {
+      "text": "val SVG_ANGLETYPE_RAD: Short"
+    },
+    {
+      "text": "val SVG_ANGLETYPE_UNKNOWN: Short"
+    },
+    {
+      "text": "val SVG_ANGLETYPE_UNSPECIFIED: Short"
+    }
+  ]
+}

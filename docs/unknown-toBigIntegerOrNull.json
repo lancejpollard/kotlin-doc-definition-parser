@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBigIntegerOrNull",
+  "signatures": [
+    {
+      "text": "fun String.toBigIntegerOrNull(): BigInteger?",
+      "desc": "Parses the string as a java.math.BigInteger number and returns the result or null if the string is not a valid representation of a number."
+    },
+    {
+      "text": "fun String.toBigIntegerOrNull(radix: Int): BigInteger?",
+      "desc": "Parses the string as a java.math.BigInteger number and returns the result or null if the string is not a valid representation of a number."
+    }
+  ],
+  "items": []
+}

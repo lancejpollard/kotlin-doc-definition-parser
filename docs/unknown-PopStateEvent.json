@@ -1,0 +1,26 @@
+{
+  "type": "unknown",
+  "name": "PopStateEvent",
+  "signature": "open class PopStateEvent : Event",
+  "items": [
+    {
+      "text": "PopStateEvent( type: String, eventInitDict: PopStateEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript PopStateEvent to Kotlin"
+    },
+    {
+      "text": "open val state: Any?"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

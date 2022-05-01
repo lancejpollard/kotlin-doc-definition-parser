@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toUIntArray",
+  "signatures": [
+    {
+      "text": "@ExperimentalUnsignedTypes fun Array<out UInt>.toUIntArray(): UIntArray",
+      "desc": "Returns an array of UInt containing all of the elements of this generic array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun IntArray.toUIntArray(): UIntArray",
+      "desc": "Returns an array of type UIntArray, which is a copy of this array where each element is an unsigned reinterpretation of the corresponding element of this array."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun Collection<UInt>.toUIntArray(): UIntArray",
+      "desc": "Returns an array of UInt containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

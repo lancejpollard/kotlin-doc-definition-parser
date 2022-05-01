@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "WORKER",
+  "signature": "inline val ClientType.Companion.WORKER: ClientType",
+  "items": []
+}

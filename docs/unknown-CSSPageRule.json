@@ -1,0 +1,41 @@
+{
+  "type": "unknown",
+  "name": "CSSPageRule",
+  "signature": "abstract class CSSPageRule : CSSGroupingRule",
+  "items": [
+    {
+      "text": "CSSPageRule()",
+      "desc": "Exposes the JavaScript CSSPageRule to Kotlin"
+    },
+    {
+      "text": "open var selectorText: String"
+    },
+    {
+      "text": "open val style: CSSStyleDeclaration"
+    },
+    {
+      "text": "val CHARSET_RULE: Short"
+    },
+    {
+      "text": "val FONT_FACE_RULE: Short"
+    },
+    {
+      "text": "val IMPORT_RULE: Short"
+    },
+    {
+      "text": "val MARGIN_RULE: Short"
+    },
+    {
+      "text": "val MEDIA_RULE: Short"
+    },
+    {
+      "text": "val NAMESPACE_RULE: Short"
+    },
+    {
+      "text": "val PAGE_RULE: Short"
+    },
+    {
+      "text": "val STYLE_RULE: Short"
+    }
+  ]
+}

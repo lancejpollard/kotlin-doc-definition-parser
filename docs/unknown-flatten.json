@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "flatten",
+  "signatures": [
+    {
+      "text": "fun <T> Sequence<Sequence<T>>.flatten(): Sequence<T>",
+      "desc": "Returns a sequence of all elements from all sequences in this sequence."
+    },
+    {
+      "text": "@JvmName(\"flattenSequenceOfIterable\") fun <T> Sequence<Iterable<T>>.flatten(): Sequence<T>",
+      "desc": "Returns a sequence of all elements from all iterables in this sequence."
+    }
+  ],
+  "items": []
+}

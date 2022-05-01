@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isSurrogatePair",
+  "signature": "fun Char.Companion.isSurrogatePair( high: Char, low: Char): Boolean",
+  "items": []
+}

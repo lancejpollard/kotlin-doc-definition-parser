@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "ServiceWorkerState",
+  "signature": "interface ServiceWorkerState",
+  "items": [
+    {
+      "text": "val ServiceWorkerState.Companion.ACTIVATED: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.ACTIVATING: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.INSTALLED: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.INSTALLING: ServiceWorkerState"
+    },
+    {
+      "text": "val ServiceWorkerState.Companion.REDUNDANT: ServiceWorkerState"
+    }
+  ]
+}

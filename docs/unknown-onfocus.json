@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onfocus",
+  "signature": "open var onfocus: ((FocusEvent) -> dynamic)?",
+  "items": []
+}

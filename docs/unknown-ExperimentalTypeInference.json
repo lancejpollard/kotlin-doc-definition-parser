@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "ExperimentalTypeInference",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class ExperimentalTypeInference",
+  "items": [
+    {
+      "text": "ExperimentalTypeInference()",
+      "desc": "The experimental marker for type inference augmenting annotations."
+    }
+  ]
+}

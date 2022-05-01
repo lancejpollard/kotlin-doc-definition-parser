@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onloadedmetadata",
+  "signature": "open var onloadedmetadata: ((Event) -> dynamic)?",
+  "items": []
+}

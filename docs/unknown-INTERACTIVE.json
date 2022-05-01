@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "INTERACTIVE",
+  "signature": "inline val DocumentReadyState.Companion.INTERACTIVE: DocumentReadyState",
+  "items": []
+}

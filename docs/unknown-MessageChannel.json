@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "MessageChannel",
+  "signature": "open class MessageChannel",
+  "items": [
+    {
+      "text": "MessageChannel()",
+      "desc": "Exposes the JavaScript MessageChannel to Kotlin"
+    },
+    {
+      "text": "open val port1: MessagePort"
+    },
+    {
+      "text": "open val port2: MessagePort"
+    }
+  ]
+}

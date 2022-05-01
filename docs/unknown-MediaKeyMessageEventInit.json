@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MediaKeyMessageEventInit",
+  "signature": "fun MediaKeyMessageEventInit( messageType: MediaKeyMessageType?, message: ArrayBuffer?, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MediaKeyMessageEventInit",
+  "items": []
+}

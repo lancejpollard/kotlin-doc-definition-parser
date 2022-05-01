@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "defaultView",
+  "signature": "open val defaultView: Window?",
+  "items": []
+}

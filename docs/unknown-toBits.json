@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toBits",
+  "signatures": [
+    {
+      "text": "fun Double.toBits(): Long",
+      "desc": "Returns a bit representation of the specified floating-point value as Long according to the IEEE 754 floating-point \"double format\" bit layout."
+    },
+    {
+      "text": "fun Float.toBits(): Int",
+      "desc": "Returns a bit representation of the specified floating-point value as Int according to the IEEE 754 floating-point \"single format\" bit layout."
+    }
+  ],
+  "items": []
+}

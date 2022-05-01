@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SQUARE",
+  "signature": "inline val CanvasLineCap.Companion.SQUARE: CanvasLineCap",
+  "items": []
+}

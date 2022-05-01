@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "requestAnimationFrame",
+  "signature": "fun requestAnimationFrame(callback: (Double) -> Unit): Int",
+  "items": []
+}

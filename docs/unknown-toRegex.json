@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "toRegex",
+  "signatures": [
+    {
+      "text": "fun String.toRegex(): Regex",
+      "desc": "Converts the string into a regular expression Regex with the default options."
+    },
+    {
+      "text": "fun String.toRegex(option: RegexOption): Regex",
+      "desc": "Converts the string into a regular expression Regex with the specified single option."
+    },
+    {
+      "text": "fun String.toRegex(options: Set<RegexOption>): Regex",
+      "desc": "Converts the string into a regular expression Regex with the specified set of options."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,17 @@
+{
+  "type": "unknown",
+  "name": "SVGAnimatedString",
+  "signature": "abstract class SVGAnimatedString",
+  "items": [
+    {
+      "text": "SVGAnimatedString()",
+      "desc": "Exposes the JavaScript SVGAnimatedString to Kotlin"
+    },
+    {
+      "text": "open val animVal: String"
+    },
+    {
+      "text": "open var baseVal: String"
+    }
+  ]
+}

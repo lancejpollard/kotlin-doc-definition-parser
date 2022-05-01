@@ -1,0 +1,22 @@
+{
+  "type": "unknown",
+  "name": "CanvasTextAlign",
+  "signature": "interface CanvasTextAlign",
+  "items": [
+    {
+      "text": "val CanvasTextAlign.Companion.CENTER: CanvasTextAlign"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.END: CanvasTextAlign"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.LEFT: CanvasTextAlign"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.RIGHT: CanvasTextAlign"
+    },
+    {
+      "text": "val CanvasTextAlign.Companion.START: CanvasTextAlign"
+    }
+  ]
+}

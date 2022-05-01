@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toPair",
+  "signature": "fun <K, V> Entry<K, V>.toPair(): Pair<K, V>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "compareTo",
+  "signature": "operator fun compareTo(other: UByte): Int",
+  "items": []
+}

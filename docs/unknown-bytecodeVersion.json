@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "bytecodeVersion",
+  "signature": "val bytecodeVersion: IntArray",
+  "items": []
+}

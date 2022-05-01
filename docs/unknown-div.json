@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "div",
+  "signature": "operator fun BigInteger.div(other: BigInteger): BigInteger",
+  "items": []
+}

@@ -1,0 +1,97 @@
+{
+  "type": "package",
+  "name": "org.w3c.dom.events",
+  "items": [
+    {
+      "text": "open class CompositionEvent : UIEvent",
+      "desc": "Exposes the JavaScript CompositionEvent to Kotlin"
+    },
+    {
+      "text": "interface CompositionEventInit : UIEventInit"
+    },
+    {
+      "text": "open class Event",
+      "desc": "Exposes the JavaScript Event to Kotlin"
+    },
+    {
+      "text": "interface EventListener",
+      "desc": "Exposes the JavaScript EventListener to Kotlin"
+    },
+    {
+      "text": "interface EventModifierInit : UIEventInit"
+    },
+    {
+      "text": "abstract class EventTarget",
+      "desc": "Exposes the JavaScript EventTarget to Kotlin"
+    },
+    {
+      "text": "open class FocusEvent : UIEvent",
+      "desc": "Exposes the JavaScript FocusEvent to Kotlin"
+    },
+    {
+      "text": "interface FocusEventInit : UIEventInit"
+    },
+    {
+      "text": "open class InputEvent : UIEvent",
+      "desc": "Exposes the JavaScript InputEvent to Kotlin"
+    },
+    {
+      "text": "interface InputEventInit : UIEventInit"
+    },
+    {
+      "text": "open class KeyboardEvent : UIEvent",
+      "desc": "Exposes the JavaScript KeyboardEvent to Kotlin"
+    },
+    {
+      "text": "interface KeyboardEventInit : EventModifierInit"
+    },
+    {
+      "text": "open class MouseEvent : UIEvent, UnionElementOrMouseEvent",
+      "desc": "Exposes the JavaScript MouseEvent to Kotlin"
+    },
+    {
+      "text": "interface MouseEventInit : EventModifierInit"
+    },
+    {
+      "text": "open class UIEvent : Event",
+      "desc": "Exposes the JavaScript UIEvent to Kotlin"
+    },
+    {
+      "text": "interface UIEventInit : EventInit"
+    },
+    {
+      "text": "open class WheelEvent : MouseEvent",
+      "desc": "Exposes the JavaScript WheelEvent to Kotlin"
+    },
+    {
+      "text": "interface WheelEventInit : MouseEventInit"
+    },
+    {
+      "text": "fun CompositionEventInit( data: String? = \"\", view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): CompositionEventInit"
+    },
+    {
+      "text": "fun EventListener(handler: (Event) -> Unit): EventListener"
+    },
+    {
+      "text": "fun EventModifierInit( ctrlKey: Boolean? = false, shiftKey: Boolean? = false, altKey: Boolean? = false, metaKey: Boolean? = false, modifierAltGraph: Boolean? = false, modifierCapsLock: Boolean? = false, modifierFn: Boolean? = false, modifierFnLock: Boolean? = false, modifierHyper: Boolean? = false, modifierNumLock: Boolean? = false, modifierScrollLock: Boolean? = false, modifierSuper: Boolean? = false, modifierSymbol: Boolean? = false, modifierSymbolLock: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): EventModifierInit"
+    },
+    {
+      "text": "fun FocusEventInit( relatedTarget: EventTarget? = null, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): FocusEventInit"
+    },
+    {
+      "text": "fun InputEventInit( data: String? = \"\", isComposing: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): InputEventInit"
+    },
+    {
+      "text": "fun KeyboardEventInit( key: String? = \"\", code: String? = \"\", location: Int? = 0, repeat: Boolean? = false, isComposing: Boolean? = false, ctrlKey: Boolean? = false, shiftKey: Boolean? = false, altKey: Boolean? = false, metaKey: Boolean? = false, modifierAltGraph: Boolean? = false, modifierCapsLock: Boolean? = false, modifierFn: Boolean? = false, modifierFnLock: Boolean? = false, modifierHyper: Boolean? = false, modifierNumLock: Boolean? = false, modifierScrollLock: Boolean? = false, modifierSuper: Boolean? = false, modifierSymbol: Boolean? = false, modifierSymbolLock: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): KeyboardEventInit"
+    },
+    {
+      "text": "fun MouseEventInit( screenX: Int? = 0, screenY: Int? = 0, clientX: Int? = 0, clientY: Int? = 0, button: Short? = 0, buttons: Short? = 0, relatedTarget: EventTarget? = null, region: String? = null, ctrlKey: Boolean? = false, shiftKey: Boolean? = false, altKey: Boolean? = false, metaKey: Boolean? = false, modifierAltGraph: Boolean? = false, modifierCapsLock: Boolean? = false, modifierFn: Boolean? = false, modifierFnLock: Boolean? = false, modifierHyper: Boolean? = false, modifierNumLock: Boolean? = false, modifierScrollLock: Boolean? = false, modifierSuper: Boolean? = false, modifierSymbol: Boolean? = false, modifierSymbolLock: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): MouseEventInit"
+    },
+    {
+      "text": "fun UIEventInit( view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): UIEventInit"
+    },
+    {
+      "text": "fun WheelEventInit( deltaX: Double? = 0.0, deltaY: Double? = 0.0, deltaZ: Double? = 0.0, deltaMode: Int? = 0, screenX: Int? = 0, screenY: Int? = 0, clientX: Int? = 0, clientY: Int? = 0, button: Short? = 0, buttons: Short? = 0, relatedTarget: EventTarget? = null, region: String? = null, ctrlKey: Boolean? = false, shiftKey: Boolean? = false, altKey: Boolean? = false, metaKey: Boolean? = false, modifierAltGraph: Boolean? = false, modifierCapsLock: Boolean? = false, modifierFn: Boolean? = false, modifierFnLock: Boolean? = false, modifierHyper: Boolean? = false, modifierNumLock: Boolean? = false, modifierScrollLock: Boolean? = false, modifierSuper: Boolean? = false, modifierSymbol: Boolean? = false, modifierSymbolLock: Boolean? = false, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): WheelEventInit"
+    }
+  ]
+}

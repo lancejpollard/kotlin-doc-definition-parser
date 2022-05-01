@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ErrorEventInit",
+  "signature": "fun ErrorEventInit( message: String? = \"\", filename: String? = \"\", lineno: Int? = 0, colno: Int? = 0, error: Any? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): ErrorEventInit",
+  "items": []
+}

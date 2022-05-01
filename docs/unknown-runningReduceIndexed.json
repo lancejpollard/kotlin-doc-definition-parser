@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "runningReduceIndexed",
+  "signature": "inline fun CharSequence.runningReduceIndexed( operation: (index: Int, acc: Char, Char) -> Char): List<Char>",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createTouch",
+  "signature": "fun createTouch( view: Window, target: EventTarget, identifier: Int, pageX: Int, pageY: Int, screenX: Int, screenY: Int): Touch",
+  "items": []
+}

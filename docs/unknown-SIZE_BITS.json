@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SIZE_BITS",
+  "signature": "const val SIZE_BITS: Int",
+  "items": []
+}

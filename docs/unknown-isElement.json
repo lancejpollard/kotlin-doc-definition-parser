@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isElement",
+  "signature": "val Node.isElement: Boolean",
+  "items": []
+}

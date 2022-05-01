@@ -1,0 +1,50 @@
+{
+  "type": "unknown",
+  "name": "SVGTransformList",
+  "signature": "abstract class SVGTransformList",
+  "items": [
+    {
+      "text": "SVGTransformList()",
+      "desc": "Exposes the JavaScript SVGTransformList to Kotlin"
+    },
+    {
+      "text": "open val length: Int"
+    },
+    {
+      "text": "open val numberOfItems: Int"
+    },
+    {
+      "text": "fun appendItem(newItem: SVGTransform): SVGTransform"
+    },
+    {
+      "text": "fun clear()"
+    },
+    {
+      "text": "fun consolidate(): SVGTransform?"
+    },
+    {
+      "text": "fun createSVGTransformFromMatrix( matrix: DOMMatrixReadOnly): SVGTransform"
+    },
+    {
+      "text": "fun getItem(index: Int): SVGTransform"
+    },
+    {
+      "text": "fun initialize(newItem: SVGTransform): SVGTransform"
+    },
+    {
+      "text": "fun insertItemBefore( newItem: SVGTransform, index: Int): SVGTransform"
+    },
+    {
+      "text": "fun removeItem(index: Int): SVGTransform"
+    },
+    {
+      "text": "fun replaceItem( newItem: SVGTransform, index: Int): SVGTransform"
+    },
+    {
+      "text": "operator fun SVGTransformList.get(index: Int): SVGTransform?"
+    },
+    {
+      "text": "operator fun SVGTransformList.set( index: Int, newItem: SVGTransform)"
+    }
+  ]
+}

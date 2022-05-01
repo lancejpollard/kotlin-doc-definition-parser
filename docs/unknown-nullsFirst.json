@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "nullsFirst",
+  "signatures": [
+    {
+      "text": "fun <T : Any> nullsFirst( comparator: Comparator<in T>): Comparator<T?>",
+      "desc": "Extends the given comparator of non-nullable values to a comparator of nullable values considering null value less than any other value."
+    },
+    {
+      "text": "fun <T : Comparable<T>> nullsFirst(): Comparator<T?>",
+      "desc": "Provides a comparator of nullable Comparable values considering null value less than any other value."
+    }
+  ],
+  "items": []
+}

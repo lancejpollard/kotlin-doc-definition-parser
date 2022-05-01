@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "reduceRight",
+  "signature": "inline fun CharSequence.reduceRight( operation: (Char, acc: Char) -> Char): Char",
+  "items": []
+}

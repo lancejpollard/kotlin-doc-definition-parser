@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "invoke",
+  "signature": "abstract operator fun invoke(p1: T): V",
+  "items": []
+}

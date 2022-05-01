@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "SEGMENTS",
+  "signature": "inline val AppendMode.Companion.SEGMENTS: AppendMode",
+  "items": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "KDeclarationContainer",
+  "signature": "interface KDeclarationContainer",
+  "items": [
+    {
+      "text": "abstract val members: Collection<KCallable<*>>",
+      "desc": "All functions and properties accessible in this container."
+    },
+    {
+      "text": "interface KClass<T : Any> : KClassifier",
+      "desc": "Represents a class and provides introspection capabilities. Instances of this class are obtainable by the ::class syntax. See the Kotlin language documentation for more information."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objc_release",
+  "signature": "fun objc_release(ptr: NativePtr)",
+  "items": []
+}

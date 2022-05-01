@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapKeys",
+  "signature": "inline fun <K, V, R> Map<out K, V>.mapKeys( transform: (Entry<K, V>) -> R): Map<R, V>",
+  "items": []
+}

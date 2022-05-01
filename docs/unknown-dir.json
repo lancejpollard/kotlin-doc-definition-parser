@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "dir",
+  "signature": "var dir: String",
+  "items": []
+}

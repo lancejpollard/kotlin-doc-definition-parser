@@ -1,0 +1,59 @@
+{
+  "type": "unknown",
+  "name": "WebSocket",
+  "signature": "open class WebSocket : EventTarget",
+  "items": [
+    {
+      "text": "WebSocket( url: String, protocols: dynamic = definedExternally)",
+      "desc": "Exposes the JavaScript WebSocket to Kotlin"
+    },
+    {
+      "text": "var binaryType: BinaryType"
+    },
+    {
+      "text": "open val bufferedAmount: Number"
+    },
+    {
+      "text": "open val extensions: String"
+    },
+    {
+      "text": "var onclose: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onerror: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "var onmessage: ((MessageEvent) -> dynamic)?"
+    },
+    {
+      "text": "var onopen: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open val protocol: String"
+    },
+    {
+      "text": "open val readyState: Short"
+    },
+    {
+      "text": "open val url: String"
+    },
+    {
+      "text": "fun close( code: Short = definedExternally, reason: String = definedExternally)"
+    },
+    {
+      "text": "fun send(data: String)"
+    },
+    {
+      "text": "val CLOSED: Short"
+    },
+    {
+      "text": "val CLOSING: Short"
+    },
+    {
+      "text": "val CONNECTING: Short"
+    },
+    {
+      "text": "val OPEN: Short"
+    }
+  ]
+}

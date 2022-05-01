@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "EndOfStreamError",
+  "signature": "interface EndOfStreamError",
+  "items": [
+    {
+      "text": "val EndOfStreamError.Companion.DECODE: EndOfStreamError"
+    },
+    {
+      "text": "val EndOfStreamError.Companion.NETWORK: EndOfStreamError"
+    }
+  ]
+}

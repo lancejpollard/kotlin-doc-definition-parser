@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "caretPositionFromPoint",
+  "signature": "fun caretPositionFromPoint( x: Double, y: Double): CaretPosition?",
+  "items": []
+}

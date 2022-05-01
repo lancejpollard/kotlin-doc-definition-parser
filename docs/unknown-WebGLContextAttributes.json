@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "WebGLContextAttributes",
+  "signature": "fun WebGLContextAttributes( alpha: Boolean? = true, depth: Boolean? = true, stencil: Boolean? = false, antialias: Boolean? = true, premultipliedAlpha: Boolean? = true, preserveDrawingBuffer: Boolean? = false, preferLowPowerToHighPerformance: Boolean? = false, failIfMajorPerformanceCaveat: Boolean? = false): WebGLContextAttributes",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FocusEventInit",
+  "signature": "fun FocusEventInit( relatedTarget: EventTarget? = null, view: Window? = null, detail: Int? = 0, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): FocusEventInit",
+  "items": []
+}

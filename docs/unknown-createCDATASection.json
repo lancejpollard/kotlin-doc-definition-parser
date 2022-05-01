@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createCDATASection",
+  "signature": "fun createCDATASection(data: String): CDATASection",
+  "items": []
+}

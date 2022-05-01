@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "hasNext",
+  "signature": "abstract operator fun hasNext(): Boolean",
+  "items": []
+}

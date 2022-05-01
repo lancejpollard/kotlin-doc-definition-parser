@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "timerTask",
+  "signature": "inline fun timerTask( crossinline action: TimerTask.() -> Unit): TimerTask",
+  "items": []
+}

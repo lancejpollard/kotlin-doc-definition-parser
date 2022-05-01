@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getUShortAt",
+  "signature": "@ExperimentalUnsignedTypes fun ByteArray.getUShortAt( index: Int): UShort",
+  "items": []
+}

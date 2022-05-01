@@ -1,0 +1,23 @@
+{
+  "type": "unknown",
+  "name": "appendLine",
+  "signatures": [
+    {
+      "text": "fun Appendable.appendLine(): Appendable",
+      "desc": "Appends a line feed character (\\n) to this Appendable."
+    },
+    {
+      "text": "fun Appendable.appendLine(value: CharSequence?): Appendable",
+      "desc": "Appends value to the given Appendable and a line feed character (\\n) after it."
+    },
+    {
+      "text": "fun StringBuilder.appendLine(): StringBuilder",
+      "desc": "Appends a line feed character (\\n) to this StringBuilder."
+    },
+    {
+      "text": "fun StringBuilder.appendLine( value: CharSequence?): StringBuilder",
+      "desc": "Appends value to this StringBuilder, followed by a line feed character (\\n)."
+    }
+  ],
+  "items": []
+}

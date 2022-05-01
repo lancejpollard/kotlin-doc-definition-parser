@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "starProjectedType",
+  "signature": "val KClassifier.starProjectedType: KType",
+  "items": []
+}

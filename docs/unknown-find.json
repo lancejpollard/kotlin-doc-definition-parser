@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "find",
+  "signature": "inline fun CharSequence.find( predicate: (Char) -> Boolean): Char?",
+  "items": []
+}

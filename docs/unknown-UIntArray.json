@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "UIntArray",
+  "signature": "@ExperimentalUnsignedTypes inline fun UIntArray( size: Int, init: (Int) -> UInt): UIntArray",
+  "items": []
+}

@@ -1,0 +1,39 @@
+{
+  "type": "unknown",
+  "name": "Appendable",
+  "signature": "interface Appendable",
+  "items": [
+    {
+      "text": "abstract fun append(value: Char): Appendable",
+      "desc": "Appends the specified character value to this Appendable and returns this instance."
+    },
+    {
+      "text": "abstract fun append(value: CharSequence?): Appendable",
+      "desc": "Appends the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "abstract fun append( value: CharSequence?, startIndex: Int, endIndex: Int): Appendable",
+      "desc": "Appends a subsequence of the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "fun <T : Appendable> T.append(vararg value: CharSequence?): T",
+      "desc": "Appends all arguments to the given Appendable."
+    },
+    {
+      "text": "fun Appendable.appendLine(): Appendable",
+      "desc": "Appends a line feed character (\\n) to this Appendable."
+    },
+    {
+      "text": "fun Appendable.appendLine(value: CharSequence?): Appendable",
+      "desc": "Appends value to the given Appendable and a line feed character (\\n) after it."
+    },
+    {
+      "text": "fun <T : Appendable> T.appendRange( value: CharSequence, startIndex: Int, endIndex: Int): T",
+      "desc": "Appends a subsequence of the specified character sequence value to this Appendable and returns this instance."
+    },
+    {
+      "text": "class StringBuilder : Appendable, CharSequence",
+      "desc": "A mutable sequence of characters."
+    }
+  ]
+}

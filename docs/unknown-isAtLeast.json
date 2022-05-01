@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "isAtLeast",
+  "signatures": [
+    {
+      "text": "fun isAtLeast(major: Int, minor: Int): Boolean",
+      "desc": "Returns true if this version is not less than the version specified with the provided major and minor components."
+    },
+    {
+      "text": "fun isAtLeast(major: Int, minor: Int, patch: Int): Boolean",
+      "desc": "Returns true if this version is not less than the version specified with the provided major, minor and patch components."
+    }
+  ],
+  "items": []
+}

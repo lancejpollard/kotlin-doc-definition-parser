@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "replaceIndent",
+  "signature": "fun String.replaceIndent(newIndent: String = \"\"): String",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onmouseleave",
+  "signature": "open var onmouseleave: ((MouseEvent) -> dynamic)?",
+  "items": []
+}

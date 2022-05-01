@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "contentToString",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\") fun <T> Array<out T>.contentToString(): String",
+      "desc": "Returns a string representation of the contents of the specified array as if it is List."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\") @ExperimentalUnsignedTypes fun UIntArray.contentToString(): String",
+      "desc": "Returns a string representation of the contents of the specified array as if it is List."
+    }
+  ],
+  "items": []
+}

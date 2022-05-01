@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "getOrNull",
+  "signature": "fun getOrNull(): T?",
+  "items": []
+}

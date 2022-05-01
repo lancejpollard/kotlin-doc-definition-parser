@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "fromBits",
+  "signatures": [
+    {
+      "text": "fun Double.Companion.fromBits(bits: Long): Double",
+      "desc": "Returns the Double value corresponding to a given bit representation."
+    },
+    {
+      "text": "fun Float.Companion.fromBits(bits: Int): Float",
+      "desc": "Returns the Float value corresponding to a given bit representation."
+    }
+  ],
+  "items": []
+}

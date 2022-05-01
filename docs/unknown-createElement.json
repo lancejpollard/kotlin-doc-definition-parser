@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "createElement",
+  "signature": "fun createElement( localName: String, options: ElementCreationOptions = definedExternally): Element",
+  "items": []
+}

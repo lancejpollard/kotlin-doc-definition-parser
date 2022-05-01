@@ -1,0 +1,13 @@
+{
+  "type": "unknown",
+  "name": "WorkerType",
+  "signature": "interface WorkerType",
+  "items": [
+    {
+      "text": "val WorkerType.Companion.CLASSIC: WorkerType"
+    },
+    {
+      "text": "val WorkerType.Companion.MODULE: WorkerType"
+    }
+  ]
+}

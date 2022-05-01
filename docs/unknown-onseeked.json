@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onseeked",
+  "signature": "open var onseeked: ((Event) -> dynamic)?",
+  "items": []
+}

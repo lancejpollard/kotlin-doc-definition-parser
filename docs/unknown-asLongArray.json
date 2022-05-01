@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "asLongArray",
+  "signature": "@ExperimentalUnsignedTypes fun ULongArray.asLongArray(): LongArray",
+  "items": []
+}

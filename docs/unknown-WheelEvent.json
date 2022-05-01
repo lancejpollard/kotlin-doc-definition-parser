@@ -1,0 +1,44 @@
+{
+  "type": "unknown",
+  "name": "WheelEvent",
+  "signature": "open class WheelEvent : MouseEvent",
+  "items": [
+    {
+      "text": "WheelEvent( type: String, eventInitDict: WheelEventInit = definedExternally)",
+      "desc": "Exposes the JavaScript WheelEvent to Kotlin"
+    },
+    {
+      "text": "open val deltaMode: Int"
+    },
+    {
+      "text": "open val deltaX: Double"
+    },
+    {
+      "text": "open val deltaY: Double"
+    },
+    {
+      "text": "open val deltaZ: Double"
+    },
+    {
+      "text": "val AT_TARGET: Short"
+    },
+    {
+      "text": "val BUBBLING_PHASE: Short"
+    },
+    {
+      "text": "val CAPTURING_PHASE: Short"
+    },
+    {
+      "text": "val DOM_DELTA_LINE: Int"
+    },
+    {
+      "text": "val DOM_DELTA_PAGE: Int"
+    },
+    {
+      "text": "val DOM_DELTA_PIXEL: Int"
+    },
+    {
+      "text": "val NONE: Short"
+    }
+  ]
+}

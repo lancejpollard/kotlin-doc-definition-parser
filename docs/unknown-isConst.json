@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isConst",
+  "signature": "abstract val isConst: Boolean",
+  "items": []
+}

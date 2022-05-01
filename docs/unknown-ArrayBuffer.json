@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ARRAYBUFFER",
+  "signature": "inline val XMLHttpRequestResponseType.Companion.ARRAYBUFFER: XMLHttpRequestResponseType",
+  "items": []
+}

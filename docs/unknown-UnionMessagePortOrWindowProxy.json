@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "UnionMessagePortOrWindowProxy",
+  "signature": "interface UnionMessagePortOrWindowProxy",
+  "items": [
+    {
+      "text": "abstract class MessagePort : EventTarget, UnionMessagePortOrWindowProxy, UnionMessagePortOrServiceWorker, UnionClientOrMessagePortOrServiceWorker",
+      "desc": "Exposes the JavaScript MessagePort to Kotlin"
+    },
+    {
+      "text": "abstract class Window : EventTarget, GlobalEventHandlers, WindowEventHandlers, WindowOrWorkerGlobalScope, WindowSessionStorage, WindowLocalStorage, GlobalPerformance, UnionMessagePortOrWindowProxy",
+      "desc": "Exposes the JavaScript Window to Kotlin"
+    }
+  ]
+}

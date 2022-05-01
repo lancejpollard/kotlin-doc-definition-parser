@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isText",
+  "signature": "val Node.isText: Boolean",
+  "items": []
+}

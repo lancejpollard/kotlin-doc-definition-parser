@@ -1,0 +1,163 @@
+{
+  "type": "package",
+  "name": "org.w3c.fetch",
+  "items": [
+    {
+      "text": "interface Body",
+      "desc": "Exposes the JavaScript Body to Kotlin"
+    },
+    {
+      "text": "open class Headers",
+      "desc": "Exposes the JavaScript Headers to Kotlin"
+    },
+    {
+      "text": "open class Request : Body",
+      "desc": "Exposes the JavaScript Request to Kotlin"
+    },
+    {
+      "text": "interface RequestCache"
+    },
+    {
+      "text": "interface RequestCredentials"
+    },
+    {
+      "text": "interface RequestDestination"
+    },
+    {
+      "text": "interface RequestInit"
+    },
+    {
+      "text": "interface RequestMode"
+    },
+    {
+      "text": "interface RequestRedirect"
+    },
+    {
+      "text": "interface RequestType"
+    },
+    {
+      "text": "open class Response : Body",
+      "desc": "Exposes the JavaScript Response to Kotlin"
+    },
+    {
+      "text": "interface ResponseInit"
+    },
+    {
+      "text": "interface ResponseType"
+    },
+    {
+      "text": "fun RequestInit( method: String? = undefined, headers: dynamic = undefined, body: dynamic = undefined, referrer: String? = undefined, referrerPolicy: dynamic = undefined, mode: RequestMode? = undefined, credentials: RequestCredentials? = undefined, cache: RequestCache? = undefined, redirect: RequestRedirect? = undefined, integrity: String? = undefined, keepalive: Boolean? = undefined, window: Any? = undefined): RequestInit"
+    },
+    {
+      "text": "fun ResponseInit( status: Short? = 200, statusText: String? = \"OK\", headers: dynamic = undefined): ResponseInit"
+    },
+    {
+      "text": "val RequestType.Companion.AUDIO: RequestType"
+    },
+    {
+      "text": "val ResponseType.Companion.BASIC: ResponseType"
+    },
+    {
+      "text": "val RequestMode.Companion.CORS: RequestMode"
+    },
+    {
+      "text": "val RequestCache.Companion.DEFAULT: RequestCache"
+    },
+    {
+      "text": "val RequestDestination.Companion.DOCUMENT: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.EMBED: RequestDestination"
+    },
+    {
+      "text": "val RequestType.Companion.EMPTY: RequestType"
+    },
+    {
+      "text": "val RequestRedirect.Companion.ERROR: RequestRedirect"
+    },
+    {
+      "text": "val RequestRedirect.Companion.FOLLOW: RequestRedirect"
+    },
+    {
+      "text": "val RequestType.Companion.FONT: RequestType"
+    },
+    {
+      "text": "val RequestCache.Companion.FORCE_CACHE: RequestCache"
+    },
+    {
+      "text": "val RequestType.Companion.IMAGE: RequestType"
+    },
+    {
+      "text": "val RequestCredentials.Companion.INCLUDE: RequestCredentials"
+    },
+    {
+      "text": "val RequestDestination.Companion.MANIFEST: RequestDestination"
+    },
+    {
+      "text": "val RequestRedirect.Companion.MANUAL: RequestRedirect"
+    },
+    {
+      "text": "val RequestDestination.Companion.MEDIA: RequestDestination"
+    },
+    {
+      "text": "val RequestMode.Companion.NAVIGATE: RequestMode"
+    },
+    {
+      "text": "val RequestCache.Companion.NO_CACHE: RequestCache"
+    },
+    {
+      "text": "val RequestMode.Companion.NO_CORS: RequestMode"
+    },
+    {
+      "text": "val RequestCache.Companion.NO_STORE: RequestCache"
+    },
+    {
+      "text": "val RequestDestination.Companion.OBJECT: RequestDestination"
+    },
+    {
+      "text": "val RequestCredentials.Companion.OMIT: RequestCredentials"
+    },
+    {
+      "text": "val RequestCache.Companion.ONLY_IF_CACHED: RequestCache"
+    },
+    {
+      "text": "val ResponseType.Companion.OPAQUE: ResponseType"
+    },
+    {
+      "text": "val ResponseType.Companion.OPAQUEREDIRECT: ResponseType"
+    },
+    {
+      "text": "val RequestCache.Companion.RELOAD: RequestCache"
+    },
+    {
+      "text": "val RequestDestination.Companion.REPORT: RequestDestination"
+    },
+    {
+      "text": "val RequestMode.Companion.SAME_ORIGIN: RequestMode"
+    },
+    {
+      "text": "val RequestType.Companion.SCRIPT: RequestType"
+    },
+    {
+      "text": "val RequestDestination.Companion.SERVICEWORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.SHAREDWORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestType.Companion.STYLE: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.TRACK: RequestType"
+    },
+    {
+      "text": "val RequestType.Companion.VIDEO: RequestType"
+    },
+    {
+      "text": "val RequestDestination.Companion.WORKER: RequestDestination"
+    },
+    {
+      "text": "val RequestDestination.Companion.XSLT: RequestDestination"
+    }
+  ]
+}

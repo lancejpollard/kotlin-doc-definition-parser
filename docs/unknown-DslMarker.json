@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "DslMarker",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class DslMarker",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "When applied to annotation class X specifies that X defines a DSL language"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

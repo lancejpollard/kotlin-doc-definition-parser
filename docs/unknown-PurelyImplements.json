@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "PurelyImplements",
+  "signature": "@Target([AnnotationTarget.CLASS]) annotation class PurelyImplements",
+  "items": [
+    {
+      "text": "PurelyImplements(value: String)",
+      "desc": "Instructs the Kotlin compiler to treat annotated Java class as pure implementation of given Kotlin interface. \"Pure\" means here that each type parameter of class becomes non-platform type argument of that interface."
+    },
+    {
+      "text": "val value: String"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

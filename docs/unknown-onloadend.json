@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onloadend",
+  "signature": "open var onloadend: ((Event) -> dynamic)?",
+  "items": []
+}

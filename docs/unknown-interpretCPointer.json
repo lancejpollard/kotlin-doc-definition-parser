@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "interpretCPointer",
+  "signature": "fun <T : CPointed> interpretCPointer( rawValue: NativePtr): CPointer<T>?",
+  "items": []
+}

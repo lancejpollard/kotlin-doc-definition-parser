@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "JvmOverloads",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.CONSTRUCTOR]) annotation class JvmOverloads",
+  "items": [
+    {
+      "text": "<init>()",
+      "desc": "Instructs the Kotlin compiler to generate overloads for this function that substitute default parameter values."
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

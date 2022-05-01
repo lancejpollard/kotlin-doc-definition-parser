@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "contentHashCode",
+  "signatures": [
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\") fun <T> Array<out T>.contentHashCode(): Int",
+      "desc": "Returns a hash code based on the contents of this array as if it is List."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.4\") @ExperimentalUnsignedTypes fun UIntArray.contentHashCode(): Int",
+      "desc": "Returns a hash code based on the contents of this array as if it is List."
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "waitForMultipleFutures",
+  "signature": "fun <T> Collection<Future<T>>.waitForMultipleFutures( millis: Int): Set<Future<T>>",
+  "items": []
+}

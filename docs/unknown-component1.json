@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "component1",
+  "signatures": [
+    {
+      "text": "operator fun <T> Array<out T>.component1(): T",
+      "desc": "Returns 1st element from the array."
+    },
+    {
+      "text": "operator fun <T> List<T>.component1(): T",
+      "desc": "Returns 1st element from the list."
+    },
+    {
+      "text": "operator fun <K, V> Entry<K, V>.component1(): K",
+      "desc": "Returns the key component of the map entry."
+    }
+  ],
+  "items": []
+}

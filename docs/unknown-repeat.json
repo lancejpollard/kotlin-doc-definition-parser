@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "repeat",
+  "signature": "fun CharSequence.repeat(n: Int): String",
+  "items": []
+}

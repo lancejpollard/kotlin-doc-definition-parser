@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "mapIndexedTo",
+  "signature": "inline fun <R, C : MutableCollection<in R>> CharSequence.mapIndexedTo( destination: C, transform: (index: Int, Char) -> R): C",
+  "items": []
+}

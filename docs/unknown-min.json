@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "min",
+  "signature": "@DeprecatedSinceKotlin(\"1.4\", \"1.5\", \"1.6\") fun CharSequence.min(): Char?",
+  "items": []
+}

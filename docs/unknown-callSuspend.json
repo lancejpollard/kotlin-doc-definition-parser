@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "callSuspend",
+  "signature": "suspend fun <R> KCallable<R>.callSuspend( vararg args: Any?): R",
+  "items": []
+}

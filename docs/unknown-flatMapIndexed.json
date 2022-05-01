@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "flatMapIndexed",
+  "signature": "@JvmName(\"flatMapIndexedIterable\") inline fun <R> CharSequence.flatMapIndexed( transform: (index: Int, Char) -> Iterable<R>): List<R>",
+  "items": []
+}

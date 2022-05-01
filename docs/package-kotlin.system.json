@@ -1,0 +1,34 @@
+{
+  "type": "package",
+  "name": "kotlin.system",
+  "items": [
+    {
+      "text": "fun exitProcess(status: Int): Nothing",
+      "desc": "Terminates the currently running process."
+    },
+    {
+      "text": "fun getTimeMicros(): Long",
+      "desc": "Gets current system time in microseconds since certain moment in the past, only delta between two subsequent calls makes sense."
+    },
+    {
+      "text": "fun getTimeMillis(): Long",
+      "desc": "Gets current system time in milliseconds since certain moment in the past, only delta between two subsequent calls makes sense."
+    },
+    {
+      "text": "fun getTimeNanos(): Long",
+      "desc": "Gets current system time in nanoseconds since certain moment in the past, only delta between two subsequent calls makes sense."
+    },
+    {
+      "text": "fun measureNanoTime(block: () -> Unit): Long",
+      "desc": "Executes the given block and returns elapsed time in nanoseconds."
+    },
+    {
+      "text": "fun measureTimeMicros(block: () -> Unit): Long",
+      "desc": "Executes the given block and returns elapsed time in microseconds (Kotlin/Native only)."
+    },
+    {
+      "text": "fun measureTimeMillis(block: () -> Unit): Long",
+      "desc": "Executes the given block and returns elapsed time in milliseconds."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Target",
+  "signature": "@Target([AnnotationTarget.ANNOTATION_CLASS]) annotation class Target",
+  "items": [
+    {
+      "text": "<init>(vararg allowedTargets: AnnotationTarget)",
+      "desc": "This meta-annotation indicates the kinds of code elements which are possible targets of an annotation."
+    },
+    {
+      "text": "vararg val allowedTargets: Array<out AnnotationTarget>",
+      "desc": "list of allowed annotation targets"
+    },
+    {
+      "text": "val <T : Annotation> T.annotationClass: KClass<out T>",
+      "desc": "Returns a KClass instance corresponding to the annotation type of this annotation."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "unzip",
+  "signature": "fun <T, R> Sequence<Pair<T, R>>.unzip(): Pair<List<T>, List<R>>",
+  "items": []
+}

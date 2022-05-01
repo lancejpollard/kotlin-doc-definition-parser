@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "RandomAccess",
+  "signature": "interface RandomAccess",
+  "items": [
+    {
+      "text": "class ArrayList<E> : MutableList<E>, RandomAccess",
+      "desc": "Provides a MutableList implementation, which uses a resizable array as its backing storage."
+    }
+  ]
+}

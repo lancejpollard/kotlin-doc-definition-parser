@@ -1,0 +1,33 @@
+{
+  "type": "unknown",
+  "name": "Plugin",
+  "signature": "abstract class Plugin : ItemArrayLike<MimeType>",
+  "items": [
+    {
+      "text": "Plugin()",
+      "desc": "Exposes the JavaScript Plugin to Kotlin"
+    },
+    {
+      "text": "open val description: String"
+    },
+    {
+      "text": "open val filename: String"
+    },
+    {
+      "text": "open val name: String"
+    },
+    {
+      "text": "open fun item(index: Int): MimeType?"
+    },
+    {
+      "text": "fun namedItem(name: String): MimeType?"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun Plugin.get(index: Int): MimeType?"
+    }
+  ]
+}

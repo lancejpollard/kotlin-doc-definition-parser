@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "putAll",
+  "signature": "abstract fun putAll(from: Map<out K, V>)",
+  "items": []
+}

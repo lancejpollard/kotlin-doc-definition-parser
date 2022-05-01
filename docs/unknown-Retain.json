@@ -1,0 +1,11 @@
+{
+  "type": "unknown",
+  "name": "Retain",
+  "signature": "@Target([AnnotationTarget.FUNCTION, AnnotationTarget.CLASS]) annotation class Retain",
+  "items": [
+    {
+      "text": "Retain()",
+      "desc": "Preserve the function entry point during global optimizations."
+    }
+  ]
+}

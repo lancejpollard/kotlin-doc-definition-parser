@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "isAccessible",
+  "signature": "var KCallable<*>.isAccessible: Boolean",
+  "items": []
+}

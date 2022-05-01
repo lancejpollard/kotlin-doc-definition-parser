@@ -1,0 +1,27 @@
+{
+  "type": "unknown",
+  "name": "shuffle",
+  "signatures": [
+    {
+      "text": "fun <T> Array<T>.shuffle()",
+      "desc": "Randomly shuffles elements in this array in-place."
+    },
+    {
+      "text": "fun <T> Array<T>.shuffle(random: Random)",
+      "desc": "Randomly shuffles elements in this array in-place using the specified random instance as the source of randomness."
+    },
+    {
+      "text": "fun <T> MutableList<T>.shuffle(random: Random)",
+      "desc": "Randomly shuffles elements in this list in-place using the specified random instance as the source of randomness."
+    },
+    {
+      "text": "fun <T> MutableList<T>.shuffle()",
+      "desc": "Randomly shuffles elements in this mutable list."
+    },
+    {
+      "text": "fun <T> MutableList<T>.shuffle(random: Random)",
+      "desc": "Randomly shuffles elements in this mutable list using the specified random instance as the source of randomness."
+    }
+  ],
+  "items": []
+}

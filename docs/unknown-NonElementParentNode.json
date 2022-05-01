@@ -1,0 +1,18 @@
+{
+  "type": "unknown",
+  "name": "NonElementParentNode",
+  "signature": "interface NonElementParentNode",
+  "items": [
+    {
+      "text": "abstract fun getElementById(elementId: String): Element?"
+    },
+    {
+      "text": "open class Document : Node, GlobalEventHandlers, DocumentAndElementEventHandlers, NonElementParentNode, DocumentOrShadowRoot, ParentNode, GeometryUtils",
+      "desc": "Exposes the JavaScript Document to Kotlin"
+    },
+    {
+      "text": "open class DocumentFragment : Node, NonElementParentNode, ParentNode",
+      "desc": "Exposes the JavaScript DocumentFragment to Kotlin"
+    }
+  ]
+}

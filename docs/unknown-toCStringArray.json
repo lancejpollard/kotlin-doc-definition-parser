@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toCStringArray",
+  "signatures": [
+    {
+      "text": "fun List<String>.toCStringArray( autofreeScope: AutofreeScope): CPointer<CPointerVar<ByteVar>>",
+      "desc": "Convert this list of Kotlin strings to C array of C strings, allocating memory for the array and C strings with given AutofreeScope."
+    },
+    {
+      "text": "fun Array<String>.toCStringArray( autofreeScope: AutofreeScope): CPointer<CPointerVar<ByteVar>>",
+      "desc": "Convert this array of Kotlin strings to C array of C strings, allocating memory for the array and C strings with given AutofreeScope."
+    }
+  ],
+  "items": []
+}

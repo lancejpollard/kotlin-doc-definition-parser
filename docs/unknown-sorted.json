@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sorted",
+  "signature": "fun <T : Comparable<T>> Sequence<T>.sorted(): Sequence<T>",
+  "items": []
+}

@@ -1,0 +1,83 @@
+{
+  "type": "unknown",
+  "name": "Comment",
+  "signature": "open class Comment : CharacterData",
+  "items": [
+    {
+      "text": "Comment(data: String = definedExternally)",
+      "desc": "Exposes the JavaScript Comment to Kotlin"
+    },
+    {
+      "text": "open val nextElementSibling: Element?"
+    },
+    {
+      "text": "open val previousElementSibling: Element?"
+    },
+    {
+      "text": "open fun after(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun before(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun remove()"
+    },
+    {
+      "text": "open fun replaceWith(vararg nodes: dynamic)"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

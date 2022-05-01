@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toCPointer",
+  "signature": "fun <T : CPointed> Long.toCPointer(): CPointer<T>?",
+  "items": []
+}

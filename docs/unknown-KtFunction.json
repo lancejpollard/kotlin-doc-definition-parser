@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "KtFunction",
+  "signature": "typealias KtFunction<R> = (ArrayList<JsValue>) -> R",
+  "items": []
+}

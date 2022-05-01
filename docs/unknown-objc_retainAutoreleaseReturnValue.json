@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "objc_retainAutoreleaseReturnValue",
+  "signature": "fun objc_retainAutoreleaseReturnValue( ptr: NativePtr): NativePtr",
+  "items": []
+}

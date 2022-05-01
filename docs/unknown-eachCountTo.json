@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "eachCountTo",
+  "signature": "fun <T, K, M : MutableMap<in K, Int>> Grouping<T, K>.eachCountTo( destination: M): M",
+  "items": []
+}

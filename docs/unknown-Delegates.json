@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "Delegates",
+  "signature": "object Delegates",
+  "items": [
+    {
+      "text": "fun <T : Any> notNull(): ReadWriteProperty<Any?, T>",
+      "desc": "Returns a property delegate for a read/write property with a non-null value that is initialized not during object construction time but at a later time. Trying to read the property before the initial value has been assigned results in an exception."
+    },
+    {
+      "text": "fun <T> observable( initialValue: T, onChange: (property: KProperty<*>, oldValue: T, newValue: T) -> Unit): ReadWriteProperty<Any?, T>",
+      "desc": "Returns a property delegate for a read/write property that calls a specified callback function when changed."
+    },
+    {
+      "text": "fun <T> vetoable( initialValue: T, onChange: (property: KProperty<*>, oldValue: T, newValue: T) -> Boolean): ReadWriteProperty<Any?, T>",
+      "desc": "Returns a property delegate for a read/write property that calls a specified callback function when changed, allowing the callback to veto the modification."
+    }
+  ]
+}

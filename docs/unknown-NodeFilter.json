@@ -1,0 +1,58 @@
+{
+  "type": "unknown",
+  "name": "NodeFilter",
+  "signature": "interface NodeFilter",
+  "items": [
+    {
+      "text": "abstract fun acceptNode(node: Node): Short"
+    },
+    {
+      "text": "val FILTER_ACCEPT: Short"
+    },
+    {
+      "text": "val FILTER_REJECT: Short"
+    },
+    {
+      "text": "val FILTER_SKIP: Short"
+    },
+    {
+      "text": "val SHOW_ALL: Int"
+    },
+    {
+      "text": "val SHOW_ATTRIBUTE: Int"
+    },
+    {
+      "text": "val SHOW_CDATA_SECTION: Int"
+    },
+    {
+      "text": "val SHOW_COMMENT: Int"
+    },
+    {
+      "text": "val SHOW_DOCUMENT: Int"
+    },
+    {
+      "text": "val SHOW_DOCUMENT_FRAGMENT: Int"
+    },
+    {
+      "text": "val SHOW_DOCUMENT_TYPE: Int"
+    },
+    {
+      "text": "val SHOW_ELEMENT: Int"
+    },
+    {
+      "text": "val SHOW_ENTITY: Int"
+    },
+    {
+      "text": "val SHOW_ENTITY_REFERENCE: Int"
+    },
+    {
+      "text": "val SHOW_NOTATION: Int"
+    },
+    {
+      "text": "val SHOW_PROCESSING_INSTRUCTION: Int"
+    },
+    {
+      "text": "val SHOW_TEXT: Int"
+    }
+  ]
+}

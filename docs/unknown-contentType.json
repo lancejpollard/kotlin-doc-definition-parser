@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "contentType",
+  "signature": "open val contentType: String",
+  "items": []
+}

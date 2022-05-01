@@ -1,0 +1,16 @@
+{
+  "type": "unknown",
+  "name": "CanvasLineCap",
+  "signature": "interface CanvasLineCap",
+  "items": [
+    {
+      "text": "val CanvasLineCap.Companion.BUTT: CanvasLineCap"
+    },
+    {
+      "text": "val CanvasLineCap.Companion.ROUND: CanvasLineCap"
+    },
+    {
+      "text": "val CanvasLineCap.Companion.SQUARE: CanvasLineCap"
+    }
+  ]
+}

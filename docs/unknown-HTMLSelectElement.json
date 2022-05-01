@@ -1,0 +1,150 @@
+{
+  "type": "unknown",
+  "name": "HTMLSelectElement",
+  "signature": "abstract class HTMLSelectElement : HTMLElement, ItemArrayLike<Element>",
+  "items": [
+    {
+      "text": "HTMLSelectElement()",
+      "desc": "Exposes the JavaScript HTMLSelectElement to Kotlin"
+    },
+    {
+      "text": "open var autocomplete: String"
+    },
+    {
+      "text": "open var autofocus: Boolean"
+    },
+    {
+      "text": "open var disabled: Boolean"
+    },
+    {
+      "text": "open val form: HTMLFormElement?"
+    },
+    {
+      "text": "open val labels: NodeList"
+    },
+    {
+      "text": "open var length: Int"
+    },
+    {
+      "text": "open var multiple: Boolean"
+    },
+    {
+      "text": "open var name: String"
+    },
+    {
+      "text": "open val options: HTMLOptionsCollection"
+    },
+    {
+      "text": "open var required: Boolean"
+    },
+    {
+      "text": "open var selectedIndex: Int"
+    },
+    {
+      "text": "open val selectedOptions: HTMLCollection"
+    },
+    {
+      "text": "open var size: Int"
+    },
+    {
+      "text": "open val type: String"
+    },
+    {
+      "text": "open val validationMessage: String"
+    },
+    {
+      "text": "open val validity: ValidityState"
+    },
+    {
+      "text": "open var value: String"
+    },
+    {
+      "text": "open val willValidate: Boolean"
+    },
+    {
+      "text": "fun add( element: UnionHTMLOptGroupElementOrHTMLOptionElement, before: dynamic = definedExternally)"
+    },
+    {
+      "text": "fun checkValidity(): Boolean"
+    },
+    {
+      "text": "open fun item(index: Int): Element?"
+    },
+    {
+      "text": "fun namedItem(name: String): HTMLOptionElement?"
+    },
+    {
+      "text": "fun remove(index: Int)"
+    },
+    {
+      "text": "fun reportValidity(): Boolean"
+    },
+    {
+      "text": "fun setCustomValidity(error: String)"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    },
+    {
+      "text": "fun <T> ItemArrayLike<T>.asList(): List<T>",
+      "desc": "Returns the view of this ItemArrayLike<T> collection as List<T>"
+    },
+    {
+      "text": "operator fun HTMLSelectElement.get(index: Int): Element?"
+    },
+    {
+      "text": "operator fun HTMLSelectElement.set( index: Int, option: HTMLOptionElement?)"
+    }
+  ]
+}

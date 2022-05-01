@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "superclasses",
+  "signature": "val KClass<*>.superclasses: List<KClass<*>>",
+  "items": []
+}

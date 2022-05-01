@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MIN_CODE_POINT",
+  "signature": "const val MIN_CODE_POINT: Int",
+  "items": []
+}

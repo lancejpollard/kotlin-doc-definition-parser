@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "log2",
+  "signature": "fun log2(x: Double): Double",
+  "items": []
+}

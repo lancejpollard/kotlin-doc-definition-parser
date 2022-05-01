@@ -1,0 +1,38 @@
+{
+  "type": "unknown",
+  "name": "WorkerLocation",
+  "signature": "abstract class WorkerLocation",
+  "items": [
+    {
+      "text": "WorkerLocation()",
+      "desc": "Exposes the JavaScript WorkerLocation to Kotlin"
+    },
+    {
+      "text": "open val hash: String"
+    },
+    {
+      "text": "open val host: String"
+    },
+    {
+      "text": "open val hostname: String"
+    },
+    {
+      "text": "open val href: String"
+    },
+    {
+      "text": "open val origin: String"
+    },
+    {
+      "text": "open val pathname: String"
+    },
+    {
+      "text": "open val port: String"
+    },
+    {
+      "text": "open val protocol: String"
+    },
+    {
+      "text": "open val search: String"
+    }
+  ]
+}

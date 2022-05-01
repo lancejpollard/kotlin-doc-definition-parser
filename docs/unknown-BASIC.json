@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "BASIC",
+  "signature": "inline val ResponseType.Companion.BASIC: ResponseType",
+  "items": []
+}

@@ -1,0 +1,46 @@
+{
+  "type": "unknown",
+  "name": "sort",
+  "signatures": [
+    {
+      "text": "fun IntArray.sort()",
+      "desc": "Sorts the array in-place."
+    },
+    {
+      "text": "fun <T : Comparable<T>> Array<out T>.sort()",
+      "desc": "Sorts the array in-place according to the natural order of its elements."
+    },
+    {
+      "text": "fun <T : Comparable<T>> Array<out T>.sort( fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Sorts a range in the array in-place."
+    },
+    {
+      "text": "fun ByteArray.sort(fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Sorts a range in the array in-place."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.sort()",
+      "desc": "Sorts the array in-place."
+    },
+    {
+      "text": "@ExperimentalUnsignedTypes fun UIntArray.sort( fromIndex: Int = 0, toIndex: Int = size)",
+      "desc": "Sorts a range in the array in-place."
+    },
+    {
+      "text": "fun <T : Comparable<T>> MutableList<T>.sort()",
+      "desc": "Sorts elements in the list in-place according to their natural sort order."
+    },
+    {
+      "text": "fun <T> MutableList<T>.sort(comparator: Comparator<in T>)"
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.6\") fun <T> Array<out T>.sort( comparison: (a: T, b: T) -> Int)",
+      "desc": "Sorts the array in-place according to the order specified by the given comparison function."
+    },
+    {
+      "text": "@DeprecatedSinceKotlin(\"1.6\") inline fun ByteArray.sort( noinline comparison: (a: Byte, b: Byte) -> Int)",
+      "desc": "Sorts the array in-place according to the order specified by the given comparison function."
+    }
+  ],
+  "items": []
+}

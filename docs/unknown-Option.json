@@ -1,0 +1,353 @@
+{
+  "type": "unknown",
+  "name": "Option",
+  "signature": "open class Option : HTMLOptionElement",
+  "items": [
+    {
+      "text": "Option( text: String = definedExternally, value: String = definedExternally, defaultSelected: Boolean = definedExternally, selected: Boolean = definedExternally)",
+      "desc": "Exposes the JavaScript Option to Kotlin"
+    },
+    {
+      "text": "open val assignedSlot: HTMLSlotElement?"
+    },
+    {
+      "text": "open val childElementCount: Int"
+    },
+    {
+      "text": "open val children: HTMLCollection"
+    },
+    {
+      "text": "open var contentEditable: String"
+    },
+    {
+      "text": "open val firstElementChild: Element?"
+    },
+    {
+      "text": "open val isContentEditable: Boolean"
+    },
+    {
+      "text": "open val lastElementChild: Element?"
+    },
+    {
+      "text": "open val nextElementSibling: Element?"
+    },
+    {
+      "text": "open var onabort: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onblur: ((FocusEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncancel: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncanplay: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncanplaythrough: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onclick: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onclose: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncontextmenu: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncopy: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oncuechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var oncut: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondblclick: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondrag: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragend: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragenter: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragexit: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragleave: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragover: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondragstart: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondrop: ((DragEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ondurationchange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onemptied: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onended: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onerror: ((dynamic, String, Int, Int, Any?) -> dynamic)?"
+    },
+    {
+      "text": "open var onfocus: ((FocusEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var ongotpointercapture: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oninput: ((InputEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var oninvalid: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeydown: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeypress: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onkeyup: ((KeyboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onload: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadeddata: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadedmetadata: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onloadstart: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onlostpointercapture: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmousedown: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseenter: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseleave: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmousemove: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseout: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseover: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onmouseup: ((MouseEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpaste: ((ClipboardEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpause: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onplay: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onplaying: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointercancel: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerdown: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerenter: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerleave: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointermove: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerout: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerover: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onpointerup: ((PointerEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onprogress: ((ProgressEvent) -> dynamic)?"
+    },
+    {
+      "text": "open var onratechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onreset: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onresize: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onscroll: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onseeked: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onseeking: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onselect: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onshow: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onstalled: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onsubmit: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onsuspend: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ontimeupdate: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var ontoggle: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onvolumechange: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onwaiting: ((Event) -> dynamic)?"
+    },
+    {
+      "text": "open var onwheel: ((WheelEvent) -> dynamic)?"
+    },
+    {
+      "text": "open val previousElementSibling: Element?"
+    },
+    {
+      "text": "open val style: CSSStyleDeclaration"
+    },
+    {
+      "text": "open fun after(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun append(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun before(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun convertPointFromNode( point: DOMPointInit, from: dynamic, options: ConvertCoordinateOptions): DOMPoint"
+    },
+    {
+      "text": "open fun convertQuadFromNode( quad: dynamic, from: dynamic, options: ConvertCoordinateOptions): DOMQuad"
+    },
+    {
+      "text": "open fun convertRectFromNode( rect: DOMRectReadOnly, from: dynamic, options: ConvertCoordinateOptions): DOMQuad"
+    },
+    {
+      "text": "open fun getBoxQuads(options: BoxQuadOptions): Array<DOMQuad>"
+    },
+    {
+      "text": "open fun prepend(vararg nodes: dynamic)"
+    },
+    {
+      "text": "open fun querySelector(selectors: String): Element?"
+    },
+    {
+      "text": "open fun querySelectorAll(selectors: String): NodeList"
+    },
+    {
+      "text": "open fun remove()"
+    },
+    {
+      "text": "open fun replaceWith(vararg nodes: dynamic)"
+    },
+    {
+      "text": "val ATTRIBUTE_NODE: Short"
+    },
+    {
+      "text": "val CDATA_SECTION_NODE: Short"
+    },
+    {
+      "text": "val COMMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_FRAGMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_NODE: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINED_BY: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_CONTAINS: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_DISCONNECTED: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_FOLLOWING: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: Short"
+    },
+    {
+      "text": "val DOCUMENT_POSITION_PRECEDING: Short"
+    },
+    {
+      "text": "val DOCUMENT_TYPE_NODE: Short"
+    },
+    {
+      "text": "val ELEMENT_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_NODE: Short"
+    },
+    {
+      "text": "val ENTITY_REFERENCE_NODE: Short"
+    },
+    {
+      "text": "val NOTATION_NODE: Short"
+    },
+    {
+      "text": "val PROCESSING_INSTRUCTION_NODE: Short"
+    },
+    {
+      "text": "val TEXT_NODE: Short"
+    }
+  ]
+}

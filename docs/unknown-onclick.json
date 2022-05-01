@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "onclick",
+  "signature": "open var onclick: ((MouseEvent) -> dynamic)?",
+  "items": []
+}

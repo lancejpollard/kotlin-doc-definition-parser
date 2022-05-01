@@ -1,0 +1,115 @@
+{
+  "type": "package",
+  "name": "kotlin.native.concurrent",
+  "items": [
+    {
+      "text": "class AtomicInt",
+      "desc": "Atomic values and freezing: atomics AtomicInt, AtomicLong, AtomicNativePtr and AtomicReference are unique types with regard to freezing. Namely, they provide mutating operations, while can participate in frozen subgraphs. So shared frozen objects can have fields of atomic types."
+    },
+    {
+      "text": "class AtomicLong"
+    },
+    {
+      "text": "class AtomicNativePtr"
+    },
+    {
+      "text": "class AtomicReference<T>",
+      "desc": "An atomic reference to a frozen Kotlin object. Can be used in concurrent scenarious but frequently shall be of nullable type and be zeroed out once no longer needed. Otherwise memory leak could happen. To detect such leaks kotlin.native.internal.GC.detectCycles in debug mode could be helpful."
+    },
+    {
+      "text": "class Continuation0 : () -> Unit"
+    },
+    {
+      "text": "class Continuation1<T1> : (T1) -> Unit"
+    },
+    {
+      "text": "class Continuation2<T1, T2> : (T1, T2) -> Unit"
+    },
+    {
+      "text": "class DetachedObjectGraph<T>",
+      "desc": "Detached object graph encapsulates transferrable detached subgraph which cannot be accessed externally, until it is attached with the attach extension function."
+    },
+    {
+      "text": "class FreezableAtomicReference<T>",
+      "desc": "An atomic reference to a Kotlin object. Can be used in concurrent scenarious, but must be frozen first, otherwise behaves as regular box for the value. If frozen, shall be zeroed out once no longer needed. Otherwise memory leak could happen. To detect such leaks kotlin.native.internal.GC.detectCycles in debug mode could be helpful."
+    },
+    {
+      "text": "class FreezingException : RuntimeException",
+      "desc": "Exception thrown whenever freezing is not possible."
+    },
+    {
+      "text": "class Future<T>",
+      "desc": "Class representing abstract computation, whose result may become available in the future."
+    },
+    {
+      "text": "enum class FutureState",
+      "desc": "State of the future object."
+    },
+    {
+      "text": "class InvalidMutabilityException : RuntimeException",
+      "desc": "Exception thrown whenever we attempt to mutate frozen objects."
+    },
+    {
+      "text": "class MutableData",
+      "desc": "Mutable concurrently accessible data buffer. Could be accessed from several workers simulteniously."
+    },
+    {
+      "text": "enum class TransferMode"
+    },
+    {
+      "text": "class Worker",
+      "desc": "Class representing worker."
+    },
+    {
+      "text": "class WorkerBoundReference<out T : Any>",
+      "desc": "A shared reference to a Kotlin object that doesn't freeze the referred object when it gets frozen itself."
+    },
+    {
+      "text": "annotation class SharedImmutable",
+      "desc": "Marks a top level property with a backing field as immutable. It is possible to share the value of such property between multiple threads, but it becomes deeply frozen, so no changes can be made to its state or the state of objects it refers to."
+    },
+    {
+      "text": "annotation class ThreadLocal",
+      "desc": "Marks a top level property with a backing field or an object as thread local. The object remains mutable and it is possible to change its state, but every thread will have a distinct copy of this object, so changes in one thread are not reflected in another."
+    },
+    {
+      "text": "val Any?.isFrozen: Boolean",
+      "desc": "Checks if given object is null or frozen or permanent (i.e. instantiated at compile-time)."
+    },
+    {
+      "text": "fun <T> atomicLazy(initializer: () -> T): Lazy<T>",
+      "desc": "Atomic lazy initializer, could be used in frozen objects, freezes initializing lambda, so use very carefully. Also, as with other uses of an AtomicReference may potentially leak memory, so it is recommended to use atomicLazy in cases of objects living forever, such as object signletons, or in cases where it's guaranteed not to have cyclical garbage."
+    },
+    {
+      "text": "fun <T> DetachedObjectGraph<T>.attach(): T",
+      "desc": "Attaches previously detached object subgraph created by DetachedObjectGraph. Please note, that once object graph is attached, the DetachedObjectGraph.stable pointer does not make sense anymore, and shall be discarded, so attach of one DetachedObjectGraph object can only happen once."
+    },
+    {
+      "text": "fun COpaquePointer.callContinuation0()"
+    },
+    {
+      "text": "fun <T1> COpaquePointer.callContinuation1()"
+    },
+    {
+      "text": "fun <T1, T2> COpaquePointer.callContinuation2()"
+    },
+    {
+      "text": "fun Any.ensureNeverFrozen()",
+      "desc": "This function ensures that if we see such an object during freezing attempt - freeze fails and FreezingException is thrown."
+    },
+    {
+      "text": "fun <T> T.freeze(): T",
+      "desc": "Freezes object subgraph reachable from this object. Frozen objects can be freely shared between threads/workers."
+    },
+    {
+      "text": "fun <T> Collection<Future<T>>.waitForMultipleFutures( millis: Int): Set<Future<T>>"
+    },
+    {
+      "text": "fun waitWorkerTermination(worker: Worker)"
+    },
+    {
+      "text": "fun <R> withWorker( name: String? = null, errorReporting: Boolean = true, block: Worker.() -> R): R",
+      "desc": "Executes block with new Worker as resource, by starting the new worker, calling provided block (in current context) with newly started worker as this and terminating worker after the block completes. Note that this operation is pretty heavyweight, use preconfigured worker or worker pool if need to execute it frequently."
+    }
+  ]
+}

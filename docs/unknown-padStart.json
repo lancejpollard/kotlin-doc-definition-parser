@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "padStart",
+  "signatures": [
+    {
+      "text": "fun CharSequence.padStart( length: Int, padChar: Char = ' '): CharSequence",
+      "desc": "Returns a char sequence with content of this char sequence padded at the beginning to the specified length with the specified character or space."
+    },
+    {
+      "text": "fun String.padStart(length: Int, padChar: Char = ' '): String",
+      "desc": "Pads the string to the specified length at the beginning with the specified character or space."
+    }
+  ],
+  "items": []
+}

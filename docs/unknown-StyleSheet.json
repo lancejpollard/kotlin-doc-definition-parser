@@ -1,0 +1,36 @@
+{
+  "type": "unknown",
+  "name": "StyleSheet",
+  "signature": "abstract class StyleSheet",
+  "items": [
+    {
+      "text": "StyleSheet()",
+      "desc": "Exposes the JavaScript StyleSheet to Kotlin"
+    },
+    {
+      "text": "open var disabled: Boolean"
+    },
+    {
+      "text": "open val href: String?"
+    },
+    {
+      "text": "open val media: MediaList"
+    },
+    {
+      "text": "open val ownerNode: UnionElementOrProcessingInstruction?"
+    },
+    {
+      "text": "open val parentStyleSheet: StyleSheet?"
+    },
+    {
+      "text": "open val title: String?"
+    },
+    {
+      "text": "open val type: String"
+    },
+    {
+      "text": "abstract class CSSStyleSheet : StyleSheet",
+      "desc": "Exposes the JavaScript CSSStyleSheet to Kotlin"
+    }
+  ]
+}

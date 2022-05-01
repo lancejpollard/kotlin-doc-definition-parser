@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "MIN_LOW_SURROGATE",
+  "signature": "const val MIN_LOW_SURROGATE: Char",
+  "items": []
+}

@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "RelatedEventInit",
+  "signature": "fun RelatedEventInit( relatedTarget: EventTarget? = null, bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): RelatedEventInit",
+  "items": []
+}

@@ -1,0 +1,56 @@
+{
+  "type": "unknown",
+  "name": "Throwable",
+  "signature": "open class Throwable",
+  "items": [
+    {
+      "text": "<init>(message: String?)"
+    },
+    {
+      "text": "<init>(message: String?, cause: Throwable?)",
+      "desc": "The base class for all errors and exceptions. Only instances of this class can be thrown or caught."
+    },
+    {
+      "text": "open val cause: Throwable?",
+      "desc": "the cause of this throwable."
+    },
+    {
+      "text": "open val message: String?",
+      "desc": "the detail message string."
+    },
+    {
+      "text": "fun getStackTrace(): Array<String>",
+      "desc": "Returns an array of stack trace strings representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun printStackTrace()",
+      "desc": "Prints the detailed description of this throwable to the standard output."
+    },
+    {
+      "text": "open fun toString(): String",
+      "desc": "Returns the short description of this throwable consisting of the exception class name (fully qualified if possible) followed by the exception message if it is not null."
+    },
+    {
+      "text": "val Throwable.stackTrace: Array<StackTraceElement>",
+      "desc": "Returns an array of stack trace elements representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.getStackTraceAddresses(): List<Long>",
+      "desc": "Returns a list of stack trace addresses representing the stack trace pertaining to this throwable."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(writer: PrintWriter)",
+      "desc": "Prints the detailed description of this throwable to the specified writer."
+    },
+    {
+      "text": "fun Throwable.printStackTrace(stream: PrintStream)",
+      "desc": "Prints the detailed description of this throwable to the specified stream."
+    },
+    {
+      "text": "open class Error : Throwable"
+    },
+    {
+      "text": "open class Exception : Throwable"
+    }
+  ]
+}

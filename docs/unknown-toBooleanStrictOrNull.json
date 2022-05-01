@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toBooleanStrictOrNull",
+  "signature": "fun String.toBooleanStrictOrNull(): Boolean?",
+  "items": []
+}

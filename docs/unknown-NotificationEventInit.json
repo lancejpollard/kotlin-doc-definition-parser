@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "NotificationEventInit",
+  "signature": "fun NotificationEventInit( notification: Notification?, action: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): NotificationEventInit",
+  "items": []
+}

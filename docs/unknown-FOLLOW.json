@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "FOLLOW",
+  "signature": "inline val RequestRedirect.Companion.FOLLOW: RequestRedirect",
+  "items": []
+}

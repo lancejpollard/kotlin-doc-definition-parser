@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "AUXILIARY",
+  "signature": "inline val FrameType.Companion.AUXILIARY: FrameType",
+  "items": []
+}

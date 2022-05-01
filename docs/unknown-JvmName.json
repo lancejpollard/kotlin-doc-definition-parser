@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "jvmName",
+  "signature": "val KClass<*>.jvmName: String",
+  "items": []
+}

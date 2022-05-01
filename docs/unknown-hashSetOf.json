@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "hashSetOf",
+  "signatures": [
+    {
+      "text": "fun <T> hashSetOf(): HashSet<T>",
+      "desc": "Returns an empty new HashSet."
+    },
+    {
+      "text": "fun <T> hashSetOf(vararg elements: T): HashSet<T>",
+      "desc": "Returns a new HashSet with the given elements."
+    }
+  ],
+  "items": []
+}

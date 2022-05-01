@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ReturnSlot_getDouble",
+  "signature": "fun ReturnSlot_getDouble(): Double",
+  "items": []
+}

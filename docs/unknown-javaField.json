@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "javaField",
+  "signature": "val KProperty<*>.javaField: Field?",
+  "items": []
+}

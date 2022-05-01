@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "parameters",
+  "signature": "abstract val parameters: List<KParameter>",
+  "items": []
+}

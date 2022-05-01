@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "sequenceOf",
+  "signature": "fun <T> sequenceOf(vararg elements: T): Sequence<T>",
+  "items": []
+}

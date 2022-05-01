@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ScrollIntoViewOptions",
+  "signature": "fun ScrollIntoViewOptions( block: ScrollLogicalPosition? = ScrollLogicalPosition.CENTER, inline: ScrollLogicalPosition? = ScrollLogicalPosition.CENTER, behavior: ScrollBehavior? = ScrollBehavior.AUTO): ScrollIntoViewOptions",
+  "items": []
+}

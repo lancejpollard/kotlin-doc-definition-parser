@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "ondurationchange",
+  "signature": "open var ondurationchange: ((Event) -> dynamic)?",
+  "items": []
+}

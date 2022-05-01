@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "getOriginalKotlinClass",
+  "signatures": [
+    {
+      "text": "fun getOriginalKotlinClass(objCClass: ObjCClass): KClass<*>?",
+      "desc": "If objCClass is a class generated to Objective-C header for Kotlin class, returns KClass for that original Kotlin class."
+    },
+    {
+      "text": "fun getOriginalKotlinClass( objCProtocol: ObjCProtocol): KClass<*>?",
+      "desc": "If objCProtocol is a protocol generated to Objective-C header for Kotlin class, returns KClass for that original Kotlin class."
+    }
+  ],
+  "items": []
+}

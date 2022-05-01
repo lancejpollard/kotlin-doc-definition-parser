@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "withWorker",
+  "signature": "inline fun <R> withWorker( name: String? = null, errorReporting: Boolean = true, block: Worker.() -> R): R",
+  "items": []
+}

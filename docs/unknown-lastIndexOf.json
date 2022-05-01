@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "lastIndexOf",
+  "signature": "fun lastIndexOf(element: @UnsafeVariance E): Int",
+  "items": []
+}

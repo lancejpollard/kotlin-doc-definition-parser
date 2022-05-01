@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "elementAtOrElse",
+  "signature": "inline fun CharSequence.elementAtOrElse( index: Int, defaultValue: (Int) -> Char): Char",
+  "items": []
+}

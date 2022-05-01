@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "List",
+  "signature": "inline fun <T> List( size: Int, init: (index: Int) -> T): List<T>",
+  "items": []
+}

@@ -1,0 +1,19 @@
+{
+  "type": "unknown",
+  "name": "TimedValue",
+  "signature": "@ExperimentalTime data class TimedValue<T>",
+  "items": [
+    {
+      "text": "TimedValue(value: T, duration: Duration)",
+      "desc": "Data class representing a result of executing an action, along with the duration of elapsed time interval."
+    },
+    {
+      "text": "val duration: Duration",
+      "desc": "the time elapsed to execute the action."
+    },
+    {
+      "text": "val value: T",
+      "desc": "the result of the action."
+    }
+  ]
+}

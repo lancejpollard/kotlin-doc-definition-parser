@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "toDoubleArray",
+  "signatures": [
+    {
+      "text": "fun Array<out Double>.toDoubleArray(): DoubleArray",
+      "desc": "Returns an array of Double containing all of the elements of this generic array."
+    },
+    {
+      "text": "fun Collection<Double>.toDoubleArray(): DoubleArray",
+      "desc": "Returns an array of Double containing all of the elements of this collection."
+    }
+  ],
+  "items": []
+}

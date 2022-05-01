@@ -1,0 +1,62 @@
+{
+  "type": "package",
+  "name": "org.w3c.notifications",
+  "items": [
+    {
+      "text": "interface GetNotificationOptions"
+    },
+    {
+      "text": "open class Notification : EventTarget",
+      "desc": "Exposes the JavaScript Notification to Kotlin"
+    },
+    {
+      "text": "interface NotificationAction"
+    },
+    {
+      "text": "interface NotificationDirection"
+    },
+    {
+      "text": "open class NotificationEvent : ExtendableEvent",
+      "desc": "Exposes the JavaScript NotificationEvent to Kotlin"
+    },
+    {
+      "text": "interface NotificationEventInit : ExtendableEventInit"
+    },
+    {
+      "text": "interface NotificationOptions"
+    },
+    {
+      "text": "interface NotificationPermission"
+    },
+    {
+      "text": "fun GetNotificationOptions( tag: String? = \"\"): GetNotificationOptions"
+    },
+    {
+      "text": "fun NotificationAction( action: String?, title: String?, icon: String? = undefined): NotificationAction"
+    },
+    {
+      "text": "fun NotificationEventInit( notification: Notification?, action: String? = \"\", bubbles: Boolean? = false, cancelable: Boolean? = false, composed: Boolean? = false): NotificationEventInit"
+    },
+    {
+      "text": "fun NotificationOptions( dir: NotificationDirection? = NotificationDirection.AUTO, lang: String? = \"\", body: String? = \"\", tag: String? = \"\", image: String? = undefined, icon: String? = undefined, badge: String? = undefined, sound: String? = undefined, vibrate: dynamic = undefined, timestamp: Number? = undefined, renotify: Boolean? = false, silent: Boolean? = false, noscreen: Boolean? = false, requireInteraction: Boolean? = false, sticky: Boolean? = false, data: Any? = null, actions: Array<NotificationAction>? = arrayOf()): NotificationOptions"
+    },
+    {
+      "text": "val NotificationDirection.Companion.AUTO: NotificationDirection"
+    },
+    {
+      "text": "val NotificationPermission.Companion.DEFAULT: NotificationPermission"
+    },
+    {
+      "text": "val NotificationPermission.Companion.DENIED: NotificationPermission"
+    },
+    {
+      "text": "val NotificationPermission.Companion.GRANTED: NotificationPermission"
+    },
+    {
+      "text": "val NotificationDirection.Companion.LTR: NotificationDirection"
+    },
+    {
+      "text": "val NotificationDirection.Companion.RTL: NotificationDirection"
+    }
+  ]
+}

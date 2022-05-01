@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "toMutableSet",
+  "signature": "fun <T> Sequence<T>.toMutableSet(): MutableSet<T>",
+  "items": []
+}

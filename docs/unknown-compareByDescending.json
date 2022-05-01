@@ -1,0 +1,15 @@
+{
+  "type": "unknown",
+  "name": "compareByDescending",
+  "signatures": [
+    {
+      "text": "inline fun <T> compareByDescending( crossinline selector: (T) -> Comparable<*>?): Comparator<T>",
+      "desc": "Creates a descending comparator using the function to transform value to a Comparable instance for comparison."
+    },
+    {
+      "text": "inline fun <T, K> compareByDescending( comparator: Comparator<in K>, crossinline selector: (T) -> K): Comparator<T>",
+      "desc": "Creates a descending comparator using the selector function to transform values being compared and then applying the specified comparator to compare transformed values."
+    }
+  ],
+  "items": []
+}

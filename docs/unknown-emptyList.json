@@ -1,0 +1,6 @@
+{
+  "type": "unknown",
+  "name": "emptyList",
+  "signature": "fun <T> emptyList(): List<T>",
+  "items": []
+}
